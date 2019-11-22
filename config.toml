@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Startwords"
+theme = "blank"
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+enableEmoji = true
+FootnoteReturnLinkContents = "⇡"
+
+[menu]
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Volumes"
+    url = "volumes/"
+    weight = 20
+
+[params]
+  google_fonts = [
+    ["Fira Sans"],
+    ["Cormorant"],
+    ["Droid Serif"],
+    ["Oxygen"],
+    ["Rufina"],
+    ["Josefin Sans"]
+  ]
+
+  heading_font = "Josefin Sans"
+  body_font = "Cormorant"
+
+  dateform        = "January 2, 2006"
+  dateformShort   = "January 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"

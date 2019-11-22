@@ -1,0 +1,19 @@
+number = 1
+theme = "Data Transformations"
+url = "vols/1"
+date = "Spring 2020"
+abstract = "Data Transformations are marshmallow cotton candy candy candy canes icing toffee apple pie jujubes. Tart cotton candy danish soufflé gummies. Wafer sesame snaps cheesecake pie tootsie roll jujubes caramels jelly cake. Ice cream chocolate cake dessert. Chocolate cake cake jelly croissant pudding muffin croissant lollipop. Cookie brownie jelly-o tootsie roll dessert candy canes. Macaroon gummi bears chocolate bar ice cream gingerbread apple pie halvah."
+
+[article1]
+  title = "Data Beyond Vision"
+  authors = [
+    "Rebecca Sutton Koeser",
+    "Gissoo Doroudian",
+    "Nick Budak",
+  ]
+  url = "/vols/1/data_beyond_vision"
+
+[article2]
+  title = "The Body as Data"
+  authors = "Rebecca Munson"
+  url = "/vols/1/body_as_data"
