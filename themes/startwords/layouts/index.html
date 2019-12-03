@@ -24,7 +24,7 @@
 	<div class="w-10 pa3 mr2 tl br">
 		<h2>
 			{{ with .Site.Data.volume1 }}
-				<a href="{{ .article1.url }}">{{ .article1.title }}</a>
+				<a href="{{ .article1.url | relURL }}">{{ .article1.title }}</a>
 			{{ end }}
 		</h2>
 		<p>
@@ -38,7 +38,7 @@
 		<p>Chupa chups donut sugar plum. Cake pastry powder. Topping wafer oat cake fruitcake cupcake tart danish. Biscuit caramels sweet roll cake sugar plum caramels. Oat cake cheesecake danish tootsie roll cake fruitcake halvah pudding cotton candy. Toffee apple pie dessert cookie oat cake danish.</p>
 		<p class="tl">
 			{{ with .Site.Data.volume1 }}
-			<a href="{{ .article1.url }}">continue reading…</a>
+			<a href="{{ .article1.url | relURL }}">continue reading…</a>
 			{{ end }}
 		</p>
   </div>
@@ -47,14 +47,14 @@
 		<p>Danish tiramisu chocolate cake. Chupa chups dessert marshmallow bonbon soufflé chocolate dessert. Soufflé macaroon marzipan sweet. Chocolate sugar plum candy lemon drops icing brownie. Chupa chups sweet marshmallow muffin jelly beans danish caramels apple pie. Oat cake danish candy.</p>
 		<p class="tr">
 			{{ with .Site.Data.volume1 }}
-			<a href="{{ .article2.url }}">continue reading…</a>
+			<a href="{{ .article2.url | relURL }}">continue reading…</a>
 			{{ end }}
 		</p>
   </div>
 	<div class="w-10 pa3 mr2 tr bl">
 		<h2>
 			{{ with .Site.Data.volume1 }}
-				<a href="{{ .article2.url }}">{{ .article2.title }}</a>
+				<a href="{{ .article2.url | relURL }}">{{ .article2.title }}</a>
 			{{ end }}
 		</h2>
 		<p>
