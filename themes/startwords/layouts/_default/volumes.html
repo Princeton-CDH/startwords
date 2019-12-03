@@ -1,0 +1,64 @@
+{{ define "main" }}
+	<main>
+	</main>
+
+{{ partial "header-page.html" . }}
+
+<div class="pl7 f1 f2-m">
+	<h1>{{ .Params.Title }}<h1>
+</div>
+
+<div class="pl7 f2 f2-m">
+	{{ with .Site.Data.volume1 }}
+		<h1>{{ .number }}: {{ .theme }}</h1>
+	{{ end }}
+</div>
+
+<div class="pl7 f3 f2-m">
+	{{ with .Site.Data.volume1 }}
+		<h1>{{ .date }}</h1>
+	{{ end }}
+</div>
+
+<div class="pl7 f2 f2-m">
+	{{ with .Site.Data.volume1 }}
+	  {{ .article1.authors }}, <a href="{{ .article1.url }}">{{ .article1.title }}</a>
+	{{ end }}
+</div>
+
+<div class="pl7 f2 f2-m">
+	{{ with .Site.Data.volume1 }}
+	  {{ .article2.authors }}, <a href="{{ .article2.url }}">{{ .article2.title }}</a>
+	{{ end }}
+</div>
+
+
+
+<div class="pl7 f2 f2-m">
+	{{ with .Site.Data.volume2 }}
+		<h1>{{ .number }}: {{ .theme }}</h1>
+	{{ end }}
+</div>
+
+<div class="pl7 f3 f2-m">
+	{{ with .Site.Data.volume2 }}
+		<h1>{{ .date }}</h1>
+	{{ end }}
+</div>
+
+<div class="pl7 f2 f2-m">
+	{{ with .Site.Data.volume2 }}
+	  {{ .article1.authors }}, <a href="{{ .article1.url }}">{{ .article1.title }}</a>
+	{{ end }}
+</div>
+
+<div class="pl7 f2 f2-m">
+	{{ with .Site.Data.volume2 }}
+	  {{ .article2.authors }}, <a href="{{ .article2.url }}">{{ .article2.title }}</a>
+	{{ end }}
+</div>
+
+<br/>
+<br/>
+
+{{ end }}

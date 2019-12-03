@@ -1,7 +1,7 @@
 baseURL = "https://princeton-cdh.github.io/startwords/"
 languageCode = "en-us"
 title = "Startwords"
-theme = "blank"
+theme = "startwords"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 enableEmoji = true
 FootnoteReturnLinkContents = "⇡"
