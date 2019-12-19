@@ -1,0 +1,40 @@
+/* calling google fonts… */
+
+$font-heading: {{ $.Site.Params.heading_font | default "'Roboto', sans-serif" }};
+$font-body: {{ $.Site.Params.body_font | default "'Roboto', sans-serif" }};
+
+body {
+  font-family: $font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: $font-heading;
+}
+
+/* */
+
+html {
+  background: $888;
+  line-height: 1.6;
+  letter-spacing: .06em;
+  scroll-behavior: smooth;
+}
+
+pre {
+  padding: .7em 1.1em;
+  overflow: auto;
+  font-size: .9em;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre;
+  color: #eee;
+  background: $midnightblue;
+  border-radius: 4px;
+  // -webkit-overflow-scrolling: touch;
+
+  code {
+    padding: 0;
+    margin: 0;
+    background: $midnightblue;
+  }
+}
