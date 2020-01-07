@@ -3,9 +3,21 @@
     {{ partial "header-page.html" . }}
 		<div class="pl7 f1">
 			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+            <p>{{ .Params.themes }}</p>
+            {{ .Date }}
 		</div>
     <div class="pl7 f2">
       {{ with .Content }}<div>{{ . }}</div>{{ end }}
+    </div>
+    <div class="pl7 f2">
+      {{ range .Pages }}<div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <ul>
+        {{ range .Params.authors }}
+            <li>{{ . }}</li>
+        {{ end }}
+        </ul>
+    </div>{{ end }}
     </div>
 	</main>
 {{ end }}
