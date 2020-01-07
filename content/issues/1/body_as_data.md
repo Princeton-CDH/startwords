@@ -1,12 +1,7 @@
 ---
 layout: article
-title: Data Beyond Vision
-author: |
-  Rebecca Sutton Koeser
-  Gissoo Doroudian
-  Nick Budak
-volume: 1
-theme: Data Transformations
+titles: The Body As Data
+authors: Rebecca Munson
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Dictum fusce ut placerat orci nulla pellentesque. Euismod in pellentesque massa placerat. Vestibulum sed arcu non odio euismod lacinia. Vel pharetra vel turpis nunc eget lorem dolor. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Tortor pretium viverra suspendisse potenti. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Cursus mattis molestie a iaculis at erat pellentesque. Eu non diam phasellus vestibulum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Curabitur gravida arcu ac tortor. Elementum sagittis vitae et leo duis ut diam quam.[^2]

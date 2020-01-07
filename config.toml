@@ -7,6 +7,14 @@ enableEmoji = true
 FootnoteReturnLinkContents = "⇡"
 publishDir = "docs"
 
+[taxonomies]
+  theme = "themes"
+  abstract = "abstracts"
+  author = "authors"
+  article = "articles"
+  issue = "issues"
+  date = "dates"
+
 [menu]
 
   [[menu.main]]
