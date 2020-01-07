@@ -11,8 +11,6 @@ publishDir = "docs"
   theme = "themes"
   abstract = "abstracts"
   author = "authors"
-  article = "articles"
-  issue = "issues"
   date = "dates"
 
 [menu]
