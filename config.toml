@@ -8,10 +8,8 @@ FootnoteReturnLinkContents = "⇡"
 publishDir = "docs"
 
 [taxonomies]
-  theme = "themes"
-  abstract = "abstracts"
   author = "authors"
-  date = "dates"
+  tag = "tags"
 
 [menu]
 

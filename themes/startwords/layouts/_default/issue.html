@@ -3,8 +3,8 @@
     {{ partial "header-page.html" . }}
 		<div class="pl7 f1">
 			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-            <p>{{ .Params.themes }}</p>
-            {{ .Date }}
+            <p>{{ .Params.issue_theme }}</p>
+            {{ .Date.Format "January 1990" }}
 		</div>
     <div class="pl7 f2">
       {{ with .Content }}<div>{{ . }}</div>{{ end }}

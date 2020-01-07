@@ -5,12 +5,20 @@
 {{ partial "header.html" . }}
 
 <p class="f1 tc">
-	{{ with .Site.Data.volume1 }}
-		<span class="f3">
-			vol. {{ .number }}<br />
-	</span>
+	{{ range first 1 (where .Site.AllPages "Type" "issue") }}
+		{{ . }}
+
+		<div class="pl7 f2">
+      {{ range .Pages }}<div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <ul>
+        {{ range .Params.authors }}
+            <li>{{ . }}</li>
+        {{ end }}
+        </ul>
+				<div>{{ .Summary }}</div>
+    </div>{{ end }}
 	{{ end }}
-	{{ with .Site.Data.volume1 }} {{ .theme }} {{ end }}
 </p>
 
 <section class="f4 center measure">

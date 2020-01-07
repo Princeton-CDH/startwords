@@ -1,4 +1,6 @@
 ---
+layout: article
+type: article
 title: The Body As Data
 authors:
     - Rebecca Munson
