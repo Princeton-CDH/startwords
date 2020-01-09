@@ -1,6 +1,7 @@
-# Hugo default output directory
-/public
-/docs
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
 
 ## OS Files
 # Windows
