@@ -6,6 +6,10 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 enableEmoji = true
 FootnoteReturnLinkContents = "⇡"
 
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+
 [menu]
 
   [[menu.main]]
@@ -14,8 +18,8 @@ FootnoteReturnLinkContents = "⇡"
     weight = 10
 
   [[menu.main]]
-    name = "Volumes"
-    url = "volumes/"
+    name = "Issues"
+    url = "issues/"
     weight = 20
 
 [params]

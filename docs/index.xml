@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startwords</title>
+    <link>https://princeton-cdh.github.io/startwords/</link>
+    <description>Recent content on Startwords</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    
+	<atom:link href="https://princeton-cdh.github.io/startwords/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://princeton-cdh.github.io/startwords/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princeton-cdh.github.io/startwords/about/</guid>
+      <description>Startwords is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and process-based than a peer-reviewed journal, Startwords is a forum for experimental humanities scholarship. Embedded code, data physicalizations, and emerging forms of project documentation are explored through writing that is creative, conversational, personal, essayistic, exploratory, data-driven, and academically rigorous.
+Each issue will feature two articles that are unified by a common theme, feature, or concern.</description>
+    </item>
+    
+    <item>
+      <title>Volumes</title>
+      <link>https://princeton-cdh.github.io/startwords/volumes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://princeton-cdh.github.io/startwords/volumes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

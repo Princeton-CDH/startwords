@@ -1,0 +1,28 @@
+{{ define "main" }}
+	<main>
+    {{ partial "header-page.html" . }}
+
+		{{ if or .Title .Content }}
+		<div class="pl7 f1 f2-m">
+			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+			{{ with .Content }}<div>{{ . }}</div>{{ end }}
+		</div>
+		{{ end }}
+
+		{{ range where .Site.AllPages "Type" "issue" }}
+
+			<p class="f3 pl7">
+				Issue {{ with .Params.number }} {{ . }}: {{ end }}
+				<div class="f1 pl7">
+					<a href="{{ .Permalink }}">{{ .Params.issue_theme }}</a>
+				</div>
+			</p>
+
+			<section class="f4 pl7 measure-wide">
+				{{ with .Content }} {{ . }} {{ end }}
+			</section>
+
+		{{ end }}
+
+	</main>
+{{ end }}

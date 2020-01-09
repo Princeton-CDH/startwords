@@ -1,0 +1,35 @@
+{{ define "main" }}
+	<main>
+
+    {{ partial "header-page.html" . }}
+
+		<h1 class="f-headline f-subheadline-m lh-solid pl7 tracked pb0">
+			Issue {{ with .Params.number }} {{ . }} {{ end }}
+			<div class="f2 tracked">
+			{{ .Params.issue_theme }}<br/>
+			{{ .Date.Format "January 2006" }}
+			</div>
+		</h1>
+
+    <div class="pl7 f3 measure-wide">
+      {{ with .Content }}<div>{{ . }}</div>{{ end }}
+			<p class="tc">❀</p>
+    </div>
+
+    <div class="pl7 f2">
+      {{ range .Pages }}<div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+
+				<div class="f4">
+        <ul style="list-style-type:none;">
+        {{ range .Params.authors }}
+            <li>{{ . }}</li>
+        {{ end }}
+        </ul>
+				</div>
+
+			{{ end }}
+		</div>
+
+	</main>
+{{ end }}

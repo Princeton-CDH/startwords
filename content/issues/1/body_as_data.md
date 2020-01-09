@@ -1,17 +1,18 @@
 ---
 layout: article
-title: Data Beyond Vision
-author: |
-  Rebecca Sutton Koeser
-  Gissoo Doroudian
-  Nick Budak
-volume: 1
-theme: Data Transformations
+type: article
+title: The Body As Data
+article_number: 2
+authors:
+    - Rebecca Munson
+date: 2020-01-01
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Dictum fusce ut placerat orci nulla pellentesque. Euismod in pellentesque massa placerat. Vestibulum sed arcu non odio euismod lacinia. Vel pharetra vel turpis nunc eget lorem dolor. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Tortor pretium viverra suspendisse potenti. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Cursus mattis molestie a iaculis at erat pellentesque. Eu non diam phasellus vestibulum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Curabitur gravida arcu ac tortor. Elementum sagittis vitae et leo duis ut diam quam.[^2]
 
 [^2]: This is a note right here.
+
+<!--more-->
 
 Dui nunc mattis enim ut tellus elementum sagittis vitae. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Est sit amet facilisis magna etiam. Massa sed elementum tempus egestas sed sed. Pellentesque diam volutpat commodo sed egestas egestas fringilla. Nulla at volutpat diam ut venenatis tellus in metus. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Ultrices vitae auctor eu augue ut lectus arcu. Turpis egestas maecenas pharetra convallis. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Ornare suspendisse sed nisi lacus sed. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. Sit amet cursus sit amet dictum sit amet justo donec. Proin nibh nisl condimentum id venenatis a. Risus sed vulputate odio ut enim. Nibh ipsum consequat nisl vel pretium lectus. Nisi est sit amet facilisis magna etiam tempor orci. Mattis enim ut tellus elementum sagittis vitae et leo. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.
 
