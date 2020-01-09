@@ -1,8 +1,8 @@
 ---
 layout: issue
 type: issue
-title: Issue 1
-number: 1
+title: Issue One
+number: One
 issue_theme: Transformations
 date: 2020-01-01
 ---

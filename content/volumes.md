@@ -1,4 +1,0 @@
----
-layout: volumes
-title: Volumes
----

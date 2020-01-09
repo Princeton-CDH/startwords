@@ -19,8 +19,8 @@ publishDir = "docs"
     weight = 10
 
   [[menu.main]]
-    name = "Volumes"
-    url = "volumes/"
+    name = "Issues"
+    url = "issues/"
     weight = 20
 
 [params]

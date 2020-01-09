@@ -2,6 +2,7 @@
 layout: article
 type: article
 title: Data Beyond Vision
+article_number: 1
 authors:
   - Rebecca Sutton Koeser
   - Gissoo Doroudian
