@@ -1,11 +1,10 @@
-baseURL = "https://princeton-cdh.github.io/startwords/"
+baseURL = "http://startwords.cdh.princeton.edu/"
 languageCode = "en-us"
 title = "Startwords"
 theme = "startwords"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 enableEmoji = true
 FootnoteReturnLinkContents = "⇡"
-publishDir = "docs"
 
 [taxonomies]
   author = "authors"
