@@ -34,4 +34,11 @@
 	{{ .Content }}
 </div>
 
+<div class="pl7 f4 mw7">
+{{ with  .OutputFormats.Get "txt" -}}
+	<a href="{{ .RelPermalink }}" rel="alt">TEXT</a>
+{{- end }}
+</div>
+
+
 {{ end }}
