@@ -1,5 +1,4 @@
 ---
-layout: article
 type: article
 title: The Body As Data
 article_number: 2
