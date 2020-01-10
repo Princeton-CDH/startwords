@@ -13,6 +13,13 @@ FootnoteReturnLinkContents = "⇡"
 [permalinks]
   issues = "/:sections/:slug/"
 
+[outputFormats]
+  [outputFormats.TXT]
+    mediaType = "text/plain"
+
+[outputs]
+  page = ["HTML", "TXT"]
+
 [menu]
 
   [[menu.main]]
