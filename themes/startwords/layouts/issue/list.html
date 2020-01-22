@@ -9,7 +9,8 @@
 		</div>
 		{{ end }}
 
-		{{ range where .Site.AllPages "Type" "issue" }}
+		{{/* loop over subsections */}}
+		{{ range .Sections }}
 
 			<p class="f3 pl7">
 				Issue {{ with .Params.number }} {{ . }}: {{ end }}

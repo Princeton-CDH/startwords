@@ -1,4 +1,4 @@
 ---
-layout: issue_list
+type: issue
 title: Issues
 ---

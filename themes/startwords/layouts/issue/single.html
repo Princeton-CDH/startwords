@@ -17,6 +17,8 @@
     </div>
 
     <div class="pl7 f2">
+
+      {{/* loop over pages in this issue */}}
       {{ range .Pages }}<div>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
 

@@ -10,6 +10,9 @@ FootnoteReturnLinkContents = "⇡"
   author = "authors"
   tag = "tags"
 
+[permalinks]
+  issues = "/:sections/:slug/"
+
 [menu]
 
   [[menu.main]]
