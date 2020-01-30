@@ -23,6 +23,9 @@
 			<a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}:<br/>
 			{{ .Parent.Params.issue_theme }}</a><br/>
 			{{ .Parent.Date.Format "January 2006" }}
+			<br/>
+			<br/>
+			📄: PDF | <a href="{{ .Permalink }}index.txt">TXT</a>
 		</h1>
 	</div>
 </div>
@@ -31,6 +34,7 @@
 <br/>
 
 <div class="pl7 f4 mw7">
+	<p class="tc">❀</p>
 	{{ .Content }}
 </div>
 
