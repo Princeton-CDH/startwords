@@ -1,14 +1,26 @@
-Issue {{ .Parent.Params.number }}
-{{ .Parent.Permalink }}
-{{ .Parent.Params.issue_theme }}
-{{ .Parent.Date.Format "January 2006" }}
-
-{{ .Title }}
-{{ .Permalink }}
-{{ range .Params.Authors }}
-    {{ . }}{{ end }}
-
----
++---------------------------------------------------------------->
+|
+|   ___|  |              |                          |
+| \___ \  __|  _` |  __| __|\ \  \   / _ \   __| _` |  __|
+|       | |   (   | |    |   \ \  \ / (   | |   (   |\__ \
+| _____/ \__|\__,_|_|   \__|  \_/\_/ \___/ _|  \__,_|____/
+|
++---------------------------------------------------------------->
+|
+|  "{{ .Title }}"
+|
+|  Authors:
+|  {{ range .Params.Authors }}
+|     {{ . }}{{ end }}
+|
+|  {{ .Permalink }}
+|
++---------------------------------------------------------------->
+|
+|  Issue {{ .Parent.Params.number }}: {{ .Parent.Params.issue_theme }}
+|  {{ .Parent.Permalink }}
+|  {{ .Parent.Date.Format "January 2006" }}
+|
++---------------------------------------------------------------->
 
 {{ .Plain }}
-
