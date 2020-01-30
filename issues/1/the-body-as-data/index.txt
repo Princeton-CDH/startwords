@@ -1,14 +1,27 @@
-Issue 1
-http://startwords.cdh.princeton.edu/issues/1/
-Transformations
-January 2020
-
-The Body As Data
-http://startwords.cdh.princeton.edu/issues/1/the-body-as-data/
-
-    Rebecca Munson
-
----
++---------------------------------------------------------------->
+|
+|   ___|  |              |                          |
+| \___ \  __|  _` |  __| __|\ \  \   / _ \   __| _` |  __|
+|       | |   (   | |    |   \ \  \ / (   | |   (   |\__ \
+| _____/ \__|\__,_|_|   \__|  \_/\_/ \___/ _|  \__,_|____/
+|
++---------------------------------------------------------------->
+|
+|  "The Body As Data"
+|
+|  Authors:
+|  
+|     Rebecca Munson
+|
+|  http://startwords.cdh.princeton.edu/issues/1/the-body-as-data/
+|
++---------------------------------------------------------------->
+|
+|  Issue 1: Transformations
+|  http://startwords.cdh.princeton.edu/issues/1/
+|  January 2020
+|
++---------------------------------------------------------------->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Dictum fusce ut placerat orci nulla pellentesque. Euismod in pellentesque massa placerat. Vestibulum sed arcu non odio euismod lacinia. Vel pharetra vel turpis nunc eget lorem dolor. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Tortor pretium viverra suspendisse potenti. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Cursus mattis molestie a iaculis at erat pellentesque. Eu non diam phasellus vestibulum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Curabitur gravida arcu ac tortor. Elementum sagittis vitae et leo duis ut diam quam.1
 Dui nunc mattis enim ut tellus elementum sagittis vitae. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Est sit amet facilisis magna etiam. Massa sed elementum tempus egestas sed sed. Pellentesque diam volutpat commodo sed egestas egestas fringilla. Nulla at volutpat diam ut venenatis tellus in metus. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Ultrices vitae auctor eu augue ut lectus arcu. Turpis egestas maecenas pharetra convallis. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Ornare suspendisse sed nisi lacus sed. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. Sit amet cursus sit amet dictum sit amet justo donec. Proin nibh nisl condimentum id venenatis a. Risus sed vulputate odio ut enim. Nibh ipsum consequat nisl vel pretium lectus. Nisi est sit amet facilisis magna etiam tempor orci. Mattis enim ut tellus elementum sagittis vitae et leo. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.
@@ -23,4 +36,3 @@ Viverra suspendisse potenti nullam ac tortor vitae. Tristique magna sit amet pur
 Erat imperdiet sed euismod nisi porta. Tristique risus nec feugiat in fermentum posuere urna nec. Odio eu feugiat pretium nibh ipsum consequat nisl vel. At imperdiet dui accumsan sit amet nulla facilisi. Et netus et malesuada fames ac turpis egestas integer. Urna neque viverra justo nec ultrices. Turpis egestas pretium aenean pharetra. Eros in cursus turpis massa tincidunt dui ut. Eu scelerisque felis imperdiet proin fermentum leo vel. Cum sociis natoque penatibus et magnis dis parturient montes. Id aliquet lectus proin nibh. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Quisque non tellus orci ac auctor. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Dignissim convallis aenean et tortor at risus viverra adipiscing.
   This is a note right here. &amp;#x21a9;&amp;#xfe0e;
   
-
