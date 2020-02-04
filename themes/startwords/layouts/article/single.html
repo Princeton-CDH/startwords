@@ -25,7 +25,9 @@
 			{{ .Parent.Date.Format "January 2006" }}
 			<br/>
 			<br/>
-			📄: PDF | <a href="{{ .Permalink }}index.txt">TXT</a>
+			📄: PDF | {{ with  .OutputFormats.Get "txt" -}}
+				<a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+			{{- end }}
 		</h1>
 	</div>
 </div>
@@ -37,12 +39,5 @@
 	<p class="tc">❀</p>
 	{{ .Content }}
 </div>
-
-<div class="pl7 f4 mw7">
-{{ with  .OutputFormats.Get "txt" -}}
-	<a href="{{ .RelPermalink }}" rel="alt">TEXT</a>
-{{- end }}
-</div>
-
 
 {{ end }}
