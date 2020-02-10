@@ -22,6 +22,9 @@ a.title:visited {text-decoration: none;}
 a.title:link {text-decoration: none;}
 a.title:active {text-decoration: none;}
 
+// use default blue link color for visited links
+*:visited { color: rgb(0, 0, 238); }
+
 .arrow {
   border-left: 1px dotted;
   height: 875px;
