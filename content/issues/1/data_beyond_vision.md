@@ -6,31 +6,153 @@ authors:
   - Rebecca Sutton Koeser
   - Gissoo Doroudian
   - Nick Budak
+  - Xinyi Li
 date: 2020-01-01
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac ut consequat semper viverra nam libero justo. Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Dictum fusce ut placerat orci nulla pellentesque. Euismod in pellentesque massa placerat. Vestibulum sed arcu non odio euismod lacinia. Vel pharetra vel turpis nunc eget lorem dolor. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Tortor pretium viverra suspendisse potenti. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Cursus mattis molestie a iaculis at erat pellentesque. Eu non diam phasellus vestibulum. Sit amet volutpat consequat mauris nunc congue nisi vitae. Curabitur gravida arcu ac tortor. Elementum sagittis vitae et leo duis ut diam quam.[^2]
+
+How do we share tangible objects in a visual medium? We present, describe, use words, pictures, diagrams, _show_ … fail.
 
 <!--more-->
 
-[^2]: This is a note right here.
+In 2017, historian David Staley argued that as humanists have expanded the range of types of texts they study, they should similarly “expand their definition of reading and interpretation by treating creativity as a scholarly act” (40), generating what he calls “interpretive objects” (36) or “humanistic objects” (39) that include but are not limited to text.[^1] While there are movements within Digital Humanities to consider formats “beyond the traditional”, the presentation and publishing of those more innovative and experimental works (such as installations and project demos) is still secondary or sidelined, where it exists at all. Innovative work like this is carefully researched and theorized, and deserves scholarly engagement and intellectual rigor, even if it does not fit into traditional modes of scholarly communication.
 
-Dui nunc mattis enim ut tellus elementum sagittis vitae. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Est sit amet facilisis magna etiam. Massa sed elementum tempus egestas sed sed. Pellentesque diam volutpat commodo sed egestas egestas fringilla. Nulla at volutpat diam ut venenatis tellus in metus. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Ultrices vitae auctor eu augue ut lectus arcu. Turpis egestas maecenas pharetra convallis. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Ornare suspendisse sed nisi lacus sed. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. Sit amet cursus sit amet dictum sit amet justo donec. Proin nibh nisl condimentum id venenatis a. Risus sed vulputate odio ut enim. Nibh ipsum consequat nisl vel pretium lectus. Nisi est sit amet facilisis magna etiam tempor orci. Mattis enim ut tellus elementum sagittis vitae et leo. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet.
 
-Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Massa ultricies mi quis hendrerit dolor magna eget est. Eget mi proin sed libero enim sed faucibus turpis. Bibendum est ultricies integer quis auctor elit sed. Risus pretium quam vulputate dignissim suspendisse in. Leo vel fringilla est ullamcorper eget. Enim neque volutpat ac tincidunt vitae semper quis. Duis at consectetur lorem donec massa sapien faucibus et. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Sed felis eget velit aliquet. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Ornare quam viverra orci sagittis. Dis parturient montes nascetur ridiculus mus mauris vitae. Mauris rhoncus aenean vel elit. Pretium nibh ipsum consequat nisl vel.
+[^1]:  Staley, David. “On the ‘Maker Turn’ in the Humanities.” In Making Things and Drawing Boundaries, edited by Jentery Sayers, 32–41. Experiments in the Digital Humanities. University of Minnesota Press, 2017. https://doi.org/10.5749/j.ctt1pwt6wq.5.
 
-Tellus molestie nunc non blandit massa enim nec. Rhoncus mattis rhoncus urna neque viverra. Vitae tortor condimentum lacinia quis. Sit amet commodo nulla facilisi nullam vehicula ipsum. Interdum velit laoreet id donec ultrices tincidunt arcu. In mollis nunc sed id semper risus in. Diam vulputate ut pharetra sit amet aliquam id diam. Congue nisi vitae suscipit tellus. Elementum nibh tellus molestie nunc non blandit. Aliquet eget sit amet tellus cras adipiscing enim eu. Non odio euismod lacinia at quis risus. Sed faucibus turpis in eu mi. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Enim blandit volutpat maecenas volutpat blandit aliquam. Commodo quis imperdiet massa tincidunt nunc pulvinar. Nunc sed velit dignissim sodales. Elementum eu facilisis sed odio morbi quis commodo. Lorem sed risus ultricies tristique. Ac auctor augue mauris augue neque gravida in fermentum. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.
+Academic research has a long history of textual scholarly practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. The
+[Journal of Open Humanities
+Data](https://www.google.com/url?q=https://openhumanitiesdata.metajnl.com/&sa=D&ust=1582929319907000) and
+[The Journal of Open Source
+Software](https://www.google.com/url?q=https://joss.theoj.org/&sa=D&ust=1582929319907000) can
+both be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers”; but even these rely on transforming the content they review (data and software) into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, augmented reality experiences? Will all scholars need to become experts in all these modes, or can we find a way to be conversant, as with other important scholarly theories?
 
-Etiam erat velit scelerisque in dictum non consectetur. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. In tellus integer feugiat scelerisque varius morbi. At consectetur lorem donec massa sapien faucibus et molestie. Arcu vitae elementum curabitur vitae nunc. Auctor augue mauris augue neque gravida in fermentum et. Tortor pretium viverra suspendisse potenti. Quis lectus nulla at volutpat diam ut venenatis tellus. Egestas maecenas pharetra convallis posuere morbi. Adipiscing elit pellentesque habitant morbi. Fermentum odio eu feugiat pretium. Felis eget nunc lobortis mattis. Iaculis at erat pellentesque adipiscing commodo elit at.
+SEE
+from a distance.
+Cold, commanding.
+Sense of mastery,
+but optical illusions deceive.
 
-Amet justo donec enim diam. A erat nam at lectus urna duis. Faucibus nisl tincidunt eget nullam non nisi. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Erat imperdiet sed euismod nisi porta lorem. Massa tincidunt dui ut ornare lectus. Tincidunt dui ut ornare lectus sit amet est placerat in. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Eget est lorem ipsum dolor. Imperdiet proin fermentum leo vel orci porta non pulvinar. Urna cursus eget nunc scelerisque viverra mauris in aliquam sem. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Nec feugiat nisl pretium fusce id.
 
-Eu tincidunt tortor aliquam nulla facilisi cras fermentum. Sagittis nisl rhoncus mattis rhoncus urna neque viverra. Libero id faucibus nisl tincidunt. Rhoncus urna neque viverra justo nec. Sollicitudin nibh sit amet commodo. Turpis egestas sed tempus urna et pharetra pharetra massa massa. Aliquet sagittis id consectetur purus ut faucibus pulvinar. Tempus egestas sed sed risus pretium. Dictum sit amet justo donec enim diam vulputate ut pharetra. Lacus suspendisse faucibus interdum posuere lorem. Auctor neque vitae tempus quam. Eu non diam phasellus vestibulum lorem sed. Interdum velit euismod in pellentesque. Dignissim enim sit amet venenatis urna cursus. Eu augue ut lectus arcu bibendum at varius vel pharetra. Semper quis lectus nulla at volutpat diam. Leo duis ut diam quam nulla porttitor. Ipsum dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.
+Look in a mirror
+and see yourself
+seeing.
 
-Ornare suspendisse sed nisi lacus sed viverra tellus. At quis risus sed vulputate odio. Arcu non odio euismod lacinia at quis risus sed. Sodales ut eu sem integer vitae. Sodales neque sodales ut etiam sit amet. Diam sollicitudin tempor id eu nisl. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Eget egestas purus viverra accumsan in nisl. Justo eget magna fermentum iaculis eu non diam phasellus. Nisl condimentum id venenatis a condimentum vitae. Vulputate eu scelerisque felis imperdiet proin.
 
-Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Urna neque viverra justo nec ultrices dui. Vitae tempus quam pellentesque nec nam aliquam sem et. Adipiscing tristique risus nec feugiat in fermentum. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Habitant morbi tristique senectus et netus et. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Lobortis feugiat vivamus at augue eget. Suscipit adipiscing bibendum est ultricies integer. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Sed vulputate odio ut enim. Sodales ut eu sem integer. Nunc sed blandit libero volutpat sed cras ornare. Id interdum velit laoreet id. Ac tortor vitae purus faucibus ornare. Cum sociis natoque penatibus et magnis dis parturient. Scelerisque mauris pellentesque pulvinar pellentesque. Urna id volutpat lacus laoreet non curabitur gravida.
+TOUCH
+up close.
+Intimate, incomplete.
+Explore partial knowledge,
+enlighten slowly.
 
-Viverra suspendisse potenti nullam ac tortor vitae. Tristique magna sit amet purus gravida quis. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Malesuada fames ac turpis egestas integer. Sagittis id consectetur purus ut faucibus pulvinar elementum. Turpis massa tincidunt dui ut ornare lectus. In fermentum posuere urna nec. Ante metus dictum at tempor commodo ullamcorper a. Ut aliquam purus sit amet luctus. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing.
 
-Erat imperdiet sed euismod nisi porta. Tristique risus nec feugiat in fermentum posuere urna nec. Odio eu feugiat pretium nibh ipsum consequat nisl vel. At imperdiet dui accumsan sit amet nulla facilisi. Et netus et malesuada fames ac turpis egestas integer. Urna neque viverra justo nec ultrices. Turpis egestas pretium aenean pharetra. Eros in cursus turpis massa tincidunt dui ut. Eu scelerisque felis imperdiet proin fermentum leo vel. Cum sociis natoque penatibus et magnis dis parturient montes. Id aliquet lectus proin nibh. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Quisque non tellus orci ac auctor. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Dignissim convallis aenean et tortor at risus viverra adipiscing.
+Run fingers across skin
+and touch yourself
+touching.
+
+These are not artist statements because this is not art; Data Art is something else. This is representation, correspondence, laborious translation. Call them maker statements, perhaps. These are our attempts to communicate our goals and help you read and interpret these unfamiliar objects and be challenged by the potential of physicalizations.
+
+Data physicalization focuses on constructing data in physical form. It may be similar to other approaches in that it helps to understand and represent data, and in its use of the senses to communicate information, mainly through touch and sight. However, there are considerable distinctions among these approaches. What makes data physicalization distinct is that it encourages critical making by bridging the gap between creative physical and conceptual exploration. This matters because not only does it surfaces the amount of labor involved with data production and representation, and put it into different perspectives and dimensions; it can also creates an opportunity for viewers to become participants by taking part in the making of a piece using data.
+
+Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.
+
+Making use of other senses can provide a step towards greater accessibility. The typical solution for making data visualization accessible to vision-impaired readers is to provide a table with the data underlying the chart or graph. This isn’t practical for large datasets, and it’s clearly not the same experience, or otherwise we would provide the tabular data to all users. Another approach is to provide an extended description of the insights gained from the chart. This is helpful, but pre-digesting the chart in this way doesn’t allow readers to view and interpret the patterns and draw their own conclusions.
+
+
+We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.
+
+----
+
+## Folding in the Non-Famous Members of the Shakespeare and Company Library
+
+### Goal
+
+The Shakespeare and Company library is most often known by its famous members — the writers of the Lost Generation and their friends. We wanted to highlight the activity of the relatively unknown members — frequently women - who in fact represent a much larger portion of the library's day-to-day activity and thus arguably better represent it. The piece makes use of unit origami to create a larger, cohesive form from small folded units, mirroring the relationship between a single member and the greater bulk of the library.
+
+### Description
+
+The physicalization contrasts the activity of the well-known members of the library (those linked by researchers to an entry in VIAF) with the activity of its relatively unknown members (no known authority records). Activity is represented by the total number of recorded events that would plausibly have brought members into the library - checking out, renewing, and returning books. By holding the physicalization in two different ways, the user can "grasp" two separate sets of data: the octahedron (non-famous members) and the cube (famous members). The ratio of the volumes of these two solids is equal to the ratio of the two datasets.
+
+### Insights
+
+A pie chart can be used to present the same ratio of data conveyed in the physicalization. ....
+
+#### Next Steps
+
+Using cut, punched, or embossed paper would make the piece more tactile; instead of simply printing names, unique patterns could be added to represent data for individual members. In the future, we could generate unique folding patterns for individual library member activity and make them available via print-on-demand, which would enable viewers to become participants and turn folding into an act of recovery of the unknown library members.
+
+Nick Budak, Xinyi Li
+
+----
+
+## Modeling Shakespeare and Company Library Membership
+
+### Goal
+
+This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.
+
+### Description
+
+This is a two variable, three dimensional lollipop chart showing the membership of the Shakespeare and Company library by month and year, from November 1919 when Sylvia Beach opened her bookstore to its official closing in 1942. Membership data is drawn from two different sources, both of which are incomplete: broad subscription information comes from [logbooks](https://shakespeareandco.princeton.edu/sources/logbooks/) (although logbooks for 1930 and parts of 1931-32 are missing); detailed borrowing histories come from [lending library cards](https://shakespeareandco.princeton.edu/sources/cards/) for a subset of members. The white represents the number of members with an active subscription in each month; the green[^3] corresponds to the number of members with borrowing activity in each month. For any month where the value is zero, there is no lollipop. Representing the two different datasets as adjacent half lollipops exposes the discrepancies between the stories these sources tell us about the membership of the library without privileging either of them. The two lollipop charts are designed to be printed independently and then assembled, so that any 3D printer can be used; however, this is a prototype and the design needs further revision.
+
+[^3]: We use white and green in our physicalizations of data from the Shakespeare and Company Project because those are the two main colors used in the site design.
+
+### Insights
+
+The same data can be presented in a two-variable bar chart. Overall trends are easy to see, but seasonal trends are not as distinct. Changing perspective on the physical object allows focusing on yearly or monthly trends. Missing data in one variable is visible in both ... [TBD]
+
+### Next Steps
+
+The current version uses different shapes for the two variables, but adding textures would make the model even more tactile. Simple 3D labels with text and braille have been added for display alongside the piece, but perhaps they could incorporated directly on the model, and refined to provide a scale for the axes. The 3D printed objects could also be augmented with other media: lights or sound could convey intensity of borrowing activity, or threads connecting months to represent the number of subscription renewals and convey a sense of continuity. The Python code used to create these models could be generalized for reuse, and eventually made available as a Blender plugin.
+
+Rebecca Sutton Koeser
+
+----
+
+## Weaving Derrida’s references
+
+> … we all of us, grave or light, get our thoughts entangled in metaphors…
+— George Eliot, Middlemarch
+
+### Goal
+
+With this piece, we aim to literalize the metaphor of weaving as writing by representing Derrida’s intertextuality as a woven tapestry. The textures of the yarn and woven fabric invite touch, but by showing an in-progress weaving with the pattern and instructions provided, we move viewers beyond seeing and touching to enable them to become participants in reconstructing the data. Showing the weaving in progress also foregrounds the labor of data work, since curation, collection, and visualization all take an enormous amount of work and skill, often from a range of different individuals.
+
+### Description
+
+This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie. The references have been cataloged and categorized by researchers for Derrida’s Margins. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving, and using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization. Textile work is often stereotyped as women’s work, so this piece also raises questions of gender, art versus craft, and high tech versus low tech.
+
+### Insights
+
+[tbd]
+
+
+### Next Steps
+
+Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.
+
+Rebecca Sutton Koeser, Gissoo Doroudian
+
+-----
+
+## Stacking New and Continuing Membership Activities of Shakespeare and Company Library
+
+### Goal
+
+This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old patrons, this piece enables multiple ways to compare and interpret the data from diverse perspectives. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the purpose of larger Shakespeare and Company Project— bringing archival data to life and facilitating rich interpretations
+
+### Description
+
+Shakespeare and Company Project library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationship made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active subscribers recorded in the logbooks; the depth depicts the number of members with borrowing activity, according to each member’s lending library card; the length along the timeline is based on the total number of borrowing events. Each of the variables is split into two parts: previous patrons who have renewed a subscription contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of subscribers, inspect the difference between active borrowers and subscribers, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new patrons, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity. Data was mapped to the shapes with Data Illustrator, semi-manual calculation and vector drawing.
+
+### Insights
+
+[tbd]
+
+### Next Steps
+
+The data encoding process could be automated by writing custom code, which could then be made available as a tool for presenting part-to-whole relationships. With the addition of time-based media such as projection mapping, this piece could convey more context and narratives around the lending library.
+
+Xinyi Li
+
+----
