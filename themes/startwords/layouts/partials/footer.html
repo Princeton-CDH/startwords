@@ -1,12 +1,11 @@
 <footer>
-    {{ with .Site.Menus.main }}
-    <nav>
-        <h2>
+    <nav aria-label="footer links">
+        {{ with .Site.Menus.footer }}
+        <ul>
             {{ range . }}
-            <a href="{{ .URL | relURL }}">{{ .Name }}<br /></a>
+            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
             {{ end }}
-        </h2>
+        </ul>
+        {{ end }}
     </nav>
-    {{ end }}
-    <p>Center for Digital Humanities at Princeton</a></p>
 </footer>
