@@ -21,14 +21,19 @@ FootnoteReturnLinkContents = "⇡"
 
 [menu]
 
-  [[menu.main]]
+  [[menu.footer]]
     name = "About"
     url = "about/"
     weight = 10
 
-  [[menu.main]]
-    name = "Issues"
-    url = "issues/"
+  [[menu.footer]]
+    name = "Footer item 2"
+    url = "/"
+    weight = 20
+
+  [[menu.footer]]
+    name = "Footer item 3"
+    url = "/"
     weight = 20
 
 [params]
@@ -36,3 +41,6 @@ FootnoteReturnLinkContents = "⇡"
   dateformShort   = "January 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+
+[markup.goldmark.renderer]
+  unsafe = true
