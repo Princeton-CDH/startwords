@@ -1,5 +1,4 @@
 baseURL = "http://startwords.cdh.princeton.edu/"
-languageCode = "en-us"
 title = "Startwords"
 theme = "startwords"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -33,18 +32,6 @@ FootnoteReturnLinkContents = "⇡"
     weight = 20
 
 [params]
-  google_fonts = [
-    ["Fira Sans"],
-    ["Cormorant"],
-    ["Droid Serif"],
-    ["Oxygen"],
-    ["Rufina"],
-    ["Josefin Sans"]
-  ]
-
-  heading_font = "Josefin Sans"
-  body_font = "Cormorant"
-
   dateform        = "January 2, 2006"
   dateformShort   = "January 2"
   dateformNum     = "2006-01-02"

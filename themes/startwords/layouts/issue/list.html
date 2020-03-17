@@ -3,7 +3,7 @@
     {{ partial "header-page.html" . }}
 
 		{{ if or .Title .Content }}
-		<div class="pl7 f1 f2-m">
+		<div>
 			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 			{{ with .Content }}<div>{{ . }}</div>{{ end }}
 		</div>
@@ -12,14 +12,14 @@
 		{{/* loop over subsections */}}
 		{{ range .Sections }}
 
-			<p class="f3 pl7">
+			<p>
 				Issue {{ with .Params.number }} {{ . }}: {{ end }}
-				<div class="f1 pl7">
+				<div>
 					<a href="{{ .Permalink }}">{{ .Params.issue_theme }}</a>
 				</div>
 			</p>
 
-			<section class="f4 pl7 measure-wide">
+			<section>
 				{{ with .Content }} {{ . }} {{ end }}
 			</section>
 

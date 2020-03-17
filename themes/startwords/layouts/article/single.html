@@ -4,13 +4,13 @@
 
 {{ partial "header-page.html" . }}
 
-<div class="pl7 f1 f2-m">
+<div>
 	<h1>{{ .Params.Title }}<h1>
 </div>
 
 
-<div class="pl7 flex justify-left">
-	<div class="w-25 mr2 tl br">
+<div>
+	<div>
 		<h1>
 			<ul style="list-style-type:none;padding:0;">
 			{{ range .Params.Authors }}
@@ -18,7 +18,7 @@
 			{{ end }}
 		</h1>
 	</div>
-  <div class="pa4 f7 w-25 mr2 tl">
+  <div>
 		<h1>
 			<a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}:<br/>
 			{{ .Parent.Params.issue_theme }}</a><br/>
@@ -35,8 +35,8 @@
 <br/>
 <br/>
 
-<div class="pl7 f4 mw7">
-	<p class="tc">❀</p>
+<div>
+	<p>❀</p>
 	{{ .Content }}
 </div>
 

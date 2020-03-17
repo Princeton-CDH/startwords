@@ -9,7 +9,7 @@ title: About
 
 > (literature) The first appearance of a genre in print.
 
-<p class="tc">❀</p>
+<p>❀</p>
 
 *Startwords* is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and process-based than a peer-reviewed journal, *Startwords* is a forum for experimental humanities scholarship. Embedded code, data physicalizations, and emerging forms of project documentation are explored through writing that is creative, conversational, exploratory, essayistic, data-driven, and academically rigorous.
 

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<html lang="en-us">
 <head>
-	{{ partial "google-fonts" . }}
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,9 @@
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
 	<!-- SCSS–>CSS -->
-	{{ $style := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "css/style.css" . | toCSS | minify | fingerprint -}}
+	{{ $style_opts := (dict "targetPath" "scss/main.scss" "outputStyle" "compressed" "enableSourcemap" true) }}
+	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint -}}
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 	{{- range .Site.Params.customCSS }}
 	{{- end }}
@@ -21,6 +22,7 @@
 	{{ end -}}
 </head>
 <body>
+	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
 </body>

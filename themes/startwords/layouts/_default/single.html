@@ -1,15 +1,16 @@
 {{ define "main" }}
-	<main>
-	</main>
+<main>
 
-{{ partial "header-page.html" . }}
+	{{ partial "header-page.html" . }}
 
-<div class="pl7 f1 f2-m">
-	<h1>{{ .Params.Title }}<h1>
-</div>
+	<div>
+		<h1>{{ .Params.Title }}<h1>
+	</div>
 
-<div class="pl7 f4 mw7">
-	{{ .Content }}
-</div>
+	<div>
+		{{ .Content }}
+	</div>
+
+</main>
 
 {{ end }}

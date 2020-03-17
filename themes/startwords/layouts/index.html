@@ -1,6 +1,5 @@
 {{ define "main" }}
-	<main>
-	</main>
+<main>
 
 {{ partial "header.html" . }}
 
@@ -8,14 +7,14 @@
 
 {{ range first 1 (where .Site.AllPages "Type" "issue") }}
 
-	<p class="f3 tc">
+	<p>
 		Issue {{ with .Params.number }} {{ . }}: {{ end }}
-		<div class="f1 tc">
+		<div>
 			{{ with .Params.issue_theme }} {{ . }} {{ end }}
 		</div>
 	</p>
 
-	<section class="f4 center measure">
+	<section>
 		{{ with .Content }} {{ . }} {{ end }}
 	</section>
 
@@ -26,11 +25,11 @@
 
 <!-- article card | draws from first two articles on entire site -->
 
-<div class="flex justify-center">
+<div>
 
 	{{ range first 1 (where .Site.AllPages "Type" "article") }}
 
-		<div class="w-10 pa3 mr2 tl br">
+		<div>
 			<h2>
 					<a href="{{ .Permalink }}">{{ .Title }}</a>
 			</h2>
@@ -43,7 +42,7 @@
 			</p>
 		</div>
 
-		<div class="fade w-25 pa3 mr2 f4">
+		<div>
 			<p>
 				{{ .Summary }}
 				{{ if .Truncated }}
@@ -56,7 +55,7 @@
 
 	{{ range last 1 (where .Site.AllPages "Type" "article") }}
 
-		  <div class="fade w-25 pa3 mr2 f4">
+		  <div>
 				<p>
 					{{ .Summary }}
 					{{ if .Truncated }}
@@ -65,7 +64,7 @@
 				</p>
 			</div>
 
-			<div class="w-10 pa3 mr2 tr bl">
+			<div>
 				<h2>
 						<a href="{{ .Permalink }}">{{ .Title }}</a>
 				</h2>
@@ -85,5 +84,7 @@
 <br />
 <br />
 <br />
+
+</main>
 
 {{ end }}

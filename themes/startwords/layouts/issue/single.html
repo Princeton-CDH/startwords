@@ -3,26 +3,26 @@
 
     {{ partial "header-page.html" . }}
 
-		<h1 class="f-headline f-subheadline-m lh-solid pl7 tracked pb0">
+		<h1>
 			Issue {{ with .Params.number }} {{ . }} {{ end }}
-			<div class="f2 tracked">
+			<div>
 			{{ .Params.issue_theme }}<br/>
 			{{ .Date.Format "January 2006" }}
 			</div>
 		</h1>
 
-    <div class="pl7 f3 measure-wide">
+    <div>
       {{ with .Content }}<div>{{ . }}</div>{{ end }}
-			<p class="tc">❀</p>
+			<p>❀</p>
     </div>
 
-    <div class="pl7 f2">
+    <div>
 
       {{/* loop over pages in this issue */}}
       {{ range .Pages }}<div>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
 
-				<div class="f4">
+				<div>
         <ul style="list-style-type:none;">
         {{ range .Params.authors }}
             <li>{{ . }}</li>
