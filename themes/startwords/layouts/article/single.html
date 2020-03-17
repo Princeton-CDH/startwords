@@ -24,6 +24,9 @@
 			{{ .Parent.Params.issue_theme }}</a><br/>
 			{{ .Parent.Date.Format "January 2006" }}
 			<br/>
+			{{ if .Params.DOI }}
+				DOI: <a href="https://doi.org/{{ .Params.DOI }}"> {{ .Params.DOI }}</a>
+			{{ end }}
 			<br/>
 			📄: PDF | {{ with  .OutputFormats.Get "txt" -}}
 				<a href="{{ .RelPermalink }}" rel="alt">TXT</a>
