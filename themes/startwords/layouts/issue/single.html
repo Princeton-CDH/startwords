@@ -1,37 +1,28 @@
 {{ define "main" }}
-	<main>
-
-    {{ partial "header-page.html" . }}
-
-		<h1>
-			Issue {{ with .Params.number }} {{ . }} {{ end }}
-			<div>
-			{{ .Params.issue_theme }}<br/>
-			{{ .Date.Format "January 2006" }}
-			</div>
-		</h1>
-
+<main>
+    <h1>
+        Issue {{ with .Params.number }} {{ . }} {{ end }}
+        <div>
+            {{ .Params.issue_theme }}<br/>
+            {{ .Date.Format "January 2006" }}
+        </div>
+    </h1>
     <div>
-      {{ with .Content }}<div>{{ . }}</div>{{ end }}
-			<p>❀</p>
+        {{ with .Content }}<div>{{ . }}</div>{{ end }}
+        <p>❀</p>
     </div>
-
     <div>
-
-      {{/* loop over pages in this issue */}}
-      {{ range .Pages }}<div>
+        {{/* loop over pages in this issue */}}
+        {{ range .Pages }}
         <a href="{{ .Permalink }}">{{ .Title }}</a>
-
-				<div>
-        <ul style="list-style-type:none;">
-        {{ range .Params.authors }}
-            <li>{{ . }}</li>
+        <div>
+            <ul style="list-style-type:none;">
+                {{ range .Params.authors }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
         {{ end }}
-        </ul>
-				</div>
-
-			{{ end }}
-		</div>
-
-	</main>
+    </div>
+</main>
 {{ end }}

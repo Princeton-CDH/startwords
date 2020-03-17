@@ -1,29 +1,22 @@
 {{ define "main" }}
-	<main>
-    {{ partial "header-page.html" . }}
-
-		{{ if or .Title .Content }}
-		<div>
-			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-			{{ with .Content }}<div>{{ . }}</div>{{ end }}
-		</div>
-		{{ end }}
-
-		{{/* loop over subsections */}}
-		{{ range .Sections }}
-
-			<p>
-				Issue {{ with .Params.number }} {{ . }}: {{ end }}
-				<div>
-					<a href="{{ .Permalink }}">{{ .Params.issue_theme }}</a>
-				</div>
-			</p>
-
-			<section>
-				{{ with .Content }} {{ . }} {{ end }}
-			</section>
-
-		{{ end }}
-
-	</main>
+<main>
+    {{ if or .Title .Content }}
+    <div>
+        {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .Content }}<div>{{ . }}</div>{{ end }}
+    </div>
+    {{ end }}
+    {{/* loop over subsections */}}
+    {{ range .Sections }}
+    <p>
+        Issue {{ with .Params.number }} {{ . }}: {{ end }}
+        <div>
+            <a href="{{ .Permalink }}">{{ .Params.issue_theme }}</a>
+        </div>
+    </p>
+    <section>
+        {{ with .Content }} {{ . }} {{ end }}
+    </section>
+    {{ end }}
+</main>
 {{ end }}

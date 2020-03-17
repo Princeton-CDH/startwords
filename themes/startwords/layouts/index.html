@@ -1,8 +1,6 @@
 {{ define "main" }}
 <main>
 
-{{ partial "header.html" . }}
-
 <!-- issue card | draws from most recent issue -->
 
 {{ range first 1 (where .Site.AllPages "Type" "issue") }}

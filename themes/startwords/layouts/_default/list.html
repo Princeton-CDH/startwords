@@ -6,12 +6,10 @@
         {{ with .Content }}<div>{{ . }}</div>{{ end }}
     </div>
     {{ end }}
-
     <div>
         {{ range .Paginator.Pages }}
             {{ .Render "summary" }}
         {{ end }}
     </div>
-
 </main>
 {{ end }}

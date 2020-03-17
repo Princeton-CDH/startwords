@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>{{ .Title }}</title>
-	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-
-	<!-- SCSS–>CSS -->
-	{{ $style_opts := (dict "targetPath" "scss/main.scss" "outputStyle" "compressed" "enableSourcemap" true) }}
-	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint -}}
-	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-	{{- range .Site.Params.customCSS }}
-	{{- end }}
-
-	{{/* link to any available alternate output format versions of this page */}}
-	{{ range .AlternativeOutputFormats -}}
-	<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-	{{ end -}}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ .Title }}</title>
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    
+    <!-- SCSS–>CSS -->
+    {{ $style_opts := (dict "targetPath" "scss/main.scss" "outputStyle" "compressed" "enableSourcemap" true) }}
+    {{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint -}}
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{- range .Site.Params.customCSS }}
+    {{- end }}
+    
+    {{/* link to any available alternate output format versions of this page */}}
+    {{ range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+    {{ end -}}
 </head>
 <body>
-	{{ partial "header" . }}
-	{{ block "main" . }}{{ end }}
-	{{ partial "footer" . }}
+    {{ partial "header" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer" . }}
 </body>
 </html>
