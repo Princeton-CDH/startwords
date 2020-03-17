@@ -1,6 +1,8 @@
 {{ .Title }}
 {{ .Date.Format "02.01.2006 15:04" }}
 
-{{ .Plain }}
+{{/* double newlines to put blank lines between paragraphs */}}
+{{ replace .Plain "\n" "\n\n" }}
+
 
 {{ .Permalink }}

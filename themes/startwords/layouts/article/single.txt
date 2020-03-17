@@ -23,4 +23,6 @@
 |
 +---------------------------------------------------------------->
 
-{{ .Plain }}
+{{/* double newlines to put blank lines between paragraphs */}}
+{{ replace .Plain "\n" "\n\n" }}
+
