@@ -1,22 +1,23 @@
 {{ define "main" }}
 <main>
-    {{ if or .Title .Content }}
-    <div>
-        {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-        {{ with .Content }}<div>{{ . }}</div>{{ end }}
-    </div>
-    {{ end }}
-    {{/* loop over subsections */}}
-    {{ range .Sections }}
-    <p>
-        Issue {{ with .Params.number }} {{ . }}: {{ end }}
-        <div>
-            <a href="{{ .Permalink }}">{{ .Params.issue_theme }}</a>
-        </div>
-    </p>
-    <section>
-        {{ with .Content }} {{ . }} {{ end }}
-    </section>
+    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+    {{ with .Content }}{{ . }}{{ end }}
+    {{ with .Sections }}
+    <ol>
+        {{ range . }}
+        <a href="{{ .Permalink }}">
+            <article>
+                <span>issue {{ .Params.number }}</span>
+                <h2>{{ .Params.theme }}</h2>
+                <time datetime="{{ .Params.date.Format `2006-01-02` }}">
+                    {{ .Params.date.Format "Jan. 2, 2006" }}
+                </time>
+            </article>
+        </a>
+        {{ end }}
+    </ol>
+    {{ else }}
+    <p>First issue coming soon!</p>
     {{ end }}
 </main>
 {{ end }}
