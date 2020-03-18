@@ -1,5 +1,11 @@
 {{ define "main" }}
-<main>
-	{{ with .Content }}{{ . }}{{ end }}
-</main>
+    {{ range first 1 (where .Site.AllPages "Type" "issue") }}
+    <span>Issue {{ .Params.number }}</span>
+    <h2>{{ .Params.theme }}</h2>
+    {{ .Summary }}
+    {{ end }}
+    {{ range first 2 (where .Site.AllPages "Type" "article") }}
+    {{ .Render "summary" }}
+    {{ end }}
+    {{ with .Content }}{{ . }}{{ end }}
 {{ end }}

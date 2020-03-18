@@ -1,23 +1,15 @@
 {{ define "main" }}
-<main>
     {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
     {{ with .Content }}{{ . }}{{ end }}
     {{ with .Sections }}
     <ol>
         {{ range . }}
         <a href="{{ .Permalink }}">
-            <article>
-                <span>issue {{ .Params.number }}</span>
-                <h2>{{ .Params.theme }}</h2>
-                <time datetime="{{ .Params.date.Format `2006-01-02` }}">
-                    {{ .Params.date.Format "Jan. 2, 2006" }}
-                </time>
-            </article>
+            {{ .Render "summary" }}
         </a>
         {{ end }}
     </ol>
     {{ else }}
-    <p>First issue coming soon!</p>
+    <p>First issue to be released March 2020.</p>
     {{ end }}
-</main>
 {{ end }}

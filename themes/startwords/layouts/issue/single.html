@@ -1,28 +1,11 @@
 {{ define "main" }}
-<main>
-    <h1>
-        Issue {{ with .Params.number }} {{ . }} {{ end }}
-        <div>
-            {{ .Params.issue_theme }}<br/>
-            {{ .Date.Format "January 2006" }}
-        </div>
-    </h1>
-    <div>
-        {{ with .Content }}<div>{{ . }}</div>{{ end }}
-        <p>❀</p>
-    </div>
-    <div>
-        {{/* loop over pages in this issue */}}
+    <span>issue {{ .Params.number }}</span>
+    <h1>{{ .Params.theme }}</h1>
+    {{ .Content }}
+    <a href="#features"><img class="chevron"/></a>
+    <section id="features" aria-label="features">
         {{ range .Pages }}
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <div>
-            <ul style="list-style-type:none;">
-                {{ range .Params.authors }}
-                <li>{{ . }}</li>
-                {{ end }}
-            </ul>
-        </div>
+        {{ .Render "summary" }}
         {{ end }}
-    </div>
-</main>
+    </section>
 {{ end }}

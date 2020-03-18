@@ -1,33 +1,20 @@
 {{ define "main" }}
-<main>
-    <div>
-        <h1>{{ .Params.Title }}<h1>
-    </div>
-    <div>
-        <div>
-            <h1>
-                <ul style="list-style-type:none;padding:0;">
-                {{ range .Params.Authors }}
-                    <li>{{ . }}</li>
-                {{ end }}
-            </h1>
-        </div>
-    <div>
-        <h1>
-            <a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}:<br/>
-            {{ .Parent.Params.issue_theme }}</a><br/>
-            {{ .Parent.Date.Format "January 2006" }}
-            <br/>
-            <br/>
-            📄: PDF | {{ with  .OutputFormats.Get "txt" -}}
-                <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
-            {{- end }}
-        </h1>
-        </div>
-    </div>
-    <div>
-        <p>❀</p>
-        {{ .Content }}
-    </div>
-</main>
+<article>
+    <h1>{{ .Params.Title }}</h1>
+    <ul>
+        {{ range .Params.Authors }}
+        <li><address>{{ . }}</address></li>
+        {{ end }}
+    </ul>
+    <a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}:<br/>
+        {{ .Parent.Params.issue_theme }}</a><br/>
+        {{ .Parent.Date.Format "January 2006" }}
+        <br/>
+        <br/>
+        📄: PDF | {{ with  .OutputFormats.Get "txt" -}}
+        <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+        {{- end }}
+    {{ .Content }}
+</article>
 {{ end }}
+        

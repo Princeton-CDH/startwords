@@ -20,20 +20,13 @@ FootnoteReturnLinkContents = "⇡"
   page = ["HTML", "TXT"]
 
 [menu]
-
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+    weight = 10
   [[menu.footer]]
     name = "About"
     url = "about/"
-    weight = 10
-
-  [[menu.footer]]
-    name = "Footer item 2"
-    url = "/"
-    weight = 20
-
-  [[menu.footer]]
-    name = "Footer item 3"
-    url = "/"
     weight = 20
 
 [params]

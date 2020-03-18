@@ -3,24 +3,4 @@ layout: page
 title: Startwords
 ---
 
-<dl>
-    <dt>startword, <span>n.</span></dt>
-    <dd>(computer science) A string of letters that identifies the beginning of
-    a valid sequence in a specified language.</dd>
-    <dd>(literature) The first appearance of a genre in print.</dd>
-</dl>
-
-*Startwords* is a research periodical irregularly published by the Center for
-Digital Humanities at Princeton. More formal than a blog yet more speculative 
-and process-based than a peer-reviewed journal, *Startwords* is a forum for 
-experimental humanities scholarship. Embedded code, data physicalizations, and 
-emerging forms of project documentation are explored through writing that is 
-creative, conversational, exploratory, essayistic, data-driven, and academically
-rigorous.
-
-Each issue features two articles that are unified by a common theme, 
-feature, or concern. Issues will be released one to three times a year, when we 
-have something to share or say. Articles can be contributed by CDH staff, 
-faculty, graduate students, or external collaborators.
-
-First issue to be released March 2020.
+Read more about the project on the [about page](/about).

@@ -1,0 +1,7 @@
+<article class="issue summary">
+    <span>Issue {{ .Params.number }}</span>
+    <time datetime="{{ .Params.date.Format `2006-01-02` }}">
+        {{ .Params.date.Format "Jan. 2, 2006" }}
+    </time>
+    <h2>{{ .Params.theme }}</h2>
+</article>
