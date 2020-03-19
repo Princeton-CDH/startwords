@@ -24,25 +24,34 @@ body {
 header {
     position: fixed;
 
-    .issues, nav {
-        transform: rotate(180deg);
-        writing-mode: vertical-rl;
+    nav {
+        /* sideways-rl is only available in ff currently, so we
+           use vertical-rl and rotate it to get the same effect */
+        // transform: rotate(180deg);
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
         position: absolute;
         top: 0;
-    }
+        height: 100vh;
 
-    .issues {
-        left: 0;
-    }
-
-    nav {
-        right: -100vw;
-
-        ol {
+        ol, ul {
             margin: 0;
             padding: 0;
             list-style: none;
+            width: $gutter-xs;
         }
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    nav[aria-label=main] {
+        left: 0;
+    }
+
+    nav[aria-label=breadcrumbs] {
+        right: -100vw;
     }
 }
 
@@ -52,12 +61,17 @@ main {
     margin-bottom: $footer-height;
 }
 
+.logotype {
+    display: block;
+}
+
 footer {
     background: $light-grey;
     height: $footer-height;
     width: 100vw;
     position: fixed;
     bottom: 0;
+    text-align: right;
 
     ul {
         list-style: none;
@@ -68,6 +82,10 @@ footer {
 
 article {
     font-family: $font-serif;
+
+    address {
+        font-family: $font-sans;
+    }
 }
 
 .article.summary {
@@ -85,19 +103,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-sans;
 }
 
-a.title {text-decoration: none;}
-a.title:visited {text-decoration: none;}
-a.title:link {text-decoration: none;}
-a.title:active {text-decoration: none;}
+// hide breadcrumbs on homepage
+.home nav[aria-label=breadcrumbs] {
+    display: none;
+}
 
 // use default blue link color for visited links
-*:visited { color: rgb(0, 0, 238); }
-
-.arrow {
-    border-left: 1px dotted;
-    height: 875px;
-    position: absolute;
-    left: 49%;
-    margin-left: -3px;
-    top: 25%;
-}
+// *:visited { color: rgb(0, 0, 238); }
