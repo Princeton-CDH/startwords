@@ -5,7 +5,7 @@
     <img alt="" class="logotype" src="/logotype.svg"/>
     {{ range first 1 (where .Site.AllPages "Type" "issue") }}
     <span>Issue {{ .Params.number }}</span>
-    <h2>{{ .Params.theme }}</h2>
+    <h2><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
     {{ .Summary }}
     {{ end }}
     {{ range first 2 (where .Site.AllPages "Type" "article") }}

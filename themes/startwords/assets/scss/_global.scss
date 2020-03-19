@@ -27,7 +27,7 @@ header {
     nav {
         /* sideways-rl is only available in ff currently, so we
            use vertical-rl and rotate it to get the same effect */
-        // transform: rotate(180deg);
+        transform: rotate(180deg);
         writing-mode: vertical-lr;
         text-orientation: mixed;
         position: absolute;
@@ -39,6 +39,7 @@ header {
             padding: 0;
             list-style: none;
             width: $gutter-xs;
+            text-align: right;
         }
 
         li {
@@ -82,30 +83,36 @@ footer {
 
 article {
     font-family: $font-serif;
-
-    address {
-        font-family: $font-sans;
-    }
 }
 
-.article.summary {
+.article-summary {
     float: left;
     width: 50%;
-
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-sans;
 }
 
-// hide breadcrumbs on homepage
-.home nav[aria-label=breadcrumbs] {
-    display: none;
+.authors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    address {
+        font-family: $font-sans;
+        font-style: normal;
+    }
+}
+
+.pubdate {
+    display: block;
+    font-family: $font-sans;
+}
+
+.number,
+.theme {
+    font-family: $font-sans;
 }
 
 // use default blue link color for visited links

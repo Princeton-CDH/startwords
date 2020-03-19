@@ -1,9 +1,5 @@
-<article class="article summary">
+<article class="article-summary">
     {{ .Summary }}
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <ul>
-        {{ range .Params.Authors }}
-        <li><address>{{ . }}</address></li>
-        {{ end }}
-    </ul>
+    {{ partial "authors" . }}
 </article>

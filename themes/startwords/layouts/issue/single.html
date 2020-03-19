@@ -1,7 +1,7 @@
-{{ define "pagetype" }}single issue{{ end }}
+{{ define "pagetype" }}issue{{ end }}
 
 {{ define "main" }}
-    <span>issue {{ .Params.number }}</span>
+    <p class="number">Issue {{ .Params.number }}</sp>
     <h1>{{ .Params.theme }}</h1>
     {{ .Content }}
     <a href="#features"><img class="chevron"/></a>

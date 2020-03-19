@@ -1,7 +1,5 @@
-<article class="issue summary">
-    <p>Issue {{ .Params.number }}</p>
-    <time datetime="{{ .Params.date.Format `2006-01-02` }}">
-        {{ .Params.date.Format "Jan. 2, 2006" }}
-    </time>
-    <h2>{{ .Params.theme }}</h2>
+<article class="issue-summary">
+    <p class="number">Issue {{ .Params.number }}</p>
+    {{ partial "pubdate" . }}
+    <h2 class="theme">{{ .Params.theme }}</h2>
 </article>

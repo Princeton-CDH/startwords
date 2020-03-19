@@ -1,18 +1,12 @@
-{{ define "pagetype" }}single article{{ end }}
+{{ define "pagetype" }}article{{ end }}
 
 {{ define "main" }}
 <article>
-    <p>Issue {{ .Parent.Params.number }}</p>
+    <p class="number">Issue {{ .Parent.Params.number }}</p>
     <p class="theme">{{ .Parent.Params.theme }}</p>
     <h1>{{ .Params.Title }}</h1>
-    <ul>
-        {{ range .Params.Authors }}
-        <li><address>{{ . }}</address></li>
-        {{ end }}
-    </ul>
-    <time datetime="{{ .Params.date.Format `2006-01-02` }}">
-        {{ .Params.date.Format "Jan. 2, 2006" }}
-    </time>
+    {{ partial "authors" . }}
+    {{ partial "pubdate" . }}
     {{ with  .OutputFormats.Get "txt" -}}
     <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
     {{- end }}

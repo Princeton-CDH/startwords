@@ -1,14 +1,22 @@
 <header>
     <nav aria-label="main">
         <ul>
-            <li><a class="home" href="/">Home</a></li>
             <li><a class="issues" href="/issues">Issues</a></li>
+            <li><a class="home" href="/">Home</a></li>
         </ul>
     </nav>
+    {{ if not .IsHome }}
     <nav aria-label="breadcrumbs">
         <ol>
-            <li><a href="/">issues</a></li>
-            <li><a href="/">issue 1</a></li>
+            {{ template "breadcrumbnav" (dict "p1" .Parent "p2" .Parent) }}
         </ol>
     </nav>
+    {{ end }}
 </header>
+
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
+{{ end }}
+<li><a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a></li>
+{{ end }}
