@@ -15,6 +15,8 @@
 |
 |  {{ .Permalink }}
 |
+|  {{ if .Params.DOI }}DOI: {{ .Params.DOI }}{{ end }}
+|
 +---------------------------------------------------------------->
 |
 |  Issue {{ .Parent.Params.number }}: {{ .Parent.Params.issue_theme }}
@@ -23,4 +25,6 @@
 |
 +---------------------------------------------------------------->
 
-{{ .Plain }}
+{{/* double newlines to put blank lines between paragraphs */}}
+{{ replace .Plain "\n" "\n\n" }}
+
