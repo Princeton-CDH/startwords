@@ -1,19 +1,21 @@
+{{ define "pagetype" }}single article{{ end }}
+
 {{ define "main" }}
 <article>
+    <p>Issue {{ .Parent.Params.number }}</p>
+    <p class="theme">{{ .Parent.Params.theme }}</p>
     <h1>{{ .Params.Title }}</h1>
     <ul>
         {{ range .Params.Authors }}
         <li><address>{{ . }}</address></li>
         {{ end }}
     </ul>
-    <a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}:<br/>
-        {{ .Parent.Params.issue_theme }}</a><br/>
-        {{ .Parent.Date.Format "January 2006" }}
-        <br/>
-        <br/>
-        📄: PDF | {{ with  .OutputFormats.Get "txt" -}}
-        <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
-        {{- end }}
+    <time datetime="{{ .Params.date.Format `2006-01-02` }}">
+        {{ .Params.date.Format "Jan. 2, 2006" }}
+    </time>
+    {{ with  .OutputFormats.Get "txt" -}}
+    <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+    {{- end }}
     {{ .Content }}
 </article>
 {{ end }}

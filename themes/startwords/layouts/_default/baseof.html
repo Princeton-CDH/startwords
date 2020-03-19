@@ -20,7 +20,7 @@
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
     {{ end -}}
 </head>
-<body>
+<body class="{{ block `pagetype` . }}{{ end }}">
     {{ partial "header" . }}
     <main>{{ block "main" . }}{{ end }}</main>
     {{ partial "footer" . }}

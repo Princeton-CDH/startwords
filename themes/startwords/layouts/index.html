@@ -1,4 +1,8 @@
+{{ define "pagetype" }}home{{ end }}
+
 {{ define "main" }}
+    <h1 class="sr-only">{{ .Site.Title }}</h1>
+    <img alt="" class="logotype" src="/logotype.svg"/>
     {{ range first 1 (where .Site.AllPages "Type" "issue") }}
     <span>Issue {{ .Params.number }}</span>
     <h2>{{ .Params.theme }}</h2>
