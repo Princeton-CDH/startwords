@@ -1,46 +1,16 @@
+{{ define "pagetype" }}article{{ end }}
+
 {{ define "main" }}
-	<main>
-	</main>
-
-{{ partial "header-page.html" . }}
-
-<div class="pl7 f1 f2-m">
-	<h1>{{ .Params.Title }}<h1>
-</div>
-
-
-<div class="pl7 flex justify-left">
-	<div class="w-25 mr2 tl br">
-		<h1>
-			<ul style="list-style-type:none;padding:0;">
-			{{ range .Params.Authors }}
-				<li>{{ . }}</li>
-			{{ end }}
-		</h1>
-	</div>
-  <div class="pa4 f7 w-25 mr2 tl">
-		<h1>
-			<a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}:<br/>
-			{{ .Parent.Params.issue_theme }}</a><br/>
-			{{ .Parent.Date.Format "January 2006" }}
-			<br/>
-			{{ if .Params.DOI }}
-				DOI: <a href="https://doi.org/{{ .Params.DOI }}"> {{ .Params.DOI }}</a>
-			{{ end }}
-			<br/>
-			📄: PDF | {{ with  .OutputFormats.Get "txt" -}}
-				<a href="{{ .RelPermalink }}" rel="alt">TXT</a>
-			{{- end }}
-		</h1>
-	</div>
-</div>
-
-<br/>
-<br/>
-
-<div class="pl7 f4 mw7">
-	<p class="tc">❀</p>
-	{{ .Content }}
-</div>
-
+<article>
+    <p class="number">Issue {{ .Parent.Params.number }}</p>
+    <p class="theme">{{ .Parent.Params.theme }}</p>
+    <h1>{{ .Params.Title }}</h1>
+    {{ partial "authors" . }}
+    {{ partial "pubdate" . }}
+    {{ with  .OutputFormats.Get "txt" -}}
+    <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+    {{- end }}
+    {{ .Content }}
+</article>
 {{ end }}
+        

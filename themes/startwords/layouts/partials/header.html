@@ -1,6 +1,22 @@
 <header>
-	<h1 class="f-headline f-subheadline-m lh-solid tc tracked-mega pb0">
-		{{ .Site.Title }}.
-	</h1>
-	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <nav aria-label="main">
+        <ul>
+            <li><a class="issues" href="/issues">Issues</a></li>
+            <li><a class="home" href="/">Home</a></li>
+        </ul>
+    </nav>
+    {{ if not .IsHome }}
+    <nav aria-label="breadcrumbs">
+        <ol>
+            {{ template "breadcrumbnav" (dict "p1" .Parent "p2" .Parent) }}
+        </ol>
+    </nav>
+    {{ end }}
 </header>
+
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
+{{ end }}
+<li><a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a></li>
+{{ end }}

@@ -3,7 +3,7 @@ type: issue
 layout: single
 title: Issue One
 number: 1
-issue_theme: Transformations
+theme: Transformations
 date: 2020-01-01
 slug: 1
 ---

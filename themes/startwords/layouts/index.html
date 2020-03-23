@@ -1,89 +1,15 @@
+{{ define "pagetype" }}home{{ end }}
+
 {{ define "main" }}
-	<main>
-	</main>
-
-{{ partial "header.html" . }}
-
-<!-- issue card | draws from most recent issue -->
-
-{{ range first 1 (where .Site.AllPages "Type" "issue") }}
-
-	<p class="f3 tc">
-		Issue {{ with .Params.number }} {{ . }}: {{ end }}
-		<div class="f1 tc">
-			{{ with .Params.issue_theme }} {{ . }} {{ end }}
-		</div>
-	</p>
-
-	<section class="f4 center measure">
-		{{ with .Content }} {{ . }} {{ end }}
-	</section>
-
-{{ end }}
-
-<br/>
-<br/>
-
-<!-- article card | draws from first two articles on entire site -->
-
-<div class="flex justify-center">
-
-	{{ range first 1 (where .Site.AllPages "Type" "article") }}
-
-		<div class="w-10 pa3 mr2 tl br">
-			<h2>
-					<a href="{{ .Permalink }}">{{ .Title }}</a>
-			</h2>
-			<p>
-				<ul style="list-style-type:none;padding:0;">
-        {{ range .Params.authors }}
-            <li>{{ . }}</li>
-        {{ end }}
-        </ul>
-			</p>
-		</div>
-
-		<div class="fade w-25 pa3 mr2 f4">
-			<p>
-				{{ .Summary }}
-				{{ if .Truncated }}
-					<a href="{{ .Permalink }}">continue reading...</a>
-				{{ end }}
-			</p>
-		</div>
-
-	{{end}}
-
-	{{ range last 1 (where .Site.AllPages "Type" "article") }}
-
-		  <div class="fade w-25 pa3 mr2 f4">
-				<p>
-					{{ .Summary }}
-					{{ if .Truncated }}
-						<a href="{{ .Permalink }}">continue reading...</a>
-					{{ end }}
-				</p>
-			</div>
-
-			<div class="w-10 pa3 mr2 tr bl">
-				<h2>
-						<a href="{{ .Permalink }}">{{ .Title }}</a>
-				</h2>
-				<p>
-					<ul style="list-style-type:none;padding:0;">
-	        {{ range .Params.authors }}
-	            <li>{{ . }}</li>
-	        {{ end }}
-	        </ul>
-				</p>
-			</div>
-
-	{{ end }}
-
-</div>
-
-<br />
-<br />
-<br />
-
+    <h1 class="sr-only">{{ .Site.Title }}</h1>
+    <img alt="" class="logotype" src="/logotype.svg"/>
+    {{ range first 1 (where .Site.AllPages "Type" "issue") }}
+    <span>Issue {{ .Params.number }}</span>
+    <h2><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
+    {{ .Summary }}
+    {{ end }}
+    {{ range first 2 (where .Site.AllPages "Type" "article") }}
+    {{ .Render "summary" }}
+    {{ end }}
+    {{ with .Content }}{{ . }}{{ end }}
 {{ end }}

@@ -1,10 +1,8 @@
 baseURL = "http://startwords.cdh.princeton.edu/"
-languageCode = "en-us"
 title = "Startwords"
 theme = "startwords"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 enableEmoji = true
-FootnoteReturnLinkContents = "⇡"
 
 [taxonomies]
   author = "authors"
@@ -21,31 +19,20 @@ FootnoteReturnLinkContents = "⇡"
   page = ["HTML", "TXT"]
 
 [menu]
-
-  [[menu.main]]
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.footer]]
     name = "About"
     url = "about/"
-    weight = 10
-
-  [[menu.main]]
-    name = "Issues"
-    url = "issues/"
     weight = 20
 
 [params]
-  google_fonts = [
-    ["Fira Sans"],
-    ["Cormorant"],
-    ["Droid Serif"],
-    ["Oxygen"],
-    ["Rufina"],
-    ["Josefin Sans"]
-  ]
-
-  heading_font = "Josefin Sans"
-  body_font = "Cormorant"
-
   dateform        = "January 2, 2006"
   dateformShort   = "January 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+
+[markup.goldmark.renderer]
+  unsafe = true
