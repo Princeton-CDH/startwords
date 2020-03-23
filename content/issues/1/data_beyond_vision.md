@@ -123,9 +123,12 @@ With this piece, we aim to literalize the metaphor of weaving as writing by repr
 
 This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie. The references have been cataloged and categorized by researchers for Derrida’s Margins. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving, and using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization. Textile work is often stereotyped as women’s work, so this piece also raises questions of gender, art versus craft, and high tech versus low tech.
 
+{{< deepzoom tile="https://iiif.princeton.edu/loris/iiif/2/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2/info.json" height="10em">}}
+
 ### Insights
 
 [tbd]
+
 
 
 ### Next Steps
