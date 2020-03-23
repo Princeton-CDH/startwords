@@ -8,7 +8,7 @@
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    
+
     <!-- styles -->
     {{ $styleOptions := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourcemap" true) }}
     {{ $printOptions := (dict "targetPath" "print.css" "outputStyle" "compressed" "enableSourcemap" true) }}
@@ -22,6 +22,11 @@
     {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
     {{ end -}}
+
+    {{ if .HasShortcode "deepzoom" }}{{/* include openseadragon when deepzoom shortcode is used */}}
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js" integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>
+    {{ end }}
+
 </head>
 <body class="{{ block `pagetype` . }}{{ end }}">
     {{ partial "header" . }}

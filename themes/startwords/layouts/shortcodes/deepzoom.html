@@ -1,0 +1,15 @@
+{{/* Shortcode for open seadragon deep zoom  */}}
+{{- $zoom_id := printf "%s-%d" "openseadragon" .Ordinal -}} {{/* generate unique identifier within page */}}
+{{- $height := default "30em" (.Get "height") -}}
+<div class="deepzoom" id="{{ $zoom_id }}" style="height: {{ $height }}"></div>
+<script>
+OpenSeadragon({
+    id: "{{ $zoom_id }}",
+    prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+    preserveViewport: true,
+    visibilityRatio:    1,
+    minZoomLevel:       1,
+    defaultZoomLevel:   1,
+    tileSources: "{{ if .IsNamedParams }}{{ .Get "tile" }}{{ else }}{{ .Get 0 }}{{ end }}",
+});
+</script>
