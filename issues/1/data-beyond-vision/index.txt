@@ -79,7 +79,7 @@ Rebecca Sutton Koeser
 
 Description This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie. The references have been cataloged and categorized by researchers for Derrida’s Margins. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving, and using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization. Textile work is often stereotyped as women’s work, so this piece also raises questions of gender, art versus craft, and high tech versus low tech.
 
-Insights [tbd]
+  OpenSeadragon({ id: &#34;openseadragon-0&#34;, prefixUrl: &#34;https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/&#34;, preserveViewport: true, visibilityRatio: 1, minZoomLevel: 1, defaultZoomLevel: 1, tileSources: &#34;https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json&#34;, });  Insights [tbd]
 
 Next Steps Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.
 
