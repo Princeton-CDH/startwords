@@ -3,3 +3,4 @@
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     {{ partial "authors" . }}
 </article>
+{{ with .Resources.ByType "image" }} {{ . }} {{ end }}
