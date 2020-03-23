@@ -68,6 +68,9 @@ We invite you to participate in the labor of data work. Download models and inst
 
 ## Folding in the Non-Famous Members of the Shakespeare and Company Library
 
+{{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
+    title="Shakespeare and Company membership origami">}}
+
 ### Goal
 
 The Shakespeare and Company library is most often known by its famous members — the writers of the Lost Generation and their friends. We wanted to highlight the activity of the relatively unknown members — frequently women - who in fact represent a much larger portion of the library's day-to-day activity and thus arguably better represent it. The piece makes use of unit origami to create a larger, cohesive form from small folded units, mirroring the relationship between a single member and the greater bulk of the library.
@@ -89,6 +92,9 @@ Nick Budak, Xinyi Li
 ----
 
 ## Modeling Shakespeare and Company Library Membership
+
+{{<sketchfab id="89985d66f7244d87b7edbe5fd6266f0d"
+    title="Shakespeare and Company membership lollipop chart">}}
 
 ### Goal
 
@@ -125,9 +131,12 @@ With this piece, we aim to literalize the metaphor of weaving as writing by repr
 
 This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie. The references have been cataloged and categorized by researchers for Derrida’s Margins. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving, and using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization. Textile work is often stereotyped as women’s work, so this piece also raises questions of gender, art versus craft, and high tech versus low tech.
 
+{{< deepzoom tile="https://iiif.princeton.edu/loris/iiif/2/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2/info.json" height="10em">}}
+
 ### Insights
 
 [tbd]
+
 
 
 ### Next Steps
