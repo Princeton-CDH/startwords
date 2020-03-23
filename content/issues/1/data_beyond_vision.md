@@ -16,6 +16,8 @@ How do we share tangible objects in a visual medium? We present, describe, use w
 
 <!--more-->
 
+[![folding icon](/folding-dbv-essay.svg")]({{<relref "#folding-in-the-non-famous-members-of-the-shakespeare-and-company-library">}})
+
 In 2017, historian David Staley argued that as humanists have expanded the range of types of texts they study, they should similarly “expand their definition of reading and interpretation by treating creativity as a scholarly act” (40), generating what he calls “interpretive objects” (36) or “humanistic objects” (39) that include but are not limited to text.[^1] While there are movements within Digital Humanities to consider formats “beyond the traditional”, the presentation and publishing of those more innovative and experimental works (such as installations and project demos) is still secondary or sidelined, where it exists at all. Innovative work like this is carefully researched and theorized, and deserves scholarly engagement and intellectual rigor, even if it does not fit into traditional modes of scholarly communication.
 
 
