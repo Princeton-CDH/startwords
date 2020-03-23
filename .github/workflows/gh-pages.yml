@@ -6,7 +6,7 @@ on:
     - master
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,10 +21,6 @@ jobs:
     - name: build site
       run: hugo --minify
 
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
     - name: deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
