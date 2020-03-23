@@ -1,12 +1,9 @@
 name = "startwords"
-license = "MIT"
-licenselink = "https://github.com/Princeton-CDH/startwords/blob/master/themes/startwords/LICENSE"
 description = "Theme for the Startwords research periodical."
-homepage = "https://github.com/vimux/blank/"
 tags = ["journal", "research", "periodical"]
 features = ["blog"]
 min_version = "0.20"
 
 [author]
   name = "Center for Digital Humanities @ Princeton"
-  homepage = "https://github.com/Princeton-CDH"
+  homepage = "https://cdh.princeton.edu/"
