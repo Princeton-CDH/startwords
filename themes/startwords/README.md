@@ -23,6 +23,6 @@ The main architectural goals of this theme are to:
 - Article footnotes are generated as **contextual notes** using…
 - Article illustration capabilities are built in using [IIIF](https://iiif.io/) for images and [Sketchfab](https://sketchfab.com/) for 3D embeddings.
 
-## Structure
+## Information Architecture
 
-**[include GD's structure diagram here]**
+![](https://startwords.cdh.princeton.edu/Information%20Architecture.svg)
