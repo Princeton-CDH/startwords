@@ -62,10 +62,10 @@ Making use of other senses can provide a step towards greater accessibility. The
 
 We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.
 
-[![folding icon](folding-dbv-essay.svg)](#folding-in-the-non-famous-members-of-the-shakespeare-and-company-library)
-[![printing icon](printing-dbv-essay.svg)](#modeling-shakespeare-and-company-library-membership)
-[![weaving icon](weaving-dbv-essay.svg)](#weaving-derridas-references)
-[![stacking icon](stacking-dbv-essay.svg)](#stacking-new-and-continuing-membership-activities-of-shakespeare-and-company-library)
+[![folding icon](images/folding-dbv-essay.svg)](#folding-in-the-non-famous-members-of-the-shakespeare-and-company-library)
+[![printing icon](images/printing-dbv-essay.svg)](#modeling-shakespeare-and-company-library-membership)
+[![weaving icon](images/weaving-dbv-essay.svg)](#weaving-derridas-references)
+[![stacking icon](images/stacking-dbv-essay.svg)](#stacking-new-and-continuing-membership-activities-of-shakespeare-and-company-library)
 
 ----
 
