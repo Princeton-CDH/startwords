@@ -53,6 +53,8 @@ Making use of other senses can provide a step towards greater accessibility. The
 
 We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.
 
+   
+
  Folding in the Non-Famous Members of the Shakespeare and Company Library   Goal The Shakespeare and Company library is most often known by its famous members — the writers of the Lost Generation and their friends. We wanted to highlight the activity of the relatively unknown members — frequently women - who in fact represent a much larger portion of the library&amp;rsquo;s day-to-day activity and thus arguably better represent it. The piece makes use of unit origami to create a larger, cohesive form from small folded units, mirroring the relationship between a single member and the greater bulk of the library.
 
 Description The physicalization contrasts the activity of the well-known members of the library (those linked by researchers to an entry in VIAF) with the activity of its relatively unknown members (no known authority records). Activity is represented by the total number of recorded events that would plausibly have brought members into the library - checking out, renewing, and returning books. By holding the physicalization in two different ways, the user can &amp;ldquo;grasp&amp;rdquo; two separate sets of data: the octahedron (non-famous members) and the cube (famous members). The ratio of the volumes of these two solids is equal to the ratio of the two datasets.
