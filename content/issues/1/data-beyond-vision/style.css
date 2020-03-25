@@ -10,7 +10,7 @@ article::after {
     height: 100%;
     opacity: 0.2;
     z-index: -1;
-    background-image: url('images/weaving-panorama.jpg');
+    background-image: url('images/weaving.jpg');
     background-position-y: top;
     background-position-x: 20vw;
     background-repeat: no-repeat;
