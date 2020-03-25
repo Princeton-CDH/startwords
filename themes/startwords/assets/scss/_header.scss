@@ -1,0 +1,37 @@
+/* header styles */
+
+header {
+    flex: none;
+    position: fixed;
+
+    nav {
+        /* sideways-rl is only available in ff currently, so we
+           use vertical-rl and rotate it to get the same effect */
+        transform: rotate(180deg);
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+
+        ol, ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: $gutter-xs;
+            text-align: right;
+        }
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    nav[aria-label=main] {
+        left: 0;
+    }
+
+    nav[aria-label=breadcrumbs] {
+        right: -100vw;
+    }
+}

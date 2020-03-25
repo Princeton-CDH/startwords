@@ -1,3 +1,10 @@
 // Startwords stylesheet
-@import 'global';
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
 @import 'a11y';
+@import 'global';
+@import 'header';
+@import 'footer';
+@import 'home';
+@import 'article';

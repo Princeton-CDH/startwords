@@ -1,0 +1,15 @@
+/* homepage styles */
+
+.logotype {
+    display: block;
+    margin: 0 auto;
+}
+
+.issue-preview {
+    max-width: 240px;
+    margin: 0 auto;
+
+    @media (min-width: 420px) {
+        max-width: 320px;
+    }
+}
