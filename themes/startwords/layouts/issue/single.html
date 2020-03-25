@@ -1,3 +1,9 @@
+{{ define "css" }}
+    {{ range .Resources.Match "*.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+{{ end }}
+
 {{ define "pagetype" }}issue{{ end }}
 
 {{ define "main" }}
