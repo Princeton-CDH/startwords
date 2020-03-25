@@ -2,18 +2,22 @@
 
 {{ define "main" }}
 <main>
-    <div class="issue-preview">
-        <h1 class="sr-only">{{ .Site.Title }}</h1>
-        <img alt="" class="logotype" src="/logotype.svg"/>
+    <h1 class="sr-only">{{ .Site.Title }}</h1>
+    <img alt="" class="logotype" src="/logotype.svg"/>
+    <div class="issue-summary">
         {{ range first 1 (where .Site.AllPages "Type" "issue") }}
-        <span>Issue {{ .Params.number }}</span>
-        <h2><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
-        <p>{{ .Summary }}</p>
+        <span class="number">Issue {{ .Params.number }}</span>
+        <h2 class="theme"><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
+        <p class="summary">{{ .Summary }}</p>
         {{ end }}
     </div>
     {{ range first 2 (where .Site.AllPages "Type" "article") }}
     {{ .Render "summary" }}
     {{ end }}
-    {{ with .Content }}{{ . }}{{ end }}
+    {{ with .Content }}
+    <div class="content">
+        {{ . }}
+    </div>
+    {{ end }}
 </main>
 {{ end }}

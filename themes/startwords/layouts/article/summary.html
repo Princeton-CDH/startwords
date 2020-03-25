@@ -1,5 +1,7 @@
 <article class="article-summary">
-    {{ .Summary }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <a href="{{ .Permalink }}">
+        {{ .Summary }}
+        <h2>{{ .Title }}</h2>
+    </a>
     {{ partial "authors" . }}
 </article>

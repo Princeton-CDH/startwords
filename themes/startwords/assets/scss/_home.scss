@@ -1,15 +1,30 @@
 /* homepage styles */
 
-.logotype {
-    display: block;
-    margin: 0 auto;
-}
+// variables
+$issue-preview-width-xs: rem(240px);
+$issue-preview-width-s:  rem(320px);
 
-.issue-preview {
-    max-width: 240px;
-    margin: 0 auto;
-
-    @media (min-width: 420px) {
-        max-width: 320px;
+.home {
+    .logotype {
+        display: block;
+        margin: rem(50px) auto;
+    }
+    
+    .issue-summary {
+        max-width: $issue-preview-width-xs;
+        margin: 0 auto rem(10px);
+    
+        @media (min-width: 420px) {
+            max-width: $issue-preview-width-s;
+        }
+    }
+    
+    main > .content {
+        display: block;
+        float: left;
+        margin-left: rem(-20px);
+        width: 100vw;
+        color: $dark-grey;
+        background: $off-white;
     }
 }

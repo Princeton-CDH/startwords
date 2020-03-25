@@ -1,7 +1,11 @@
-// global styles
+/* global styles */
+
+// variables
+$gutter-xs: rem(20px);
+
 html {
     scroll-behavior: smooth;
-    font-size: 18px;
+    font-size: $base-font-size;
 }
 
 body {
@@ -15,7 +19,6 @@ body {
 main {
     margin: 0 $gutter-xs;
     flex: 1;
-    margin-bottom: $footer-height;
 }
 
 article {

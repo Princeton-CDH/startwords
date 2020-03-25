@@ -6,13 +6,18 @@ $light-grey:   #E9E9E9;
 $light-purple: #E0CEFF;
 $purple:       #4C2A85;
 $dark-purple:  #3D206C;
+$dark-grey:    #404040;
 $black:        #000000;
 $red:          #CE2949;
 
-// font stacks
+// font controls
 $font-sans:  'Source Sans Pro', 'Arial', sans-serif;
 $font-serif: 'IBM Plex Serif', 'Palatino', serif;
+$base-font-size: 18px; // = 1rem
 
-// layout
-$gutter-xs: 20px;
-$footer-height: 100px;
+// breakpoints
+$breakpoint-xs: 320px;
+$breakpoint-s:  768px;
+$breakpoint-m:  1024px;
+$breakpoint-l:  1280px;
+$breakpoint-xl: 1440px;
