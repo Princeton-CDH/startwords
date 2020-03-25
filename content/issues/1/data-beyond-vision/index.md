@@ -62,14 +62,14 @@ Making use of other senses can provide a step towards greater accessibility. The
 
 We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.
 
-[![folding icon](images/folding-dbv-essay.svg)](#folding-in-the-non-famous-members-of-the-shakespeare-and-company-library)
-[![printing icon](images/printing-dbv-essay.svg)](#modeling-shakespeare-and-company-library-membership)
-[![weaving icon](images/weaving-dbv-essay.svg)](#weaving-derridas-references)
-[![stacking icon](images/stacking-dbv-essay.svg)](#stacking-new-and-continuing-membership-activities-of-shakespeare-and-company-library)
+[![view folding section](images/icon-folding.svg)](#folding)
+[![view modeling section](images/icon-printing.svg)](#modeling)
+[![view weaving section](images/icon-weaving.svg)](#weaving)
+[![view stacking section](images/icon-stacking.svg)](#stacking)
 
 ----
 
-## Folding in the Non-Famous Members of the Shakespeare and Company Library
+## Folding in the Non-Famous Members of the Shakespeare and Company Library {#folding}
 
 {{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
     title="Shakespeare and Company membership origami">}}
@@ -94,7 +94,7 @@ Nick Budak, Xinyi Li
 
 ----
 
-## Modeling Shakespeare and Company Library Membership
+## Modeling Shakespeare and Company Library Membership {#modeling}
 
 {{<sketchfab id="89985d66f7244d87b7edbe5fd6266f0d"
     title="Shakespeare and Company membership lollipop chart">}}
@@ -121,7 +121,7 @@ Rebecca Sutton Koeser
 
 ----
 
-## Weaving Derrida’s references
+## Weaving Derrida’s references {#weaving}
 
 > … we all of us, grave or light, get our thoughts entangled in metaphors…
 — George Eliot, Middlemarch
@@ -150,7 +150,7 @@ Rebecca Sutton Koeser, Gissoo Doroudian
 
 -----
 
-## Stacking New and Continuing Membership Activities of Shakespeare and Company Library
+## Stacking New and Continuing Membership Activities of Shakespeare and Company Library {#stacking}
 
 ### Goal
 
