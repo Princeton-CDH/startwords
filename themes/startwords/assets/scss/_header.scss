@@ -18,7 +18,6 @@ header {
             margin: 0;
             padding: 0;
             list-style: none;
-            width: $gutter;
             text-align: right;
         }
 
@@ -29,6 +28,58 @@ header {
 
     nav[aria-label=main] {
         left: 0;
+
+        ul {
+            position: relative;
+            left: rem(-34px);
+        }
+
+        li {
+            position: absolute;
+            width: rem(34px);
+            transform: rotate(180deg);
+        }
+
+        a {
+            position: relative;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            span, img {
+                position: absolute;
+            }
+        }
+
+        .home {
+            background: $red;
+            position: absolute;
+            height: rem(100px);
+            bottom: 0;
+            clip-path: path("M-6.00153e-07 1.39876e-06L3.8147e-06 101L32 19.1852L23.6325 3.65754e-07L-6.00153e-07 1.39876e-06Z");
+
+            img {
+                top: rem(5px);
+                left: rem(6px);
+            }
+        }
+
+        .issues {
+            background: $dark-purple;
+            height: rem(145px);
+            bottom: rem(20px);
+            z-index: 1;
+            clip-path: path("M31.9999 144.789L31.9999 1.39876e-06L-3.57511e-06 81.7891L-3.57511e-06 126.289L8.36741 144.789L31.9999 144.789Z");
+
+            a { transform: rotate(180deg); }
+
+            span {
+                font-size: rem(22px);
+                top: rem(18px);
+                right: rem(3px);
+            }
+        }
     }
 
     nav[aria-label=breadcrumbs] {
