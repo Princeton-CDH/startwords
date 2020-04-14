@@ -1,0 +1,34 @@
+/* issue list, detail, & summary styles */
+
+// global
+.number,
+.theme {
+    font-family: $font-sans;
+}
+
+// summary
+.issue-summary {
+    a:not(.more) { text-decoration: none; }
+
+    .number,
+    .theme {
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .number {
+        font-weight: 300;
+        font-size: rem(16px);
+    }
+
+    .theme {
+        font-weight: 900;
+        font-size: rem(20px);
+        margin: rem(5px) 0 0;
+    }
+
+    .summary {
+        line-height: rem(25px);
+        margin: rem(10px) 0 0;
+    }
+}

@@ -1,5 +1,8 @@
 <article class="article-summary">
-    {{ .Summary }}
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="bg-text" role="presentation">{{ .Summary | plainify }}</div>
+    <a href="{{ .Permalink }}">
+        <p>{{ .Summary | plainify }}</p>
+        <h2>{{ .Title }}</h2>
+    </a>
     {{ partial "authors" . }}
 </article>

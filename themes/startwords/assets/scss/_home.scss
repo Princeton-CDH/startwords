@@ -1,0 +1,79 @@
+/* homepage styles */
+
+.home {
+    .logotype {
+        width: 100%;
+        grid-column: 2 / 10;
+        margin: rem(50px) 0;
+        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+    }
+    
+    // slightly relaxed margins on tablet
+    .issue-summary {
+        grid-column: 2 / 10;
+        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+
+        a.more {
+            display: inline-block;
+            margin-top: rem(10px);
+            margin-left: 50%;
+        }
+    }
+
+    // slightly relaxed margins on tablet
+    main > .container {
+        grid-column: 1 / 11;
+        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+    }
+
+    main > .content {
+        grid-column: 1 / 11;
+        box-sizing: border-box;
+        margin-left: rem(-$gutter);
+        width: 100vw;
+        margin-top: rem(60px);
+        color: $dark-grey;
+        background: $off-white;
+        padding-top: rem($gutter);
+        padding-left: rem($gutter);
+        padding-right: rem($gutter);
+        padding-bottom: rem(50px);
+        @media (min-width: $breakpoint-s) {
+            padding-left: rem(60px);
+            padding-right: rem(60px);
+        }
+
+        dt { font-style: italic; }
+        abbr { font-style: normal; }
+
+        a {
+            color: inherit;
+        }
+    }
+    
+    /*
+    main > .content {
+        w
+        margin-left: rem(-$gutter);
+        // margin-right: rem(-$gutter);
+        margin-top: rem(60px);
+        padding: rem($gutter);    
+        /*
+        margin-top: rem(60px);
+        margin-left: rem(-$gutter);
+        padding: rem($gutter);
+        width: calc(100vw - 2 * #{$gutter});
+        */
+
+
+        /*
+        @media (min-width: $breakpoint-s) {
+            margin-left: rem(-$gutter);
+            padding: rem($gutter);
+            width: calc(100vw - 2 * #{$gutter});
+        }
+        
+        
+    }
+    */
+}

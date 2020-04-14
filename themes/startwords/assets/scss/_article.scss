@@ -1,0 +1,139 @@
+/* article list, detail, & summary styles */
+
+// variables
+$frame-height: rem(320px);
+
+// global
+.authors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    address {
+        font-family: $font-sans;
+        font-style: normal;
+    }
+}
+
+.pubdate {
+    display: block;
+    font-family: $font-sans;
+}
+
+// summary
+.article-summary {
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: rem(16px);
+    font-family: $font-sans;
+    position: relative;
+
+    a { text-decoration: none; }
+
+    p {
+        line-height: rem(22px);
+        position: relative;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .authors, h2 { font-size: rem(18px); }
+
+    // background text
+    .bg-text {
+        position: absolute;
+        width: 50vw;
+        z-index: -1;
+        color: rgba(224, 206, 255, 0.05);
+        top: rem(-25px);
+
+        @media (min-width: $breakpoint-s) {
+            font-size: rem(30px);
+            top: rem(-50px);
+        }
+    }
+
+    // text-shaping elements
+    .bg-text::before,
+    p::before {
+        content: '';
+        width: 100%;
+        height: 200px;
+    }
+
+    // left/first preview
+    &:first-of-type {
+        text-align: left;
+
+        .bg-text {
+            text-align: left;
+            right: 0;
+        }
+
+        p::before,
+        .bg-text::before {
+            float: right;
+            shape-outside: $triangle-left;
+        }
+
+        // red arrow
+        h2::after {
+            content: url('/link-arrow-right.svg');
+            vertical-align: top;
+            padding-left: 5px;
+            transition: padding 0.2s ease;
+        }
+    }
+
+    // right/second preview
+    &:last-of-type {
+        text-align: right;
+
+        .bg-text {
+            left: 0;
+        }
+
+        p::before,
+        .bg-text::before {
+            float: left;
+            shape-outside: $triangle-right;
+        }
+
+        // red arrow
+        h2::before {
+            content: url('/link-arrow-left.svg');
+            vertical-align: top;
+            padding-right: rem(5px);
+            transition: padding 0.2s ease;
+        }
+    }
+
+    // animate link arrows
+    a:hover,
+    a:focus {
+        h2::before { padding-right: rem(10px); }
+        h2::after { padding-left: rem(10px); }
+    }
+
+    .inverted & {
+        color: $light-purple;
+        
+        a, a:visited {
+            color: $light-purple;
+        }
+    }
+}
+
+// detail
+.sketchfab-embed-wrapper > iframe {
+    width: 100%;
+    height: $frame-height;
+}
+
+.deepzoom {
+    width: 100%;
+}

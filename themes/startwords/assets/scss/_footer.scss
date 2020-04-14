@@ -1,0 +1,24 @@
+/* footer styles */
+
+// variables
+$footer-height: rem(100px);
+
+footer {
+    background: $light-grey;
+    height: $footer-height;
+    width: 100vw;
+    bottom: 0;
+    text-align: right;
+    font-weight: 300;
+
+    .inverted & {
+        color: $off-white;
+        background-color: $dark-purple;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -7,16 +7,18 @@
 {{ define "pagetype" }}article{{ end }}
 
 {{ define "main" }}
-<article>
-    <p class="number">Issue {{ .Parent.Params.number }}</p>
-    <p class="theme">{{ .Parent.Params.theme }}</p>
-    <h1>{{ .Params.Title }}</h1>
-    {{ partial "authors" . }}
-    {{ partial "pubdate" . }}
-    {{ with  .OutputFormats.Get "txt" -}}
-    <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
-    {{- end }}
-    {{ .Content }}
-</article>
+<main>
+    <article>
+        <p class="number">Issue {{ .Parent.Params.number }}</p>
+        <p class="theme">{{ .Parent.Params.theme }}</p>
+        <h1>{{ .Params.Title }}</h1>
+        {{ partial "authors" . }}
+        {{ partial "pubdate" . }}
+        {{ with  .OutputFormats.Get "txt" -}}
+        <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+        {{- end }}
+        {{ .Content }}
+    </article>
+</main>
 {{ end }}
         

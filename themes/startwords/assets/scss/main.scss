@@ -1,3 +1,11 @@
 // Startwords stylesheet
-@import 'global';
+@import 'variables';
+@import 'utilities';
+@import 'fonts';
 @import 'a11y';
+@import 'global';
+@import 'header';
+@import 'footer';
+@import 'home';
+@import 'article';
+@import 'issue';

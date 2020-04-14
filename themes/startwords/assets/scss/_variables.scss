@@ -1,0 +1,32 @@
+/* style configuration */
+
+// colors
+$off-white:    #F6F6F6;
+$light-grey:   #E9E9E9;
+$light-purple: #E0CEFF;
+$purple:       #4C2A85;
+$dark-purple:  #3D206C;
+$dark-grey:    #404040;
+$black:        #000000;
+$red:          #CE2949;
+
+// font controls
+$font-sans:  'Source Sans Pro', 'Arial', sans-serif;
+$font-serif: 'IBM Plex Serif', 'Palatino', serif;
+$base-font-size: 18px; // = 1rem
+
+// breakpoints
+$breakpoint-xs: 320px;
+$breakpoint-s:  768px;
+$breakpoint-m:  1024px;
+$breakpoint-l:  1280px;
+$breakpoint-xl: 1440px;
+
+// layout
+$gutter: 15px;
+$grid-gap: 10px;
+$grid-column: calc((100vw - (2 * #{$gutter}) - (9 * #{$grid-gap})) / 10);
+
+// shapes
+$triangle-left: polygon(0% 0%, 100% 0%, 100% 50%, 0% 0%);
+$triangle-right: polygon(0% 50%, 0% 0%, 100% 0%, 0% 50%);

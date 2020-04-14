@@ -1,6 +1,7 @@
 {{ define "pagetype" }}issue-list{{ end }}
 
 {{ define "main" }}
+<main>
     {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
     {{ with .Content }}{{ . }}{{ end }}
     {{ with .Sections }}
@@ -14,4 +15,5 @@
     {{ else }}
     <p>First issue to be released March 2020.</p>
     {{ end }}
+</main>
 {{ end }}

@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {{ $favicon_path := "/img/favicon" | relURL}}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ $favicon_path }}/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon_path }}/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon_path }}/favicon-16x16.png" />
+    <link rel="shortcut icon" href="{{ $favicon_path }}/favicon.ico" />
+    <link rel="manifest" href="{{ $favicon_path }}/site.webmanifest" />
+    <link rel="mask-icon" href="{{ $favicon_path }}/safari-pinned-tab.svg" color="#ff0000" />
+    <meta name="theme-color" content="#ff0000" />
+
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
@@ -14,11 +23,10 @@
     {{ $printOptions := (dict "targetPath" "print.css" "outputStyle" "compressed" "enableSourcemap" true) }}
     {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $styleOptions }}
     {{ $print := resources.Get "scss/print.scss" | resources.ToCSS $printOptions }}
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,700|Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
     {{ block "css" . }}{{ end }}
-    
+
     <!-- alternative formats -->
     {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
@@ -31,7 +39,7 @@
 </head>
 <body class="{{ block `pagetype` . }}{{ end }}">
     {{ partial "header" . }}
-    <main>{{ block "main" . }}{{ end }}</main>
+    {{ block "main" . }}{{ end }}
     {{ partial "footer" . }}
 </body>
 </html>
