@@ -1,6 +1,6 @@
 <article class="article-summary">
     <a href="{{ .Permalink }}">
-        {{ .Summary }}
+        <p>{{ .Summary | plainify }}</p>
         <h2>{{ .Title }}</h2>
     </a>
     {{ partial "authors" . }}

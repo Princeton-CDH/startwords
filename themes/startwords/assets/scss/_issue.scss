@@ -8,9 +8,7 @@
 
 // summary
 .issue-summary {
-    a {
-        text-decoration: none;
-    }
+    a:not(.more) { text-decoration: none; }
 
     .number,
     .theme {

@@ -1,8 +1,5 @@
 /* global styles */
 
-// variables
-$gutter-xs: rem(20px);
-
 html {
     scroll-behavior: smooth;
     font-size: $base-font-size;
@@ -17,8 +14,11 @@ body {
 }
 
 main {
-    margin: 0 $gutter-xs;
+    margin: 0 $gutter;
     flex: 1;
+    display: grid;
+    grid-template-columns: repeat(10, $grid-column);
+    column-gap: $grid-gap;
 }
 
 article {
@@ -31,4 +31,13 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:visited {
     color: $dark-purple;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+dd {
+    margin-top: rem(8px);
+    margin-left: rem(16px);
 }

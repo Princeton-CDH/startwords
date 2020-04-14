@@ -21,3 +21,8 @@ $breakpoint-s:  768px;
 $breakpoint-m:  1024px;
 $breakpoint-l:  1280px;
 $breakpoint-xl: 1440px;
+
+// layout
+$gutter: 15px;
+$grid-gap: 10px;
+$grid-column: calc((100vw - (2 * #{$gutter}) - (9 * #{$grid-gap})) / 10);
