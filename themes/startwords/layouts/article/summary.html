@@ -1,4 +1,5 @@
 <article class="article-summary">
+    <div class="bg-text" role="presentation">{{ .Summary | plainify }}</div>
     <a href="{{ .Permalink }}">
         <p>{{ .Summary | plainify }}</p>
         <h2>{{ .Title }}</h2>

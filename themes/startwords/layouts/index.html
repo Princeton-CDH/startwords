@@ -9,7 +9,8 @@
         <span class="number">Issue {{ .Params.number }}</span>
         <h2 class="theme"><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
         <p class="summary">{{ .Summary }}</p>
-        <a class="more" href="{{ .Permalink }}">Read more</a>
+        <a class="more" href="{{ .Permalink }}"
+            aria-label="Issue {{ .Params.number }}">read more</a>
         {{ end }}
     </div>
     <div class="container">

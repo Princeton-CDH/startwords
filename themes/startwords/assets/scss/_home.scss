@@ -12,6 +12,12 @@
     .issue-summary {
         grid-column: 2 / 10;
         @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+
+        a.more {
+            display: inline-block;
+            margin-top: rem(10px);
+            margin-left: 50%;
+        }
     }
 
     // slightly relaxed margins on tablet
