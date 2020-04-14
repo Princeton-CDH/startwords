@@ -3,6 +3,7 @@
 header {
     flex: none;
     position: fixed;
+    z-index: 1;
 
     nav {
         /* sideways-rl is only available in ff currently, so we
@@ -68,7 +69,7 @@ header {
         .issues {
             background: $dark-purple;
             height: rem(145px);
-            bottom: rem(20px);
+            bottom: rem(19px);
             z-index: 1;
             clip-path: path("M31.9999 144.789L31.9999 1.39876e-06L-3.57511e-06 81.7891L-3.57511e-06 126.289L8.36741 144.789L31.9999 144.789Z");
 
