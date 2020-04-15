@@ -35,7 +35,7 @@
         padding-top: rem($gutter);
         padding-left: rem($gutter);
         padding-right: rem($gutter);
-        padding-bottom: rem(50px);
+        padding-bottom: calc(#{rem(10px)} + #{$footer-height});
         @media (min-width: $breakpoint-s) {
             padding-left: rem(60px);
             padding-right: rem(60px);
@@ -62,5 +62,9 @@
                 }
             }
         }
+    }
+
+    footer {
+        margin-top: -$footer-height;
     }
 }
