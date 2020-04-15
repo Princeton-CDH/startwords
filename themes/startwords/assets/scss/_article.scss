@@ -107,6 +107,7 @@ $frame-height: rem(320px);
     &:last-of-type {
         float: right;
         text-align: right;
+        margin-top: rem(40px);
 
         .bg-text {
             left: 0;
