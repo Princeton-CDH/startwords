@@ -1,6 +1,16 @@
 /* issue summary/preview styles */
 
 .issue-summary {
+    color: $black;
+    font-size: rem(16px);
+    position: relative;
+
+    .inverted & {
+        color: $off-white;
+
+        .theme, .theme a { color: $light-purple; }
+    }
+
     a:not(.more) { text-decoration: none; }
 
     .number,
@@ -8,20 +18,25 @@
         display: block;
         text-transform: uppercase;
     }
+    
+    .pubdate,
+    .number {
+        margin: 0 0 0 rem(40px);
+    }
 
     .number {
-        font-weight: 300;
-        font-size: rem(16px);
+        font-weight: bold;
     }
 
     .theme {
         font-weight: 900;
-        font-size: rem(20px);
-        margin: rem(5px) 0 0;
+        font-size: rem(60px);
+        word-wrap: break-word;
+        margin: 0;
+        color: $transparent-grey;
     }
 
     .summary {
         line-height: rem(25px);
-        margin: rem(10px) 0 0;
     }
 }
