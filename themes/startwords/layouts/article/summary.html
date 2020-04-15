@@ -5,4 +5,7 @@
         <h2>{{ .Title }}</h2>
     </a>
     {{ partial "authors" . }}
+    {{ with .Params.doi }}
+    <a class="doi" href="https://doi.org/{{ . }}">{{ . }}</a>
+    {{ end }}
 </article>
