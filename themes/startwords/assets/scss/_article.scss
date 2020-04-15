@@ -20,6 +20,8 @@ $frame-height: rem(320px);
     font-family: $font-sans;
 }
 
+.doi::before { content: 'doi:'; }
+
 // summary
 .article-summary {
     display: block;
