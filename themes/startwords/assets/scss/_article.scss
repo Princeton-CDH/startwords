@@ -3,6 +3,8 @@
 // variables
 $frame-height: rem(320px);
 
+main article { grid-column: 1 / 11; }
+
 // global
 .authors {
     list-style: none;
@@ -121,7 +123,7 @@ $frame-height: rem(320px);
 
     .inverted & {
         color: $light-purple;
-        
+
         a, a:visited {
             color: $light-purple;
         }
