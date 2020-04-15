@@ -1,0 +1,76 @@
+.footnotes {
+
+    ol {
+        /* remove side margin/padding on ol so target li can be full width */
+        margin: 0 -20px 50px;
+        padding-inline-start: 0;
+        counter-reset: footnoteCounter;
+        padding-bottom: 50px;
+    }
+
+    li {
+        counter-increment: footnoteCounter;
+        margin: 0 2.5rem;
+    }
+
+    /* active footnote */
+    li:target {
+        clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
+        background: $purple;
+
+        display: block;
+        position: fixed;
+        width: 100vw;  /* full-width on mobile */
+        margin: 0;
+        padding-top: rem(140px);
+        bottom: 0;
+
+        font-family: IBM Plex Serif;
+        font-size: rem(16px);
+        line-height: rem(22px);
+        color: $off-white;
+
+        /* 320px wide on tablet; preliminary position */
+        @media (min-width: $breakpoint-s) {
+            width: rem(320px);
+            right: rem(50px);
+            bottom: 12rem;
+        }
+
+        &::before {
+            /* display footnote number */
+            content: counters(footnoteCounter, ".");
+            position: absolute;
+            right: rem(25px);
+            top: rem(50px);
+            font-size: 200%;
+            color: $red;
+        }
+
+        p {
+            padding: rem(15px);
+            margin: 0;
+        }
+
+        a {
+            color: $off-white;
+        }
+
+        $arrow-icon-size: 26px;
+
+        a[role=doc-backlink] {
+            position: absolute;
+            top: rem(5px);
+            right: rem(57px);  /* arrow point is 70x from right; subtract ~1/2 icon size */
+            width: $arrow-icon-size;
+            height: $arrow-icon-size;
+            color: transparent;  /* make text transparent */
+            display: block;
+            text-decoration: none;
+            /* set icon as background image */
+            background-image: url(/img/icons/downward-arrow-circle.svg);
+
+        }
+    }
+
+}
