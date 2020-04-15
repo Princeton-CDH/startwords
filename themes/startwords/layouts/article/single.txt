@@ -15,7 +15,7 @@
 |
 |  {{ .Permalink }}
 |
-|  {{ if .Params.DOI }}DOI: {{ .Params.DOI }}{{ end }}
+|  {{ if .Params.doi }}DOI: {{ .Params.doi }}{{ end }}
 |
 +---------------------------------------------------------------->
 |

@@ -5,7 +5,7 @@ article_number: 2
 authors:
     - Rebecca Munson
 date: 2020-01-01
-DOI: 10.5281/zenodo.3713678
+doi: 10.5281/zenodo.3713678
 ---
 When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying either, not the dying of storybooks, but children (well, teenagers) who were terminally ill.
 <!--more-->

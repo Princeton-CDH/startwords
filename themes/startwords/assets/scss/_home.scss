@@ -11,12 +11,10 @@
     // slightly relaxed margins on tablet
     .issue-summary {
         grid-column: 2 / 10;
-        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
 
         a.more {
-            display: inline-block;
-            margin-top: rem(10px);
-            margin-left: 50%;
+            font-size: rem(16px);
         }
     }
 
@@ -48,32 +46,21 @@
 
         a {
             color: inherit;
+            text-decoration: none;
+
+            dl dd:last-child::after {
+                content: url('/link-arrow-right.svg');
+                vertical-align: top;
+                padding-left: rem(5px);
+                transition: padding 0.2s ease;
+            }
+
+            &:hover,
+            &:active {
+                dl dd:last-child::after {
+                    padding-left: rem(10px);
+                }
+            }
         }
     }
-    
-    /*
-    main > .content {
-        w
-        margin-left: rem(-$gutter);
-        // margin-right: rem(-$gutter);
-        margin-top: rem(60px);
-        padding: rem($gutter);    
-        /*
-        margin-top: rem(60px);
-        margin-left: rem(-$gutter);
-        padding: rem($gutter);
-        width: calc(100vw - 2 * #{$gutter});
-        */
-
-
-        /*
-        @media (min-width: $breakpoint-s) {
-            margin-left: rem(-$gutter);
-            padding: rem($gutter);
-            width: calc(100vw - 2 * #{$gutter});
-        }
-        
-        
-    }
-    */
 }
