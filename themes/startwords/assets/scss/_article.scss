@@ -23,13 +23,12 @@ $frame-height: rem(320px);
 // summary
 .article-summary {
     display: block;
-    float: left;
-    width: 50%;
+    width: 48%;
     font-size: rem(16px);
     font-family: $font-sans;
     position: relative;
 
-    a { text-decoration: none; }
+    a:not(.doi) { text-decoration: none; }
 
     p {
         line-height: rem(22px);
@@ -43,13 +42,21 @@ $frame-height: rem(320px);
 
     .authors, h2 { font-size: rem(18px); }
 
+    .doi {
+        display: block;
+        font-weight: 300;
+        margin-top: rem(10px);
+        word-wrap: break-word;
+    }
+
     // background text
     .bg-text {
         position: absolute;
-        width: 50vw;
+        width: 48vw;
         z-index: -1;
         color: rgba(224, 206, 255, 0.05);
         top: rem(-25px);
+        font-size: rem(20px);
 
         @media (min-width: $breakpoint-s) {
             font-size: rem(30px);
@@ -67,6 +74,7 @@ $frame-height: rem(320px);
 
     // left/first preview
     &:first-of-type {
+        float: left;
         text-align: left;
 
         .bg-text {
@@ -80,17 +88,22 @@ $frame-height: rem(320px);
             shape-outside: $triangle-left;
         }
 
+        // create space for arrow movement
+        h2 { margin-right: rem(-10px); }
+
         // red arrow
         h2::after {
             content: url('/link-arrow-right.svg');
             vertical-align: top;
-            padding-left: 5px;
+            padding-left: rem(5px);
             transition: padding 0.2s ease;
+            white-space: nowrap;
         }
     }
 
     // right/second preview
     &:last-of-type {
+        float: right;
         text-align: right;
 
         .bg-text {
@@ -103,12 +116,16 @@ $frame-height: rem(320px);
             shape-outside: $triangle-right;
         }
 
+        // create space for arrow movement
+        h2 { margin-left: rem(-10px); }
+
         // red arrow
         h2::before {
             content: url('/link-arrow-left.svg');
             vertical-align: top;
             padding-right: rem(5px);
             transition: padding 0.2s ease;
+            white-space: nowrap;
         }
     }
 
