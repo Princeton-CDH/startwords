@@ -10,15 +10,75 @@ footer {
     bottom: 0;
     text-align: right;
     font-weight: 300;
+    font-size: rem(16px);
+    clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
+    position: relative;
 
     .inverted & {
         color: $off-white;
         background-color: $dark-purple;
+
+        a, a:visited {
+            color: $off-white;
+        }
+
+        img.logo {
+            filter: invert(100%);
+        }
     }
 
     ul {
         list-style: none;
         margin: 0;
         padding: 0;
+        padding-top: rem(17px);
+        padding-right: rem(30px);
     }
+
+    a, a:visited {
+        text-decoration: none;
+        color: $black;
+    }
+
+    .icons {
+        position: absolute;
+        right: rem(10px);
+        bottom: rem(10px);
+
+        @media (min-width: $breakpoint-s) {
+            right: rem(15px);
+            bottom: rem(15px);
+
+        }
+
+        a {
+            margin-left: rem(7px);
+        }
+
+        .logo {
+            mask-size: contain;
+            mask-mode: alpha;
+            background-color: $black;
+            display: inline-block;
+
+            .inverted & {
+                background-color: $off-white;
+            }
+        }
+
+        #startwords {
+         -webkit-mask-image: url(/img/logos/startwords.svg);
+          mask-image: url(/img/logos/startwords.svg);
+          width: rem(15px);
+          height: rem(33px);
+        }
+
+        #cdh {
+         -webkit-mask-image: url(/img/logos/cdh.svg);
+          mask-image: url(/img/logos/cdh.svg);
+          width: rem(37px);
+          height: rem(28px);
+        }
+    }
+
 }
