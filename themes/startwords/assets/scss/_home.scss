@@ -6,12 +6,14 @@
         grid-column: 2 / 10;
         margin: rem(50px) 0;
         @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+        @media (min-width: $breakpoint-m) { grid-column: 5 / 7; }
     }
     
     // slightly relaxed margins on tablet
     .issue-summary {
         grid-column: 2 / 10;
         @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
 
         a.more {
             font-size: rem(16px);
@@ -22,6 +24,7 @@
     main > .container {
         grid-column: 1 / 11;
         @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
     }
 
     main > .content {
