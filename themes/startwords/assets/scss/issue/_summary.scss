@@ -1,12 +1,5 @@
-/* issue list, detail, & summary styles */
+/* issue summary/preview styles */
 
-// global
-.number,
-.theme {
-    font-family: $font-sans;
-}
-
-// summary
 .issue-summary {
     a:not(.more) { text-decoration: none; }
 

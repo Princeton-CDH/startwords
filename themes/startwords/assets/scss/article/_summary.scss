@@ -1,26 +1,5 @@
-/* article list, detail, & summary styles */
+/* article summary styles */
 
-// variables
-$frame-height: rem(320px);
-
-// global
-.authors {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    address {
-        font-family: $font-sans;
-        font-style: normal;
-    }
-}
-
-.pubdate {
-    display: block;
-    font-family: $font-sans;
-}
-
-// summary
 .article-summary {
     display: block;
     width: 48%;
@@ -143,14 +122,4 @@ $frame-height: rem(320px);
             color: $light-purple;
         }
     }
-}
-
-// detail
-.sketchfab-embed-wrapper > iframe {
-    width: 100%;
-    height: $frame-height;
-}
-
-.deepzoom {
-    width: 100%;
 }

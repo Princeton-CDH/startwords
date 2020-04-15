@@ -1,4 +1,6 @@
-// Startwords stylesheet
+/* Startwords stylesheet */
+
+// basics
 @import 'variables';
 @import 'utilities';
 @import 'fonts';
@@ -7,5 +9,14 @@
 @import 'header';
 @import 'footer';
 @import 'home';
-@import 'article';
-@import 'issue';
+
+// articles
+@import 'article/global';
+@import 'article/single';
+@import 'article/summary';
+
+// issues
+@import 'issue/global';
+@import 'issue/list';
+@import 'issue/single';
+@import 'issue/summary';
