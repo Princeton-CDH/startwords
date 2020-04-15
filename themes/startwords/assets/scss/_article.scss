@@ -163,3 +163,9 @@ a.footnote-ref {
 .deepzoom {
     width: 100%;
 }
+
+/* hide assets only used for pdf */
+.print-only {
+    display: none;
+}
+

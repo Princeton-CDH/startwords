@@ -1,1 +1,68 @@
 // print styles
+@import 'variables';
+
+@page {
+  size: letter;
+  margin: 62px 20px 45px;
+  // margin: 62px 95px 45px 120px;
+
+  @top-left {
+    content: string(title);
+    font-weight: 300;
+    font-size: 11px;
+  }
+
+  @top-right {
+    content: element(page-header);
+  }
+
+  @bottom-right {
+    content: counter(page);
+    font-size: 11px;
+  }
+}
+
+@page:first {
+    /* don't display article title on first page */
+    @top-left {
+        content: '';
+    }
+    @top-right {
+        content: element(first-page-header);
+    }
+}
+
+
+h1 { string-set: title content() }
+
+body {
+    font-family: $font-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+main {
+    margin: 0 88px;
+}
+
+header, nav, footer {
+    display: none;
+}
+
+h2, section.footnotes {
+    page-break-before: always;
+}
+
+.print-only {
+    display: block;
+}
+
+a.page-header {
+    position: running(page-header);
+}
+a.first-page-header {
+    position: running(first-page-header);
+}
+
+
+// a::after { content: ", see " target-text(attr(href)) }
