@@ -30,7 +30,7 @@
     {{ $notes := resources.Get "js/notes.js" }}
     {{/*     {{ $global := resources.Get "js/global.js" }} */}}
     {{ $js := slice $notes | resources.Concat "js/bundle.js" | resources.Minify}}
-    <script type="text/javascript" src="{{ $js.Permalink }}"></script>
+    <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
 
     <!-- alternative formats -->
     {{ range .AlternativeOutputFormats -}}
