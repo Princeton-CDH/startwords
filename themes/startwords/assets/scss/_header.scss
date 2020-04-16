@@ -59,7 +59,7 @@ header {
             height: rem(100px);
             bottom: 0;
             clip-path: polygon(0px 0px, 0px 101px, 32px 19.2px, 23.6px 0px, 0px 0px);
-            
+
             img {
                 top: rem(5px);
                 left: rem(6px);
@@ -73,7 +73,10 @@ header {
             z-index: 1;
             clip-path: polygon(32px 145px, 32px 0.2px, 0px 82px, 0px 126.5px, 8.4px 145px, 32px 145px);
 
-            a { transform: rotate(180deg); }
+            a {
+                color: $off-white;
+                transform: rotate(180deg);
+            }
 
             span {
                 font-size: rem(22px);
