@@ -1,0 +1,43 @@
+/* issue summary/preview styles */
+
+.issue-summary {
+    color: $black;
+    font-size: rem(16px);
+    position: relative;
+
+    .inverted & {
+        color: $off-white;
+
+        .theme, .theme a { color: $light-purple; }
+    }
+
+    a:not(.more) { text-decoration: none; }
+
+    .number,
+    .theme {
+        display: block;
+        text-transform: uppercase;
+    }
+    
+    .pubdate,
+    .number {
+        margin: 0 0 0 rem(40px);
+    }
+
+    .number {
+        font-weight: bold;
+    }
+
+    .theme {
+        font-weight: 900;
+        font-size: rem(60px);
+        word-wrap: break-word;
+        margin: 0;
+        color: $transparent-grey;
+        line-height: rem(50px);
+    }
+
+    .summary {
+        line-height: rem(25px);
+    }
+}

@@ -1,0 +1,14 @@
+/* single article page styles */
+
+body.article {
+    
+    // embedded content
+    .sketchfab-embed-wrapper > iframe {
+        width: 100%;
+        height: $frame-height;
+    }
+    
+    .deepzoom {
+        width: 100%;
+    }
+}

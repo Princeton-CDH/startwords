@@ -1,4 +1,4 @@
-/* article list, detail, & summary styles */
+/* article summary styles */
 
 // variables
 $frame-height: rem(320px);
@@ -146,14 +146,4 @@ $frame-height: rem(320px);
             color: $light-purple;
         }
     }
-}
-
-// detail
-.sketchfab-embed-wrapper > iframe {
-    width: 100%;
-    height: $frame-height;
-}
-
-.deepzoom {
-    width: 100%;
 }
