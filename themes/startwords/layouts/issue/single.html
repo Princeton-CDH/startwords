@@ -4,15 +4,19 @@
     {{ end }}
 {{ end }}
 
-{{ define "pagetype" }}issue{{ end }}
+{{ define "pagetype" }}issue inverted{{ end }}
 
 {{ define "main" }}
 <main>
-    <p class="number">Issue {{ .Params.number }}</sp>
-    <h1>{{ .Params.theme }}</h1>
-    {{ .Content }}
-    <a href="#features"><img class="chevron"/></a>
-    <section id="features" aria-label="features">
+    <div class="issue-summary">
+        <span class="number">Issue {{ .Params.number }}</span>
+        <h1 class="theme">{{ .Params.theme }}</h1>
+        <div class="summary">{{ .Content }}</div>
+    </div>
+    <a href="#features" class="chevron">
+        <img src="/img/chevron.svg" alt="skip to featured content"/>
+    </a>
+    <section id="features" aria-label="features" class="inverted">
         {{ range .Pages }}
         {{ .Render "summary" }}
         {{ end }}

@@ -15,21 +15,6 @@
         @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
         @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
 
-        // issue summary looks different on this page
-        .theme {
-            font-size: rem(20px);
-            margin: rem(5px) 0 0;
-        }
-
-        .number {
-            margin-left: 0;
-            font-weight: 300;
-        }
-
-        .summary {
-            margin: rem(10px) 0 0;
-        }
-
         a.more {
             font-size: rem(16px);
         }
