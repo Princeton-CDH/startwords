@@ -11,6 +11,7 @@ footer {
     text-align: right;
     font-weight: 300;
     font-size: rem(16px);
+    -webkit-clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
     clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
     position: relative;
 
