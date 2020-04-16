@@ -55,7 +55,9 @@ These are not artist statements because this is not art; Data Art is something e
 
 Data physicalization focuses on constructing data in physical form. It may be similar to other approaches in that it helps to understand and represent data, and in its use of the senses to communicate information, mainly through touch and sight. However, there are considerable distinctions among these approaches. What makes data physicalization distinct is that it encourages critical making by bridging the gap between creative physical and conceptual exploration. This matters because not only does it surfaces the amount of labor involved with data production and representation, and put it into different perspectives and dimensions; it can also creates an opportunity for viewers to become participants by taking part in the making of a piece using data.
 
-Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.
+Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.[^2]
+
+[^2]: Test short note.
 
 Making use of other senses can provide a step towards greater accessibility. The typical solution for making data visualization accessible to vision-impaired readers is to provide a table with the data underlying the chart or graph. This isn’t practical for large datasets, and it’s clearly not the same experience, or otherwise we would provide the tabular data to all users. Another approach is to provide an extended description of the insights gained from the chart. This is helpful, but pre-digesting the chart in this way doesn’t allow readers to view and interpret the patterns and draw their own conclusions.
 
@@ -111,7 +113,9 @@ This is a two variable, three dimensional lollipop chart showing the membership 
 
 ### Insights
 
-The same data can be presented in a two-variable bar chart. Overall trends are easy to see, but seasonal trends are not as distinct. Changing perspective on the physical object allows focusing on yearly or monthly trends. Missing data in one variable is visible in both ... [TBD]
+The same data can be presented in a two-variable bar chart. Overall trends are easy to see, but seasonal trends are not as distinct. Changing perspective on the physical object allows focusing on yearly or monthly trends. Missing data in one variable is visible in both ... [TBD][^4]
+
+[^4]: Test note with image. ![view folding section](images/icon-folding.svg)
 
 ### Next Steps
 
@@ -154,7 +158,9 @@ Rebecca Sutton Koeser, Gissoo Doroudian
 
 ### Goal
 
-This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old patrons, this piece enables multiple ways to compare and interpret the data from diverse perspectives. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the purpose of larger Shakespeare and Company Project— bringing archival data to life and facilitating rich interpretations
+This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old patrons, this piece enables multiple ways to compare and interpret the data from diverse perspectives. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the purpose of larger Shakespeare and Company Project— bringing archival data to life and facilitating rich interpretations[^5]
+
+[^5]: Test really long note. Viewers can see the rise and fall of subscribers, inspect the difference between active borrowers and subscribers, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new patrons, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity. Data was mapped to the shapes with Data Illustrator, semi-manual calculation and vector drawing.
 
 ### Description
 
