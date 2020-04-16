@@ -1,15 +1,47 @@
 /* single issue page styles */
 
 body.issue {
+    // container to make issue summary area white background
+    main > .container {
+        background: $off-white;
+        width: calc(100vw - 2 * #{$gutter});
+        margin-left: -$gutter;
+        padding-left: $gutter;
+        padding-right: $gutter;
+        display: grid;
+        grid-template-columns: repeat(10, $grid-column);
+        column-gap: $grid-gap;
+    }
+
     // issue summary display similar to homepage
     .issue-summary {
         margin-top: rem(45px);
-        grid-column: 2/10;
+        grid-column: 2 / 10;
         @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
         @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
+
+        // uninverted (white) coloring
+        .number { color: $black; }
+        .theme { color: $transparent-grey; }
+        .summary { color: $dark-grey; }
 
         // summary is a <div> containing rich text here
         .summary { margin: 0; }
         .summary > p { margin-top: rem(5px); }
+    }
+
+    // link to scroll down
+    .chevron {
+        margin: rem(100px) 0;
+        color: $purple;
+        grid-column: 4 / 8;
+    }
+
+    // list of featured content
+    #features {
+        margin-bottom: rem(60px);
+        grid-column: 1 / 11;
+        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
     }
 }
