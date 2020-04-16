@@ -29,6 +29,8 @@ a.footnote-ref {
     font-family: $font-serif;
 }
 
+.doi::before { content: 'doi:'; }
+
 // summary
 .article-summary {
     display: block;
@@ -114,6 +116,7 @@ a.footnote-ref {
     &:last-of-type {
         float: right;
         text-align: right;
+        margin-top: rem(40px);
 
         .bg-text {
             left: 0;
