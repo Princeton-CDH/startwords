@@ -6,17 +6,17 @@
         grid-column: 2 / 10;
         margin: rem(50px) 0;
         @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+        @media (min-width: $breakpoint-m) { grid-column: 5 / 7; }
     }
     
     // slightly relaxed margins on tablet
     .issue-summary {
         grid-column: 2 / 10;
-        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
 
         a.more {
-            display: inline-block;
-            margin-top: rem(10px);
-            margin-left: 50%;
+            font-size: rem(16px);
         }
     }
 
@@ -24,6 +24,7 @@
     main > .container {
         grid-column: 1 / 11;
         @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
     }
 
     main > .content {
@@ -37,7 +38,7 @@
         padding-top: rem($gutter);
         padding-left: rem($gutter);
         padding-right: rem($gutter);
-        padding-bottom: rem(50px);
+        padding-bottom: calc(#{rem(10px)} + #{$footer-height});
         @media (min-width: $breakpoint-s) {
             padding-left: rem(60px);
             padding-right: rem(60px);
@@ -48,32 +49,25 @@
 
         a {
             color: inherit;
+            text-decoration: none;
+
+            dl dd:last-child::after {
+                content: url('/link-arrow-right.svg');
+                vertical-align: top;
+                padding-left: rem(5px);
+                transition: padding 0.2s ease;
+            }
+
+            &:hover,
+            &:active {
+                dl dd:last-child::after {
+                    padding-left: rem(10px);
+                }
+            }
         }
     }
-    
-    /*
-    main > .content {
-        w
-        margin-left: rem(-$gutter);
-        // margin-right: rem(-$gutter);
-        margin-top: rem(60px);
-        padding: rem($gutter);    
-        /*
-        margin-top: rem(60px);
-        margin-left: rem(-$gutter);
-        padding: rem($gutter);
-        width: calc(100vw - 2 * #{$gutter});
-        */
 
-
-        /*
-        @media (min-width: $breakpoint-s) {
-            margin-left: rem(-$gutter);
-            padding: rem($gutter);
-            width: calc(100vw - 2 * #{$gutter});
-        }
-        
-        
+    footer {
+        margin-top: -$footer-height;
     }
-    */
 }

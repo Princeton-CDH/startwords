@@ -20,10 +20,6 @@ enableEmoji = true
 
 [menu]
   [[menu.footer]]
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.footer]]
     name = "About"
     url = "about/"
     weight = 20
