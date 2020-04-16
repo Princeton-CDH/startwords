@@ -8,16 +8,14 @@
 
 {{ define "main" }}
 <main>
-    <div class="container">
-        <div class="issue-summary">
-            <span class="number">Issue {{ .Params.number }}</span>
-            <h1 class="theme">{{ .Params.theme }}</h1>
-            <div class="summary">{{ .Content }}</div>
-        </div>
-        <a href="#features" class="chevron">
-            <img src="/img/chevron.svg" alt="skip to featured content"/>
-        </a>
+    <div class="issue-summary">
+        <span class="number">Issue {{ .Params.number }}</span>
+        <h1 class="theme">{{ .Params.theme }}</h1>
+        <div class="summary">{{ .Content }}</div>
     </div>
+    <a href="#features" class="chevron">
+        <img src="/img/chevron.svg" alt="skip to featured content"/>
+    </a>
     <section id="features" aria-label="features" class="inverted">
         {{ range .Pages }}
         {{ .Render "summary" }}

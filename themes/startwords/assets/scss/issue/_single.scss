@@ -1,18 +1,6 @@
 /* single issue page styles */
 
 body.issue {
-    // container to make issue summary area white background
-    main > .container {
-        background: $off-white;
-        width: calc(100vw - 2 * #{$gutter});
-        margin-left: -$gutter;
-        padding-left: $gutter;
-        padding-right: $gutter;
-        display: grid;
-        grid-template-columns: repeat(10, $grid-column);
-        column-gap: $grid-gap;
-    }
-
     // issue summary display similar to homepage
     .issue-summary {
         margin-top: rem(45px);
@@ -28,6 +16,27 @@ body.issue {
         // summary is a <div> containing rich text here
         .summary { margin: 0; }
         .summary > p { margin-top: rem(5px); }
+
+        // white background
+        &::before {
+            content: '';
+            position: absolute;
+            top: rem(-45px);
+            left: calc((#{$gutter} + #{$grid-gap} + #{$grid-column}) * -1);
+            width: 100vw;
+            height: calc(100% + #{rem(250px)});
+            background: $off-white;
+            z-index: -1;
+
+            @media (min-width: $breakpoint-s) {
+                left: calc((#{$gutter} + 2*#{$grid-gap} + 2*#{$grid-column}) * -1);
+                height: calc(100% + #{rem(300px)});
+            }
+
+            @media (min-width: $breakpoint-m) {
+                left: calc((#{$gutter} + 3*#{$grid-gap} + 3*#{$grid-column}) * -1);
+            }
+        }
     }
 
     // link to scroll down
