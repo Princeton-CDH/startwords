@@ -1,21 +1,28 @@
 /* javascript for notes behavior */
 
-window.onload = function() {
-	// position contextual note if the page is loaded with one selected
-	// FIXME: not displaying on load - is this due to scrolling ?
+// hide contextual notes on scroll; on by default
+var hideOnScroll = true;
+
+document.addEventListener('DOMContentLoaded', function() {
+  disableHideOnScroll(2)
 	positionContextualNote();
-};
+}, false);
 
 window.addEventListener('hashchange', function() {
 	positionContextualNote();
 }, false);
 
 /* on scroll, if a footnote is currently targeted, unselect */
-window.addEventListener('scroll', function(e) {
-	if (location.hash.startsWith('#fn:')) {
-		location.hash = '';
-	}
+ window.addEventListener('scroll', function(e) {
+  	if (location.hash.startsWith('#fn:') && hideOnScroll) {
+  		location.hash = '';
+  	}
 });
+
+function disableHideOnScroll(seconds) {
+	hideOnScroll = false;
+	window.setTimeout(function(){ hideOnScroll = true;}, seconds*1000);
+}
 
 function positionContextualNote() {
 	// position the currently selected contextual note, if one is selected
@@ -39,6 +46,7 @@ function positionContextualNote() {
 		// find reference based on back reference id
 		var ref = document.getElementById(backref.getAttribute('href').slice(1));
 		var refLocation = ref.getBoundingClientRect();
+		var noteTop = refLocation.top + refLocation.height + 5 + 'px';
 
 		// position note relative to the reference marker
 		// - top of note should be directly below the ref
@@ -55,4 +63,17 @@ function positionContextualNote() {
 
 		note.style.left = noteLeft + 'px'
 		note.style.bottom = 'auto';
+
+		// scroll if necessary to make sure positioned note is fully visible
+		var noteLocation = note.getBoundingClientRect();
+		if (noteLocation.bottom > window.innerHeight) {
+			// disable hiding the note when the window scrolls
+			disableHideOnScroll(2)
+
+			// adjust by amount that is not showing plus some extra
+			var adjustment = noteLocation.bottom - window.innerHeight + 10;
+			window.scrollBy(0, adjustment);
+			// move the note by the same amount
+			note.style.top = noteLocation.top - adjustment + 'px';
+		}
 }
