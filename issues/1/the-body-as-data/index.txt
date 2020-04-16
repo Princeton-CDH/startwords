@@ -15,14 +15,14 @@
 |  
 |     Rebecca Munson
 |
-|  http://startwords.cdh.princeton.edu/issues/1/the-body-as-data/
+|  https://startwords.cdh.princeton.edu/issues/1/the-body-as-data/
 |
 |  DOI: 10.5281/zenodo.3713678
 |
 +----------------------------------------------------------------------------------->
 |
 |  Issue 1: 
-|  http://startwords.cdh.princeton.edu/issues/1/
+|  https://startwords.cdh.princeton.edu/issues/1/
 |  January 2020
 |
 +----------------------------------------------------------------------------------->

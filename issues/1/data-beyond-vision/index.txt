@@ -18,14 +18,14 @@
 |     Nick Budak
 |     Xinyi Li
 |
-|  http://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/
+|  https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/
 |
 |  DOI: 10.5281/zenodo.3713671
 |
 +----------------------------------------------------------------------------------->
 |
 |  Issue 1: 
-|  http://startwords.cdh.princeton.edu/issues/1/
+|  https://startwords.cdh.princeton.edu/issues/1/
 |  January 2020
 |
 +----------------------------------------------------------------------------------->
