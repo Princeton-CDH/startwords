@@ -6,12 +6,14 @@
         grid-column: 2 / 10;
         margin: rem(50px) 0;
         @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+        @media (min-width: $breakpoint-m) { grid-column: 5 / 7; }
     }
     
     // slightly relaxed margins on tablet
     .issue-summary {
         grid-column: 2 / 10;
         @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
 
         a.more {
             font-size: rem(16px);
@@ -22,6 +24,7 @@
     main > .container {
         grid-column: 1 / 11;
         @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
     }
 
     main > .content {
@@ -35,7 +38,7 @@
         padding-top: rem($gutter);
         padding-left: rem($gutter);
         padding-right: rem($gutter);
-        padding-bottom: rem(50px);
+        padding-bottom: calc(#{rem(10px)} + #{$footer-height});
         @media (min-width: $breakpoint-s) {
             padding-left: rem(60px);
             padding-right: rem(60px);
@@ -62,5 +65,9 @@
                 }
             }
         }
+    }
+
+    footer {
+        margin-top: -$footer-height;
     }
 }
