@@ -6,9 +6,9 @@ body.issue-list {
         list-style: none;
         padding: 0;
         margin: rem(80px) 0 0;
-        grid-column: 2 / 10;
+        grid-column: 2 / 9;
 
-        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+        @media (min-width: $breakpoint-s) { grid-column: 4 / 7; }
     }
 
     li + li {
@@ -26,14 +26,14 @@ body.issue-list {
             position: absolute;
             content: url('/link-arrow-right.svg');
             top: 50%;
-            right: rem(-15px);
+            right: rem(-20px);
             transition: right 0.2s ease;
         }
 
         // movement effect
         &:hover,
         &:focus {
-            .issue-summary::after { right: rem(-20px); }
+            .issue-summary::after { right: rem(-25px); }
         }
     }
 }
