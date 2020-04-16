@@ -58,8 +58,8 @@ header {
             position: absolute;
             height: rem(100px);
             bottom: 0;
-            clip-path: path("M-6.00153e-07 1.39876e-06L3.8147e-06 101L32 19.1852L23.6325 3.65754e-07L-6.00153e-07 1.39876e-06Z");
-
+            clip-path: polygon(0px 0px, 0px 101px, 32px 19.2px, 23.6px 0px, 0px 0px);
+            
             img {
                 top: rem(5px);
                 left: rem(6px);
@@ -71,7 +71,7 @@ header {
             height: rem(145px);
             bottom: rem(19px);
             z-index: 1;
-            clip-path: path("M31.9999 144.789L31.9999 1.39876e-06L-3.57511e-06 81.7891L-3.57511e-06 126.289L8.36741 144.789L31.9999 144.789Z");
+            clip-path: polygon(32px 145px, 32px 0.2px, 0px 82px, 0px 126.5px, 8.4px 145px, 32px 145px);
 
             a { transform: rotate(180deg); }
 
