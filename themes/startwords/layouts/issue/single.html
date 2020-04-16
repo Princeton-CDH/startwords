@@ -8,9 +8,11 @@
 
 {{ define "main" }}
 <main>
-    <p class="number">Issue {{ .Params.number }}</sp>
-    <h1>{{ .Params.theme }}</h1>
-    {{ .Content }}
+    <div class="issue-summary">
+        <span class="number">Issue {{ .Params.number }}</span>
+        <h1 class="theme">{{ .Params.theme }}</h1>
+        <div class="summary">{{ .Content }}</div>
+    </div>
     <a href="#features"><img class="chevron"/></a>
     <section id="features" aria-label="features">
         {{ range .Pages }}

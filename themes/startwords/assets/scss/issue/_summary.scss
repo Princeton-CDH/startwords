@@ -1,9 +1,12 @@
 /* issue summary/preview styles */
 
+// default display on issue list page
 .issue-summary {
     color: $black;
     font-size: rem(16px);
     position: relative;
+
+    .theme { color: $transparent-grey; }
 
     .inverted & {
         color: $off-white;
@@ -18,16 +21,39 @@
         display: block;
         text-transform: uppercase;
     }
-    
+
+    .theme {
+        font-size: rem(20px);
+        margin: rem(5px) 0 0;  
+        line-height: normal;
+    }
+
+    .number {
+        margin-left: 0;
+        font-weight: 300;
+    }
+
+    .summary {
+        margin: rem(10px) 0 0;
+        line-height: rem(25px);
+    }
+}
+
+// special display on issue list page
+body.issue-list .issue-summary
+{
+    // offset margin
     .pubdate,
     .number {
         margin: 0 0 0 rem(40px);
     }
 
+    // bold issue number
     .number {
         font-weight: bold;
     }
 
+    // big theme
     .theme {
         font-weight: 900;
         font-size: rem(60px);
@@ -35,9 +61,5 @@
         margin: 0;
         color: $transparent-grey;
         line-height: rem(50px);
-    }
-
-    .summary {
-        line-height: rem(25px);
     }
 }

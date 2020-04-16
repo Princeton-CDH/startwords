@@ -1,5 +1,15 @@
 /* single issue page styles */
 
 body.issue {
-    
+    // issue summary display similar to homepage
+    .issue-summary {
+        margin-top: rem(45px);
+        grid-column: 2/10;
+        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
+
+        // summary is a <div> containing rich text here
+        .summary { margin: 0; }
+        .summary > p { margin-top: rem(5px); }
+    }
 }
