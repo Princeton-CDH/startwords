@@ -22,7 +22,7 @@
   }
 }
 
-@page:first {
+@page :first {
     /* don't display article title on first page */
     @top-left {
         content: '';
@@ -33,7 +33,7 @@
 }
 
 
-h1 { string-set: title content() }
+
 
 body {
     font-family: $font-serif;
@@ -45,12 +45,52 @@ main {
     margin: 0 88px;
 }
 
-header, nav, footer {
-    display: none;
-}
-
 h2, section.footnotes {
     page-break-before: always;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-serif;
+    line-height: 30px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h1 {
+    string-set: title content();
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.number, .theme, .authors {
+    font-family: $font-sans;
+}
+
+.number {
+    margin: 8px 0;
+    padding: 0;
+}
+
+.theme {
+    color: $purple;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+    padding: 0;
+}
+
+.footnotes {
+    background-color: white;
+    // margin: 0;
+
+    hr {
+        display: none;
+    }
 }
 
 .print-only {
@@ -64,5 +104,24 @@ a.first-page-header {
     position: running(first-page-header);
 }
 
+ul.authors li {
+    display: inline;
+    address {
+        display: inline;
+    }
+
+    &:after {
+        content: ", ";
+    }
+
+    &:last-child:after {
+        content: "";
+    }
+}
+
 
 // a::after { content: ", see " target-text(attr(href)) }
+
+header, nav, footer, a[rel=alt] {
+    display: none;
+}
