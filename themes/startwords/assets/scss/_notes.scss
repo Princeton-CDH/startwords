@@ -6,15 +6,30 @@
         padding-inline-start: 0;
         counter-reset: footnoteCounter;
         padding-bottom: 50px;
+        list-style: none;
     }
 
     li {
         counter-increment: footnoteCounter;
         margin: 0 2.5rem;
+
+         &::before {
+            /* replace list marker with counter (::marker not yet widely supported) */
+            content: counters(footnoteCounter, ".");
+            color: $red;
+            display: inline-block;
+            float: left;
+            padding-right: 2px;
+            vertical-align: top;
+            font-size: 70%;
+            font-weight: 600;
+            font-family: $font-serif;
+        }
     }
 
     /* active footnote */
     li:target {
+        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
         clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
         background: $purple;
 
@@ -38,13 +53,11 @@
         }
 
         &::before {
-            /* display footnote number */
-            content: counters(footnoteCounter, ".");
+            /* position footnote number */
             position: absolute;
             right: rem(25px);
             top: rem(50px);
             font-size: 200%;
-            color: $red;
         }
 
         p {
