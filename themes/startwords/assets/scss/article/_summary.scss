@@ -1,5 +1,28 @@
 /* article summary styles */
 
+// variables
+$frame-height: rem(320px);
+
+// global
+.authors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    address {
+        font-family: $font-sans;
+        font-style: normal;
+    }
+}
+
+.pubdate {
+    display: block;
+    font-family: $font-sans;
+}
+
+.doi::before { content: 'doi:'; }
+
+// summary
 .article-summary {
     display: block;
     width: 48%;
@@ -84,6 +107,7 @@
     &:last-of-type {
         float: right;
         text-align: right;
+        margin-top: rem(40px);
 
         .bg-text {
             left: 0;
