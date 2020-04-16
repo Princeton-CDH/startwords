@@ -2,14 +2,16 @@
 
 {{ define "main" }}
 <main>
-    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+    {{ with .Title }}<h1 class="sr-only">{{ . }}</h1>{{ end }}
     {{ with .Content }}{{ . }}{{ end }}
     {{ with .Sections }}
     <ol>
         {{ range . }}
-        <a href="{{ .Permalink }}">
-            {{ .Render "summary" }}
-        </a>
+        <li>
+            <a href="{{ .Permalink }}">
+                {{ .Render "summary" }}
+            </a>
+        </li>
         {{ end }}
     </ol>
     {{ else }}
