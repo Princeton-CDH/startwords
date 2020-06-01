@@ -42,10 +42,11 @@
 // special display on issue list page
 body.issue-list .issue-summary
 {
-    // offset margin
+    // offset margin, shorter line height
     .pubdate,
     .number {
         margin: 0 0 0 rem(40px);
+        line-height: 1.2;
     }
 
     // bold issue number
@@ -58,7 +59,7 @@ body.issue-list .issue-summary
         font-weight: 900;
         font-size: rem(60px);
         word-wrap: break-word;
-        margin: 0;
+        margin: rem(10px) 0 0;
         color: $transparent-grey;
         line-height: rem(50px);
     }
