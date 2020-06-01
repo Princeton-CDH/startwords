@@ -1,6 +1,9 @@
 /* single article page styles */
 
 body.article {
+
+    // prevent horizontal scrolling
+    main { overflow-x: hidden; }
     
     // embedded content
     .sketchfab-embed-wrapper > iframe {
