@@ -4,22 +4,26 @@
     {{ end }}
 {{ end }}
 
-{{ define "pagetype" }}issue inverted{{ end }}
+{{ define "pagetype" }}issue{{ end }}
 
 {{ define "main" }}
 <main>
-    <div class="issue-summary">
-        <span class="number">Issue {{ .Params.number }}</span>
-        <h1 class="theme">{{ .Params.theme }}</h1>
-        <div class="summary">{{ .Content }}</div>
+    <div class="issue-summary grid">
+        <div class="container">
+            <span class="number">Issue {{ .Params.number }}</span>
+            <h1 class="theme">{{ .Params.theme }}</h1>
+            <div class="summary">{{ .Content }}</div>
+            <a href="#features" class="chevron">
+                <img src="/img/chevron.svg" alt="skip to featured content"/>
+            </a>
+        </div>
     </div>
-    <a href="#features" class="chevron">
-        <img src="/img/chevron.svg" alt="skip to featured content"/>
-    </a>
-    <section id="features" aria-label="features" class="inverted">
-        {{ range .Pages }}
-        {{ .Render "summary" }}
-        {{ end }}
+    <section id="features" aria-label="features" class="inverted grid">
+        <div class="wide-container">
+            {{ range .Pages }}
+            {{ .Render "summary" }}
+            {{ end }}
+        </div>
     </section>
 </main>
 {{ end }}

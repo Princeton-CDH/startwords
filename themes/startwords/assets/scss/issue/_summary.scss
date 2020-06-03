@@ -3,18 +3,19 @@
 // default display on issue list page
 .issue-summary {
     color: $black;
-    font-size: rem(16px);
+    font-size: rem(18px);
     position: relative;
 
     .theme { color: $transparent-grey; }
 
+    &.inverted,
     .inverted & {
-        color: $off-white;
-
+        @include inverted;
         .theme, .theme a { color: $light-purple; }
     }
 
     a:not(.more) { text-decoration: none; }
+    .more { font-size: rem(16px); }
 
     .number,
     .theme {
@@ -26,6 +27,8 @@
         font-size: rem(20px);
         margin: rem(5px) 0 0;  
         line-height: normal;
+
+        .arrow { display: none; }
     }
 
     .number {

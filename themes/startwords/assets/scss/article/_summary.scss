@@ -58,13 +58,13 @@ a.footnote-ref {
         font-weight: 300;
         margin-top: rem(10px);
         word-wrap: break-word;
+        font-size: rem(14px);
     }
 
     // background text
     .bg-text {
         position: absolute;
         width: 48vw;
-        z-index: -1;
         color: rgba(224, 206, 255, 0.05);
         top: rem(-25px);
         font-size: rem(20px);
@@ -148,7 +148,10 @@ a.footnote-ref {
         h2::after { padding-left: rem(10px); }
     }
 
+    // inverted portions use light purple instead of white
+    &.inverted,
     .inverted & {
+        @include inverted;
         color: $light-purple;
 
         a, a:visited {

@@ -3,47 +3,22 @@
 .home {
     .logotype {
         width: 100%;
-        grid-column: 2 / 10;
-        margin: rem(50px) 0;
-        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
-        @media (min-width: $breakpoint-m) { grid-column: 5 / 7; }
-    }
-    
-    // slightly relaxed margins on tablet
-    .issue-summary {
-        grid-column: 2 / 10;
-        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
-        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
+        background: $purple;
 
-        a.more {
-            font-size: rem(16px);
+        img {
+            display: block;
+            width: rem(250px);
+            padding: rem(60px) 0;
+            margin: 0 auto;
         }
     }
 
-    // slightly relaxed margins on tablet
-    main > .container {
-        grid-column: 1 / 11;
-        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
-        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
+    #features {
+        padding-top: 0;
+        padding-bottom: rem(50px);
     }
 
     main > .content {
-        grid-column: 1 / 11;
-        box-sizing: border-box;
-        margin-left: rem(-$gutter);
-        width: 100vw;
-        margin-top: rem(60px);
-        color: $dark-grey;
-        background: $off-white;
-        padding-top: rem($gutter);
-        padding-left: rem($gutter);
-        padding-right: rem($gutter);
-        padding-bottom: calc(#{rem(10px)} + #{$footer-height});
-        @media (min-width: $breakpoint-s) {
-            padding-left: rem(60px);
-            padding-right: rem(60px);
-        }
-
         dt { font-style: italic; }
         abbr { font-style: normal; }
 
@@ -67,7 +42,9 @@
         }
     }
 
-    footer {
-        margin-top: -$footer-height;
+    // homepage footer uses inverted style on white background
+    main + footer {
+        @include inverted-footer;
+        background: $off-white;
     }
 }
