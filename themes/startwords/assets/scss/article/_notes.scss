@@ -25,12 +25,15 @@
             font-weight: 600;
             font-family: $font-serif;
         }
+
     }
 
     a[role=doc-backlink] {
         text-decoration: none;
         color: $red;
     }
+
+    $arrow-icon-size: 26px;
 
     /* active footnote */
     li:target {
@@ -50,8 +53,8 @@
         line-height: rem(22px);
         color: $off-white;
 
-        /* 320px wide on tablet; preliminary position */
-        @media (min-width: $breakpoint-s) {
+        /* full width up to 414px; limit width on larger screens  */
+        @media (min-width: $breakpoint-fullwidth-notes + 1) {
             width: rem(320px);
             right: rem(50px);
             bottom: 12rem;
@@ -60,11 +63,13 @@
             /* position footnote number */
             position: absolute;
             font-weight: bold;
-            right: rem(55px);
+            /* align with arrow icon */
+            width: $arrow-icon-size;
+            text-align: center;
+            right: rem(57px);
             top: rem(50px);
             font-size: rem(35px);
         }
-
 
         p {
             padding: rem(15px);
@@ -74,8 +79,6 @@
         a {
             color: $red;
         }
-
-        $arrow-icon-size: 26px;
 
         a[role=doc-backlink] {
             position: absolute;
@@ -115,16 +118,22 @@ a.footnote-ref {
     text-decoration: none;
     font-weight: 600;
     font-family: $font-serif;
+    position: relative;
+    /* extend left to make a larger touch target */
+    padding-left: rem(100px);
+    margin-left: rem(-100px);
+    padding-bottom: rem(10px);  /* probably wrong, but line-height not set yet */
 
-    /* extend over preceding text */
-    padding-left: 4rem;
-    margin-left: -4rem;
-    padding-bottom: 8px;  /* NOTE: not sure how to make relative to text */;
-
-    &:hover {
-        border-bottom: 2px solid transparent;
-        border-image: linear-gradient(to right, white, $red);
-        border-image-slice: 1;
+    &::after {
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding-left: rem(100px);
+        margin-left: rem(-100px);
+        width: rem(100px);
+        height: rem(5px);
+        background: linear-gradient(to right, white, $transparent-red);
     }
-
 }

@@ -28,7 +28,7 @@ function positionContextualNote() {
 	// position the currently selected contextual note, if one is selected
 	// and not on a mobile device
 
-	 let mql = window.matchMedia('(min-width: 500px)');  // arbitrary number for now
+	 let mql = window.matchMedia('(min-width: 414px)');
 	 // don't position on mobile
 	 if (! mql.matches) {
 		 	return;
