@@ -8,13 +8,6 @@
     padding: $gutter;
     box-sizing: border-box;
 
-    // force content in container to wrap
-    > .container,
-    > .wide-container,
-    > .text-container {
-        overflow-x: hidden;
-    }
-
     // sizing for the default content container inside grids
     > .container {
         grid-column: 2 / 10;

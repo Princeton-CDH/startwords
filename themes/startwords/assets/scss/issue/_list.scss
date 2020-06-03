@@ -2,6 +2,9 @@
 
 body.issue-list {
 
+    // force wrapping 
+    .grid .container { overflow-x: hidden; }
+
     ol {
         list-style: none;
         padding: 0;
