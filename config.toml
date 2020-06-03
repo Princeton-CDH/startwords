@@ -29,6 +29,7 @@ enableEmoji = true
   dateformShort   = "January 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  license = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
 [markup.goldmark.renderer]
   unsafe = true
