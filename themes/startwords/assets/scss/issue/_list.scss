@@ -2,13 +2,14 @@
 
 body.issue-list {
 
+    // force wrapping 
+    .grid .container { overflow-x: hidden; }
+
     ol {
         list-style: none;
         padding: 0;
         margin: rem(80px) 0 0;
-        grid-column: 2 / 9;
-
-        @media (min-width: $breakpoint-s) { grid-column: 4 / 7; }
+        overflow: hidden;
     }
 
     li + li {
@@ -18,22 +19,26 @@ body.issue-list {
     li a {
         text-decoration: none;
         display: block;
-        width: 100%;
-        height: 100%;
+
+        .theme {
+            padding-right: rem(75px);
+            position: relative;
+        }
 
         // red arrows when links are hovered
-        .issue-summary::after {
-            position: absolute;
+        .theme::after {
             content: url('/link-arrow-right.svg');
-            top: 50%;
-            right: rem(-20px);
+            position: absolute;
+            height: rem(22px);
+            top: calc(50% - 33px);
+            right: rem(45px);
             transition: right 0.2s ease;
         }
 
         // movement effect
         &:hover,
         &:focus {
-            .issue-summary::after { right: rem(-25px); }
+            .theme::after { right: rem(40px); }
         }
     }
 }

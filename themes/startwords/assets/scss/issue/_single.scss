@@ -3,54 +3,40 @@
 body.issue {
     // issue summary display similar to homepage
     .issue-summary {
-        margin-top: rem(45px);
-        grid-column: 2 / 10;
-        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
-        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
-
-        // uninverted (white) coloring
-        .number { color: $black; }
-        .theme { color: $transparent-grey; }
-        .summary { color: $dark-grey; }
+        padding-top: rem(45px);
+        min-height: 100vh;
 
         // summary is a <div> containing rich text here
         .summary { margin: 0; }
         .summary > p { margin-top: rem(5px); }
-
-        // white background
-        &::before {
-            content: '';
-            position: absolute;
-            top: rem(-45px);
-            left: calc((#{$gutter} + #{$grid-gap} + #{$grid-column}) * -1);
-            width: 100vw;
-            height: calc(100% + #{rem(250px)});
-            background: $off-white;
-            z-index: -1;
-
-            @media (min-width: $breakpoint-s) {
-                left: calc((#{$gutter} + 2*#{$grid-gap} + 2*#{$grid-column}) * -1);
-                height: calc(100% + #{rem(300px)});
-            }
-
-            @media (min-width: $breakpoint-m) {
-                left: calc((#{$gutter} + 3*#{$grid-gap} + 3*#{$grid-column}) * -1);
-            }
-        }
     }
 
     // link to scroll down
     .chevron {
-        margin: rem(100px) 0;
+        display: block;
         color: $purple;
-        grid-column: 4 / 8;
+        grid-column: 3 / 9;
+        margin-top: rem(100px);
+
+        img {
+            display: block;
+            margin: 0 auto;
+            transition: padding 0.2s ease;
+        }
+
+        &:hover,
+        &:focus {
+            img {
+                padding-top: rem(5px);
+            }
+        }
     }
 
     // list of featured content
     #features {
-        margin-bottom: rem(60px);
-        grid-column: 1 / 11;
-        @media (min-width: $breakpoint-s) { grid-column: 3 / 9; }
-        @media (min-width: $breakpoint-m) { grid-column: 4 / 8; }
+        min-height: calc(100vh - #{$footer-height});
     }
+    
+    // inverted footer
+    main + footer { @include inverted-footer; }
 }

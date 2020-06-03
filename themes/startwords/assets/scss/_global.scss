@@ -14,11 +14,10 @@ body {
 }
 
 main {
-    margin: 0 $gutter;
     flex: 1;
-    display: grid;
-    grid-template-columns: repeat(10, $grid-column);
-    column-gap: $grid-gap;
+    background: $off-white;
+    color: $dark-grey;
+    overflow: hidden;
 }
 
 article {
