@@ -1,5 +1,11 @@
 .footnotes {
 
+    $arrow-icon-size: 26px;
+    /* width from the short side of the note to the outside of the icon */
+    /* arrow point is 70x from right; subtract ~1/2 icon size */
+    $arrow-icon-margin: rem(57px);
+
+
     ol {
         /* remove side margin/padding on ol so target li can be full width */
         margin: 0 -20px 50px;
@@ -9,50 +15,30 @@
         list-style: none;
     }
 
-    li {
-        counter-increment: footnoteCounter;
-        margin: 0 2.5rem;
-
-         &::before {
-            /* replace list marker with counter (::marker not yet widely supported) */
-            content: counters(footnoteCounter, ".");
-            color: $red;
-            display: inline-block;
-            float: left;
-            padding-right: 2px;
-            vertical-align: top;
-            font-size: 70%;
-            font-weight: 600;
-            font-family: $font-serif;
-        }
-
-    }
-
     a[role=doc-backlink] {
         text-decoration: none;
         color: $red;
     }
 
-    $arrow-icon-size: 26px;
-    /* width from the short side of the note to the outside of the icon */
-    /* arrow point is 70x from right; subtract ~1/2 icon size */
-    $arrow-icon-margin: rem(57px);
+    /* For transitions, only the transitioned property must change.
+       So the default styles for footnote li is as contextual note. */
+    li {
+        counter-increment: footnoteCounter;
+        margin: 0 2.5rem;
 
-    /* active footnote */
-    li:target {
-        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
-        clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
-        background: $purple;
-
-        display: block;
         position: fixed;
         width: 100vw;  /* full-width on mobile */
         margin: 0;
         padding-top: rem(140px);
-        bottom: 0;
         left: 0;
+        bottom: -75vh;
+        transition: bottom 0.5s ease;
 
-        font-family: IBM Plex Serif;
+        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
+        clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
+        background: $purple;
+
+        font-family: $font-serif;
         font-size: rem(16px);
         line-height: rem(22px);
         color: $off-white;
@@ -63,8 +49,20 @@
             right: rem(50px);
             bottom: 12rem;
         }
+
+
+        /* active footnote */
+        &:target {
+            bottom: 0;
+        }
+
         &::before {
-            /* position footnote number */
+            /* replace list marker with counter (::marker not yet widely supported) */
+            content: counters(footnoteCounter, ".");
+            color: $red;
+            font-family: $font-serif;
+
+            /* position footnote number for contextual note by default */
             position: absolute;
             font-weight: bold;
             /* align with arrow icon */
@@ -98,7 +96,8 @@
 
         }
 
-        /* mirror image version for left side of the page */
+
+        /* mirror image version for notes on the left side of the page */
         &.flip {
             -webkit-clip-path: polygon(70px 0, 100% 34%, 100% 100%, 0 100%, 0 11%);
             clip-path: polygon(70px 0, 100% 34%, 100% 100%, 0 100%, 0 11%);
@@ -113,7 +112,35 @@
         }
 
 
+        /* footnote styles for endnotes */
+        .endnote & {
+
+            &::before {
+                /* position counter for endnote display */
+                display: inline-block;
+                float: left;
+                padding-right: 2px;
+                vertical-align: top;
+                font-size: 70%;
+                font-weight: 600;
+                font-family: $font-serif;
+                position: relative;
+                width: auto;
+            }
+
+            a[role=doc-backlink] {
+                position: relative;
+                width: auto;
+                color: $red;
+                background: none;
+            }
+
+        }
+
     }
+
+
+
 
 }
 
