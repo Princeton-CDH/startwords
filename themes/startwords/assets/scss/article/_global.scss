@@ -10,22 +10,88 @@ $triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -100% 50%);
 // $triangle-right: polygon(0% 100%, 0% 0%, 100% 0%);
 
 // global styles
-.authors {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+article {
+    .number, .authors, .pubdate, .doi { font-weight: 300; }
 
-    address {
-        font-family: $font-sans;
-        font-style: normal;
+    .number, .theme { margin: 0; }
+
+    .number, .pubdate, a[rel=alt] { font-size: rem(16px); }
+
+    .pubdate, a[rel=alt] { font-family: $font-sans; }
+
+    .theme {
+        font-weight: 900;
+        font-size: rem(20px);
+        color: $purple;
+        text-transform: uppercase;
+    }
+
+    .authors {
+        font-size: rem(16px);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+        address {
+            font-family: $font-sans;
+            font-style: normal;
+        }
+    }
+
+    .formats { margin: rem(10px) 0; }
+    
+    .doi::before { content: 'doi:'; }
+
+    // headings
+    h1, h2, h3, h4, h5 { font-family: $font-serif; }
+    h1, h2, h3 { font-size: rem(20px); }
+    h3, h4, h5 { font-weight: 500; }
+
+    h1 { margin: rem(10px) 0; }
+
+    h2, h3 {
+        margin-top: rem(60px);
+        margin-bottom: rem(10px);
+
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(40px);
+        }
+    }
+
+    h4 {
+        margin-top: rem(40px);
+        margin-bottom: rem(10px);
+
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(20px);
+        }
+    }
+
+    // body text
+    p {
+        margin: rem(10px) 0;
+        font-weight: 300;
+        line-height: rem(27px);
+    }
+
+    blockquote {
+        margin: rem(30px) 0;
+
+        p {
+            margin: 0;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        cite {
+            display: block;
+            margin-top: rem(5px);
+            font-style: normal;
+            font-weight: 300;
+
+            &::before {
+                content: ' – '
+            }
+        }
     }
 }
-
-a.footnote-ref {
-    color: $red;
-    text-decoration: none;
-    font-weight: 600;
-    font-family: $font-serif;
-}
-
-.doi::before { content: 'doi:'; }

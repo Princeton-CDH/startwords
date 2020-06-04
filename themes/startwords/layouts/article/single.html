@@ -8,17 +8,23 @@
 
 {{ define "main" }}
 <main>
-    <article>
-        <p class="number">Issue {{ .Parent.Params.number }}</p>
-        <p class="theme">{{ .Parent.Params.theme }}</p>
-        <h1>{{ .Params.Title }}</h1>
-        {{ partial "authors" . }}
-        {{ partial "pubdate" . }}
-        {{ with  .OutputFormats.Get "txt" -}}
-        <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
-        {{- end }}
-        {{ .Content }}
-    </article>
+    <div class="grid">
+        <div class="text-container">
+            <article>
+                <p class="number">Issue {{ .Parent.Params.number }}</p>
+                <p class="theme">{{ .Parent.Params.theme }}</p>
+                <h1>{{ .Params.Title }}</h1>
+                {{ partial "authors" . }}
+                {{ partial "pubdate" . }}
+                <p class="formats">
+                {{ with  .OutputFormats.Get "txt" -}}
+                <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+                {{- end }}
+                {{ .Content }}
+                </p>
+            </article>
+        </div>
+    </div>
 </main>
 {{ end }}
         

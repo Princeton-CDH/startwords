@@ -15,9 +15,12 @@
     }
 
     h2 {
+        font-family: $font-sans;
         font-weight: bold;
         font-style: italic;
     }
+
+    .authors, p { font-weight: 400; }
 
     .authors, h2 { font-size: rem(18px); }
 
