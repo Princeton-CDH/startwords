@@ -4,27 +4,60 @@
 var hideOnScroll = true;
 
 document.addEventListener('DOMContentLoaded', function() {
-  disableHideOnScroll(2)
-	positionContextualNote();
-}, false);
+  disableHideOnScroll(2);
+  setupNote();
+});
 
 window.addEventListener('hashchange', function() {
-	positionContextualNote();
+	setupNote();
 }, false);
 
 /* on scroll, if a footnote is currently targeted, unselect */
  window.addEventListener('scroll', function(e) {
   	if (location.hash.startsWith('#fn:') && hideOnScroll) {
-  		location.hash = '';
+  		// set a brief delay before hiding
+	  	window.setTimeout(function(){ closeNote();}, 300);
   	}
 });
 
+
+function setupNote() {
+	// display current note (if one is targeted), and bind backref handler
+	var note = getCurrentNote();
+	if (note) {
+		positionContextualNote(note);
+		// get back reference link to override behavior
+		var backref = note.getElementsByClassName('footnote-backref').item(0);
+		backref.addEventListener('click', noteCloseLinkHandler);
+	}
+}
+
 function disableHideOnScroll(seconds) {
+	// temporarily disable note hide on scroll
 	hideOnScroll = false;
 	window.setTimeout(function(){ hideOnScroll = true;}, seconds*1000);
 }
 
-function positionContextualNote() {
+function getCurrentNote() {
+	// find currently selected note, if there is one
+	 if (location.hash.startsWith('#fn:')) {
+	  	return document.getElementById(location.hash.slice(1));
+		}
+}
+
+function closeNote() {
+	pushHashAndFixTargetSelector('#')
+}
+
+function noteCloseLinkHandler() {
+	// prevent default behavior to avoid jarring scroll to reference
+	event.preventDefault();
+	closeNote();
+	this.removeEventListener('click', noteCloseLinkHandler);
+}
+
+
+function positionContextualNote(note) {
 	// position the currently selected contextual note, if one is selected
 	// and not on a mobile device
 
@@ -33,14 +66,7 @@ function positionContextualNote() {
 	 if (! mql.matches) {
 		 	return;
 	 }
-	 // find current note, if there is one
-	 if (location.hash.startsWith('#fn:')) {
-	  	var noteId = location.hash.slice(1);
-		} else {
-  		return;
-   	}
 
-		var note = document.getElementById(noteId);
 		// note contains a back reference
 		var backref = note.getElementsByClassName('footnote-backref').item(0);
 		// find reference based on back reference id
@@ -76,4 +102,16 @@ function positionContextualNote() {
 			// move the note by the same amount
 			note.style.top = noteLocation.top - adjustment + 'px';
 		}
+}
+
+// update location so that ::target changes but document does not scrorll
+// solution via https://stackoverflow.com/a/59013961/9706217
+function pushHashAndFixTargetSelector(hash) {
+    history.pushState({}, document.title, hash); //called as you would normally
+    const onpopstate = window.onpopstate; //store the old event handler to restore it later
+    window.onpopstate = function() { //this will be called when we call history.back()
+        window.onpopstate = onpopstate; //restore the original handler
+        history.forward(); //go forward again to update the CSS
+    };
+    history.back(); //go back to trigger the above function
 }
