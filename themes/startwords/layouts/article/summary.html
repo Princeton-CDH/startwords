@@ -1,7 +1,14 @@
 <article class="article-summary">
-    <div class="bg-text" role="presentation">{{ .Summary | plainify }}</div>
+    {{ with .Summary | plainify | htmlUnescape }}
+    <div class="bg-text" role="presentation">{{- substr . 0 210 -}}</div>
+    {{ end }}
     <a href="{{ .Permalink }}">
-        <p>{{ .Summary | plainify }}</p>
+        {{ with .Summary | plainify | htmlUnescape }}
+        <p>
+            {{- substr . 0 210 -}}
+            {{ if gt (len .) 210 }}…{{ end }}
+        </p>
+        {{ end }}
         <h2>{{ .Title }}</h2>
     </a>
     {{ partial "authors" . }}

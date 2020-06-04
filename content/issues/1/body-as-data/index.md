@@ -7,7 +7,9 @@ authors:
 date: 2020-01-01
 doi: 10.5281/zenodo.3713678
 ---
-When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying either, not the dying of storybooks, but children (well, teenagers) who were terminally ill.
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it REally l kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. They were books about grief and communities formed in times of crisis.
+These books would have been perfect for a buddi
+
 <!--more-->
 I was twelve and fixated on books written by an author with the implausible name of Lurlene McDaniel. The first book I encountered was Six Months to Live, which chronicled the life a popular teenager in the wake of her diagnosis with leukemia. McDaniel’s characters didn’t just have cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. They were books about grief and communities formed in times of crisis.
 These books would have been perfect for a budding hypochondriac, or for a reader given to purple prose and melodrama, but I read them for the medical details, taking mental notes on how to diagnose various signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the protagonist, I occupied the position of the doctor. If this sounds like a perfect setup for attending medical school, it was. I didn’t, but that’s a different story. It turned out, though, that I’d would have to be the protagonist anyway.

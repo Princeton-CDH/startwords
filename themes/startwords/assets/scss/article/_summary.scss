@@ -10,11 +10,15 @@
     a:not(.doi) { text-decoration: none; }
 
     p {
+        margin: 0;
+        overflow: hidden;
+        height: 275px;
         line-height: rem(22px);
         position: relative;
     }
 
     h2 {
+        margin: 0;
         font-family: $font-sans;
         font-weight: bold;
         font-style: italic;
@@ -34,22 +38,18 @@
 
     // background text
     .bg-text {
+        overflow: hidden;
         position: absolute;
-        width: 48vw;
+        width: 50vw;
+        height: 500px;
         color: rgba(224, 206, 255, 0.05);
-        top: rem(-25px);
+        top: rem(-50px);
         font-size: rem(20px);
 
         @media (min-width: $breakpoint-s) {
             font-size: rem(30px);
-            top: rem(-50px);
+            top: rem(-100px);
         }
-    }
-
-    // hyphenation
-    p, .bg-text {
-        word-wrap: anywhere;
-        hyphens: auto;
     }
 
     // text-shaping elements
@@ -57,8 +57,10 @@
     p::before {
         content: '';
         width: 100%;
-        height: 300px;
     }
+
+    .bg-text::before { height: 500px; }
+    p::before { height: 275px; }
 
     // left/first preview
     &:first-of-type {
@@ -76,9 +78,6 @@
             shape-outside: $triangle-left;
         }
 
-        // create space for arrow movement
-        h2 { margin-right: rem(-10px); }
-
         // red arrow
         h2::after {
             content: url('/link-arrow-right.svg');
@@ -93,7 +92,7 @@
     &:last-of-type {
         float: right;
         text-align: right;
-        margin-top: rem(40px);
+        margin-top: rem(60px);
 
         .bg-text {
             left: 0;
@@ -104,9 +103,6 @@
             float: left;
             shape-outside: $triangle-right;
         }
-
-        // create space for arrow movement
-        h2 { margin-left: rem(-10px); }
 
         // red arrow
         h2::before {

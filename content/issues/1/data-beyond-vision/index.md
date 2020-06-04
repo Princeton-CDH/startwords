@@ -12,7 +12,7 @@ doi: 10.5281/zenodo.3713671
 ---
 
 
-How do we share tangible objects in a visual medium? We present, describe, use words, pictures, diagrams, _show_ … fail.
+Data Transformations are marshmallow cotton candy candy candy canes icing toffee apple pie jujubes. Tart cotton candy danish soufflé gummies. Wafer sesame snaps cheesecake pie tootsie roll jujubes caramels jelly cake. Ice cream chocolate cake dessert. Chocolate cake cake jelly croissant pudding muffin croissant lollipop.
 
 <!--more-->
 
