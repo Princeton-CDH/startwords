@@ -1,37 +1,5 @@
 /* article summary styles */
 
-// variables
-$frame-height: rem(320px);
-
-main article { grid-column: 1 / 11; }
-
-// global
-.authors {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    address {
-        font-family: $font-sans;
-        font-style: normal;
-    }
-}
-
-.pubdate {
-    display: block;
-    font-family: $font-sans;
-}
-
-a.footnote-ref {
-    color: $red;
-    text-decoration: none;
-    font-weight: 600;
-    font-family: $font-serif;
-}
-
-.doi::before { content: 'doi:'; }
-
-// summary
 .article-summary {
     display: block;
     width: 48%;
@@ -75,12 +43,18 @@ a.footnote-ref {
         }
     }
 
+    // hyphenation
+    p, .bg-text {
+        word-wrap: anywhere;
+        hyphens: auto;
+    }
+
     // text-shaping elements
     .bg-text::before,
     p::before {
         content: '';
         width: 100%;
-        height: 200px;
+        height: 300px;
     }
 
     // left/first preview

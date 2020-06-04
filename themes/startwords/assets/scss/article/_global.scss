@@ -3,6 +3,12 @@
 // variables
 $frame-height: rem(320px);
 
+$triangle-left: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 200% 50%);
+$triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -100% 50%);
+
+// $triangle-left: polygon(0% 0%, 100% 0%, 100% 100%);
+// $triangle-right: polygon(0% 100%, 0% 0%, 100% 0%);
+
 // global styles
 .authors {
     list-style: none;
@@ -15,7 +21,11 @@ $frame-height: rem(320px);
     }
 }
 
-.pubdate {
-    display: block;
-    font-family: $font-sans;
+a.footnote-ref {
+    color: $red;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: $font-serif;
 }
+
+.doi::before { content: 'doi:'; }
