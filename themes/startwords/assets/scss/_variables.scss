@@ -33,7 +33,3 @@ $breakpoint-fullwidth-notes: 414px;
 $gutter: 15px;
 $grid-gap: 10px;
 $grid-column: calc((100vw - (2 * #{$gutter}) - (9 * #{$grid-gap})) / 10);
-
-// shapes
-$triangle-left: polygon(0% 0%, 100% 0%, 100% 50%, 0% 0%);
-$triangle-right: polygon(0% 50%, 0% 0%, 100% 0%, 0% 50%);

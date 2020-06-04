@@ -4,21 +4,48 @@
     {{ end }}
 {{ end }}
 
+{{ define "page_meta" }}
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/>
+<meta name="citation_public_url" content="{{ .RelPermalink | absURL }}" />
+<meta name="citation_title" content="{{ .Params.Title | htmlEscape }}"/>
+<meta name="citation_date" content="{{ .Params.date.Format `2006/01` }}"/>
+{{/* NOTE: Google Scholar prefers full date in YYYY/MM/DD form or year only */}}
+{{ range .Params.Authors }}
+<meta name="citation_author" content="{{ . }}"/>  {{/* lastname first preferred, if possible */}}
+{{ end }}
+{{/* TBD; likely in page params <meta name="citation_pdf_url" content="{{  }}">  */}}
+{{ if .Params.doi }}<meta name="citation_doi" content="{{ .Params.doi }}"/>{{ end }}
+<meta name="citation_abstract" content="{{ .Summary | plainify | htmlEscape }}" />
+<meta name="citation_journal_title" content="{{ .Site.Title }}"/>
+{{/* TODO: add when/if we get an ISSN:  <meta name="citation_issn" content=""> */}}
+<meta name="citation_issue" content="{{ .Parent.Params.number }}"/>
+<meta name="citation_publisher" content="Center for Digital Humanities, Princeton University"/>
+<meta name="DC.rights" content="{{ .Site.Params.license }}" />
+{{ end }}
+
 {{ define "pagetype" }}article{{ end }}
 
 {{ define "main" }}
 <main>
-    <article>
-        <p class="number">Issue {{ .Parent.Params.number }}</p>
-        <p class="theme">{{ .Parent.Params.theme }}</p>
-        <h1>{{ .Params.Title }}</h1>
-        {{ partial "authors" . }}
-        {{ partial "pubdate" . }}
-        {{ with  .OutputFormats.Get "txt" -}}
-        <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
-        {{- end }}
-        {{ .Content }}
-    </article>
+    <div class="grid">
+        <div class="text-container">
+            <article>
+                <p class="number">Issue {{ .Parent.Params.number }}</p>
+                <p class="theme">{{ .Parent.Params.theme }}</p>
+                <h1>{{ .Params.Title }}</h1>
+                {{ partial "authors" . }}
+                {{ partial "pubdate" . }}
+                {{ if .Params.doi }}
+                 <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a>
+                {{ end }}
+                <p class="formats">
+                {{ with  .OutputFormats.Get "txt" -}}
+                <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+                {{- end }}
+                {{ .Content }}
+                </p>
+            </article>
+        </div>
+    </div>
 </main>
 {{ end }}
-        

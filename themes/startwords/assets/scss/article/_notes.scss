@@ -1,4 +1,7 @@
 .footnotes {
+    margin: rem(60px) 0;
+
+    > hr { display: none; }
 
     $arrow-icon-size: 26px;
     /* width from the short side of the note to the outside of the icon */
@@ -7,11 +10,8 @@
 
 
     ol {
-        /* remove side margin/padding on ol so target li can be full width */
-        margin: 0 -20px 50px;
-        padding-inline-start: 0;
+        padding: 0;
         counter-reset: footnoteCounter;
-        padding-bottom: 50px;
         list-style: none;
     }
 
@@ -31,7 +31,7 @@
         margin: 0;
         padding-top: rem(140px);
         left: 0;
-        bottom: -75vh;
+        bottom: -100vh;
         transition: bottom 0.5s ease;
 
         -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
@@ -114,6 +114,7 @@
 
         /* footnote styles for endnotes */
         .endnote & {
+            margin: 0;
 
             &::before {
                 /* position counter for endnote display */
