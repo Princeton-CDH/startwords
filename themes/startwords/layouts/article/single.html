@@ -34,7 +34,7 @@
         {{ partial "authors" . }}
         {{ partial "pubdate" . }}
         {{ if .Params.doi }}
-         <a href="http://doi.org/{{ .Params.doi }}" rel="alternate">doi:{{ .Params.doi }}</a>
+         <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a>
         {{ end }}
         {{ with  .OutputFormats.Get "txt" -}}
         <a href="{{ .RelPermalink }}" rel="alternate">TXT</a>
