@@ -2,14 +2,21 @@
 
 body.article {
 
-    article { margin-top: rem(60px); } 
+    article {
+        margin-top: rem(60px);
+        margin-bottom: rem(100px);
+
+        @media (min-width: $breakpoint-s) {
+            margin-bottom: 0;
+        }
+    } 
 
     .text-container { overflow: hidden; }
     
     // embedded content
     .sketchfab-embed-wrapper {
         margin: rem(30px) 0;
-        
+
         iframe {
             width: 100%;
             height: $frame-height;
