@@ -10,10 +10,10 @@
     </nav>
 
     <div class="icons">
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-        <img alt="Creative Commons Attribution Non-commerical Share Alike License"
+      <a rel="license" href="{{ .Site.Params.license }}">
+        <img alt="{{ .Site.Params.license_text }}"
             src="{{ relURL "/img/logos/license.svg" }}" /></a>
-      <a class="logo" id="startwords" href="{{ relURL "/" }}" aria-label="Startwords"></a>
+      <a class="logo" id="startwords" href="{{ relURL "/" }}" aria-label="{{ .Site.Title }}"></a>
       <a class="logo" id="cdh" href="https://cdh.princeton.edu/" aria-label="The Center for Digital Humanities at Princeton"></a>
     </div>
 </footer>
