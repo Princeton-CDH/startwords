@@ -50,6 +50,7 @@
         margin: 0;
         padding-top: rem(140px);
         bottom: 0;
+        left: 0;
 
         font-family: IBM Plex Serif;
         font-size: rem(16px);
@@ -80,7 +81,7 @@
         }
 
         a {
-            color: $red;
+            color: $light-purple;
         }
 
         a[role=doc-backlink] {
