@@ -1,0 +1,17 @@
+/* functions */
+
+// convert a pixel measurement into rems
+// '100px' @ 1rem = 18px -> ''
+@function rem($px) {
+    $rem: $px / $base-font-size;
+    @return #{$rem}rem;
+}
+
+// return only the numeric portion of a measure
+// '100px' -> '100'
+@function strip-unit($measure) {
+    @if type-of($measure) == 'number' and not unitless($measure) {
+        @return $measure / ($measure * 0 + 1);
+    }
+    @return $measure;
+}

@@ -4,29 +4,33 @@
 $footer-height: rem(100px);
 
 footer {
-    background: $light-grey;
     height: $footer-height;
     width: 100vw;
     bottom: 0;
     text-align: right;
     font-weight: 300;
     font-size: rem(16px);
-    -webkit-clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
-    clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
     position: relative;
+    background: $off-white;
 
-    .inverted & {
-        color: $off-white;
-        background-color: $dark-purple;
+    > * { z-index: 1; }
 
-        a, a:visited {
-            color: $off-white;
-        }
-
-        img.logo {
-            filter: invert(100%);
-        }
+    // triangle shape
+    &::after {
+        content: '';
+        width: 100%;
+        height: $footer-height;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $light-grey;
+        -webkit-clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
+        clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
     }
+
+    nav { position: relative; }
+
+    &.inverted {  @include inverted-footer; }
 
     ul {
         list-style: none;
@@ -46,20 +50,13 @@ footer {
         right: rem(30px);
         bottom: rem(10px);
 
-        @media (min-width: $breakpoint-s) {
-            bottom: rem(15px);
-
-        }
+        @media (min-width: $breakpoint-s) { bottom: rem(15px); }
 
         .logo {
             mask-size: contain;
             mask-mode: alpha;
             background-color: $black;
             display: inline-block;
-
-            .inverted & {
-                background-color: $light-grey;
-            }
         }
 
         #startwords {

@@ -69,8 +69,6 @@ We invite you to participate in the labor of data work. Download models and inst
 [![view weaving section](images/icon-weaving.svg)](#weaving)
 [![view stacking section](images/icon-stacking.svg)](#stacking)
 
-----
-
 ## Folding in the Non-Famous Members of the Shakespeare and Company Library {#folding}
 
 {{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
@@ -88,13 +86,11 @@ The physicalization contrasts the activity of the well-known members of the libr
 
 A pie chart can be used to present the same ratio of data conveyed in the physicalization. ....
 
-#### Next Steps
+### Next Steps
 
 Using cut, punched, or embossed paper would make the piece more tactile; instead of simply printing names, unique patterns could be added to represent data for individual members. In the future, we could generate unique folding patterns for individual library member activity and make them available via print-on-demand, which would enable viewers to become participants and turn folding into an act of recovery of the unknown library members.
 
 Nick Budak, Xinyi Li
-
-----
 
 ## Modeling Shakespeare and Company Library Membership {#modeling}
 
@@ -123,12 +119,10 @@ The current version uses different shapes for the two variables, but adding text
 
 Rebecca Sutton Koeser
 
-----
-
 ## Weaving Derrida’s references {#weaving}
 
 > … we all of us, grave or light, get our thoughts entangled in metaphors…
-— George Eliot, Middlemarch
+><cite> George Eliot, Middlemarch</cite>
 
 ### Goal
 
@@ -144,15 +138,11 @@ This weaving represents the references in chapter one of Jacques Derrida’s de 
 
 [tbd]
 
-
-
 ### Next Steps
 
 Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.
 
 Rebecca Sutton Koeser, Gissoo Doroudian
-
------
 
 ## Stacking New and Continuing Membership Activities of Shakespeare and Company Library {#stacking}
 
@@ -175,5 +165,3 @@ Shakespeare and Company Project library membership data from 1919 to 1941 are re
 The data encoding process could be automated by writing custom code, which could then be made available as a tool for presenting part-to-whole relationships. With the addition of time-based media such as projection mapping, this piece could convey more context and narratives around the lending library.
 
 Xinyi Li
-
-----

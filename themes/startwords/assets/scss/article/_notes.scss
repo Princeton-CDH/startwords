@@ -1,17 +1,17 @@
 .footnotes {
+    margin: rem(60px) 0;
+
+    > hr { display: none; }
 
     ol {
-        /* remove side margin/padding on ol so target li can be full width */
-        margin: 0 -20px 50px;
-        padding-inline-start: 0;
+        padding: 0;
         counter-reset: footnoteCounter;
-        padding-bottom: 50px;
         list-style: none;
     }
 
     li {
         counter-increment: footnoteCounter;
-        margin: 0 2.5rem;
+        margin: 0;
 
          &::before {
             /* replace list marker with counter (::marker not yet widely supported) */

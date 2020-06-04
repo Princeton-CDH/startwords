@@ -1,28 +1,36 @@
-{{ define "pagetype" }}home inverted{{ end }}
+{{ define "pagetype" }}home{{ end }}
 
 {{ define "main" }}
 <main>
     <h1 class="sr-only">{{ .Site.Title }}</h1>
-    <img alt="" class="logotype" src="/logotype.svg"/>
-    <div class="issue-summary">
-        {{ range first 1 (where .Site.AllPages "Type" "issue") }}
-        <span class="number">Issue {{ .Params.number }}</span>
-        <h2 class="theme"><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
-        <p class="summary">{{ .Summary }}</p>
-        <a class="more" href="{{ .Permalink }}"
-            aria-label="Issue {{ .Params.number }}">read more</a>
-        {{ end }}
+    <div class="logotype">
+        <img alt="" src="/logotype.svg"/>
     </div>
-    <div class="container">
-        {{ range first 2 (where .Site.AllPages "Type" "article") }}
-        {{ .Render "summary" }}
-        {{ end }}
+    <div class="issue-summary inverted grid">
+        <div class="container">
+            {{ range first 1 (where .Site.AllPages "Type" "issue") }}
+            <span class="number">Issue {{ .Params.number }}</span>
+            <h2 class="theme"><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
+            <p class="summary">{{ .Summary }}</p>
+            <a class="more" href="{{ .Permalink }}"
+                aria-label="Issue {{ .Params.number }}">read more</a>
+            {{ end }}
+        </div>
     </div>
+    <section id="features" aria-label="features" class="inverted grid">
+        <div class="wide-container">
+            {{ range first 2 (where .Site.AllPages "Type" "article") }}
+            {{ .Render "summary" }}
+            {{ end }}
+        </div>
+    </section>
     {{ with .Content }}
-    <div class="content">
-        <a class="more" href="/about">
-        {{ . }}
-        </a>
+    <div class="content grid">
+        <div class="text-container">
+            <a class="more" href="/about">
+            {{ . }}
+            </a>
+        </div>
     </div>
     {{ end }}
 </main>
