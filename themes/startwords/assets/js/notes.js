@@ -1,11 +1,15 @@
-/* javascript for notes behavior */
+/* javascript for contextual notes */
 
 // hide contextual notes on scroll; on by default
 var hideOnScroll = true;
 
 document.addEventListener('DOMContentLoaded', function() {
   disableHideOnScroll(2);
-  setupNote();
+  setupNote(); // display note if page was loaded with a footnote anchor
+  // create observable to sed endnotes class on footnotes ol when visible
+  var observer = new IntersectionObserver(endnoteIntersectionCallback);
+  var endnotes = document.querySelector('.footnotes');
+  observer.observe(endnotes);
 });
 
 window.addEventListener('hashchange', function() {
@@ -15,11 +19,21 @@ window.addEventListener('hashchange', function() {
 /* on scroll, if a footnote is currently targeted, unselect */
  window.addEventListener('scroll', function(e) {
   	if (location.hash.startsWith('#fn:') && hideOnScroll) {
-  		// set a brief delay before hiding
-	  	window.setTimeout(function(){ closeNote();}, 300);
+ 			location.hash = '';
   	}
 });
 
+function endnoteIntersectionCallback(entries, observer) {
+	console.log('endnoteIntersectionCallback');
+		entries.forEach(entry => {
+      var elem = entry.target;
+	    if (entry.isIntersecting) {
+		      elem.classList.add('endnotes');
+		  } else {
+		      elem.classList.remove('endnotes');
+		  }
+		})
+	}
 
 function setupNote() {
 	// display current note (if one is targeted), and bind backref handler
@@ -45,14 +59,11 @@ function getCurrentNote() {
 		}
 }
 
-function closeNote() {
-	pushHashAndFixTargetSelector('#')
-}
 
 function noteCloseLinkHandler() {
 	// prevent default behavior to avoid jarring scroll to reference
 	event.preventDefault();
-	closeNote();
+	pushHashAndFixTargetSelector('#');
 	this.removeEventListener('click', noteCloseLinkHandler);
 }
 
@@ -104,7 +115,7 @@ function positionContextualNote(note) {
 		}
 }
 
-// update location so that ::target changes but document does not scrorll
+// update location hash so that ::target changes but document does not scroll
 // solution via https://stackoverflow.com/a/59013961/9706217
 function pushHashAndFixTargetSelector(hash) {
     history.pushState({}, document.title, hash); //called as you would normally
