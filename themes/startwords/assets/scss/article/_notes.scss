@@ -48,12 +48,24 @@
             width: rem(320px);
             right: rem(50px);
             bottom: 12rem;
+            left: auto;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s ease;
         }
 
 
         /* active footnote */
         &:target {
             bottom: 0;
+
+            /* full width up to 414px; limit width on larger screens  */
+            @media (min-width: $breakpoint-fullwidth-notes + 1) {
+                width: rem(320px);
+                right: rem(50px);
+                opacity: 1;
+                pointer-events: auto;
+            }
         }
 
         &::before {
@@ -126,9 +138,12 @@
                 width: auto;
                 height: auto;
                 bottom: auto;
+                right: auto;
+                opacity: 1;
                 padding: 0;
                 -webkit-clip-path: none;
                 clip-path: none;
+                pointer-events: auto;
 
                 &::before {
                     /* position counter for endnote display */
