@@ -3,11 +3,11 @@
 
     > hr { display: none; }
 
-    $arrow-icon-size: 26px;
+
+    $close-icon-size: 26px;
     /* width from the short side of the note to the outside of the icon */
     /* arrow point is 70x from right; subtract ~1/2 icon size */
-    $arrow-icon-margin: rem(57px);
-
+    $close-icon-margin: rem(57px);
 
     ol {
         padding: 0;
@@ -66,9 +66,9 @@
             position: absolute;
             font-weight: bold;
             /* align with arrow icon */
-            width: $arrow-icon-size;
+            width: $close-icon-size;
             text-align: center;
-            right: $arrow-icon-margin;
+            right: $close-icon-margin;
             top: rem(50px);
             font-size: rem(35px);
         }
@@ -85,14 +85,15 @@
         a[role=doc-backlink] {
             position: absolute;
             top: rem(5px);
-            right: $arrow-icon-margin;
-            width: $arrow-icon-size;
-            height: $arrow-icon-size;
+            right: $close-icon-margin;
+            width: $close-icon-size;
+            height: $close-icon-size;
             color: transparent;  /* make text transparent */
             display: block;
             text-decoration: none;
             /* set icon as background image */
-            background-image: url(/img/icons/downward-arrow-circle.svg);
+            background-image: url(/img/icons/close-button-contextual-note.svg);
+            background-size: contain;
 
         }
 
@@ -103,46 +104,69 @@
             clip-path: polygon(70px 0, 100% 34%, 100% 100%, 0 100%, 0 11%);
 
             &::before {
-                left: $arrow-icon-margin;
+                left: $close-icon-margin;
             }
 
             a[role=doc-backlink] {
-                left: $arrow-icon-margin;
+                left: $close-icon-margin;
             }
         }
-
-
-        /* footnote styles for endnotes */
-        .endnote & {
-            margin: 0;
-
-            &::before {
-                /* position counter for endnote display */
-                display: inline-block;
-                float: left;
-                padding-right: 2px;
-                vertical-align: top;
-                font-size: 70%;
-                font-weight: 600;
-                font-family: $font-serif;
-                position: relative;
-                width: auto;
-            }
-
-            a[role=doc-backlink] {
-                position: relative;
-                width: auto;
-                color: $red;
-                background: none;
-            }
-
-        }
-
     }
 
+     /* styles for footnotes as they appear in endnotes */
+    &.endnotes {
 
+        ol {
+            margin: 0;
 
+            li {
+                position: relative;
+                background: $off-white;
+                color: $dark-grey;
+                width: auto;
+                height: auto;
+                bottom: auto;
+                padding: 0;
+                -webkit-clip-path: none;
+                clip-path: none;
 
+                &::before {
+                    /* position counter for endnote display */
+                    display: inline-block;
+                    float: left;
+                    padding-right: 2px;
+                    vertical-align: top;
+                    font-size: 70%;
+                    font-weight: 600;
+                    font-family: $font-serif;
+                    position: relative;
+                    width: auto;
+                    right: auto;
+                    left: auto;
+                    top: auto;
+                }
+
+                a[role=doc-backlink] {
+                    position: relative;
+                    width: auto;
+                    color: $red;
+                    background: none;
+                    display: inline;
+                    top: auto;
+                    right: auto;
+                    left: auto;
+                }
+
+                p {
+                    padding-top: 0;
+                }
+
+                a {
+                    color: $dark-purple;
+                }
+            }
+        }
+    }
 }
 
 a.footnote-ref {
@@ -154,7 +178,7 @@ a.footnote-ref {
     /* extend left to make a larger touch target */
     padding-left: rem(100px);
     margin-left: rem(-100px);
-    padding-bottom: rem(10px);  /* probably wrong, but line-height not set yet */
+    padding-bottom: 0.75rem;
 
     &::after {
         content: " ";
@@ -166,6 +190,6 @@ a.footnote-ref {
         margin-left: rem(-100px);
         width: rem(100px);
         height: rem(5px);
-        background: linear-gradient(to right, white, $transparent-red);
+        background: linear-gradient(to right, $off-white, $transparent-red);
     }
 }
