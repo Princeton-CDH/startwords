@@ -46,7 +46,7 @@
         /* full width up to 414px; limit width on larger screens  */
         @media (min-width: $breakpoint-fullwidth-notes + 1) {
             width: rem(320px);
-            right: rem(50px);
+            right: rem(-350px); /* off-screen to avoid flicker when leaving endnotes */
             bottom: 12rem;
             left: auto;
             opacity: 0;

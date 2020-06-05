@@ -24,11 +24,16 @@ window.addEventListener('hashchange', function() {
 });
 
 function endnoteIntersectionCallback(entries, observer) {
-	console.log('endnoteIntersectionCallback');
 		entries.forEach(entry => {
       var elem = entry.target;
 	    if (entry.isIntersecting) {
 		      elem.classList.add('endnotes');
+		      // clear computed positions/styles for all notes
+		      var notes = elem.getElementsByTagName('li');
+					Array.prototype.forEach.call(notes, function(li) {
+		      	li.removeAttribute('style');
+		      	li.classList.remove('flip');
+		      });
 		  } else {
 		      elem.classList.remove('endnotes');
 		  }
