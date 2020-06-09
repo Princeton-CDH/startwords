@@ -201,8 +201,8 @@ a.footnote-ref {
         position: absolute;
         right: 0;
         bottom: 0;
-        padding-left: rem(100px);
-        margin-left: rem(-100px);
+        padding-left: 0;
+        margin-left: 0;
         width: rem(100px);
         height: rem(5px);
         background: linear-gradient(to right, $off-white, $transparent-red);
