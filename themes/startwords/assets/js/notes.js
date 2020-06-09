@@ -4,12 +4,20 @@
 var hideOnScroll = true;
 
 document.addEventListener('DOMContentLoaded', function() {
-  disableHideOnScroll(2);
-  setupNote(); // display note if page was loaded with a footnote anchor
-  // create observable to set endnotes class on footnotes ol when visible
-  var observer = new IntersectionObserver(endnoteIntersectionCallback);
-  var endnotes = document.querySelector('.footnotes');
-  observer.observe(endnotes);
+    disableHideOnScroll(2);
+    // display note if page was loaded with a footnote anchor
+    // with brief timeout for font loading & layout
+    var note = getCurrentNote();
+    note.opacity = 0;  // override default target note styles
+    window.setTimeout(function(){
+        setupNote();
+        note.opacity = 1;
+    }, 500);
+
+    // create observable to set endnotes class on footnotes ol when visible
+    var observer = new IntersectionObserver(endnoteIntersectionCallback);
+    var endnotes = document.querySelector('.footnotes');
+    observer.observe(endnotes);
 });
 
 window.addEventListener('hashchange', function() {
@@ -119,12 +127,12 @@ function positionContextualNote(note) {
 
         // scroll if necessary to make sure positioned note is fully visible
         var noteLocation = note.getBoundingClientRect();
-        if (noteLocation.bottom > window.innerHeight) {
+        if (noteLocation.bottom > document.documentElement.clientHeight) {
             // disable hiding the note when the window scrolls
             disableHideOnScroll(1);
 
             // adjust by amount that is not showing plus some extra
-            var adjustment = noteLocation.bottom - window.innerHeight + 10;
+            var adjustment = noteLocation.bottom - document.documentElement.clientHeight + 10;
             window.scrollBy(0, adjustment);
             // move the note by the same amount
             note.style.top = noteLocation.top - adjustment + 'px';
