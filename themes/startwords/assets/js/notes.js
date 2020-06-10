@@ -8,10 +8,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // display note if page was loaded with a footnote anchor
     // with brief timeout for font loading & layout
     var note = getCurrentNote();
-    note.opacity = 0;  // override default target note styles
+    if (note) {
+        note.opacity = 0;  // override default target note styles
+    }
     window.setTimeout(function(){
         setupNote();
-        note.opacity = 1;
+        if (note) {
+            note.opacity = 1;
+        }
     }, 500);
 
     // create observable to set endnotes class on footnotes ol when visible
