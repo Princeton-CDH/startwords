@@ -29,13 +29,15 @@
         position: fixed;
         width: 100vw;  /* full-width on mobile */
         margin: 0;
-        padding-top: rem(140px);
         left: 0;
         bottom: -100vh;
         transition: bottom 0.5s ease;
+        padding: rem(140px) rem(15px) 3.5rem;
+        min-height: rem(87px);
+        max-height: rem(468px);
 
-        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
-        clip-path: polygon(calc(100% - 70px) 0, 100% 11%, 100% 100%, 0 100%, 0 34%);
+        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
+        clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
         background: $purple;
 
         font-family: $font-serif;
@@ -53,7 +55,6 @@
             pointer-events: none;
             transition: opacity 0.5s ease;
         }
-
 
         /* active footnote */
         &:target {
@@ -86,8 +87,10 @@
         }
 
         p {
-            padding: rem(15px);
+            padding: 0;
             margin: 0;
+            max-height: rem(275px);
+            overflow: scroll;
         }
 
         a {
@@ -109,11 +112,10 @@
 
         }
 
-
         /* mirror image version for notes on the left side of the page */
         &.flip {
-            -webkit-clip-path: polygon(70px 0, 100% 34%, 100% 100%, 0 100%, 0 11%);
-            clip-path: polygon(70px 0, 100% 34%, 100% 100%, 0 100%, 0 11%);
+            -webkit-clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
+            clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
 
             &::before {
                 left: $close-icon-margin;
@@ -144,6 +146,7 @@
                 -webkit-clip-path: none;
                 clip-path: none;
                 pointer-events: auto;
+                padding-bottom: rem(15px);
 
                 &::before {
                     /* position counter for endnote display */
@@ -193,7 +196,7 @@ a.footnote-ref {
     /* extend left to make a larger touch target */
     padding-left: rem(100px);
     margin-left: rem(-100px);
-    padding-bottom: 0.75rem;
+    padding-bottom: 0.7rem;
 
     &::after {
         content: " ";
