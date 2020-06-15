@@ -7,7 +7,7 @@
     $close-icon-size: 26px;
     /* width from the short side of the note to the outside of the icon */
     /* arrow point is 70x from right; subtract ~1/2 icon size */
-    $close-icon-margin: rem(57px);
+    $close-icon-margin: rem(58px);
 
     ol {
         padding: 0;
@@ -109,6 +109,7 @@
             /* set icon as background image */
             background-image: url(/img/icons/close-button-contextual-note.svg);
             background-size: contain;
+            z-index: 5;  /* ensure clickable on safari */
 
         }
 
