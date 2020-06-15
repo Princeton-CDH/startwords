@@ -88,6 +88,7 @@ function noteCloseLinkHandler() {
     // Check that the parent note is still selected; otherwise behave normally
     if (location.hash == '#' + this.parentNode.parentNode.getAttribute('id')) {
         event.preventDefault();
+        event.stopPropagation();
         pushHashAndFixTargetSelector('#');
     }
     // always remove the event handler
