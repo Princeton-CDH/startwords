@@ -43,6 +43,7 @@
     .summary {
         margin: rem(10px) 0 0;
         line-height: rem(25px);
+        @media (min-width: $breakpoint-m) { line-height: rem(27px); }
     }
     
     .number, .more {

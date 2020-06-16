@@ -35,6 +35,10 @@ body.issue {
     // list of featured content
     #features {
         min-height: calc(100vh - #{$footer-height});
+
+        > .wide-container {
+            padding-top: 10vh;
+        }
     }
     
     // inverted footer

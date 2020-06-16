@@ -11,7 +11,7 @@
             {{ range first 1 (where .Site.AllPages "Type" "issue") }}
             <span class="number">Issue {{ .Params.number }}</span>
             <h2 class="theme"><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
-            <p class="summary">{{ .Summary }}</p>
+            <p class="summary">{{ .Summary | plainify }}</p>
             <a class="more" href="{{ .Permalink }}"
                 aria-label="Issue {{ .Params.number }}">read more</a>
             {{ end }}
