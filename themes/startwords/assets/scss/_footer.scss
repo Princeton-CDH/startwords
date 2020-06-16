@@ -12,6 +12,7 @@ footer {
     font-size: rem(16px);
     position: relative;
     background: $off-white;
+    @media (min-width: $breakpoint-m) { font-size: rem(20px); }
 
     > * { z-index: 1; }
 
@@ -45,12 +46,21 @@ footer {
         color: $black;
     }
 
+    .license img {
+        @media (min-width: $breakpoint-m) {
+            width: rem(75px);
+            height: rem(20px);
+        }
+    }
+
     .icons {
         position: absolute;
         right: rem(30px);
         bottom: rem(10px);
 
         @media (min-width: $breakpoint-s) { bottom: rem(15px); }
+        @media (min-width: $breakpoint-m) { bottom: rem(10px); }
+
 
         .logo {
             mask-size: contain;
@@ -65,6 +75,11 @@ footer {
             width: rem(15px);
             height: rem(33px);
             margin-left: rem(24px);
+
+            @media (min-width: $breakpoint-m) {
+                width: rem(18px);
+                height: rem(40px);
+            }
         }
 
         #cdh {
@@ -73,7 +88,11 @@ footer {
             width: rem(37px);
             height: rem(28px);
             margin-left: rem(15px);
+
+            @media (min-width: $breakpoint-m) {
+                width: rem(45px);
+                height: rem(33px);
+            }
         }
     }
-
 }
