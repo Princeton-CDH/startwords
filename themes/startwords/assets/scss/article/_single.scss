@@ -55,6 +55,50 @@ body.article {
                 }
             }
         }
+
+        // pull quotes
+        blockquote.pull {
+            margin: 0;
+            padding: rem(25px) rem(65px);
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            font-size: rem(22px);
+            font-family: $font-sans;
+            font-weight: 400;
+            font-style: italic;
+            color: $purple;
+
+            @media (min-width: $breakpoint-s) { width: 50%; }
+            @media (min-width: $breakpoint-m) { font-size: rem(24px); }
+
+            &.left {
+                float: left;
+                margin-right: rem(10px);
+            }
+
+            &.right {
+                float: right;
+                margin-left: rem(10px);
+            }
+
+            &::before, &::after {
+                position: absolute;
+            }
+
+            &::before {
+                top: rem(10px);
+                left: rem(10px);
+                content: url('/img/pullquote-start.svg');
+            }
+
+            &::after {
+                bottom: rem(10px);
+                right: rem(10px);
+                content: url('/img/pullquote-stop.svg');
+            }
+        }
     } 
 
     .text-container { overflow: hidden; }
