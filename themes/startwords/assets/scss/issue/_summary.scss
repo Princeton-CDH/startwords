@@ -6,6 +6,8 @@
     font-size: rem(18px);
     position: relative;
 
+    @media (min-width: $breakpoint-m) { font-size: rem(20px); }
+
     .theme { color: $transparent-grey; }
 
     &.inverted,
@@ -27,11 +29,13 @@
         font-size: rem(20px);
         margin: rem(5px) 0 0;  
         line-height: normal;
+        @media (min-width: $breakpoint-m) { font-size: rem(22px); }
 
         .arrow { display: none; }
     }
 
     .number {
+        font-size: rem(16px);
         margin-left: 0;
         font-weight: 300;
     }
@@ -40,30 +44,8 @@
         margin: rem(10px) 0 0;
         line-height: rem(25px);
     }
-}
-
-// special display on issue list page
-body.issue-list .issue-summary
-{
-    // offset margin, shorter line height
-    .pubdate,
-    .number {
-        margin: 0 0 0 rem(40px);
-        line-height: 1.2;
-    }
-
-    // bold issue number
-    .number {
-        font-weight: bold;
-    }
-
-    // big theme
-    .theme {
-        font-weight: 900;
-        font-size: rem(60px);
-        word-wrap: break-word;
-        margin: rem(10px) 0 0;
-        color: $transparent-grey;
-        line-height: rem(50px);
+    
+    .number, .more {
+        @media (min-width: $breakpoint-m) { font-size: rem(18px); }
     }
 }

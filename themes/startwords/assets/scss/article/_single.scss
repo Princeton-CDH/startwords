@@ -9,6 +9,52 @@ body.article {
         @media (min-width: $breakpoint-s) {
             margin-bottom: 0;
         }
+
+        // header (summary)
+        header {
+            margin-bottom: rem(30px);
+            @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
+            @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
+
+            p { margin: 0; }
+            .theme { font-weight: 900; }
+
+            // sequential author display with commas
+            .authors {
+                li, address { display: inline; }
+                address::after { content: ','; } 
+                li:last-child address::after { content: ''; }
+            }
+        }
+
+        // body text
+        p {
+            margin: rem(10px) 0;
+            font-weight: 300;
+            line-height: rem(27px);
+        }
+
+        // block quotes
+        blockquote {
+            margin: rem(30px) 0;
+
+            p {
+                margin: 0;
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            cite {
+                display: block;
+                margin-top: rem(5px);
+                font-style: normal;
+                font-weight: 300;
+
+                &::before {
+                    content: ' – '
+                }
+            }
+        }
     } 
 
     .text-container { overflow: hidden; }

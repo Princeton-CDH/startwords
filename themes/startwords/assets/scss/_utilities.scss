@@ -24,6 +24,7 @@
     > .text-container {
         grid-column: 1 / 11;
         @media (min-width: $breakpoint-s) { grid-column: 2 / 10; }
+        @media (min-width: $breakpoint-m) { grid-column: 3 / 9; }
     }
 }
 

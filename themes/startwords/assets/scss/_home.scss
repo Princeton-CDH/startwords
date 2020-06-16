@@ -19,6 +19,7 @@
     }
 
     main > .content {
+
         dt { font-style: italic; }
         abbr { font-style: normal; }
 
@@ -46,5 +47,14 @@
     main + footer {
         @include inverted-footer;
         background: $off-white;
+    }
+
+    // desktop styles: larger fonts
+    @media (min-width: $breakpoint-m) {
+        .issue-summary .number,
+        .issue-summary .more,
+        .article-summary p {
+            font-size: rem(18px);
+        }
     }
 }

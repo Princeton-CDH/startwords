@@ -3,21 +3,25 @@
 // variables
 $frame-height: rem(320px);
 
-$triangle-left: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 200% 50%);
-$triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -100% 50%);
-
-// $triangle-left: polygon(0% 0%, 100% 0%, 100% 100%);
-// $triangle-right: polygon(0% 100%, 0% 0%, 100% 0%);
+$triangle-left: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 250% 50%);
+$triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -150% 50%);
 
 // global styles
 article {
-    .number, .authors, .pubdate, .doi { font-weight: 300; }
+    .number, .pubdate, .doi { font-weight: 300; }
+
+    .formats, .authors { font-weight: 400; }
 
     .number, .theme { margin: 0; }
 
-    .number, .pubdate, a[rel=alt] { font-size: rem(16px); }
+    .number, .pubdate, a[rel=alt], .doi { font-size: rem(16px); }
 
-    .pubdate, a[rel=alt] { font-family: $font-sans; }
+    .formats, .pubdate, .doi, .authors {
+        font-family: $font-sans;
+        line-height: normal;
+        display: block;
+        margin: rem(5px) 0;
+    }
 
     .theme {
         font-weight: 900;
@@ -37,8 +41,6 @@ article {
             font-style: normal;
         }
     }
-
-    .formats { margin: rem(10px) 0; }
     
     .doi::before { content: 'doi:'; }
 
@@ -64,34 +66,6 @@ article {
 
         @media (min-width: $breakpoint-s) {
             margin-top: rem(20px);
-        }
-    }
-
-    // body text
-    p {
-        margin: rem(10px) 0;
-        font-weight: 300;
-        line-height: rem(27px);
-    }
-
-    blockquote {
-        margin: rem(30px) 0;
-
-        p {
-            margin: 0;
-            font-style: italic;
-            font-weight: 400;
-        }
-
-        cite {
-            display: block;
-            margin-top: rem(5px);
-            font-style: normal;
-            font-weight: 300;
-
-            &::before {
-                content: ' – '
-            }
         }
     }
 }
