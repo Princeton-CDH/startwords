@@ -17,6 +17,7 @@ $preview-height: rem(250px);
         margin: 0;
         line-height: rem(22px);
         height: $preview-height;
+        max-width: rem(200px);
         position: relative;
         overflow: hidden;
         @media (min-width: $breakpoint-m) { font-size: rem(18px); }
@@ -108,6 +109,8 @@ $preview-height: rem(250px);
         .bg-text {
             left: 0;
         }
+
+        p { margin-left: auto; }
 
         p::before,
         .bg-text::before {
