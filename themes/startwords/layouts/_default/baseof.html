@@ -31,8 +31,9 @@
     {{ block "css" . }}{{ end }}
 
     {{ $notes := resources.Get "js/notes.js" }}
+    {{ $nav := resources.Get "js/nav.js" }}
     {{/*     {{ $global := resources.Get "js/global.js" }} */}}
-    {{ $js := slice $notes | resources.Concat "js/bundle.js" | resources.Minify}}
+    {{ $js := slice $notes $nav | resources.Concat "js/bundle.js" | resources.Minify}}
     <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
 
     <!-- alternative formats -->
