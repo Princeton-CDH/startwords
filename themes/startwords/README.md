@@ -1,4 +1,4 @@
-# <div align="center"><img src="https://startwords.cdh.princeton.edu/logotype.svg" /> Theme</div>
+# <div align="center"><img src="https://startwords.cdh.princeton.edu/logotype.svg" alt="Startwords"/> Theme</div>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Hugo](https://img.shields.io/badge/hugo-0.67-blue.svg)](https://gohugo.io)
@@ -31,6 +31,8 @@ Example use:
 {{<pullquote left `Cancer is **invisible**, and so are data.`>}}
 ```
 
+[view source](layouts/shortcodes/pullquote.html)
+
 ### deepzoom
 
 Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom
@@ -50,6 +52,8 @@ or
 
 Currently expects parameters `tile` as named or first argument and `height`.
 
+[view source](layouts/shortcodes/deepzoom.html)
+
 ### sketchfab
 
 Use to embed a [SketchFab]() 3D model viewer.
@@ -60,6 +64,12 @@ Example use::
     title="Shakespeare and Company membership origami">}}
 ```
 
+[view source](layouts/shortcodes/sketchfab.html)
+
 ## Information Architecture
 
 ![](https://startwords.cdh.princeton.edu/Information%20Architecture.svg)
+
+## License
+
+The Startwords theme is licensed under the [Apache 2.0 License](LICENSE).
