@@ -27,7 +27,7 @@ First issue to be released March 2020.
 
 **Editor** | Grant Wythoff
 
-**Designer** | Gissoo Doroudian
+**UX Designer** | Gissoo Doroudian
 
 **Developer** | Rebecca Sutton Koeser
 
