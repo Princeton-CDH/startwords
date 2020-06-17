@@ -90,7 +90,8 @@
             margin: 0;
             max-height: rem(275px);
             overflow-y: scroll;
-            width: calc(100vw - 2em);
+            padding-right: 2rem;
+            width: calc(100vw - rem(15px));
 
             /* full width up to 414px; limit width on larger screens  */
             @media (min-width: $breakpoint-fullwidth-notes + 1) {
