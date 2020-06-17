@@ -23,7 +23,7 @@ faculty, graduate students, or external collaborators.
 
 First issue to be released March 2020.
 
-# Masthead
+## Masthead
 
 **Editor** | Grant Wythoff
 
