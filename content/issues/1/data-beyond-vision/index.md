@@ -12,7 +12,7 @@ doi: 10.5281/zenodo.3713671
 ---
 
 
-How do we share tangible objects in a visual medium? We present, describe, use words, pictures, diagrams, _show_ … fail.
+How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.
 
 <!--more-->
 
