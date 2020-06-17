@@ -1,0 +1,60 @@
+/* homepage styles */
+
+.home {
+    .logotype {
+        width: 100%;
+        background: $purple;
+
+        img {
+            display: block;
+            width: rem(250px);
+            padding: rem(60px) 0;
+            margin: 0 auto;
+        }
+    }
+
+    #features {
+        padding-top: 0;
+        padding-bottom: rem(50px);
+    }
+
+    main > .content {
+
+        dt { font-style: italic; }
+        abbr { font-style: normal; }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+
+            dl dd:last-child::after {
+                content: url('/link-arrow-right.svg');
+                vertical-align: top;
+                padding-left: rem(5px);
+                transition: padding 0.2s ease;
+            }
+
+            &:hover,
+            &:active {
+                dl dd:last-child::after {
+                    padding-left: rem(10px);
+                }
+            }
+        }
+    }
+
+    // homepage footer uses inverted style on white background
+    main + footer {
+        @include inverted-footer;
+        background: $off-white;
+    }
+
+    // desktop styles: larger fonts
+    @media (min-width: $breakpoint-m) {
+        .issue-summary .number,
+        .issue-summary .more,
+        .article-summary p {
+            font-size: rem(18px);
+        }
+    }
+}

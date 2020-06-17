@@ -1,17 +1,25 @@
 {{ define "pagetype" }}issue-list{{ end }}
 
 {{ define "main" }}
-    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-    {{ with .Content }}{{ . }}{{ end }}
-    {{ with .Sections }}
-    <ol>
-        {{ range . }}
-        <a href="{{ .Permalink }}">
-            {{ .Render "summary" }}
-        </a>
-        {{ end }}
-    </ol>
-    {{ else }}
-    <p>First issue to be released March 2020.</p>
-    {{ end }}
+<main>
+    <div class="grid">
+        <div class="container">
+            {{ with .Title }}<h1 class="sr-only">{{ . }}</h1>{{ end }}
+            {{ with .Content }}{{ . }}{{ end }}
+            {{ with .Sections }}
+            <ol>
+                {{ range . }}
+                <li>
+                    <a href="{{ .Permalink }}">
+                        {{ .Render "summary" }}
+                    </a>
+                </li>
+                {{ end }}
+            </ol>
+            {{ else }}
+            <p>First issue to be released March 2020.</p>
+            {{ end }}
+        </div>
+    </div>
+</main>
 {{ end }}

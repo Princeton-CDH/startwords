@@ -1,13 +1,29 @@
+{{ define "css" }}
+    {{ range .Resources.Match "*.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+{{ end }}
+
 {{ define "pagetype" }}issue{{ end }}
 
 {{ define "main" }}
-    <p class="number">Issue {{ .Params.number }}</sp>
-    <h1>{{ .Params.theme }}</h1>
-    {{ .Content }}
-    <a href="#features"><img class="chevron"/></a>
-    <section id="features" aria-label="features">
-        {{ range .Pages }}
-        {{ .Render "summary" }}
-        {{ end }}
+<main>
+    <div class="issue-summary grid">
+        <div class="container">
+            <span class="number">Issue {{ .Params.number }}</span>
+            <h1 class="theme">{{ .Params.theme }}</h1>
+            <div class="summary">{{ .Content }}</div>
+            <a href="#features" class="chevron">
+                <img src="/img/chevron.svg" alt="skip to featured content"/>
+            </a>
+        </div>
+    </div>
+    <section id="features" aria-label="features" class="inverted grid">
+        <div class="wide-container">
+            {{ range .Pages }}
+            {{ .Render "summary" }}
+            {{ end }}
+        </div>
     </section>
+</main>
 {{ end }}

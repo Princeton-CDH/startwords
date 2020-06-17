@@ -1,0 +1,52 @@
+/* issue summary/preview styles */
+
+// default display on issue list page
+.issue-summary {
+    color: $black;
+    font-size: rem(18px);
+    position: relative;
+
+    @media (min-width: $breakpoint-m) { font-size: rem(20px); }
+
+    .theme { color: $transparent-grey; }
+
+    &.inverted,
+    .inverted & {
+        @include inverted;
+        .theme, .theme a { color: $light-purple; }
+    }
+
+    a:not(.more) { text-decoration: none; }
+    .more { font-size: rem(16px); }
+
+    .number,
+    .theme {
+        display: block;
+        text-transform: uppercase;
+    }
+
+    .theme {
+        font-size: rem(20px);
+        margin: rem(5px) 0 0;  
+        line-height: normal;
+        @media (min-width: $breakpoint-m) { font-size: rem(22px); }
+
+        .arrow { display: none; }
+    }
+
+    .number {
+        font-size: rem(16px);
+        margin-left: 0;
+        font-weight: 300;
+    }
+
+    .summary {
+        margin: rem(10px) 0 0;
+        line-height: rem(25px);
+        @media (min-width: $breakpoint-m) { line-height: rem(27px); }
+    }
+    
+    .number, .more {
+        @media (min-width: $breakpoint-m) { font-size: rem(18px); }
+    }
+}

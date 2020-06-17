@@ -1,0 +1,98 @@
+/* footer styles */
+
+// variables
+$footer-height: rem(100px);
+
+footer {
+    height: $footer-height;
+    width: 100vw;
+    bottom: 0;
+    text-align: right;
+    font-weight: 300;
+    font-size: rem(16px);
+    position: relative;
+    background: $off-white;
+    @media (min-width: $breakpoint-m) { font-size: rem(20px); }
+
+    > * { z-index: 1; }
+
+    // triangle shape
+    &::after {
+        content: '';
+        width: 100%;
+        height: $footer-height;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $light-grey;
+        -webkit-clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
+        clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
+    }
+
+    nav { position: relative; }
+
+    &.inverted {  @include inverted-footer; }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        padding-top: rem(17px);
+        padding-right: rem(30px);
+    }
+
+    a, a:visited {
+        text-decoration: none;
+        color: $black;
+    }
+
+    .license img {
+        @media (min-width: $breakpoint-m) {
+            width: rem(75px);
+            height: rem(20px);
+        }
+    }
+
+    .icons {
+        position: absolute;
+        right: rem(30px);
+        bottom: rem(10px);
+
+        @media (min-width: $breakpoint-s) { bottom: rem(15px); }
+        @media (min-width: $breakpoint-m) { bottom: rem(10px); }
+
+
+        .logo {
+            mask-size: contain;
+            mask-mode: alpha;
+            background-color: $black;
+            display: inline-block;
+        }
+
+        #startwords {
+            -webkit-mask-image: url(/img/logos/startwords.svg);
+            mask-image: url(/img/logos/startwords.svg);
+            width: rem(15px);
+            height: rem(33px);
+            margin-left: rem(24px);
+
+            @media (min-width: $breakpoint-m) {
+                width: rem(18px);
+                height: rem(40px);
+            }
+        }
+
+        #cdh {
+            -webkit-mask-image: url(/img/logos/cdh.svg);
+            mask-image: url(/img/logos/cdh.svg);
+            width: rem(37px);
+            height: rem(28px);
+            margin-left: rem(15px);
+
+            @media (min-width: $breakpoint-m) {
+                width: rem(45px);
+                height: rem(33px);
+            }
+        }
+    }
+}

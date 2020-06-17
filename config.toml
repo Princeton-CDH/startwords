@@ -1,4 +1,4 @@
-baseURL = "http://startwords.cdh.princeton.edu/"
+baseURL = "https://startwords.cdh.princeton.edu/"
 title = "Startwords"
 theme = "startwords"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -20,10 +20,6 @@ enableEmoji = true
 
 [menu]
   [[menu.footer]]
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.footer]]
     name = "About"
     url = "about/"
     weight = 20
@@ -33,6 +29,8 @@ enableEmoji = true
   dateformShort   = "January 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  license = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+  license_text = "Creative Commons Attribution Non-commerical Share Alike License"
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -1,130 +1,42 @@
-// global styles
-
-$font-sans: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
-$font-serif: 'IBM Plex Serif', 'Palatino', serif;
-
-$gutter-xs: 20px;
-$footer-height: 100px;
-
-// colors
-$light-grey: #e9e9e9;
+/* global styles */
 
 html {
     scroll-behavior: smooth;
-    font-size: 18px;
+    font-size: $base-font-size;
 }
 
 body {
     font-family: $font-sans;
     margin: 0;
     display: flex;
+    min-height: 100vh;
     flex-flow: column nowrap;
 }
 
-header {
-    position: fixed;
-
-    nav {
-        /* sideways-rl is only available in ff currently, so we
-           use vertical-rl and rotate it to get the same effect */
-        transform: rotate(180deg);
-        writing-mode: vertical-lr;
-        text-orientation: mixed;
-        position: absolute;
-        top: 0;
-        height: 100vh;
-
-        ol, ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            width: $gutter-xs;
-            text-align: right;
-        }
-
-        li {
-            display: inline-block;
-        }
-    }
-
-    nav[aria-label=main] {
-        left: 0;
-    }
-
-    nav[aria-label=breadcrumbs] {
-        right: -100vw;
-    }
-}
-
 main {
-    margin: 0 $gutter-xs;
     flex: 1;
-    margin-bottom: $footer-height;
-}
-
-.logotype {
-    display: block;
-}
-
-footer {
-    background: $light-grey;
-    height: $footer-height;
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
-    text-align: right;
-
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
+    background: $off-white;
+    color: $dark-grey;
+    overflow: hidden;
 }
 
 article {
     font-family: $font-serif;
 }
 
-.article-summary {
-    float: left;
-    width: 50%;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-sans;
 }
 
-.authors {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    address {
-        font-family: $font-sans;
-        font-style: normal;
-    }
+a, a:visited {
+    color: $dark-purple;
 }
 
-.pubdate {
-    display: block;
-    font-family: $font-sans;
+abbr {
+    text-decoration: none;
 }
 
-.number,
-.theme {
-    font-family: $font-sans;
-}
-
-// sketchfab embedding
-.sketchfab-embed-wrapper > iframe {
-    width: 100%;
-    height: 320px;
-}
-
-// use default blue link color for visited links
-// *:visited { color: rgb(0, 0, 238); }
-
-
-.deepzoom {
-    width: 100%;
+dd {
+    margin-top: rem(8px);
+    margin-left: rem(16px);
 }

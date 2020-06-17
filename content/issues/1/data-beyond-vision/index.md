@@ -8,7 +8,7 @@ authors:
   - Nick Budak
   - Xinyi Li
 date: 2020-01-01
-DOI: 10.5281/zenodo.3713671
+doi: 10.5281/zenodo.3713671
 ---
 
 
@@ -55,16 +55,21 @@ These are not artist statements because this is not art; Data Art is something e
 
 Data physicalization focuses on constructing data in physical form. It may be similar to other approaches in that it helps to understand and represent data, and in its use of the senses to communicate information, mainly through touch and sight. However, there are considerable distinctions among these approaches. What makes data physicalization distinct is that it encourages critical making by bridging the gap between creative physical and conceptual exploration. This matters because not only does it surfaces the amount of labor involved with data production and representation, and put it into different perspectives and dimensions; it can also creates an opportunity for viewers to become participants by taking part in the making of a piece using data.
 
-Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.
+Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.[^2]
+
+[^2]: Test short note.
 
 Making use of other senses can provide a step towards greater accessibility. The typical solution for making data visualization accessible to vision-impaired readers is to provide a table with the data underlying the chart or graph. This isn’t practical for large datasets, and it’s clearly not the same experience, or otherwise we would provide the tabular data to all users. Another approach is to provide an extended description of the insights gained from the chart. This is helpful, but pre-digesting the chart in this way doesn’t allow readers to view and interpret the patterns and draw their own conclusions.
 
 
 We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.
 
-----
+[![view folding section](images/icon-folding.svg)](#folding)
+[![view modeling section](images/icon-printing.svg)](#modeling)
+[![view weaving section](images/icon-weaving.svg)](#weaving)
+[![view stacking section](images/icon-stacking.svg)](#stacking)
 
-## Folding in the Non-Famous Members of the Shakespeare and Company Library
+## Folding in the Non-Famous Members of the Shakespeare and Company Library {#folding}
 
 {{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
     title="Shakespeare and Company membership origami">}}
@@ -81,15 +86,13 @@ The physicalization contrasts the activity of the well-known members of the libr
 
 A pie chart can be used to present the same ratio of data conveyed in the physicalization. ....
 
-#### Next Steps
+### Next Steps
 
 Using cut, punched, or embossed paper would make the piece more tactile; instead of simply printing names, unique patterns could be added to represent data for individual members. In the future, we could generate unique folding patterns for individual library member activity and make them available via print-on-demand, which would enable viewers to become participants and turn folding into an act of recovery of the unknown library members.
 
 Nick Budak, Xinyi Li
 
-----
-
-## Modeling Shakespeare and Company Library Membership
+## Modeling Shakespeare and Company Library Membership {#modeling}
 
 {{<sketchfab id="89985d66f7244d87b7edbe5fd6266f0d"
     title="Shakespeare and Company membership lollipop chart">}}
@@ -106,7 +109,9 @@ This is a two variable, three dimensional lollipop chart showing the membership 
 
 ### Insights
 
-The same data can be presented in a two-variable bar chart. Overall trends are easy to see, but seasonal trends are not as distinct. Changing perspective on the physical object allows focusing on yearly or monthly trends. Missing data in one variable is visible in both ... [TBD]
+The same data can be presented in a two-variable bar chart. Overall trends are easy to see, but seasonal trends are not as distinct. Changing perspective on the physical object allows focusing on yearly or monthly trends. Missing data in one variable is visible in both ... [TBD][^4]
+
+[^4]: Test note with image. ![view folding section](images/icon-folding.svg)
 
 ### Next Steps
 
@@ -114,12 +119,10 @@ The current version uses different shapes for the two variables, but adding text
 
 Rebecca Sutton Koeser
 
-----
-
-## Weaving Derrida’s references
+## Weaving Derrida’s references {#weaving}
 
 > … we all of us, grave or light, get our thoughts entangled in metaphors…
-— George Eliot, Middlemarch
+><cite> George Eliot, Middlemarch</cite>
 
 ### Goal
 
@@ -135,21 +138,19 @@ This weaving represents the references in chapter one of Jacques Derrida’s de 
 
 [tbd]
 
-
-
 ### Next Steps
 
 Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.
 
 Rebecca Sutton Koeser, Gissoo Doroudian
 
------
-
-## Stacking New and Continuing Membership Activities of Shakespeare and Company Library
+## Stacking New and Continuing Membership Activities of Shakespeare and Company Library {#stacking}
 
 ### Goal
 
-This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old patrons, this piece enables multiple ways to compare and interpret the data from diverse perspectives. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the purpose of larger Shakespeare and Company Project— bringing archival data to life and facilitating rich interpretations
+This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old patrons, this piece enables multiple ways to compare and interpret the data from diverse perspectives. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the purpose of larger Shakespeare and Company Project— bringing archival data to life and facilitating rich interpretations[^5]
+
+[^5]: Test really long note. Viewers can see the rise and fall of subscribers, inspect the difference between active borrowers and subscribers, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new patrons, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity. Data was mapped to the shapes with Data Illustrator, semi-manual calculation and vector drawing.
 
 ### Description
 
@@ -164,5 +165,3 @@ Shakespeare and Company Project library membership data from 1919 to 1941 are re
 The data encoding process could be automated by writing custom code, which could then be made available as a tool for presenting part-to-whole relationships. With the addition of time-based media such as projection mapping, this piece could convey more context and narratives around the lending library.
 
 Xinyi Li
-
-----

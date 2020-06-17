@@ -1,0 +1,119 @@
+/* single article page styles */
+
+body.article {
+
+    article {
+        margin-top: rem(60px);
+        margin-bottom: rem(100px);
+
+        @media (min-width: $breakpoint-s) {
+            margin-bottom: 0;
+        }
+
+        // header (summary)
+        header {
+            margin-bottom: rem(30px);
+            @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
+            @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
+
+            p { margin: 0; }
+            .theme { font-weight: 900; }
+
+            // sequential author display with commas
+            .authors {
+                li, address { display: inline; }
+                address::after { content: ','; } 
+                li:last-child address::after { content: ''; }
+            }
+        }
+
+        // body text
+        p {
+            margin: rem(10px) 0;
+            font-weight: 300;
+            line-height: rem(27px);
+        }
+
+        // block quotes
+        blockquote {
+            margin: rem(30px) 0;
+
+            p {
+                margin: 0;
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            cite {
+                display: block;
+                margin-top: rem(5px);
+                font-style: normal;
+                font-weight: 300;
+
+                &::before {
+                    content: ' – '
+                }
+            }
+        }
+
+        // pull quotes
+        blockquote.pull {
+            margin: 0;
+            padding: rem(25px) rem(65px);
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            font-size: rem(22px);
+            font-family: $font-sans;
+            font-weight: 400;
+            font-style: italic;
+            color: $purple;
+
+            @media (min-width: $breakpoint-s) { width: 50%; }
+            @media (min-width: $breakpoint-m) { font-size: rem(24px); }
+
+            &.left {
+                float: left;
+                margin-right: rem(10px);
+            }
+
+            &.right {
+                float: right;
+                margin-left: rem(10px);
+            }
+
+            &::before, &::after {
+                position: absolute;
+            }
+
+            &::before {
+                top: rem(10px);
+                left: rem(10px);
+                content: url('/img/pullquote-start.svg');
+            }
+
+            &::after {
+                bottom: rem(10px);
+                right: rem(10px);
+                content: url('/img/pullquote-stop.svg');
+            }
+        }
+    } 
+
+    .text-container { overflow: hidden; }
+    
+    // embedded content
+    .sketchfab-embed-wrapper {
+        margin: rem(30px) 0;
+
+        iframe {
+            width: 100%;
+            height: $frame-height;
+        }
+    }
+    
+    .deepzoom {
+        width: 100%;
+    }
+}

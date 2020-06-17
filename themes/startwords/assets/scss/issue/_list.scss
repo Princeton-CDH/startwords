@@ -1,0 +1,65 @@
+/* issue list page styles */
+
+body.issue-list {
+
+    // special summary display
+    .issue-summary {
+        .pubdate,
+        .number {
+            margin: 0 0 0 rem(40px);
+            line-height: 1.2;
+        }
+
+        .number { font-weight: bold; }
+        .pubdate { font-weight: 400; }
+
+        .theme {
+            font-weight: 900;
+            font-size: rem(60px);
+            word-wrap: break-word;
+            margin: rem(10px) 0 0;
+            color: $transparent-grey;
+            line-height: rem(50px);
+        }
+    }
+
+    // force wrapping 
+    .grid .container { overflow-x: hidden; }
+
+    ol {
+        list-style: none;
+        padding: 0;
+        margin: rem(80px) 0 0;
+        overflow: hidden;
+    }
+
+    li + li {
+        margin-top: rem(30px);
+    }
+
+    li a {
+        text-decoration: none;
+        display: block;
+
+        .theme {
+            padding-right: rem(75px);
+            position: relative;
+        }
+
+        // red arrows when links are hovered
+        .theme::after {
+            content: url('/link-arrow-right.svg');
+            position: absolute;
+            height: rem(22px);
+            top: calc(50% - 33px);
+            right: rem(45px);
+            transition: right 0.2s ease;
+        }
+
+        // movement effect
+        &:hover,
+        &:focus {
+            .theme::after { right: rem(40px); }
+        }
+    }
+}

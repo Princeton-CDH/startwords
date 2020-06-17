@@ -1,0 +1,71 @@
+/* general article styles */
+
+// variables
+$frame-height: rem(320px);
+
+$triangle-left: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 250% 50%);
+$triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -150% 50%);
+
+// global styles
+article {
+    .number, .pubdate, .doi { font-weight: 300; }
+
+    .formats, .authors { font-weight: 400; }
+
+    .number, .theme { margin: 0; }
+
+    .number, .pubdate, a[rel=alt], .doi { font-size: rem(16px); }
+
+    .formats, .pubdate, .doi, .authors {
+        font-family: $font-sans;
+        line-height: normal;
+        display: block;
+        margin: rem(5px) 0;
+    }
+
+    .theme {
+        font-weight: 900;
+        font-size: rem(20px);
+        color: $purple;
+        text-transform: uppercase;
+    }
+
+    .authors {
+        font-size: rem(16px);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+        address {
+            font-family: $font-sans;
+            font-style: normal;
+        }
+    }
+    
+    .doi::before { content: 'doi:'; }
+
+    // headings
+    h1, h2, h3, h4, h5 { font-family: $font-serif; }
+    h1, h2, h3 { font-size: rem(20px); }
+    h3, h4, h5 { font-weight: 500; }
+
+    h1 { margin: rem(10px) 0; }
+
+    h2, h3 {
+        margin-top: rem(60px);
+        margin-bottom: rem(10px);
+
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(40px);
+        }
+    }
+
+    h4 {
+        margin-top: rem(40px);
+        margin-bottom: rem(10px);
+
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(20px);
+        }
+    }
+}

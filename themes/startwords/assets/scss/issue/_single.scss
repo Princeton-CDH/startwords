@@ -1,0 +1,46 @@
+/* single issue page styles */
+
+body.issue {
+    // issue summary display similar to homepage
+    .issue-summary {
+        padding-top: rem(45px);
+        min-height: 100vh;
+
+        // summary is a <div> containing rich text here
+        .summary { margin: 0; }
+        .summary > p { margin-top: rem(5px); }
+    }
+
+    // link to scroll down
+    .chevron {
+        display: block;
+        color: $purple;
+        grid-column: 3 / 9;
+        margin-top: rem(100px);
+
+        img {
+            display: block;
+            margin: 0 auto;
+            transition: padding 0.2s ease;
+        }
+
+        &:hover,
+        &:focus {
+            img {
+                padding-top: rem(5px);
+            }
+        }
+    }
+
+    // list of featured content
+    #features {
+        min-height: calc(100vh - #{$footer-height});
+
+        > .wide-container {
+            padding-top: 10vh;
+        }
+    }
+    
+    // inverted footer
+    main + footer { @include inverted-footer; }
+}
