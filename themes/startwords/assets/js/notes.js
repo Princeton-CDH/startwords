@@ -36,6 +36,20 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
+/* Adjust for poor behavior on iOS, where it requires clicking twice
+to display the contextual note. */
+window.addEventListener('touchend', function(event) {
+    // if a footnote reference is touched, disable hide on scroll
+    // (in case the touch includes page movement) and trigger a click
+    if (event.target.classList.contains('footnote-ref')) {
+        disableHideOnScroll(0.5);
+        event.preventDefault();
+        event.stopPropagation();
+        event.target.click();
+    }
+});
+
 function endnoteIntersectionCallback(entries, observer) {
     entries.forEach(entry => {
       var elem = entry.target;

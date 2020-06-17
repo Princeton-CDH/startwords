@@ -202,6 +202,8 @@ a.footnote-ref {
     font-family: $font-serif;
     position: relative;
     /* extend left to make a larger touch target */
+    padding: 1rem;
+    margin: -1rem;
     padding-left: rem(100px);
     margin-left: rem(-100px);
     padding-bottom: 0.7rem;
@@ -210,7 +212,7 @@ a.footnote-ref {
         content: " ";
         display: inline-block;
         position: absolute;
-        right: 0;
+        right: 0.5rem;
         bottom: 0;
         padding-left: 0;
         margin-left: 0;
