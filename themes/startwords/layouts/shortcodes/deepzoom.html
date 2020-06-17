@@ -10,6 +10,7 @@ OpenSeadragon({
     visibilityRatio:    1,
     minZoomLevel:       1,
     defaultZoomLevel:   1,
+    gestureSettingsMouse: { scrollToZoom: false },
     tileSources: "{{ if .IsNamedParams }}{{ .Get "tile" }}{{ else }}{{ .Get 0 }}{{ end }}",
 });
 </script>

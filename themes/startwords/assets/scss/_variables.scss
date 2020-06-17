@@ -10,6 +10,10 @@ $dark-grey:    #404040;
 $black:        #000000;
 $red:          #CE2949;
 
+// transparent colors
+$transparent-grey: rgba(128, 128, 128, 0.5);
+$transparent-red: rgba(206, 41, 73, 0.6);
+
 // font controls
 $font-sans:  'Source Sans Pro', 'Arial', sans-serif;
 $font-serif: 'IBM Plex Serif', 'Palatino', serif;
@@ -22,11 +26,10 @@ $breakpoint-m:  1024px;
 $breakpoint-l:  1280px;
 $breakpoint-xl: 1440px;
 
+// break point for full-width contextual notes
+$breakpoint-fullwidth-notes: 414px;
+
 // layout
 $gutter: 15px;
 $grid-gap: 10px;
 $grid-column: calc((100vw - (2 * #{$gutter}) - (9 * #{$grid-gap})) / 10);
-
-// shapes
-$triangle-left: polygon(0% 0%, 100% 0%, 100% 50%, 0% 0%);
-$triangle-right: polygon(0% 50%, 0% 0%, 100% 0%, 0% 50%);

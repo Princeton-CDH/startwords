@@ -1,32 +1,48 @@
-/* utility mixins & functions */
+/* utility classes & mixins */
+
+// gridded sections use a 10-column grid with 10px gaps
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: rem(10px);
+    padding: $gutter;
+    box-sizing: border-box;
+
+    // sizing for the default content container inside grids
+    > .container {
+        grid-column: 2 / 10;
+        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+    }
+
+    // wider container inside grids, for article previews
+    > .wide-container {
+        grid-column: 1 / 11;
+        @media (min-width: $breakpoint-s) { grid-column: 4 / 8; }
+    }
+
+    // text container inside grids, for article main content
+    > .text-container {
+        grid-column: 1 / 11;
+        @media (min-width: $breakpoint-s) { grid-column: 2 / 10; }
+        @media (min-width: $breakpoint-m) { grid-column: 3 / 9; }
+    }
+}
 
 // inverted sections use a purple background & white text
 @mixin inverted {
     color: $off-white;
-    background-color: $purple;
+    background: $purple;
 
     a, a:visited {
         color: $off-white;
     }
 }
 
-// helper class for applying @inverted
-.inverted {
+.inverted { @include inverted; }
+
+// inverted footer has a dark purple shape & inverted logos
+@mixin inverted-footer {
     @include inverted;
-}
-
-// convert a pixel measurement into rems
-// '100px' @ 1rem = 18px -> ''
-@function rem($px) {
-    $rem: $px / $base-font-size;
-    @return #{$rem}rem;
-}
-
-// return only the numeric portion of a measure
-// '100px' -> '100'
-@function strip-unit($measure) {
-    @if type-of($measure) == 'number' and not unitless($measure) {
-        @return $measure / ($measure * 0 + 1);
-    }
-    @return $measure;
+    .logo { filter: invert(100%); }
+    &::after { background: $dark-purple; }
 }

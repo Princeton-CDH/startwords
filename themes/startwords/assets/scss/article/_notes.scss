@@ -1,0 +1,224 @@
+.footnotes {
+    margin: rem(60px) 0;
+
+    > hr { display: none; }
+
+
+    $close-icon-size: 26px;
+    /* width from the short side of the note to the outside of the icon */
+    /* arrow point is 70x from right; subtract ~1/2 icon size */
+    $close-icon-margin: rem(58px);
+
+    ol {
+        padding: 0;
+        counter-reset: footnoteCounter;
+        list-style: none;
+    }
+
+    a[role=doc-backlink] {
+        text-decoration: none;
+        color: $red;
+    }
+
+    /* For transitions, only the transitioned property must change.
+       So the default styles for footnote li is as contextual note. */
+    li {
+        counter-increment: footnoteCounter;
+        margin: 0 2.5rem;
+
+        position: fixed;
+        width: 100vw;  /* full-width on mobile */
+        margin: 0;
+        left: 0;
+        bottom: -100vh;
+        transition: bottom 0.5s ease;
+        padding: rem(140px) rem(15px) 3.5rem rem(15px);
+        max-height: rem(468px);
+
+        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
+        clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
+        background: $purple;
+
+        font-family: $font-serif;
+        font-size: rem(16px);
+        line-height: rem(22px);
+        color: $off-white;
+
+        /* full width up to 414px; limit width on larger screens  */
+        @media (min-width: $breakpoint-fullwidth-notes + 1) {
+            width: rem(320px);
+            right: rem(-350px); /* off-screen to avoid flicker when leaving endnotes */
+            bottom: 12rem;
+            left: auto;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s ease;
+        }
+
+        /* active footnote */
+        &:target {
+            bottom: 0;
+
+            /* full width up to 414px; limit width on larger screens  */
+            @media (min-width: $breakpoint-fullwidth-notes + 1) {
+                width: rem(320px);
+                right: rem(50px);
+                opacity: 1;
+                pointer-events: auto;
+            }
+        }
+
+        &::before {
+            /* replace list marker with counter (::marker not yet widely supported) */
+            content: counters(footnoteCounter, ".");
+            color: $red;
+            font-family: $font-serif;
+
+            /* position footnote number for contextual note by default */
+            position: absolute;
+            font-weight: bold;
+            /* align with arrow icon */
+            width: $close-icon-size;
+            text-align: center;
+            right: $close-icon-margin;
+            top: rem(50px);
+            font-size: rem(35px);
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+            max-height: rem(275px);
+            overflow-y: scroll;
+            padding-right: 2rem;
+            width: calc(100vw - rem(15px));
+
+            /* full width up to 414px; limit width on larger screens  */
+            @media (min-width: $breakpoint-fullwidth-notes + 1) {
+                width: rem(280px);
+            }
+        }
+
+        a {
+            color: $light-purple;
+        }
+
+        a[role=doc-backlink] {
+            position: absolute;
+            top: rem(5px);
+            right: $close-icon-margin;
+            width: $close-icon-size;
+            height: $close-icon-size;
+            color: transparent;  /* make text transparent */
+            display: block;
+            text-decoration: none;
+            /* set icon as background image */
+            background-image: url(/img/icons/close-button-contextual-note.svg);
+            background-size: contain;
+            z-index: 5;  /* ensure clickable on safari */
+
+        }
+
+        /* mirror image version for notes on the left side of the page */
+        &.flip {
+            -webkit-clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
+            clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
+
+            &::before {
+                left: $close-icon-margin;
+            }
+
+            a[role=doc-backlink] {
+                left: $close-icon-margin;
+            }
+        }
+    }
+
+     /* styles for footnotes as they appear in endnotes */
+    &.endnotes {
+
+        ol {
+            margin: 0;
+
+            li {
+                position: relative;
+                background: $off-white;
+                color: $dark-grey;
+                width: auto;
+                height: auto;
+                bottom: auto;
+                right: auto;
+                opacity: 1;
+                padding: 0;
+                -webkit-clip-path: none;
+                clip-path: none;
+                pointer-events: auto;
+                padding-bottom: rem(15px);
+
+                &::before {
+                    /* position counter for endnote display */
+                    display: inline-block;
+                    float: left;
+                    padding-right: 2px;
+                    vertical-align: top;
+                    font-size: 70%;
+                    font-weight: 600;
+                    font-family: $font-serif;
+                    position: relative;
+                    width: auto;
+                    right: auto;
+                    left: auto;
+                    top: auto;
+                }
+
+                a[role=doc-backlink] {
+                    position: relative;
+                    width: auto;
+                    color: $red;
+                    background: none;
+                    display: inline;
+                    top: auto;
+                    right: auto;
+                    left: auto;
+                }
+
+                p {
+                    padding-top: 0;
+                    max-height: none;
+                    width: auto;
+                }
+
+                a {
+                    color: $dark-purple;
+                }
+            }
+        }
+    }
+}
+
+a.footnote-ref {
+    color: $red;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: $font-serif;
+    position: relative;
+    /* extend left to make a larger touch target */
+    padding: 1rem;
+    margin: -1rem;
+    padding-left: rem(100px);
+    margin-left: rem(-100px);
+    padding-bottom: 0.7rem;
+
+    &::after {
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        right: 0.5rem;
+        bottom: 0;
+        padding-left: 0;
+        margin-left: 0;
+        width: rem(100px);
+        height: rem(5px);
+        background: linear-gradient(to right, $off-white, $transparent-red);
+    }
+}
