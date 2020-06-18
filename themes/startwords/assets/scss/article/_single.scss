@@ -45,6 +45,11 @@ body.article {
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
         }
 
+        // lists
+        ol, ul {
+            font-weight: 300;
+        }
+
         // block quotes
         blockquote {
             margin: rem(30px) 0;
