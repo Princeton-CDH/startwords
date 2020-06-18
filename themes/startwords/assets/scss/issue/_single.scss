@@ -17,17 +17,18 @@ body.issue {
         color: $purple;
         grid-column: 3 / 9;
         margin-top: rem(100px);
+        margin-bottom: rem(200px);
 
         img {
             display: block;
             margin: 0 auto;
-            transition: padding 0.2s ease;
+            transition: all 0.2s ease;
         }
 
         &:hover,
         &:focus {
             img {
-                padding-top: rem(5px);
+                transform: translateY(5px);
             }
         }
     }
