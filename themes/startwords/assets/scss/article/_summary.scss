@@ -37,6 +37,15 @@ $preview-height-xl: rem(250px);  // 1024px-
         @media (min-width: $breakpoint-m) { height: $preview-height-xl; }
     }
 
+    .bg-text,
+    .bg-text::before {
+        height: calc(#{$preview-height-xs} * 1.5);
+        @media (min-width: 375px) { height: calc(#{$preview-height-s} * 1.5); }
+        @media (min-width: 414px) { height: calc(#{$preview-height-m} * 1.5); }
+        @media (min-width: $breakpoint-s) { height: calc(#{$preview-height-l} * 1.5); }
+        @media (min-width: $breakpoint-m) { height: calc(#{$preview-height-xl} * 1.5); }
+    }
+
     h2 {
         font-family: $font-sans;
         font-weight: bold;
@@ -68,13 +77,9 @@ $preview-height-xl: rem(250px);  // 1024px-
         position: absolute;
         width: 48vw;
         color: rgba(224, 206, 255, 0.05);
-        top: rem(-25px);
+        top: rem(-50px);
         font-size: rem(20px);
-
-        @media (min-width: $breakpoint-s) {
-            font-size: rem(30px);
-            top: rem(-50px);
-        }
+        @media (min-width: $breakpoint-s) { font-size: rem(30px); }
     }
 
     // text-shaping elements
