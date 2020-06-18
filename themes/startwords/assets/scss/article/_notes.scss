@@ -25,6 +25,8 @@
     li {
         counter-increment: footnoteCounter;
         margin: 0 2.5rem;
+        overscroll-behavior: none;
+        -webkit-overflow-scrolling: touch;
 
         position: fixed;
         width: 100vw;  /* full-width on mobile */
