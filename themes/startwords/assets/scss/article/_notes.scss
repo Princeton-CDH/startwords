@@ -134,15 +134,14 @@
         }
     }
 
-     /* styles for footnotes as they appear in endnotes */
-    &.endnotes {
+    /* styles for footnotes as they appear in endnotes */
+    @mixin endnote-styles {
 
         ol {
             margin: 0;
 
             li {
                 position: relative;
-                background: $off-white;
                 color: $dark-grey;
                 width: auto;
                 height: auto;
@@ -194,6 +193,23 @@
             }
         }
     }
+
+    &.endnotes {
+        @include endnote-styles;
+        ol {
+
+            li {
+                background: $off-white;
+            }
+        }
+
+    }
+
+    @media print {
+        @include endnote-styles;
+    }
+
+
 }
 
 a.footnote-ref {
