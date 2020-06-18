@@ -87,6 +87,15 @@ body {
             margin-top: 0;
             padding: 0;
         }
+
+        blockquote.pull {
+            width: 50%;
+            /* not sure why weasyprint needs the negative margin, but
+               without it there is a block of extra whitespace above */
+            margin-top: -50px;
+            padding: 25px 65px;
+        }
+
     }
 }
 
