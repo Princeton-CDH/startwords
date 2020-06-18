@@ -2,6 +2,7 @@
 
 body.article {
 
+
     article {
         margin-top: rem(60px);
         margin-bottom: rem(100px);
@@ -22,7 +23,7 @@ body.article {
             // sequential author display with commas
             .authors {
                 li, address { display: inline; }
-                address::after { content: ','; } 
+                address::after { content: ','; }
                 li:last-child address::after { content: ''; }
             }
         }
@@ -99,10 +100,10 @@ body.article {
                 content: url('/img/pullquote-stop.svg');
             }
         }
-    } 
+    }
 
     .text-container { overflow: hidden; }
-    
+
     // embedded content
     .sketchfab-embed-wrapper {
         margin: rem(30px) 0;
@@ -112,8 +113,15 @@ body.article {
             height: $frame-height;
         }
     }
-    
+
     .deepzoom {
         width: 100%;
     }
+
 }
+
+/* hide assets only used for pdf */
+.print-only {
+    display: none;
+}
+
