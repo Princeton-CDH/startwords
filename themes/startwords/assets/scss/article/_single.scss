@@ -30,14 +30,16 @@ body.article {
             // sequential author display with commas
             .authors {
                 li, address { display: inline; }
-                address::after { content: ','; } 
+                address::after { content: ', '; } 
                 li:last-child address::after { content: ''; }
             }
+
+            .formats { font-weight: 400; }
         }
 
         // body text
         p {
-            margin: rem(10px) 0;
+            margin: rem(15px) 0;
             font-weight: 300;
             line-height: rem(27px);
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
