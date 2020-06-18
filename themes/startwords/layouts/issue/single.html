@@ -25,17 +25,15 @@
                 {{ .Render "summary" }}
             {{ end }}
 
-        <div class="other-articles">
         {{ range after 2 (.Pages.ByParam "order") }}
-            <div class="article-short-summary">
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                {{ partial "authors" . }}
-                {{ range .Params.tags }}
-                <span class="tag">{{ . }}</span>
-                {{ end }}
-            </div>
-        {{ end }}
+        <div class="article-short-summary">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ partial "authors" . }}
+            {{ range .Params.tags }}
+            <span class="tag">{{ . }}</span>
+            {{ end }}
         </div>
+        {{ end }}
 
     </section>
 
