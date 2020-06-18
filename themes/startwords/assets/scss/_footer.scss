@@ -67,6 +67,9 @@ footer {
             mask-mode: alpha;
             background-color: $black;
             display: inline-block;
+            // vendor prefixes for safari fix
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-size: cover;
         }
 
         #startwords {
