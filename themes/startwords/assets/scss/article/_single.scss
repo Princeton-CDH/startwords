@@ -12,9 +12,17 @@ body.article {
 
         // header (summary)
         header {
+            grid-column: 2 / 10;
             margin-bottom: rem(30px);
-            @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
-            @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
+
+            @media (min-width: $breakpoint-s) {
+                grid-column: 3 / 9;
+                margin-bottom: rem(80px);
+            }
+
+            @media (min-width: $breakpoint-m) {
+                margin-bottom: rem(60px);
+            }
 
             p { margin: 0; }
             .theme { font-weight: 900; }
