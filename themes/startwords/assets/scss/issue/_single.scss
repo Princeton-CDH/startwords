@@ -16,8 +16,7 @@ body.issue {
         display: block;
         color: $purple;
         grid-column: 3 / 9;
-        margin-top: rem(100px);
-        margin-bottom: rem(200px);
+        margin: rem(100px) 0;
 
         img {
             display: block;
