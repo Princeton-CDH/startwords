@@ -156,6 +156,8 @@
                 clip-path: none;
                 pointer-events: auto;
                 padding-bottom: rem(15px);
+                overscroll-behavior: auto;
+                -webkit-overflow-scrolling: auto;
 
                 &::before {
                     /* position counter for endnote display */
