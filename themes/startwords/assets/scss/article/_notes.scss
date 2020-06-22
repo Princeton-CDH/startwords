@@ -88,16 +88,27 @@
         }
 
         p {
-            padding: 0;
-            margin: 0;
+            margin: 0 !important;
             max-height: rem(275px);
             overflow-y: scroll;
-            padding-right: 2rem;
-            width: calc(100vw - rem(15px));
+            max-width: calc(100vw - 1.5rem);
 
             /* full width up to 414px; limit width on larger screens  */
             @media (min-width: $breakpoint-fullwidth-notes + 1) {
-                width: rem(280px);
+                width: 100%;
+            }
+
+            img {
+                position: relative;
+                max-width: calc(100vw - 1.5rem);
+                min-width: rem(250px);
+                padding-top: rem(20px);
+                display: block;
+                margin: auto;
+
+                @media (min-width: $breakpoint-fullwidth-notes + 1) {
+                    width: 100%;
+                }
             }
         }
 
@@ -190,6 +201,11 @@
                     padding-top: 0;
                     max-height: none;
                     width: auto;
+
+                    img {
+                        max-width: rem(300px);
+                        min-width: rem(250px);
+                    }
                 }
 
                 a {
