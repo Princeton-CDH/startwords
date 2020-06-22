@@ -1,4 +1,4 @@
-.footnotes {
+body.article .footnotes {
     margin: rem(60px) 0;
 
     > hr { display: none; }
@@ -88,7 +88,7 @@
         }
 
         p {
-            margin: 0 !important;
+            margin: 0;
             max-height: rem(275px);
             overflow-y: scroll;
             max-width: calc(100vw - 1.5rem);
