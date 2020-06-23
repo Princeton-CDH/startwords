@@ -3,9 +3,12 @@
 {{ define "main" }}
 <main>
     <div class="grid">
-        {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+        <div class="container">
+            {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+            {{ .Summary }}
+        </div>
         <div class="text-container">
-        {{ with .Content }}{{ . }}{{ end }}
+            {{ with .Content }}{{ . }}{{ end }}
         </div>
     </div>
 </main>

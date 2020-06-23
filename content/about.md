@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About
+summary: |
+    startword, <abbr title="noun">n.</abbr>
+    : (computer science) A string of letters that identifies the beginning of
+        a valid sequence in a specified language.
+    : (literature) The first appearance of a genre in print.
 ---
-
-startword, <abbr title="noun">n.</abbr>
-: (computer science) A string of letters that identifies the beginning of
-    a valid sequence in a specified language.
-: (literature) The first appearance of a genre in print.
 
 *Startwords* is a research periodical irregularly published by the Center for
 Digital Humanities at Princeton. More formal than a blog yet more speculative

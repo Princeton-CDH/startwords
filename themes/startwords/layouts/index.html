@@ -26,11 +26,11 @@
             {{ end }}
         </div>
     </section>
-    {{ with .Content }}
+    {{ with .Site.GetPage "/about" }}
     <div class="content grid">
         <div class="text-container">
             <a class="more" href="/about">
-            {{ . }}
+            {{ .Summary }}
             </a>
         </div>
     </div>
