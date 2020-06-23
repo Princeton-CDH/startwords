@@ -6,8 +6,8 @@ body.article .footnotes {
 
     $close-icon-size: 26px;
     /* width from the short side of the note to the outside of the icon */
-    /* arrow point is 70x from right; subtract ~1/2 icon size */
-    $close-icon-margin: rem(58px);
+    /* arrow point is 22.5% from right; subtract ~1/2 icon size */
+    $close-icon-margin: calc(22.5% - 13px);
 
     ol {
         padding: 0;
@@ -37,8 +37,8 @@ body.article .footnotes {
         padding: rem(120px) rem(15px) 2.25rem  rem(15px);
         max-height: rem(379px);
 
-        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
-        clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
+        -webkit-clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
+        clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
         background: $purple;
 
         font-family: $font-serif;
@@ -134,8 +134,8 @@ body.article .footnotes {
 
         /* mirror image version for notes on the left side of the page */
         &.flip {
-            -webkit-clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
-            clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
+            -webkit-clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
+            clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
 
             &::before {
                 left: $close-icon-margin;
