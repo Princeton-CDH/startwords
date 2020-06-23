@@ -34,8 +34,8 @@ body.article .footnotes {
         left: 0;
         bottom: -100vh;
         transition: bottom 0.5s ease;
-        padding: rem(140px) rem(15px) 3.5rem rem(15px);
-        max-height: rem(468px);
+        padding: rem(120px) rem(15px) 2.25rem  rem(15px);
+        max-height: rem(379px);
 
         -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
         clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
@@ -43,7 +43,7 @@ body.article .footnotes {
 
         font-family: $font-serif;
         font-size: rem(16px);
-        line-height: rem(22px);
+        line-height: rem(24px);
         color: $off-white;
 
         /* full width up to 414px; limit width on larger screens  */
@@ -89,7 +89,7 @@ body.article .footnotes {
 
         p {
             margin: 0;
-            max-height: rem(275px);
+            max-height: rem(203px);
             overflow-y: scroll;
             max-width: calc(100vw - 1.5rem);
 
