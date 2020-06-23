@@ -3,8 +3,8 @@
 {{ define "main" }}
 <main>
     <div class="grid">
-        <div class="text-container">
         {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+        <div class="text-container">
         {{ with .Content }}{{ . }}{{ end }}
         </div>
     </div>
