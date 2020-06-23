@@ -1,7 +1,7 @@
 ---
 type: article
 title: Data Beyond Vision
-article_number: 1
+order: 1
 authors:
   - Rebecca Sutton Koeser
   - Gissoo Doroudian
@@ -16,10 +16,9 @@ How do we represent tangible objects in a visual medium? We use words, pictures,
 
 <!--more-->
 
-In 2017, historian David Staley argued that as humanists have expanded the range of types of texts they study, they should similarly “expand their definition of reading and interpretation by treating creativity as a scholarly act” (40), generating what he calls “interpretive objects” (36) or “humanistic objects” (39) that include but are not limited to text.[^1] While there are movements within Digital Humanities to consider formats “beyond the traditional”, the presentation and publishing of those more innovative and experimental works (such as installations and project demos) is still secondary or sidelined, where it exists at all. Innovative work like this is carefully researched and theorized, and deserves scholarly engagement and intellectual rigor, even if it does not fit into traditional modes of scholarly communication.
+Humanists continue to expand the range of texts they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider formats beyond the traditional, the presentation and publishing of more innovative and experimental works (such as installations and project demos) is still secondary or sidelined, where it exists at all.  What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms  “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text.[^1] Innovative work like this is carefully researched and theorized, and deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.
 
-
-[^1]:  Staley, David. “On the ‘Maker Turn’ in the Humanities.” In Making Things and Drawing Boundaries, edited by Jentery Sayers, 32–41. Experiments in the Digital Humanities. University of Minnesota Press, 2017. https://doi.org/10.5749/j.ctt1pwt6wq.5.
+[^1]:  Staley, David. “On the ‘Maker Turn’ in the Humanities.” In _Making Things and Drawing Boundaries_, edited by Jentery Sayers, 32–41. Experiments in the Digital Humanities. University of Minnesota Press, 2017. https://doi.org/10.5749/j.ctt1pwt6wq.5.
 
 Academic research has a long history of textual scholarly practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. The
 [Journal of Open Humanities
@@ -105,7 +104,7 @@ This data physicalization demonstrates the affordances of three dimensions for r
 
 This is a two variable, three dimensional lollipop chart showing the membership of the Shakespeare and Company library by month and year, from November 1919 when Sylvia Beach opened her bookstore to its official closing in 1942. Membership data is drawn from two different sources, both of which are incomplete: broad subscription information comes from [logbooks](https://shakespeareandco.princeton.edu/sources/logbooks/) (although logbooks for 1930 and parts of 1931-32 are missing); detailed borrowing histories come from [lending library cards](https://shakespeareandco.princeton.edu/sources/cards/) for a subset of members. The white represents the number of members with an active subscription in each month; the green[^3] corresponds to the number of members with borrowing activity in each month. For any month where the value is zero, there is no lollipop. Representing the two different datasets as adjacent half lollipops exposes the discrepancies between the stories these sources tell us about the membership of the library without privileging either of them. The two lollipop charts are designed to be printed independently and then assembled, so that any 3D printer can be used; however, this is a prototype and the design needs further revision.
 
-[^3]: We use white and green in our physicalizations of data from the Shakespeare and Company Project because those are the two main colors used in the site design.
+[^3]: We use white and green in our physicalizations of data from the Shakespeare and Company Project because those are the two main colors used in the site design. ![color palette from Shakespeare and Company Project](images/scp_colors_dark.png)
 
 ### Insights
 

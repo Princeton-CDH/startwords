@@ -167,3 +167,38 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 }
+
+/* non-featured articles in an issue have a briefer listing */
+.article-short-summary {
+
+    clear: both;
+    font-size: rem(16px);
+    padding-bottom: 0.75em;
+
+    &:first-of-type {
+        padding-top: 2rem;
+    }
+
+    a {
+        font-weight: normal;
+    }
+
+    .tag {
+        color: $light-grey;
+        text-transform: uppercase;
+        font-size: rem(12px);
+        &::before {
+            content: "#";
+        }
+    }
+
+    // sequential author display with commas
+    .authors {
+        padding: 0;
+        margin: 0;
+        li, address { display: inline; }
+        address::after { content: ', '; }
+        li:last-child address::after { content: ''; }
+    }
+
+}
