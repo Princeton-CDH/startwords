@@ -172,6 +172,8 @@ a.page-doi {
 .footnotes {
     background-color: white;
     margin: 9px 0 0;
+    bookmark-level: 2;
+    bookmark-label: "Notes";
 
     hr {
         display: none;
