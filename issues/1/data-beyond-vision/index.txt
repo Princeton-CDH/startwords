@@ -9,7 +9,7 @@
 |
 +----------------------------------------------------------------------------------->
 |
-|  "Data Beyond Vision"
+|  Data Beyond Vision
 |
 |  Authors:
 |  
@@ -22,9 +22,10 @@
 |
 |  doi:10.5281/zenodo.3713671
 |
+|
 +----------------------------------------------------------------------------------->
 |
-|  Issue 1: 
+|  Issue 1: TRANSFORMATIONS
 |  https://startwords.cdh.princeton.edu/issues/1/
 |  January 2020
 |
@@ -110,4 +111,3 @@ Xinyi Li
  Test really long note. Viewers can see the rise and fall of subscribers, inspect the difference between active borrowers and subscribers, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new patrons, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity. Data was mapped to the shapes with Data Illustrator, semi-manual calculation and vector drawing. &amp;#x21a9;&amp;#xfe0e;
 
   
-
