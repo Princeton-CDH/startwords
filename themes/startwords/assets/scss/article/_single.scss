@@ -45,7 +45,7 @@ body.article {
 
         // body text
         p {
-            margin: rem(15px) 0;
+            margin: rem(17px) 0;
             font-weight: 300;
             line-height: rem(27px);
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
