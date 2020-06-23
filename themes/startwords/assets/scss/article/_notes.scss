@@ -242,3 +242,7 @@ a.footnote-ref {
         background: linear-gradient(to right, $off-white, $transparent-red);
     }
 }
+
+sup {
+    line-height: 0;  /* don't disrupt nearby text line-height */
+}
