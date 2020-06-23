@@ -14,6 +14,7 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 - Article DOIs (registered with [Zenodo](zenodo.org/)) are specified in each article's YAML header, so that article metadata can be easily harvested by [Zotero](https://www.zotero.org/) citation management software.
 - Markdown footnotes (`[^1]`) are rendered both as **contextual notes**—a new design feature that allows for popup annotations to float above a referenced line—as well as endnotes at the bottom of an article's page.
 - Article illustration capabilities are built in using [IIIF](https://iiif.io/) for images and [Sketchfab](https://sketchfab.com/) for 3D embeddings.
+- Article order in an issue is determined by `order` page parameter. The first two articles will be displayed as featured essays highlighted side by side on the issue page; all other articles will be listed by title in the order specified.
 
 ## Shortcodes
 
