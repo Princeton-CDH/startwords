@@ -46,6 +46,14 @@ body.article .footnotes {
         line-height: rem(24px);
         color: $off-white;
 
+        /* semi-cheat: set the close icon as a background image in the correct
+        location for browsers that don't display it (even though it is clickable)
+        on long notes due to overflow:hidden on the paragraph */
+        background-image: url(/img/icons/close-button-contextual-note.svg);
+        background-repeat: no-repeat;
+        background-position: 79.5% rem(5px);
+        background-size: $close-icon-size;
+
         /* full width up to 414px; limit width on larger screens  */
         @media (min-width: $breakpoint-fullwidth-notes + 1) {
             width: rem(320px);
@@ -129,13 +137,13 @@ body.article .footnotes {
             background-image: url(/img/icons/close-button-contextual-note.svg);
             background-size: contain;
             z-index: 5;  /* ensure clickable on safari */
-
         }
 
         /* mirror image version for notes on the left side of the page */
         &.flip {
             -webkit-clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
             clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
+            background-position: 20.5% rem(5px);
 
             &::before {
                 left: $close-icon-margin;
