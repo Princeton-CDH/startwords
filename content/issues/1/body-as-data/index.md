@@ -1,7 +1,7 @@
 ---
 type: article
 title: The Body As Data
-article_number: 2
+order: 2
 authors:
     - Rebecca Munson
 date: 2020-01-01

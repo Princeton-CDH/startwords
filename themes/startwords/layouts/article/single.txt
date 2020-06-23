@@ -9,19 +9,21 @@
 |
 +----------------------------------------------------------------------------------->
 |
-|  "{{ .Title }}"
+|  {{ .Title }}
 |
 |  Authors:
 |  {{ range .Params.Authors }}
 |     {{ . }}{{ end }}
 |
 |  {{ .Permalink }}
-|
-|  {{ if .Params.doi }}doi:{{ .Params.doi }}{{ end }}
+|{{ if .Params.doi }}
+|  doi:{{ .Params.doi }}{{ end }}
+|{{ if .Params.tags }}
+|  {{ range .Params.tags }}#{{ . }}{{ end }}{{ end }}
 |
 +----------------------------------------------------------------------------------->
 |
-|  Issue {{ .Parent.Params.number }}: {{ .Parent.Params.issue_theme }}
+|  Issue {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
 |  {{ .Parent.Permalink }}
 |  {{ .Parent.Date.Format "January 2006" }}
 |
@@ -29,4 +31,3 @@
 
 {{/* double newlines to put blank lines between paragraphs */}}
 {{ replace .Plain "\n" "\n\n" }}
-
