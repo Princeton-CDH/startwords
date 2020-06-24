@@ -67,6 +67,31 @@ Example use::
 
 [view source](layouts/shortcodes/sketchfab.html)
 
+### figure
+
+This is a slightly-customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that adds an option to pass in an identifier to set as the
+`aria-describedby` attribute. Also sets `role="img"` on the `<img>` element to allow for SVG images.
+
+Has all the same options as the original, plus `desc_id`.
+
+[view source](layouts/shortcodes/figure.html)
+
+### wrap
+
+Wrap a block of text to set class or id attributes (currently
+only supported for headers in goldmark).
+
+Example use::
+```
+{{< wrap id="conceptmap-desc" class="sr-only">}}
+Other approaches for data representation and interpretation include:
+- Data Visualization, which focuses on storytelling by using graphical elements
+{{</ wrap >}}
+```
+
+[view source](layouts/shortcodes/wrap.html)
+
+
 ## Information Architecture
 
 ![](https://startwords.cdh.princeton.edu/Information%20Architecture.svg)
