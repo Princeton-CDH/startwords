@@ -131,6 +131,12 @@ Rebecca Sutton Koeser
 
 With this piece, we aim to literalize the metaphor of weaving as writing by representing Derrida’s intertextuality as a woven tapestry. The textures of the yarn and woven fabric invite touch, but by showing an in-progress weaving with the pattern and instructions provided, we move viewers beyond seeing and touching to enable them to become participants in reconstructing the data. Showing the weaving in progress also foregrounds the labor of data work, since curation, collection, and visualization all take an enormous amount of work and skill, often from a range of different individuals.
 
+{{< figure src="images/weaving_photo.jpg" caption="Setting up the warp on the loom to start weaving." >}}
+
+{{< wrap class="txt-only" >}}
+Photo. [TBD. Whatever level of description (if any!) we want here.]
+{{</ wrap >}}
+
 ### Description
 
 This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie. The references have been cataloged and categorized by researchers for Derrida’s Margins. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving, and using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization. Textile work is often stereotyped as women’s work, so this piece also raises questions of gender, art versus craft, and high tech versus low tech.
