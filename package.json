@@ -7,16 +7,15 @@
   "private": true,
   "dependencies": {
     "autoprefixer": "^9.8.4",
-    "postcss-cli": "^7.1.1"
+    "postcss-cli": "^7.1.1",
+    "purgecss": "^2.3.0"
   },
   "devDependencies": {},
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Princeton-CDH/startwords.git"
   },
-
   "bugs": {
     "url": "https://github.com/Princeton-CDH/startwords/issues"
   },
