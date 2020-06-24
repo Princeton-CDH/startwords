@@ -136,10 +136,13 @@ function positionContextualNote(note) {
     var noteLeft;
     // if reference is close to the left side, flip the triangle
     if (refLocation.left < (note.clientWidth - 70)) {
-        noteLeft = refLocation.left + refLocation.width / 2 - 70;
+        // no further left than zero (don't allow placing off screen)
+        noteLeft = Math.max(0, refLocation.left + refLocation.width / 2 - 70);
         note.classList.add('flip');
     }  else {
-        noteLeft = refLocation.left + refLocation.width / 2 - note.clientWidth + 70;
+        // no further left than window width - note width (keep on screen)
+        noteLeft = Math.min(refLocation.left + refLocation.width / 2 - note.clientWidth + 70,
+                            window.innerWidth - note.clientWidth);
     }
 
     note.style.left = noteLeft + 'px'
