@@ -30,9 +30,12 @@
     <link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
     {{ block "css" . }}{{ end }}
 
+    {{ $vendor := resources.Get "js/vendor.js" }}
+    <script type="text/javascript" src="{{ $vendor.RelPermalink }}"></script>
+    {{ $issue := resources.Get "js/issue.js" }}
     {{ $notes := resources.Get "js/notes.js" }}
-    {{/*     {{ $global := resources.Get "js/global.js" }} */}}
-    {{ $js := slice $notes | resources.Concat "js/bundle.js" | resources.Minify}}
+    {{ $nav := resources.Get "js/nav.js" }}
+    {{ $js := slice $notes $nav $issue | resources.Concat "js/bundle.js" | resources.Minify}}
     <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
 
     <!-- alternative formats -->

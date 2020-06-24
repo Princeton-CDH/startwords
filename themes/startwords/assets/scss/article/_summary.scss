@@ -1,6 +1,10 @@
 /* article summary styles */
 
-$preview-height: rem(250px);
+$preview-height-xs: rem(300px);  // 320px-375px
+$preview-height-s:  rem(275px);  // 375px-414px
+$preview-height-m:  rem(230px);  // 414px-768px
+$preview-height-l:  rem(300px);  // 768px-1024px
+$preview-height-xl: rem(250px);  // 1024px-
 
 .article-summary {
     display: block;
@@ -16,18 +20,37 @@ $preview-height: rem(250px);
     p {
         margin: 0;
         line-height: rem(22px);
-        height: $preview-height;
         max-width: rem(200px);
         position: relative;
         overflow: hidden;
         @media (min-width: $breakpoint-m) { font-size: rem(18px); }
     }
 
+    // carefully scale paragraph sizes with custom breakpoints to achieve
+    // desired text shape. here be dragons
+    p,
+    p::before {
+        height: $preview-height-xs;
+        @media (min-width: 375px) { height: $preview-height-s; }
+        @media (min-width: 414px) { height: $preview-height-m; }
+        @media (min-width: $breakpoint-s) { height: $preview-height-l; }
+        @media (min-width: $breakpoint-m) { height: $preview-height-xl; }
+    }
+
+    .bg-text,
+    .bg-text::before {
+        height: calc(#{$preview-height-xs} * 1.5);
+        @media (min-width: 375px) { height: calc(#{$preview-height-s} * 1.5); }
+        @media (min-width: 414px) { height: calc(#{$preview-height-m} * 1.5); }
+        @media (min-width: $breakpoint-s) { height: calc(#{$preview-height-l} * 1.5); }
+        @media (min-width: $breakpoint-m) { height: calc(#{$preview-height-xl} * 1.5); }
+    }
+
     h2 {
         font-family: $font-sans;
         font-weight: bold;
         font-style: italic;
-        margin: 0 0 rem(10px) 0;
+        margin: rem(12px) 0;
 
         &::after {
             position: relative;
@@ -54,13 +77,9 @@ $preview-height: rem(250px);
         position: absolute;
         width: 48vw;
         color: rgba(224, 206, 255, 0.05);
-        top: rem(-25px);
+        top: rem(-50px);
         font-size: rem(20px);
-
-        @media (min-width: $breakpoint-s) {
-            font-size: rem(30px);
-            top: rem(-50px);
-        }
+        @media (min-width: $breakpoint-s) { font-size: rem(30px); }
     }
 
     // text-shaping elements
@@ -68,7 +87,6 @@ $preview-height: rem(250px);
     p::before {
         content: '';
         width: 100%;
-        height: $preview-height;
     }
 
     // left/first preview
@@ -148,4 +166,39 @@ $preview-height: rem(250px);
             color: $light-purple;
         }
     }
+}
+
+/* non-featured articles in an issue have a briefer listing */
+.article-short-summary {
+
+    clear: both;
+    font-size: rem(16px);
+    padding-bottom: 0.75em;
+
+    &:first-of-type {
+        padding-top: 2rem;
+    }
+
+    a {
+        font-weight: normal;
+    }
+
+    .tag {
+        color: $light-grey;
+        text-transform: uppercase;
+        font-size: rem(12px);
+        &::before {
+            content: "#";
+        }
+    }
+
+    // sequential author display with commas
+    .authors {
+        padding: 0;
+        margin: 0;
+        li, address { display: inline; }
+        address::after { content: ', '; }
+        li:last-child address::after { content: ''; }
+    }
+
 }

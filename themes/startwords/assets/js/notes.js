@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // create observable to set endnotes class on footnotes ol when visible
     var observer = new IntersectionObserver(endnoteIntersectionCallback);
     var endnotes = document.querySelector('.footnotes');
-    observer.observe(endnotes);
+    if (endnotes) observer.observe(endnotes);
 });
 
 window.addEventListener('hashchange', function() {

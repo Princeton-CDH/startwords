@@ -34,7 +34,10 @@ a, a:visited {
 
 abbr {
     text-decoration: none;
+    font-style: normal;
 }
+
+dt { font-style: italic; }
 
 dd {
     margin-top: rem(8px);

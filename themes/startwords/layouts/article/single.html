@@ -33,28 +33,28 @@
 
 {{ define "main" }}
 <main>
-    <div class="grid">
-        <div class="text-container">
-            <article>
-                <header>
-                    <p class="number">Issue {{ .Parent.Params.number }}</p>
-                    <p class="theme">{{ .Parent.Params.theme }}</p>
-                    <h1>{{ .Params.Title }}</h1>
-                    {{ partial "authors" . }}
-                    {{ partial "pubdate" . }}
-                    {{ if .Params.doi }}
-                     <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a>
-                    {{ end }}
-                    <p class="formats">
-                    {{ with  .OutputFormats.Get "txt" -}}
-                    <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
-                    {{- end }}
-                    </p>
-                </header>
+    <article>
+        <div class="grid">
+            <header>
+                <p class="number"><a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}</a></p>
+                <p class="theme">{{ .Parent.Params.theme }}</p>
+                <h1>{{ .Params.Title }}</h1>
+                {{ partial "authors" . }}
+                {{ partial "pubdate" . }}
+                {{ if .Params.doi }}
+                <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a>
+                {{ end }}
+                <p class="formats">
+                {{ with  .OutputFormats.Get "txt" -}}
+                <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+                {{- end }}
+                </p>
+            </header>
+            <div class="text-container">
             {{ .Content }}
-            </article>
+            </div>
         </div>
-    </div>
+    </article>
 </main>
 
 

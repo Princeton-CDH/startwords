@@ -1,31 +1,76 @@
-# Blank
+# <div align="center"><img src="https://startwords.cdh.princeton.edu/logotype.svg" alt="Startwords"/> Theme</div>
 
-Blank — starter [Hugo](https://gohugo.io/) theme for developers. Use it to make your own theme.
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Hugo](https://img.shields.io/badge/hugo-0.67-blue.svg)](https://gohugo.io)
 
-[Live Demo](https://themes.gohugo.io/theme/blank/)
+The Startwords Hugo theme is designed for [a journal of the same name](https://startwords.cdh.princeton.edu/) by the [Center for Digital Humanities](cdh.princeton.edu/) at Princeton University.
 
-![Blank theme screenshot](https://github.com/Vimux/blank/blob/master/images/splash.png)
+## Features
 
-## Installation
+- Multiple article output formats: articles are generated as .txt files using Hugo's `{{ .Plain }}` [page variable](https://gohugo.io/variables/page/) and as PDFs using [WeasyPrint](https://weasyprint.org/)
+- Layouts: custom content types include feature articles [available under [layouts/article](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/article)], single issues, and list of issues [both available under [layouts/issue](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/issue)].
+- To retain the simplest directory structure that will give us the URLs we want, articles are placed in an issue number directory and have `type:article` specified in the page metadata.
+- Excerpts of the current issue's opening lines are generated on the homepage using Hugo's `<!--more-->` [content summary divider](https://gohugo.io/content-management/summaries/)
+- Article DOIs (registered with [Zenodo](zenodo.org/)) are specified in each article's YAML header, so that article metadata can be easily harvested by [Zotero](https://www.zotero.org/) citation management software.
+- Markdown footnotes (`[^1]`) are rendered both as **contextual notes**—a new design feature that allows for popup annotations to float above a referenced line—as well as endnotes at the bottom of an article's page.
+- Article illustration capabilities are built in using [IIIF](https://iiif.io/) for images and [Sketchfab](https://sketchfab.com/) for 3D embeddings.
+- Article order in an issue is determined by `order` page parameter. The first two articles will be displayed as featured essays highlighted side by side on the issue page; all other articles will be listed by title in the order specified.
 
-In your Hugo site `themes` directory, run:
+## Shortcodes
+
+The _Startwords_ theme includes the following custom short codes.
+
+### pullquote
+
+Use for a styled pull quote. Supports markdown within text content.
+Should indicate placement (left/right) for tablet/desktop and provide
+the text content to be included in the pull quote.
+
+Example use:
 
 ```
-git clone https://github.com/vimux/blank
+{{<pullquote left `Cancer is **invisible**, and so are data.`>}}
 ```
 
-Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `blank`.
+[view source](layouts/shortcodes/pullquote.html)
+
+### deepzoom
+
+Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom
+images are supported on a page.
+
+Example use:
 
 ```
-theme = "blank"
+{{< deepzoom tile="http://iiif.example.com/image-id/info.json" height="10em">}}
 ```
 
-For more information read the official [quick start guide](https://gohugo.io/getting-started/quick-start/) of Hugo.
+or
 
-## Contributing
+```
+{{< deepzoom "http://iiif.example.com/image-id/info.json" >}}
+```
 
-Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](https://github.com/Vimux/blank/issues) to let me know. Or make directly a [pull request](https://github.com/Vimux/blank/pulls).
+Currently expects parameters `tile` as named or first argument and `height`.
+
+[view source](layouts/shortcodes/deepzoom.html)
+
+### sketchfab
+
+Use to embed a [SketchFab]() 3D model viewer.
+
+Example use::
+```
+{{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
+    title="Shakespeare and Company membership origami">}}
+```
+
+[view source](layouts/shortcodes/sketchfab.html)
+
+## Information Architecture
+
+![](https://startwords.cdh.princeton.edu/Information%20Architecture.svg)
 
 ## License
 
-This theme is released under the [MIT license](https://github.com/Vimux/blank/blob/master/LICENSE).
+The Startwords theme is licensed under the [Apache 2.0 License](LICENSE).

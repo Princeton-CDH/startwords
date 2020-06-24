@@ -12,7 +12,7 @@ footer {
     font-size: rem(16px);
     position: relative;
     background: $off-white;
-    @media (min-width: $breakpoint-m) { font-size: rem(20px); }
+    @media (min-width: $breakpoint-m) { font-size: rem(18px); }
 
     > * { z-index: 1; }
 
@@ -25,8 +25,8 @@ footer {
         top: 0;
         left: 0;
         background: $light-grey;
-        -webkit-clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
-        clip-path: polygon(calc(100vw - 50px) 0, 100% 27%, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(calc(100vw - 60px) 0, 100% 27%, 100% 100%, 0 100%);
+        clip-path: polygon(calc(100vw - 60px) 0, 100% 27%, 100% 100%, 0 100%);
     }
 
     nav { position: relative; }
@@ -38,7 +38,7 @@ footer {
         margin: 0;
         padding: 0;
         padding-top: rem(17px);
-        padding-right: rem(30px);
+        padding-right: rem(45px);
     }
 
     a, a:visited {
@@ -55,7 +55,7 @@ footer {
 
     .icons {
         position: absolute;
-        right: rem(30px);
+        right: rem(45px);
         bottom: rem(10px);
 
         @media (min-width: $breakpoint-s) { bottom: rem(15px); }
@@ -67,6 +67,9 @@ footer {
             mask-mode: alpha;
             background-color: $black;
             display: inline-block;
+            // vendor prefixes for safari fix
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-size: cover;
         }
 
         #startwords {

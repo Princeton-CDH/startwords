@@ -13,6 +13,12 @@
         }
     }
 
+    // ensure "read more" link is clickable
+    .issue-summary .summary .more {
+        position: relative;
+        z-index: 1;
+    }
+
     #features {
         padding-top: 0;
         padding-bottom: rem(50px);
@@ -20,7 +26,6 @@
 
     main > .content {
 
-        dt { font-style: italic; }
         abbr { font-style: normal; }
 
         a {

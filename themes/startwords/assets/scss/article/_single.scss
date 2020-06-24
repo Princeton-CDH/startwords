@@ -13,26 +13,48 @@ body.article {
 
         // header (summary)
         header {
+            grid-column: 2 / 10;
             margin-bottom: rem(30px);
-            @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
-            @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
+
+            @media (min-width: $breakpoint-s) {
+                grid-column: 3 / 9;
+                margin-bottom: rem(80px);
+            }
+
+            @media (min-width: $breakpoint-m) {
+                margin-bottom: rem(60px);
+            }
 
             p { margin: 0; }
+            .number {
+                a, a:visited {
+                    color: $dark-grey;
+                    text-decoration: none;
+                }
+            }
             .theme { font-weight: 900; }
 
             // sequential author display with commas
             .authors {
                 li, address { display: inline; }
-                address::after { content: ','; }
+                address::after { content: ', '; }
                 li:last-child address::after { content: ''; }
             }
+
+            .formats { font-weight: 400; }
         }
 
         // body text
         p {
-            margin: rem(10px) 0;
+            margin: rem(17px) 0;
             font-weight: 300;
             line-height: rem(27px);
+            @media (min-width: $breakpoint-m) { line-height: rem(30px); }
+        }
+
+        // lists
+        ol, ul {
+            font-weight: 300;
         }
 
         // block quotes

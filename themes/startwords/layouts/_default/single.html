@@ -2,7 +2,14 @@
 
 {{ define "main" }}
 <main>
-    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-    {{ with .Content }}{{ . }}{{ end }}
+    <div class="grid">
+        <div class="container">
+            {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+            {{ .Summary }}
+        </div>
+        <div class="text-container">
+            {{ with .Content }}{{ . }}{{ end }}
+        </div>
+    </div>
 </main>
 {{ end }}

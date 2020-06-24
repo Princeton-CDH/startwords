@@ -1,4 +1,4 @@
-.footnotes {
+body.article .footnotes {
     margin: rem(60px) 0;
 
     > hr { display: none; }
@@ -6,8 +6,8 @@
 
     $close-icon-size: 26px;
     /* width from the short side of the note to the outside of the icon */
-    /* arrow point is 70x from right; subtract ~1/2 icon size */
-    $close-icon-margin: rem(58px);
+    /* arrow point is 22.5% from right; subtract ~1/2 icon size */
+    $close-icon-margin: calc(22.5% - 13px);
 
     ol {
         padding: 0;
@@ -25,24 +25,34 @@
     li {
         counter-increment: footnoteCounter;
         margin: 0 2.5rem;
+        overscroll-behavior: none;
+        -webkit-overflow-scrolling: touch;
 
         position: fixed;
         width: 100vw;  /* full-width on mobile */
         margin: 0;
         left: 0;
-        bottom: -100vh;
+        bottom: -120vh;  /* display offscreen on mobile by default */
         transition: bottom 0.5s ease;
-        padding: rem(140px) rem(15px) 3.5rem rem(15px);
-        max-height: rem(468px);
+        padding: rem(120px) rem(15px) 2.25rem  rem(15px);
+        max-height: rem(379px);
 
-        -webkit-clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
-        clip-path: polygon(calc(100% - 70px) 0, 100% 42px, 100% 100%, 0 100%, 0 107px);
+        -webkit-clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
+        clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
         background: $purple;
 
         font-family: $font-serif;
         font-size: rem(16px);
-        line-height: rem(22px);
+        line-height: rem(24px);
         color: $off-white;
+
+        /* semi-cheat: set the close icon as a background image in the correct
+        location for browsers that don't display it (even though it is clickable)
+        on long notes due to overflow:hidden on the paragraph */
+        background-image: url(/img/icons/close-button-contextual-note.svg);
+        background-repeat: no-repeat;
+        background-position: 79.5% rem(5px);
+        background-size: $close-icon-size;
 
         /* full width up to 414px; limit width on larger screens  */
         @media (min-width: $breakpoint-fullwidth-notes + 1) {
@@ -86,16 +96,27 @@
         }
 
         p {
-            padding: 0;
             margin: 0;
-            max-height: rem(275px);
+            max-height: rem(203px);
             overflow-y: scroll;
-            padding-right: 2rem;
-            width: calc(100vw - rem(15px));
+            max-width: calc(100vw - 1.5rem);
 
             /* full width up to 414px; limit width on larger screens  */
             @media (min-width: $breakpoint-fullwidth-notes + 1) {
-                width: rem(280px);
+                width: 100%;
+            }
+
+            img {
+                position: relative;
+                max-width: calc(100vw - 1.5rem);
+                min-width: rem(250px);
+                padding-top: rem(20px);
+                display: block;
+                margin: auto;
+
+                @media (min-width: $breakpoint-fullwidth-notes + 1) {
+                    width: 100%;
+                }
             }
         }
 
@@ -116,13 +137,13 @@
             background-image: url(/img/icons/close-button-contextual-note.svg);
             background-size: contain;
             z-index: 5;  /* ensure clickable on safari */
-
         }
 
         /* mirror image version for notes on the left side of the page */
         &.flip {
-            -webkit-clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
-            clip-path: polygon(70px 0, 100% 107px, 100% 100%, 0 100%, 0 42px);
+            -webkit-clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
+            clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
+            background-position: 20.5% rem(5px);
 
             &::before {
                 left: $close-icon-margin;
@@ -153,6 +174,8 @@
                 clip-path: none;
                 pointer-events: auto;
                 padding-bottom: rem(15px);
+                overscroll-behavior: auto;
+                -webkit-overflow-scrolling: auto;
 
                 &::before {
                     /* position counter for endnote display */
@@ -185,6 +208,11 @@
                     padding-top: 0;
                     max-height: none;
                     width: auto;
+
+                    img {
+                        max-width: rem(300px);
+                        min-width: rem(250px);
+                    }
                 }
 
                 a {
@@ -229,7 +257,7 @@ a.footnote-ref {
         content: " ";
         display: inline-block;
         position: absolute;
-        right: 0.5rem;
+        right: 1rem;
         bottom: 0;
         padding-left: 0;
         margin-left: 0;
@@ -237,4 +265,8 @@ a.footnote-ref {
         height: rem(5px);
         background: linear-gradient(to right, $off-white, $transparent-red);
     }
+}
+
+sup {
+    line-height: 0;  /* don't disrupt nearby text line-height */
 }

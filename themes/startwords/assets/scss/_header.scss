@@ -29,6 +29,9 @@ body > header {
 
     nav[aria-label=main] {
         left: 0;
+        transition: left 0.4s ease;
+
+        &.hidden { left: rem(-34px); }
 
         ul {
             position: relative;
