@@ -139,3 +139,8 @@ body.article {
         width: 100%;
     }
 }
+
+/* fallback content included to be shown in TXT version only */
+.txt-only {
+    visibility: none;
+}

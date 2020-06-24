@@ -18,8 +18,6 @@ How do we represent tangible objects in a visual medium? We use words, pictures,
 
 Humanists continue to expand the range of texts they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider formats beyond the traditional, the presentation and publishing of more innovative and experimental works (such as installations and project demos) is still secondary or sidelined, where it exists at all.  What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms  “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text.[^1] Innovative work like this is carefully researched and theorized, and deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.
 
-
-
 Academic research has a long history of textual scholarly practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. The [Journal of Open Humanities Data](https://openhumanitiesdata.metajnl.com/) and [The Journal of Open Source Software](https://joss.theoj.org/) can
 both be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers”; but even these rely on transforming the content they review (data and software) into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, augmented reality experiences? Will all scholars need to become experts in all these modes, or can we find a way to be conversant, as with other important scholarly theories?
 
@@ -52,9 +50,23 @@ Data physicalization focuses on constructing data in physical form. It may be si
 
 Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.[^2]
 
+{{< figure src="images/conceptmap.jpg" caption="Concept map situating data physicalization in relation to other types of data representations and interpretations." attr="From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019." attrlink="https://doi.org/10.5281/zenodo.3261531" desc_id="conceptmap-desc">}}
+
+{{< wrap class="txt-only" >}}
+Figure. Concept map situating data physicalization in relation to other types of data representations and interpretations From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019. https://doi.org/10.5281/zenodo.3261531
+{{</ wrap >}}
+
+{{< wrap class="sr-only" id="conceptmap-desc" >}}
+Other approaches for data representation and interpretation include:
+- Data Visualization, which focuses on storytelling by using graphical elements
+- Data Edibilization, which focuses on experiencing data through food using edible materials
+- Data Sonification, which focuses on auditory patterns by using sound
+- Data Visceralization, which focuses on multiple sensory experiences by using multiple senses, making it the only approach that can incorporate all of the senses
+- Data Art, which focuses on representing links between data and artistic creations by using expressive frameworks and raw data.
+- Interpretive object, which focuses on revealing meanings and relationships via non-textual forms by using metaphors.
+{{</ wrap >}}
 
 Making use of other senses can provide a step towards greater accessibility. The typical solution for making data visualization accessible to vision-impaired readers is to provide a table with the data underlying the chart or graph. This isn’t practical for large datasets, and it’s clearly not the same experience, or otherwise we would provide the tabular data to all users. Another approach is to provide an extended description of the insights gained from the chart. This is helpful, but pre-digesting the chart in this way doesn’t allow readers to view and interpret the patterns and draw their own conclusions.
-
 
 We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.
 
