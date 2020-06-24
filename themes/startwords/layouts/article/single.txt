@@ -28,6 +28,8 @@
 |  {{ .Parent.Date.Format "January 2006" }}
 |
 +----------------------------------------------------------------------------------->
+{{/* remove all tags; convert footnote list; convert markdown URLs and images; remove heading marker.
+    (could we configure in site config or data file and apply iteratively?)*/}}
 
-{{/* double newlines to put blank lines between paragraphs */}}
-{{ replace .Plain "\n" "\n\n" }}
+{{ .RawContent | replaceRE "!\\[([^\\]]+)\\]\\([^\\)]+\\)" "[image: $1]" | replaceRE "{{\\<[^\\>]+>}}" "" | replaceRE "(?m)^#+ " "" | replaceRE "(?m)(<\\/?[^>]+>)" "" | replaceRE "(?m)^\\[\\^(\\d+)\\]: " "$1. " | replaceRE "\\[([^\\]]+)\\]\\(([^\\)]+)\\)" "$1 [URL: $2]" | replaceRE "\\*\\*([^*]+)\\*\\*" "$1"  }}
+
