@@ -1,0 +1,24 @@
+{
+  "name": "startwords",
+  "version": "1.0.0",
+  "author": "The Center for Digital Humanities at Princeton <cdhdevteam@princeton.edu>",
+  "description": "",
+  "license": "Apache-2.0",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^9.8.4",
+    "postcss-cli": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Princeton-CDH/startwords.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/Princeton-CDH/startwords/issues"
+  },
+  "homepage": "https://startwords.cdh.princeton.edu/"
+}
