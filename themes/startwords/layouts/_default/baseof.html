@@ -37,7 +37,7 @@
     {{ $nav := resources.Get "js/nav.js" }}
     {{ $js := slice $notes $nav $issue | resources.Concat "js/bundle.js" | resources.Minify}}
     <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
-
+    {{ template "_internal/google_analytics_async.html" . }}
     <!-- alternative formats -->
     {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
