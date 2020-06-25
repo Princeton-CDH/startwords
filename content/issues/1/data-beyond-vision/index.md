@@ -75,7 +75,8 @@ We invite you to participate in the labor of data work. Download models and inst
 [![view weaving section](images/icon-weaving.svg)](#weaving)
 [![view stacking section](images/icon-stacking.svg)](#stacking)
 
-## Folding in the Non-Famous Members of the Shakespeare and Company Library {#folding}
+Folding in the Non-Famous Members of the Shakespeare and Company Library {#folding}
+------------------------------------------------------------------------
 
 {{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
     title="Shakespeare and Company membership origami">}}
@@ -98,7 +99,8 @@ Using cut, punched, or embossed paper would make the piece more tactile; instead
 
 Nick Budak, Xinyi Li
 
-## Modeling Shakespeare and Company Library Membership {#modeling}
+Modeling Shakespeare and Company Library Membership {#modeling}
+---------------------------------------------------
 
 {{<sketchfab id="89985d66f7244d87b7edbe5fd6266f0d"
     title="Shakespeare and Company membership lollipop chart">}}
@@ -122,7 +124,8 @@ The current version uses different shapes for the two variables, but adding text
 
 Rebecca Sutton Koeser
 
-## Weaving Derrida’s references {#weaving}
+Weaving Derrida’s references {#weaving}
+----------------------------
 
 > … we all of us, grave or light, get our thoughts entangled in metaphors…
 ><cite> George Eliot, Middlemarch</cite>
@@ -153,7 +156,8 @@ Adding conductive thread and sensors could turn the weaving into an interface, s
 
 Rebecca Sutton Koeser, Gissoo Doroudian
 
-## Stacking New and Continuing Membership Activities of Shakespeare and Company Library {#stacking}
+Stacking New and Continuing Membership Activities of Shakespeare and Company Library {#stacking}
+------------------------------------------------------------------------------------
 
 ### Goal
 
