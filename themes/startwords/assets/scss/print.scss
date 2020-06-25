@@ -112,43 +112,43 @@ main {
     margin: auto;
     width: 5.51in;
     background: white;
-}
 
-/* weasyprint doesn't support grid anyway, but explicitly ignore it */
-.grid {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
+    /* weasyprint doesn't support grid anyway, but explicitly ignore it */
+    .grid {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
 
-h2, section.footnotes {
-    page-break-before: always;
-}
+    h2, section.footnotes {
+        page-break-before: always;
+    }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: $font-serif;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $font-serif;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
 
-h1 {
-    string-set: title content();
-    font-size: 16px;
-    line-height: 30px;
-}
+    h1 {
+        string-set: title content();
+        font-size: 16px;
+        line-height: 30px;
+    }
 
-h2 {
-    font-size: 14px;
-    line-height: 21px;
-    width: 3in;
-}
+    h2 {
+        font-size: 14px;
+        line-height: 21px;
+        width: 2.1in;
+    }
 
-h3 {
-    font-size: 14px;
-    line-height: 30px;
-    font-weight: 500;
-    margin: 16px 0 6px;
+    h3 {
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 500;
+        margin: 16px 0 6px;
+    }
 }
 
 
