@@ -155,7 +155,7 @@ body.article .footnotes {
         }
     }
 
-    /* styles for footnotes as they appear in endnotes */
+    /* styles for footnotes as they appear in endnotes and PDF */
     @mixin endnote-styles {
 
         ol {
@@ -176,21 +176,21 @@ body.article .footnotes {
                 padding-bottom: rem(15px);
                 overscroll-behavior: auto;
                 -webkit-overflow-scrolling: auto;
+                background-image: none;
+                background: none;
 
                 &::before {
                     /* position counter for endnote display */
+                    position: absolute;
                     display: inline-block;
-                    float: left;
-                    padding-right: 2px;
                     vertical-align: top;
                     font-size: 70%;
                     font-weight: 600;
                     font-family: $font-serif;
-                    position: relative;
                     width: auto;
                     right: auto;
-                    left: auto;
-                    top: auto;
+                    left: 0;
+                    top: -0.5rem;
                 }
 
                 a[role=doc-backlink] {
