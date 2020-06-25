@@ -8,6 +8,12 @@
     padding: $gutter;
     box-sizing: border-box;
 
+    // article and page headers are moved slightly inward on mobile
+    > header {
+        grid-column: 2 / 10;
+        @media (min-width: $breakpoint-m) { grid-column: 3 / 9; }
+    }
+
     // sizing for the default content container inside grids
     > .container {
         grid-column: 2 / 10;
