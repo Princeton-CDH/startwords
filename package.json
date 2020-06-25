@@ -7,8 +7,7 @@
   "private": true,
   "dependencies": {
     "autoprefixer": "^9.8.4",
-    "postcss-cli": "^7.1.1",
-    "purgecss": "^2.3.0"
+    "postcss-cli": "^7.1.1"
   },
   "devDependencies": {},
   "scripts": {},
