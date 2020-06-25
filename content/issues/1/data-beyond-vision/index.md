@@ -9,6 +9,7 @@ authors:
   - Xinyi Li
 date: 2020-01-01
 doi: 10.5281/zenodo.3713671
+images: ["issues/1/data-beyond-vision/images/installation-octahedron.jpg"]
 ---
 
 

@@ -20,6 +20,8 @@
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
 
     <!-- styles -->
     {{ $styleOptions := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourcemap" true) }}
