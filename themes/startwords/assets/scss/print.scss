@@ -193,12 +193,8 @@ a.page-doi {
                 margin: 0;
                 position: absolute;
                 left: 0;
-                top: -7px;
-                text-align: top;
-            }
-
-            p {
-                text-indent: 7px;
+                margin-top: -8px;
+                vertical-align: super;
             }
         }
     }

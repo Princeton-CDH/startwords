@@ -180,17 +180,19 @@ body.article .footnotes {
                 background: none;
 
                 &::before {
-                    /* position counter for endnote display */
-                    position: absolute;
-                    display: inline-block;
+                    /* position counter for endnote display (web only) */
+                    float: left;
+                    display: inline;
+                    padding-right: 2px;
+                    text-indent: 0;
                     vertical-align: top;
                     font-size: 70%;
                     font-weight: 600;
                     font-family: $font-serif;
                     width: auto;
                     right: auto;
-                    left: 0;
-                    top: -0.5rem;
+                    left: auto;
+                    top: auto;
                 }
 
                 a[role=doc-backlink] {
@@ -208,6 +210,7 @@ body.article .footnotes {
                     padding-top: 0;
                     max-height: none;
                     width: auto;
+                    text-indent: 0.5rem;
 
                     img {
                         max-width: rem(300px);
