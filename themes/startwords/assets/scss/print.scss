@@ -127,7 +127,7 @@ h2, section.footnotes {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-serif;
-    line-height: 30px;
+    font-weight: bold;
     margin: 0;
     padding: 0;
 }
@@ -135,14 +135,19 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     string-set: title content();
     font-size: 16px;
+    line-height: 30px;
 }
 
 h2 {
     font-size: 14px;
     line-height: 21px;
+    width: 3in;
 }
 
 h3 {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
     margin: 16px 0 6px;
 }
 
