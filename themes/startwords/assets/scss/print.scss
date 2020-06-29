@@ -174,7 +174,7 @@ a.page-doi {
 }
 
 
-.footnotes {
+body.article .footnotes {
     background-color: white;
     margin: 9px 0 0;
     bookmark-level: 2;
@@ -187,13 +187,14 @@ a.page-doi {
         li {
             background: white;
             font-size: 12px;
+            line-height: 18px;
             position: relative;
 
             &::before {
                 margin: 0;
                 position: absolute;
                 left: 0;
-                margin-top: -8px;
+                margin-top: -5px;
                 vertical-align: super;
             }
         }
@@ -207,8 +208,20 @@ body > header, nav, footer, a[rel=alt] {
     display: none;
 }
 
-a.footnote-ref::after {
-    display: none;
+
+a.footnote-ref {
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+
+    &::after {
+        content: '';
+        display: none;
+    }
+}
+
+sup {
+    line-height: 1;
 }
 
 /* sketchfab embed does not render in PDF */
