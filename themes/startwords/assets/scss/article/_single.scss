@@ -26,7 +26,10 @@ body.article {
                 }
             }
             
-            .theme { font-weight: 900; }
+            .theme {
+                font-size: rem(18px);
+                font-weight: 900;
+            }
 
             // sequential author display with commas
             .authors {
