@@ -18,6 +18,14 @@ jobs:
         hugo-version: '0.67.1'
         extended: true
 
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - name: Install npm dependencies
+      run: npm ci
+
     - name: build site
       run: hugo --minify
 

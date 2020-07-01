@@ -37,7 +37,6 @@ body.article .footnotes {
         padding: rem(120px) rem(15px) 2.25rem  rem(15px);
         max-height: rem(379px);
 
-        -webkit-clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
         clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
         background: $purple;
 
@@ -142,7 +141,6 @@ body.article .footnotes {
 
         /* mirror image version for notes on the left side of the page */
         &.flip {
-            -webkit-clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
             clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
             background-position: 20.5% rem(5px);
 
@@ -172,7 +170,6 @@ body.article .footnotes {
                 right: auto;
                 opacity: 1;
                 padding: 0;
-                -webkit-clip-path: none;
                 clip-path: none;
                 pointer-events: auto;
                 padding-bottom: rem(15px);
