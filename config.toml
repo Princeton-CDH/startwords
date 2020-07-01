@@ -31,6 +31,8 @@ enableEmoji = true
   dateformNumTime = "2006-01-02 15:04 -0700"
   license = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
   license_text = "Creative Commons Attribution Non-commerical Share Alike License"
+  images = ["social.png"]
+  description = "A research periodical irregularly published by the Center for Digital Humanities at Princeton."
 
 [markup.goldmark.renderer]
   unsafe = true
