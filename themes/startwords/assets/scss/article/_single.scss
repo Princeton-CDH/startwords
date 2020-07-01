@@ -33,6 +33,7 @@ body.article {
 
             // sequential author display with commas
             .authors {
+                font-weight: 400;
                 li, address { display: inline; }
                 address::after { content: ', '; }
                 li:last-child address::after { content: ''; }
