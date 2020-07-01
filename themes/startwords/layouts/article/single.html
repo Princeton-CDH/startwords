@@ -21,6 +21,12 @@
 <meta name="citation_issue" content="{{ .Parent.Params.number }}"/>
 <meta name="citation_publisher" content="Center for Digital Humanities, Princeton University"/>
 <meta name="DC.rights" content="{{ .Site.Params.license }}" />
+{{/* metadata for PDF */}}
+<meta name="author" content="{{ delimit .Params.Authors ", " }}" />
+<meta name="description" content="{{ .Site.Title }} Issue {{ .Parent.Params.number }}, {{ .Params.date.Format `January 2006` }}" />
+<meta name="generator" content="Center for Digital Humanities, Princeton University"/>
+<meta name="dcterms.created" content="{{ .Params.date.Format `2006-01` }}"/>
+{{/* also available: dcterms.modified, keywords */}}
 {{ end }}
 
 {{ define "pagetype" }}article{{ end }}
@@ -50,4 +56,18 @@
         </div>
     </article>
 </main>
+
+
+{{/* elements for PDF header & footer */}}
+<section class='print-only'>
+
+    <a class="first-page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+        <img alt="Startwords" src="{{ relURL "/pdf-logotype.svg" }}" /></a>
+
+    <a class="page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+        <img alt="Startwords" src="{{ relURL "/pdf-logo.svg" }}" /></a>
+
+     <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="page-doi">doi:{{ .Params.doi }}</a>
+
+</section>
 {{ end }}

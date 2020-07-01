@@ -154,15 +154,14 @@ body.article .footnotes {
         }
     }
 
-     /* styles for footnotes as they appear in endnotes */
-    &.endnotes {
+    /* styles for footnotes as they appear in endnotes and PDF */
+    @mixin endnote-styles {
 
         ol {
             margin: 0;
 
             li {
                 position: relative;
-                background: $off-white;
                 color: $dark-grey;
                 width: auto;
                 height: auto;
@@ -175,17 +174,19 @@ body.article .footnotes {
                 padding-bottom: rem(15px);
                 overscroll-behavior: auto;
                 -webkit-overflow-scrolling: auto;
+                background-image: none;
+                background: none;
 
                 &::before {
-                    /* position counter for endnote display */
-                    display: inline-block;
+                    /* position counter for endnote display (web only) */
                     float: left;
+                    display: inline;
                     padding-right: 2px;
+                    text-indent: 0;
                     vertical-align: top;
                     font-size: 70%;
                     font-weight: 600;
                     font-family: $font-serif;
-                    position: relative;
                     width: auto;
                     right: auto;
                     left: auto;
@@ -207,6 +208,7 @@ body.article .footnotes {
                     padding-top: 0;
                     max-height: none;
                     width: auto;
+                    text-indent: 0.5rem;
 
                     img {
                         max-width: rem(300px);
@@ -220,6 +222,23 @@ body.article .footnotes {
             }
         }
     }
+
+    &.endnotes {
+        @include endnote-styles;
+        ol {
+
+            li {
+                background: $off-white;
+            }
+        }
+
+    }
+
+    @media print {
+        @include endnote-styles;
+    }
+
+
 }
 
 a.footnote-ref {

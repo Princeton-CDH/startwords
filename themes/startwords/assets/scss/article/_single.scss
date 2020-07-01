@@ -2,6 +2,7 @@
 
 body.article {
 
+
     article {
         margin-top: rem(60px);
         margin-bottom: rem(100px);
@@ -132,4 +133,11 @@ body.article {
     .deepzoom {
         width: 100%;
     }
+
 }
+
+/* hide assets only used for pdf */
+.print-only {
+    display: none;
+}
+
