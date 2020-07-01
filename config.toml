@@ -3,6 +3,7 @@ title = "Startwords"
 theme = "startwords"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 enableEmoji = true
+googleAnalytics = "UA-87887700-8"
 
 [taxonomies]
   author = "authors"
