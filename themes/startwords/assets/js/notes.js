@@ -143,6 +143,8 @@ function positionContextualNote(note) {
         // no further left than window width - note width (keep on screen)
         noteLeft = Math.min(refLocation.left + refLocation.width / 2 - note.clientWidth + 70,
                             window.innerWidth - note.clientWidth);
+        // always ensure flip class is not present, in case of resize
+        note.classList.remove('flip');
     }
 
     note.style.left = noteLeft + 'px'
