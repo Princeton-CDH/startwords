@@ -55,27 +55,33 @@ body {
             padding: 0;
         }
 
-        .number, .theme, .authors {
-            font-family: $font-sans;
-        }
+        header {
+            .number, .theme, .authors {
+                font-family: $font-sans;
+            }
 
-        .number {
-            margin: 0 0 6px 0;
-            padding: 0;
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 18px;
-        }
+            .number {
+                margin: 0 0 6px 0;
+                padding: 0;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 18px;
+            }
 
-        .authors {
-            font-weight: 300;
-        }
+            .authors {
+                font-weight: 300;
+            }
 
-        .theme {
-            margin: 0 0 14px;
-            padding: 0;
-        }
+            .theme {
+                margin: 0 0 14px;
+                padding: 0;
+            }
 
+            .theme, time, .doi {
+                font-size: 11px;
+            }
+
+        }
         h1 {
             margin-top: 0;
         }
