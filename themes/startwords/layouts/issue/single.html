@@ -13,7 +13,7 @@
             <span class="number">Issue {{ .Params.number }}</span>
             <h1 class="theme">{{ .Params.theme }}</h1>
             <div class="summary">{{ .Content }}</div>
-            <a href="#features" class="chevron">
+            <a href="#features" class="chevron highlight-focus">
                 <img src="/img/chevron.svg" alt="skip to featured content"/>
             </a>
         </div>
@@ -27,7 +27,7 @@
 
         {{ range after 2 (.Pages.ByParam "order") }}
         <div class="article-short-summary">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
             {{ partial "authors" . }}
             {{ range .Params.tags }}
             <span class="tag">{{ . }}</span>

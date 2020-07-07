@@ -3,17 +3,17 @@
         {{ with .Site.Menus.footer }}
         <ul>
             {{ range . }}
-            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+            <li><a class="highlight-focus" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
             {{ end }}
         </ul>
         {{ end }}
     </nav>
 
     <div class="icons">
-      <a class="license" rel="license" href="{{ .Site.Params.license }}">
+      <a class="license highlight-focus" rel="license" href="{{ .Site.Params.license }}">
         <img alt="{{ .Site.Params.license_text }}"
             src="{{ relURL "/img/logos/license.svg" }}" /></a>
-      <a class="logo" id="startwords" href="{{ relURL "/" }}" aria-label="{{ .Site.Title }}"></a>
-      <a class="logo" id="cdh" href="https://cdh.princeton.edu/" aria-label="The Center for Digital Humanities at Princeton"></a>
+      <a class="logo highlight-focus" id="startwords" href="{{ relURL "/" }}" aria-label="{{ .Site.Title }}"></a>
+      <a class="logo highlight-focus" id="cdh" href="https://cdh.princeton.edu/" aria-label="The Center for Digital Humanities at Princeton"></a>
     </div>
 </footer>

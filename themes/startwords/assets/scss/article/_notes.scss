@@ -100,6 +100,7 @@ body.article .footnotes {
             overflow-y: scroll;
             max-width: calc(100vw - 1.5rem);
             background-image: none;   /* iOS Safari inherits otherwise */
+            outline: none;
 
             /* full width up to 414px; limit width on larger screens  */
             @media (min-width: $breakpoint-fullwidth-notes + 1) {
@@ -121,7 +122,9 @@ body.article .footnotes {
         }
 
         a {
+            @include highlight-focus;
             color: $light-purple;
+            &:focus { outline-color: $off-white; }
         }
 
         a[role=doc-backlink] {
@@ -250,8 +253,6 @@ a.footnote-ref {
     /* extend left to make a larger touch target */
     padding: 1rem;
     margin: -1rem;
-    padding-left: rem(100px);
-    margin-left: rem(-100px);
     padding-bottom: 0.7rem;
 
     &::after {
@@ -271,3 +272,5 @@ a.footnote-ref {
 sup {
     line-height: 0;  /* don't disrupt nearby text line-height */
 }
+
+body.article .endnotes a.footnote-backref:focus { outline-color: $black; }

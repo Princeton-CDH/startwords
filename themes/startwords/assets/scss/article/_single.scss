@@ -31,6 +31,8 @@ body.article {
                 font-weight: 900;
             }
 
+            .doi { display: inline; clear: both; }
+
             // sequential author display with commas
             .authors {
                 font-weight: 400;
@@ -75,6 +77,12 @@ body.article {
                     content: ' – '
                 }
             }
+        }
+
+        // links
+        a {
+            @include highlight-focus;
+            &.footnote-ref { outline-offset: -12px; }
         }
 
         // pull quotes
