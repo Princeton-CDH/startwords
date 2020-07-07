@@ -82,7 +82,7 @@ body.article {
         // links
         a {
             @include highlight-focus;
-            &.footnote-ref { outline-offset: -12px; }
+            &.footnote-ref { outline-offset: rem(-10px); }
         }
 
         // pull quotes

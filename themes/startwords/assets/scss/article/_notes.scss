@@ -253,6 +253,8 @@ a.footnote-ref {
     /* extend left to make a larger touch target */
     padding: 1rem;
     margin: -1rem;
+    padding-left: rem(100px);
+    margin-left: rem(-100px);
     padding-bottom: 0.7rem;
 
     &::after {
