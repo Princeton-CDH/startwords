@@ -39,10 +39,10 @@
                 <p class="number">Issue {{ .Parent.Params.number }}</p>
                 <p class="theme">{{ .Parent.Params.theme }}</p>
                 <h1>{{ .Params.Title }}</h1>
-                {{ partial "authors" . }}
-                {{ partial "pubdate" . }}
+                {{ partial "authors" . }}<br>
+                {{ partial "pubdate" . }}<br>
                 {{ if .Params.doi }}
-                <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a>
+                <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
                 {{ end }}
                 <p class="formats">
                 {{ with  .OutputFormats.Get "txt" -}}
