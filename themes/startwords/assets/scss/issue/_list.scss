@@ -20,29 +20,29 @@ body.issue-list {
             margin: rem(10px) 0 0;
             color: $transparent-grey;
             line-height: rem(50px);
+            
+            // scaled width
+            max-width: rem(200px);
+            @media (min-width: $breakpoint-m) { max-width: rem(300px); }
         }
     }
 
-    // force wrapping 
-    .grid .container { overflow-x: hidden; }
-
-    ol {
+    main ol {
         list-style: none;
         padding: 0;
         margin: rem(80px) 0 0;
-        overflow: hidden;
     }
 
-    li + li {
+    main li + li {
         margin-top: rem(30px);
     }
 
-    li a {
+    main li a {
         text-decoration: none;
         display: block;
 
         .theme {
-            padding-right: rem(75px);
+            padding-right: rem(40px);
             position: relative;
         }
 
@@ -52,14 +52,14 @@ body.issue-list {
             position: absolute;
             height: rem(22px);
             top: calc(50% - 33px);
-            right: rem(45px);
+            right: rem(10px);
             transition: right 0.2s ease;
         }
 
         // movement effect
         &:hover,
         &:focus {
-            .theme::after { right: rem(40px); }
+            .theme::after { right: 0; }
         }
     }
 }

@@ -1,11 +1,9 @@
 <article class="article-summary">
     <div class="bg-text" role="presentation">{{ .Summary | plainify }}</div>
-    <a href="{{ .Permalink }}">
-        <p>{{ .Summary | plainify }}</p>
-        <h2>{{ .Title }}</h2>
-    </a>
+    <p>{{ .Summary | plainify }}</p>
+    <h2><a class="highlight-focus" href="{{ .Permalink }}">{{ .Title }}</a></h2>
     {{ partial "authors" . }}
     {{ with .Params.doi }}
-    <a class="doi" href="https://doi.org/{{ . }}">{{ . }}</a>
+    <a class="doi highlight-focus" href="https://doi.org/{{ . }}">{{ . }}</a>
     {{ end }}
 </article>

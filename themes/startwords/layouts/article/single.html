@@ -36,7 +36,7 @@
     <article>
         <div class="grid">
             <header>
-                <p class="number"><a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}</a></p>
+                <p class="number">Issue {{ .Parent.Params.number }}</p>
                 <p class="theme">{{ .Parent.Params.theme }}</p>
                 <h1>{{ .Params.Title }}</h1>
                 {{ partial "authors" . }}

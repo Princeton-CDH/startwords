@@ -10,11 +10,11 @@
         <div class="container">
             {{ range first 1 (where .Site.AllPages "Type" "issue") }}
             <span class="number">Issue {{ .Params.number }}</span>
-            <h2 class="theme"><a href="{{ .Permalink }}">{{ .Params.theme }}</a></h2>
+            <h2 class="theme">{{ .Params.theme }}</h2>
             <p class="summary">
                 {{ .Summary | plainify }}
-                <a class="more" href="{{ .Permalink }}"
-                    aria-label="Issue {{ .Params.number }}">read more</a>
+                <a class="more highlight-focus" href="{{ .Permalink }}"
+                    aria-label="{{ .Params.theme }}">read more</a>
             </p>
             {{ end }}
         </div>
@@ -29,7 +29,7 @@
     {{ with .Site.GetPage "/about" }}
     <div class="content grid">
         <div class="text-container">
-            <a class="more" href="/about">
+            <a class="more highlight-focus" href="/about">
             {{ .Summary }}
             </a>
         </div>
