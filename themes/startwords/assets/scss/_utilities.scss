@@ -50,7 +50,7 @@
     @include inverted;
     .logo { filter: invert(100%); }
     &::after { background: $dark-purple; }
-    a:focus-visible { outline-color: $off-white; }
+    a:focus { outline-color: $off-white; }
 }
 
 // focus highlight style for keyboard users
@@ -58,13 +58,13 @@
     outline: none;
     outline-offset: 2px;
 
-    &:focus-visible {
+    &:focus {
         outline: 1px dashed $black;
     }
 }
 .highlight-focus { @include highlight-focus; }
 .inverted .highlight-focus {
-    &:focus-visible {
+    &:focus {
         outline-color: $off-white;
     }
 }
