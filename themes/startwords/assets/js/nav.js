@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // hide the nav element when scrolling down; show when scrolling up quickly
     function checkScroll() {
         var scrolled = Math.abs(document.body.getBoundingClientRect().top)
-        if (scrolled > scroll) {
+        if (scrolled > scroll && scrolled > 40) {
             if (!nav.classList.contains('hidden')) {
                 nav.classList.add('hidden')
             }
