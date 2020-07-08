@@ -98,6 +98,7 @@ body.article .footnotes {
             margin: 0;
             max-height: rem(203px);
             overflow-y: scroll;
+            overscroll-behavior-y: contain;
             max-width: calc(100vw - 1.5rem);
             background-image: none;   /* iOS Safari inherits otherwise */
             outline: none;
