@@ -18,7 +18,7 @@
     <meta name="theme-color" content="#ff0000" />
 
     <title>{{ .Title }}</title>
-    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    <meta name="description" content="{{ block "metadescription" . }}{{ .Site.Params.description }}{{ end }}">
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}

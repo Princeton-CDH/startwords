@@ -4,6 +4,9 @@
     {{ end }}
 {{ end }}
 
+{{/* override site-level description to include issue details in PDF metadata */}}
+{{ define "metadescription" }}{{ .Site.Title }} Issue {{ .Parent.Params.number }}, {{ .Params.date.Format `January 2006` }}. {{ .Site.Params.description }} {{ end }}
+
 {{ define "page_meta" }}
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/>
 <meta name="citation_public_url" content="{{ .RelPermalink | absURL }}" />
@@ -23,7 +26,6 @@
 <meta name="DC.rights" content="{{ .Site.Params.license }}" />
 {{/* metadata for PDF */}}
 <meta name="author" content="{{ delimit .Params.Authors ", " }}" />
-<meta name="description" content="{{ .Site.Title }} Issue {{ .Parent.Params.number }}, {{ .Params.date.Format `January 2006` }}" />
 <meta name="generator" content="Center for Digital Humanities, Princeton University"/>
 <meta name="dcterms.created" content="{{ .Params.date.Format `2006-01` }}"/>
 {{/* also available: dcterms.modified, keywords */}}
