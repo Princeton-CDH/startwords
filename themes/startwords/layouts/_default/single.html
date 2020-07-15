@@ -3,10 +3,10 @@
 {{ define "main" }}
 <main>
     <div class="grid">
-        <div class="container">
+        <header>
             {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
             {{ .Summary }}
-        </div>
+        </header>
         <div class="text-container">
             {{ with .Content }}{{ . }}{{ end }}
         </div>

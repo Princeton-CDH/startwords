@@ -1,1 +1,236 @@
 // print styles
+@import 'variables';
+
+@page {
+  size: letter;
+  margin: 0.75in 0.2in 0.57in 0.2in;
+
+  @top-left {
+    content: string(title);
+    font-weight: 300;
+    font-size: 11px;
+    font-family: $font-serif;
+  }
+
+  @top-right {
+    content: element(page-header);
+    opacity: 1;
+  }
+
+  @bottom-left {
+    content: element(page-footer);
+    opacity: 1;
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+
+  @bottom-right {
+    content: counter(page);
+    font-size: 11px;
+    font-weight: 300;
+  }
+}
+
+@page :first {
+    /* don't display article title on first page */
+    @top-left {
+        content: '';
+    }
+    @top-right {
+        content: element(first-page-header);
+    }
+}
+
+
+body {
+    font-family: $font-serif;
+    font-size: 12px;
+    line-height: 18px;
+
+    &.article article {
+        margin-top: 0;
+
+        .grid {
+            padding: 0;
+        }
+
+        header {
+            .number, .theme, .authors {
+                font-family: $font-sans;
+            }
+
+            .number {
+                margin: 0 0 6px 0;
+                padding: 0;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 18px;
+            }
+
+            .authors {
+                font-weight: 300;
+            }
+
+            .theme {
+                margin: 0 0 14px;
+                padding: 0;
+            }
+
+            .theme, time, .doi {
+                font-size: 11px;
+            }
+
+        }
+        h1 {
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 18px;
+            margin: 0 0 18px;
+            margin-top: 0;
+            padding: 0;
+        }
+
+        blockquote.pull {
+            width: 50%;
+            /* not sure why weasyprint needs the negative margin, but
+               without it there is a block of extra whitespace above */
+            margin-top: -75px;
+            margin-bottom: 16px;
+            padding: 25px 65px;
+            line-height: 30px;
+
+            &.left {
+                margin-right: 16px;
+            }
+
+            &.right {
+                margin-left: 16px;
+            }
+        }
+
+    }
+}
+
+main {
+    margin: auto;
+    width: 5.51in;
+    background: white;
+
+    /* weasyprint doesn't support grid anyway, but explicitly ignore it */
+    .grid {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2, section.footnotes {
+        page-break-before: always;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $font-serif;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        string-set: title content();
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 21px;
+        width: 2.1in;
+    }
+
+    h3 {
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 500;
+        margin: 16px 0 6px;
+    }
+}
+
+
+.print-only {
+    display: block;
+    /* hide for pinting in browsers that don't support @page styles */
+    opacity: 0;
+}
+
+a.page-header {
+    position: running(page-header);
+}
+a.first-page-header {
+    position: running(first-page-header);
+}
+
+a.article-title {
+    position: running(header-title);
+}
+
+a.page-doi {
+    position: running(page-footer);
+}
+
+
+body.article .footnotes {
+    background-color: white;
+    margin: 9px 0 0;
+    bookmark-level: 2;
+    bookmark-label: "Notes";
+
+    hr {
+        display: none;
+    }
+    ol {
+        li {
+            background: white;
+            font-size: 12px;
+            line-height: 18px;
+            position: relative;
+
+            &::before {
+                margin: 0;
+                position: absolute;
+                left: 0;
+                margin-top: -5px;
+                vertical-align: super;
+            }
+        }
+    }
+}
+
+
+// a::after { content: ", see " target-text(attr(href)) }
+
+body > header, nav, footer, a[rel=alt] {
+    display: none;
+}
+
+
+a.footnote-ref {
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+
+    &::after {
+        content: '';
+        display: none;
+    }
+}
+
+sup {
+    line-height: 1;
+}
+
+/* sketchfab embed does not render in PDF */
+iframe {
+    display: none;
+}

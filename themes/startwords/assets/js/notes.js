@@ -116,7 +116,7 @@ function positionContextualNote(note) {
     // position the currently selected contextual note, if one is selected
     // and not on a mobile device
 
-    let mql = window.matchMedia('(min-width: 414px)');
+    let mql = window.matchMedia('(min-width: 415px)');
     // don't position on mobile
     if (! mql.matches) {
         return;
@@ -134,12 +134,21 @@ function positionContextualNote(note) {
     note.style.top = refLocation.top + refLocation.height + 5 + 'px';
     //- tip of the arrow should point to the reference
     var noteLeft;
+    // debugger;
     // if reference is close to the left side, flip the triangle
-    if (refLocation.left < (note.clientWidth - 70)) {
-        noteLeft = refLocation.left + refLocation.width / 2 - 70;
+    // 125px: free space in margin when viewport is at 415px (minimum) =
+    // (difference between note width and viewport width + len of small side of note triangle)
+    if (refLocation.left < (note.clientWidth - 125)) {
+        // no further left than zero (don't allow placing off screen)
+        noteLeft = Math.max(0, refLocation.left + refLocation.width / 2 - 70);
         note.classList.add('flip');
     }  else {
-        noteLeft = refLocation.left + refLocation.width / 2 - note.clientWidth + 70;
+        // no further left than window width - note width (keep on screen),
+        // but not negative
+        noteLeft = Math.max(0, Math.min(refLocation.left + refLocation.width / 2 - note.clientWidth + 70,
+                            window.innerWidth - note.clientWidth));
+        // always ensure flip class is not present, in case of resize
+        note.classList.remove('flip');
     }
 
     note.style.left = noteLeft + 'px'

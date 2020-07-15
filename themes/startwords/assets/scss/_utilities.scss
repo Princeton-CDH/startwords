@@ -8,6 +8,12 @@
     padding: $gutter;
     box-sizing: border-box;
 
+    // article and page headers are moved slightly inward on mobile
+    > header {
+        grid-column: 2 / 10;
+        @media (min-width: $breakpoint-m) { grid-column: 3 / 9; }
+    }
+
     // sizing for the default content container inside grids
     > .container {
         grid-column: 2 / 10;
@@ -37,12 +43,28 @@
         color: $off-white;
     }
 }
-
 .inverted { @include inverted; }
 
-// inverted footer has a dark purple shape & inverted logos
+// inverted footer has a dark purple shape & inverted logos/links
 @mixin inverted-footer {
     @include inverted;
     .logo { filter: invert(100%); }
     &::after { background: $dark-purple; }
+    a:focus { outline-color: $off-white; }
+}
+
+// focus highlight style for keyboard users
+@mixin highlight-focus {
+    outline: none;
+    outline-offset: 2px;
+
+    &:focus {
+        outline: 1px dashed $black;
+    }
+}
+.highlight-focus { @include highlight-focus; }
+.inverted .highlight-focus {
+    &:focus {
+        outline-color: $off-white;
+    }
 }

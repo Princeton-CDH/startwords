@@ -37,7 +37,6 @@ body.article .footnotes {
         padding: rem(120px) rem(15px) 2.25rem  rem(15px);
         max-height: rem(379px);
 
-        -webkit-clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
         clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
         background: $purple;
 
@@ -99,7 +98,10 @@ body.article .footnotes {
             margin: 0;
             max-height: rem(203px);
             overflow-y: scroll;
+            overscroll-behavior-y: contain;
             max-width: calc(100vw - 1.5rem);
+            background-image: none;   /* iOS Safari inherits otherwise */
+            outline: none;
 
             /* full width up to 414px; limit width on larger screens  */
             @media (min-width: $breakpoint-fullwidth-notes + 1) {
@@ -121,7 +123,9 @@ body.article .footnotes {
         }
 
         a {
+            @include highlight-focus;
             color: $light-purple;
+            &:focus { outline-color: $off-white; }
         }
 
         a[role=doc-backlink] {
@@ -141,7 +145,6 @@ body.article .footnotes {
 
         /* mirror image version for notes on the left side of the page */
         &.flip {
-            -webkit-clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
             clip-path: polygon(22.5% 0, 100% 107.5px, 100% 100%, 0 100%, 0 42px);
             background-position: 20.5% rem(5px);
 
@@ -155,15 +158,14 @@ body.article .footnotes {
         }
     }
 
-     /* styles for footnotes as they appear in endnotes */
-    &.endnotes {
+    /* styles for footnotes as they appear in endnotes and PDF */
+    @mixin endnote-styles {
 
         ol {
             margin: 0;
 
             li {
                 position: relative;
-                background: $off-white;
                 color: $dark-grey;
                 width: auto;
                 height: auto;
@@ -171,23 +173,24 @@ body.article .footnotes {
                 right: auto;
                 opacity: 1;
                 padding: 0;
-                -webkit-clip-path: none;
                 clip-path: none;
                 pointer-events: auto;
                 padding-bottom: rem(15px);
                 overscroll-behavior: auto;
                 -webkit-overflow-scrolling: auto;
+                background-image: none;
+                background: none;
 
                 &::before {
-                    /* position counter for endnote display */
-                    display: inline-block;
+                    /* position counter for endnote display (web only) */
                     float: left;
+                    display: inline;
                     padding-right: 2px;
+                    text-indent: 0;
                     vertical-align: top;
                     font-size: 70%;
                     font-weight: 600;
                     font-family: $font-serif;
-                    position: relative;
                     width: auto;
                     right: auto;
                     left: auto;
@@ -209,6 +212,7 @@ body.article .footnotes {
                     padding-top: 0;
                     max-height: none;
                     width: auto;
+                    text-indent: 0.5rem;
 
                     img {
                         max-width: rem(300px);
@@ -222,6 +226,23 @@ body.article .footnotes {
             }
         }
     }
+
+    &.endnotes {
+        @include endnote-styles;
+        ol {
+
+            li {
+                background: $off-white;
+            }
+        }
+
+    }
+
+    @media print {
+        @include endnote-styles;
+    }
+
+
 }
 
 a.footnote-ref {
@@ -254,3 +275,5 @@ a.footnote-ref {
 sup {
     line-height: 0;  /* don't disrupt nearby text line-height */
 }
+
+body.article .endnotes a.footnote-backref:focus { outline-color: $black; }

@@ -42,6 +42,7 @@ body > header {
             position: absolute;
             width: rem(34px);
             transform: rotate(180deg);
+            cursor: pointer;
         }
 
         a {
@@ -74,7 +75,6 @@ body > header {
             background: $dark-purple;
             height: rem(145px);
             bottom: rem(19px);
-            z-index: 1;
             -webkit-clip-path: polygon(32px 145px, 32px 0.2px, 0px 82px, 0px 126.5px, 8.4px 145px, 32px 145px);
             clip-path: polygon(32px 145px, 32px 0.2px, 0px 82px, 0px 126.5px, 8.4px 145px, 32px 145px);
 

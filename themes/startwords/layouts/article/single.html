@@ -4,6 +4,9 @@
     {{ end }}
 {{ end }}
 
+{{/* override site-level description to include issue details in PDF metadata */}}
+{{ define "metadescription" }}{{ .Site.Title }} Issue {{ .Parent.Params.number }}, {{ .Params.date.Format `January 2006` }}. {{ .Site.Params.description }} {{ end }}
+
 {{ define "page_meta" }}
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/>
 <meta name="citation_public_url" content="{{ .RelPermalink | absURL }}" />
@@ -21,6 +24,11 @@
 <meta name="citation_issue" content="{{ .Parent.Params.number }}"/>
 <meta name="citation_publisher" content="Center for Digital Humanities, Princeton University"/>
 <meta name="DC.rights" content="{{ .Site.Params.license }}" />
+{{/* metadata for PDF */}}
+<meta name="author" content="{{ delimit .Params.Authors ", " }}" />
+<meta name="generator" content="Center for Digital Humanities, Princeton University"/>
+<meta name="dcterms.created" content="{{ .Params.date.Format `2006-01` }}"/>
+{{/* also available: dcterms.modified, keywords */}}
 {{ end }}
 
 {{ define "pagetype" }}article{{ end }}
@@ -30,13 +38,13 @@
     <article>
         <div class="grid">
             <header>
-                <p class="number"><a href="{{ .Parent.Permalink }}">Issue {{ .Parent.Params.number }}</a></p>
+                <p class="number">Issue {{ .Parent.Params.number }}</p>
                 <p class="theme">{{ .Parent.Params.theme }}</p>
                 <h1>{{ .Params.Title }}</h1>
-                {{ partial "authors" . }}
-                {{ partial "pubdate" . }}
+                {{ partial "authors" . }}<br>
+                {{ partial "pubdate" . }}<br>
                 {{ if .Params.doi }}
-                <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a>
+                <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
                 {{ end }}
                 <p class="formats">
                 {{ with  .OutputFormats.Get "txt" -}}
@@ -50,4 +58,18 @@
         </div>
     </article>
 </main>
+
+
+{{/* elements for PDF header & footer */}}
+<section class='print-only'>
+
+    <a class="first-page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+        <img alt="Startwords" src="{{ relURL "/pdf-logotype.svg" }}" /></a>
+
+    <a class="page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+        <img alt="Startwords" src="{{ relURL "/pdf-logo.svg" }}" /></a>
+
+     <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="page-doi">doi:{{ .Params.doi }}</a>
+
+</section>
 {{ end }}

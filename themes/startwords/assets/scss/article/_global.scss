@@ -17,9 +17,9 @@ article {
     .number, .pubdate, a[rel=alt], .doi { font-size: rem(16px); }
 
     .formats, .pubdate, .doi, .authors {
+        display: inline-block;
         font-family: $font-sans;
         line-height: normal;
-        display: block;
         margin: rem(5px) 0;
     }
 

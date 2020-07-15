@@ -50,6 +50,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         font-family: $font-sans;
         font-weight: bold;
         font-style: italic;
+        text-decoration: underline;
         margin: rem(12px) 0;
 
         &::after {
@@ -66,7 +67,6 @@ $preview-height-xl: rem(250px);  // 1024px-
     }
 
     .doi {
-        display: block;
         font-weight: 300;
         margin-top: rem(10px);
         word-wrap: break-word;
@@ -79,6 +79,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         color: rgba(224, 206, 255, 0.05);
         top: rem(-50px);
         font-size: rem(20px);
+        pointer-events: none;
         @media (min-width: $breakpoint-s) { font-size: rem(30px); }
     }
 
@@ -104,18 +105,6 @@ $preview-height-xl: rem(250px);  // 1024px-
             float: right;
             shape-outside: $triangle-left;
         }
-
-        // create space for arrow movement
-        h2 { margin-right: rem(-20px); }
-
-        // red arrow
-        h2::after {
-            content: url('/link-arrow-right.svg');
-            vertical-align: top;
-            padding-left: rem(5px);
-            transition: padding 0.2s ease;
-            white-space: nowrap;
-        }
     }
 
     // right/second preview
@@ -135,25 +124,6 @@ $preview-height-xl: rem(250px);  // 1024px-
             float: left;
             shape-outside: $triangle-right;
         }
-
-        // create space for arrow movement
-        h2 { margin-left: rem(-20px); }
-
-        // red arrow
-        h2::before {
-            content: url('/link-arrow-left.svg');
-            vertical-align: top;
-            padding-right: rem(5px);
-            transition: padding 0.2s ease;
-            white-space: nowrap;
-        }
-    }
-
-    // animate link arrows
-    a:hover,
-    a:focus {
-        h2::before { padding-right: rem(10px); }
-        h2::after { padding-left: rem(10px); }
     }
 
     // inverted portions use light purple instead of white
