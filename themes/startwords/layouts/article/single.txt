@@ -31,5 +31,5 @@
 {{/* remove all tags; convert footnote list; convert markdown URLs and images; remove heading marker.
     (could we configure in site config or data file and apply iteratively?)*/}}
 
-{{ .RawContent | replaceRE "!\\[([^\\]]+)\\]\\([^\\)]+\\)" "[image: $1]" | replaceRE "{{\\<[^\\>]+>}}" "" | replaceRE "(?m)^#+ " "" | replaceRE "(?m)(<\\/?[^>]+>)" "" | replaceRE "(?m)^\\[\\^(\\d+)\\]: " "$1. " | replaceRE "\\[([^\\]]+)\\]\\(([^\\)]+)\\)" "$1 [URL: $2]" | replaceRE "\\*\\*([^*]+)\\*\\*" "$1"  }}
+{{ .RawContent | replaceRE "!\\[([^\\]]+)\\]\\([^\\)]+\\)" "[IMAGE: $1]" | replaceRE "{{\\<[^\\>]+>}}" "" | replaceRE "(?m)^#+ " "" | replaceRE "(?m)(<\\/?[^>]+>)" "" | replaceRE "(?m)^\\[\\^(\\d+)\\]: " "$1. " | replaceRE "\\[([^\\]]+)\\]\\(([^\\)]+)\\)" "$1 [URL: $2]" | replaceRE "\\*\\*([^*]+)\\*\\*" "$1" | replaceRE "{#[a-z-0-9]+}" "" | replaceRE "\\[(.+)\\]\\(#.*\\)" "$1"}}
 
