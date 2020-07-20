@@ -53,13 +53,13 @@ Data Physicalization attempts to defamiliarize our eyes from many of the two-dim
 
 {{< figure src="images/conceptmap.jpg" caption="Concept map situating data physicalization in relation to other types of data representations and interpretations." attr="From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019." attrlink="https://doi.org/10.5281/zenodo.3261531" desc_id="conceptmap-desc">}}
 {{< wrap class="txt-only" >}}
-#-----------------------------------------------------------------------------------
+⩩-----------------------------------------------------------------------------------⟩
 | FIGURE.
 |
 | CAPTION: Concept map situating data physicalization in relation to other types of data representations and interpretations.
 | ATTRIBUTION: From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019.
 | LINK: https://doi.org/10.5281/zenodo.3261531
-#-----------------------------------------------------------------------------------
+⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 {{< wrap class="sr-only" id="conceptmap-desc" >}}
 Other approaches for data representation and interpretation include:
