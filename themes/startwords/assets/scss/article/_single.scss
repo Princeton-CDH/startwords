@@ -25,7 +25,7 @@ body.article {
                     text-decoration: none;
                 }
             }
-            
+
             .theme {
                 font-size: rem(18px);
                 font-weight: 900;
@@ -148,8 +148,11 @@ body.article {
 
 }
 
+/* fallback content included to be shown in TXT version only */
+.txt-only {
+    display: none;
+}
 /* hide assets only used for pdf */
 .print-only {
     display: none;
 }
-

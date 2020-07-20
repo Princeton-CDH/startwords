@@ -15,6 +15,36 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 - Markdown footnotes (`[^1]`) are rendered both as **contextual notes**—a new design feature that allows for popup annotations to float above a referenced line—as well as endnotes at the bottom of an article's page.
 - Article illustration capabilities are built in using [IIIF](https://iiif.io/) for images and [Sketchfab](https://sketchfab.com/) for 3D embeddings.
 - Article order in an issue is determined by `order` page parameter. The first two articles will be displayed as featured essays highlighted side by side on the issue page; all other articles will be listed by title in the order specified.
+- Articles are made available in multiple formats, including a customized plain text version.
+
+## Article text version
+
+This theme includes a custom plain text version of articles which
+is generated from the markdown for the article. HTML tags and shortcodes
+are removed; markdown links, images, and footnotes are converted to plain
+text versions to convey the information.
+
+Guidelines for generating the best text output:
+
+- Lines of text should *not* be hard-wrapped
+- Section headings should use [Setext format](https://en.wikipedia.org/wiki/Setext) for best display in text output; underline second-level headings with `-------` in equal numbers to the characters in the title rather than starting with `## ` on the same line. (Do not use setext underline `======` because this is an H1, which is the article title.) Third level headings can use standard markdown.
+- Footnotes should be placed at the end of the article.
+- Figures are currently not automatically included in text output, although if you provide extended descriptions they will be included. To provide alternate text content for your figure, use the following template (omit any lines with no content):
+
+```
+{{< wrap class="txt-only" >}}
+#-----------------------------------------------------------------------------------
+| FIGURE.  <optional description here>
+|
+| CAPTION: <caption, if any>
+| ATTRIBUTION: <attribution, if any>
+| LINK: <attribution link, if any>
+#-----------------------------------------------------------------------------------
+{{</ wrap >}}
+```
+
+Editors working on publishing new articles should review the text versions of those articles to check for any formatting or display problems; if new markup has been introduced which is not handled properly, the text template may need to be revised.
+
 
 ## Shortcodes
 
@@ -66,6 +96,31 @@ Example use::
 ```
 
 [view source](layouts/shortcodes/sketchfab.html)
+
+### figure
+
+This is a slightly-customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that adds an option to pass in an identifier to set as the
+`aria-describedby` attribute. Also sets `role="img"` on the `<img>` element to allow for SVG images.
+
+Has all the same options as the original, plus `desc_id`.
+
+[view source](layouts/shortcodes/figure.html)
+
+### wrap
+
+Wrap a block of text to set class or id attributes (currently
+only supported for headers in goldmark).
+
+Example use::
+```
+{{< wrap id="conceptmap-desc" class="sr-only">}}
+Other approaches for data representation and interpretation include:
+- Data Visualization, which focuses on storytelling by using graphical elements
+{{</ wrap >}}
+```
+
+[view source](layouts/shortcodes/wrap.html)
+
 
 ## Information Architecture
 
