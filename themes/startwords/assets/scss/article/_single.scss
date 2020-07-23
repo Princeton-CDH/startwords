@@ -85,6 +85,16 @@ body.article {
             &.footnote-ref { outline-offset: rem(-10px); }
         }
 
+        // section break icon
+        .sectionbreak {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          width: 50%;
+        }
+
         // pull quotes
         blockquote.pull {
             margin: 0;
