@@ -35,7 +35,7 @@
 
 {{ define "main" }}
 <main>
-    <article>
+    <article class="{{ .Params.article_class }}">
         <div class="grid">
             <header>
                 <p class="number">Issue {{ .Parent.Params.number }}</p>
