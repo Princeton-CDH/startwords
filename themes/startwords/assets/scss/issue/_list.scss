@@ -20,10 +20,9 @@ body.issue-list {
             margin: rem(10px) 0 0;
             color: $transparent-grey;
             line-height: rem(50px);
-            
+
             // scaled width
-            max-width: rem(200px);
-            @media (min-width: $breakpoint-m) { max-width: rem(300px); }
+            width: rem(200px);
         }
     }
 
