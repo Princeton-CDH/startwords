@@ -56,29 +56,25 @@ body {
         }
 
         header {
-            .number, .theme, .authors {
+            .number, .theme, .authors, .doi, time {
                 font-family: $font-sans;
+                font-size: 14px;
             }
 
             .number {
                 margin: 0 0 6px 0;
                 padding: 0;
-                font-size: 14px;
                 font-weight: 300;
                 line-height: 18px;
             }
 
             .authors {
-                font-weight: 300;
+                font-weight: normal;
             }
 
             .theme {
                 margin: 0 0 14px;
                 padding: 0;
-            }
-
-            .theme, time, .doi {
-                font-size: 11px;
             }
 
         }
