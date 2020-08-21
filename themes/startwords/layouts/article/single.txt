@@ -28,8 +28,10 @@
 |  {{ .Parent.Date.Format "January 2006" }}
 |
 ⩩-----------------------------------------------------------------------------------⟩
-{{/* remove all tags; convert footnote list; convert markdown URLs and images; remove heading marker.
-    (could we configure in site config or data file and apply iteratively?)*/}}
-
-{{ .RawContent | replaceRE "!\\[([^\\]]+)\\]\\([^\\)]+\\)" "[IMAGE: $1]" | replaceRE "{{\\<[^\\>]+>}}" "" | replaceRE "(?m)^#+ " "" | replaceRE "(?m)(<\\/?[^>]+>)" "" | replaceRE "(?m)^\\[\\^(\\d+)\\]: " "$1. " | replaceRE "\\[([^\\]]+)\\]\\(([^\\)]+)\\)" "$1 [URL: $2]" | replaceRE "\\*\\*([^*]+)\\*\\*" "$1" | replaceRE "{#[a-z-0-9]+}" "" | replaceRE "\\[(.+)\\]\\(#.*\\)" "$1"}}
-
+{{- $rawContent := .RawContent -}}
+{{- range .Site.Data.replace.args -}}
+  {{- if not .skip -}}
+    {{- $rawContent = $rawContent | replaceRE .pattern .replacement -}}
+  {{- end -}}
+{{- end -}}
+{{ $rawContent }}
