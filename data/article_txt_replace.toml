@@ -1,3 +1,4 @@
+# Configure regular expressions for custom article text output.
 # Arguments for replaceRE, applied iteratively to .RawContent.
 # Patterns with backslashes must be encapsulated within single quotes.
 # Use single backslashes to escape characters. Do not use double backslashes.
@@ -12,44 +13,50 @@ skip = true
 [[args]]
 pattern = '!\[([^\]]+)\]\([^\)]+\)'
 replacement = "[IMAGE: $1]"
-comment = ""
+comment = "convert markdown image"
 
 [[args]]
 pattern = '{{\<[^\>]+>}}'
 replacement = ""
-comment = ""
+comment = "remove hugo shortcodes"
 
 [[args]]
 pattern = '(?m)^#+ '
 replacement = ""
-comment = ""
+comment = "remove leading hashes (one or more #) from markdown headers"
 
 [[args]]
 pattern = '(?m)(<\/?[^>]+>)'
 replacement = ""
-comment = ""
+comment = "remove html tags"
 
 [[args]]
 pattern = '(?m)^\[\^(\d+)\]: '
 replacement = "$1. "
-comment = ""
+comment = "Convert footnote label from markdown syntax to numbered list"
+
+[[args]]
+pattern = '\[\^(\d+)\]'
+replacement = '[NOTE $1]'
+comment = "Convert footnote reference from markdown syntax to human readable format"
+
 
 [[args]]
 pattern = '\[([^\]]+)\]\(([^\)]+)\)'
 replacement = "$1 [URL: $2]"
-comment = ""
+comment = "convert markdown urls into text + url reference"
 
 [[args]]
 pattern = '\*\*([^*]+)\*\*'
 replacement = "$1"
-comment = ""
+comment = "remove indicators for bold text"
 
 [[args]]
 pattern = '{#[a-z-0-9]+}'
 replacement = ""
-comment = ""
+comment = "remove custom anchor names (markdown syntax)"
 
 [[args]]
 pattern = '\[(.+)\]\(#.*\)'
 replacement = "$1"
-comment = ""
+comment = "remove anchor links within the current document"
