@@ -45,6 +45,7 @@ Guidelines for generating the best text output:
 
 Editors working on publishing new articles should review the text versions of those articles to check for any formatting or display problems; if new markup has been introduced which is not handled properly, the text template may need to be revised.
 
+The regular expressions used to convert article markdown to the plain text article display are managed in a [data file](data/article_txt_replace.toml), with comments to document the purpose of each regular expression.
 
 ## Shortcodes
 
