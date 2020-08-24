@@ -28,9 +28,6 @@
 |  January 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩
-
-
-
 Create your own kirigami model of Shakespeare and Company lending library membership activities,
 as described in Data Beyond Vision [URL: /issues/1/data-beyond-vision/#stacking].
 
@@ -54,6 +51,5 @@ Steps
 6. For best results, set on a table against a wall and use double-stick tape to fix to table and wall surface (optional)
 
 Yield:  kirigami model of Shakespeare and Company lending library membership activities
-
 
 

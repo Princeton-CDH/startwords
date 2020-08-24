@@ -29,9 +29,6 @@
 |
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
-
 deepzoom experiment
 
  --&gt;
@@ -282,7 +279,6 @@ viewer.addHandler(&#34;open&#34;, function () {
 // viewer.addEventListener(&#39;open&#39;, function(event) {
     // console.log(&#39;binding hover listener for highlight&#39;);
 // });
-
 
 
 
