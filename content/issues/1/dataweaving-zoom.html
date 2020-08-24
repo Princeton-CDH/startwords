@@ -1,0 +1,276 @@
+---
+type: article
+title: Weaving as interface
+order: 7
+authors:
+  - Rebecca Sutton Koeser
+  - Gissoo Doroudian
+tags: [experiments]
+article_class: fullscreen
+---
+<html>
+<head>
+<title>deepzoom experiment</title>
+<script src=https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>
+<!--<link rel="stylesheet" href-"https://derridas-margins.princeton.edu/static/CACHE/css/output.fd22c024c95d.css" type="text/css"/> -->
+<style>
+    body {
+        background-color: black;
+    }
+
+    .highlight {
+        /*border: 3px solid yellow;*/
+    }
+    .highlight:hover {
+        border: 3px solid yellow;
+    }
+
+    .pnum {
+        text-decoration: none;
+        color: white;
+        font-size: 22pt;
+    }
+/*    .pnum::after {
+        content: '1';
+        font-size: 22pt;
+        display: block;
+        color: white;
+    }
+*/
+
+    .reference {
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        bottom: 0;
+        width: 450px;
+        height: 350px;
+        background-color: white;
+        z-index: 3;
+        opacity: 0;
+
+       -webkit-transition: opacity 1.5s ease-in-out;
+       -moz-transition: opacity 1.5s ease-in-out;
+       -ms-transition: opacity 1.5s ease-in-out;
+       -o-transition: opacity 1.5s ease-in-out;
+    }
+
+    .reference.loading {
+        opacity: 0.5;
+    }
+
+    .reference.show {
+        opacity: 1;
+    }
+
+</style>
+</head>
+<body>
+<div class="reference"></div>
+
+<div class="deepzoom" id="openseadragon-2" style="height:90vh"></div>
+
+<!-- page numbers to overlay -->
+<!-- TODO: generate these and the overlays with code -->
+<div class="pages">
+    <span id="p1">1</span>
+    <span id="p2">2</span>
+    <span id="p3">3</span>
+    <span id="p4">4</span>
+    <span id="p5">5</span>
+    <span id="p6">6</span>
+</div>
+
+
+<!-- needed to make this work
+
+- resolve CORS issue with derrida's site references
+- styles for reference cards within this site
+- touch events (hide reference card)
+
+- may need to adjust zoom / pan per device (mobile)
+
+- mobile style for reference card overlay
+
+-->
+
+
+<script>
+
+var viewer = OpenSeadragon({
+    id:"openseadragon-2",
+    prefixUrl:"https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+    preserveViewport: true,
+    visibilityRatio: 1,
+    // disallow zoom in/out
+    minZoomLevel: 5,
+    maxZoomLevel: 5,
+    defaultZoomLevel: 5,
+    // disable vertical panning
+    panVertical: false,
+    showNavigationControl: false,
+
+    tileSources:"https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json",
+    overlays: [
+
+        {
+            // page1 label
+            id: 'p1',
+            px: 2600,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+
+        {
+            id: 'p2',
+            px: 3793,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p3',
+            px: 4840,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p4',
+            px: 5862,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p5',
+            px: 6210,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p6',
+            px: 6570,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+
+        {
+            // epigram p15
+            id: 'ref15a',
+            px: 2560,
+            py: 848,
+            width: 352,
+            height: 1776,
+            className: 'highlight'
+        },
+        {
+            // footnote 1 p16
+            id: 'ref16a',
+            px: 4359,
+            py: 810,
+            width: 141,
+            height: 1794,
+            className: 'highlight'
+        },
+        {
+            // footnote 2 p16
+            id: 'ref16b',
+            px: 4500,
+            py: 810,
+            width: 141,
+            height: 1794,
+            className: 'highlight'
+        },
+        {
+            // footnote 3 p16
+            id: 'ref16c',
+            px: 4642,
+            py: 810,
+            width: 141,
+            height: 1794,
+            className: 'highlight'
+        },
+    ],
+})
+
+
+viewer.addHandler("open", function () {
+    console.log('opened');
+    // start with left part of the weaving showing
+    viewer.viewport.panTo(new OpenSeadragon.Point(0.17, 0.09), true)
+
+    // equivalent event for touch?
+    const referenceOverlays = document.querySelectorAll(".highlight");
+
+    function showReference() {
+        document.querySelector('.reference').classList.add('loading');
+
+        console.log(this.getAttribute('id'));
+        // var refID = references[this.getAttribute('id')];
+        var refID = this.getAttribute('id').slice(3);
+        var refUrl = '/references/de-la-grammatologie/' + refID + '/';
+        // console.log(refUrl);
+        console.log('https://derridas-margins.princeton.edu' + refUrl)
+        // console.log('https://test-derrida.cdh.princeton.edu' + refUrl);
+        // var xhr = new XMLHttpRequest();
+        // xhr.onload = function() {
+        //   console.log(this.responseXML.title);
+        // }
+        // xhr.open("GET", 'https://derridas-margins.princeton.edu' + refUrl);
+        // xhr.responseType = "document";
+        // xhr.send();
+
+        fetch('https://derridas-margins.princeton.edu' + refUrl, {
+        // fetch('https://test-derrida.cdh.princeton.edu' + refUrl, {
+        // fetch('http://192.168.2.10:8000' + refUrl, {
+            // headers: {
+                // 'X-Requested-With': 'XMLHttpRequest',
+            // }
+        })
+          // .then(response => console.log(response))
+          .then(response => response.text())
+          .then(function(text) {
+            // console.log(data);
+            // console.log(document.querySelector('.reference'));
+            const ref = document.querySelector('.reference');
+            console.log(text);
+            ref.innerHTML = text;
+            ref.classList.remove('loading');
+            ref.classList.add('show');
+          });
+        }
+
+    function hidereference() {
+        const ref = document.querySelector('.reference');
+        ref.innerHTML = '';
+        ref.classList.remove('show');
+    }
+
+    for (const refOverlay of referenceOverlays) {
+        refOverlay.addEventListener('touchstart', showReference)
+        refOverlay.addEventListener('touchcancel', hidereference);
+
+        refOverlay.addEventListener('mouseover', showReference)
+        refOverlay.addEventListener('mouseout', hidereference);
+
+    }
+
+});
+
+// viewer.addEventListener('open', function(event) {
+    // console.log('binding hover listener for highlight');
+// });
+
+</script>
+</body>
+</html>
