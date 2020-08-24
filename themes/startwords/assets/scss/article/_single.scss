@@ -1,38 +1,38 @@
 /* single article page styles */
 
 body.article {
-
-
+    
+    
     article {
         margin-top: rem(60px);
         margin-bottom: rem(100px);
-
+        
         @media (min-width: $breakpoint-s) {
             margin-bottom: 0;
         }
-
+        
         // header (summary)
         header {
             margin-bottom: rem(30px);
             @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
             @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
-
+            
             p { margin: 0; }
-
+            
             .number {
                 a, a:visited {
                     color: $dark-grey;
                     text-decoration: none;
                 }
             }
-
+            
             .theme {
                 font-size: rem(18px);
                 font-weight: 900;
             }
-
+            
             .doi { display: inline; clear: both; }
-
+            
             // sequential author display with commas
             .authors {
                 font-weight: 400;
@@ -40,10 +40,10 @@ body.article {
                 address::after { content: ', '; }
                 li:last-child address::after { content: ''; }
             }
-
+            
             .formats { font-weight: 400; }
         }
-
+        
         // body text
         p {
             margin: rem(17px) 0;
@@ -51,50 +51,51 @@ body.article {
             line-height: rem(27px);
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
         }
-
+        
         // lists
         ol, ul {
             font-weight: 300;
         }
-
+        
         // block quotes
         blockquote {
             margin: rem(30px) 0;
-
+            
             p {
                 margin: 0;
                 font-style: italic;
                 font-weight: 400;
             }
-
+            
             cite {
                 display: block;
                 margin-top: rem(5px);
                 font-style: normal;
                 font-weight: 300;
-
+                
                 &::before {
                     content: ' – '
                 }
             }
         }
-
+        
         // links
         a {
             @include highlight-focus;
             &.footnote-ref { outline-offset: rem(-10px); }
         }
-
-        // section break icon
-        .sectionbreak {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          padding-top: 15px;
-          padding-bottom: 15px;
-          width: 50%;
+        
+        // flourished section break
+        hr {
+            background-image: url("/img/logos/startwords.svg");
+            margin: rem(22px) 0;
+            height: rem(22px);
+            border: 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
         }
-
+        
         // pull quotes
         blockquote.pull {
             margin: 0;
@@ -108,30 +109,30 @@ body.article {
             font-weight: 400;
             font-style: italic;
             color: $purple;
-
+            
             @media (min-width: $breakpoint-s) { width: 50%; }
             @media (min-width: $breakpoint-m) { font-size: rem(24px); }
-
+            
             &.left {
                 float: left;
                 margin-right: rem(10px);
             }
-
+            
             &.right {
                 float: right;
                 margin-left: rem(10px);
             }
-
+            
             &::before, &::after {
                 position: absolute;
             }
-
+            
             &::before {
                 top: rem(10px);
                 left: rem(10px);
                 content: url('/img/pullquote-start.svg');
             }
-
+            
             &::after {
                 bottom: rem(10px);
                 right: rem(10px);
@@ -139,23 +140,23 @@ body.article {
             }
         }
     }
-
+    
     .text-container { overflow: hidden; }
-
+    
     // embedded content
     .sketchfab-embed-wrapper {
         margin: rem(30px) 0;
-
+        
         iframe {
             width: 100%;
             height: $frame-height;
         }
     }
-
+    
     .deepzoom {
         width: 100%;
     }
-
+    
 }
 
 /* fallback content included to be shown in TXT version only */
