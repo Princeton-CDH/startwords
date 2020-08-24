@@ -1,0 +1,55 @@
+# Arguments for replaceRE, applied iteratively to .RawContent.
+# Patterns with backslashes must be encapsulated within single quotes.
+# Use single backslashes to escape characters. Do not use double backslashes.
+# Set skip = true to skip a particular replacement.
+
+[[args]]
+pattern = "How do we represent tangible objects"
+replacement = "Hugo Forum Topic 27707"
+comment = "Testing a simple string replacement."
+skip = true
+
+[[args]]
+pattern = '!\[([^\]]+)\]\([^\)]+\)'
+replacement = "[IMAGE: $1]"
+comment = ""
+
+[[args]]
+pattern = '{{\<[^\>]+>}}'
+replacement = ""
+comment = ""
+
+[[args]]
+pattern = '(?m)^#+ '
+replacement = ""
+comment = ""
+
+[[args]]
+pattern = '(?m)(<\/?[^>]+>)'
+replacement = ""
+comment = ""
+
+[[args]]
+pattern = '(?m)^\[\^(\d+)\]: '
+replacement = "$1. "
+comment = ""
+
+[[args]]
+pattern = '\[([^\]]+)\]\(([^\)]+)\)'
+replacement = "$1 [URL: $2]"
+comment = ""
+
+[[args]]
+pattern = '\*\*([^*]+)\*\*'
+replacement = "$1"
+comment = ""
+
+[[args]]
+pattern = '{#[a-z-0-9]+}'
+replacement = ""
+comment = ""
+
+[[args]]
+pattern = '\[(.+)\]\(#.*\)'
+replacement = "$1"
+comment = ""
