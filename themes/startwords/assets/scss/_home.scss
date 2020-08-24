@@ -45,6 +45,8 @@
                     padding-left: rem(10px);
                 }
             }
+
+            &[href="/about"] { display: block; }
         }
     }
 

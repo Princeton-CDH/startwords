@@ -10,10 +10,14 @@
     </nav>
 
     <div class="icons">
-      <a class="license highlight-focus" rel="license" href="{{ .Site.Params.license }}">
-        <img alt="{{ .Site.Params.license_text }}"
-            src="{{ relURL "/img/logos/license.svg" }}" /></a>
-      <a class="logo highlight-focus" id="startwords" href="{{ relURL "/" }}" aria-label="{{ .Site.Title }}"></a>
-      <a class="logo highlight-focus" id="cdh" href="https://cdh.princeton.edu/" aria-label="The Center for Digital Humanities at Princeton"></a>
+        <a class="license highlight-focus" rel="license" href="{{ .Site.Params.license }}">
+            <img alt="{{ .Site.Params.license_text }}" src="{{ relURL "/img/logos/license.svg" }}" /></a>
+        <a class="highlight-focus" href="{{ relURL "/" }}" aria-label="{{ .Site.Title }}">
+            <div class="logo" id="startwords"></div>
+        </a>
+        <a class="highlight-focus" href="https://cdh.princeton.edu/"
+            aria-label="The Center for Digital Humanities at Princeton">
+            <div class="logo" id="cdh"></div>
+        </a>
     </div>
 </footer>

@@ -67,6 +67,8 @@ footer {
             mask-mode: alpha;
             background-color: $black;
             display: inline-block;
+            height: 100%;
+            width: 100%;
             // vendor prefixes for safari fix
             -webkit-mask-repeat: no-repeat;
             -webkit-mask-size: cover;
