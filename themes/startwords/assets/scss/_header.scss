@@ -51,6 +51,10 @@ body > header {
             display: block;
             width: 100%;
             height: 100%;
+            transition: border 0.2s linear;
+            border-width: 0;
+            border-color: white;
+            border-style: solid;
 
             span, img {
                 position: absolute;
@@ -69,6 +73,8 @@ body > header {
                 top: rem(5px);
                 left: rem(6px);
             }
+
+            a:focus { border-left-width: 2px; }
         }
 
         .issues {
@@ -81,6 +87,8 @@ body > header {
             a {
                 color: $off-white;
                 transform: rotate(180deg);
+
+                &:focus { border-right-width: 2px; }
             }
 
             span {
