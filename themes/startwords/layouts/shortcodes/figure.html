@@ -1,14 +1,46 @@
+{{/* get page resource matching filename specified as "src" in shortcode */}}
+{{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{/* set image derivative sizes */}}
+{{ $tinyw := default "500x" }}
+{{ $smallw := default "800x" }}
+{{ $mediumw := default "1200x" }}
+{{ $largew := default "1500x" }}
+
+{{/* resize the image to the given sizes */}}
+{{ .Scratch.Set "tiny" ($img.Resize $tinyw) }}
+{{ .Scratch.Set "small" ($img.Resize $smallw) }}
+{{ .Scratch.Set "medium" ($img.Resize $mediumw) }}
+{{ .Scratch.Set "large" ($img.Resize $largew) }}
+
+{{/* store processed images for output in srcset */}}
+{{ $tiny := .Scratch.Get "tiny" }}
+{{ $small := .Scratch.Get "small" }}
+{{ $medium := .Scratch.Get "medium" }}
+{{ $large := .Scratch.Get "large" }}
+
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}{{ if .Get "extdesc_id" }} aria-describedby="{{ .Get "desc_id" }}"{{ end }}>
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-    <img src="{{ .Get "src" }}" role="img"
+    <img src="{{ $img.RelPermalink }}" role="img"
+        srcset='
+        {{ if ge $img.Width "500" }}
+        {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
+        {{ end }}
+        {{ if ge $img.Width "800" }}
+        {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+        {{ end }}
+        {{ if ge $img.Width "1200" }}
+        {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+        {{ end }}
+        {{ if ge $img.Width "1500" }}
+        {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
+        {{ end }}'
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}
-         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-    /> <!-- Closing img tag -->
+         class="{{ if ge $img.Width $img.Height }}landscape{{ else }}portrait{{ end }}">
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
         <figcaption>
@@ -26,4 +58,3 @@
         </figcaption>
     {{- end }}
 </figure>
-
