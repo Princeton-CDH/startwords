@@ -24,7 +24,8 @@
     {{ with $small.RelPermalink }}{{ . }} 800w, {{ end }}
     {{ with $medium.RelPermalink }}{{ . }} 1200w, {{ end }}
     {{ with $large.RelPermalink }}{{ . }} 1500w, {{ end }}
-    {{ with $huge.RelPermalink }}{{ . }} 1800w{{ end }}'
+    {{ with $huge.RelPermalink }}{{ . }} 1800w, {{ end }}
+    {{ if gt $img.Width "1800" }}{{ $img.RelPermalink }} {{ $img.Width }}w{{ end }}'
     {{- if or (.Get "alt") (.Get "caption") }}
     alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
     {{- end -}}
