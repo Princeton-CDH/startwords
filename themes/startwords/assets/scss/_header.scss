@@ -74,7 +74,7 @@ body > header {
                 left: rem(6px);
             }
 
-            a:focus { border-left-width: 2px; }
+            a:focus { border-left-width: 4px; }
         }
 
         .issues {
@@ -88,7 +88,7 @@ body > header {
                 color: $off-white;
                 transform: rotate(180deg);
 
-                &:focus { border-right-width: 2px; }
+                &:focus { border-right-width: 4px; }
             }
 
             span {
