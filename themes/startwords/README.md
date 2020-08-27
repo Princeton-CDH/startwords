@@ -105,6 +105,9 @@ This is a slightly-customized version of Hugo's default [figure shortcode](https
 
 Has all the same options as the original, plus `desc_id`.
 
+It's highly recommended to use `figure` rather than simple images via Markdown, so that images can be automatically sized and properly styled.
+Non-`figure` images may not display in a consistent manner.
+
 [view source](layouts/shortcodes/figure.html)
 
 ### wrap
