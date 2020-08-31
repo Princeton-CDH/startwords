@@ -1,29 +1,49 @@
+{{/* get page resource matching filename specified as "src" in shortcode */}}
+{{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{/* set image derivative sizes */}}
+{{ $tiny_w := default "500x" }}
+{{ $small_w := default "800x" }}
+{{ $medium_w := default "1200x" }}
+{{ $large_w := default "1500x" }}
+{{ $huge_w := default "1800x" }}
+
+{{/* generate derviatives for output in srcset */}}
+{{ $tiny := ($img.Resize $tiny_w) }}
+{{ $small := ($img.Resize $small_w) }}
+{{ $medium := ($img.Resize $medium_w) }}
+{{ $large := ($img.Resize $large_w) }}
+{{ $huge := ($img.Resize $huge_w) }}
+
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}{{ if .Get "extdesc_id" }} aria-describedby="{{ .Get "desc_id" }}"{{ end }}>
-    {{- if .Get "link" -}}
-        <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+{{- if .Get "link" -}}
+<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-    <img src="{{ .Get "src" }}" role="img"
-         {{- if or (.Get "alt") (.Get "caption") }}
-         alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-         {{- end -}}
-         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-         {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-    /> <!-- Closing img tag -->
+    <img src="{{ $large.RelPermalink }}" role="img" sizes="(max-width: 768px) 100%, 80%" loading="lazy"
+    srcset='{{ with $tiny.RelPermalink }}{{ . }} 500w, {{ end }}
+    {{ with $small.RelPermalink }}{{ . }} 800w, {{ end }}
+    {{ with $medium.RelPermalink }}{{ . }} 1200w, {{ end }}
+    {{ with $large.RelPermalink }}{{ . }} 1500w, {{ end }}
+    {{ with $huge.RelPermalink }}{{ . }} 1800w, {{ end }}
+    {{ if gt $img.Width "1800" }}{{ $img.RelPermalink }} {{ $img.Width }}w{{ end }}'
+    {{- if or (.Get "alt") (.Get "caption") }}
+    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+    {{- end -}}
+    class="{{ if ge $img.Width $img.Height }}landscape{{ else }}portrait{{ end }}">
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
-        <figcaption>
-            {{ with (.Get "title") -}}
-                <h4>{{ . }}</h4>
+    <figcaption>
+        {{ with (.Get "title") -}}
+        <h4>{{ . }}</h4>
+        {{- end -}}
+        {{- if or (.Get "caption") (.Get "attr") -}}<p>
+        {{- .Get "caption" | markdownify -}}
+        {{- with .Get "attrlink" }}
+        <a href="{{ . }}">
             {{- end -}}
-            {{- if or (.Get "caption") (.Get "attr") -}}<p>
-                {{- .Get "caption" | markdownify -}}
-                {{- with .Get "attrlink" }}
-                    <a href="{{ . }}">
-                {{- end -}}
-                {{- .Get "attr" | markdownify -}}
-                {{- if .Get "attrlink" }}</a>{{ end }}</p>
+            {{- .Get "attr" | markdownify -}}
+            {{- if .Get "attrlink" }}</a>{{ end }}</p>
             {{- end }}
         </figcaption>
-    {{- end }}
+        {{- end }}
 </figure>
-
