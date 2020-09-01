@@ -38,7 +38,9 @@ jobs:
         with:
           name: public
           path: public/
-      - name: Run lighthouse
-        run: |
-          npm install -g @lhci/cli
-          lhci autorun
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v3
+        with:
+          configPath: './lighthouserc.js'
+          uploadArtifacts: true
+          temporaryPublicStorage: true
