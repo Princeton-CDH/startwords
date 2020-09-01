@@ -15,3 +15,6 @@ $RECYCLE.BIN/
 
 # JS dependencies
 node_modules/
+
+# Lighthouse CI run output
+.lighthouseci
