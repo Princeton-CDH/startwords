@@ -1,26 +1,46 @@
 name: Lighthouse CI
 on: [push]
 env:
+    HUGO_VERSION: 0.67.1
+    NODE_VERSION: 10
     LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 jobs:
-  lhci:
-    name: lighthouse ci
+  build:
+    name: Build site
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: setup hugo
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.67.1'
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
-      - name: install node.js
-        uses: actions/setup-node@v1
+      - name: Install node.js
+        uses: actions/setup-node@v2-beta
         with:
-          node-version: '10.x'
-      - name: npm install
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Install js dependencies
         run: |
           npm install
-      - name: run lighthouse ci
+      - name: Build site
+        run: hugo --minify
+      - name: Upload built files
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: public/
+  lhci:
+    name: Run lighthouse
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download built files
+        uses: actions/download-artifact@v2
+        with:
+          name: public
+          path: public/
+      - name: Run lighthouse
         run: |
           npm install -g @lhci/cli
           lhci autorun
