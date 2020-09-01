@@ -20,6 +20,14 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: ${{ env.NODE_VERSION }}
+      - name: Fetch js dependencies from cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            npm-${{ hashFiles('package-lock.json') }}
+            npm-
       - name: Install js dependencies
         run: |
           npm install
@@ -40,6 +48,10 @@ jobs:
         with:
           name: public
           path: public/
+      - name: Install node.js
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: ${{ env.NODE_VERSION }}
       - name: Run lighthouse
         run: |
           npm install -g @lhci/cli
