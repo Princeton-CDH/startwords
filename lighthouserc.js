@@ -14,7 +14,7 @@ module.exports = {
       assert: {
         assertions: {
             // warn if overall performance score is lower than 85
-            "categories:accessibility": ["warn", { minScore: 0.85 }],
+            "categories:performance": ["warn", { minScore: 0.85 }],
             // error if overall accessibility score is lower than 100
             "categories:accessibility": ["error", { minScore: 1 }],
         }
