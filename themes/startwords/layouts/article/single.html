@@ -4,6 +4,13 @@
     {{ end }}
 {{ end }}
 
+{{ define "custom_js" }}
+    {{ range .Resources.Match "*.js" }}
+    <script type="text/javascript" src="{{ .RelPermalink }}"></script>
+    {{ end }}
+{{ end }}
+
+
 {{/* override site-level description to include issue details in PDF metadata */}}
 {{ define "metadescription" }}{{ .Site.Title }} Issue {{ .Parent.Params.number }}, {{ .Params.date.Format `January 2006` }}. {{ .Site.Params.description }} {{ end }}
 
