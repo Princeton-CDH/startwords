@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.highlight {
+    /*border: 3px solid yellow;*/
+}
+.highlight:hover {
+    border: 3px solid yellow;
+}
+
+.pnum {
+    text-decoration: none;
+    color: white;
+    font-size: 22pt;
+}
+/*    .pnum::after {
+    content: '1';
+    font-size: 22pt;
+    display: block;
+    color: white;
+}
+*/
+
+.reference {
+    position: absolute;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    z-index: 3;
+    opacity: 0;
+
+   -webkit-transition: opacity 1.5s ease-in-out;
+   -moz-transition: opacity 1.5s ease-in-out;
+   -ms-transition: opacity 1.5s ease-in-out;
+   -o-transition: opacity 1.5s ease-in-out;
+}
+
+.reference.loading {
+    opacity: 0.5;
+}
+
+.reference.show {
+    opacity: 1;
+}
+
+.footnote-ref {
+    opacity: 0;
+}
