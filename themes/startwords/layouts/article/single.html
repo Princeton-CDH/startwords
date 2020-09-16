@@ -20,7 +20,7 @@
 {{ if .Params.doi }}<meta name="citation_doi" content="{{ .Params.doi }}"/>{{ end }}
 <meta name="citation_abstract" content="{{ .Summary | plainify | htmlEscape }}" />
 <meta name="citation_journal_title" content="{{ .Site.Title }}"/>
-{{/* TODO: add when/if we get an ISSN:  <meta name="citation_issn" content=""> */}}
+{{ with .Site.Params.ISSN }}<meta name="citation_issn" content="{{ . }}">{{ end }}
 <meta name="citation_issue" content="{{ .Parent.Params.number }}"/>
 <meta name="citation_publisher" content="Center for Digital Humanities, Princeton University"/>
 <meta name="DC.rights" content="{{ .Site.Params.license }}" />

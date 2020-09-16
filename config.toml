@@ -34,6 +34,8 @@ googleAnalytics = "UA-87887700-8"
   license_text = "Creative Commons Attribution Non-commerical Share Alike License"
   images = ["social.png"]
   description = "A research periodical irregularly published by the Center for Digital Humanities at Princeton."
+  # set ISSN if/when there is one for inclusion in article metadata
+  ISSN = ""
 
 [markup.goldmark.renderer]
   unsafe = true
