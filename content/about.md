@@ -11,7 +11,7 @@ summary: |
 
 Each issue features two articles that speak to a common theme, feature, or concern. “Snippets” invite readers to engage with the digital evidence underlying those articles. Issues will be released one to three times a year, when we have something to share or say.
 
-*Startwords* is built with the Hugo static site generator using a custom-built theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the [website code](https://github.com/Princeton-CDH/startwords) under an Apache 2.0 license.
+*Startwords* is built with the Hugo static site generator using a custom-made theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the [website code](https://github.com/Princeton-CDH/startwords) under an Apache 2.0 license.
 
 ## Masthead
 
