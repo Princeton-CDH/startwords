@@ -1,7 +1,7 @@
 baseURL = "https://startwords.cdh.princeton.edu/"
 title = "Startwords"
 theme = "startwords"
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
 enableEmoji = true
 googleAnalytics = "UA-87887700-8"
 
@@ -30,8 +30,8 @@ googleAnalytics = "UA-87887700-8"
   dateformShort   = "January 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-  license = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-  license_text = "Creative Commons Attribution Non-commerical Share Alike License"
+  license = "http://creativecommons.org/licenses/by/4.0/"
+  license_text = "Creative Commons Attribution 4.0 International License"
   images = ["social.png"]
   description = "A research periodical irregularly published by the Center for Digital Humanities at Princeton."
 
