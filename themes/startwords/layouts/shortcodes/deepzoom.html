@@ -3,14 +3,16 @@
 {{- $height := default "30em" (.Get "height") -}}
 <div class="deepzoom" id="{{ $zoom_id }}" style="height: {{ $height }}"></div>
 <script>
-OpenSeadragon({
-    id: "{{ $zoom_id }}",
-    prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
-    preserveViewport: true,
-    visibilityRatio:    1,
-    minZoomLevel:       1,
-    defaultZoomLevel:   1,
-    gestureSettingsMouse: { scrollToZoom: false },
-    tileSources: "{{ if .IsNamedParams }}{{ .Get "tile" }}{{ else }}{{ .Get 0 }}{{ end }}",
-});
+    window.addEventListener("onload", function() {
+        OpenSeadragon({
+            id: "{{ $zoom_id }}",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            preserveViewport: true,
+            visibilityRatio:    1,
+            minZoomLevel:       1,
+            defaultZoomLevel:   1,
+            gestureSettingsMouse: { scrollToZoom: false },
+            tileSources: "{{ if .IsNamedParams }}{{ .Get "tile" }}{{ else }}{{ .Get 0 }}{{ end }}",
+        });
+    });
 </script>
