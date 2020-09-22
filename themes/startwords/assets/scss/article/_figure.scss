@@ -13,19 +13,10 @@ body.article figure {
     img {
         display: block;
         margin: 0 auto;
-
-        &.landscape {
-            width: 100%;
-            @media (min-width: $breakpoint-m) {
-                width: calc(100% + 200px);
-                margin-left: rem(-100px);
-                margin-right: rem(-100px);
-            }
-        }
+        width: 100%;
 
         &.portrait {
             width: 75%;
-            @media (min-width: $breakpoint-m) { width: 100%; }
         }
     }
 
