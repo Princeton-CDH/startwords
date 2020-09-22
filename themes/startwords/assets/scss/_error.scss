@@ -1,0 +1,55 @@
+/* global styles for error pages (404) */
+
+body.error {
+    // colors
+    main, footer { background: $red; }
+    main { color: $off-white; }
+
+    // graphic
+    .graphic {
+        display: block;
+        width: 90vw;
+        height: rem(350px);
+        margin-top: rem(60px);
+        @media (min-width: $breakpoint-s) { margin-top: 0; }
+    }
+
+    // type
+    .title, .subtitle, .flavor {
+        margin: 0;
+    }
+
+    .subtitle, .flavor {
+        position: absolute;
+    }
+
+    .title, .subtitle {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .subtitle, .flavor {
+        font-size: rem(18px);
+        @media (min-width: $breakpoint-m) { font-size: rem(20px); }
+    }
+
+    .title {
+        text-align: center;
+        font-size: rem(24px);
+        @media (min-width: $breakpoint-m) { font-size: rem(26px); }
+    }
+
+    .subtitle {
+        transform: rotate(-45deg);
+        top: rem(100px);
+        left: rem(50px);
+    }
+
+    .flavor {
+        font-style: italic;
+        line-height: rem(24px);
+        width: rem(100px);
+        top: rem(100px);
+        left: calc(100vw - 110px);
+    }
+}
