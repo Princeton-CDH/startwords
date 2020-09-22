@@ -51,11 +51,10 @@
     {{ end }}
     {{ $vendor := resources.Get "js/vendor.js" }}
     <script async type="text/javascript" src="{{ $vendor.RelPermalink }}"></script>
-    {{ $frame := resources.Get "js/frame.js" }}
     {{ $issue := resources.Get "js/issue.js" }}
     {{ $notes := resources.Get "js/notes.js" }}
     {{ $nav := resources.Get "js/nav.js" }}
-    {{ $js := slice $notes $nav $issue $frame | resources.Concat "js/bundle.js" | resources.Minify }}
+    {{ $js := slice $notes $nav $issue | resources.Concat "js/bundle.js" | resources.Minify }}
     <script async type="text/javascript" src="{{ $js.RelPermalink }}"></script>
     {{ template "_internal/google_analytics_async.html" . }}
 
