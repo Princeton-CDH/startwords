@@ -1,0 +1,99 @@
+/* global styles for error pages (404) */
+
+body.error {
+    // colors
+    main, footer { background: $red; }
+    main { color: $off-white; }
+
+    // graphic
+    .graphic {
+        width: rem(300px);
+        height: rem(300px);
+        margin-top: rem(70px);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("/img/not-found-error-mobile.svg");
+
+        @media (min-width: $breakpoint-s) {
+            background-image: url("img/not-found-error-tablet.svg");
+            width: rem(696px);
+            height: rem(747px);
+            margin-top: rem(-20px);
+            margin-left: rem(-14px);
+        }
+
+        @media (min-width: $breakpoint-m) {
+            background-image: url("img/not-found-error.svg");
+            width: rem(915px);
+            height: rem(931px);
+        }
+    }
+
+    // type
+    .title, .subtitle, .flavor {
+        margin: 0;
+        position: absolute;
+    }
+
+    .title, .subtitle {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .subtitle, .flavor {
+        font-size: rem(18px);
+        @media (min-width: $breakpoint-m) { font-size: rem(20px); }
+    }
+
+    .title {
+        font-size: rem(24px);
+        top: rem(386px);
+        left: rem(128px);
+
+        @media (min-width: $breakpoint-s) {
+            top: rem(754px);
+            left: rem(310px);
+        }
+
+        @media (min-width: $breakpoint-m) {
+            font-size: rem(26px);
+            top: rem(938px);
+            left: rem(447px);
+        }
+    }
+
+    .subtitle {
+        transform: rotate(-50.44deg);
+        top: rem(100px);
+        left: rem(40px);
+
+        @media (min-width: $breakpoint-s) {
+            left: rem(80px);
+        }
+
+        @media (min-width: $breakpoint-m) {
+            top: rem(100px);
+            left: rem(140px);
+        }
+    }
+
+    .flavor {
+        font-style: italic;
+        line-height: rem(24px);
+        width: rem(100px);
+        top: rem(110px);
+        left: rem(210px);
+
+        @media (min-width: $breakpoint-s) {
+            width: rem(210px);
+            top: rem(207px);
+            left: rem(472px);
+        }
+
+        @media (min-width: $breakpoint-m) {
+            width: rem(300px);
+            top: rem(175px);
+            left: rem(620px);
+        }
+    }
+}
