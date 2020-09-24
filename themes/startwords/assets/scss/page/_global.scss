@@ -3,3 +3,15 @@
 body.page {
     ul { list-style: none; }    // non-bulleted lists
 }
+
+
+/* custom styles for about page */
+.masthead {
+    strong {
+        display: inline-block;
+        line-height: 1rem;
+        padding-right: 0.5rem;
+        margin-right: 0.25rem;
+        border-right: 0.1rem solid $dark-grey;
+    }
+}

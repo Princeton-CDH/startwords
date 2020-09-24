@@ -13,19 +13,23 @@ Each issue features two articles that speak to a common theme, feature, or conce
 
 *Startwords* is built with the Hugo static site generator using a custom-made theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the [website code](https://github.com/Princeton-CDH/startwords) under an Apache 2.0 license.
 
-## Masthead
+{{< wrap class="masthead" >}}
 
-**Editor** | Grant Wythoff
+## Masthead 
 
-**UX Designer** | Gissoo Doroudian
+**Editor** Grant Wythoff
 
-**Developer** | Rebecca Sutton Koeser
+**UX Designer** Gissoo Doroudian
 
-**Developer** | Nick Budak
+**Technical**
+- Nick Budak
+- Rebecca Sutton Koeser
+- Grant Wythoff
 
-**Board of Advisors** |
+**Board of Advisors**
 
-- Rebecca Munson
 - Natalia Ermolaev
 - Zoe LeBlanc
 - Meredith Martin
+- Rebecca Munson
+{{</ wrap >}}
