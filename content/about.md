@@ -24,11 +24,12 @@ Each issue features two articles that speak to a common theme, feature, or conce
 **Technical**
 - Nick Budak
 - Rebecca Sutton Koeser
+- Grant Wythoff
 
 **Board of Advisors**
 
-- Rebecca Munson
 - Natalia Ermolaev
 - Zoe LeBlanc
 - Meredith Martin
+- Rebecca Munson
 {{</ wrap >}}
