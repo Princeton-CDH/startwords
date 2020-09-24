@@ -8,17 +8,15 @@ Each issue features two articles that speak to a common theme, feature, or conce
 
 Startwords is built with the Hugo static site generator using a custom-made theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the website code under an Apache 2.0 license.
 
-Masthead Editor | Grant Wythoff
+Masthead Editor Grant Wythoff
 
-UX Designer | Gissoo Doroudian
+UX Designer Gissoo Doroudian
 
-Developer | Rebecca Sutton Koeser
+Technical
 
-Developer | Nick Budak
+ Nick Budak Rebecca Sutton Koeser Grant Wythoff  Board of Advisors
 
-Board of Advisors |
-
- Rebecca Munson Natalia Ermolaev Zoe LeBlanc Meredith Martin  
+ Natalia Ermolaev Zoe LeBlanc Meredith Martin Rebecca Munson   
 
 
 https://startwords.cdh.princeton.edu/about/
