@@ -4,7 +4,7 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    column-gap: rem(10px);
+    column-gap: $grid-gap;
     padding: $gutter;
     box-sizing: border-box;
 

@@ -30,6 +30,6 @@ $breakpoint-xl: 1440px;
 $breakpoint-fullwidth-notes: 414px;
 
 // layout
-$gutter: 15px;
+$gutter: 10px;
 $grid-gap: 10px;
 $grid-column: calc((100vw - (2 * #{$gutter}) - (9 * #{$grid-gap})) / 10);
