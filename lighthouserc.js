@@ -18,29 +18,22 @@ module.exports = {
     ]
     },
     assert: {
-      assertMatrix: [
-        /* the homepage and issue detail pages detect a contrast error for some
-        background text which is presentational, so we disable contrast checks
-        for those pages only as a workaround. */
-        {
-          "matchingUrlPattern": "http://[^/]+/$",
-          assertions: { "color-contrast": "off", }
-        },
-        {
-          "matchingUrlPattern": "http://[^/]+/issues/\d+/$",
-          assertions: { "color-contrast": "off", }
-        },
-        {
-          // global settings for all pages
-          "matchingUrlPattern": ".*",            
-          assertions: {
-              // warn if overall performance score is lower than 85
-              "categories:performance": ["warn", { minScore: 0.85 }],
-              // error if overall accessibility score is lower than 100
-              "categories:accessibility": ["error", { minScore: 1 }],
-          }
-        },
-      ]
+      preset: "lighthouse:no-pwa",
+      assertions: {
+        /* color contrast check reports incorrect results on issue page and
+           on 404 page footer due to the way content is actually rendered; so
+           we switch it to a warning */
+        "color-contrast": "warn",
+
+        // switch performance-related issues to warnings until they are resolved
+        "unsized-images": "warn",
+        "uses-responsive-images": "warn",
+        "uses-rel-preconnect": "warn",
+        "uses-passive-event-listeners": "warn",
+        "unused-javascript": "warn",
+        "unused-css-rules": "warn",
+        "total-byte-weight": "warn",
+      }
     },
     upload: {
       target: "temporary-public-storage",
