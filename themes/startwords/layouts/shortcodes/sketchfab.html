@@ -1,6 +1,7 @@
 {{/* Shortcode for Sketchfab 3D object embedding  */}}
 <div class="sketchfab-embed-wrapper">
     <iframe
+        id="sketchfab-{{ .Get `id` }}"
         title="{{ .Get `title` }} on Sketchfab"
         frameborder="0"
         allow="autoplay; fullscreen; vr"
