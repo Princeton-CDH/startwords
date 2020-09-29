@@ -25,7 +25,11 @@ module.exports = {
            we switch it to a warning */
         "color-contrast": "warn",
 
-        // switch performance-related issues to warnings until they are resolved
+        /* 3rd-party fonts included by e.g. sketchfab don't use font-display,
+           so we have to switch it to a warning */
+        "font-display": "warn",
+
+        // switch misc. performance issues to warnings until they are resolved
         "unsized-images": "warn",
         "uses-responsive-images": "warn",
         "uses-rel-preconnect": "warn",
