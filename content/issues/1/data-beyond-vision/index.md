@@ -51,7 +51,7 @@ Data physicalization focuses on constructing data in physical form. It may be si
 
 Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.[^2]
 
-{{< figure src="images/conceptmap.jpg" caption="Concept map situating data physicalization in relation to other types of data representations and interpretations." attr="From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019." attrlink="https://doi.org/10.5281/zenodo.3261531" desc_id="conceptmap-desc">}}
+{{< figure src="images/conceptmap.svg" caption="Concept map situating data physicalization in relation to other types of data representations and interpretations." attr="From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019." attrlink="https://doi.org/10.5281/zenodo.3261531" desc_id="conceptmap-desc">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE.
