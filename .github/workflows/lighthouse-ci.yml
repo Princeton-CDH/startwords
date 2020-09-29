@@ -1,26 +1,34 @@
-name: Lighthouse CI
+name: lighthouse ci
+
 on: [push]
+
+# versions should be kept in sync with gh-pages workflow
 env:
-    HUGO_VERSION: 0.67.1
+    HUGO_VERSION: 0.67.1  # if you update this, change the README badge too!
     NODE_VERSION: 10
     LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
 jobs:
-  build:
-    name: Build and run Lighthouse
+  build-ci:
+    name: build site and run lighthouse ci
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: checkout repository
         uses: actions/checkout@v2
-      - name: Setup hugo
+
+      - name: setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
-      - name: Install node.js
+
+      - name: setup node.js
         uses: actions/setup-node@v2-beta
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: Fetch js dependencies from cache
+
+      - name: fetch js dependencies from cache
         uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -28,17 +36,25 @@ jobs:
           restore-keys: |
             npm-${{ hashFiles('package-lock.json') }}
             npm-
-      - name: Install js dependencies
-        run: |
-          npm install
-      - name: Build site
+
+      - name: install js dependencies
+        run: npm ci
+
+      - name: build site
         run: hugo --minify
-      - name: Upload built files
+
+      # this step makes the site's built html and css available for download
+      # from github; see the run in github actions to access it as a zipfile
+      - name: export built files for download
         uses: actions/upload-artifact@v2
         with:
           name: public
           path: public/
-      - name: Audit URLs using Lighthouse
+
+      # lighthouse is configured using the lighthouserc.js file in the project
+      # root, see that file for more details. output from runs is uploaded to
+      # free google cloud storage and accessible via the github action run
+      - name: audit site using lighthouse ci
         uses: treosh/lighthouse-ci-action@v3
         with:
           configPath: './lighthouserc.js'

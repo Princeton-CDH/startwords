@@ -5,31 +5,47 @@ on:
     branches:
     - master
 
+# versions should be kept in sync with lighthouse-ci workflow
+env:
+  HUGO_VERSION: 0.67.1  # if you update this, change the README badge too!
+  NODE_VERSION: 10
+
 jobs:
   build-deploy:
+    name: build site and deploy to github pages
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: checkout repository
+      uses: actions/checkout@v2
 
     - name: setup hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.67.1'
+        hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
 
-    - name: Use Node.js
-      uses: actions/setup-node@v1
+    - name: setup node.js
+      uses: actions/setup-node@v2-beta
       with:
-        node-version: '12.x'
+        node-version: ${{ env.NODE_VERSION }}
 
-    - name: Install npm dependencies
+    - name: fetch js dependencies from cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: npm-${{ hashFiles('package-lock.json') }}
+        restore-keys: |
+          npm-${{ hashFiles('package-lock.json') }}
+          npm-
+
+    - name: install js dependencies
       run: npm ci
 
     - name: build site
       run: hugo --minify
 
-    - name: deploy
+    - name: deploy site to github pages
       uses: peaceiris/actions-gh-pages@v2
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
