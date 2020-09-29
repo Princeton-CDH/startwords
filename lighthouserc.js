@@ -1,7 +1,13 @@
+/*
+ * For details on the Lighthouse CI configuration API, see:
+ * https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/configuration.md
+ */
+
 module.exports = {
   ci: {
     collect: {
       staticDistDir: "./public",
+      // if new page types are added to the site, they must be added here also
       url: [
         "/",
         "/about/",
@@ -13,8 +19,9 @@ module.exports = {
     },
     assert: {
       assertMatrix: [
-        // homepage/issue detail incorrectly error on contrast of background
-        // text with role=presentation
+        /* the homepage and issue detail pages detect a contrast error for some
+        background text which is presentational, so we disable contrast checks
+        for those pages only as a workaround. */
         {
           "matchingUrlPattern": "http://[^/]+/$",
           assertions: { "color-contrast": "off", }
