@@ -17,6 +17,9 @@ googleAnalytics = "UA-87887700-8"
     mediaType = "text/plain"
 
 [outputs]
+  home = ["HTML", "RSS", "ATOM"]
+  section = ["HTML", "RSS", "ATOM"]
+#  taxonomy = ["HTML", "RSS", "ATOM"]
   page = ["HTML", "TXT"]
 
 [menu]
@@ -24,6 +27,10 @@ googleAnalytics = "UA-87887700-8"
     name = "About"
     url = "about/"
     weight = 20
+
+[Author]
+  name = "Center for Digital Humanities at Princeton"
+  email = "cdh-info@princeton.edu"
 
 [params]
   dateform        = "January 2, 2006"
