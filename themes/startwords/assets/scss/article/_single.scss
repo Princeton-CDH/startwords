@@ -41,7 +41,7 @@ body.article {
                 li:last-child address::after { content: ''; }
             }
             
-            .formats { font-weight: 400; }
+            .formats { font-weight: 400; margin-top: .5rem; }
             
             .formats a { margin-right: rem(5px); }
         }
