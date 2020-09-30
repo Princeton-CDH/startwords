@@ -206,7 +206,7 @@ body.article .footnotes {
 
 // a::after { content: ", see " target-text(attr(href)) }
 
-body > header, nav, footer, a[rel=alt] {
+body > header, nav, footer, a[rel=alternate] {
     display: none;
 }
 
