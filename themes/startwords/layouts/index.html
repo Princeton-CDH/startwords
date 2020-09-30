@@ -1,5 +1,11 @@
 {{ define "pagetype" }}home{{ end }}
 
+{{ define "page_meta" }}
+    {{ with .Site.Params.googleSiteVerification -}}
+    <meta name="google-site-verification" content="{{ . }}" />
+    {{- end }}
+{{ end }}
+
 {{ define "main" }}
 <main>
     <h1 class="sr-only">{{ .Site.Title }}</h1>

@@ -36,6 +36,7 @@ googleAnalytics = "UA-87887700-8"
   description = "A research periodical irregularly published by the Center for Digital Humanities at Princeton."
   # set ISSN if/when there is one for inclusion in article metadata
   ISSN = ""
+  googleSiteVerification = "pS2kpksxg6JeC90IvA8BHVsFuK_6b7J_vARVLqqu7ck"
 
 [markup.goldmark.renderer]
   unsafe = true
