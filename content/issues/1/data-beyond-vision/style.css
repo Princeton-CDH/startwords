@@ -16,3 +16,107 @@ article::after {
     background-repeat: no-repeat;
     background-size: 200%;
 }
+
+/* purple "interlude" section with eye/hand graphics */
+
+#interlude {
+    position: relative;
+    margin: 0 auto;
+}
+
+#interlude::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: -10px;
+    height: 100%;
+    background: #4C2A85;
+}
+
+#interlude .left,
+#interlude .right {
+    display: block;
+    z-index: 1;
+    color: #E0CEFF;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'IBM Plex Serif', 'Palatino', serif;
+    max-width: 55%;
+    min-height: 150px;
+}
+
+#interlude .left {
+    padding-top: 35px;
+}
+
+#interlude .left::before,
+#interlude .right::before {
+    position: absolute;
+    background-size: contain;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+#interlude .left::before {
+    background-image: url("/issues/1/data-beyond-vision/images/eyeball.svg");
+    width: 174px;
+    height: 90px;
+    right: -30px;
+    top: 60px;
+}
+
+#interlude .right {
+    text-align: right;
+    margin-left: auto;
+    padding-bottom: 35px;
+}
+
+#interlude .right::before {
+    background-image: url("/issues/1/data-beyond-vision/images/hand.svg");
+    opacity: 0.7;
+    width: 230px;
+    height: 83px;
+    left: -45px;
+    bottom: 60px;
+}
+
+#interlude p {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 20px;
+    z-index: 1;
+}
+
+#interlude p:first-child {
+    margin-bottom: 0;
+}
+
+#interlude strong {
+    font-weight: 700;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    #interlude::before { left: calc((100vw - 10px) / 10 * -1 - 10px) }
+    #interlude .left, #interlude .right { max-width: 200px; }
+    #interlude .left { margin-left: 20%; }
+    #interlude .right { margin-left: 50%; }
+    #interlude .left::before { right: -18%; }
+    #interlude .right::before { left: -18%; }
+}
+
+@media (min-width: 1024px) {
+    #interlude::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
+    #interlude .left::before {
+        width: 238px;
+        height: 123px;
+        right: -40%;
+    }
+    #interlude .right::before {
+        width: 354px;
+        height: 128px;
+        left: -40%;
+    }
+}

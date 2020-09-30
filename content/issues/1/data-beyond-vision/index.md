@@ -23,28 +23,22 @@ Humanists continue to expand the range of texts they study, but the range of sch
 Academic research has a long history of textual scholarly practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. The [Journal of Open Humanities Data](https://openhumanitiesdata.metajnl.com/) and [The Journal of Open Source Software](https://joss.theoj.org/) can
 both be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers”; but even these rely on transforming the content they review (data and software) into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, augmented reality experiences? Will all scholars need to become experts in all these modes, or can we find a way to be conversant, as with other important scholarly theories?
 
-SEE
-from a distance.
-Cold, commanding.
-Sense of mastery,
-but optical illusions deceive.
+{{< wrap id="interlude" >}}
+{{< wrap class="left" >}}
+**SEE**
 
+from a distance. Cold, commanding. Sense of mastery, but optical illusions deceive.
 
-Look in a mirror
-and see yourself
-seeing.
+Look in a mirror and see yourself seeing.
+{{</ wrap >}}
+{{< wrap class="right" >}}
+**TOUCH**
 
+up close. Intimate, incomplete. Explore partial knowledge, enlighten slowly.
 
-TOUCH
-up close.
-Intimate, incomplete.
-Explore partial knowledge,
-enlighten slowly.
-
-
-Run fingers across skin
-and touch yourself
-touching.
+Run fingers across skin and touch yourself touching.
+{{</ wrap >}}
+{{</ wrap >}}
 
 These are not artist statements because this is not art; Data Art is something else. This is representation, correspondence, laborious translation. Call them maker statements, perhaps. These are our attempts to communicate our goals and help you read and interpret these unfamiliar objects and be challenged by the potential of physicalizations.
 
