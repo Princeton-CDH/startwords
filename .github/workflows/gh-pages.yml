@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-    - master
+    - main
 
 # versions should be kept in sync with lighthouse-ci workflow
 env:

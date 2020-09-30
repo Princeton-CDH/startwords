@@ -40,6 +40,20 @@ body.issue {
             padding-top: 10vh;
         }
     }
+
+    // snippets section
+    .snippets {
+        float: left;
+
+        h2 {
+            font-weight: 300;
+            font-size: rem(16px);
+            font-variant: small-caps;
+            margin-top: rem(30px);
+            margin-bottom: rem(10px);
+        }
+    }
+
     
     // inverted footer
     main + footer { @include inverted-footer; }
