@@ -48,7 +48,10 @@
                 {{ end }}
                 <p class="formats">
                 {{ with  .OutputFormats.Get "txt" -}}
-                <a href="{{ .RelPermalink }}" rel="alt">TXT</a>
+                    <a href="{{ .RelPermalink }}" rel="alt" type="text/plain">TXT</a>
+                {{- end }}
+                {{ with .Params.pdf -}}
+                    <a href="{{ . }}" rel="alt" type="application/pdf">PDF</a>
                 {{- end }}
                 </p>
             </header>
