@@ -21,14 +21,18 @@ body.error {
         .subtitle { top: rem(20px); left: rem(40px); transform: rotate(-50.44deg); }
         .flavor { top: rem(40px); left: rem(210px); width: rem(100px); }
 
-        @media (min-width: $breakpoint-m) {
-            width: rem(675px);
-            height: rem(750px);
+        @media (min-width: $breakpoint-s) {
+            width: rem(620px);
+            height: rem(632px);
             margin-top: 0;
 
-            .title { bottom: rem(20px); left: rem(325px); }
-            .subtitle { top: rem(100px); left: rem(70px); }
-            .flavor { top: rem(175px); left: rem(475px); width: rem(300px); }
+            .title { bottom: rem(-40px); left: rem(295px); }
+            .subtitle { top: rem(100px); left: rem(50px); }
+            .flavor { top: rem(175px); left: rem(425px); width: rem(200px); }
+        }
+
+        @media (min-width: $breakpoint-m) {
+            .flavor { width: rem(300px); }
         }
     }
 
@@ -37,7 +41,7 @@ body.error {
         background-size: contain;
         background-repeat: no-repeat;
         background-image: url("/img/not-found-error-mobile.svg");
-        @media (min-width: $breakpoint-m) {
+        @media (min-width: $breakpoint-s) {
             background-image: url("img/not-found-error.svg");
         }
     }
