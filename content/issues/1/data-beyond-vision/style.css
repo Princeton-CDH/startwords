@@ -171,3 +171,47 @@ article::after {
 @media (min-width: 1024px) {
     .icon-nav::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
 }
+
+/* section headers with icons */
+
+h2[id] {
+    position: relative;
+    display: block;
+    margin-left: 90px;
+    max-width: 210px;
+    line-height: 30px;
+    z-index: 1;
+}
+
+h2[id]::before {
+    content: '';
+    background: #fff;
+    z-index: -1;
+    position: absolute;
+    height: 56px;
+    top: calc(50% - 28px);
+    width: 50vw;
+    right: calc(100% + 25px);
+}
+
+h2[id]::after {
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 28px);
+    right: calc(100% + 25px);
+    height: 56px;
+    width: 56px;
+}
+
+#folding::after { background-image: url("/issues/1/data-beyond-vision/images/icon-folding.svg"); }
+#modeling::after { background-image: url("/issues/1/data-beyond-vision/images/icon-printing.svg"); }
+#weaving::after { background-image: url("/issues/1/data-beyond-vision/images/icon-weaving.svg"); }
+#stacking::after { background-image: url("/issues/1/data-beyond-vision/images/icon-stacking.svg"); }
+
+@media (min-width: 768px) {
+    h2[id]::before { height: 70px; top: calc(50% - 35px); }
+    h2[id]::after { height: 70px; width: 70px; top: calc(50% - 35px); }
+}
