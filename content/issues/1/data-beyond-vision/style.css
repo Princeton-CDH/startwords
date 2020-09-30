@@ -120,3 +120,54 @@ article::after {
         left: -40%;
     }
 }
+
+/* clickable icon navigation sections */
+
+.icon-nav {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    padding: 10px 0;
+    height: 85px;
+}
+
+.icon-nav::before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 100vw;
+    height: 100%;
+}
+
+.icon-nav .help {
+    position: absolute;
+    font-weight: 500;
+    font-size: 20px;
+    top: -45px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.icon-nav a {
+    z-index: 1;
+    height: 100%;
+}
+
+.icon-nav a img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .icon-nav { height: 100px; padding: 20px 10%; }
+    .icon-nav a { min-width: 88px; }
+    .icon-nav::before { left: calc((100vw - 10px) / 10 * -1 - 10px) }
+}
+
+@media (min-width: 1024px) {
+    .icon-nav::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
+}

@@ -70,10 +70,13 @@ Making use of other senses can provide a step towards greater accessibility. The
 
 We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.
 
+{{< wrap class="icon-nav" >}}
+<span class="help">Choose an object</span>
 [![view folding section](images/icon-folding.svg)](#folding)
 [![view modeling section](images/icon-printing.svg)](#modeling)
 [![view weaving section](images/icon-weaving.svg)](#weaving)
 [![view stacking section](images/icon-stacking.svg)](#stacking)
+{{</ wrap >}}
 
 Folding in the Non-Famous Members of the Shakespeare and Company Library {#folding}
 ------------------------------------------------------------------------
@@ -98,6 +101,14 @@ A pie chart can be used to present the same ratio of data conveyed in the physic
 Using cut, punched, or embossed paper would make the piece more tactile; instead of simply printing names, unique patterns could be added to represent data for individual members. In the future, we could generate unique folding patterns for individual library member activity and make them available via print-on-demand, which would enable viewers to become participants and turn folding into an act of recovery of the unknown library members.
 
 Nick Budak, Xinyi Li
+
+{{< wrap class="icon-nav" >}}
+<span class="help">Choose an object</span>
+[![view folding section](images/icon-folding.svg)](#folding)
+[![view modeling section](images/icon-printing.svg)](#modeling)
+[![view weaving section](images/icon-weaving.svg)](#weaving)
+[![view stacking section](images/icon-stacking.svg)](#stacking)
+{{</ wrap >}}
 
 Modeling Shakespeare and Company Library Membership {#modeling}
 ---------------------------------------------------
@@ -124,6 +135,14 @@ The current version uses different shapes for the two variables, but adding text
 
 Rebecca Sutton Koeser
 
+{{< wrap class="icon-nav" >}}
+<span class="help">Choose an object</span>
+[![view folding section](images/icon-folding.svg)](#folding)
+[![view modeling section](images/icon-printing.svg)](#modeling)
+[![view weaving section](images/icon-weaving.svg)](#weaving)
+[![view stacking section](images/icon-stacking.svg)](#stacking)
+{{</ wrap >}}
+
 Weaving Derrida’s references {#weaving}
 ----------------------------
 
@@ -144,8 +163,6 @@ Photo. [TBD. Whatever level of description (if any!) we want here.]
 
 This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie. The references have been cataloged and categorized by researchers for Derrida’s Margins. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving, and using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization. Textile work is often stereotyped as women’s work, so this piece also raises questions of gender, art versus craft, and high tech versus low tech.
 
-{{< figure src="images/icon-printing.svg" caption="SVG image for testing" >}}
-
 {{< deepzoom tile="https://iiif.princeton.edu/loris/iiif/2/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2/info.json" height="10em">}}
 
 ### Insights
@@ -157,6 +174,14 @@ This weaving represents the references in chapter one of Jacques Derrida’s de 
 Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.
 
 Rebecca Sutton Koeser, Gissoo Doroudian
+
+{{< wrap class="icon-nav" >}}
+<span class="help">Choose an object</span>
+[![view folding section](images/icon-folding.svg)](#folding)
+[![view modeling section](images/icon-printing.svg)](#modeling)
+[![view weaving section](images/icon-weaving.svg)](#weaving)
+[![view stacking section](images/icon-stacking.svg)](#stacking)
+{{</ wrap >}}
 
 Stacking New and Continuing Membership Activities of Shakespeare and Company Library {#stacking}
 ------------------------------------------------------------------------------------
