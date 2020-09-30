@@ -18,26 +18,24 @@
             </a>
         </div>
     </div>
-
     <section id="features" aria-label="features" class="inverted grid">
         <div class="wide-container">
             {{ range first 2 (.Pages.ByParam "order") }}
                 {{ .Render "summary" }}
             {{ end }}
-
-        {{ range after 2 (.Pages.ByParam "order") }}
-        <div class="article-short-summary">
-            <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ partial "authors" . }}
-            {{ range .Params.tags }}
-            <span class="tag">{{ . }}</span>
-            {{ end }}
+            <div class="snippets">
+                <h2>snippets</h2>
+                {{ range after 2 (.Pages.ByParam "order") }}
+                <div class="article-short-summary">
+                    <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    {{ partial "authors" . }}
+                    {{ range .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
         </div>
-        {{ end }}
-
     </section>
-
-
-
 </main>
 {{ end }}

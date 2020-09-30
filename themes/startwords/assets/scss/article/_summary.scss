@@ -143,11 +143,7 @@ $preview-height-xl: rem(250px);  // 1024px-
 
     clear: both;
     font-size: rem(16px);
-    padding-bottom: 0.75em;
-
-    &:first-of-type {
-        padding-top: 2rem;
-    }
+    margin-bottom: 0.75rem;
 
     a {
         font-weight: normal;
