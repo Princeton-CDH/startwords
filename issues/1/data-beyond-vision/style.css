@@ -110,7 +110,7 @@ article .sketchfab-embed-wrapper {
     #interlude .left { margin-left: 20%; }
     #interlude .right { margin-left: 50%; }
     #interlude .left::before { right: -18%; }
-    #interlude .right::before { left: -18%; }
+    #interlude .right::before { left: -15%; }
 }
 
 @media (min-width: 1024px) {
@@ -123,7 +123,7 @@ article .sketchfab-embed-wrapper {
     #interlude .right::before {
         width: 354px;
         height: 128px;
-        left: -40%;
+        left: -35%;
     }
 }
 
@@ -141,6 +141,7 @@ article .sketchfab-embed-wrapper {
 }
 
 .icon-nav::before {
+    z-index: 1;
     position: absolute;
     content: '';
     background: #fff;
@@ -204,6 +205,7 @@ h2[id]::after {
     content: '';
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
     z-index: 1;
     top: calc(50% - 28px);
