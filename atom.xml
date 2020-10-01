@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.67.1">Hugo</generator><title type="html">Startwords</title><link href="https://startwords.cdh.princeton.edu/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-10-01T21:02:58+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-01-01T00:00:00+00:00</published><updated>2020-10-01T17:02:27-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
+<p>Humanists continue to expand the range of texts they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider formats beyond the traditional, the presentation and publishing of more innovative and experimental works (such as installations and project demos) is still secondary or sidelined, where it exists at all.  What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms  “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Innovative work like this is carefully researched and theorized, and deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.</p>
+<p>Academic research has a long history of textual scholarly practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. The <a href="https://openhumanitiesdata.metajnl.com/">Journal of Open Humanities Data</a> and <a href="https://joss.theoj.org/">The Journal of Open Source Software</a> can
+both be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers”; but even these rely on transforming the content they review (data and software) into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, augmented reality experiences? Will all scholars need to become experts in all these modes, or can we find a way to be conversant, as with other important scholarly theories?</p>
+<div class="" id="interlude">
+<div class="left" id="">
+<p><strong>SEE</strong></p>
+<p>from a distance. Cold, commanding. Sense of mastery, but optical illusions deceive.</p>
+<p>Look in a mirror and see yourself seeing.</p>
+</div>
+<div class="right" id="">
+<p><strong>TOUCH</strong></p>
+<p>up close. Intimate, incomplete. Explore partial knowledge, enlighten slowly.</p>
+<p>Run fingers across skin and touch yourself touching.</p>
+</div>
+
+</div>
+<p>These are not artist statements because this is not art; Data Art is something else. This is representation, correspondence, laborious translation. Call them maker statements, perhaps. These are our attempts to communicate our goals and help you read and interpret these unfamiliar objects and be challenged by the potential of physicalizations.</p>
+<p>Data physicalization focuses on constructing data in physical form. It may be similar to other approaches in that it helps to understand and represent data, and in its use of the senses to communicate information, mainly through touch and sight. However, there are considerable distinctions among these approaches. What makes data physicalization distinct is that it encourages critical making by bridging the gap between creative physical and conceptual exploration. This matters because not only does it surfaces the amount of labor involved with data production and representation, and put it into different perspectives and dimensions; it can also creates an opportunity for viewers to become participants by taking part in the making of a piece using data.</p>
+<p>Data Physicalization attempts to defamiliarize our eyes from many of the two-dimensional data representations we have seen, and put us “in the middle of data”. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<figure>
+    
+    <img src="/issues/1/data-beyond-vision/images/conceptmap.svg" role="img" loading="lazy"
+    
+    alt="Concept map situating data physicalization in relation to other types of data representations and interpretations."><figcaption>
+        <p>Concept map situating data physicalization in relation to other types of data representations and interpretations.
+        <a href="https://doi.org/10.5281/zenodo.3261531">From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019.</a></p>
+        </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE.
+|
+| CAPTION: Concept map situating data physicalization in relation to other types of data representations and interpretations.
+| ATTRIBUTION: From the “Data Beyond Vision” poster presented at DH2019, Utrecht, July 2019.
+| LINK: <a href="https://doi.org/10.5281/zenodo.3261531">https://doi.org/10.5281/zenodo.3261531</a>
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div>
+<div class="sr-only" id="conceptmap-desc">
+Other approaches for data representation and interpretation include:</p>
+<ul>
+<li>Data Visualization, which focuses on storytelling by using graphical elements</li>
+<li>Data Edibilization, which focuses on experiencing data through food using edible materials</li>
+<li>Data Sonification, which focuses on auditory patterns by using sound</li>
+<li>Data Visceralization, which focuses on multiple sensory experiences by using multiple senses, making it the only approach that can incorporate all of the senses</li>
+<li>Data Art, which focuses on representing links between data and artistic creations by using expressive frameworks and raw data.</li>
+<li>Interpretive object, which focuses on revealing meanings and relationships via non-textual forms by using metaphors.</li>
+</ul>
+</div></p>
+<p>Making use of other senses can provide a step towards greater accessibility. The typical solution for making data visualization accessible to vision-impaired readers is to provide a table with the data underlying the chart or graph. This isn’t practical for large datasets, and it’s clearly not the same experience, or otherwise we would provide the tabular data to all users. Another approach is to provide an extended description of the insights gained from the chart. This is helpful, but pre-digesting the chart in this way doesn’t allow readers to view and interpret the patterns and draw their own conclusions.</p>
+<p>We invite you to participate in the labor of data work. Download models and instructions, use your hands to recreate the data physicalizations we developed, or use these as inspiration to make your own interpretive objects.</p>
+<div class="icon-nav" id="">
+<span class="help">Choose an object</span>
+<a href="#folding"><img src="images/icon-folding.svg" alt="view folding section"></a>
+<a href="#modeling"><img src="images/icon-printing.svg" alt="view modeling section"></a>
+<a href="#weaving"><img src="images/icon-weaving.svg" alt="view weaving section"></a>
+<a href="#stacking"><img src="images/icon-stacking.svg" alt="view stacking section"></a>
+</div>
+<h2 id="folding">Folding in the Non-Famous Members of the Shakespeare and Company Library</h2>
+
+<div class="sketchfab-embed-wrapper">
+    <iframe
+        id="sketchfab-9c96fadd27c34a11902f0a1281ea0ab4"
+        title="Shakespeare and Company membership origami on Sketchfab"
+        frameborder="0"
+        allow="autoplay; fullscreen; vr"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        loading="lazy"
+        src="https://sketchfab.com/models/9c96fadd27c34a11902f0a1281ea0ab4/embed?autospin=0.2&amp;autostart=0&amp;camera=0&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1">
+    </iframe>
+</div>
+
+<h3 id="goal">Goal</h3>
+<p>The Shakespeare and Company library is most often known by its famous members — the writers of the Lost Generation and their friends. We wanted to highlight the activity of the relatively unknown members — frequently women - who in fact represent a much larger portion of the library&rsquo;s day-to-day activity and thus arguably better represent it. The piece makes use of unit origami to create a larger, cohesive form from small folded units, mirroring the relationship between a single member and the greater bulk of the library.</p>
+<h3 id="description">Description</h3>
+<p>The physicalization contrasts the activity of the well-known members of the library (those linked by researchers to an entry in VIAF) with the activity of its relatively unknown members (no known authority records). Activity is represented by the total number of recorded events that would plausibly have brought members into the library - checking out, renewing, and returning books. By holding the physicalization in two different ways, the user can &ldquo;grasp&rdquo; two separate sets of data: the octahedron (non-famous members) and the cube (famous members). The ratio of the volumes of these two solids is equal to the ratio of the two datasets.</p>
+<h3 id="insights">Insights</h3>
+<p>A pie chart can be used to present the same ratio of data conveyed in the physicalization. &hellip;.</p>
+<h3 id="next-steps">Next Steps</h3>
+<p>Using cut, punched, or embossed paper would make the piece more tactile; instead of simply printing names, unique patterns could be added to represent data for individual members. In the future, we could generate unique folding patterns for individual library member activity and make them available via print-on-demand, which would enable viewers to become participants and turn folding into an act of recovery of the unknown library members.</p>
+<p>Nick Budak, Xinyi Li</p>
+<div class="icon-nav" id="">
+<span class="help">Choose an object</span>
+<a href="#folding"><img src="images/icon-folding.svg" alt="view folding section"></a>
+<a href="#modeling"><img src="images/icon-printing.svg" alt="view modeling section"></a>
+<a href="#weaving"><img src="images/icon-weaving.svg" alt="view weaving section"></a>
+<a href="#stacking"><img src="images/icon-stacking.svg" alt="view stacking section"></a>
+</div>
+<h2 id="modeling">Modeling Shakespeare and Company Library Membership</h2>
+
+<div class="sketchfab-embed-wrapper">
+    <iframe
+        id="sketchfab-89985d66f7244d87b7edbe5fd6266f0d"
+        title="Shakespeare and Company membership lollipop chart on Sketchfab"
+        frameborder="0"
+        allow="autoplay; fullscreen; vr"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        loading="lazy"
+        src="https://sketchfab.com/models/89985d66f7244d87b7edbe5fd6266f0d/embed?autospin=0.2&amp;autostart=0&amp;camera=0&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1">
+    </iframe>
+</div>
+
+<h3 id="goal-1">Goal</h3>
+<p>This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.</p>
+<h3 id="description-1">Description</h3>
+<p>This is a two variable, three dimensional lollipop chart showing the membership of the Shakespeare and Company library by month and year, from November 1919 when Sylvia Beach opened her bookstore to its official closing in 1942. Membership data is drawn from two different sources, both of which are incomplete: broad subscription information comes from <a href="https://shakespeareandco.princeton.edu/sources/logbooks/">logbooks</a> (although logbooks for 1930 and parts of 1931-32 are missing); detailed borrowing histories come from <a href="https://shakespeareandco.princeton.edu/sources/cards/">lending library cards</a> for a subset of members. The white represents the number of members with an active subscription in each month; the green<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> corresponds to the number of members with borrowing activity in each month. For any month where the value is zero, there is no lollipop. Representing the two different datasets as adjacent half lollipops exposes the discrepancies between the stories these sources tell us about the membership of the library without privileging either of them. The two lollipop charts are designed to be printed independently and then assembled, so that any 3D printer can be used; however, this is a prototype and the design needs further revision.</p>
+<h3 id="insights-1">Insights</h3>
+<p>The same data can be presented in a two-variable bar chart. Overall trends are easy to see, but seasonal trends are not as distinct. Changing perspective on the physical object allows focusing on yearly or monthly trends. Missing data in one variable is visible in both &hellip; [TBD]<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<h3 id="next-steps-1">Next Steps</h3>
+<p>The current version uses different shapes for the two variables, but adding textures would make the model even more tactile. Simple 3D labels with text and braille have been added for display alongside the piece, but perhaps they could incorporated directly on the model, and refined to provide a scale for the axes. The 3D printed objects could also be augmented with other media: lights or sound could convey intensity of borrowing activity, or threads connecting months to represent the number of subscription renewals and convey a sense of continuity. The Python code used to create these models could be generalized for reuse, and eventually made available as a Blender plugin.</p>
+<p>Rebecca Sutton Koeser</p>
+<div class="icon-nav" id="">
+<span class="help">Choose an object</span>
+<a href="#folding"><img src="images/icon-folding.svg" alt="view folding section"></a>
+<a href="#modeling"><img src="images/icon-printing.svg" alt="view modeling section"></a>
+<a href="#weaving"><img src="images/icon-weaving.svg" alt="view weaving section"></a>
+<a href="#stacking"><img src="images/icon-stacking.svg" alt="view stacking section"></a>
+</div>
+<h2 id="weaving">Weaving Derrida’s references</h2>
+<blockquote>
+<p>… we all of us, grave or light, get our thoughts entangled in metaphors…
+<cite> George Eliot, Middlemarch</cite></p>
+</blockquote>
+<h3 id="goal-2">Goal</h3>
+<p>With this piece, we aim to literalize the metaphor of weaving as writing by representing Derrida’s intertextuality as a woven tapestry. The textures of the yarn and woven fabric invite touch, but by showing an in-progress weaving with the pattern and instructions provided, we move viewers beyond seeing and touching to enable them to become participants in reconstructing the data. Showing the weaving in progress also foregrounds the labor of data work, since curation, collection, and visualization all take an enormous amount of work and skill, often from a range of different individuals.</p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    
+    <img src="/issues/1/data-beyond-vision/images/weaving_photo_hu922073d4c6e051c7a1adf75197e5e77d_1859719_1500x0_resize_q75_box.jpg" role="img" sizes="(max-width: 768px) 100%, 80%" loading="lazy" width="100%"
+    srcset='/issues/1/data-beyond-vision/images/weaving_photo_hu922073d4c6e051c7a1adf75197e5e77d_1859719_500x0_resize_q75_box.jpg 500w,
+    /issues/1/data-beyond-vision/images/weaving_photo_hu922073d4c6e051c7a1adf75197e5e77d_1859719_800x0_resize_q75_box.jpg 800w,
+    /issues/1/data-beyond-vision/images/weaving_photo_hu922073d4c6e051c7a1adf75197e5e77d_1859719_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/data-beyond-vision/images/weaving_photo_hu922073d4c6e051c7a1adf75197e5e77d_1859719_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/data-beyond-vision/images/weaving_photo_hu922073d4c6e051c7a1adf75197e5e77d_1859719_1800x0_resize_q75_box.jpg 1800w,
+    '
+    class="portrait"
+    
+    alt="Setting up the warp on the loom to start weaving."><figcaption>
+        <p>Setting up the warp on the loom to start weaving.</p>
+        </figcaption>
+</figure>
+<div class="txt-only" id="">
+Photo. [TBD. Whatever level of description (if any!) we want here.]
+</div>
+<h3 id="description-2">Description</h3>
+<p>This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie. The references have been cataloged and categorized by researchers for Derrida’s Margins. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving, and using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization. Textile work is often stereotyped as women’s work, so this piece also raises questions of gender, art versus craft, and high tech versus low tech.</p>
+<div class="deepzoom" id="openseadragon-11" style="height: 10em"></div>
+<script>
+    window.addEventListener("onload", function() {
+        OpenSeadragon({
+            id: "openseadragon-11",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            preserveViewport: true,
+            visibilityRatio:    1,
+            minZoomLevel:       1,
+            defaultZoomLevel:   1,
+            gestureSettingsMouse: { scrollToZoom: false },
+            tileSources: "https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json",
+        });
+    });
+</script>
+<h3 id="insights-2">Insights</h3>
+<p>[tbd]</p>
+<h3 id="next-steps-2">Next Steps</h3>
+<p>Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.</p>
+<p>Rebecca Sutton Koeser, Gissoo Doroudian</p>
+<div class="icon-nav" id="">
+<span class="help">Choose an object</span>
+<a href="#folding"><img src="images/icon-folding.svg" alt="view folding section"></a>
+<a href="#modeling"><img src="images/icon-printing.svg" alt="view modeling section"></a>
+<a href="#weaving"><img src="images/icon-weaving.svg" alt="view weaving section"></a>
+<a href="#stacking"><img src="images/icon-stacking.svg" alt="view stacking section"></a>
+</div>
+<h2 id="stacking">Stacking New and Continuing Membership Activities of Shakespeare and Company Library</h2>
+<h3 id="goal-3">Goal</h3>
+<p>This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old patrons, this piece enables multiple ways to compare and interpret the data from diverse perspectives. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the purpose of larger Shakespeare and Company Project— bringing archival data to life and facilitating rich interpretations<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup></p>
+<h3 id="description-3">Description</h3>
+<p>Shakespeare and Company Project library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationship made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active subscribers recorded in the logbooks; the depth depicts the number of members with borrowing activity, according to each member’s lending library card; the length along the timeline is based on the total number of borrowing events. Each of the variables is split into two parts: previous patrons who have renewed a subscription contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of subscribers, inspect the difference between active borrowers and subscribers, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new patrons, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity. Data was mapped to the shapes with Data Illustrator, semi-manual calculation and vector drawing.</p>
+<h3 id="insights-3">Insights</h3>
+<p>[tbd]</p>
+<h3 id="next-steps-3">Next Steps</h3>
+<p>The data encoding process could be automated by writing custom code, which could then be made available as a tool for presenting part-to-whole relationships. With the addition of time-based media such as projection mapping, this piece could convey more context and narratives around the lending library.</p>
+<p>Xinyi Li</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Staley, David. “On the ‘Maker Turn’ in the Humanities.” In <em>Making Things and Drawing Boundaries</em>, edited by Jentery Sayers, 32–41. Experiments in the Digital Humanities. University of Minnesota Press, 2017. <a href="https://doi.org/10.5749/j.ctt1pwt6wq.5">https://doi.org/10.5749/j.ctt1pwt6wq.5</a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Test short note. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>We use white and green in our physicalizations of data from the Shakespeare and Company Project because those are the two main colors used in the site design. <img src="images/scp_colors_dark.png" alt="color palette from Shakespeare and Company Project"> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Test note with image. <img src="images/icon-folding.svg" alt="view folding section"> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>Test really long note. Viewers can see the rise and fall of subscribers, inspect the difference between active borrowers and subscribers, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new patrons, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity. Data was mapped to the shapes with Data Illustrator, semi-manual calculation and vector drawing. <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>]]></content></entry><entry><title type="html">The Body As Data</title><link href="https://startwords.cdh.princeton.edu/issues/1/the-body-as-data/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/the-body-as-data/</id><author><name>Rebecca Munson</name></author><published>2020-01-01T00:00:00+00:00</published><updated>2020-10-01T17:02:27-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying either, not the dying of storybooks, but children who were terminally ill.</p>
+<p>I was twelve and fixated on books written by an author with the implausible name of Lurlene McDaniel. The first book I encountered was Six Months to Live, which chronicled the life a popular teenager in the wake of her diagnosis with leukemia. McDaniel’s characters didn’t just have cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. They were books about grief and communities formed in times of crisis.</p>
+<p>These books would have been perfect for a budding hypochondriac, or for a reader given to purple prose and melodrama, but I read them for the medical details, taking mental notes on how to diagnose various signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the protagonist, I occupied the position of the doctor. If this sounds like a perfect setup for attending medical school, it was. I didn’t, but that’s a different story. It turned out, though, that I’d would have to be the protagonist anyway.</p>
+<p>I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be mastitis. Immediately, I was launched into a world at once familiar and alien. I had grown up knowing many doctors and research scientists in the community at Washington University Medical School in St. Louis, largely because my father, an emeritus professor of philosophy, is a medical ethicist with an abiding interest in the practical applications of the questions his work investigates. I had worked in a research laboratory there myself from ages sixteen to twenty, studying—of all things—the genetics of breast cancer.</p>
+<p>Is it any wonder, then, that I explored my own treatment options as though I were the physician or researcher rather than the patient? The type of breast cancer I have (triple negative) is particularly rare and intractable and at the most advanced stage already, with metastasis to my lungs, liver, and bones, finding promising clinical trials would be my best option. Research science would save me, if only I could find the right study. My immediate family (all three of us academics) and circle of friends (ditto) kicked into research mode. We agreed that my best chance at coping with cancer as a chronic illness was to make sure I was research subject, to transform my body as rapidly as possible into the right kind of data: not a mortality statistic but an experimental space.</p>
+<p>As I made phone calls to oncologists and combed through clinicaltrials.gov I performed a distancing maneuver I had been practicing since I was reading Lurlene McDaniel; I wasn’t the patient, facing a foreshortened life, but the doctor who could change the situation. As a coping mechanism, and a way to regain some sense of agency, it was a pretty good one. It also, however, involved a fair bit of alienation from my own body, as I mentally dissected it, narrowing it down to cancerous focal points that became all that mattered. I lay repeatedly in CT and MRI scanners and held my breath through biopsies with only local anesthetics, willing myself out of the body I was at the same time trying so hard to save.</p>
+
+<blockquote class="pull left">
+    Cancer is <strong>invisible</strong>, and so are data.
+</blockquote>
+<p>Neither exists in the sense of being detectable, nameable, or identifiable until plucked from the surroundings and marked out with a significance determined by the observer. It is, as Johanna Drucker’s 2011 essay suggests, perhaps more accurate to think of data as capta to indicate their situatedness—that they are seized and, from the very moment of demarcation, cannot exist independent of an interpretive viewpoint: “Realist approaches depend above all upon an idea that phenomena are observer-independent and can be characterized as data. Data pass themselves off as mere descriptions of a priori conditions.”</p>
+<p>Drucker goes on to offer a humanist critique of data visualization that resists the assumption of “transparency and equivalence, as if the phenomenal world were self-evident and the apprehension of it a mere mechanical task.” The other essay in this issue has explored and critiqued data visualization from another perspective, challenging readers to “defamiliarize our eyes from many of the two-dimensional data representations we have seen” since  “there is something unique about turning data points into physical forms and placing them in spaces that trigger the mind to understand data in a distinctive way.” Both pieces trouble the notion of data as objective by reemphasizing the subjective position of the observer (or “experiencer”) and the phenomenological roots of data itself, refusing to conflate observation with that which is observed. Knowledge resists fixity, for it is as variable as the permutations of observer, method(s) of perception, and communication of experience. Additionally, both concern transforming abstractions—data—into concrete representations, in two and three dimensions. This piece takes the other side of that humanist coin, returning to the process by which an abstraction is generated from the concrete: the physical body.</p>
+<p>The phenomenon known as “cancer” is at its foundation a collection of data points. We are not able to call something “cancer,” to mark it out from its surroundings and imbue it with significance, until it becomes observable, capturable. Often this is in the most concretely physical way, since the mutated cells frequently aren’t detectable until they have begun to mass into a palpable tumor. There is quite literally a critical mass of cancer cells required before they can even be named, marked out into normal and alien, self and not-self. But cancer exists before it is named, just like data, and even at its moment of detection (capture) its fixity is illusory as its very nature is to grow and change, just like data. The moment of visibility for both is firmly situated in time, place, and the subject position of the interpreter.</p>
+<p>Nowhere may this phenomenon be more evident than in the transformation of the body into data through technologies—CT and MRI scans—that apparently render the solid mass of the body transparent, making invisible masses of cells detectable. Yet, as is evident from the chart below, [I want to do some kind of chart/visualization of my CT scan results to show how variable and inconsistent the data are..]  results from mechanical processes must still be interpreted by people so that, among other things, images can be translated into the more human-accessible format of measurements and numbers. The subjectivity of these interpretations means that scan results are just as much capta as data and just as much vulnerable to positional bias.</p>
+<p>Take, for example, the open question of how extensively cancer may have spread to my liver. Unusually, as a result of a years-long chronic fatigue for which I still have no good explanation, I was actually tested for cancer in 2016. The bone marrow biopsy showed no cause for concern and even though there was a lesion on my liver, measuring 29mm x 28 mm, the conclusion was that it was a benign growth called a hemangioma and that I did not have cancer. (I stand by this view, if for no other reason than that it would have gotten significantly worse in the intervening three years given how aggressive it has been.)</p>
+<p>My first CT after diagnosis in January 2019 showed the lesion to be 29mm x 35mm, a finding that the radiologist remarked might represent growth (and therefore metastasis) or might not, since a difference of 6mm could be caused by different positioning during the scan or different measurements by different doctors. The lesion continued to remain stable on my next CTs, but in March 2019 an additional spot was detected on the right inferior lobe, measuring 12mm. By June 2019 that spot was reported to be 28mm, confirming that my liver had been affected. By December 2019 it was smaller than 5mm. A third spot on the left lobe was recorded in 3 scans, showing up as 5mm August 2019, 4mm in September, and 3mm in November. By December 2019 it went unremarked. The large lesion from 2016, however, merely waxed and waned, never clocking in at more than 35mm or fewer than 27mm, easily numbers attributable to variation in imaging or interpretation of results.</p>
+<p>So was the original lesion a benign hemangioma, or the first sign of an otherwise invisible cancer hiding out in individual, unmassed (and therefore undetectable) cells? Did the 2016 scan produce bad data, or rather bad capta? Was the interpretation of the image biased by the fact that I was young (31) and, aside from mysterious, debilitating fatigue, healthy? Should I have acted differently? Should my doctors? The ramifications of these questions for my diagnosis and emotional response to it are profound: a cancer that had been present since 2016 would look relatively less aggressive compared to one that was new as of 2019; being misdiagnosed and living with cancer for three years would compound my fear that it was preventable. There is no way to know, though the probability is strong that it was and remains benign. But that uncertainty is the constant condition of the body as data. Any promise of transparency or intelligibility must be counterbalanced by the knowledge that all data have a viewpoint because they have an observer.</p>
+<hr>
+<p>As of writing this essay, it’s been 14 months since my diagnosis. I have tried three different treatments, two of which were clinical trials, one of which I am still enrolled in. It is about a week before my thirty-sixth birthday and everyone is sheltering in place because of the coronavirus. I have lived more than a year now tolerating the same kind of existential uncertainty and fear of an alien invader in the body that the world as a whole is now experiencing. I have played my own doctor, watching my body for signs that a treatment is working, or that it is not, in much the same way. I have tried to anticipate what will happen if I become immunocompromised (as I currently am not, but may become) and given up many of the pleasures that made my life better before (traveling, going out with friends, dating) in the name of my health. I have offered my body up as data to research scientists with the goal of furthering not just my own treatment but the survival prospects for future patients.</p>
+<p>I did not know that throughout this year I was in training for a time when we would all of necessity be regarded as bodies with the potential to produce valuable data about the spread and effects of COVID-19. We are starved for numbers, for data on infections and recoveries and for statistical models that may relieve us the uncertainty we feel about the future. I cannot provide that. But I can tell you to be cautious readers of data and statistics that speak with any pretense to authority right now, even though I crave them too. Cancer is invisible and so are viruses. This particular virus can inhabit the body but produce no symptom and live for days on surfaces. It may be in us. It may be in those we love. We are in the middle of the data. We are the data.</p>
+<p>Susan Sontag wrote in Illness as Metaphor that “Everyone who is born holds dual citizenship, in the kingdom of the well and in the kingdom of the sick. Although we all prefer to use only the good passport, sooner or later each of us is obliged, at least for a spell, to identify ourselves as citizens of that other place” (3). A pandemic transcends borders but does not do away with the kingdom of the sick. As someone already resident, I can say to you welcome. The hardest thing about being here is the grief for what we have lost, including a sense of normalcy. The best thing, though, is what we may find: community in a time of crisis.</p>]]></content></entry><entry><title type="html">About</title><link href="https://startwords.cdh.princeton.edu/about/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/about/</id><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-01T17:02:27-04:00</updated><content type="html"><![CDATA[<p><em>Startwords</em> is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, <em>Startwords</em> is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.</p>
+<p>Each issue features two articles that speak to a common theme, feature, or concern. “Snippets” invite readers to engage with the digital evidence underlying those articles. Issues will be released one to three times a year, when we have something to share or say.</p>
+<p><em>Startwords</em> is built with the Hugo static site generator using a custom-made theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the <a href="https://github.com/Princeton-CDH/startwords">website code</a> under an Apache 2.0 license.</p>
+<div class="masthead" id="">
+<h2 id="masthead">Masthead</h2>
+<p><strong>Editor</strong> Grant Wythoff</p>
+<p><strong>UX Designer</strong> Gissoo Doroudian</p>
+<p><strong>Technical</strong></p>
+<ul>
+<li>Nick Budak</li>
+<li>Rebecca Sutton Koeser</li>
+<li>Grant Wythoff</li>
+</ul>
+<p><strong>Board of Advisors</strong></p>
+<ul>
+<li>Natalia Ermolaev</li>
+<li>Zoe LeBlanc</li>
+<li>Meredith Martin</li>
+<li>Rebecca Munson</li>
+</ul>
+
+</div>
+]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-01T17:02:27-04:00</updated><content type="html"><![CDATA[<p>Create your own kirigami model of Shakespeare and Company lending library membership activities,
+as described in <a href="/issues/1/data-beyond-vision/#stacking">Data Beyond Vision</a>.</p>
+<h2 id="tools">Tools</h2>
+<ul>
+<li>Printer</li>
+<li>X-acto knife or other blade</li>
+<li>Bone folder or credit card</li>
+<li>Cutting matt or old magazines</li>
+</ul>
+<h2 id="supplies">Supplies</h2>
+<ul>
+<li>4 Sheets of card stock paper (letter size is recommended, larger also works)</li>
+<li>Double-sided tape (optional)</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Download the PDF</li>
+<li>Print on cardstock paper at actual size</li>
+<li>Cut along the vertical solid lines</li>
+<li>Fold along the horizontal dotted lines. Follow the legend for mountain and valley folds.</li>
+<li>Set up on a table or shelf</li>
+<li>For best results, set on a table against a wall and use double-stick tape to fix to table and wall surface (optional)</li>
+</ol>
+<p><strong>Yield:</strong>  kirigami model of Shakespeare and Company lending library membership activities</p>
+]]></content></entry><entry><title type="html">Weaving as interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-01T17:02:27-04:00</updated><content type="html"><![CDATA[<html>
+<head>
+<title>deepzoom experiment</title>
+<script src=https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>
+<!--<link rel="stylesheet" href-"https://derridas-margins.princeton.edu/static/CACHE/css/output.fd22c024c95d.css" type="text/css"/> -->
+<style>
+    body {
+        background-color: black;
+    }
+
+    .highlight {
+        /*border: 3px solid yellow;*/
+    }
+    .highlight:hover {
+        border: 3px solid yellow;
+    }
+
+    .pnum {
+        text-decoration: none;
+        color: white;
+        font-size: 22pt;
+    }
+/*    .pnum::after {
+        content: '1';
+        font-size: 22pt;
+        display: block;
+        color: white;
+    }
+*/
+
+    .reference {
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        bottom: 0;
+        width: 450px;
+        height: 350px;
+        background-color: white;
+        z-index: 3;
+        opacity: 0;
+
+       -webkit-transition: opacity 1.5s ease-in-out;
+       -moz-transition: opacity 1.5s ease-in-out;
+       -ms-transition: opacity 1.5s ease-in-out;
+       -o-transition: opacity 1.5s ease-in-out;
+    }
+
+    .reference.loading {
+        opacity: 0.5;
+    }
+
+    .reference.show {
+        opacity: 1;
+    }
+
+</style>
+</head>
+<body>
+<div class="reference"></div>
+
+<div class="deepzoom" id="openseadragon-2" style="height:90vh"></div>
+
+<!-- page numbers to overlay -->
+<!-- TODO: generate these and the overlays with code -->
+<div class="pages">
+    <span id="p1">1</span>
+    <span id="p2">2</span>
+    <span id="p3">3</span>
+    <span id="p4">4</span>
+    <span id="p5">5</span>
+    <span id="p6">6</span>
+</div>
+
+
+<!-- needed to make this work
+
+- resolve CORS issue with derrida's site references
+- styles for reference cards within this site
+- touch events (hide reference card)
+
+- may need to adjust zoom / pan per device (mobile)
+
+- mobile style for reference card overlay
+
+-->
+
+
+<script>
+
+var viewer = OpenSeadragon({
+    id:"openseadragon-2",
+    prefixUrl:"https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+    preserveViewport: true,
+    visibilityRatio: 1,
+    // disallow zoom in/out
+    minZoomLevel: 5,
+    maxZoomLevel: 5,
+    defaultZoomLevel: 5,
+    // disable vertical panning
+    panVertical: false,
+    showNavigationControl: false,
+
+    tileSources:"https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json",
+    overlays: [
+
+        {
+            // page1 label
+            id: 'p1',
+            px: 2600,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+
+        {
+            id: 'p2',
+            px: 3793,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p3',
+            px: 4840,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p4',
+            px: 5862,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p5',
+            px: 6210,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+        {
+            id: 'p6',
+            px: 6570,
+            py: 650,
+            width: 50,
+            height: 50,
+            className: 'pnum'
+        },
+
+        {
+            // epigram p15
+            id: 'ref15a',
+            px: 2560,
+            py: 848,
+            width: 352,
+            height: 1776,
+            className: 'highlight'
+        },
+        {
+            // footnote 1 p16
+            id: 'ref16a',
+            px: 4359,
+            py: 810,
+            width: 141,
+            height: 1794,
+            className: 'highlight'
+        },
+        {
+            // footnote 2 p16
+            id: 'ref16b',
+            px: 4500,
+            py: 810,
+            width: 141,
+            height: 1794,
+            className: 'highlight'
+        },
+        {
+            // footnote 3 p16
+            id: 'ref16c',
+            px: 4642,
+            py: 810,
+            width: 141,
+            height: 1794,
+            className: 'highlight'
+        },
+    ],
+})
+
+
+viewer.addHandler("open", function () {
+    console.log('opened');
+    // start with left part of the weaving showing
+    viewer.viewport.panTo(new OpenSeadragon.Point(0.17, 0.09), true)
+
+    // equivalent event for touch?
+    const referenceOverlays = document.querySelectorAll(".highlight");
+
+    function showReference() {
+        document.querySelector('.reference').classList.add('loading');
+
+        console.log(this.getAttribute('id'));
+        // var refID = references[this.getAttribute('id')];
+        var refID = this.getAttribute('id').slice(3);
+        var refUrl = '/references/de-la-grammatologie/' + refID + '/';
+        // console.log(refUrl);
+        console.log('https://derridas-margins.princeton.edu' + refUrl)
+        // console.log('https://test-derrida.cdh.princeton.edu' + refUrl);
+        // var xhr = new XMLHttpRequest();
+        // xhr.onload = function() {
+        //   console.log(this.responseXML.title);
+        // }
+        // xhr.open("GET", 'https://derridas-margins.princeton.edu' + refUrl);
+        // xhr.responseType = "document";
+        // xhr.send();
+
+        fetch('https://derridas-margins.princeton.edu' + refUrl, {
+        // fetch('https://test-derrida.cdh.princeton.edu' + refUrl, {
+        // fetch('http://192.168.2.10:8000' + refUrl, {
+            // headers: {
+                // 'X-Requested-With': 'XMLHttpRequest',
+            // }
+        })
+          // .then(response => console.log(response))
+          .then(response => response.text())
+          .then(function(text) {
+            // console.log(data);
+            // console.log(document.querySelector('.reference'));
+            const ref = document.querySelector('.reference');
+            console.log(text);
+            ref.innerHTML = text;
+            ref.classList.remove('loading');
+            ref.classList.add('show');
+          });
+        }
+
+    function hidereference() {
+        const ref = document.querySelector('.reference');
+        ref.innerHTML = '';
+        ref.classList.remove('show');
+    }
+
+    for (const refOverlay of referenceOverlays) {
+        refOverlay.addEventListener('touchstart', showReference)
+        refOverlay.addEventListener('touchcancel', hidereference);
+
+        refOverlay.addEventListener('mouseover', showReference)
+        refOverlay.addEventListener('mouseout', hidereference);
+
+    }
+
+});
+
+// viewer.addEventListener('open', function(event) {
+    // console.log('binding hover listener for highlight');
+// });
+
+</script>
+</body>
+</html>]]></content></entry></feed>
