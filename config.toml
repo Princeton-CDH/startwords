@@ -5,6 +5,7 @@ copyright = "This work is licensed under a Creative Commons Attribution 4.0 Inte
 enableEmoji = true
 googleAnalytics = "UA-87887700-8"
 enableRobotsTXT = true
+# enable git info to get last modified times based on git commits
 enableGitInfo = true
 
 # disable taxonomies until we are ready to use them and have templates
