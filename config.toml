@@ -22,6 +22,9 @@ disableKinds = ["taxonomy", "term", "tag"]
     mediaType = "text/plain"
 
 [outputs]
+  home = ["HTML", "RSS", "ATOM"]
+  section = ["HTML", "RSS", "ATOM"]
+#  taxonomy = ["HTML", "RSS", "ATOM"]
   page = ["HTML", "TXT"]
 
 [menu]
@@ -29,6 +32,10 @@ disableKinds = ["taxonomy", "term", "tag"]
     name = "About"
     url = "about/"
     weight = 20
+
+[Author]
+  name = "Center for Digital Humanities at Princeton"
+  email = "cdh-info@princeton.edu"
 
 [params]
   dateform        = "January 2, 2006"
