@@ -12,7 +12,7 @@ article::after {
     background-image: url('/issues/1/data-beyond-vision/images/DerridaScarf.png');
     background-position-y: top;
     background-position-x: right;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 article #interlude,
