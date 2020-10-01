@@ -47,10 +47,12 @@ body.issue {
 
         h2 {
             font-weight: 300;
-            font-size: rem(16px);
+            font-size: rem(18px);
             font-variant: small-caps;
+            letter-spacing: 0.25rem;
             margin-top: rem(30px);
             margin-bottom: rem(10px);
+            @media (min-width: $breakpoint-m) { font-size: rem(20px); }
         }
     }
 

@@ -147,6 +147,7 @@ $preview-height-xl: rem(250px);  // 1024px-
 
     a {
         font-weight: normal;
+        font-style: italic;
     }
 
     .tag {
@@ -163,6 +164,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         padding: 0;
         margin: 0;
         li, address { display: inline; }
+        address { font-style: normal; }
         address::after { content: ', '; }
         li:last-child address::after { content: ''; }
     }
