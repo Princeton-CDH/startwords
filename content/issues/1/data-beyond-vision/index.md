@@ -25,18 +25,29 @@ both be seen as steps in this direction: they provide venues for the review and 
 
 {{< wrap id="interlude" >}}
 {{< wrap class="left" >}}
-**SEE**
+**SEE** 
 
-from a distance. Cold, commanding. Sense of mastery, but optical illusions deceive.
+from a distance.  
+Cold, commanding.  
+Sense of mastery,  
+but optical illusions deceive.
 
-Look in a mirror and see yourself seeing.
+
+Look in a mirror.  
+and see yourself  
+seeing.  
 {{</ wrap >}}
 {{< wrap class="right" >}}
-**TOUCH**
+**TOUCH**  
 
-up close. Intimate, incomplete. Explore partial knowledge, enlighten slowly.
+up close.  
+Intimate, incomplete.  
+Explore partial knowledge,  
+enlighten slowly.  
 
-Run fingers across skin and touch yourself touching.
+Run fingers across skin  
+and touch yourself  
+touching.
 {{</ wrap >}}
 {{</ wrap >}}
 
