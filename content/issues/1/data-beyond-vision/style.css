@@ -13,6 +13,7 @@ article::after {
     background-position-y: top;
     background-position-x: right;
     background-repeat: repeat-y;
+    pointer-events: none;
 }
 
 article #interlude,
