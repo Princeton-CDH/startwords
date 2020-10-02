@@ -67,6 +67,7 @@ body.article .footnotes {
         /* active footnote */
         &:target {
             bottom: 0;
+            z-index: 1;
 
             /* full width up to 414px; limit width on larger screens  */
             @media (min-width: $breakpoint-fullwidth-notes + 1) {

@@ -2,7 +2,7 @@
 
 article { position: relative; }
 
-article::after {
+article::before {
     content: "";
     position: absolute;
     top: 200px;
