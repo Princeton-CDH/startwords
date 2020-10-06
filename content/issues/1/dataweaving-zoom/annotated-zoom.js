@@ -1,18 +1,23 @@
+
+
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
 
     var viewer = OpenSeadragon({
-        id:"openseadragon-2",
+        id:"dataweaving-zoom",
         prefixUrl:"https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
         preserveViewport: true,
         visibilityRatio: 1,
         // disallow zoom in/out
-        minZoomLevel: 5,
-        maxZoomLevel: 5,
-        defaultZoomLevel: 5,
+        minZoomLevel: 4,
+        maxZoomLevel: 4,
+        defaultZoomLevel: 4,
         // disable vertical panning
         panVertical: false,
         showNavigationControl: false,
+        // show nav overview in top left
+        showNavigator:  true,
+        navigatorPosition:   "TOP_LEFT",
         tileSources:"https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json",
         overlays: [
         {
@@ -77,7 +82,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         },
         {
             // footnote 1 p16
-            id: 'ref16a',
+            id: 'fnref:2',
             px: 4359,
             py: 810,
             width: 141,
@@ -86,7 +91,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         },
         {
             // footnote 2 p16
-            id: 'ref16b',
+            id: 'fnref:3',
             px: 4500,
             py: 810,
             width: 141,
@@ -117,21 +122,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
             location.hash = '#' + this.getAttribute('id').replace('ref', '');
         }
 
-/*        function hidereference() {
-            const ref = document.querySelector('.reference');
-            ref.innerHTML = '';
-            ref.classList.remove('show');
-        }*/
-
         for (const refOverlay of referenceOverlays) {
             refOverlay.addEventListener('touchstart', showReference)
-            // refOverlay.addEventListener('touchcancel', hidereference);
-
            refOverlay.addEventListener('click', showReference)
-  //          refOverlay.addEventListener('mouseout', hidereference);
-
         }
 
+    });
+
+    // close any open contextual notes when panning through the image
+    viewer.addHandler("pan", function () {
+        location.hash = '#-';
     });
 
 });
