@@ -1,12 +1,47 @@
-body {
-    background-color: black;
+
+body.article .deepzoom {
+    width: 100vw;
+    height: 230px;
+
+/*    @media (min-width: 768px) {
+        height: 485px;
+    }
+    @media (min-width: 1024px) {*/
+        height: 725px;
+/*    }*/
+
 }
 
 .highlight {
-    /*border: 3px solid yellow;*/
+    border: 3px solid #CE2949;
+    opacity: 0.5;
 }
 .highlight:hover {
-    border: 3px solid yellow;
+    opacity: 1;
+}
+
+
+body.article .footnotes {
+    /* add more space before footnotes */
+    margin-top: 15rem;
+}
+
+/* customize footnote display */
+.footnotes li::before {
+    display: none;  /* hide footnote number */
+}
+/* display reference type in its place */
+.footnotes li .reftype {
+    position: absolute;
+    right: calc(22.5% - 13px);
+    color: #4C2A85;
+    top: 2.77rem;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: rem(18px);
+}
+.footnotes li.flip .reftype {
+    left: calc(22.5% - 13px);
+    right: auto;
 }
 
 .pnum {
