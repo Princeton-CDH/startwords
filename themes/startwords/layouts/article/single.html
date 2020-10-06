@@ -42,7 +42,7 @@
 
 {{ define "main" }}
 <main>
-    <article class="{{ .Params.article_class }}">
+    <article {{ with .Params.article_class }} class="{{ . }}" {{ end }}>
         <div class="grid">
             <header>
                 <p class="number"><a href="{{ .Parent.RelPermalink }}">Issue {{ .Parent.Params.number }}</a></p>
