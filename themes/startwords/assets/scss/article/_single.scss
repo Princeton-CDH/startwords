@@ -1,38 +1,38 @@
 /* single article page styles */
 
 body.article {
-    
-    
+
+
     article {
         margin-top: rem(60px);
         margin-bottom: rem(100px);
-        
+
         @media (min-width: $breakpoint-s) {
             margin-bottom: 0;
         }
-        
+
         // header (summary)
         header {
             margin-bottom: rem(30px);
             @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
             @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
-            
+
             p { margin: 0; }
-            
+
             .number {
                 a, a:visited {
                     color: $dark-grey;
                     text-decoration: none;
                 }
             }
-            
+
             .theme {
                 font-size: rem(18px);
                 font-weight: 900;
             }
-            
+
             .doi { display: inline; clear: both; }
-            
+
             // sequential author display with commas
             .authors {
                 font-weight: 400;
@@ -40,12 +40,12 @@ body.article {
                 address::after { content: ', '; }
                 li:last-child address::after { content: ''; }
             }
-            
+
             .formats { font-weight: 400; margin-top: .5rem; }
-            
+
             .formats a { margin-right: rem(5px); }
         }
-        
+
         // body text
         p {
             overflow: hidden;    // underlines shouldn't go outside margins
@@ -55,41 +55,41 @@ body.article {
             line-height: rem(27px);
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
         }
-        
+
         // lists
         ol, ul {
             font-weight: 300;
             line-height: rem(27px);
         }
-        
+
         // block quotes
         blockquote {
             margin: rem(30px) 0;
-            
+
             p {
                 margin: 0;
                 font-style: italic;
                 font-weight: 400;
             }
-            
+
             cite {
                 display: block;
                 margin-top: rem(5px);
                 font-style: normal;
                 font-weight: 300;
-                
+
                 &::before {
                     content: ' – '
                 }
             }
         }
-        
+
         // links
         a {
             @include highlight-focus;
             &.footnote-ref { outline-offset: rem(-10px); }
         }
-        
+
         // flourished section break
         hr {
             background-image: url("/img/logos/startwords.svg");
@@ -100,7 +100,7 @@ body.article {
             background-size: contain;
             background-position: center;
         }
-        
+
         // pull quotes
         blockquote.pull {
             margin: 0;
@@ -114,30 +114,30 @@ body.article {
             font-weight: 400;
             font-style: italic;
             color: $purple;
-            
+
             @media (min-width: $breakpoint-s) { width: 50%; }
             @media (min-width: $breakpoint-m) { font-size: rem(24px); }
-            
+
             &.left {
                 float: left;
                 margin-right: rem(10px);
             }
-            
+
             &.right {
                 float: right;
                 margin-left: rem(10px);
             }
-            
+
             &::before, &::after {
                 position: absolute;
             }
-            
+
             &::before {
                 top: rem(10px);
                 left: rem(10px);
                 content: url('/img/pullquote-start.svg');
             }
-            
+
             &::after {
                 bottom: rem(10px);
                 right: rem(10px);
@@ -145,11 +145,11 @@ body.article {
             }
         }
     }
-    
+
     // embedded content
     .sketchfab-embed-wrapper {
         margin: rem(30px) 0;
-        
+
         iframe {
             width: 100%;
             height: $frame-height;
@@ -160,7 +160,7 @@ body.article {
             max-width: 100%;
         }
     }
-    
+
     .deepzoom {
         width: 100%;
     }
@@ -182,13 +182,8 @@ body.article {
 }
 
 
-/* preliminary styles for dataweaving experiment */
-article.fullscreen {
-    .text-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-    }
+.full-width {
+    width: 100vw;
+    margin-left: (-$gutter);
+    grid-column: full;
 }
