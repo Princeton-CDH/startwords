@@ -1,0 +1,38 @@
+.darkmode {
+    main {
+        background-color: $dark-grey;
+        color: $off-white;
+
+        a, a:visited {
+            color: $off-white;
+        }
+    }
+
+    footer {
+        background-color: $dark-grey;
+    }
+
+    article {
+        .theme {
+            color: $light-purple;
+        }
+    }
+
+
+
+}
+
+body.article.darkmode .footnotes li {
+    background: $light-grey;
+    color: $dark-grey;
+
+    &.endnotes {
+        background-color: $dark-grey;
+        color: $off-white;
+    }
+}
+
+
+.darkmode article header .number a, a:visited {
+    color: $off-white;
+}
