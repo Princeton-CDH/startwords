@@ -124,8 +124,8 @@ body.article .footnotes {
         }
 
         a {
-            @include highlight-focus;
-            color: $light-purple;
+             @include highlight-focus;
+             color: $light-purple;
             &:focus { outline-color: $off-white; }
         }
 
@@ -142,6 +142,22 @@ body.article .footnotes {
             background-image: url(/img/icons/close-button-contextual-note.svg);
             background-size: contain;
             z-index: 5;  /* ensure clickable on safari */
+
+            /* override focus styles and use border for round outline */
+            &:focus {
+                outline: none;
+            }
+            &:focus::before {
+                content: " ";
+                display: block;
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
+                position: absolute;
+                left: -3px;
+                top: -3px;
+                border-radius: 15px;
+                border: 1px dashed $off-white;
+            }
         }
 
         /* mirror image version for notes on the left side of the page */
@@ -207,6 +223,8 @@ body.article .footnotes {
                     top: auto;
                     right: auto;
                     left: auto;
+
+                    @include highlight-focus;
                 }
 
                 p {
