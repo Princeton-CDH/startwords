@@ -145,6 +145,8 @@ $preview-height-xl: rem(250px);  // 1024px-
     font-size: rem(16px);
     margin-bottom: 0.75rem;
 
+    @media (min-width: $breakpoint-s) { font-size: rem(18px); }
+
     a {
         font-weight: normal;
         font-style: italic;
