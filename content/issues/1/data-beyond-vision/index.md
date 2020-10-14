@@ -7,7 +7,7 @@ authors:
   - Gissoo Doroudian
   - Nick Budak
   - Xinyi Li
-date: 2020-01-01
+date: 2020-10-01
 doi: 10.5281/zenodo.3713671
 pdf: https://cdh.princeton.edu/media/uploads/documents/grad_fellows_call_for_spring_21.pdf
 images: ["issues/1/data-beyond-vision/images/dbv-social.jpg"]
@@ -25,7 +25,7 @@ both be seen as steps in this direction: they provide venues for the review and 
 
 {{< wrap id="interlude" >}}
 {{< wrap class="left" >}}
-**SEE** 
+**SEE**
 
 from a distance.  
 Cold, commanding.  
