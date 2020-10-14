@@ -10,7 +10,7 @@ authors:
 date: 2020-01-01
 doi: 10.5281/zenodo.3713671
 pdf: https://cdh.princeton.edu/media/uploads/documents/grad_fellows_call_for_spring_21.pdf
-images: ["issues/1/data-beyond-vision/images/installation-octahedron.jpg"]
+images: ["issues/1/data-beyond-vision/images/dbv-social.jpg"]
 ---
 
 
