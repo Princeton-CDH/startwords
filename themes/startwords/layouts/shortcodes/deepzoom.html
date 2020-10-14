@@ -3,7 +3,7 @@
 {{- $height := default "30em" (.Get "height") -}}
 <div class="deepzoom" id="{{ $zoom_id }}" style="height: {{ $height }}"></div>
 <script>
-    window.addEventListener("onload", function() {
+    window.addEventListener("DOMContentLoaded", function() {
         OpenSeadragon({
             id: "{{ $zoom_id }}",
             prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
