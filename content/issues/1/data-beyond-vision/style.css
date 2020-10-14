@@ -188,6 +188,11 @@ article .sketchfab-embed-wrapper {
     .icon-nav::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
 }
 
+@media print {
+    .icon-nav { padding: 70px 0 50px; margin: 0; }
+    .icon-nav .help { font-size: 12px; top: 15px; }
+}
+
 /* section headers with icons */
 
 h2:not([id=acknowledgements]) {
@@ -232,4 +237,8 @@ h2:not([id=acknowledgements])::after {
 @media (min-width: 768px) {
     h2[id]::before { height: 70px; top: calc(50% - 35px); }
     h2[id]::after { height: 70px; width: 70px; top: calc(50% - 35px); }
+}
+
+@media print {
+    h2[id] { line-height: 21px; margin-bottom: 40px; }
 }

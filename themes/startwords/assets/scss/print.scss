@@ -107,6 +107,7 @@ body {
             }
         }
 
+        figcaption { font-size: 12px; }
     }
 }
 
@@ -185,6 +186,7 @@ body.article .footnotes {
     hr {
         display: none;
     }
+
     ol {
         list-style: decimal inside;
 
@@ -214,6 +216,8 @@ body.article .footnotes {
             }
         }
     }
+
+    &.endnotes ol li { background: white; }
 }
 
 
@@ -228,6 +232,7 @@ a.footnote-ref {
     padding: 0;
     margin: 0;
     z-index: 5;
+    font-weight: 400;
 
     &::after {
         content: '';
