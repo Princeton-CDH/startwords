@@ -124,8 +124,8 @@ body.article .footnotes {
         }
 
         a {
-             @include highlight-focus;
-             color: $light-purple;
+            @include highlight-focus;
+            color: $light-purple;
             &:focus { outline-color: $off-white; }
         }
 
