@@ -23,7 +23,7 @@
 <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
     {{ if $raster }}
-    <img src="{{ (.Scratch.Get "large").RelPermalink }}" role="img" sizes="(max-width: 768px) 100%, 80%" loading="lazy" width="100%"
+    <img src="{{ (.Scratch.Get "large").RelPermalink }}" role="img" sizes="(max-width: 768px) 100%, 80%" loading="lazy" 
     srcset='{{ (.Scratch.Get "tiny").RelPermalink }} 500w,
     {{ (.Scratch.Get "small").RelPermalink }} 800w,
     {{ (.Scratch.Get "medium").RelPermalink }} 1200w,
