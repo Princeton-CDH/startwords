@@ -23,6 +23,8 @@ article .sketchfab-embed-wrapper {
     z-index: 1;
 }
 
+@media print { article::before { background: none; } }
+
 /* purple "interlude" section with eye/hand graphics */
 
 #interlude {
@@ -125,6 +127,13 @@ article .sketchfab-embed-wrapper {
         height: 128px;
         left: -35%;
     }
+}
+
+@media print {
+    #interlude::before { background: none; }
+    #interlude .left, #interlude .right { color: #4C2A85; }
+    #interlude .left::before { right: -21px; }
+    #interlude .right::before { left: 0; }
 }
 
 /* clickable icon navigation sections */
