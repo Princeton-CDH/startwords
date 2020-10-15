@@ -1,5 +1,6 @@
 ---
 type: article
+slug: 'their-data-ourselves'
 title: |
   Their Data, Ourselves: Illness as Information
 order: 2
@@ -8,7 +9,7 @@ authors:
 date: 2020-10-01
 doi: 10.5281/zenodo.3713678
 pdf: startwords-1-their-data-ourselves.pdf
-images: ["issues/1/their-data-ourselves-illness-as-information/images/tdo-social.png"]
+images: ["issues/1/their-data-ourselves/images/tdo-social.png"]
 ---
 
 When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.<!--more-->
