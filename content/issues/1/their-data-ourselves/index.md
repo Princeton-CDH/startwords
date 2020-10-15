@@ -8,11 +8,10 @@ authors:
 date: 2020-10-01
 doi: 10.5281/zenodo.3713678
 pdf: startwords-1-their-data-ourselves.pdf
+images: ["issues/1/their-data-ourselves/images/tdo-social.png"]
 ---
 
-When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.
-
-<!--more-->
+When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.<!--more-->
 
 I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was *Six Months to Live*, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. McDaniel's characters didn't just have cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. They were books about grief and communities formed through crisis.
 
