@@ -1,9 +1,9 @@
 /// todos
-// - disable scroll on contextual note
+// - disable scroll when positioning contextual note
 // - position contextual note better vertically
-// - disable back link in notes? (doesn't work now / hard to make work)
-// - grab images for texts that have them, style images
-
+// - disable back link in notes? (doesn't work now / not sure how to make work)
+// - fix or remove broken images
+// - link to books on derrida's margins site?
 
 
 window.addEventListener('DOMContentLoaded', (event) => {

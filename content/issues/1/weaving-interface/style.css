@@ -47,8 +47,10 @@ body.article .footnotes {
 }
 
 
-body.article .footnotes li p img {
-    width: 250px;
+body.article .footnotes li img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
 }
 
 /* customize footnote display */
