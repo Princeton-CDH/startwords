@@ -1,0 +1,369 @@
+{
+  "overlays": [
+    {
+      "px": 2566,
+      "py": 739,
+      "width": 361,
+      "height": 1895,
+      "className": "highlight",
+      "id": "fnref:1"
+    },
+    {
+      "px": 4362,
+      "py": 753,
+      "width": 169,
+      "height": 1827,
+      "className": "highlight",
+      "id": "fnref:2"
+    },
+    {
+      "px": 4526,
+      "py": 752,
+      "width": 153,
+      "height": 1894,
+      "className": "highlight",
+      "id": "fnref:3"
+    },
+    {
+      "px": 4678,
+      "py": 764,
+      "width": 124,
+      "height": 1833,
+      "className": "highlight",
+      "id": "fnref:4"
+    },
+    {
+      "px": 5225,
+      "py": 730,
+      "width": 355,
+      "height": 1884,
+      "className": "highlight",
+      "id": "fnref:5"
+    },
+    {
+      "px": 5674,
+      "py": 822,
+      "width": 161,
+      "height": 1823,
+      "className": "highlight",
+      "id": "fnref:6"
+    },
+    {
+      "px": 6954,
+      "py": 785,
+      "width": 124,
+      "height": 1833,
+      "className": "rot4 highlight",
+      "id": "fnref:7"
+    },
+    {
+      "px": 7110,
+      "py": 798,
+      "width": 87,
+      "height": 1976,
+      "className": "rot4 highlight",
+      "id": "fnref:8"
+    },
+    {
+      "px": 7202,
+      "py": 816,
+      "width": 114,
+      "height": 1933,
+      "className": "rot4 highlight",
+      "id": "fnref:9"
+    },
+    {
+      "px": 7321,
+      "py": 843,
+      "width": 133,
+      "height": 1905,
+      "className": "rot4 highlight",
+      "id": "fnref:10"
+    },
+    {
+      "px": 7694,
+      "py": 798,
+      "width": 370,
+      "height": 1925,
+      "className": "highlight",
+      "id": "fnref:11"
+    },
+    {
+      "px": 8131,
+      "py": 816,
+      "width": 326,
+      "height": 1900,
+      "className": "highlight",
+      "id": "fnref:12"
+    },
+    {
+      "px": 8908,
+      "py": 702,
+      "width": 394,
+      "height": 1982,
+      "className": "highlight",
+      "id": "fnref:13"
+    },
+    {
+      "px": 9315,
+      "py": 738,
+      "width": 358,
+      "height": 1974,
+      "className": "highlight",
+      "id": "fnref:14"
+    },
+    {
+      "px": 9682,
+      "py": 845,
+      "width": 143,
+      "height": 1927,
+      "className": "highlight",
+      "id": "fnref:15"
+    },
+    {
+      "px": 9834,
+      "py": 860,
+      "width": 134,
+      "height": 1897,
+      "className": "highlight",
+      "id": "fnref:16"
+    },
+    {
+      "px": 10604,
+      "py": 759,
+      "width": 408,
+      "height": 1939,
+      "className": "highlight",
+      "id": "fnref:17"
+    },
+    {
+      "px": 11179,
+      "py": 834,
+      "width": 233,
+      "height": 1834,
+      "className": "highlight",
+      "id": "fnref:18"
+    },
+    {
+      "px": 11841,
+      "py": 786,
+      "width": 358,
+      "height": 1801,
+      "className": "highlight",
+      "id": "fnref:19"
+    },
+    {
+      "px": 12193,
+      "py": 768,
+      "width": 340,
+      "height": 1873,
+      "className": "highlight",
+      "id": "fnref:20"
+    },
+    {
+      "px": 12542,
+      "py": 768,
+      "width": 337,
+      "height": 1944,
+      "className": "highlight",
+      "id": "fnref:21"
+    },
+    {
+      "px": 12879,
+      "py": 780,
+      "width": 322,
+      "height": 1935,
+      "className": "highlight",
+      "id": "fnref:22"
+    },
+    {
+      "px": 13204,
+      "py": 777,
+      "width": 334,
+      "height": 1935,
+      "className": "highlight",
+      "id": "fnref:23"
+    },
+    {
+      "px": 13538,
+      "py": 762,
+      "width": 301,
+      "height": 1927,
+      "className": "highlight",
+      "id": "fnref:24"
+    },
+    {
+      "px": 14030,
+      "py": 723,
+      "width": 319,
+      "height": 2061,
+      "className": "highlight",
+      "id": "fnref:25"
+    },
+    {
+      "px": 14349,
+      "py": 717,
+      "width": 346,
+      "height": 1995,
+      "className": "highlight",
+      "id": "fnref:26"
+    },
+    {
+      "px": 14698,
+      "py": 711,
+      "width": 311,
+      "height": 1927,
+      "className": "highlight",
+      "id": "fnref:27"
+    },
+    {
+      "px": 15011,
+      "py": 714,
+      "width": 314,
+      "height": 1924,
+      "className": "highlight",
+      "id": "fnref:28"
+    },
+    {
+      "px": 15325,
+      "py": 720,
+      "width": 340,
+      "height": 1912,
+      "className": "highlight",
+      "id": "fnref:29"
+    },
+    {
+      "px": 15668,
+      "py": 738,
+      "width": 307,
+      "height": 1855,
+      "className": "highlight",
+      "id": "fnref:30"
+    },
+    {
+      "px": 15987,
+      "py": 714,
+      "width": 334,
+      "height": 1870,
+      "className": "highlight",
+      "id": "fnref:31"
+    },
+    {
+      "px": 2569,
+      "py": 466,
+      "width": 1179,
+      "height": 174,
+      "content": "Page 15",
+      "className": "page_n",
+      "id": "p1"
+    },
+    {
+      "px": 3787,
+      "py": 466,
+      "width": 1053,
+      "height": 159,
+      "content": "16",
+      "className": "page_n",
+      "id": "p2"
+    },
+    {
+      "px": 4860,
+      "py": 466,
+      "width": 999,
+      "height": 154,
+      "content": "17",
+      "className": "page_n",
+      "id": "p3"
+    },
+    {
+      "px": 5884,
+      "py": 466,
+      "width": 293,
+      "height": 139,
+      "content": "18",
+      "className": "page_n",
+      "id": "p4"
+    },
+    {
+      "px": 6202,
+      "py": 466,
+      "width": 318,
+      "height": 124,
+      "content": "19",
+      "className": "page_n",
+      "id": "p5"
+    },
+    {
+      "px": 6555,
+      "py": 466,
+      "width": 904,
+      "height": 129,
+      "content": "20",
+      "className": "page_n",
+      "id": "p6"
+    },
+    {
+      "px": 7474,
+      "py": 466,
+      "width": 1079,
+      "height": 134,
+      "content": "21",
+      "className": "page_n",
+      "id": "p7"
+    },
+    {
+      "px": 8577,
+      "py": 466,
+      "width": 1372,
+      "height": 134,
+      "content": "22",
+      "className": "page_n",
+      "id": "p8"
+    },
+    {
+      "px": 9959,
+      "py": 466,
+      "width": 298,
+      "height": 154,
+      "content": "23",
+      "className": "page_n",
+      "id": "p9"
+    },
+    {
+      "px": 10287,
+      "py": 466,
+      "width": 1103,
+      "height": 144,
+      "content": "24",
+      "className": "page_n",
+      "id": "p10"
+    },
+    {
+      "px": 11415,
+      "py": 466,
+      "width": 288,
+      "height": 129,
+      "content": "25",
+      "className": "page_n",
+      "id": "p11"
+    },
+    {
+      "px": 11758,
+      "py": 466,
+      "width": 2127,
+      "height": 169,
+      "content": "26",
+      "className": "page_n",
+      "id": "p12"
+    },
+    {
+      "px": 13914,
+      "py": 466,
+      "width": 2406,
+      "height": 140,
+      "content": "27",
+      "className": "page_n",
+      "id": "p13"
+    }
+  ]
+}
