@@ -6,7 +6,7 @@
 
 {{ define "custom_js" }}
     {{ range .Resources.Match "*.js" }}
-    <script type="text/javascript" src="{{ .RelPermalink }}"></script>
+    <script defer type="text/javascript" src="{{ .RelPermalink }}"></script>
     {{ end }}
 {{ end }}
 
@@ -50,6 +50,7 @@
                 <h1>{{ .Params.Title }}</h1>
                 {{ partial "authors" . }}<br>
                 {{ partial "pubdate" . }}<br>
+                {{ partial "tags" . }}<br>
                 {{ if .Params.doi }}
                 <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
                 {{ end }}

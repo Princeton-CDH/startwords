@@ -1,0 +1,5 @@
+<ul class="tags">
+    {{ range .Params.tags }}
+    <li><a class="tag">{{ . }}</a></li> {{/* should eventually link to tags page */}}
+    {{ end }}
+</ul>
