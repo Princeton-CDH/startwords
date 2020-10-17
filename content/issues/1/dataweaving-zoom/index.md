@@ -5,10 +5,11 @@ order: 7
 authors:
   - Rebecca Sutton Koeser
   - Gissoo Doroudian
-tags: [DataBeyondVision, experiments]
+tags: [DataBeyondVision, Experiments]
 needs_deepzoom: true
 body_class: darkmode
 ---
+
 
 One of the next steps we imagined for the weaving of Derrida’s references described in Data Beyond Vision was adding conductive thread and sensors to turn it into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. As a digital alternative to that, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.
 
@@ -20,18 +21,22 @@ One of the next steps we imagined for the weaving of Derrida’s references desc
 
 <div class="text-container"> <!-- re-open text container -->
 
+<!-- container for page numbers for overlay (added in code based on json) -->
+<div id="page_numbers"> </div>
 
-* * * 
 
-## Acknowledgements
+
+Acknowledgements
+----------------
+
+The reference information shown here is drawn from datasets related to [Derrida's Margins](https://derridas-margins.princeton.edu/):
+
+> Chenoweth, Katie, Alexander Baron-Raiffe, Renée Altergott, Chloé Vettier, Chad Córdova, Rebecca Sutton Koeser, Jean Bauer, and Benjamin Hicks. 2018. “References in Jacques Derrida's De La Grammatologie”. figshare. [doi:10.6084/m9.figshare.7180448.v1](https://doi.org/10.6084/m9.figshare.7180448.v1).
+
+> Chenoweth, Katie, Alexander Baron-Raiffe, Renée Altergott, Chad Córdova, Austin Hancock, Chloé Vettier, Rebecca Sutton Koeser, Jean Bauer, Benjamin Hicks, and Nick Budak. 2018. “Works Cited by Jacques Derrida in De La Grammatologie”. figshare. [doi:10.6084/m9.figshare.7180460.v1](https://doi.org/10.6084/m9.figshare.7180460.v1).
 
 The high resolution capture of the data weaving used here was created by Princeton University Library, Digital Imaging Studio.  Annotations on the image were drawn with [Recogito](https://recogito.pelagios.org/).
 
-.
-
-.
-
-.
 
 
 [^1]: <span class="reftype">Epigraph<span class="page">, p. 15</span></span>
@@ -185,20 +190,4 @@ The high resolution capture of the data weaving used here was created by Princet
         *La symbolique du rêve/ Die Symbolik des Traumes* (1815)<br/>
     Gotthilf Heinrich von Schubert<br/>
             <blockquote lang="fr"><p>« Cette langue faite d'images et d'hiéroglyphes, dont se sert la Sagesse suprême dans toutes ses révélations à l'humanité – qui se retrouve dans le langage tout voisin de la Poésie – et qui, dans notre condition actuelle, ressemble davantage à l'expression métaphorique du rêve qu'à la prose de la veille, – on peut se demander si cette langue n'est pas la véritable langue de la religion supérieure. Si, tandis que nous nous croyons éveillés, nous ne sommes pas plongés dans un sommeil millénaire, ou au moins dans l'écho de ses rêves, où nous ne percevons de la langue de Dieu que quelques paroles isolées et obscures, comme un dormeur perçoit les discours de son entourage. »</p><footer></footer></blockquote>
-        
-
-  
-
-
-<!-- page numbers to overlay -->
-<!-- TODO: generate these and the overlays with code -->
-<!-- <div class="pages" style="margin-bottom: 50vh">
-    <span id="p1">1</span>
-    <span id="p2">2</span>
-    <span id="p3">3</span>
-    <span id="p4">4</span>
-    <span id="p5">5</span>
-    <span id="p6">6</span>
-</div> -->
-
-
+    
