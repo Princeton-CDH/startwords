@@ -218,7 +218,7 @@ h2[id]::after {
 #folding::after { background-image: url("/issues/1/data-beyond-vision/images/icon-folding.svg"); }
 #modeling::after { background-image: url("/issues/1/data-beyond-vision/images/icon-printing.svg"); }
 #weaving::after { background-image: url("/issues/1/data-beyond-vision/images/icon-weaving.svg"); }
-#stacking::after { background-image: url("/issues/1/data-beyond-vision/images/icon-stacking.svg"); }
+#stacking::after { background-size: cover; background-image: url("/issues/1/data-beyond-vision/images/icon-stacking.svg"); }
 
 @media (min-width: 768px) {
     h2[id]::before { height: 70px; top: calc(50% - 35px); }
