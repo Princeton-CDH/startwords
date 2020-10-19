@@ -11,6 +11,8 @@ body.article .deepzoom {
     width: 100vw;
     height: 230px;
     padding-bottom: 30vh;
+
+    counter-reset: highlightZoneCounter;
 }
 
 /* breakpoint-s */
@@ -30,7 +32,34 @@ body.article .deepzoom {
 .highlight {
     border: 3px solid var(--red);
     opacity: 0.5;
+    counter-increment: highlightZoneCounter;
 }
+
+.highlight::after {
+    /* display counter parallel to endnote number */
+    content: counters(highlightZoneCounter, ".");
+    position: absolute;
+    bottom: -2rem;
+    right: 50%;
+    color: var(--red);
+    font-size: 70%;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    text-align: center;
+    opacity: 1;  /* this seems to be ignored */
+
+    /* duplicated in endnote li::before */
+    margin-left: -2rem;
+    padding-right: 0;
+    background: var(--off-white);
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.5rem;
+
+}
+
+
 /* adjust the 4 zones that are tilted boxes */
 .highlight.rot4 {
     transform-origin: top left;
