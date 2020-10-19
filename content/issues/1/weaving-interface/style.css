@@ -91,10 +91,11 @@ body.article .footnotes li img {
 }
 
 body.article .footnotes.endnotes ol li a[role=doc-backlink] {
-    color: var(--light-purple);
+    display: none;  /* back links are not functional, hard to link back to highlighted zone */
+    /*color: var(--light-purple);*/
 }
 
-body.article .footnotes ol li p {
+body.article .footnotes.endnotes ol li p, body.article .footnotes ol li p {
     text-indent: 0;
     margin-bottom: 1rem;  /* space before blockquote */
 }
@@ -104,8 +105,10 @@ body.article .footnotes.endnotes ol li::before {
     padding-right: 0;
     background: var(--off-white);
     border-radius: 50%;
-    width: 1rem;
-    height: 1rem
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.5rem;
 }
 
 body.article article .footnotes blockquote p {
