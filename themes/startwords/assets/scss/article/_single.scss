@@ -48,7 +48,8 @@ body.article {
         
         // body text
         p {
-            overflow: hidden;
+            overflow: hidden;    // underlines shouldn't go outside margins
+            padding-bottom: 3px; // space for underlines at end of paragraph
             margin: rem(17px) 0;
             font-weight: 300;
             line-height: rem(27px);
