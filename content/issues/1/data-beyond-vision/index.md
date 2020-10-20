@@ -13,7 +13,7 @@ pdf: https://cdh.princeton.edu/media/uploads/documents/grad_fellows_call_for_spr
 images: ["issues/1/data-beyond-vision/images/dbv-social.jpg"]
 ---
 
-How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show and fail.
+How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.
 
 <!--more-->
 
