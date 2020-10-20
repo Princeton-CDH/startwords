@@ -55,7 +55,7 @@ Data physicalization represents data in physical form.[^4] Like other approaches
 
 Data physicalization attempts to defamiliarize us from the many two-dimensional data representations we have seen by literally placing data in the _mise en scène_ of a conceptual exploration. There is something unique about turning data points into physical forms and placing them in space that triggers the mind to understand data in a distinctive way.
 
-{{< figure src="images/conceptmap.svg" alt="Diagram defining the relationships between various data representations and the senses they incorporate; content available in description" caption="Concept map situating data physicalization in relation to other types of data representations and interpretations. Revised from the concept map included in the poster presented by the authors at DH2019 in Utrecht. Koeser, Rebecca Sutton, Nick Budak, Gissoo Doroudian, and Xinyi Li. “Data Beyond Vision,” July 11, 2019." attrlink="https://doi.org/10.5281/zenodo.3261531" desc_id="conceptmap-desc" >}}
+{{< figure src="images/conceptmap.svg" alt="Diagram defining the relationships between various data representations and the senses they incorporate; content available in description" caption="Concept map situating data physicalization in relation to other types of data representations and interpretations. Revised from the concept map included in the poster presented by the authors at DH2019 in Utrecht. Koeser, Rebecca Sutton, Nick Budak, Gissoo Doroudian, and Xinyi Li. “Data Beyond Vision,” July 11, 2019." attrlink="https://doi.org/10.5281/zenodo.3261531" desc-id="conceptmap-desc" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE.
@@ -124,7 +124,7 @@ The physicalization contrasts the activity of the better-known members of the le
 {{</ wrap >}}
 
 ### Insights
-{{< figure src="images/folding_viaf_pie_v2-01.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." caption="A pie chart representing the proportions of members with and without VIAF identification." desc_id="pie-desc" >}}
+{{< figure src="images/folding_viaf_pie_v2-01.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." caption="A pie chart representing the proportions of members with and without VIAF identification." desc-id="pie-desc" max-height="400px">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”.
@@ -187,7 +187,7 @@ This is a two-variable, three-dimensional lollipop chart[^21] showing the member
 {{</ wrap >}}
 
 ### Insights
-{{< figure src="images/membership-book-activity-combined_1919-19411.svg" alt="Bar chart showing members with borrowing activity and total members each month" caption="Shakespeare and Company lending library members with borrowing activity and members, 1919–1941. From Kotin and Koeser, “The Shakespeare and Company Lending Library Cards in Context.” http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/." attrlink="http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/" desc_id="bars-desc" >}}
+{{< figure src="images/membership-book-activity-combined_1919-19411.svg" alt="Bar chart showing members with borrowing activity and total members each month" caption="Shakespeare and Company lending library members with borrowing activity and members, 1919–1941. From Kotin and Koeser, “The Shakespeare and Company Lending Library Cards in Context.” http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/." attrlink="http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/" desc-id="bars-desc" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Bar chart showing members with borrowing activity and total members each month.
@@ -252,7 +252,7 @@ Working with textiles is often stereotyped as female activity, therefore this pi
 ### Insights
 The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, it may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.
 
-{{< figure src="images/derrida-refsbytype-chap1.svg" alt="Stacked bar chart showing number and kind of references by page." caption="References in chapter 1 of Of Grammatology by page and type. (Chapter 1 begins on page 15)." desc_id="refs-desc">}}
+{{< figure src="images/derrida-refsbytype-chap1.svg" alt="Stacked bar chart showing number and kind of references by page." caption="References in chapter 1 of Of Grammatology by page and type. (Chapter 1 begins on page 15)." desc-id="refs-desc">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Stacked bar chart showing number and kind of references by page.
@@ -317,7 +317,7 @@ This physicalization made use of kirigami technique, which transforms single she
 {{</ wrap >}}
 
 ### Insights
-{{< figure src="images/2d-stacked-bar-v2-01.svg" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library from 1919–194 represented as stacked bar charts."  desc_id="stackedbar-desc" >}}
+{{< figure src="images/2d-stacked-bar-v2-01.svg" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library from 1919–194 represented as stacked bar charts."  desc-id="stackedbar-desc" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories.
@@ -331,7 +331,7 @@ Members with borrowing events constitute a fraction of all the members in the ea
 
 With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.
 
-{{< figure src="images/2d-pie_v2-01.svg" alt="A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library between 1919 and 1941 represented as pie charts." desc_id="pieseries-desc" >}}
+{{< figure src="images/2d-pie_v2-01.svg" alt="A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library between 1919 and 1941 represented as pie charts." desc-id="pieseries-desc" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories.
