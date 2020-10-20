@@ -1,17 +1,20 @@
 ---
 type: article
-title: Weaving as interface
+title: Weaving as Interface
 order: 7
 authors:
   - Rebecca Sutton Koeser
   - Gissoo Doroudian
-tags: [DataBeyondVision, Experiments]
+tags: [DataBeyondVision, Experiment]
 needs_deepzoom: true
 body_class: darkmode
 ---
 
 
-One of the next steps we imagined for the weaving of Derrida’s references described in Data Beyond Vision was adding conductive thread and sensors to turn it into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. As a digital alternative to that, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.
+This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie (1967). The references have been cataloged and categorized by the research team of [Derrida’s Margins](https://derridas-margins.princeton.edu/). Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read Weaving Derrida’s References.
+
+As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.
+
 
 [^1] [^2] [^3] [^4] [^5] [^6] [^7] [^8] [^9] [^10] [^11] [^12] [^13] [^14] [^15] [^16] [^17] [^18] [^19] [^20] [^21] [^22] [^23] [^24] [^25] [^26] [^27] [^28] [^29] [^30] [^31]
 
