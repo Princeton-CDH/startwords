@@ -1,7 +1,7 @@
 {{/* Shortcode for open seadragon deep zoom  */}}
 {{- $zoom_id := printf "%s-%d" "openseadragon" .Ordinal -}} {{/* generate unique identifier within page */}}
 {{- $height := default "30em" (.Get "height") -}}
-<div class="deepzoom" id="{{ $zoom_id }}" style="height: {{ $height }}"></div>
+<div class="deepzoom" id="{{ $zoom_id }}" style="height: {{ $height }}" aria-label="{{ .Get `alt` }}"></div>
 <script>
     window.addEventListener("DOMContentLoaded", function() {
         OpenSeadragon({
@@ -12,7 +12,12 @@
             minZoomLevel:       1,
             defaultZoomLevel:   1,
             gestureSettingsMouse: { scrollToZoom: false },
-            tileSources: "{{ if .IsNamedParams }}{{ .Get "tile" }}{{ else }}{{ .Get 0 }}{{ end }}",
+            tileSources: "{{ .Get `tile` }}",
         });
     });
 </script>
+{{/* image, alt & caption rendered in pdf only, in place of viewer */}}
+<figure class="deepzoom-preview">
+    <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
+    <figcaption><p>The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.</p></figcaption>
+</figure>

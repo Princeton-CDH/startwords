@@ -66,46 +66,68 @@ Example use:
 
 ### deepzoom
 
-Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom
-images are supported on a page.
+Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom images are supported on a page.
 
 Example use:
 
 ```
-{{< deepzoom tile="http://iiif.example.com/image-id/info.json" height="10em">}}
+{{< deepzoom tile="http://iiif.example.com/image-id/info.json" alt="Interactive zoomable viewer showing a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub." height="10em">}}
 ```
 
-or
+When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.`.
 
-```
-{{< deepzoom "http://iiif.example.com/image-id/info.json" >}}
-```
+## parameters
 
-Currently expects parameters `tile` as named or first argument and `height`.
+- `tile`, URL to a IIIF image that will be displayed in the viewer.
+- `alt`, text used by assistive technology to describe the content of the viewer.
+- `pdf-img`, URL to a static image that will be used in place of the viewer in the PDF version of the article.
+- `pdf-alt`, text used by assistive technology to describe the image specified by `pdf-img`.
+- `height`, optional: vertical size of the viewer. defaults to `30em`.
 
 [view source](layouts/shortcodes/deepzoom.html)
 
 ### sketchfab
 
-Use to embed a [SketchFab]() 3D model viewer.
+Use to embed a [SketchFab](https://sketchfab.com/) 3D model viewer as an `<iframe>`.
 
-Example use::
+Example use:
 ```
-{{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
-    title="Shakespeare and Company membership origami">}}
+{{<sketchfab id="89985d66f7244d87b7edbe5fd6266f0d" alt="3-D model of a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub.">}}
 ```
+
+When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive 3D viewer displaying a model of this object.`.
+
+## parameters
+
+- `id`, ID of the SketchFab object to be embedded; can be found in the URL to view the object.
+- `alt`, text used by assistive technology to describe the content of the viewer.
+- `pdf-img`, URL to a static image that will be used in place of the viewer in the PDF version of the article.
+- `pdf-alt`, text used by assistive technology to describe the image specified by `pdf-img`.
 
 [view source](layouts/shortcodes/sketchfab.html)
 
 ### figure
 
-This is a slightly-customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that adds an option to pass in an identifier to set as the
-`aria-describedby` attribute. Also sets `role="img"` on the `<img>` element to allow for SVG images.
+This is a slightly-customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that rescales raster images using custom breakpoints. It can also associate images with a visually hidden long description that is accessible to assistive technology.
 
-Has all the same options as the original, plus `desc_id`.
+It's highly recommended to use `figure` rather than simple images via Markdown, so that images can be automatically sized and properly styled. Non-`figure` images may not display in a consistent manner.
 
-It's highly recommended to use `figure` rather than simple images via Markdown, so that images can be automatically sized and properly styled.
-Non-`figure` images may not display in a consistent manner.
+If the provided image is an SVG, no rescaling will be done and `role="img"` will be set on the `<img>` element. If the provided image is a GIF, no rescaling will be done to allow for animated images, since [Hugo's image resizing doesn't support this yet](https://github.com/gohugoio/hugo/issues/5030).
+
+Example use for a picture:
+```
+
+```
+
+Example use for a chart or graph, with long description:
+```
+```
+
+## parameters
+
+- `src`, URL of the image in the figure.
+- `alt`, text used by assistive technology to describe the content of the figure.
+- `desc-id`, optional: html id of the element containing the long description text.
 
 [view source](layouts/shortcodes/figure.html)
 

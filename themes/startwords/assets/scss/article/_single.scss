@@ -48,6 +48,7 @@ body.article {
         
         // body text
         p {
+            overflow: hidden;
             margin: rem(17px) 0;
             font-weight: 300;
             line-height: rem(27px);
@@ -151,10 +152,20 @@ body.article {
             width: 100%;
             height: $frame-height;
         }
+
+        .preview {
+            display: none;
+            max-width: 100%;
+        }
     }
     
     .deepzoom {
         width: 100%;
+    }
+
+    .deepzoom-preview {
+        display: none;
+        max-width: 100%;
     }
     
 }
