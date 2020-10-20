@@ -215,6 +215,7 @@ h2:not([id=acknowledgements])::after {
     width: 56px;
 }
 
+#acknowledgements { margin-top: 4rem; }
 #folding::after { background-image: url("/issues/1/data-beyond-vision/images/icon-folding.svg"); }
 #modeling::after { background-image: url("/issues/1/data-beyond-vision/images/icon-printing.svg"); }
 #weaving::after { width: 23px; background-image: url("/issues/1/data-beyond-vision/images/icon-weaving.svg"); }
