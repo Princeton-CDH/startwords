@@ -8,7 +8,7 @@ enableRobotsTXT = true
 # enable git info to get last modified times based on git commits
 enableGitInfo = true
 # increase build timeout for rendering lots of image derivatives
-timeout = "30s"
+timeout = "300s"
 
 # disable taxonomies until we are ready to use them and have templates
 disableKinds = ["taxonomy", "term", "tag"]
