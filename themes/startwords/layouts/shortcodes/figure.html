@@ -1,5 +1,6 @@
 {{/* get page resource matching filename specified as "src" in shortcode */}}
 {{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{ $gif := eq (path.Ext (.Get "src")) ".gif" }}
 {{ $raster := ne (path.Ext (.Get "src")) ".svg" }}
 
 {{/* set image derivative sizes */}}
@@ -10,7 +11,7 @@
 {{ $huge_w := default "1800x" }}
 
 {{/* generate derviatives for output in srcset */}} 
-{{ if $raster }}
+{{ if (and ($raster) (not $gif))  }}
 {{ .Scratch.Set "tiny" ($img.Resize $tiny_w) }}
 {{ .Scratch.Set "small" ($img.Resize $small_w) }}
 {{ .Scratch.Set "medium" ($img.Resize $medium_w) }}
@@ -18,24 +19,26 @@
 {{ .Scratch.Set "huge" ($img.Resize $huge_w) }}
 {{ end }}
 
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}{{ if .Get "extdesc_id" }} aria-describedby="{{ .Get "desc_id" }}"{{ end }}>
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}{{ if .Get "extdesc_id" }} aria-describedby="{{ .Get `desc_id` }}"{{ end }}>
 {{- if .Get "link" -}}
-<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+<a href="{{ .Get `link` }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end }}
-    {{ if $raster }}
-    <img src="{{ (.Scratch.Get "large").RelPermalink }}" role="img" sizes="(max-width: 768px) 100%, 80%" loading="lazy" 
-    srcset='{{ (.Scratch.Get "tiny").RelPermalink }} 500w,
-    {{ (.Scratch.Get "small").RelPermalink }} 800w,
-    {{ (.Scratch.Get "medium").RelPermalink }} 1200w,
-    {{ (.Scratch.Get "large").RelPermalink }} 1500w,
-    {{ (.Scratch.Get "huge").RelPermalink }} 1800w,
-    {{ if gt $img.Width "1800" }}{{ $img.RelPermalink }} {{ $img.Width }}w{{ end }}'
+    {{ if $gif }}
+    <img src="{{ $img.RelPermalink }}" loading="lazy"
+    {{ else if $raster }}
+    <img src="{{ (.Scratch.Get `large`).RelPermalink }}" role="img" sizes="(max-width: 768px) 100%, 80%" loading="lazy" 
+    srcset="{{ (.Scratch.Get `tiny`).RelPermalink }} 500w,
+    {{ (.Scratch.Get `small`).RelPermalink }} 800w,
+    {{ (.Scratch.Get `medium`).RelPermalink }} 1200w,
+    {{ (.Scratch.Get `large`).RelPermalink }} 1500w,
+    {{ (.Scratch.Get `huge`).RelPermalink }} 1800w,
+    {{ if gt $img.Width `1800` }}{{ $img.RelPermalink }} {{ $img.Width }}w{{ end }}"
     class="{{ if ge $img.Width $img.Height }}landscape{{ else }}portrait{{ end }}"
     {{ else }}
     <img src="{{ $img.RelPermalink }}" role="img" loading="lazy"
     {{ end }}
     {{- if or (.Get "alt") (.Get "caption") }}
-    alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+    alt="{{ with .Get `alt` }}{{ . }}{{ else }}{{ .Get `caption` | markdownify| plainify }}{{ end }}"
     {{- end -}}
     >
     {{- if .Get "link" }}</a>{{ end -}}
