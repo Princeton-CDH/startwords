@@ -197,6 +197,7 @@ body.article .footnotes {
                 -webkit-overflow-scrolling: auto;
                 background-image: none;
                 background: none;
+                max-height: none;
 
                 &::before {
                     /* position counter for endnote display (web only) */
