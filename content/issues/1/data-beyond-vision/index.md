@@ -154,8 +154,6 @@ Modeling Shakespeare and Company Library Membership {#modeling}
 _Rebecca Sutton Koeser_
 
 ### Goal
-This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.
-
 {{< figure src="images/modeling-side-view.jpg" alt="3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942." caption="Side view of 3D printed lollipop chart with labels and statement.">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -165,6 +163,9 @@ This data physicalization demonstrates the affordances of three dimensions for r
 | ATTRIBUTION: Photo by Shelley Szwast.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
+This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.
+
 {{< figure src="images/modeling-close-up.jpg" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." caption="Close up of 3D printed lollipop chart with labels.">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -249,6 +250,8 @@ Working with textiles is often stereotyped as female activity, therefore this pi
 {{</ wrap >}}
 
 ### Insights
+The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, it may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.
+
 {{< figure src="images/derrida-refsbytype-chap1.svg" alt="Stacked bar chart showing number and kind of references by page." caption="References in chapter 1 of Of Grammatology by page and type. (Chapter 1 begins on page 15)." desc_id="refs-desc">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -260,8 +263,6 @@ Working with textiles is often stereotyped as female activity, therefore this pi
 {{< wrap class="sr-only" id="refs-desc" >}}
 The chart shows that quotations are the most common type of reference in chapter one, and a few pages include six or more quotations. Footnotes are the next most common reference; there is only one epigraph, on the first page in the chapter, and one citation, on page 35. Only six pages have no references at all, and many pages have more than one.
 {{</ wrap >}}
-
-The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, it may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.
 
 The ability to feel the density and frequency of each type of reference, color coded above, creates a unique experience for each participant, specific to their own perspective. These organic experiences bring to light the depth and complexities of the original work as well as the labor involved with gathering this data. This woven piece, which represents the first half (thirteen pages) of the first chapter of _Of Grammatology_ is 37 inches long, a little more than 3 feet. The physical nature of this data representation required that materials and dimensions be carefully calculated and measured.[^34] The process of creating this piece is embodied and experiential, which naturally leads to conversations that effortlessly surface the labor of data work and the depth of the original text. Unfortunately, this is less likely to happen naturally when creating data visualizations.
 
@@ -328,6 +329,8 @@ This physicalization made use of kirigami technique, which transforms single she
 Members with borrowing events constitute a fraction of all the members in the earlier years. The overall number of borrowing events increases gradually from 1919 to 1926, drops off slightly, then evidently increases from 1934 to 1939, even though the number of members drops drastically after 1929. It’s not easy to compare book borrowing by new members across the years.
 {{</ wrap >}}
 
+With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.
+
 {{< figure src="images/2d-pie_v2-01.svg" alt="A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library between 1919 and 1941 represented as pie charts." desc_id="pieseries-desc" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -339,8 +342,6 @@ Members with borrowing events constitute a fraction of all the members in the ea
 {{< wrap class="sr-only" id="pieseries-desc" >}}
 Overall, renewed members outsize new members before 1929, followed by five years with nearly two times more new members than the renewed. Members with borrowing events represent a fraction of all the members in the early years between 1919 and 1929. Then members with borrowing events grow and become more comparable to the size of all members, which sizes down drastically after 1929. Borrows from new members outsize renewed members since 1934. It is not easy to compare the proportion of growth across the years.
 {{</ wrap >}}
-
-With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.
 
 Extending into physical space allows data to be encoded in three axes and provides multiple possible angles to view the piece, depending on the relationships one is interested in, between logbook members, members with lending library card activities, and borrowing events. The separation of renewing and new members makes it possible to juxtapose and compare activities between the two groups of members. Spatial factors communicate different facets of the data, and color coding is no longer required.
 
