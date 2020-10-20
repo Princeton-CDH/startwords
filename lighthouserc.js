@@ -35,6 +35,7 @@ module.exports = {
         "offscreen-images": "warn",
         "uses-rel-preconnect": "warn",
         "uses-passive-event-listeners": "warn",
+        "uses-optimized-images": "warn",
         "unused-javascript": "warn",
         "unused-css-rules": "warn",
         "total-byte-weight": "warn",
