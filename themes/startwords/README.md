@@ -108,26 +108,40 @@ When pages using this shortcode are rendered as a PDF, the interactive viewer wi
 
 ### figure
 
-This is a slightly-customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that rescales raster images using custom breakpoints. It can also associate images with a visually hidden long description that is accessible to assistive technology.
+This is a customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that rescales raster images using custom breakpoints and displays them with a caption.
 
-It's highly recommended to use `figure` rather than simple images via Markdown, so that images can be automatically sized and properly styled. Non-`figure` images may not display in a consistent manner.
+**It's highly recommended to use `figure` rather than simple images via Markdown, so that images can be automatically sized and properly styled. Non-`figure` images may not display in a consistent manner.**
 
-If the provided image is an SVG, no rescaling will be done and `role="img"` will be set on the `<img>` element. If the provided image is a GIF, no rescaling will be done to allow for animated images, since [Hugo's image resizing doesn't support this yet](https://github.com/gohugoio/hugo/issues/5030).
+Images that are in "landscape mode" (wider than they are tall) will be shown at as close to full paragraph width as possible. Images that are in "portrait mode" will be shown as close to 75% of the paragraph width as possible without stretching the image to larger than 80% of the viewport height. SVG images will be shown at their intrinsic size, with a minimum with of 150px. If the provided image is an SVG or a GIF, no scaled derivates will be generated, since SVGs are vectors and [Hugo's image resizing doesn't support resizing animated GIFs](https://github.com/gohugoio/hugo/issues/5030). For details on the derivative generation strategy, see the shortcode source below.
 
-Example use for a picture:
+You can optionally provide an `attr` to add an attribution to the caption, and `attrlink` will make the attribution a link pointing to the given URL. If you need extra control over the height of the image, you can pass any valid CSS measurement to `max-height`, which will be applied via an inline style.
+
+For assistive technology, an `alt` is required to describe the image. Optionally, you can associate the image with another element containing a visually hidden long description using `desc-id`, which will be the value used for `aria-describedby`.
+
+Simple example:
+```
+{{< figure src="images/duck.jpg" alt="Rubber duck sitting in a bathtub." >}}
 ```
 
+Example use for a photograph with attribution:
+```
+{{< figure src="images/duck.jpg" alt="Rubber duck sitting in a bathtub." caption="Gerald relaxing in the bath." attr="Photo by me." attrlink="http://example.com/" >}}
 ```
 
 Example use for a chart or graph, with long description:
 ```
+{{< figure src="images/chart.svg" alt="Bar chart showing sales growth for Q1 2020." caption="Sales are improving for our industry." desc-id="chart-desc" >}}
+{{< wrap class="sr-only" id="chart-desc">}}Four different economic sectors are represented. The sector showing the most sales growth is the rubber duck industry, with growth approaching 25%.{{</ wrap >}}
 ```
 
 ## parameters
 
 - `src`, URL of the image in the figure.
 - `alt`, text used by assistive technology to describe the content of the figure.
-- `desc-id`, optional: html id of the element containing the long description text.
+- `caption`, optional: descriptive text to be shown underneath the figure.
+- `attr`, optional: attribution text to be shown underneath the figure.
+- `attrlink`, optional: URL for making `attr` text a hyperlink.
+- `desc-id`, optional: html id of an element containing longer descriptive text.
 
 [view source](layouts/shortcodes/figure.html)
 
