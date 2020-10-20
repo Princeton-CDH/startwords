@@ -252,7 +252,7 @@ Working with textiles is often stereotyped as female activity, therefore this pi
 ### Insights
 The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, it may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.
 
-{{< figure src="images/derrida-refsbytype-chap1.svg" alt="Stacked bar chart showing number and kind of references by page." caption="References in chapter 1 of Of Grammatology by page and type. (Chapter 1 begins on page 15)." desc-id="refs-desc">}}
+{{< figure src="images/derrida-refsbytype-chap1.svg" alt="Stacked bar chart showing number and kind of references by page." caption="References in chapter 1 of Of Grammatology by page and type. (Chapter 1 begins on page 15)." desc-id="refs-desc" max-height="500px" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Stacked bar chart showing number and kind of references by page.
