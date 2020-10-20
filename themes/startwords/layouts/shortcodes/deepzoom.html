@@ -17,7 +17,9 @@
     });
 </script>
 {{/* image, alt & caption rendered in pdf only, in place of viewer */}}
+{{ if (.Get "pdf-img") }}
 <figure class="deepzoom-preview">
     <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
     <figcaption><p>The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.</p></figcaption>
 </figure>
+{{ end }}

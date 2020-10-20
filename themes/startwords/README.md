@@ -74,14 +74,14 @@ Example use:
 {{< deepzoom tile="http://iiif.example.com/image-id/info.json" alt="Interactive zoomable viewer showing a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub." height="10em">}}
 ```
 
-When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.`.
+When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.`.
 
 ## parameters
 
 - `tile`, URL to a IIIF image that will be displayed in the viewer.
 - `alt`, text used by assistive technology to describe the content of the viewer.
-- `pdf-img`, URL to a static image that will be used in place of the viewer in the PDF version of the article.
-- `pdf-alt`, text used by assistive technology to describe the image specified by `pdf-img`.
+- `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
+- `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
 - `height`, optional: vertical size of the viewer. defaults to `30em`.
 
 [view source](layouts/shortcodes/deepzoom.html)
@@ -95,14 +95,14 @@ Example use:
 {{<sketchfab id="89985d66f7244d87b7edbe5fd6266f0d" alt="3-D model of a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub.">}}
 ```
 
-When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive 3D viewer displaying a model of this object.`.
+When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive 3D viewer displaying a model of this object.`.
 
 ## parameters
 
 - `id`, ID of the SketchFab object to be embedded; can be found in the URL to view the object.
 - `alt`, text used by assistive technology to describe the content of the viewer.
-- `pdf-img`, URL to a static image that will be used in place of the viewer in the PDF version of the article.
-- `pdf-alt`, text used by assistive technology to describe the image specified by `pdf-img`.
+- `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
+- `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
 
 [view source](layouts/shortcodes/sketchfab.html)
 
