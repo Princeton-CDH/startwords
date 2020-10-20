@@ -182,7 +182,7 @@ article .sketchfab-embed-wrapper {
 
 /* section headers with icons */
 
-h2[id] {
+h2:not([id=acknowledgements]) {
     position: relative;
     display: block;
     margin-left: 90px;
@@ -191,7 +191,7 @@ h2[id] {
     z-index: 1;
 }
 
-h2[id]::before {
+h2:not([id=acknowledgements])::before {
     content: '';
     background: #fff;
     z-index: -1;
@@ -202,7 +202,7 @@ h2[id]::before {
     right: calc(100% + 25px);
 }
 
-h2[id]::after {
+h2:not([id=acknowledgements])::after {
     content: '';
     background-size: contain;
     background-repeat: no-repeat;
