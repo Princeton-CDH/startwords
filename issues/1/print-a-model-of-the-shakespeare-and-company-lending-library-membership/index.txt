@@ -1,0 +1,56 @@
+⩩-----------------------------------------------------------------------------------⟩
+|
+|    ▄▄▓
+| ]▓▓▀
+|  ╙▀▓▄   ▀▀▀▓     ╫▓    ╙▀▀▀▓⌐^▀▀▓▌    ▓⌐            ▀█▄,  ╚▀▀▀▓  ╙▀▀▀█▄   ▄█▀
+|     ▀▓    ▐▓    ╫▓▀▓   ,,,╓▓▀   ╟▌   j▓⌐ ▄▓µ    ,      ▓▄ ,,,╓▓▀      ╙▓⌐ ▓▄,
+|      ▐    ▐▓   ╟▓  ▀▌  ▓▌└╟▄    ╟▌   j▓▄▓▀ ▀▓   ▓▌     ▓▀ ▓▀└▓▄       ]▓   ^╙▀▓
+| «▄▄╗╩"    ▐▓  ]▓    ▓▌ ▓∩  ▓b   ╫▌    ▓▀    └▓M  ╙█▓▓█▀╙  ▓∩  ▓∩ ╗▄▄▓█▀`    ▄▓▀
+|
+⩩-----------------------------------------------------------------------------------⟩
+|
+|  Print a model of the Shakespeare and Company Lending Library Membership
+|
+|  Authors:
+|  
+|     Rebecca Sutton Koeser
+|
+|  /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/
+|
+|
+|
+⩩-----------------------------------------------------------------------------------⟩
+|
+|  Issue 1: TRANSFORMATIONS
+|  /issues/1/
+|  January 2020
+|
+⩩-----------------------------------------------------------------------------------⟩
+Print a model of Shakespeare and Company lending library membership by date, as described in [Data Beyond Vision]. 
+
+We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag #DataBeyondVision.
+
+
+Tools
+3D printer (single or dual filament)
+Slicing software (e.g. Cura or Simplify3D)
+Blade or file (for removing filament artifacts)
+Supplies
+3D printing filament in two different colors
+
+Steps
+Download the zip file with 3D models and extract the files. [link to zip; zip file is in assets folder]
+Load comb-lolly-cards-a.stl into your slicing software and rotate and scale it so that it fits along the long dimension of your print bed. Make a note of the scale factor you use.
+Load and slice the other three parts of the lollipop chart (comb-lolly-cards-b.stl, comb-lolly-members-a.stl, and comb-lolly-members-b.stl), scaling them with the same scale factor you used for the first model.
+Print the two card models in the same color.
+Print the two member models in the second color.
+Clean up any printing artifacts or threads on the lollipops.
+If you want to print labels, slice and print the appropriate set for your printer (dual filament or single). Dual print models are provided as base and text, to be combined in your slicing software.
+Arrange the comb models and labels on a table or other display.
+
+Yield: 3D printed model of Shakespeare and Company Library Membership
+
+
+[embed 3d viewer]
+
+

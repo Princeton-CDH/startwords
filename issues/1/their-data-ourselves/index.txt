@@ -16,7 +16,7 @@
 |  
 |     Rebecca Munson
 |
-|  https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/
+|  /issues/1/their-data-ourselves/
 |
 |  doi:10.5281/zenodo.3713678
 |
@@ -24,7 +24,7 @@
 ⩩-----------------------------------------------------------------------------------⟩
 |
 |  Issue 1: TRANSFORMATIONS
-|  https://startwords.cdh.princeton.edu/issues/1/
+|  /issues/1/
 |  January 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩
