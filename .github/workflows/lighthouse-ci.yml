@@ -44,12 +44,16 @@ jobs:
         run: hugo --minify
 
       # this step makes the site's built html and css available for download
-      # from github; see the run in github actions to access it as a zipfile
+      # from github; see the run in github actions to access it as a zipfile.
+      # we don't export image derivatives because it makes the build a lot
+      # slower.
       - name: export built files for download
         uses: actions/upload-artifact@v2
         with:
           name: public
-          path: public/
+          path: |
+            public/
+            !public/issues/**/images/
 
       # lighthouse is configured using the lighthouserc.js file in the project
       # root, see that file for more details. output from runs is uploaded to

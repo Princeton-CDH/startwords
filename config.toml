@@ -1,4 +1,5 @@
-baseURL = "https://startwords.cdh.princeton.edu/"
+#baseURL = "https://startwords.cdh.princeton.edu/"
+baseURL = "/"
 title = "Startwords"
 theme = "startwords"
 copyright = "This work is licensed under a Creative Commons Attribution 4.0 International License."
@@ -7,6 +8,8 @@ googleAnalytics = "UA-87887700-8"
 enableRobotsTXT = true
 # enable git info to get last modified times based on git commits
 enableGitInfo = true
+# increase build timeout for rendering lots of image derivatives
+timeout = "300s"
 
 # disable taxonomies until we are ready to use them and have templates
 disableKinds = ["taxonomy", "term", "tag"]

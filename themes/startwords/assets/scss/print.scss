@@ -226,7 +226,15 @@ sup {
     line-height: 1;
 }
 
-/* sketchfab embed does not render in PDF */
-iframe {
-    display: none;
+/* sketchfab embed & deep zoom do not render in PDF; use previews instead */
+body.article article {
+    .sketchfab-embed-wrapper iframe,
+    .deepzoom {
+        display: none;
+    }
+
+    .sketchfab-embed-wrapper .preview,
+    .deepzoom-preview {
+        display: block;
+    }
 }

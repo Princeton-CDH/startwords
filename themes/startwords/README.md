@@ -66,46 +66,82 @@ Example use:
 
 ### deepzoom
 
-Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom
-images are supported on a page.
+Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom images are supported on a page.
 
 Example use:
 
 ```
-{{< deepzoom tile="http://iiif.example.com/image-id/info.json" height="10em">}}
+{{< deepzoom tile="http://iiif.example.com/image-id/info.json" alt="Interactive zoomable viewer showing a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub." height="10em">}}
 ```
 
-or
+When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.`.
 
-```
-{{< deepzoom "http://iiif.example.com/image-id/info.json" >}}
-```
+## parameters
 
-Currently expects parameters `tile` as named or first argument and `height`.
+- `tile`, URL to a IIIF image that will be displayed in the viewer.
+- `alt`, text used by assistive technology to describe the content of the viewer.
+- `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
+- `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
+- `height`, optional: vertical size of the viewer. defaults to `30em`.
 
 [view source](layouts/shortcodes/deepzoom.html)
 
 ### sketchfab
 
-Use to embed a [SketchFab]() 3D model viewer.
+Use to embed a [SketchFab](https://sketchfab.com/) 3D model viewer as an `<iframe>`.
 
-Example use::
+Example use:
 ```
-{{<sketchfab id="9c96fadd27c34a11902f0a1281ea0ab4"
-    title="Shakespeare and Company membership origami">}}
+{{<sketchfab id="89985d66f7244d87b7edbe5fd6266f0d" alt="3-D model of a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub.">}}
 ```
+
+When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive 3D viewer displaying a model of this object.`.
+
+## parameters
+
+- `id`, ID of the SketchFab object to be embedded; can be found in the URL to view the object.
+- `alt`, text used by assistive technology to describe the content of the viewer.
+- `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
+- `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
 
 [view source](layouts/shortcodes/sketchfab.html)
 
 ### figure
 
-This is a slightly-customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that adds an option to pass in an identifier to set as the
-`aria-describedby` attribute. Also sets `role="img"` on the `<img>` element to allow for SVG images.
+This is a customized version of Hugo's default [figure shortcode](https://gohugo.io/content-management/shortcodes/#figure) that rescales raster images using custom breakpoints and displays them with a caption.
 
-Has all the same options as the original, plus `desc_id`.
+**It's highly recommended to use `figure` rather than simple images via Markdown, so that images can be automatically sized and properly styled. Non-`figure` images may not display in a consistent manner.**
 
-It's highly recommended to use `figure` rather than simple images via Markdown, so that images can be automatically sized and properly styled.
-Non-`figure` images may not display in a consistent manner.
+Images that are in "landscape mode" (wider than they are tall) will be shown at as close to full paragraph width as possible. Images that are in "portrait mode" will be shown as close to 75% of the paragraph width as possible without stretching the image to larger than 80% of the viewport height. SVG images will be shown at their intrinsic size, with a minimum with of 150px. If the provided image is an SVG or a GIF, no scaled derivates will be generated, since SVGs are vectors and [Hugo's image resizing doesn't support resizing animated GIFs](https://github.com/gohugoio/hugo/issues/5030). For details on the derivative generation strategy, see the shortcode source below.
+
+You can optionally provide an `attr` to add an attribution to the caption, and `attrlink` will make the attribution a link pointing to the given URL. If you need extra control over the height of the image, you can pass any valid CSS measurement to `max-height`, which will be applied via an inline style.
+
+For assistive technology, an `alt` is required to describe the image. Optionally, you can associate the image with another element containing a visually hidden long description using `desc-id`, which will be the value used for `aria-describedby`.
+
+Simple example:
+```
+{{< figure src="images/duck.jpg" alt="Rubber duck sitting in a bathtub." >}}
+```
+
+Example use for a photograph with attribution:
+```
+{{< figure src="images/duck.jpg" alt="Rubber duck sitting in a bathtub." caption="Gerald relaxing in the bath." attr="Photo by me." attrlink="http://example.com/" >}}
+```
+
+Example use for a chart or graph, with long description:
+```
+{{< figure src="images/chart.svg" alt="Bar chart showing sales growth for Q1 2020." caption="Sales are improving for our industry." desc-id="chart-desc" >}}
+{{< wrap class="sr-only" id="chart-desc">}}Four different economic sectors are represented. The sector showing the most sales growth is the rubber duck industry, with growth approaching 25%.{{</ wrap >}}
+```
+
+## parameters
+
+- `src`, URL of the image in the figure.
+- `alt`, text used by assistive technology to describe the content of the figure.
+- `caption`, optional: descriptive text to be shown underneath the figure.
+- `attr`, optional: attribution text to be shown underneath the figure.
+- `attrlink`, optional: URL for making `attr` text a hyperlink.
+- `desc-id`, optional: html id of an element containing longer descriptive text.
 
 [view source](layouts/shortcodes/figure.html)
 
