@@ -32,6 +32,7 @@ module.exports = {
         // switch misc. performance issues to warnings until they are resolved
         "unsized-images": "warn",
         "uses-responsive-images": "warn",
+        "offscreen-images": "warn",
         "uses-rel-preconnect": "warn",
         "uses-passive-event-listeners": "warn",
         "unused-javascript": "warn",
