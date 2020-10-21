@@ -218,7 +218,7 @@ h2:not([id=acknowledgements])::after {
 #acknowledgements { margin-top: 4rem; }
 #folding::after { background-image: url("/issues/1/data-beyond-vision/images/icon-folding.svg"); }
 #modeling::after { background-image: url("/issues/1/data-beyond-vision/images/icon-printing.svg"); }
-#weaving::after { width: 23px; background-size: cover; background-image: url("/issues/1/data-beyond-vision/images/icon-weaving.svg"); }
+#weaving::after { width: 25px; background-size: cover; background-image: url("/issues/1/data-beyond-vision/images/icon-weaving.svg"); }
 #stacking::after { background-size: cover; background-image: url("/issues/1/data-beyond-vision/images/icon-stacking.svg"); }
 
 @media (min-width: 768px) {
