@@ -1,7 +1,7 @@
 # <div align="center"><img src="https://startwords.cdh.princeton.edu/logotype.svg" alt="Startwords"/> Theme</div>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Hugo](https://img.shields.io/badge/hugo-0.67-blue.svg)](https://gohugo.io)
+[![Hugo](https://img.shields.io/badge/hugo-0.72-blue.svg)](https://gohugo.io)
 
 The Startwords Hugo theme is designed for [a journal of the same name](https://startwords.cdh.princeton.edu/) by the [Center for Digital Humanities](cdh.princeton.edu/) at Princeton University.
 
