@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator><title type="html">Issue One on Startwords</title><link href="/issues/1/" rel="alternate" type="text/html" title="HTML"/><link href="/issues/1/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="/issues/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-10-22T17:22:08+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>/issues/1/</id><entry><title type="html">Data Beyond Vision</title><link href="/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:20:55-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator><title type="html">Issue One on Startwords</title><link href="/issues/1/" rel="alternate" type="text/html" title="HTML"/><link href="/issues/1/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="/issues/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-10-22T17:57:07+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>/issues/1/</id><entry><title type="html">Data Beyond Vision</title><link href="/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:55:06-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
 <p>Humanists continue to expand the range of objects they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider nontraditional formats, the presentation and publishing of these experimental works (such as installations and project demos) is still secondary or sidelined, where it exists at all. What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>; Catherine D’Ignazio and Lauren Klein offer the broader term “rhetorical objects.”<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>  Innovative work like this is carefully researched and theorized. It deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.</p>
 <p>Academic research has a long history of textual practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. The <a href="https://openhumanitiesdata.metajnl.com/">Journal of Open Humanities Data</a> and The <a href="https://joss.theoj.org/">Journal of Open Source Software</a> can both be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers.” But even these rely on transforming the content they review—data and software—into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, and augmented reality experiences? Will scholars need to become experts in all these modes, or can we find a way to become conversant in multiple forms of argumentation, as with other important scholarly theories?</p>
 <p>The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides towards reading and thinking in creative new scholarly modes.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
@@ -760,26 +760,190 @@ To play on one of Derrida’s most famous statements, “il n&rsquo;y a pas de h
 <p>This work is based on pre-release versions of the <a href="https://shakespeareandco.princeton.edu/about/data/">datasets now available</a>. Kotin et al., Shakespeare and Company Project Dataset: Lending Library Members, Books, Events, <a href="https://doi.org/10.34770/pe9w-x904">https://doi.org/10.34770/pe9w-x904</a> <a href="#fnref:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Print a model of the Shakespeare and Company Lending Library Membership</title><link href="/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:20:55-04:00</updated><content type="html"><![CDATA[<p>Print a model of Shakespeare and Company lending library membership by date, as described in [Data Beyond Vision].</p>
-<p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag #DataBeyondVision.</p>
-<p>Tools
-3D printer (single or dual filament)
-Slicing software (e.g. Cura or Simplify3D)
-Blade or file (for removing filament artifacts)
-Supplies
-3D printing filament in two different colors</p>
-<p>Steps
-Download the zip file with 3D models and extract the files. [link to zip; zip file is in assets folder]
-Load comb-lolly-cards-a.stl into your slicing software and rotate and scale it so that it fits along the long dimension of your print bed. Make a note of the scale factor you use.
-Load and slice the other three parts of the lollipop chart (comb-lolly-cards-b.stl, comb-lolly-members-a.stl, and comb-lolly-members-b.stl), scaling them with the same scale factor you used for the first model.
-Print the two card models in the same color.
-Print the two member models in the second color.
-Clean up any printing artifacts or threads on the lollipops.
-If you want to print labels, slice and print the appropriate set for your printer (dual filament or single). Dual print models are provided as base and text, to be combined in your slicing software.
-Arrange the comb models and labels on a table or other display.</p>
-<p>Yield: 3D printed model of Shakespeare and Company Library Membership</p>
-<p>[embed 3d viewer]</p>
-]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:20:55-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
+</section>]]></content></entry><entry><title type="html">Print a model of the Shakespeare and Company Lending Library Membership</title><link href="/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:55:06-04:00</updated><content type="html"><![CDATA[<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_500x0_resize_q75_box.jpg 500w,
+    /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_800x0_resize_q75_box.jpg 800w,
+    /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>Close up of 3D printed lollipop chart with labels.<span class="attribution">Photo by Shelley Szwast</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
+|
+| CAPTION: Close up of 3D printed lollipop chart with labels.
+| ATTRIBUTION: Photo by Shelley Szwast
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Print a model of Shakespeare and Company lending library membership by date, as described in <a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision">Data Beyond Vision</a>.</p>
+<p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag <a href="https://twitter.com/search?q=(%23DataBeyondVision)">#DataBeyondVision</a>.</p>
+<h2 id="tools">Tools</h2>
+<ul>
+<li>3D printer (single or dual filament)</li>
+<li>Slicing software (e.g. <a href="https://ultimaker.com/software/ultimaker-cura">Cura</a> or <a href="https://www.simplify3d.com/">Simplify3D</a>)</li>
+<li>Blade or file (for removing filament artifacts)</li>
+</ul>
+<h2 id="supplies">Supplies</h2>
+<ul>
+<li>3D printing filament in two different colors</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Download the <a href="DataBeyondVision-lollipop-members-3Dprint.zip">zip file with 3D models</a> and extract the files.</li>
+<li>Load <code>comb-lolly-cards-a.stl</code> into your slicing software and rotate and scale it so that it fits along the long dimension of your print bed. Make a note of the scale factor you use.</li>
+<li>Load and slice the other three parts of the lollipop chart (<code>comb-lolly-cards-b.stl</code>, <code>comb-lolly-members-a.stl</code>, and <code>comb-lolly-members-b.stl</code>), scaling them with the same scale factor you used for the first model.</li>
+<li>Print the two card models in the same color.</li>
+<li>Print the two member models in the second color.</li>
+<li>Clean up any printing artifacts or threads on the lollipops.</li>
+<li>If you want to print labels, slice and print the appropriate set for your printer (dual filament or single). Dual print models are provided as base and text, to be combined in your slicing software.</li>
+<li>Arrange the comb models and labels on a table or other display.</li>
+</ol>
+<h2 id="yield">Yield</h2>
+<p>3D printed model of Shakespeare and Company Library Membership</p>
+<p>
+<div class="sketchfab-embed-wrapper">
+    <iframe
+        id="sketchfab-89985d66f7244d87b7edbe5fd6266f0d"
+        aria-label="3-D model of Shakespeare and Company membership lollipop chart."
+        frameborder="0"
+        allow="autoplay; fullscreen; vr"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        loading="lazy"
+        src="https://sketchfab.com/models/89985d66f7244d87b7edbe5fd6266f0d/embed?autospin=0.2&amp;autostart=0&amp;camera=0&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1">
+    </iframe>
+    
+    
+    <figure class="preview">
+        <img src="images/modeling-3d-alt.jpg" alt="3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942."/>
+        <figcaption><p>The online version of this essay includes an interactive 3D viewer displaying a model of this object.</p></figcaption>
+    </figure>
+    
+</div>
+
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>/issues/1/stack-shakespeare-and-company-membership-activities/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:55:06-04:00</updated><content type="html"><![CDATA[<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="A partition of a paper model against dark background with years printed on the base." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_500x0_resize_q75_box.jpg 500w,
+    /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_800x0_resize_q75_box.jpg 800w,
+    /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2.jpg 6016w"
+     class="landscape"><figcaption>
+        <p>Close-up of the finished model of membership activities of Shakespeare and Company Library
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. A partition of a paper model against dark background with years printed on the base.
+|
+| CAPTION: Close-up of the finished model of membership activities of Shakespeare and Company Library
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Create your own kirigami model of Shakespeare and Company lending library membership activities, as described in <a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision">Data Beyond Vision</a>.</p>
+<p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag <a href="https://twitter.com/search?q=(%23DataBeyondVision)">#DataBeyondVision</a>.</p>
+<h2 id="tools">Tools</h2>
+<ul>
+<li>Printer</li>
+<li>X-acto knife or other blade</li>
+<li>Bone folder or credit card</li>
+<li>Cutting matt or a stack of scrap paper</li>
+</ul>
+<h2 id="supplies">Supplies</h2>
+<ul>
+<li>5 Sheets of cover stock paper (around 75lb or 200gsm; letter size is recommended, larger also works)</li>
+<li>Double-sided tape (optional)</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Download <a href="stacking-chart_instructions.pdf">the PDF</a></li>
+<li>Print on cardstock paper at actual size</li>
+<li>Cut along the vertical solid lines</li>
+<li>Fold along the horizontal dotted lines. Follow the legend for mountain and valley folds.</li>
+<li>Set up on a table or shelf</li>
+<li>For best results, set on a table against a wall and use double-stick tape to fix to table and wall surface (optional)</li>
+</ol>
+<h2 id="yield">Yield</h2>
+<p>kirigami model of New and Continuing Shakespeare and Company Library Membership Activities
+
+<div class="sketchfab-embed-wrapper">
+    <iframe
+        id="sketchfab-96403a4659414537b470f03da96d7a88"
+        aria-label="3D model showing a folded long paper as base, with opened cuts folded into additional panels."
+        frameborder="0"
+        allow="autoplay; fullscreen; vr"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        loading="lazy"
+        src="https://sketchfab.com/models/96403a4659414537b470f03da96d7a88/embed?autospin=0.2&amp;autostart=0&amp;camera=0&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1">
+    </iframe>
+    
+    
+    <figure class="preview">
+        <img src="images/modeling-3d-alt.jpg" alt="Three photos from multiple angles showing a folded long paper as base, with opened cuts folded into additional panels."/>
+        <figcaption><p>The online version of this essay includes an interactive 3D viewer displaying a model of this object.</p></figcaption>
+    </figure>
+    
+</div>
+
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:55:06-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
 <p>I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was <em>Six Months to Live</em>, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. McDaniel&rsquo;s characters didn&rsquo;t just have cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. They were books about grief and communities formed through crisis.</p>
 <p>These books would have been perfect for a budding hypochondriac, or for a reader inclined towards purple prose and melodrama, but I read them instead for medical details, taking mental notes on how to recognize signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the sick main character, I occupied the position of the doctor, a role I planned (at the time) to take on later in real life. It turned out, though, that I would have to be the protagonist anyway.</p>
 <p>I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be a cyst. Immediately, I was launched into a world at once familiar and alien. I had grown up among doctors and research scientists in the orbit of Washington University Medical School, largely because my father is a medical ethicist with an abiding interest in the practical applications of his work. I had even worked in a research laboratory there from ages sixteen to twenty, studying&mdash;of all things&mdash;the genetics of breast cancer.</p>
@@ -836,50 +1000,630 @@ Arrange the comb models and labels on a table or other display.</p>
 <p>Sontag, Susan. <em>Illness as Metaphor</em>. New York: Farrar, Straus &amp; Giroux, 1978. p. 3. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/weave-derridas-references/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:20:55-04:00</updated><content type="html"><![CDATA[<p>Print a model of Shakespeare and Company lending library membership by date, as described in [Data Beyond Vision].</p>
-<p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag #DataBeyondVision.</p>
-<p>Tools
-3D printer (single or dual filament)
-Slicing software (e.g. Cura or Simplify3D)
-Blade or file (for removing filament artifacts)
-Supplies
-3D printing filament in two different colors</p>
-<p>Steps
-Download the zip file with 3D models and extract the files. [link to zip; zip file is in assets folder]
-Load comb-lolly-cards-a.stl into your slicing software and rotate and scale it so that it fits along the long dimension of your print bed. Make a note of the scale factor you use.
-Load and slice the other three parts of the lollipop chart (comb-lolly-cards-b.stl, comb-lolly-members-a.stl, and comb-lolly-members-b.stl), scaling them with the same scale factor you used for the first model.
-Print the two card models in the same color.
-Print the two member models in the second color.
-Clean up any printing artifacts or threads on the lollipops.
-If you want to print labels, slice and print the appropriate set for your printer (dual filament or single). Dual print models are provided as base and text, to be combined in your slicing software.
-Arrange the comb models and labels on a table or other display.</p>
-<p>Yield: 3D printed model of Shakespeare and Company Library Membership</p>
-<p>[embed 3d viewer]</p>
-]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/stack-shakespeare-and-company-membership-activities/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-22T13:20:55-04:00</updated><content type="html"><![CDATA[<p>Create your own kirigami model of Shakespeare and Company lending library membership activities,
-as described in <a href="/issues/1/data-beyond-vision/#stacking">Data Beyond Vision</a>.</p>
+</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><id>/issues/1/weave-derridas-references/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-22T13:55:06-04:00</updated><content type="html"><![CDATA[<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="A scarf with alternating bands of blue fabrics resting on a table." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/weaving-display.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>Completed weaving of the first 13 pages of Derrida’s references in chapter 1 of Of Grammatology.<span class="attribution">Photo by Shelley Szwast</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. A scarf with alternating bands of blue fabrics resting on a table.
+|
+| CAPTION: Completed weaving of the first 13 pages of Derrida’s references in chapter 1 of Of Grammatology
+| ATTRIBUTION: Photo by Shelley Szwast
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Create your own data weaving of Derrida’s references in chapter 1 of <em>Of Grammatology</em>, as described in <a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision">Data Beyond Vision</a>.</p>
+<p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag <a href="https://twitter.com/search?q=(%23DataBeyondVision)">#DataBeyondVision</a>.</p>
 <h2 id="tools">Tools</h2>
 <ul>
-<li>Printer</li>
-<li>X-acto knife or other blade</li>
-<li>Bone folder or credit card</li>
-<li>Cutting matt or old magazines</li>
+<li>Loom – Rigid Heddle Loom is recommended for beginners. DIY backstrap loom with a string heddle is also possible.</li>
+<li>Stick Shuttle (at least 1)<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li>Scissors</li>
+<li>Long straw or thin dowel</li>
+<li>Yarn needle (optional)</li>
 </ul>
 <h2 id="supplies">Supplies</h2>
 <ul>
-<li>4 Sheets of card stock paper (letter size is recommended, larger also works)</li>
-<li>Double-sided tape (optional)</li>
+<li>9 bundles of yarn of 6 different colors:
+<ul>
+<li>4 light (size 3), 2 different colors for plain text, page separator, and warp. Be sure to choose a sturdy, smooth yarn for your warp. Yarn with 2 strands<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> is recommended for warp.</li>
+<li>1 bulky (size 5) – for epigraphs</li>
+<li>2 super bulky (size 6), 2 different colors – for footnotes and citations</li>
+<li>2 jumbo (size 7) – for quotations</li>
+</ul>
+</li>
 </ul>
 <h2 id="steps">Steps</h2>
 <ol>
-<li>Download the PDF</li>
-<li>Print on cardstock paper at actual size</li>
-<li>Cut along the vertical solid lines</li>
-<li>Fold along the horizontal dotted lines. Follow the legend for mountain and valley folds.</li>
-<li>Set up on a table or shelf</li>
-<li>For best results, set on a table against a wall and use double-stick tape to fix to table and wall surface (optional)</li>
+<li>Let’s learn about some <a href="#key-points-about-the-rigid-heddle-loom">key points and terms on the loom</a>, and <a href="#how-to-set-up-the-warp-on-the-loom">how to set up the warp on the loom</a>.</li>
+<li>Let’s learn about the weaving types used in this piece and what each represents in the <a href="#weaving-types">“Weaving Types” section</a>.</li>
+<li>Let’s weave the Derrida references page by page, covered in the <a href="https://startwords.cdh.princeton.edu/issues/1/weave-references/Pattern-Guide-for-Weaving-Derridas-Margins.pdf">“Pattern Guide for Weaving Derrida’s Margins”</a>.</li>
 </ol>
-<p><strong>Yield:</strong>  kirigami model of Shakespeare and Company lending library membership activities</p>
-]]></content></entry><entry><title type="html">Weaving as interface</title><link href="/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-22T13:20:55-04:00</updated><content type="html"><![CDATA[<html>
+<h2 id="yield">Yield</h2>
+<p>Weaving of the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967).</p>
+<p><div class="deepzoom" id="openseadragon-2" style="height: 10em" aria-label="Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads."></div>
+<script>
+    window.addEventListener("DOMContentLoaded", function() {
+        OpenSeadragon({
+            id: "openseadragon-2",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            preserveViewport: true,
+            visibilityRatio:    1,
+            minZoomLevel:       1,
+            defaultZoomLevel:   1,
+            gestureSettingsMouse: { scrollToZoom: false },
+            tileSources: "https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json",
+        });
+    });
+</script>
+
+
+<figure class="deepzoom-preview">
+    <img src="images/weaving-deepzoom-alt.jpg" alt="Composite of two images from the high resolution image shown in the deep zoom viewer: one showing the full length of the woven piece, and another with a close up showing the threads and different weaving patterns."/>
+    <figcaption><p>The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.</p></figcaption>
+</figure>
+
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<h2 id="key-points-about-the-rigid-heddle-loom">Key points about the Rigid Heddle Loom</h2>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/loom-neutral-position.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>Heddle in neutral position.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Wooden loom sitting on table with blue thread strung taught.
+|
+| CAPTION: Heddle in neutral position.
+| ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled upwards." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/loom-upper-position.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>Heddle in upper position.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Wooden loom sitting on table with blue thread strung taught, pulled upwards.
+|
+| CAPTION: Heddle in upper position.
+| ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled downwards." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/loom-lower-position.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>Heddle in lower position.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Wooden loom sitting on table with blue thread strung taught, pulled downwards.
+|
+| CAPTION: Heddle in lower position.
+| ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/shuttle.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>Shuttle, a tool used to pass the yarn through the warp.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it.
+|
+| CAPTION: Shuttle, a tool used to pass the yarn through the warp.
+| ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Close-up of crossed yarn with vertical threads labeled “Warp” and horizontal yarns threads labeled “Weft”." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/warp-weft-annotated.jpg 3000w"
+     class="portrait"><figcaption>
+        <p>“Warp” and “Weft” yarns.<span class="attribution">Photo by Gissoo Doroudian.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Close-up of crossed yarn with vertical threads labeled “Warp” and horizontal threads labeled “Weft”.
+|
+| CAPTION: “Warp” and “Weft” yarns.
+| ATTRIBUTION: Photo by Gissoo Doroudian.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>The yarn <em>on which</em> you weave a piece, which acts as the base of the weaving and sits longitudinally is called “warp”; yarns you use to weave a piece are called “weft”.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<h2 id="how-to-set-up-the-warp-on-the-loom">How to set up the warp on the loom</h2>
+<p>If you purchase a loom, it will most likely include setup instructions. However, below are a few great resources on how to set up the warp on a Rigid Heddle loom.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=fa1WrHOTjxY">A video that carefully demonstrates the steps visually and verbally</a></li>
+<li><a href="https://www.wearingwoad.com/saori-weaving-tutorial-warping-a-rigid-heddle-loom/">An article that includes a written description of the steps </a></li>
+<li><a href="https://www.ashford.co.nz/images/download_pdfs/learn_to/learn_to_weave_on_the_rigid_heddle.pdf">A downloadable PDF that includes visual and written instructions </a></li>
+</ul>
+<p>Note: Approximately 37 inches of warp yarn was cut and set up on the loom to weave pages 15-27, which makes up half of chapter 1 of <em>Of Grammatology</em>.</p>
+<h2 id="weaving-types">Weaving Types</h2>
+<p>Weaving types used in this piece:</p>
+<ol>
+<li><a href="#plain-weave">Plain weave</a></li>
+<li><a href="#soumak-weave">Soumak weave</a></li>
+<li><a href="#pile-loop-weave">Pile loop weave</a></li>
+<li><a href="#rya-knot">Rya knot</a></li>
+</ol>
+<h3 id="plain-weave">Plain Weave</h3>
+<p>Note: If the yarn is thin you can use the shuttle and the upper and lower position of the heddle to weave the Plain weave. However, if the yarn is too thick you need to leave the heddle in neutral position and use your hands to weave.</p>
+<h4 id="method-1">Method #1</h4>
+<p>This method was used to represent plain text (in royal blue) and page separation in (white).</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Composite of eight images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/plain-weave-thin.jpg 3000w"
+     class="portrait"><figcaption>
+        <p>How to make a Plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.<span class="attribution">Photos by Shelley Szwast and Gissoo Doroudian.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Composite of eight images showing various stages of weaving.
+|
+| CAPTION: How to make a Plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.
+| ATTRIBUTION: Photos by Shelley Szwast and Gissoo Doroudian.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Heddle position: upper and lower</p>
+<p>Yarn size: 3/light</p>
+<p>#1-5 below correspond to the numbers on the images.</p>
+<p>To create a Plain weave:</p>
+<ol>
+<li>Place the heddle in the upper position.</li>
+<li>Insert the shuttle into the opening (called the shed) between the raised and lowered yarns.</li>
+<li>Take the shuttle out the other side.</li>
+<li>Press the weft into place using the heddle.</li>
+<li>Place the heddle in the lower position. On the second pass back (to start the second row), going left to right, repeat the process above. (Reflected in #6-8 in the photos)</li>
+</ol>
+<p>The basic weave continues on in this way over as many warp yarns as you wish.</p>
+<p>Note: Starting the weave from left to right going <em>over</em> the first warp yarn is better because it enables weaving in the loose end of the weft yarn easily. Starting by going under the first warp yarn would cause the weave to look not as seamless.</p>
+<p>Learned and adapted from: <a href="https://www.theweavingloom.com/weaving-techniques-the-plain-weave/">https://www.theweavingloom.com/weaving-techniques-the-plain-weave/</a></p>
+<h4 id="method-2">Method #2</h4>
+<p>This method was used to represent quotations.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Composite of four images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/plain-weave-thick.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>How to make a Plain weave in four steps utilizing the hands to pass the yarn through the warp.<span class="attribution">Photos by Gissoo Doroudian.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Composite of eight images showing various stages of weaving.
+|
+| CAPTION: How to make a Plain weave in four steps utilizing the hands to pass the yarn through the warp.
+| ATTRIBUTION: Photos by Gissoo Doroudian.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Heddle position: neutral</p>
+<p>Yarn size: 7/jumbo</p>
+<p>(Reflected in #1 in the photos)</p>
+<ol>
+<li>Pull the weft yarn over the first warp yarn,</li>
+<li>under the second warp yarn,</li>
+<li>over the third warp yarn.</li>
+</ol>
+<p>Continue until you get to the end of the warp yarn. On the second pass back (to start the second row), going right to left: (Reflected in #2-4 in the photos)</p>
+<ol start="4">
+<li>Pass the weft yarn under the first warp yarn,</li>
+<li>over the second warp yarn,</li>
+<li>under the third warp yarn.</li>
+</ol>
+<p>Continue until the first warp yarn is met again. The basic weave continues on in this way over as many warp yarn as you wish.</p>
+<p>Learned and adapted from:</p>
+<p><a href="https://www.theweavingloom.com/weaving-techniques-the-plain-weave/">https://www.theweavingloom.com/weaving-techniques-the-plain-weave/</a>
+<a href="https://www.youtube.com/watch?v=ZypHL7S7V80">https://www.youtube.com/watch?v=ZypHL7S7V80</a></p>
+<h3 id="soumak-weave">Soumak Weave</h3>
+<p>This technique was used to represent footnotes.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Composite of eight images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/soumak-weave.jpg 3000w"
+     class="portrait"><figcaption>
+        <p>How to make a Soumak weave in eight steps.
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Composite of eight images showing various stages of weaving.
+|
+| CAPTION: How to make a Soumak weave in eight steps.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Heddle position: neutral</p>
+<p>Yarn size: 6/super bulky</p>
+<p>Note: images above were taken on a paper prototype loom, therefore the warp yarns are pulling more than they would on a heddle loom.</p>
+<p>#1-3 below correspond to the numbers on the images.</p>
+<p>The Soumak weave is the process of wrapping the weft yarn around the warp yarn.</p>
+<p>To create the Soumak pattern:</p>
+<ol>
+<li>Place the end of the weft yarn behind the two warp yarns, with the end coming out to the front on the right-hand side of the two warp yarns.</li>
+<li>Pull out the next two warp yarns. While holding the weft yarn bundling in your right hand, pass the weft yarn behind these two warp yarns from right to left.</li>
+<li>After pulling the weft yarn right through to form your first slanted stitch make sure not to pull too tightly as this will distort the warp.</li>
+</ol>
+<p>Continue until you get to the end of the warp yarns. On the second pass back (to start the second row), going right to left,</p>
+<ol start="4">
+<li>At the end of the row wrap around the last two warp yarns twice. (Reflected in #6 in the photos)</li>
+<li>Pull out the next two warp yarns to the left of the end and holding the yarn bundle in your left hand pass it behind the two warps from left to right. This will create a stitch that slants in the opposite direction. (Reflected in #7 in the photos)</li>
+</ol>
+<p>Continue until the first warp yarn is met again.</p>
+<p>Learned and adapted from: <a href="https://www.youtube.com/watch?v=OaP4eQLRefk">https://www.youtube.com/watch?v=OaP4eQLRefk</a></p>
+<h3 id="pile-loop-weave">Pile Loop Weave</h3>
+<p>This technique was used to represent epigraphs.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Composite of seven images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/pile-loop-weave.jpg 3000w"
+     class="portrait"><figcaption>
+        <p>How to make a Pile Loop weave in seven steps.<span class="attribution">Photos by Gissoo Doroudian.</span>
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Composite of seven images showing various stages of weaving.
+|
+| CAPTION: How to make a Pile Loop weave in seven steps.
+| ATTRIBUTION: Photos by Gissoo Doroudian.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Heddle position: neutral</p>
+<p>Yarn size: 5/bulky</p>
+<p>Numbered list below corresponds to the numbers on the images. To create the Pile loop:</p>
+<ol>
+<li>Weave a row of plain weave in the area that you want your loops, using one or two strands of yarn. Please refer to the <a href="#plain-weave">“Plain Weave”</a> section for instructions. Since this yarn is thinner you can use a yarn needle to pass it through the warp as well.</li>
+<li>Take the wooden dowel and pick up your “stitches” by wrapping them around it as shown.</li>
+<li>Once the entire Plain weave row is on the dowel, pull the dowel down on the warp so that it brings the loops down to the support rows.</li>
+<li>Gently remove the dowel so that you leave behind a row of loops.</li>
+<li>Weave another Plain weave row above your loops, and repeat the steps above, while making sure not to pull the weft too much otherwise you’ll start to lose the loops you just made. (Reflected in #5-7 in the photos)</li>
+</ol>
+<p>Continue in this pattern until you have made all the loops you want. Once done, weave a support row of Plain weave and smash that support row down into your loops. You want to really smash the loop rows down so that your weave doesn’t get super loose once you cut it off the loom.</p>
+<p>Learned and adapted from: <a href="https://www.theweavingloom.com/best-of-weaving-technique-pile-loop-weave/">https://www.theweavingloom.com/best-of-weaving-technique-pile-loop-weave/</a></p>
+<h3 id="rya-knot">Rya knot</h3>
+<p>This technique was used to represent citations.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<figure>
+    <img loading="lazy" alt="Composite of four images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weave-derridas-references/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_500x0_resize_q75_box.jpg 500w,
+    /issues/1/weave-derridas-references/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_800x0_resize_q75_box.jpg 800w,
+    /issues/1/weave-derridas-references/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_1200x0_resize_q75_box.jpg 1200w,
+    /issues/1/weave-derridas-references/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_1500x0_resize_q75_box.jpg 1500w,
+    /issues/1/weave-derridas-references/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_1800x0_resize_q75_box.jpg 1800w,
+    /issues/1/weave-derridas-references/images/rya-knot-weave.jpg 3400w"
+     class="landscape"><figcaption>
+        <p>How to make a Rya knot in four steps.
+        </p>
+    </figcaption>
+</figure>
+<div class="txt-only" id="">
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+| FIGURE. Composite of four images showing various stages of weaving.
+|
+| CAPTION: How to make a Rya knot in four steps.
+⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
+</div></p>
+<p>Heddle position: neutral</p>
+<p>Yarn size: 6/super bulky</p>
+<p>Numbered list below corresponds to the numbers on the images. To create a Rya knot:</p>
+<ol>
+<li>Place strands of yarn over the warp yarns.</li>
+<li>Bring the left side of your yarn behind and around two warp yarns.</li>
+<li>Bring the right side of your yarn behind and around your other two warp yarns so that the ends meet up in the middle.</li>
+<li>Pull the end pieces below the top knot area.</li>
+</ol>
+<p>Note: Before pulling ends down and tightening the top knot, make sure to match up both sides of the end pieces and then pull evenly, so that the knot ties with all ends at about the same length. Trimming is usually required for a more uniform fringe, but this helps not waste as much yarn. If starting with the rya knot (bottom up weaving), pull the end pieces below the top knot area. If you are ending with the rya knot (top down weaving) you would pull the end pieces above the top knot area.</p>
+<p>Learned and adapted from: <a href="https://www.theweavingloom.com/weaving-techniques-rya-knots/">https://www.theweavingloom.com/weaving-techniques-rya-knots/</a></p>
+<p>If you would like to try weaving the first chapter of Of Grammatology download the <a href="https://startwords.cdh.princeton.edu/issues/1/weave-references/Pattern-Guide-for-Weaving-Derridas-Margins.pdf">“Pattern Guide for Weaving Derrida’s Margins”</a> and follow the instructions.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>A shuttle is a tool that is used to hold and pass the yarn through the warp. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>A yarn is made up of several twisted strands of fiber, referred to as “plies” <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>The word “weft” literally means that which is woven, and comes from an obsolete form of the word weave; the forms are similar to leave and left. “Weaving.” In Wikipedia, October 13, 2020. <a href="https://en.wikipedia.org/wiki/Weaving">https://en.wikipedia.org/wiki/Weaving</a>. &ldquo;weft, n.1&rdquo;. OED Online. September 2020. Oxford University Press. <a href="https://oed.com.princeton.edu/view/Entry/226851?rskey=95kJcl&amp;result=1">https://oed.com.princeton.edu/view/Entry/226851?rskey=95kJcl&amp;result=1</a> (accessed October 14, 2020). <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content></entry><entry><title type="html">Weaving as interface</title><link href="/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-22T13:55:06-04:00</updated><content type="html"><![CDATA[<html>
 <head>
 <title>deepzoom experiment</title>
 <script src=https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>
