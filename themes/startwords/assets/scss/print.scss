@@ -224,6 +224,22 @@ sup {
     line-height: 1;
 }
 
+/* Generate bookmarks for PDF table of contents) based on headings.
+   Adapted from weasyprint default print css.
+   NOTE: not currently supported by paged.js
+*/
+h1, h2, h3, h4, h5 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    bookmark-label: content(text);
+}
+h1 { bookmark-level: 1; }
+h2 { bookmark-level: 2; }
+h3 { bookmark-level: 3; }
+h4 { bookmark-level: 4; }
+h5 { bookmark-level: 5; }
+h6 { bookmark-level: 6; }
+
 /* sketchfab embed & deep zoom do not render in PDF; use previews instead */
 body.article article {
     .sketchfab-embed-wrapper iframe,
