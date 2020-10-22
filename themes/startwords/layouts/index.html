@@ -14,19 +14,18 @@
     </div>
     <div class="issue-summary inverted grid">
         <div class="container">
-            {{ range first 1 (where .Site.AllPages "Type" "issue") }}
-            <span class="number">Issue {{ .Params.number }}</span>
-            <h2 class="theme">{{ .Params.theme }}</h2>
+            {{ $issue := index (where .Site.AllPages "Type" "issue") 0 }}
+            <span class="number">Issue {{ $issue.Params.number }}</span>
+            <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
                 {{ .Summary | plainify }}
-                <a class="more highlight-focus" href="{{ .Permalink }}">view this issue</a>
+                <a class="more highlight-focus" href="{{ $issue.Permalink }}">view this issue</a>
             </p>
-            {{ end }}
         </div>
     </div>
     <section id="features" aria-label="features" class="inverted grid">
         <div class="wide-container">
-            {{ range first 2 (where .Site.AllPages "Type" "article") }}
+            {{ range first 2 ($issue.Pages.ByParam "order") }}
             {{ .Render "summary" }}
             {{ end }}
         </div>
