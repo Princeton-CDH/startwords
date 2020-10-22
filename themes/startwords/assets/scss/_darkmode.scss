@@ -18,8 +18,15 @@
         }
     }
 
+    .tags {
+        li {
+            color: $off-white;
 
-
+            a, a:visited {
+                color: $off-white;
+            }
+        }
+    }
 }
 
 body.article.darkmode .footnotes ol li {
