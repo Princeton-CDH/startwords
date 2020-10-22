@@ -18,7 +18,7 @@
             <span class="number">Issue {{ $issue.Params.number }}</span>
             <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
-                {{ .Summary | plainify }}
+                {{ $issue.Summary | plainify }}
                 <a class="more highlight-focus" href="{{ $issue.Permalink }}">view this issue</a>
             </p>
         </div>
