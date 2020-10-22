@@ -15,7 +15,7 @@
 |  
 |     Gissoo Doroudian
 |
-|  /issues/1/weave-derridas-references/
+|  https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/
 |
 |
 |  #DataBeyondVision#HowTo
@@ -23,7 +23,7 @@
 ⩩-----------------------------------------------------------------------------------⟩
 |
 |  Issue 1: TRANSFORMATIONS
-|  /issues/1/
+|  https://startwords.cdh.princeton.edu/issues/1/
 |  January 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩

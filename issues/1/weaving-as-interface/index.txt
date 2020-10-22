@@ -16,7 +16,7 @@
 |     Rebecca Sutton Koeser
 |     Gissoo Doroudian
 |
-|  /issues/1/weaving-as-interface/
+|  https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/
 |
 |
 |  #experiments
@@ -24,7 +24,7 @@
 ⩩-----------------------------------------------------------------------------------⟩
 |
 |  Issue 1: TRANSFORMATIONS
-|  /issues/1/
+|  https://startwords.cdh.princeton.edu/issues/1/
 |  January 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩

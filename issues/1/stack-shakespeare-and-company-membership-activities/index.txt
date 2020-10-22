@@ -16,7 +16,7 @@
 |     Xinyi Li
 |     Rebecca Sutton Koeser
 |
-|  /issues/1/stack-shakespeare-and-company-membership-activities/
+|  https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/
 |
 |
 |  #DataBeyondVision#HowTo
@@ -24,7 +24,7 @@
 ⩩-----------------------------------------------------------------------------------⟩
 |
 |  Issue 1: TRANSFORMATIONS
-|  /issues/1/
+|  https://startwords.cdh.princeton.edu/issues/1/
 |  January 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩

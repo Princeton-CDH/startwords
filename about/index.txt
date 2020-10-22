@@ -19,4 +19,4 @@ Technical
  Natalia Ermolaev Zoe LeBlanc Meredith Martin Rebecca Munson   
 
 
-/about/
+https://startwords.cdh.princeton.edu/about/
