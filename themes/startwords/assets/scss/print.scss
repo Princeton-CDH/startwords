@@ -90,13 +90,11 @@ body {
         }
 
         blockquote.pull {
-            width: 50%;
-            /* not sure why weasyprint needs the negative margin, but
-               without it there is a block of extra whitespace above */
-            margin-top: -75px;
-            margin-bottom: 16px;
-            padding: 25px 65px;
+            /* width: 50%; */
+            width: 66%;  /* trying larger width to handle long quotes */
+            margin-top: 0;
             line-height: 30px;
+            page-break-inside: avoid;
 
             &.left {
                 margin-right: 16px;
