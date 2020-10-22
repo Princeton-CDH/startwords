@@ -15,15 +15,18 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     function initAnnotatedZoom(data) {
 
+
+
         // create elements with page numbers to be positioned as overlays
-        var pageDiv = document.getElementById('page_numbers');
+        var frag = document.createDocumentFragment();
         data.overlays.filter(el => el.className == 'page_n')
             .forEach(el => {
                 const pageSpan = document.createElement('span');
                 pageSpan.innerText = el.content;
                 pageSpan.setAttribute('id', el.id);
-                pageDiv.appendChild(pageSpan);
+                frag.appendChild(pageSpan);
             });
+        document.getElementById('page_numbers').appendChild(frag);
 
         var viewer = OpenSeadragon({
             id:"dataweaving-zoom",
