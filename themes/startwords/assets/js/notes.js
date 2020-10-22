@@ -3,7 +3,7 @@
 class ContextualNotes {
     // setting for hiding contextual notes on scroll; on by default
     hideOnScroll = true;
-    showEndnotesOnClose = false;
+    // showEndnotesOnClose = false;
 
     constructor() {
 
@@ -13,7 +13,7 @@ class ContextualNotes {
         // display note if page was loaded with a footnote anchor
         // with brief timeout for font loading & layout
         contextnotes.disableHideOnScroll(2);
-        var note = contextnotes.getCurrentNote();
+        var note = contextnotes.currentNote;
         if (note) {
             note.opacity = 0;   // override default target note styles
             window.setTimeout(function(){
@@ -31,7 +31,7 @@ class ContextualNotes {
         window.addEventListener('scroll', function() {
             if (location.hash.startsWith('#fn:') && contextnotes.hideOnScroll) {
                 // close the note and unbind close link handler
-                contextnotes.closeNote(contextnotes.getCurrentNote());
+                contextnotes.closeNote(contextnotes.currentNote);
             }
         });
 
@@ -63,7 +63,7 @@ class ContextualNotes {
         window.setTimeout(function(){ this.hideOnScroll = true;}, seconds*1000);
     }
 
-    getCurrentNote() {
+    get currentNote() {
         // find currently selected note, if there is one
         if (location.hash.startsWith('#fn:')) {
             return document.getElementById(location.hash.slice(1));
@@ -72,7 +72,7 @@ class ContextualNotes {
 
     setupNote() {
         // display current note (if one is targeted), and bind backref handler
-        var note = this.getCurrentNote();
+        var note = this.currentNote;
         if (note) {
             // TODO: handle notes at the end of the document,
             // where endnotes are visible
