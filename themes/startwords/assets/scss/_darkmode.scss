@@ -4,7 +4,7 @@
         color: $off-white;
 
         a, a:visited {
-            color: $off-white;
+            color: $off-white;  /* or maybe light purple and white only for article heading links? */
         }
     }
 
@@ -26,11 +26,23 @@ body.article.darkmode .footnotes ol li {
     background: $light-grey;
     color: $dark-grey;
 
+    a, a:visited {
+        color: $dark-purple;
+
+        &.footnote-backref {
+            color: transparent;
+        }
+    }
 }
 
 body.article.darkmode .footnotes.endnotes ol li {
     background-color: $dark-grey !important;
     color: $off-white !important;
+
+    a, a:visited {
+        color: $light-purple;
+    }
+
 }
 
 body.article.darkmode article header .number {
