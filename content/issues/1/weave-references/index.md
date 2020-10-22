@@ -267,3 +267,7 @@ Note: Before pulling ends down and tightening the top knot, make sure to match u
 Learned and adapted from: https://www.theweavingloom.com/weaving-techniques-rya-knots/
 
 If you would like to try weaving the first chapter of Of Grammatology download the [“Pattern Guide for Weaving Derrida’s Margins”](https://startwords.cdh.princeton.edu/issues/1/weave-references/Pattern-Guide-for-Weaving-Derridas-Margins.pdf) and follow the instructions.
+
+[^1]: A shuttle is a tool that is used to hold and pass the yarn through the warp.
+[^2]: A yarn is made up of several twisted strands of fiber, referred to as “plies”
+[^3]: The word “weft” literally means that which is woven, and comes from an obsolete form of the word weave; the forms are similar to leave and left. “Weaving.” In Wikipedia, October 13, 2020. https://en.wikipedia.org/wiki/Weaving. "weft, n.1". OED Online. September 2020. Oxford University Press. https://oed.com.princeton.edu/view/Entry/226851?rskey=95kJcl&result=1 (accessed October 14, 2020).
