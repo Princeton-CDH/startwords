@@ -11,7 +11,7 @@ body_class: darkmode
 ---
 
 
-This weaving represents the references in chapter one of Jacques Derrida’s de la Grammatologie (1967). The references have been cataloged and categorized by the research team of [Derrida’s Margins](https://derridas-margins.princeton.edu/). Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read Weaving Derrida’s References.
+This weaving represents the references in chapter one of Jacques Derrida’s _de la Grammatologie_ (1967). The references have been cataloged and categorized by the research team of [Derrida’s Margins](https://derridas-margins.princeton.edu/). Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read [Weaving Derrida’s References](/issues/1/data-beyond-vision/#weaving).
 
 As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.
 
