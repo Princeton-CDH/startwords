@@ -34,6 +34,14 @@
     }
 }
 
+// some text elements shouldn't be more than ~75 characters wide
+@mixin constrain-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 32rem;
+}
+
 // inverted sections use a purple background & white text
 @mixin inverted {
     color: $off-white;

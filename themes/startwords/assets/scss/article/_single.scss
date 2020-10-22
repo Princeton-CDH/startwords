@@ -1,8 +1,7 @@
 /* single article page styles */
 
 body.article {
-
-
+    
     article {
         margin-top: rem(60px);
         margin-bottom: rem(100px);
@@ -16,9 +15,12 @@ body.article {
             margin-bottom: rem(30px);
             @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
             @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
-
-            p { margin: 0; }
-
+            @include constrain-text;
+            
+            p {
+                margin: 0;
+            }
+            
             .number {
                 a, a:visited {
                     color: $dark-grey;
@@ -46,13 +48,17 @@ body.article {
             .formats a { margin-right: rem(5px); }
         }
 
+        // all textual elements that shouldn't be more than 75char wide
+        p, ol, ul, blockquote, hr, h2, h3, h4, h5, h6 { @include constrain-text; }
+        
         // body text
         p {
             // disabling overflow hidden because
             // it makes paragraphs NOT wrap around pull quotes
             // overflow: hidden;    // underlines shouldn't go outside margins
             padding-bottom: 3px; // space for underlines at end of paragraph
-            margin: rem(17px) 0;
+            margin-top: rem(17px);
+            margin-bottom: rem(17px);
             font-weight: 300;
             line-height: rem(27px);
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
@@ -66,8 +72,9 @@ body.article {
 
         // block quotes
         blockquote {
-            margin: rem(30px) 0;
-
+            margin-top: rem(30px);
+            margin-bottom: rem(30px);
+            
             p {
                 margin: 0;
                 font-style: italic;
@@ -95,7 +102,8 @@ body.article {
         // flourished section break
         hr {
             background-image: url("/img/logos/startwords.svg");
-            margin: rem(22px) 0;
+            margin-top: rem(22px);
+            margin-bottom: rem(22px);
             height: rem(22px);
             border: 0;
             background-repeat: no-repeat;
