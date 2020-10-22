@@ -14,7 +14,7 @@ tags: [DataBeyondVision, HowTo]
 | FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
 |
 | CAPTION: Close up of 3D printed lollipop chart with labels. 
-| ATTRIBUTION: Photo by Shelley Szwast.
+| ATTRIBUTION: Photo by Shelley Szwast
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
