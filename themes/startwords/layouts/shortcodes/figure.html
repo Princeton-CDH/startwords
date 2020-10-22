@@ -42,10 +42,12 @@
         {{- with .Get "caption" -}}
         {{ . | markdownify }}
         {{- end -}}
-        {{- with .Get "attr" -}}
-        {{- with .Get "attrlink" -}}<a href="{{ . }}">{{- end -}}
-        {{- .Get "attr" | markdownify -}}
-        {{- if .Get "attrlink" }}</a>{{- end -}}
+        {{- if .Get "attr" -}}
+        <span class="attribution">
+            {{- with .Get "attrlink" -}}<a href="{{ . }}">{{- end -}}
+            {{- .Get "attr" | markdownify -}}
+            {{- if .Get "attrlink" }}</a>{{- end -}}
+        </span>
         {{- end }}
         </p>
     </figcaption>
