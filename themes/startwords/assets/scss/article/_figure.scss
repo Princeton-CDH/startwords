@@ -22,6 +22,11 @@ body.article figure {
         }
     }
 
+    // space between main caption and attribution
+    .attribution::before {
+        content: ' ';
+    }
+
     figcaption {
         font-style: italic;
         font-size: rem(16px);
