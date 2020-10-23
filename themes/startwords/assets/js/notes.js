@@ -17,21 +17,21 @@ class ContextualNotes {
         if (note) {
             note.opacity = 0;   // override default target note styles
             window.setTimeout(function(){
-                contextnotes.setupNote();
+                contextnotes.showNote();
                 note.opacity = 1;
             }, 500);
         }
 
         // bind event listeners
         window.addEventListener('hashchange', function() {
-            contextnotes.setupNote();
+            contextnotes.showNote();
         }, false);
 
         /* on scroll, if a footnote is currently targeted, unselect */
         window.addEventListener('scroll', function() {
             if (location.hash.startsWith('#fn:') && contextnotes.hideOnScroll) {
                 // close the note and unbind close link handler
-                contextnotes.closeNote(contextnotes.currentNote);
+                ContextualNotes.closeNote(contextnotes.currentNote);
             }
         });
 
@@ -70,43 +70,66 @@ class ContextualNotes {
         }
     }
 
-    setupNote() {
+    showNote() {
+        // display specified note, or if no note is specified,
+        // display the current note (if one is targeted), and bind backref handler
+
         // display current note (if one is targeted), and bind backref handler
+        // note = (typeof note !== 'undefined') ?  note : this.currentNote;
+        console.log('setting up note');
+        // console.log(note);
         var note = this.currentNote;
+        console.log(note)
         if (note) {
             // TODO: handle notes at the end of the document,
             // where endnotes are visible
-
+            console.log('positioning')
             this.positionContextualNote(note);
             // get back reference link to override behavior
             var backref = note.getElementsByClassName('footnote-backref').item(0);
-            backref.addEventListener('click', this.noteCloseLinkHandler);
+            backref.addEventListener('click', ContextualNotes.noteCloseLinkHandler);
         }
     }
 
-    closeNote(note) {
-        // change the location hash, deselecting the note
-        // Set to non-existent id so note is no longer targeted,
-        // but document does not scroll
-        location.hash = '#-';
-        // unbind the close link handler
-        var backref = note.getElementsByClassName('footnote-backref').item(0);
-        // this.removeEventListener('click', noteCloseLinkHandler);
-        backref.removeEventListener('click', this.noteCloseLinkHandler);
+    static closeNote(note) {
+        note = (typeof note !== 'undefined') ?  note : document.getElementById(location.hash.slice(1));
+        if (note) {
+            // change the location hash, deselecting the note
+            // Set to non-existent id so note is no longer targeted,
+            // but document does not scroll
+            location.hash = '#-';
+            // unbind the close link handler
+            var backref = note.getElementsByClassName('footnote-backref').item(0);
+            backref.removeEventListener('click', ContextualNotes.noteCloseLinkHandler);
 
-        // TODO: handle showing endnotes again for notes
-        // at end of document
+            // TODO: handle showing endnotes again for notes
+            // at end of document
+        }
     }
 
-    noteCloseLinkHandler() {
+    static noteCloseLinkHandler() {
+        console.log('noteCloseLinkHandler')
+        console.log(this);
         // prevent default behavior to avoid jarring scroll to reference
         // Check that the parent note is still selected; otherwise behave normally
-        var note = this.parentNode.parentNode;
+
+        // backref may be inside a paragraph OR directly inside the li
+        var note = this.parentNode;
+        if (note.localName != 'li') {
+            note = note.parentNode;
+        }
+        // FIXME: on annotated zoom, should be this.parentNode
+        // but elsewhere we want this.parentNode.parentNode !!!
+
+        console.log('note');
+        console.log(note);
+        console.log('location hash ' + location.hash);
+
         if (location.hash == '#' + note.getAttribute('id')) {
             event.preventDefault();
             event.stopPropagation();
         }
-        window.contextnotes.closeNote(note);   // ugh, how not to assume this?
+        ContextualNotes.closeNote(note);   // ugh, how not to assume this?
     }
 
     positionContextualNote(note) {
@@ -165,19 +188,35 @@ class ContextualNotes {
         }
     }
 
+    // note: methods used in event handlers are declared as static
+
+    static showEndnotes(elem) {
+        // default footnotesif elem is undefined
+        elem = (typeof elem !== 'undefined') ?  elem : document.querySelector('.footnotes');
+
+        elem.classList.add('endnotes');
+        // clear computed positions/styles for all notes
+        var notes = elem.getElementsByTagName('li');
+            Array.prototype.forEach.call(notes, function(li) {
+                li.removeAttribute('style');
+                li.classList.remove('flip');
+            });
+    }
+
+    static hideEndnotes(elem) {
+        // default footnotes if elem undefined
+        elem = (typeof elem !== 'undefined') ?  elem : document.querySelector('.footnotes');
+        elem.classList.remove('endnotes');
+    }
+
+
     endnoteIntersectionCallback(entries, observer) {
         entries.forEach(entry => {
           var elem = entry.target;
             if (entry.isIntersecting) {
-                elem.classList.add('endnotes');
-                // clear computed positions/styles for all notes
-                var notes = elem.getElementsByTagName('li');
-                    Array.prototype.forEach.call(notes, function(li) {
-                        li.removeAttribute('style');
-                        li.classList.remove('flip');
-                    });
+                ContextualNotes.showEndnotes(elem);
             } else {
-                elem.classList.remove('endnotes');
+                ContextualNotes.hideEndnotes(elem);
             }
         })
     }
