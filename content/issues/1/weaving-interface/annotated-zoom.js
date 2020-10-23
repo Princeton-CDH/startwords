@@ -67,7 +67,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         // close any open contextual notes when panning through the image
         viewer.addHandler("pan", function () {
-            location.hash = '#-';
+            ContextualNotes.closeNote();
         });
 
     }

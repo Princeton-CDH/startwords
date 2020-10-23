@@ -122,7 +122,7 @@ body.article .footnotes li img {
 }
 
 body.article .footnotes.endnotes ol li a[role=doc-backlink] {
-    display: none;  /* back links are not functional, hard to link back to highlighted zone */
+    opacity: 0;  /* back links are not functional, hard to link back to highlighted zone */
     /*color: var(--light-purple);*/
 }
 
