@@ -1,38 +1,38 @@
 /* single article page styles */
 
 body.article {
-    
-    
+
+
     article {
         margin-top: rem(60px);
         margin-bottom: rem(100px);
-        
+
         @media (min-width: $breakpoint-s) {
             margin-bottom: 0;
         }
-        
+
         // header (summary)
         header {
             margin-bottom: rem(30px);
             @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
             @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
-            
+
             p { margin: 0; }
-            
+
             .number {
                 a, a:visited {
                     color: $dark-grey;
                     text-decoration: none;
                 }
             }
-            
+
             .theme {
                 font-size: rem(18px);
                 font-weight: 900;
             }
-            
+
             .doi { display: inline; clear: both; }
-            
+
             // sequential author display with commas
             .authors {
                 font-weight: 400;
@@ -40,56 +40,58 @@ body.article {
                 address::after { content: ', '; }
                 li:last-child address::after { content: ''; }
             }
-            
+
             .formats { font-weight: 400; margin-top: .5rem; }
-            
+
             .formats a { margin-right: rem(5px); }
         }
-        
+
         // body text
         p {
-            overflow: hidden;    // underlines shouldn't go outside margins
+            // disabling overflow hidden because
+            // it makes paragraphs NOT wrap around pull quotes
+            // overflow: hidden;    // underlines shouldn't go outside margins
             padding-bottom: 3px; // space for underlines at end of paragraph
             margin: rem(17px) 0;
             font-weight: 300;
             line-height: rem(27px);
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
         }
-        
+
         // lists
         ol, ul {
             font-weight: 300;
             line-height: rem(27px);
         }
-        
+
         // block quotes
         blockquote {
             margin: rem(30px) 0;
-            
+
             p {
                 margin: 0;
                 font-style: italic;
                 font-weight: 400;
             }
-            
+
             cite {
                 display: block;
                 margin-top: rem(5px);
                 font-style: normal;
                 font-weight: 300;
-                
+
                 &::before {
                     content: ' – '
                 }
             }
         }
-        
+
         // links
         a {
             @include highlight-focus;
             &.footnote-ref { outline-offset: rem(-10px); }
         }
-        
+
         // flourished section break
         hr {
             background-image: url("/img/logos/startwords.svg");
@@ -100,7 +102,7 @@ body.article {
             background-size: contain;
             background-position: center;
         }
-        
+
         // pull quotes
         blockquote.pull {
             margin: 0;
@@ -114,42 +116,34 @@ body.article {
             font-weight: 400;
             font-style: italic;
             color: $purple;
-            
+            line-height: rem(30px);
+
             @media (min-width: $breakpoint-s) { width: 50%; }
-            @media (min-width: $breakpoint-m) { font-size: rem(24px); }
-            
+            @media (min-width: $breakpoint-m) {
+                font-size: rem(24px);
+                line-height: rem(32px);
+            }
+
             &.left {
                 float: left;
                 margin-right: rem(10px);
             }
-            
+
             &.right {
                 float: right;
                 margin-left: rem(10px);
             }
-            
-            &::before, &::after {
-                position: absolute;
-            }
-            
-            &::before {
-                top: rem(10px);
-                left: rem(10px);
-                content: url('/img/pullquote-start.svg');
-            }
-            
-            &::after {
-                bottom: rem(10px);
-                right: rem(10px);
-                content: url('/img/pullquote-stop.svg');
-            }
+
+            background-image: url('/img/pullquote-start.svg'), url('/img/pullquote-stop.svg');
+            background-position: rem(10px) rem(10px), right rem(10px) bottom rem(10px);
+            background-repeat: no-repeat, no-repeat;
         }
     }
-    
+
     // embedded content
     .sketchfab-embed-wrapper {
         margin: rem(30px) 0;
-        
+
         iframe {
             width: 100%;
             height: $frame-height;
@@ -160,7 +154,7 @@ body.article {
             max-width: 100%;
         }
     }
-    
+
     .deepzoom {
         width: 100%;
     }
@@ -169,7 +163,7 @@ body.article {
         display: none;
         max-width: 100%;
     }
-    
+
 }
 
 /* fallback content included to be shown in TXT version only */

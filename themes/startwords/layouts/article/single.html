@@ -55,6 +55,20 @@
                 {{- end }}
                 </p>
             </header>
+
+            {{/* elements for PDF header & footer */}}
+            <section class='print-only'>
+
+                <a class="first-page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+                    <img alt="Startwords" src="{{ relURL "/pdf-logotype.svg" }}" /></a>
+
+                <a class="page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+                    <img alt="Startwords" src="{{ relURL "/pdf-logo.svg" }}" /></a>
+
+                 <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="page-doi">doi:{{ .Params.doi }}</a>
+
+            </section>
+
             <div class="text-container">
             {{ .Content }}
             </div>
@@ -62,17 +76,4 @@
     </article>
 </main>
 
-
-{{/* elements for PDF header & footer */}}
-<section class='print-only'>
-
-    <a class="first-page-header" href="{{ relURL "/" }}" aria-label="Startwords">
-        <img alt="Startwords" src="{{ relURL "/pdf-logotype.svg" }}" /></a>
-
-    <a class="page-header" href="{{ relURL "/" }}" aria-label="Startwords">
-        <img alt="Startwords" src="{{ relURL "/pdf-logo.svg" }}" /></a>
-
-     <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="page-doi">doi:{{ .Params.doi }}</a>
-
-</section>
 {{ end }}

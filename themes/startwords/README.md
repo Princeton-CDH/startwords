@@ -8,7 +8,7 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 ## Features
 
 - Markdown footnotes ([^1]) are rendered both as **contextual notes**—a new design feature that allows for popup annotations to float above a referenced line—as well as endnotes at the bottom of an article's page. These contextual notes also allow for images to be included within the space of the note itself.
-- Multiple article output formats: articles are generated as .txt files using Hugo's `{{ .Plain }}` [page variable](https://gohugo.io/variables/page/) and as PDFs using [WeasyPrint](https://weasyprint.org/)
+- Multiple article output formats: articles are generated as .txt files using Hugo's `{{ .Plain }}` [page variable](https://gohugo.io/variables/page/) and as PDFs using [paged.js](https://pagedjs.org/)
 - Article DOIs (registered with [Zenodo](zenodo.org/)) are specified in each article's YAML header, so that article metadata can be easily harvested by [Zotero](https://www.zotero.org/) citation management software.
 - Article illustration capabilities are built in using deep-zoom view of [IIIF](https://iiif.io/) images and [Sketchfab](https://sketchfab.com/) for embedding 3D models.
 - Excerpts of the current issue's opening lines are generated on the homepage using Hugo's [content summary divider](https://gohugo.io/content-management/summaries/), either with a `<!--more-->` tag after an article's opening sentence, or by populating a `summary:` field in the article's YAML header.
@@ -134,7 +134,7 @@ Example use for a chart or graph, with long description:
 {{< wrap class="sr-only" id="chart-desc">}}Four different economic sectors are represented. The sector showing the most sales growth is the rubber duck industry, with growth approaching 25%.{{</ wrap >}}
 ```
 
-## parameters
+#### parameters
 
 - `src`, URL of the image in the figure.
 - `alt`, text used by assistive technology to describe the content of the figure.
@@ -159,6 +159,20 @@ Other approaches for data representation and interpretation include:
 ```
 
 [view source](layouts/shortcodes/wrap.html)
+
+## Generating PDFs
+
+PDF versions of feature articles should be created with [paged.js](https://pagedjs.org/) from the production site so that URLs are correct.
+
+Install paged.js command-line interface:
+```
+npm install -g pagedjs-cli pagedjs
+```
+
+Generate a PDF:
+```
+pagedjs-cli https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/ -o startwords-1-their-data-ourselves.pdf
+```
 
 
 ## Information Architecture
