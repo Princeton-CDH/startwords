@@ -2,6 +2,13 @@
 
 body.page {
     ul { list-style: none; }    // non-bulleted lists
+
+    main header {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 32rem;
+    }
 }
 
 

@@ -1,6 +1,8 @@
 body.article .footnotes {
-    margin: rem(120px) 0;
     min-height: 50vh;
+    margin-top: rem(120px);
+    margin-bottom: rem(120px);
+    @include constrain-text;
 
     > hr { display: none; }
 
