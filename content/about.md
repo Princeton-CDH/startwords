@@ -21,8 +21,11 @@ Each issue features two articles that speak to a common theme, feature, or conce
 
 **UX Designer** Gissoo Doroudian
 
+**Technical Lead** Nick Budak
+
+**Manuscript Editing** Camey VanSant
+
 **Technical**
-- Nick Budak
 - Rebecca Sutton Koeser
 - Grant Wythoff
 
@@ -32,4 +35,5 @@ Each issue features two articles that speak to a common theme, feature, or conce
 - Zoe LeBlanc
 - Meredith Martin
 - Rebecca Munson
+
 {{</ wrap >}}
