@@ -153,7 +153,7 @@ class ContextualNotes {
         // - top of note should be directly below the ref
         note.style.top = refLocation.top + refLocation.height + 5 + 'px';
         //- tip of the arrow should point to the reference
-
+        var noteLeft;
         // if reference is close to the left side, flip the triangle
         // 125px: free space in margin when viewport is at 415px (minimum) =
         // (difference between note width and viewport width + len of small side of note triangle)
