@@ -81,7 +81,7 @@ body.article .footnotes {
 
         &::before {
             /* replace list marker with counter (::marker not yet widely supported) */
-            content: counters(footnoteCounter, ".");
+            content: counter(footnoteCounter);
             color: $red;
             font-family: $font-serif;
 

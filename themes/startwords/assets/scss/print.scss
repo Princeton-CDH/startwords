@@ -90,13 +90,12 @@ body {
         }
 
         blockquote.pull {
-            width: 50%;
-            /* not sure why weasyprint needs the negative margin, but
-               without it there is a block of extra whitespace above */
-            margin-top: -75px;
-            margin-bottom: 16px;
-            padding: 25px 65px;
-            line-height: 30px;
+            /* width: 50%; */
+            width: 66%;  /* wider makes it easier to flow content */
+            margin-top: 0;
+            line-height: 22px;
+            font-size: 16px;
+            page-break-inside: avoid;
 
             &.left {
                 margin-right: 16px;
@@ -186,18 +185,31 @@ body.article .footnotes {
         display: none;
     }
     ol {
+        list-style: decimal inside;
+
         li {
             background: white;
             font-size: 12px;
             line-height: 18px;
             position: relative;
 
+            /** NOTE: counters are not incrementing when generating PDFs with
+              pagedjs (all endnotes are numbered 0). As a workaround,
+              display the list marker and style it as close as possible
+              to the design specification */
             &::before {
-                margin: 0;
-                position: absolute;
-                left: 0;
-                margin-top: -5px;
-                vertical-align: super;
+                display: none;
+            }
+            &::marker {
+                color: $red;
+                font-family: $font-serif;
+                font-weight: bold;
+                font-size: rem(35px);
+            }
+             p:first-child {
+                /* move first paragraph up to compensate for inside list marker
+                   placement. */
+                margin-top: -1rem;
             }
         }
     }
@@ -225,6 +237,22 @@ a.footnote-ref {
 sup {
     line-height: 1;
 }
+
+/* Generate bookmarks for PDF table of contents) based on headings.
+   Adapted from weasyprint default print css.
+   NOTE: not currently supported by paged.js
+*/
+h1, h2, h3, h4, h5 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    bookmark-label: content(text);
+}
+h1 { bookmark-level: 1; }
+h2 { bookmark-level: 2; }
+h3 { bookmark-level: 3; }
+h4 { bookmark-level: 4; }
+h5 { bookmark-level: 5; }
+h6 { bookmark-level: 6; }
 
 /* sketchfab embed & deep zoom do not render in PDF; use previews instead */
 body.article article {
