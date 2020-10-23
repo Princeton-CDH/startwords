@@ -4,7 +4,7 @@
     --off-white: #F6F6F6;
     --purple: #4C2A85;
     --light-purple: #E0CEFF;
-
+    --transparent-red: rgba(206, 41, 73, 0.5);
 }
 
 body.article .deepzoom {
@@ -32,8 +32,7 @@ body.article .deepzoom {
 }
 
 .highlight {
-    border: 3px solid var(--red);
-    opacity: 0.5;
+    border: 3px solid var(--transparent-red);
     counter-increment: highlightZoneCounter;
 }
 
@@ -54,9 +53,9 @@ body.article .deepzoom {
     padding-right: 0;
     background: var(--off-white);
     border-radius: 50%;
-    width: 0.8rem;
-    height: 0.8rem;
-    line-height: 0.8rem;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
     margin-top: 0.5rem;
 
 }
@@ -69,7 +68,7 @@ body.article .deepzoom {
 }
 
 .highlight:hover {
-    opacity: 1;
+    border: 3px solid var(--red);
 }
 
 body.article .footnotes {
