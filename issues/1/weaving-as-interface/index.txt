@@ -9,7 +9,7 @@
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
-|  Weaving as interface
+|  Weaving as Interface
 |
 |  Authors:
 |  
@@ -19,7 +19,7 @@
 |  https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/
 |
 |
-|  #experiments
+|  #DataBeyondVision#Experiment
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
@@ -29,257 +29,205 @@
 |
 ⩩-----------------------------------------------------------------------------------⟩
 
-deepzoom experiment
+This weaving represents the references in chapter one of Jacques Derrida’s _de la Grammatologie_ (1967). The references have been cataloged and categorized by the research team of Derrida’s Margins [URL: https://derridas-margins.princeton.edu/]. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read Weaving Derrida’s References [URL: /issues/1/data-beyond-vision/#weaving].
 
- --&gt;
+As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.
 
-    body {
-        background-color: black;
-    }
 
-    .highlight {
-        /*border: 3px solid yellow;*/
-    }
-    .highlight:hover {
-        border: 3px solid yellow;
-    }
+[NOTE 1] [NOTE 2] [NOTE 3] [NOTE 4] [NOTE 5] [NOTE 6] [NOTE 7] [NOTE 8] [NOTE 9] [NOTE 10] [NOTE 11] [NOTE 12] [NOTE 13] [NOTE 14] [NOTE 15] [NOTE 16] [NOTE 17] [NOTE 18] [NOTE 19] [NOTE 20] [NOTE 21] [NOTE 22] [NOTE 23] [NOTE 24] [NOTE 25] [NOTE 26] [NOTE 27] [NOTE 28] [NOTE 29] [NOTE 30] [NOTE 31]
 
-    .pnum {
-        text-decoration: none;
-        color: white;
-        font-size: 22pt;
-    }
-/*    .pnum::after {
-        content: &#39;1&#39;;
-        font-size: 22pt;
-        display: block;
-        color: white;
-    }
-*/
-
-    .reference {
-        position: absolute;
-        padding: 20px;
-        left: 0;
-        bottom: 0;
-        width: 450px;
-        height: 350px;
-        background-color: white;
-        z-index: 3;
-        opacity: 0;
-
-       -webkit-transition: opacity 1.5s ease-in-out;
-       -moz-transition: opacity 1.5s ease-in-out;
-       -ms-transition: opacity 1.5s ease-in-out;
-       -o-transition: opacity 1.5s ease-in-out;
-    }
-
-    .reference.loading {
-        opacity: 0.5;
-    }
-
-    .reference.show {
-        opacity: 1;
-    }
+ 
 
 
 
+ 
+
+
+ 
 
 
 
+Acknowledgements
+----------------
+
+The reference information shown here is drawn from datasets related to Derrida&#39;s Margins [URL: https://derridas-margins.princeton.edu/]:
+
+&gt; Chenoweth, Katie, Alexander Baron-Raiffe, Renée Altergott, Chloé Vettier, Chad Córdova, Rebecca Sutton Koeser, Jean Bauer, and Benjamin Hicks. 2018. “References in Jacques Derrida&#39;s De La Grammatologie”. figshare. doi:10.6084/m9.figshare.7180448.v1 [URL: https://doi.org/10.6084/m9.figshare.7180448.v1].
+
+&gt; Chenoweth, Katie, Alexander Baron-Raiffe, Renée Altergott, Chad Córdova, Austin Hancock, Chloé Vettier, Rebecca Sutton Koeser, Jean Bauer, Benjamin Hicks, and Nick Budak. 2018. “Works Cited by Jacques Derrida in De La Grammatologie”. figshare. doi:10.6084/m9.figshare.7180460.v1 [URL: https://doi.org/10.6084/m9.figshare.7180460.v1].
+
+The high resolution capture of the data weaving used here was created by Princeton University Library, Digital Imaging Studio.  Annotations on the image were drawn with Recogito [URL: https://recogito.pelagios.org/].
 
 
-
-
-
-    1
-    2
-    3
-    4
-    5
-    6
-
-
-
-
-
-
-
-
-var viewer = OpenSeadragon({
-    id:&#34;openseadragon-2&#34;,
-    prefixUrl:&#34;https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/&#34;,
-    preserveViewport: true,
-    visibilityRatio: 1,
-    // disallow zoom in/out
-    minZoomLevel: 5,
-    maxZoomLevel: 5,
-    defaultZoomLevel: 5,
-    // disable vertical panning
-    panVertical: false,
-    showNavigationControl: false,
-
-    tileSources:&#34;https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json&#34;,
-    overlays: [
-
-        {
-            // page1 label
-            id: &#39;p1&#39;,
-            px: 2600,
-            py: 650,
-            width: 50,
-            height: 50,
-            className: &#39;pnum&#39;
-        },
-
-        {
-            id: &#39;p2&#39;,
-            px: 3793,
-            py: 650,
-            width: 50,
-            height: 50,
-            className: &#39;pnum&#39;
-        },
-        {
-            id: &#39;p3&#39;,
-            px: 4840,
-            py: 650,
-            width: 50,
-            height: 50,
-            className: &#39;pnum&#39;
-        },
-        {
-            id: &#39;p4&#39;,
-            px: 5862,
-            py: 650,
-            width: 50,
-            height: 50,
-            className: &#39;pnum&#39;
-        },
-        {
-            id: &#39;p5&#39;,
-            px: 6210,
-            py: 650,
-            width: 50,
-            height: 50,
-            className: &#39;pnum&#39;
-        },
-        {
-            id: &#39;p6&#39;,
-            px: 6570,
-            py: 650,
-            width: 50,
-            height: 50,
-            className: &#39;pnum&#39;
-        },
-
-        {
-            // epigram p15
-            id: &#39;ref15a&#39;,
-            px: 2560,
-            py: 848,
-            width: 352,
-            height: 1776,
-            className: &#39;highlight&#39;
-        },
-        {
-            // footnote 1 p16
-            id: &#39;ref16a&#39;,
-            px: 4359,
-            py: 810,
-            width: 141,
-            height: 1794,
-            className: &#39;highlight&#39;
-        },
-        {
-            // footnote 2 p16
-            id: &#39;ref16b&#39;,
-            px: 4500,
-            py: 810,
-            width: 141,
-            height: 1794,
-            className: &#39;highlight&#39;
-        },
-        {
-            // footnote 3 p16
-            id: &#39;ref16c&#39;,
-            px: 4642,
-            py: 810,
-            width: 141,
-            height: 1794,
-            className: &#39;highlight&#39;
-        },
-    ],
-})
-
-
-viewer.addHandler(&#34;open&#34;, function () {
-    console.log(&#39;opened&#39;);
-    // start with left part of the weaving showing
-    viewer.viewport.panTo(new OpenSeadragon.Point(0.17, 0.09), true)
-
-    // equivalent event for touch?
-    const referenceOverlays = document.querySelectorAll(&#34;.highlight&#34;);
-
-    function showReference() {
-        document.querySelector(&#39;.reference&#39;).classList.add(&#39;loading&#39;);
-
-        console.log(this.getAttribute(&#39;id&#39;));
-        // var refID = references[this.getAttribute(&#39;id&#39;)];
-        var refID = this.getAttribute(&#39;id&#39;).slice(3);
-        var refUrl = &#39;/references/de-la-grammatologie/&#39; &#43; refID &#43; &#39;/&#39;;
-        // console.log(refUrl);
-        console.log(&#39;https://derridas-margins.princeton.edu&#39; &#43; refUrl)
-        // console.log(&#39;https://test-derrida.cdh.princeton.edu&#39; &#43; refUrl);
-        // var xhr = new XMLHttpRequest();
-        // xhr.onload = function() {
-        //   console.log(this.responseXML.title);
-        // }
-        // xhr.open(&#34;GET&#34;, &#39;https://derridas-margins.princeton.edu&#39; &#43; refUrl);
-        // xhr.responseType = &#34;document&#34;;
-        // xhr.send();
-
-        fetch(&#39;https://derridas-margins.princeton.edu&#39; &#43; refUrl, {
-        // fetch(&#39;https://test-derrida.cdh.princeton.edu&#39; &#43; refUrl, {
-        // fetch(&#39;http://192.168.2.10:8000&#39; &#43; refUrl, {
-            // headers: {
-                // &#39;X-Requested-With&#39;: &#39;XMLHttpRequest&#39;,
-            // }
-        })
-          // .then(response =&gt; console.log(response))
-          .then(response =&gt; response.text())
-          .then(function(text) {
-            // console.log(data);
-            // console.log(document.querySelector(&#39;.reference&#39;));
-            const ref = document.querySelector(&#39;.reference&#39;);
-            console.log(text);
-            ref.innerHTML = text;
-            ref.classList.remove(&#39;loading&#39;);
-            ref.classList.add(&#39;show&#39;);
-          });
-        }
-
-    function hidereference() {
-        const ref = document.querySelector(&#39;.reference&#39;);
-        ref.innerHTML = &#39;&#39;;
-        ref.classList.remove(&#39;show&#39;);
-    }
-
-    for (const refOverlay of referenceOverlays) {
-        refOverlay.addEventListener(&#39;touchstart&#39;, showReference)
-        refOverlay.addEventListener(&#39;touchcancel&#39;, hidereference);
-
-        refOverlay.addEventListener(&#39;mouseover&#39;, showReference)
-        refOverlay.addEventListener(&#39;mouseout&#39;, hidereference);
-
-    }
-
-});
-
-// viewer.addEventListener(&#39;open&#39;, function(event) {
-    // console.log(&#39;binding hover listener for highlight&#39;);
-// });
-
-
-
-
+1. Epigraph, p. 15
+        *La Naissance de la tragédie [URL: https://derridas-margins.princeton.edu/library/nietzsche-die-geburt-der-tragodie-aus-dem-geiste-der-musik-1949/]* (1949)
+    Friedrich Nietzsche
+            Socrate, celui qui n&#39;écrit pas.(p. 172)
+[IMAGE: Cover of La Naissance de la tragédie]
+        
+2. Footnote, p. 16
+        *Langue et écriture [URL: https://derridas-margins.princeton.edu/titles/227/]* 
+    V. M. Istrin
+            Parler ici d&#39;une écriture première ne revient pas à affirmer une priorité chronologique de fait. On connaît ce débat  : l&#39;écriture est-elle, comme l&#39;affirmaient par exemple Metchnaninov et Marr, puis Loukotka, « antérieure au langage phonétique » ? (Conclusion assumée par la première édition de la Grande Encyclopédie Soviétique, puis contredite par Staline. Sur ce débat, cf. V. Istrine, *Langue et écriture*, in *Linguistique, op. cit.*, pp. 35, 60. Ce débat s&#39;est aussi fixé autour des thèses du P. van Ginneken. Sur la discussion de ces thèses, cf. J. Février, *Histoire de l&#39;écriture*, Payot, 1948-1959, p. 5 sq.) Nous essaierons de montrer plus loin pourquoi les termes et les prémisses d&#39;un tel débat appellent la suspicion.(p. 35)
+        
+3. Footnote, p. 16
+        *Langue et écriture [URL: https://derridas-margins.princeton.edu/titles/227/]* 
+    V. M. Istrin
+            Parler ici d&#39;une écriture première ne revient pas à affirmer une priorité chronologique de fait. On connaît ce débat  : l&#39;écriture est-elle, comme l&#39;affirmaient par exemple Metchnaninov et Marr, puis Loukotka, « antérieure au langage phonétique » ? (Conclusion assumée par la première édition de la Grande Encyclopédie Soviétique, puis contredite par Staline. Sur ce débat, cf. V. Istrine, *Langue et écriture*, in *Linguistique, op. cit.*, pp. 35, 60. Ce débat s&#39;est aussi fixé autour des thèses du P. van Ginneken. Sur la discussion de ces thèses, cf. J. Février, *Histoire de l&#39;écriture*, Payot, 1948-1959, p. 5 sq.) Nous essaierons de montrer plus loin pourquoi les termes et les prémisses d&#39;un tel débat appellent la suspicion.(p. 60)
+        
+4. Footnote, p. 16
+        *Histoire de l&#39;écriture [URL: https://derridas-margins.princeton.edu/library/?query=fevrier-histoire-de-lecriture-1948&amp;is_extant=false]* (1948)
+    James Février
+            Parler ici d&#39;une écriture première ne revient pas à affirmer une priorité chronologique de fait. On connaît ce débat  : l&#39;écriture est-elle, comme l&#39;affirmaient par exemple Metchnaninov et Marr, puis Loukotka, « antérieure au langage phonétique » ? (Conclusion assumée par la première édition de la Grande Encyclopédie Soviétique, puis contredite par Staline. Sur ce débat, cf. V. Istrine, *Langue et écriture*, in *Linguistique, op. cit.*, pp. 35, 60. Ce débat s&#39;est aussi fixé autour des thèses du P. van Ginneken. Sur la discussion de ces thèses, cf. J. Février, *Histoire de l&#39;écriture*, Payot, 1948-1959, p. 5 sq.) Nous essaierons de montrer plus loin pourquoi les termes et les prémisses d&#39;un tel débat appellent la suspicion.(p. 5)
+        
+5. Quotation, p. 17
+        *Émile ou de l&#39;éducation [URL: https://derridas-margins.princeton.edu/library/?query=rousseau-emile-ou-de-leducation-1762&amp;is_extant=false]* (1762)
+    Jean-Jacques Rousseau
+            plus fondamentale que celle qui, avant cette conversion, passait pour le simple « supplément à la parole » (Rousseau).
+        
+6. Footnote, p. 17
+        *La voix et le phénomène [URL: https://derridas-margins.princeton.edu/library/?query=derrida-la-voix-et-le-phenomene-1967&amp;is_extant=false]* (1967)
+    Jacques Derrida
+            C&#39;est un problème que nous abordons plus directement dans *La voix et le phénomène* (P.U.F. 1967).
+        
+7. Footnote, p. 20
+        *L&#39;Ecriture et la psychologie des peuples: actes de colloque [URL: https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/]* (1963)
+            Cf. par ex. EP. pp. 126, 148, 355, etc. D&#39;un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116)(p. 126)
+[IMAGE: Cover of L&#39;Ecriture et la psychologie des peuples: actes de colloque]
+        
+8. Footnote, p. 20
+        *Les écritures indiennes. Le monde indien et son système graphique. [URL: https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/#sections]* (1963)
+            Cf. par ex. EP. pp. 126, 148, 355, etc. D&#39;un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116)(p. 148)
+[IMAGE: Cover of Les écritures indiennes. Le monde indien et son système graphique.]
+        
+9. Footnote, p. 20
+        *L&#39;Ecriture et la psychologie des peuples: actes de colloque [URL: https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/]* (1963)
+            Cf. par ex. EP. pp. 126, 148, 355, etc. D&#39;un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116)(p. 355)
+[IMAGE: Cover of L&#39;Ecriture et la psychologie des peuples: actes de colloque]
+        
+10. Footnote, p. 20
+        *Essais de linguistique générale [URL: https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/]* (1963)
+    Roman Jakobson
+            Cf. par ex. EP. pp. 126, 148, 355, etc. D&#39;un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116)(p. 116)
+[IMAGE: Cover of Essais de linguistique générale]
+        
+11. Quotation, p. 21
+        *Organon: Catégories, De L&#39;interprétation [URL: https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/]* (1959)
+    Aristotle
+            Si, pour Aristote, par exemple, « les sons émis par la voix (*τὰ ἐν τῇ φωνῇ*) sont les symboles des états de l&#39;âme (*παθήματα τῆς ψυχῆς*) et les mots écrits les symboles des mots émis par la voix » (*De l&#39;interprétation* 1, 16 a 3), c&#39;est que la voix, productrice des *premiers symboles*, a un rapport de proximité essentielle et immédiate avec l&#39;âme.(p. 77)
+[IMAGE: Cover of Organon: Catégories, De L&#39;interprétation]
+        
+12. Quotation, p. 21
+        *Organon: Catégories, De L&#39;interprétation [URL: https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/]* (1959)
+    Aristotle
+            « De même que l&#39;écriture n&#39;est pas la même pour tous les hommes, les mots parlés ne sont pas non plus les mêmes, alors que les états de l&#39;âme dont ces expressions sont *immédiatement les signes* (*σημεὶα πρώτως*) sont identiques chez tous, comme sont identiques aussi les choses dont ces états sont les images » (16 a. Nous soulignons).(p. 78)
+[IMAGE: Cover of Organon: Catégories, De L&#39;interprétation]
+        
+13. Quotation, p. 22
+        *Esthétique, III, I. [URL: https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/]* (1944)
+    Georg Wilhelm Friedrich Hegel
+            « Ce mouvement idéal, par lequel, dirait-on, se manifeste la simple subjectivité, l&#39;âme du corps résonnant, l&#39;oreille le perçoit de la même manière théorique que celle dont l&#39;œil perçoit la couleur ou la forme, l&#39;intériorité de l&#39;objet devenant ainsi celle du sujet lui-même » (*Esthétique*, III, I., tr. fr. p. 16).(p. 16)
+[IMAGE: Cover of Esthétique, III, I.]
+        
+14. Quotation, p. 22
+        *Esthétique, III, I. [URL: https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/]* (1944)
+    Georg Wilhelm Friedrich Hegel
+            « … L&#39;oreille au contraire, sans se tourner pratiquement vers les objets, perçoit le résultat de ce tremblement intérieur du corps par lequel se manifeste et se révèle, non la figure matérielle, mais une première idéalité venant de l&#39;âme » (p. 296).(p. 296)
+[IMAGE: Cover of Esthétique, III, I.]
+        
+15. Footnote, p. 22
+        *Le problème de l&#39;être chez Aristote [URL: https://derridas-margins.princeton.edu/library/?query=aubenque-le-probleme-de-letre-chez-aristote-1962&amp;is_extant=false]* 
+    Pierre Aubenque
+            C&#39;est ce que montre Pierre Aubenque (*Le problème de l&#39;être chez Aristote*, p. 106 sq.). Au cours d&#39;une remarquable analyse, dont nous nous inspirons ici, P. Aubenque note en effet : « Dans d&#39;autres textes, il est vrai, Aristote qualifie de symbole le rapport du langage aux choses : &#34;Il n&#39;est pas possible d&#39;apporter dans la discussion les choses elles-mêmes, mais, au lieu des choses, nous devons nous servir de leurs noms comme de symboles.&#34; L&#39;intermédiaire que constituait l&#39;état d&#39;âme et ici supprimé ou du moins négligé, mais cette suppression est légitime, puisque les états d&#39;âme se comportant comme les choses, celles-ci peuvent leur être immédiatement substituées. En revanche, on ne peut pas substituer, sans plus, le nom à la chose … » (p. 107-108).(p. 106-108)
+        
+16. Footnote, p. 22
+        *Le problème de l&#39;être chez Aristote [URL: https://derridas-margins.princeton.edu/library/?query=aubenque-le-probleme-de-letre-chez-aristote-1962&amp;is_extant=false]* 
+    Pierre Aubenque
+            C&#39;est ce que montre Pierre Aubenque (*Le problème de l&#39;être chez Aristote*, p. 106 sq.). Au cours d&#39;une remarquable analyse, dont nous nous inspirons ici, P. Aubenque note en effet : « Dans d&#39;autres textes, il est vrai, Aristote qualifie de symbole le rapport du langage aux choses : &#34;Il n&#39;est pas possible d&#39;apporter dans la discussion les choses elles-mêmes, mais, au lieu des choses, nous devons nous servir de leurs noms comme de symboles.&#34; L&#39;intermédiaire que constituait l&#39;état d&#39;âme et ici supprimé ou du moins négligé, mais cette suppression est légitime, puisque les états d&#39;âme se comportant comme les choses, celles-ci peuvent leur être immédiatement substituées. En revanche, on ne peut pas substituer, sans plus, le nom à la chose … » (p. 107-108).(p. 107-108)
+        
+17. Quotation, p. 24
+        *Essais de linguistique générale [URL: https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/]* (1963)
+    Roman Jakobson
+            La pensée structuraliste moderne l&#39;a clairement établi : le langage est un système de signes, la linguistique est partie intégrante de la science des signes, la *sémiotique* (ou, dans les termes de Saussure, la *sémiologie*). La définition médiévale – aliquid stat pro aliquo – que notre époque a ressuscité, s&#39;est montrée toujours valable et féconde. C&#39;est ainsi que la marque constitutive de tout signe en général, du signe linguistique en particulier, réside dans son caractère double : chaque unité linguistique est bipartite et comporte deux aspects ; l&#39;un sensible et l&#39;autre intelligible – d&#39;une part le signans (le *signifiant* de Saussure), d&#39;autre part le *signatum* (le signifié). Ces deux éléments constitutifs du signe linguistique (et du signe en général) se supposent et s&#39;appellent nécessairement l&#39;un l&#39;autre. »(p. 162)
+[IMAGE: Cover of Essais de linguistique générale]
+        
+18. Footnote, p. 24
+        *Le discours et le symbole [URL: https://derridas-margins.princeton.edu/library/?query=ortigues-le-discours-et-le-symbole-1962&amp;is_extant=false]* (1962)
+    Edmond Ortigues
+            Sur ce problème, sur la tradition du concept du signe et sur l&#39;originalité de l&#39;apport saussurien à l&#39;intérieur de cette continuité, cf. Ortigues, *op. cit*, p. 54 sq.(p. 54)
+        
+19. Quotation, p. 26
+        *Phaedrus [URL: https://derridas-margins.princeton.edu/library/plato-phaedrus-1964/]* (1964)
+    Plato
+            l&#39;écriture de la vérité dans l&#39;âme, opposée par le *Phèdre* (278 a) à la mauvaise écriture (à l&#39;écriture au sens « propre » et courant, à l&#39;écriture « sensible », « dans l&#39;espace »)(p. 170)
+[IMAGE: Cover of Phaedrus]
+        
+20. Quotation, p. 26
+        *Phèdre [URL: https://derridas-margins.princeton.edu/library/plato-phaedrus-1938/]* 
+    Plato
+            l&#39;écriture de la vérité dans l&#39;âme, opposée par le *Phèdre* (278 a) à la mauvaise écriture (à l&#39;écriture au sens « propre » et courant, à l&#39;écriture « sensible », « dans l&#39;espace »)(p. 289)
+[IMAGE: Cover of Phèdre]
+        
+21. Quotation, p. 26
+        *Phèdre [URL: https://derridas-margins.princeton.edu/library/plato-phaedrus-1961/]* (1961)
+    Plato
+            l&#39;écriture de la vérité dans l&#39;âme, opposée par le *Phèdre* (278 a) à la mauvaise écriture (à l&#39;écriture au sens « propre » et courant, à l&#39;écriture « sensible », « dans l&#39;espace »)(p. 94)
+[IMAGE: Cover of Phèdre]
+        
+22. Quotation, p. 26
+        *La littérature européenne et le Moyen Âge latin [URL: https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/]* (1956)
+    Ernst Robert Curtius
+            Dans *Le symbolisme du livre*, ce beau chapitre de *La littérature européenne et le Moyen Âge latin, E. R. Curtius décrit avec une grande richesse d&#39;exemples l&#39;évolution qui conduit du *Phèdre* à Calderon, jusqu&#39;à paraître « inverser la situation » (tr. fr. p. 372) par la « nouvelle considération dont jouissait le livre » (p. 374).(p. 372)
+[IMAGE: Cover of La littérature européenne et le Moyen Âge latin]
+        
+23. Quotation, p. 26
+        *La littérature européenne et le Moyen Âge latin [URL: https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/]* (1956)
+    Ernst Robert Curtius
+            Dans *Le symbolisme du livre*, ce beau chapitre de *La littérature européenne et le Moyen Âge latin, E. R. Curtius décrit avec une grande richesse d&#39;exemples l&#39;évolution qui conduit du *Phèdre* à Calderon, jusqu&#39;à paraître « inverser la situation » (tr. fr. p. 372) par la « nouvelle considération dont jouissait le livre » (p. 374).(p. 476)
+[IMAGE: Cover of La littérature européenne et le Moyen Âge latin]
+        
+24. Quotation, p. 26
+        *La littérature européenne et le Moyen Âge latin [URL: https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/]* (1956)
+    Ernst Robert Curtius
+            Dans *Le symbolisme du livre*, ce beau chapitre de *La littérature européenne et le Moyen Âge latin, E. R. Curtius décrit avec une grande richesse d&#39;exemples l&#39;évolution qui conduit du *Phèdre* à Calderon, jusqu&#39;à paraître « inverser la situation » (tr. fr. p. 372) par la « nouvelle considération dont jouissait le livre » (p. 374).(p. 476)
+[IMAGE: Cover of La littérature européenne et le Moyen Âge latin]
+        
+25. Quotation, p. 27
+        *Difficile liberté [URL: https://derridas-margins.princeton.edu/library/levinas-difficile-liberte-essais-sur-le-judaisme-1963/]* (1963)
+    Emmanuel Levinas
+            Rabbi Eliezer a dit : « Si toutes les mers étaient d&#39;encre, tous les étangs plantés de calames, si le ciel et la terre étaient des parchemins et si tous les humains exerçaient l&#39;art d&#39;écrire – ils n&#39;épuiseraient pas la Thora apprise par moi, alors que la Thora elle-même ne s&#39;en trouve diminuée que d&#39;autant qu&#39;emporte la pointe du pinceau trempé dans la mer. »(p. 44)
+[IMAGE: Cover of Difficile liberté]
+        
+26. Quotation, p. 27
+        *Il Saggiatore [URL: https://derridas-margins.princeton.edu/library/?query=galilei-il-saggiatore-1623&amp;is_extant=false]* (1623)
+    Galileo Galilei
+            « La nature est écrite en langage mathématique. »
+        
+27. Quotation, p. 27
+        *Discours de la méthode [URL: https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1943/]* (1943)
+    René Descartes
+            « … à lire le grand livre du monde… »(p. 51)
+[IMAGE: Cover of Discours de la méthode]
+        
+28. Quotation, p. 27
+        *Discours de la méthode [URL: https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1961/]* (1961)
+    René Descartes
+            « … à lire le grand livre du monde… »(p. 51)
+[IMAGE: Cover of Discours de la méthode]
+        
+29. Quotation, p. 27
+        *Dialogues sur la religion naturelle [URL: https://derridas-margins.princeton.edu/library/hume-dialogues-concerning-natural-religion-1964/]* (1964)
+    David Hume
+            « Et ce livre qu&#39;est la nature contient une grande et inexplicable énigme, plutôt qu&#39;aucun discours ou raisonnement intelligible. »(p. 73)
+[IMAGE: Cover of Dialogues sur la religion naturelle]
+        
+30. Quotation, p. 27
+        *La palingénésie philosophique [URL: https://derridas-margins.princeton.edu/library/?query=bonnet-la-palingenesie-philosophique-1769&amp;is_extant=false]* 
+    Charles Bonnet
+            « Il me paraît plus philosophique de présumer que notre terre est un livre que le grand Être a donné à lire à des intelligences qui nous sont fort supérieures, et où elles étudient à fond les traits infiniment multiples et variés de son adorable sagesse. »
+        
+31. Quotation, p. 27
+        *La symbolique du rêve/ Die Symbolik des Traumes [URL: https://derridas-margins.princeton.edu/library/?query=von-schubert-la-symbolique-du-reve-die-symbolik-des-traumes-1815&amp;is_extant=false]* (1815)
+    Gotthilf Heinrich von Schubert
+            « Cette langue faite d&#39;images et d&#39;hiéroglyphes, dont se sert la Sagesse suprême dans toutes ses révélations à l&#39;humanité – qui se retrouve dans le langage tout voisin de la Poésie – et qui, dans notre condition actuelle, ressemble davantage à l&#39;expression métaphorique du rêve qu&#39;à la prose de la veille, – on peut se demander si cette langue n&#39;est pas la véritable langue de la religion supérieure. Si, tandis que nous nous croyons éveillés, nous ne sommes pas plongés dans un sommeil millénaire, ou au moins dans l&#39;écho de ses rêves, où nous ne percevons de la langue de Dieu que quelques paroles isolées et obscures, comme un dormeur perçoit les discours de son entourage. »
+        
