@@ -184,18 +184,31 @@ body.article .footnotes {
         display: none;
     }
     ol {
+        list-style: decimal inside;
+
         li {
             background: white;
             font-size: 12px;
             line-height: 18px;
             position: relative;
 
+            /** NOTE: counters are not incrementing when generating PDFs with
+              pagedjs (all endnotes are numbered 0). As a workaround,
+              display the list marker and style it as close as possible
+              to the design specification */
             &::before {
-                margin: 0;
-                position: absolute;
-                left: 0;
-                margin-top: -5px;
-                vertical-align: super;
+                display: none;
+            }
+            &::marker {
+                color: $red;
+                font-family: $font-serif;
+                font-weight: bold;
+                font-size: rem(35px);
+            }
+             p:first-child {
+                /* move first paragraph up to compensate for inside list marker
+                   placement. */
+                margin-top: -1rem;
             }
         }
     }
