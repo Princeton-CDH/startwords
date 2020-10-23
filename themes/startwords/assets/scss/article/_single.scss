@@ -116,9 +116,13 @@ body.article {
             font-weight: 400;
             font-style: italic;
             color: $purple;
+            line-height: rem(30px);
 
             @media (min-width: $breakpoint-s) { width: 50%; }
-            @media (min-width: $breakpoint-m) { font-size: rem(24px); }
+            @media (min-width: $breakpoint-m) {
+                font-size: rem(24px);
+                line-height: rem(32px);
+            }
 
             &.left {
                 float: left;

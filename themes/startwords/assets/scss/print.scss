@@ -91,9 +91,10 @@ body {
 
         blockquote.pull {
             /* width: 50%; */
-            width: 66%;  /* trying larger width to handle long quotes */
+            width: 66%;  /* wider makes it easier to flow content */
             margin-top: 0;
             line-height: 30px;
+            font-size: 16px;
             page-break-inside: avoid;
 
             &.left {
