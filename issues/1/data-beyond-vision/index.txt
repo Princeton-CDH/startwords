@@ -27,7 +27,7 @@
 |
 |  Issue 1: TRANSFORMATIONS
 |  https://startwords.cdh.princeton.edu/issues/1/
-|  January 2020
+|  October 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩
 How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.
