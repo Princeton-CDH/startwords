@@ -4,7 +4,7 @@ layout: single
 title: Issue One
 number: 1
 theme: Transformations
-date: 2020-01-01
+date: 2020-10-01
 slug: 1
 summary: Every day, countless decisions are quietly made on the basis of data most of us will never touch.
 ---
