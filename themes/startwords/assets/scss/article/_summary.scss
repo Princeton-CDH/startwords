@@ -154,7 +154,6 @@ $preview-height-xl: rem(250px);  // 1024px-
 
     .tag {
         color: $light-grey;
-        text-transform: uppercase;
         font-size: rem(12px);
         &::before {
             content: "#";

@@ -16,7 +16,7 @@ article {
 
     .number, .pubdate, a[rel=alt], .doi { font-size: rem(16px); }
 
-    .formats, .pubdate, .doi, .authors {
+    .formats, .pubdate, .doi, .authors, .tags li {
         display: inline-block;
         font-family: $font-sans;
         line-height: normal;
@@ -30,19 +30,20 @@ article {
         text-transform: uppercase;
     }
 
-    .authors {
+    .authors, .tags {
         font-size: rem(16px);
         list-style: none;
         margin: 0;
         padding: 0;
-    
+
         address {
             font-family: $font-sans;
             font-style: normal;
         }
     }
-    
+
     .doi::before { content: 'doi:'; }
+
 
     // headings
     h1, h2, h3, h4, h5 { font-family: $font-serif; }
@@ -67,5 +68,28 @@ article {
         @media (min-width: $breakpoint-s) {
             margin-top: rem(20px);
         }
+    }
+}
+
+
+.tags {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        font-family: $font-sans;
+        line-height: normal;
+        margin: rem(5px) 0;
+        color: $dark-grey;
+
+        a, a:visited {
+            color: $dark-grey;
+        }
+    }
+
+    .tag::before {
+        content: '#';
     }
 }

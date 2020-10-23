@@ -3,7 +3,7 @@
 // variables
 $footer-height: rem(100px);
 
-footer {
+body > footer {
     height: $footer-height;
     width: 100vw;
     bottom: 0;

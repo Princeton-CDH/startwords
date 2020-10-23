@@ -11,6 +11,7 @@ date: 2020-10-01
 doi: 10.5281/zenodo.3713671
 pdf: https://cdh.princeton.edu/media/uploads/documents/grad_fellows_call_for_spring_21.pdf
 images: ["issues/1/data-beyond-vision/images/dbv-social.jpg"]
+tags: [DataBeyondVision]
 ---
 
 How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.

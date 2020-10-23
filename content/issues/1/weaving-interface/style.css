@@ -1,0 +1,198 @@
+:root {
+    /* css variables duplicating site scss variables */
+    --red: #CE2949;
+    --off-white: #F6F6F6;
+    --purple: #4C2A85;
+    --light-purple: #E0CEFF;
+
+}
+
+body.article .deepzoom {
+    width: 100vw;
+    height: 230px;
+    margin-top: 15vh;
+    margin-bottom: 30vh;
+    background-color: black;
+
+    counter-reset: highlightZoneCounter;
+}
+
+/* breakpoint-s */
+@media (min-width: 768px) {
+    body.article .deepzoom {
+        height: 454px;
+    }
+}
+
+/* breakpoint-m */
+@media (min-width: 1024px) {
+    body.article .deepzoom {
+        height: 604px;
+    }
+}
+
+.highlight {
+    border: 3px solid var(--red);
+    opacity: 0.5;
+    counter-increment: highlightZoneCounter;
+}
+
+.highlight::after {
+    /* display counter parallel to endnote number */
+    content: counters(highlightZoneCounter, ".");
+    position: absolute;
+    bottom: -2rem;
+    right: 50%;
+    color: var(--red);
+    font-size: 70%;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    text-align: center;
+    opacity: 1;  /* this seems to be ignored */
+
+    /* duplicated in endnote li::before */
+    margin-left: -2rem;
+    padding-right: 0;
+    background: var(--off-white);
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.5rem;
+
+}
+
+
+/* adjust the 4 zones that are tilted boxes */
+.highlight.rot4 {
+    transform-origin: top left;
+    transform: rotate(4deg);
+}
+
+.highlight:hover {
+    opacity: 1;
+}
+
+body.article .footnotes {
+    /* add more space before footnotes */
+    margin-top: 25rem;
+}
+
+
+body.article .footnotes li img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+/* customize footnote display */
+.footnotes li::before {
+    display: none;  /* hide footnote number */
+}
+/* display reference type in its place */
+.footnotes li .reftype {
+    position: absolute;
+    right: calc(22.5% - 13px);
+    color: var(--purple);
+    top: 2.77rem;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: rem(18px);
+}
+
+.footnotes li .reftype .page {
+    display: none;  /* don't show page number in contextual note */
+}
+
+.endnotes.footnotes li .reftype .page {
+    display: inline;
+}
+
+.footnotes li.flip .reftype {
+    left: calc(22.5% - 13px);
+    right: auto;
+}
+
+.endnotes.footnotes li .reftype {
+    position: relative;
+    right: auto;
+    font-weight: 400;
+    display: block;
+    top: auto;
+    color: var(--light-purple);
+    font-family: 'IBM Plex Serif', 'Palatino', serif;
+}
+
+body.article .footnotes.endnotes ol li a[role=doc-backlink] {
+    opacity: 0;  /* back links are not functional, hard to link back to highlighted zone */
+    /*color: var(--light-purple);*/
+}
+
+body.article .footnotes.endnotes ol li p, body.article .footnotes ol li p {
+    text-indent: 0;
+    margin-bottom: 1rem;  /* space before blockquote */
+}
+
+body.article .footnotes.endnotes ol li::before {
+    margin-left: -2rem;
+    padding-right: 0;
+    background: var(--off-white);
+    border-radius: 50%;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+body.article article .footnotes blockquote p {
+    font-style: normal;
+    display: inline;
+}
+
+.footnotes blockquote {
+    display: inline;
+}
+
+.footnotes blockquote footer {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+.page_n {
+    text-decoration: none;
+    color: var(--off-white);
+    font-size: 22px;
+}
+
+.reference {
+    position: absolute;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 450px;
+    height: 350px;
+    background-color: var(--off-white);
+    z-index: 3;
+    opacity: 0;
+
+   -webkit-transition: opacity 1.5s ease-in-out;
+   -moz-transition: opacity 1.5s ease-in-out;
+   -ms-transition: opacity 1.5s ease-in-out;
+   -o-transition: opacity 1.5s ease-in-out;
+}
+
+.reference.loading {
+    opacity: 0.5;
+}
+
+.reference.show {
+    opacity: 1;
+}
+
+.footnote-ref {
+    opacity: 0;
+}
+
+
+/* openseadragon navigator — limit width esp. for mobile */
+.displayregioncontainer {
+    max-width: 30vw;
+}

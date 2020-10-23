@@ -176,13 +176,8 @@ body.article {
 }
 
 
-/* preliminary styles for dataweaving experiment */
-article.fullscreen {
-    .text-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-    }
+.full-width {
+    width: 100vw;
+    margin-left: (-$gutter);
+    grid-column: full;
 }

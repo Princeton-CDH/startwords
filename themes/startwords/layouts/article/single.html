@@ -4,6 +4,13 @@
     {{ end }}
 {{ end }}
 
+{{ define "custom_js" }}
+    {{ range .Resources.Match "*.js" }}
+    <script defer type="text/javascript" src="{{ .RelPermalink }}"></script>
+    {{ end }}
+{{ end }}
+
+
 {{/* override site-level description to include issue details in PDF metadata */}}
 {{ define "metadescription" }}{{ .Site.Title }} Issue {{ .Parent.Params.number }}, {{ .Params.date.Format `January 2006` }}. {{ .Site.Params.description }} {{ end }}
 
@@ -35,7 +42,7 @@
 
 {{ define "main" }}
 <main>
-    <article class="{{ .Params.article_class }}">
+    <article {{ with .Params.article_class }} class="{{ . }}" {{ end }}>
         <div class="grid">
             <header>
                 <p class="number"><a href="{{ .Parent.RelPermalink }}">Issue {{ .Parent.Params.number }}</a></p>
@@ -43,6 +50,7 @@
                 <h1>{{ .Params.Title }}</h1>
                 {{ partial "authors" . }}<br>
                 {{ partial "pubdate" . }}<br>
+                {{ partial "tags" . }}<br>
                 {{ if .Params.doi }}
                 <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
                 {{ end }}

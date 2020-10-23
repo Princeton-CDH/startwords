@@ -3,7 +3,7 @@
 // gridded sections use a 10-column grid with 10px gaps
 .grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: [full-start] repeat(10, 1fr) [full-end];
     column-gap: $grid-gap;
     padding: $gutter;
     box-sizing: border-box;
