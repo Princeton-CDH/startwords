@@ -92,7 +92,7 @@ class ContextualNotes {
             this.positionContextualNote(note);
             // get back reference link to override behavior
             var backref = note.getElementsByClassName('footnote-backref').item(0);
-            backref.addEventListener('click', ContextualNotes.noteCloseLinkHandler);
+            backref.addEventListener('click', ContextualNotes.onNoteClose);
         }
     }
 
@@ -105,7 +105,7 @@ class ContextualNotes {
             location.hash = '#-';
             // unbind the close link handler
             var backref = note.getElementsByClassName('footnote-backref').item(0);
-            backref.removeEventListener('click', ContextualNotes.noteCloseLinkHandler);
+            backref.removeEventListener('click', ContextualNotes.onNoteClose);
 
             // if endnotes were hidden to show this note, redisplay them
             if (ContextualNotes.showEndnotesOnClose) {
@@ -115,7 +115,7 @@ class ContextualNotes {
         }
     }
 
-    static noteCloseLinkHandler() {
+    static onNoteClose(event) {
         // prevent default behavior to avoid jarring scroll to reference
         // Check that the parent note is still selected; otherwise behave normally
 
