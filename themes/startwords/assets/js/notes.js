@@ -2,8 +2,10 @@
 
 class ContextualNotes {
     // setting for hiding contextual notes on scroll; on by default
-    hideOnScroll = true;
-    // showEndnotesOnClose = false;
+    static hideOnScroll = true;
+    // setting for re-displaying endnotes when closing a contextual notes;
+    // off by default
+    static showEndnotesOnClose = false;
 
     constructor() {
 
@@ -29,7 +31,7 @@ class ContextualNotes {
 
         /* on scroll, if a footnote is currently targeted, unselect */
         window.addEventListener('scroll', function() {
-            if (location.hash.startsWith('#fn:') && contextnotes.hideOnScroll) {
+            if (location.hash.startsWith('#fn:') && ContextualNotes.hideOnScroll) {
                 // close the note and unbind close link handler
                 ContextualNotes.closeNote(contextnotes.currentNote);
             }
@@ -59,8 +61,8 @@ class ContextualNotes {
 
     disableHideOnScroll(seconds) {
         // temporarily disable note hide on scroll
-        this.hideOnScroll = false;
-        window.setTimeout(function(){ this.hideOnScroll = true;}, seconds*1000);
+        ContextualNotes.hideOnScroll = false;
+        window.setTimeout(function(){ ContextualNotes.hideOnScroll = true;}, seconds*1000);
     }
 
     get currentNote() {
@@ -71,19 +73,22 @@ class ContextualNotes {
     }
 
     showNote() {
-        // display specified note, or if no note is specified,
         // display the current note (if one is targeted), and bind backref handler
-
-        // display current note (if one is targeted), and bind backref handler
-        // note = (typeof note !== 'undefined') ?  note : this.currentNote;
-        console.log('setting up note');
-        // console.log(note);
         var note = this.currentNote;
-        console.log(note)
         if (note) {
-            // TODO: handle notes at the end of the document,
-            // where endnotes are visible
-            console.log('positioning')
+            // if a note occurs near the end of the document,
+            // end notes may already be visible.
+            if (this.endnotes.classList.contains('endnotes')) {
+                // hide end notes so the note can be shown as a contextual note
+                this.endnotes.classList.remove('endnotes');
+                // set a flag that endnotes need to be re-shown
+                ContextualNotes.showEndnotesOnClose = true;
+                // temporarily disable hide on scroll, since
+                // hiding the endnotes changes document length
+                // and can trigger scrolling
+                this.disableHideOnScroll(2);
+            }
+
             this.positionContextualNote(note);
             // get back reference link to override behavior
             var backref = note.getElementsByClassName('footnote-backref').item(0);
@@ -102,14 +107,15 @@ class ContextualNotes {
             var backref = note.getElementsByClassName('footnote-backref').item(0);
             backref.removeEventListener('click', ContextualNotes.noteCloseLinkHandler);
 
-            // TODO: handle showing endnotes again for notes
-            // at end of document
+            // if endnotes were hidden to show this note, redisplay them
+            if (ContextualNotes.showEndnotesOnClose) {
+                ContextualNotes.showEndnotes()
+                ContextualNotes.showEndnotesOnClose = false;
+            }
         }
     }
 
     static noteCloseLinkHandler() {
-        console.log('noteCloseLinkHandler')
-        console.log(this);
         // prevent default behavior to avoid jarring scroll to reference
         // Check that the parent note is still selected; otherwise behave normally
 
@@ -118,18 +124,12 @@ class ContextualNotes {
         if (note.localName != 'li') {
             note = note.parentNode;
         }
-        // FIXME: on annotated zoom, should be this.parentNode
-        // but elsewhere we want this.parentNode.parentNode !!!
-
-        console.log('note');
-        console.log(note);
-        console.log('location hash ' + location.hash);
 
         if (location.hash == '#' + note.getAttribute('id')) {
             event.preventDefault();
             event.stopPropagation();
         }
-        ContextualNotes.closeNote(note);   // ugh, how not to assume this?
+        ContextualNotes.closeNote(note);
     }
 
     positionContextualNote(note) {
@@ -153,8 +153,7 @@ class ContextualNotes {
         // - top of note should be directly below the ref
         note.style.top = refLocation.top + refLocation.height + 5 + 'px';
         //- tip of the arrow should point to the reference
-        var noteLeft;
-        // debugger;
+
         // if reference is close to the left side, flip the triangle
         // 125px: free space in margin when viewport is at 415px (minimum) =
         // (difference between note width and viewport width + len of small side of note triangle)
@@ -188,7 +187,7 @@ class ContextualNotes {
         }
     }
 
-    // note: methods used in event handlers are declared as static
+    // using static methods for event handlers
 
     static showEndnotes(elem) {
         // default footnotesif elem is undefined
@@ -224,7 +223,7 @@ class ContextualNotes {
 
 document.addEventListener('DOMContentLoaded', function() {
     // initialize contextual notes and make available on window
-    console.log('init context notes')
+    console.debug('context notes initialized')
     window.contextnotes = new ContextualNotes();
 });
 
