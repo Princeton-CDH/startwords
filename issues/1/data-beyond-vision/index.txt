@@ -75,6 +75,7 @@ Data physicalization attempts to defamiliarize us from the many two-dimensional 
 
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE.
 |
@@ -82,6 +83,7 @@ Data physicalization attempts to defamiliarize us from the many two-dimensional 
 | ATTRIBUTION: Koeser, Rebecca Sutton, Nick Budak, Gissoo Doroudian, and Xinyi Li. “Data Beyond Vision,” July 11, 2019.
 | LINK: https://doi.org/10.5281/zenodo.3261531
 ⩩-----------------------------------------------------------------------------------⟩
+
 
 
 Other approaches for data representation and interpretation include:
@@ -123,6 +125,7 @@ The Shakespeare and Company lending library is best known for its famous members
 
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Folded origami model of a green cube intersecting a white octahedron covered with printed text.
 |
@@ -152,6 +155,7 @@ Insights
 ⩩-----------------------------------------------------------------------------------⟩
 
 
+
 The majority section of the pie chart represents the 14,583 library members who we identified as “lesser-known” because they are not listed in VIAF. The minority section represents the 6,248 members who are listed in VIAF, often because they were involved with a well-known creative work.
 
 
@@ -175,6 +179,7 @@ _Rebecca Sutton Koeser_
 Goal
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942.
 |
@@ -184,6 +189,7 @@ Goal
 
 
 This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.
+
 
 
 
@@ -208,6 +214,7 @@ This is a two-variable, three-dimensional lollipop chart showing the membership 
 Insights
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Bar chart showing members with borrowing activity and total members each month.
 |
@@ -215,6 +222,7 @@ Insights
 | ATTRIBUTION: Kotin and Koeser, “The Shakespeare and Company Lending Library Cards in Context.”
 | LINK: http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/
 ⩩-----------------------------------------------------------------------------------⟩
+
 
 
 Plotting documented membership accounts against borrowing activity shows the differences in members tracked across the two sources. The Shakespeare and Company Project has information about the borrowing activity of 11% of lending library members. For the 1920s, the percentage is lower: only 6%. But in the 1930s, the percentage is higher: 23%. Some months show more members with borrowing activity than total members because information on the cards overlaps gaps in logbook coverage.
@@ -261,6 +269,7 @@ Working with textiles is often stereotyped as female activity, therefore this pi
 
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. The weaver sits in front of a table-top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it.
 |
@@ -273,11 +282,13 @@ The data encoded in the weaving could be represented as a stacked bar chart, a f
 
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Stacked bar chart showing number and kind of references by page.
 |
 | CAPTION: References in chapter 1 of Of Grammatology by page and type. (Chapter 1 begins on page 15).
 ⩩-----------------------------------------------------------------------------------⟩
+
 
 
 The chart shows that quotations are the most common type of reference in chapter one, and a few pages include six or more quotations. Footnotes are the next most common reference; there is only one epigraph, on the first page in the chapter, and one citation, on page 35. Only six pages have no references at all, and many pages have more than one.
@@ -307,6 +318,7 @@ This piece aims to reveal the continuity and growth of Sylvia Beach’s lending 
 
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Animated GIF with the camera panning revealing different portions of the paper model.
 |
@@ -316,6 +328,7 @@ This piece aims to reveal the continuity and growth of Sylvia Beach’s lending 
 
 Description
 Shakespeare and Company Project [URL: https://shakespeareandco.princeton.edu/] lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the logbooks [URL: https://shakespeareandco.princeton.edu/sources/logbooks/]; the depth depicts the number of members with borrowing activity, according to each member’s lending library card [URL: https://shakespeareandco.princeton.edu/sources/cards/]; the length along the timeline is based on the total number of borrowing events.[NOTE 35] Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.
+
 
 
 
@@ -346,6 +359,7 @@ Insights
 ⩩-----------------------------------------------------------------------------------⟩
 
 
+
 Members with borrowing events constitute a fraction of all the members in the earlier years. The overall number of borrowing events increases gradually from 1919 to 1926, drops off slightly, then evidently increases from 1934 to 1939, even though the number of members drops drastically after 1929. It’s not easy to compare book borrowing by new members across the years.
 
 
@@ -359,6 +373,7 @@ With current off-the-shelf visualization tools like the ones that come with Goog
 |
 | CAPTION: Membership activities of Shakespeare and Company lending library between 1919 and 1941 represented as pie charts.
 ⩩-----------------------------------------------------------------------------------⟩
+
 
 
 Overall, renewed members outsize new members before 1929, followed by five years with nearly two times more new members than renewed members. Members with borrowing events represent a fraction of all the members in the early years between 1919 and 1929. Then members with borrowing events grow and become more comparable to the size of all members, which sizes down drastically after 1929. Borrows from new members outsize renewed members since 1934. It is not easy to compare the proportion of growth across the years.

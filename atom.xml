@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator><title type="html">Startwords</title><link href="https://startwords.cdh.princeton.edu/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-10-26T20:05:05+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:03:18-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator><title type="html">Startwords</title><link href="https://startwords.cdh.princeton.edu/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-10-26T20:12:45+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:10:31-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
 <p>Humanists continue to expand the range of objects they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider nontraditional formats, the presentation and publishing of these experimental works (such as installations and project demos) are still secondary or sidelined, where they exist at all. What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>; Catherine D’Ignazio and Lauren Klein offer the broader term “rhetorical objects.”<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> This kind of innovative work is carefully researched and theorized. It deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.</p>
 <p>Academic research has a long history of textual practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. Both the <a href="https://openhumanitiesdata.metajnl.com/">Journal of Open Humanities Data</a> and the <a href="https://joss.theoj.org/">Journal of Open Source Software</a> can be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers.” But even these journals rely on transforming the content they review—data and software—into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, and augmented reality experiences? Will scholars need to become experts in all these modes, or can we find a way to become conversant in multiple forms of argumentation, as with other important scholarly theories?</p>
 <p>The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides toward reading and thinking in creative new scholarly modes.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
-<div class="" id="interlude">
-<div class="left" id="">
+<div id="interlude">
+<div class="left">
 <p><strong>SEE</strong></p>
 <p>from a distance.<br>
 Cold, commanding.<br>
@@ -13,7 +13,7 @@ but optical illusions deceive.</p>
 and see yourself<br>
 seeing.</p>
 </div>
-<div class="right" id="">
+<div class="right">
 <p><strong>TOUCH</strong></p>
 <p>up close.<br>
 Intimate, incomplete.<br>
@@ -27,7 +27,7 @@ touching.</p>
 </div>
 <p>Data physicalization represents data in physical form.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Like other approaches to understanding and representing data, it highlights particular senses to communicate information, specifically touch and sight.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> But data physicalization is distinct from other sensory approaches in that it bridges the gap between creative, physical, and conceptual exploration, a nexus often associated with critical making.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Data physicalizations surface the amount of labor involved with data production and representation, they lend data different perspectives and dimensions.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> These physicalizations also create an opportunity for viewers to become active participants in the making of a piece using data.</p>
 <p>Data physicalization attempts to defamiliarize us from the many two-dimensional data representations we have seen by literally placing data in the <em>mise en scène</em> of a conceptual exploration. There is something unique about turning data points into physical forms and placing them in space, something that triggers the mind to understand data in a distinctive way.</p>
-<p>
+
 
 
 
@@ -42,13 +42,12 @@ touching.</p>
  
 
 
-<figure aria-describedby="conceptmap-desc">
-    <img loading="lazy" alt="Diagram defining the relationships between various data representations and the senses they incorporate; content available in description" role="img" sizes="(max-width: 768px) 100%, 80%"src="/issues/1/data-beyond-vision/images/conceptmap.svg"><figcaption>
+<figure aria-describedby="conceptmap-desc"><img loading="lazy" alt="Diagram defining the relationships between various data representations and the senses they incorporate; content available in description" src="/issues/1/data-beyond-vision/images/conceptmap.svg" role="img"><figcaption>
         <p>Concept map situating data physicalization in relation to other types of data representations and interpretations. Revised from the concept map included in the poster presented by the authors at DH2019 in Utrecht. Koeser, Rebecca Sutton, Nick Budak, Gissoo Doroudian, and Xinyi Li. “Data Beyond Vision,” July 11, 2019.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE.
 |
@@ -68,14 +67,14 @@ touching.</p>
 <li>Interpretive object, which focuses on revealing meanings and relationships via non-textual forms by using metaphors.</li>
 </ul>
 
-</div></p>
+</div>
 <p>There is an ethics of drawing on other senses. Feminist philosopher Donna Haraway describes “visualizing technologies” as the “god trick of seeing everything from nowhere.”<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> Klein and D’Ignazio expand on this, demonstrating that the assumed neutrality and objectivity of even the simplest visualizations always come from a particular perspective, usually a dominant cultural view that fundamentally excludes and marginalizes.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup></p>
 <p>This is especially the case when making data visualization accessible to vision-impaired readers. The typical solution is to provide a table with the data underlying the chart or graph. This isn’t practical for large datasets, and it’s clearly not the same experience; otherwise, we would provide the tabular data to all users. Another approach is to provide an extended description sharing the insights gained from the chart.<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> This is helpful, but pre-digesting the chart in this way doesn’t allow readers to perceive and interpret the patterns and draw their own conclusions. Tactile data physicalizations provide sensory forms that offer individuals the opportunity to explore and discover patterns in the data for themselves.</p>
 <p>Approaching an object like a data physicalization on display encourages bodily engagement in physical space. It encourages the person encountering it to consider multiple angles and perspectives, and it should raise questions about how the objects are meant to be read. This touching requires proximity and a certain intimacy.<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> For Emmanuel Levinas, the “ocularcentrism” of western civilization has produced a false sense that vision is synonymous with objectivity; he proposes instead the metaphor of touch as the basis for ethical engagement with the Other. Ocularcentrism requires distance or separation and encourages objectification and mastery<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> of that which is viewed. French feminist philosopher Luce Irigaray extends this metaphor<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> in her notion of the “caress,” which “weds without consum(mat)ing.” Because touch requires intimacy, boundaries, and consent, it offers connection without the taint of mastery.<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup></p>
 <hr>
 <p>These are not artist statements because this is not art; these objects might look like Data Art, but the goals and methods are different. This is representation, correspondence, laborious translation. These are our attempts to communicate our goals, to help you <em>read</em> and interpret these unfamiliar objects, and to be challenged by the potential of physicalization.</p>
 <p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag <a href="https://twitter.com/search?q=(%23DataBeyondVision)">#DataBeyondVision</a>.</p>
-<div class="icon-nav" id="">
+<div class="icon-nav">
 <span class="help">Choose an object</span>
 <a href="#folding"><img src="images/icon-folding.svg" alt="read folding section"></a>
 <a href="#modeling"><img src="images/icon-printing.svg" alt="read modeling section"></a>
@@ -86,7 +85,7 @@ touching.</p>
 <p><em>Nick Budak, Xinyi Li</em></p>
 <h3 id="goal">Goal</h3>
 <p>The Shakespeare and Company lending library is best known for its famous members — writers such as Gertrude Stein, James Joyce, Ernest Hemingway, Aimé Césaire, and Simone de Beauvoir. We wanted to highlight the activity of the relatively unknown members — many of them women — who in fact represent a much larger portion of the library&rsquo;s day-to-day activity and thus arguably better represent it than do the prominent names. This piece makes use of unit origami to create a larger, cohesive form from small folded units, mirroring the relationship between the overall membership of the library and a single member.<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup></p>
-<p>
+
 
 
 
@@ -107,26 +106,28 @@ touching.</p>
 
 
 
-<figure>
-    <img loading="lazy" alt="Folded origami model of a green cube intersecting a white octahedron covered with printed text." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Folded origami model of a green cube intersecting a white octahedron covered with printed text." src="/issues/1/data-beyond-vision/images/folding-installation-photo.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_500x0_resize_q75_box.jpg 500w,
     /issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_800x0_resize_q75_box.jpg 800w,
     /issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/data-beyond-vision/images/folding-installation-photo.jpg 5472w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Completed piece on display at the Center for Digital Humanities, with early drafts visible in background.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Folded origami model of a green cube intersecting a white octahedron covered with printed text.
 |
 | CAPTION: Completed piece on display at the Center for Digital Humanities, with early drafts visible in background.
 | ATTRIBUTION: Photo by Shelley Szwast.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <h3 id="description">Description</h3>
 <p>The physicalization contrasts the activity of the better-known members of the lending library — those linked by researchers to an entry in the <a href="https://viaf.org/">Virtual International Authority File</a> (VIAF)<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> — with the activity of relatively unknown members with no known authority record.<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> Activity is represented by the total number of borrowing events that would plausibly have brought members into the library, namely checking out and returning books. Names of the lesser known members are printed on the paper used to create the octahedron as a way of corporealizing and “re-humanizing” humanities data.<sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> By holding the physicalization in two different ways, the user can “grasp” two separate sets of data: the octahedron (non-famous members) and the cube (famous members). The ratio of the volumes of these two solids reflects the use of the library by these two different groups.<sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup></p>
 <p>
@@ -145,7 +146,7 @@ touching.</p>
     
 </div>
 
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. 3-D model of a green cube intersecting a white octahedron covered with printed text.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
@@ -166,13 +167,12 @@ touching.</p>
  
 
 
-<figure aria-describedby="pie-desc">
-    <img loading="lazy" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF.”" role="img" sizes="(max-width: 768px) 100%, 80%"style="max-height: 400px"src="/issues/1/data-beyond-vision/images/folding_viaf_pie.svg"><figcaption>
+<figure aria-describedby="pie-desc"><img loading="lazy" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." style="max-height: 300px" src="/issues/1/data-beyond-vision/images/folding_viaf_pie.svg" role="img"><figcaption>
         <p>A pie chart representing the proportions of members with and without VIAF identification.
         </p>
     </figcaption>
 </figure>
-<p><div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”.
 |
@@ -181,11 +181,11 @@ touching.</p>
 </div>
 <div class="sr-only" id="pie-desc">
 The majority section of the pie chart represents the 14,583 library members who we identified as “lesser-known” because they are not listed in VIAF. The minority section represents the 6,248 members who are listed in VIAF, often because they were involved with a well-known creative work.
-</div></p>
+</div>
 <p>A pie chart can be used to present the same ratio of data conveyed in the physicalization; this representation is useful when we want to illustrate a situation where we know the totality of the data. Pie charts also depict a world where data fits neatly into mutually exclusive categories. The act of grasping the two intersecting solids in our physicalization is a response to this approach: the membership data of the lending library is a work in progress, updated as researchers comb through archives that are fragmentary and incomplete. One cannot see all sides of a three-dimensional solid simultaneously. By representing our data as intersecting solids, we instead mirror the fuzzy distinction between “famous” and “non-famous” members, acknowledging the intersection of the varied identities of the library’s members.<sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup></p>
 <h3 id="next-steps">Next Steps</h3>
 <p>Using cut, punched, or embossed paper would make the piece more tactile; instead of simply printing names, unique patterns could be added to represent membership and borrowing activities for individual members. In the future, we could use generative methods to create unique folding patterns for individual library member activity and make them available via print-on-demand. This would enable viewers to become participants and turn folding into an act of recovery of the stories of the lesser-known library members.<sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup></p>
-<div class="icon-nav" id="">
+<div class="icon-nav">
 <span class="help">Choose a different object</span>
 <a href="#modeling"><img src="images/icon-printing.svg" alt="read modeling section"></a>
 <a href="#weaving"><img src="images/icon-weaving.svg" alt="read weaving section"></a>
@@ -194,7 +194,7 @@ The majority section of the pie chart represents the 14,583 library members who 
 <h2 id="modeling">Modeling Shakespeare and Company Library Membership</h2>
 <p><em>Rebecca Sutton Koeser</em></p>
 <h3 id="goal-1">Goal</h3>
-<p>
+
 
 
 
@@ -215,28 +215,30 @@ The majority section of the pie chart represents the 14,583 library members who 
 
 
 
-<figure>
-    <img loading="lazy" alt="3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942." src="/issues/1/data-beyond-vision/images/modeling-side-view.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_500x0_resize_q75_box.jpg 500w,
     /issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_800x0_resize_q75_box.jpg 800w,
     /issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/data-beyond-vision/images/modeling-side-view.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Side view of 3D printed lollipop chart with labels and statement.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. 3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942.
 |
 | CAPTION: Side view of 3D printed lollipop chart with labels and statement.
 | ATTRIBUTION: Photo by Shelley Szwast.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <p>This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.</p>
-<p>
+
 
 
 
@@ -257,26 +259,28 @@ The majority section of the pie chart represents the 14,583 library members who 
 
 
 
-<figure>
-    <img loading="lazy" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/data-beyond-vision/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." src="/issues/1/data-beyond-vision/images/modeling-close-up.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/data-beyond-vision/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_500x0_resize_q75_box.jpg 500w,
     /issues/1/data-beyond-vision/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_800x0_resize_q75_box.jpg 800w,
     /issues/1/data-beyond-vision/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/data-beyond-vision/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/data-beyond-vision/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/data-beyond-vision/images/modeling-close-up.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Close up of 3D printed lollipop chart with labels.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
 |
 | CAPTION: Close-up of 3D printed lollipop chart with labels.
 | ATTRIBUTION: Photo by Shelley Szwast.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <h3 id="description-1">Description</h3>
 <p>This is a two-variable, three-dimensional lollipop chart showing the membership of the Shakespeare and Company lending library, by month and year, from November 1919 when Sylvia Beach opened her bookshop to its official closing in 1941.<sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> Membership data are drawn from two different sources, both of which are incomplete: broad membership information comes from <a href="https://shakespeareandco.princeton.edu/sources/logbooks/">logbooks</a> (although logbooks for 1930, parts of 1931–32, and 1937 are missing); detailed borrowing histories come from <a href="https://shakespeareandco.princeton.edu/sources/cards/">lending library cards</a> for a subset of members.<sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> The white octahedrons represent the number of members with an active membership in each month; the green icospheres correspond to the number of members with borrowing activity in each month.<sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> For any month where the value is zero, there is no lollipop. Representing the two different datasets as adjacent, half lollipops exposes the discrepancies between the stories these sources tell us about the membership of the library without privileging either of them.<sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> Using two different shapes makes the two parts of the physicalization distinguishable to touch. The two lollipop charts are designed to be printed independently and then assembled, so that any 3D printer can be used. In this version, the two pieces slide together; this is both a simplification and an improvement over the previous version, where one piece was placed on top of the other.<sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup></p>
 <p>
@@ -300,13 +304,13 @@ The majority section of the pie chart represents the 14,583 library members who 
     
 </div>
 
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
 <h3 id="insights-1">Insights</h3>
-<p>
+
 
 
 
@@ -321,13 +325,12 @@ The majority section of the pie chart represents the 14,583 library members who 
  
 
 
-<figure aria-describedby="bars-desc">
-    <img loading="lazy" alt="Bar chart showing members with borrowing activity and total members each month" role="img" sizes="(max-width: 768px) 100%, 80%"src="/issues/1/data-beyond-vision/images/membership-book-activity-combined_1919-19411.svg"><figcaption>
+<figure aria-describedby="bars-desc"><img loading="lazy" alt="Bar chart showing members with borrowing activity and total members each month" src="/issues/1/data-beyond-vision/images/membership-book-activity-combined_1919-19411.svg" role="img"><figcaption>
         <p>Shakespeare and Company lending library members with borrowing activity and members, 1919–1941. From Kotin and Koeser, “Shakespeare and Company Lending Library Cards.”
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Bar chart showing members with borrowing activity and total members each month.
 |
@@ -338,13 +341,13 @@ The majority section of the pie chart represents the 14,583 library members who 
 </div>
 <div class="sr-only" id="bars-desc">
 Plotting documented membership accounts against borrowing activity shows the differences in members tracked across the two sources. The Shakespeare and Company Project has information about the borrowing activity of 11% of lending library members. For the 1920s, the percentage is lower: only 6%. But in the 1930s, the percentage is higher: 23%. Some months show more members with borrowing activity than total members because information on the cards overlaps gaps in logbook coverage.
-</div></p>
+</div>
 <p>The same membership data can be presented in a two-variable bar chart. Overall trends are easy to see, and both representations of the data make it possible to compare the two data series against each other. Seasonal trends are visible in the bar chart, but it’s difficult to identify distinct months; in contrast, changing perspective on the 3D lollipop chart allows us to focus on yearly or monthly trends. Missing data in one variable are visible in both, but seem more striking in the 3D version where the base of the piece is bare without any lollipop tops. At the current scale, touching the piece requires focusing attention on just a portion of the object but invites exploration, which can proceed in any direction.<sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> While the bar chart demands sequential reading from left to right, the 3D printed object doesn’t provide or demand a particular starting point or sequence.</p>
 <p>The bar chart conveys a sense of certitude and exactness that does not reflect the missing and partial data that underlie it; the 3D printed object, with its irregularities and fragility, is more representative of the contingent, historical data.<sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup></p>
 <h3 id="next-steps-1">Next Steps</h3>
 <p>The current version uses different shapes for the two variables, but adding textures would make the model even more tactile. Simple 3D printed labels with text and braille have been added for display alongside the piece, but they could be incorporated directly on the model, and refined to provide a scale for the axes.<sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> The 3D printed objects could also be augmented with other media: lights or sound could convey the intensity of borrowing activity, or threads connecting months could represent the number of subscription renewals and convey a sense of continuity. The Python code used to create these models could be generalized for reuse, and eventually made available as a Blender plugin.<sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> New shapes or approaches could be used to leverage innovations in 3D modeling, such as generative design, to create objects that are more inviting to touch and even more distinct from 2D data visualizations. 3D models could be revised for fabrication with CNC machines to create objects out of wood instead of plastic, which could make them more inviting to touch.</p>
 <p><a href="/issues/1/modeling-howto/">Make one &gt;</a></p>
-<div class="icon-nav" id="">
+<div class="icon-nav">
 <span class="help">Choose a different object</span>
 <a href="#folding"><img src="images/icon-folding.svg" alt="read folding section"></a>
 <a href="#weaving"><img src="images/icon-weaving.svg" alt="read weaving section"></a>
@@ -380,7 +383,7 @@ Plotting documented membership accounts against borrowing activity shows the dif
     <figcaption><p>The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.</p></figcaption>
 </figure>
 
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
@@ -388,7 +391,7 @@ Plotting documented membership accounts against borrowing activity shows the dif
 <h3 id="description-2">Description</h3>
 <p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of Derrida’s Margins.<sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup> Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving.<sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup> Using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization.</p>
 <p>Working with textiles is often stereotyped as female activity, therefore this piece also raises questions of gender and other false binaries such as art versus craft, high- versus low-tech. Based on anthropological research, women produced most of the textiles in the ancient world, but that work can be read as female authorship involved in the earliest textual practices.<sup id="fnref:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup> The loom itself runs the gamut from high to low technology: a backstrap loom can be assembled at home from dowels, rods, and cords; and yet, Joseph-Marie Jacquard’s 1801 power loom, which used punch cards to automatically create elaborate woven patterns, was an important precursor to early computers.</p>
-<p>
+
 
 
 
@@ -409,28 +412,30 @@ Plotting documented membership accounts against borrowing activity shows the dif
 
 
 
-<figure>
-    <img loading="lazy" alt="The weaver sits in front of a table top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="The weaver sits in front of a table top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it." src="/issues/1/data-beyond-vision/images/weaving-soumak.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_500x0_resize_q75_box.jpg 500w,
     /issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_800x0_resize_q75_box.jpg 800w,
     /issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/data-beyond-vision/images/weaving-soumak.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Gissoo, creating a Soumak weave.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. The weaver sits in front of a table-top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it.
 |
 | CAPTION: Gissoo, creating a Soumak weave.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <h3 id="insights-2">Insights</h3>
 <p>The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, the bar chart may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.</p>
-<p>
+
 
 
 
@@ -445,13 +450,12 @@ Plotting documented membership accounts against borrowing activity shows the dif
  
 
 
-<figure aria-describedby="refs-desc">
-    <img loading="lazy" alt="Stacked bar chart showing number and kind of references by page." role="img" sizes="(max-width: 768px) 100%, 80%"style="max-height: 500px"src="/issues/1/data-beyond-vision/images/derrida-refsbytype-chap1.svg"><figcaption>
+<figure aria-describedby="refs-desc"><img loading="lazy" alt="Stacked bar chart showing number and kind of references by page." style="max-height: 500px" src="/issues/1/data-beyond-vision/images/derrida-refsbytype-chap1.svg" role="img"><figcaption>
         <p>References in chapter 1 of <em>de la Grammatologie</em> by page and type. (Chapter 1 begins on page 15).
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Stacked bar chart showing number and kind of references by page.
 |
@@ -460,12 +464,12 @@ Plotting documented membership accounts against borrowing activity shows the dif
 </div>
 <div class="sr-only" id="refs-desc">
 The chart shows that quotations are the most common type of reference in chapter one, and a few pages include six or more quotations. Footnotes are the next most common reference; there is only one epigraph, on the first page in the chapter, and one citation, on page 35. Only six pages have no references at all, and many pages have more than one.
-</div></p>
+</div>
 <p>The ability to feel the density and frequency of each type of reference, color coded above, creates a unique experience for each participant, specific to their own perspective. These organic experiences bring to light the depth and complexities of the original work as well as the labor involved with gathering this data. This woven piece, which represents the first half (thirteen pages) of the first chapter of <em>Of Grammatology</em> is thirty-seven inches long, a little more than three feet. The physical nature of this data representation required that materials and dimensions be carefully calculated and measured.<sup id="fnref:35"><a href="#fn:35" class="footnote-ref" role="doc-noteref">35</a></sup> The process of creating this piece is embodied and experiential, which naturally leads to conversations that effortlessly surface the labor of data work and the depth of the original text. Unfortunately, this is less likely to happen naturally when creating data visualizations.</p>
 <h3 id="next-steps-2">Next Steps</h3>
 <p>Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.</p>
 <p><a href="/issues/1/weaving-howto/">Make one &gt;</a></p>
-<div class="icon-nav" id="">
+<div class="icon-nav">
 <span class="help">Choose a different object</span>
 <a href="#folding"><img src="images/icon-folding.svg" alt="read folding section"></a>
 <a href="#modeling"><img src="images/icon-printing.svg" alt="read modeling section"></a>
@@ -475,7 +479,7 @@ The chart shows that quotations are the most common type of reference in chapter
 <p><em>Xinyi Li</em></p>
 <h3 id="goal-3">Goal</h3>
 <p>This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the <a href="https://shakespeareandco.princeton.edu/">Shakespeare and Company Project</a> — bringing archival data to life and facilitating rich interpretations.</p>
-<p>
+
 
 
 
@@ -490,22 +494,21 @@ The chart shows that quotations are the most common type of reference in chapter
  
 
 
-<figure>
-    <img loading="lazy" alt="Animated GIF with the camera panning revealing different portions of the paper model." role="img" sizes="(max-width: 768px) 100%, 80%"src="/issues/1/data-beyond-vision/images/stacking-horizontal-pan.gif"><figcaption>
+<figure><img loading="lazy" alt="Animated GIF with the camera panning revealing different portions of the paper model." src="/issues/1/data-beyond-vision/images/stacking-horizontal-pan.gif"><figcaption>
         <p>Overview of a folded model representing the lending library membership activities from 1919–1941.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Animated GIF with the camera panning revealing different portions of the paper model.
 |
 | CAPTION: Overview of a folded model representing the lending library membership activities from 1919–1941.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <h3 id="description-3">Description</h3>
 <p><a href="https://shakespeareandco.princeton.edu/">Shakespeare and Company Project</a> lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the <a href="https://shakespeareandco.princeton.edu/sources/logbooks/">logbooks</a>; the depth depicts the number of members with borrowing activity, according to each member’s <a href="https://shakespeareandco.princeton.edu/sources/cards/">lending library card</a>; the length along the timeline is based on the total number of borrowing events.<sup id="fnref:36"><a href="#fn:36" class="footnote-ref" role="doc-noteref">36</a></sup> Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.</p>
-<p>
+
 
 
 
@@ -526,25 +529,27 @@ The chart shows that quotations are the most common type of reference in chapter
 
 
 
-<figure>
-    <img loading="lazy" alt="Textual labels overlaying a 3d rendering of a unit of the folded model along its three directions." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/data-beyond-vision/images/stacking-photo-legend_hu82654c780d94fbe639e7d55a501ef41b_40394428_500x0_resize_box_2.png 500w,
+<figure><img loading="lazy" alt="Textual labels overlaying a 3d rendering of a unit of the folded model along its three directions." src="/issues/1/data-beyond-vision/images/stacking-photo-legend.png"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/data-beyond-vision/images/stacking-photo-legend_hu82654c780d94fbe639e7d55a501ef41b_40394428_500x0_resize_box_2.png 500w,
     /issues/1/data-beyond-vision/images/stacking-photo-legend_hu82654c780d94fbe639e7d55a501ef41b_40394428_800x0_resize_box_2.png 800w,
     /issues/1/data-beyond-vision/images/stacking-photo-legend_hu82654c780d94fbe639e7d55a501ef41b_40394428_1200x0_resize_box_2.png 1200w,
     /issues/1/data-beyond-vision/images/stacking-photo-legend_hu82654c780d94fbe639e7d55a501ef41b_40394428_1500x0_resize_box_2.png 1500w,
     /issues/1/data-beyond-vision/images/stacking-photo-legend_hu82654c780d94fbe639e7d55a501ef41b_40394428_1800x0_resize_box_2.png 1800w,
     /issues/1/data-beyond-vision/images/stacking-photo-legend.png 6980w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Legend showing how to read the information represented in three dimensions.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Textual labels overlaying a 3D rendering of a unit of the folded model along its three directions.
 |
 | CAPTION: Legend showing how to read the information represented in three dimensions.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <p>This physicalization made use of kirigami technique, which transforms single sheets of paper into three-dimensional forms. Data was mapped to the shapes with <a href="http://data-illustrator.com/">Data Illustrator</a>, semi-manual calculation, and vector drawing. The materiality and the process have a poetic connection to the subject matter, metaphorically: stories and knowledge can be embedded on flat papers, but the act of reading unfolds the surface into interpretive space even beyond three dimensions.</p>
 <p>
 <div class="sketchfab-embed-wrapper">
@@ -567,7 +572,7 @@ The chart shows that quotations are the most common type of reference in chapter
     
 </div>
 
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
@@ -588,13 +593,12 @@ The chart shows that quotations are the most common type of reference in chapter
  
 
 
-<figure aria-describedby="stackedbar-desc">
-    <img loading="lazy" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." role="img" sizes="(max-width: 768px) 100%, 80%"src="/issues/1/data-beyond-vision/images/2d-stacked-bar.svg"><figcaption>
+<figure aria-describedby="stackedbar-desc"><img loading="lazy" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." src="/issues/1/data-beyond-vision/images/2d-stacked-bar.svg" role="img"><figcaption>
         <p>Membership activities of Shakespeare and Company lending library from 1919–1941 represented as stacked bar charts.
         </p>
     </figcaption>
 </figure>
-<p><div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories.
 |
@@ -603,7 +607,7 @@ The chart shows that quotations are the most common type of reference in chapter
 </div>
 <div class="sr-only" id="stackedbar-desc">
 Members with borrowing events constitute a fraction of all the members in the earlier years. The overall number of borrowing events increases gradually from 1919 to 1926, drops off slightly, then evidently increases from 1934 to 1939, even though the number of members drops drastically after 1929. It’s not easy to compare book borrowing by new members across the years.
-</div></p>
+</div>
 <p>With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.</p>
 
 
@@ -620,13 +624,12 @@ Members with borrowing events constitute a fraction of all the members in the ea
  
 
 
-<figure aria-describedby="pieseries-desc">
-    <img loading="lazy" alt="A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories." role="img" sizes="(max-width: 768px) 100%, 80%"src="/issues/1/data-beyond-vision/images/2d-pie.svg"><figcaption>
+<figure aria-describedby="pieseries-desc"><img loading="lazy" alt="A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories." src="/issues/1/data-beyond-vision/images/2d-pie.svg" role="img"><figcaption>
         <p>Membership activities of Shakespeare and Company lending library between 1919 and 1941 represented as pie charts.
         </p>
     </figcaption>
 </figure>
-<p><div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories.
 |
@@ -635,13 +638,13 @@ Members with borrowing events constitute a fraction of all the members in the ea
 </div>
 <div class="sr-only" id="pieseries-desc">
 Overall, renewed members outsize new members before 1929, followed by five years with nearly two times more new members than renewed members. Members with borrowing events represent a fraction of all the members in the early years between 1919 and 1929. Then members with borrowing events grow and become more comparable to the size of all members, which sizes down drastically after 1929. Borrows from new members outsize renewed members since 1934. It is not easy to compare the proportion of growth across the years.
-</div></p>
+</div>
 <p>Extending into physical space allows data to be encoded in three axes and provides multiple possible angles to view the piece, depending on the relationships one is interested in. Different angles can reveal new interactions between logbook members, members with lending library card activities, and borrowing events. The separation of renewing and new members makes it possible to juxtapose and compare activities between the two groups of members. Spatial factors communicate different facets of the data, and color coding is no longer required.</p>
 <p>Throughout the process of developing this project as practice-based research, making and reflecting are in constant oscillation, and knowing happens in actions. As I worked through this piece and observed the artifact, new questions emerged: how do we measure the level of liveliness of the lending library? Is it by the number of members or by the number of borrowing events? Instead of drawing comparisons by the lengths along each axis, perhaps this physicalization also introduces another way to look at the vibrancy of the lending library: through the volumes and relative sizes of the cuboids and rectangles, which factor in both the number of members and the borrowing activity.</p>
 <h3 id="next-steps-3">Next Steps</h3>
 <p>The pattern generation process is very programming-friendly and the materials required are also easily accessible. The data encoding process could be automated by custom code, which could then be made available as a tool for presenting part-to-whole relationships in other datasets. With the addition of dynamic media such as projection mapping, this piece could convey more context and narratives around the lending library.</p>
 <p><a href="/issues/1/stacking-howto/">Make one &gt;</a></p>
-<div class="icon-nav" id="">
+<div class="icon-nav">
 <span class="help">Choose a different object</span>
 <a href="#folding"><img src="images/icon-folding.svg" alt="read folding section"></a>
 <a href="#modeling"><img src="images/icon-printing.svg" alt="read modeling section"></a>
@@ -762,7 +765,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>This work is based on pre-release versions of the <a href="https://shakespeareandco.princeton.edu/about/data/">datasets now available</a>. Kotin et al., <em>Shakespeare and Company Project Dataset</em>. <a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Print a model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:03:18-04:00</updated><content type="html"><![CDATA[<p>
+</section>]]></content></entry><entry><title type="html">Print a model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:10:31-04:00</updated><content type="html"><![CDATA[<p>
 
 
 
@@ -783,19 +786,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/modeling-howto/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." src="/issues/1/modeling-howto/images/modeling-close-up.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/modeling-howto/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_500x0_resize_q75_box.jpg 500w,
     /issues/1/modeling-howto/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_800x0_resize_q75_box.jpg 800w,
     /issues/1/modeling-howto/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/modeling-howto/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/modeling-howto/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/modeling-howto/images/modeling-close-up.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Close-up of 3D printed lollipop chart with labels.<span class="attribution">Photo by Shelley Szwast</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
 |
@@ -849,12 +854,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
     
 </div>
 
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:03:18-04:00</updated><content type="html"><![CDATA[<p>
+]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:10:31-04:00</updated><content type="html"><![CDATA[<p>
 
 
 
@@ -875,19 +880,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="A portion of a paper model against dark background with years printed on the base." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/stacking-howto/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="A portion of a paper model against dark background with years printed on the base." src="/issues/1/stacking-howto/images/stacking-part_v2.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/stacking-howto/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_500x0_resize_q75_box.jpg 500w,
     /issues/1/stacking-howto/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_800x0_resize_q75_box.jpg 800w,
     /issues/1/stacking-howto/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/stacking-howto/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/stacking-howto/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/stacking-howto/images/stacking-part_v2.jpg 6016w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Close-up of the finished model of membership activities of the Shakespeare and Company lending library
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. A partition of a paper model against dark background with years printed on the base.
 |
@@ -940,12 +947,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
     
 </div>
 
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:03:18-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
+]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:10:31-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
 <p>I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was <em>Six Months to Live</em>, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. Not all of McDaniel&rsquo;s characters had cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. McDaniel&rsquo;s books were about grief and communities formed through crisis.</p>
 <p>These books would have been perfect for a budding hypochondriac, or for a reader inclined toward purple prose and melodrama, but I read them instead for medical details, taking mental notes on how to recognize signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the sick main character, I occupied the position of the doctor, a role I planned (at the time) to take on later in real life. It turned out, though, that I would have to be the protagonist anyway.</p>
 <p>I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be a cyst. Immediately, I was launched into a world at once familiar and alien. I had grown up among doctors and research scientists in the orbit of Washington University School of Medicine, largely because my father is a medical ethicist with an abiding interest in the practical applications of his work. I had even worked in a research laboratory there from ages sixteen to twenty, studying&mdash;of all things&mdash;the genetics of breast cancer.</p>
@@ -1002,7 +1009,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>Susan Sontag, <em>Illness as Metaphor</em> (New York: Farrar, Straus and Giroux, 1978), 3. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:03:18-04:00</updated><content type="html"><![CDATA[
+</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T16:10:31-04:00</updated><content type="html"><![CDATA[
 
 
 
@@ -1023,19 +1030,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="A scarf with alternating bands of blue fabrics resting on a table." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="A scarf with alternating bands of blue fabrics resting on a table." src="/issues/1/weaving-howto/images/weaving-display.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/weaving-display_hu6e182ffdd39bfbfe34e02dfa38c31055_5080252_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/weaving-display.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Completed weaving of the first 13 pages of Derrida’s references in chapter 1 of Of Grammatology.<span class="attribution">Photo by Shelley Szwast</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. A scarf with alternating bands of blue fabrics resting on a table.
 |
@@ -1094,7 +1103,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
     <figcaption><p>The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.</p></figcaption>
 </figure>
 
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
@@ -1121,19 +1130,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught." src="/issues/1/weaving-howto/images/loom-neutral-position.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/loom-neutral-position.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Heddle in neutral position.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Wooden loom sitting on table with blue thread strung taught.
 |
@@ -1162,19 +1173,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled upwards." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled upwards." src="/issues/1/weaving-howto/images/loom-upper-position.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/loom-upper-position_hu27f9665dfeb0407193f95315e61863a7_4205073_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/loom-upper-position.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Heddle in upper position.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Wooden loom sitting on table with blue thread strung taught, pulled upwards.
 |
@@ -1203,19 +1216,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled downwards." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled downwards." src="/issues/1/weaving-howto/images/loom-lower-position.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/loom-lower-position.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Heddle in lower position.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Wooden loom sitting on table with blue thread strung taught, pulled downwards.
 |
@@ -1244,19 +1259,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it." src="/issues/1/weaving-howto/images/shuttle.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/shuttle.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>Shuttle, a tool used to pass the yarn through the warp.<span class="attribution">Photo by Gissoo Doroudian, edited by Xinyi Li.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it.
 |
@@ -1285,19 +1302,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Close-up of crossed yarn with vertical threads labeled “Warp” and horizontal yarns threads labeled “Weft”." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Close-up of crossed yarn with vertical threads labeled “Warp” and horizontal yarns threads labeled “Weft”." src="/issues/1/weaving-howto/images/warp-weft-annotated.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/warp-weft-annotated_hu7bc76d175bd5292bb8defbabd9d6bf04_5104258_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/warp-weft-annotated.jpg 3000w"
-     class="portrait"><figcaption>
+     class="portrait"
+     ><figcaption>
         <p>“Warp” and “Weft” yarns.<span class="attribution">Photo by Gissoo Doroudian.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Close-up of crossed yarn with vertical threads labeled “Warp” and horizontal threads labeled “Weft”.
 |
@@ -1347,19 +1366,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Composite of eight images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Composite of eight images showing various stages of weaving." src="/issues/1/weaving-howto/images/plain-weave-thin.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/plain-weave-thin.jpg 3000w"
-     class="portrait"><figcaption>
+     class="portrait"
+     ><figcaption>
         <p>How to make a plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.<span class="attribution">Photos by Shelley Szwast and Gissoo Doroudian.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
@@ -1404,19 +1425,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Composite of four images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Composite of four images showing various stages of weaving." src="/issues/1/weaving-howto/images/plain-weave-thick.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/plain-weave-thick.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>How to make a plain weave in four steps utilizing the hands to pass the yarn through the warp.<span class="attribution">Photos by Gissoo Doroudian.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
@@ -1465,19 +1488,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Composite of eight images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Composite of eight images showing various stages of weaving." src="/issues/1/weaving-howto/images/soumak-weave.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/soumak-weave.jpg 3000w"
-     class="portrait"><figcaption>
+     class="portrait"
+     ><figcaption>
         <p>How to make a soumak weave in eight steps.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
@@ -1525,19 +1550,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Composite of seven images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Composite of seven images showing various stages of weaving." src="/issues/1/weaving-howto/images/pile-loop-weave.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/pile-loop-weave_hu30d1a61af9886855d65d2ad3279dcb4c_4767843_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/pile-loop-weave.jpg 3000w"
-     class="portrait"><figcaption>
+     class="portrait"
+     ><figcaption>
         <p>How to make a Pile Loop weave in seven steps.<span class="attribution">Photos by Gissoo Doroudian.</span>
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of seven images showing various stages of weaving.
 |
@@ -1580,19 +1607,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
-<figure>
-    <img loading="lazy" alt="Composite of four images showing various stages of weaving." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/weaving-howto/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_500x0_resize_q75_box.jpg 500w,
+<figure><img loading="lazy" alt="Composite of four images showing various stages of weaving." src="/issues/1/weaving-howto/images/rya-knot-weave.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/issues/1/weaving-howto/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_500x0_resize_q75_box.jpg 500w,
     /issues/1/weaving-howto/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_800x0_resize_q75_box.jpg 800w,
     /issues/1/weaving-howto/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/weaving-howto/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/weaving-howto/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weaving-howto/images/rya-knot-weave.jpg 3400w"
-     class="landscape"><figcaption>
+     class="landscape"
+     ><figcaption>
         <p>How to make a rya knot in four steps.
         </p>
     </figcaption>
 </figure>
-<div class="txt-only" id="">
+<div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of four images showing various stages of weaving.
 |
@@ -1625,10 +1654,10 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">About</title><link href="https://startwords.cdh.princeton.edu/about/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/about/</id><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T16:03:18-04:00</updated><content type="html"><![CDATA[<p><em>Startwords</em> is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, <em>Startwords</em> is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.</p>
+]]></content></entry><entry><title type="html">About</title><link href="https://startwords.cdh.princeton.edu/about/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/about/</id><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T16:10:31-04:00</updated><content type="html"><![CDATA[<p><em>Startwords</em> is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, <em>Startwords</em> is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.</p>
 <p>Each issue features two articles that speak to a common theme, feature, or concern. “Snippets” invite readers to engage with the digital evidence underlying those articles. Issues will be released one to three times a year, when we have something to share or say.</p>
 <p><em>Startwords</em> (ISSN 2694-2658) is built with the Hugo static site generator using a custom-made theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the <a href="https://github.com/Princeton-CDH/startwords">website code</a> under an Apache 2.0 license.</p>
-<div class="masthead" id="">
+<div class="masthead">
 <h2 id="masthead">Masthead</h2>
 <p><strong>Editor</strong> Grant Wythoff</p>
 <p><strong>UX Designer</strong> Gissoo Doroudian</p>
@@ -1648,7 +1677,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </ul>
 
 </div>
-]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T16:03:18-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
+]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T16:10:31-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
 <p>As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.</p>
 <p><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup> <sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
 </div> <!-- close text container -->
