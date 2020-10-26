@@ -237,4 +237,5 @@ h2:not([id=acknowledgements])::after {
 
 @media print {
     h2[id] { line-height: 21px; margin-bottom: 40px; }
+    #weaving { margin-top: 3rem; }
 }
