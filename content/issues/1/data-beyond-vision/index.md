@@ -9,7 +9,7 @@ authors:
   - Xinyi Li
 date: 2020-10-01
 doi: 10.5281/zenodo.3713671
-pdf: https://cdh.princeton.edu/media/uploads/documents/grad_fellows_call_for_spring_21.pdf
+pdf: startwords-1-data-beyond-vision.pdf
 images: ["issues/1/data-beyond-vision/images/dbv-social.jpg"]
 tags: [DataBeyondVision]
 ---
@@ -57,6 +57,7 @@ Data physicalization represents data in physical form.[^4] Like other approaches
 Data physicalization attempts to defamiliarize us from the many two-dimensional data representations we have seen by literally placing data in the _mise en scène_ of a conceptual exploration. There is something unique about turning data points into physical forms and placing them in space, something that triggers the mind to understand data in a distinctive way.
 
 {{< figure src="images/conceptmap.svg" alt="Diagram defining the relationships between various data representations and the senses they incorporate; content available in description" caption="Concept map situating data physicalization in relation to other types of data representations and interpretations. Revised from the concept map included in the poster presented by the authors at DH2019 in Utrecht. Koeser, Rebecca Sutton, Nick Budak, Gissoo Doroudian, and Xinyi Li. “Data Beyond Vision,” July 11, 2019." attrlink="https://doi.org/10.5281/zenodo.3261531" desc-id="conceptmap-desc" >}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE.
@@ -66,6 +67,7 @@ Data physicalization attempts to defamiliarize us from the many two-dimensional 
 | LINK: https://doi.org/10.5281/zenodo.3261531
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
 {{< wrap class="sr-only" id="conceptmap-desc" >}}
 Other approaches for data representation and interpretation include:
 - Data Visualization, which focuses on storytelling by using graphical elements
@@ -105,6 +107,7 @@ _Nick Budak, Xinyi Li_
 The Shakespeare and Company lending library is best known for its famous members — writers such as Gertrude Stein, James Joyce, Ernest Hemingway, Aimé Césaire, and Simone de Beauvoir. We wanted to highlight the activity of the relatively unknown members — many of them women — who in fact represent a much larger portion of the library's day-to-day activity and thus arguably better represent it than do the prominent names. This piece makes use of unit origami to create a larger, cohesive form from small folded units, mirroring the relationship between the overall membership of the library and a single member.[^14]
 
 {{< figure src="images/folding-installation-photo.jpg" alt="Folded origami model of a green cube intersecting a white octahedron covered with printed text." caption="Completed piece on display at the Center for Digital Humanities, with early drafts visible in background." >}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Folded origami model of a green cube intersecting a white octahedron covered with printed text.
@@ -125,7 +128,7 @@ The physicalization contrasts the activity of the better-known members of the le
 {{</ wrap >}}
 
 ### Insights
-{{< figure src="images/folding_viaf_pie.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF.”" caption="A pie chart representing the proportions of members with and without VIAF identification." desc-id="pie-desc" max-height="400px">}}
+{{< figure src="images/folding_viaf_pie.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." caption="A pie chart representing the proportions of members with and without VIAF identification." desc-id="pie-desc" max-height="300px">}}
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -134,6 +137,7 @@ The physicalization contrasts the activity of the better-known members of the le
 | CAPTION: A pie chart representing the proportions of members with and without VIAF identification.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
 {{< wrap class="sr-only" id="pie-desc" >}}
 The majority section of the pie chart represents the 14,583 library members who we identified as “lesser-known” because they are not listed in VIAF. The minority section represents the 6,248 members who are listed in VIAF, often because they were involved with a well-known creative work.
 {{</ wrap >}}
@@ -157,6 +161,7 @@ _Rebecca Sutton Koeser_
 
 ### Goal
 {{< figure src="images/modeling-side-view.jpg" alt="3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942." caption="Side view of 3D printed lollipop chart with labels and statement.">}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years, 1919–1942.
@@ -169,6 +174,7 @@ _Rebecca Sutton Koeser_
 This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.
 
 {{< figure src="images/modeling-close-up.jpg" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." caption="Close up of 3D printed lollipop chart with labels.">}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
@@ -190,6 +196,7 @@ This is a two-variable, three-dimensional lollipop chart showing the membership 
 
 ### Insights
 {{< figure src="images/membership-book-activity-combined_1919-19411.svg" alt="Bar chart showing members with borrowing activity and total members each month" caption="Shakespeare and Company lending library members with borrowing activity and members, 1919–1941. From Kotin and Koeser, “Shakespeare and Company Lending Library Cards.”" desc-id="bars-desc" >}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Bar chart showing members with borrowing activity and total members each month.
@@ -199,6 +206,7 @@ This is a two-variable, three-dimensional lollipop chart showing the membership 
 | LINK: http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
 {{< wrap class="sr-only" id="bars-desc" >}}
 Plotting documented membership accounts against borrowing activity shows the differences in members tracked across the two sources. The Shakespeare and Company Project has information about the borrowing activity of 11% of lending library members. For the 1920s, the percentage is lower: only 6%. But in the 1930s, the percentage is higher: 23%. Some months show more members with borrowing activity than total members because information on the cards overlaps gaps in logbook coverage.
 {{</ wrap >}}
@@ -243,6 +251,7 @@ This weaving represents the references in chapter one of Jacques Derrida’s _de
 Working with textiles is often stereotyped as female activity, therefore this piece also raises questions of gender and other false binaries such as art versus craft, high- versus low-tech. Based on anthropological research, women produced most of the textiles in the ancient world, but that work can be read as female authorship involved in the earliest textual practices.[^33] The loom itself runs the gamut from high to low technology: a backstrap loom can be assembled at home from dowels, rods, and cords; and yet, Joseph-Marie Jacquard’s 1801 power loom, which used punch cards to automatically create elaborate woven patterns, was an important precursor to early computers.
 
 {{< figure src="images/weaving-soumak.jpg" alt="The weaver sits in front of a table top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it." caption="Gissoo, creating a Soumak weave.">}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. The weaver sits in front of a table-top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it.
@@ -255,6 +264,7 @@ Working with textiles is often stereotyped as female activity, therefore this pi
 The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, the bar chart may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.
 
 {{< figure src="images/derrida-refsbytype-chap1.svg" alt="Stacked bar chart showing number and kind of references by page." caption="References in chapter 1 of *de la Grammatologie* by page and type. (Chapter 1 begins on page 15)." desc-id="refs-desc" max-height="500px" >}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Stacked bar chart showing number and kind of references by page.
@@ -262,6 +272,7 @@ The data encoded in the weaving could be represented as a stacked bar chart, a f
 | CAPTION: References in chapter 1 of Of Grammatology by page and type. (Chapter 1 begins on page 15).
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
 {{< wrap class="sr-only" id="refs-desc" >}}
 The chart shows that quotations are the most common type of reference in chapter one, and a few pages include six or more quotations. Footnotes are the next most common reference; there is only one epigraph, on the first page in the chapter, and one citation, on page 35. Only six pages have no references at all, and many pages have more than one.
 {{</ wrap >}}
@@ -289,6 +300,7 @@ _Xinyi Li_
 This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the [Shakespeare and Company Project](https://shakespeareandco.princeton.edu/) — bringing archival data to life and facilitating rich interpretations.
 
 {{< figure src="images/stacking-horizontal-pan.gif" alt="Animated GIF with the camera panning revealing different portions of the paper model." caption="Overview of a folded model representing the lending library membership activities from 1919–1941.">}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Animated GIF with the camera panning revealing different portions of the paper model.
@@ -301,6 +313,7 @@ This piece aims to reveal the continuity and growth of Sylvia Beach’s lending 
 [Shakespeare and Company Project](https://shakespeareandco.princeton.edu/) lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the [logbooks](https://shakespeareandco.princeton.edu/sources/logbooks/); the depth depicts the number of members with borrowing activity, according to each member’s [lending library card](https://shakespeareandco.princeton.edu/sources/cards/); the length along the timeline is based on the total number of borrowing events.[^35] Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.
 
 {{< figure src="images/stacking-photo-legend.png" alt="Textual labels overlaying a 3d rendering of a unit of the folded model along its three directions." caption="Legend showing how to read the information represented in three dimensions.">}}
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Textual labels overlaying a 3D rendering of a unit of the folded model along its three directions.
@@ -328,6 +341,7 @@ This physicalization made use of kirigami technique, which transforms single she
 | CAPTION: Membership activities of Shakespeare and Company Lending Library from 1919–194 represented as stacked bar charts.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
 {{< wrap class="sr-only" id="stackedbar-desc" >}}
 Members with borrowing events constitute a fraction of all the members in the earlier years. The overall number of borrowing events increases gradually from 1919 to 1926, drops off slightly, then evidently increases from 1934 to 1939, even though the number of members drops drastically after 1929. It’s not easy to compare book borrowing by new members across the years.
 {{</ wrap >}}
@@ -343,6 +357,7 @@ With current off-the-shelf visualization tools like the ones that come with Goog
 | CAPTION: Membership activities of Shakespeare and Company lending library between 1919 and 1941 represented as pie charts.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
 {{< wrap class="sr-only" id="pieseries-desc" >}}
 Overall, renewed members outsize new members before 1929, followed by five years with nearly two times more new members than renewed members. Members with borrowing events represent a fraction of all the members in the early years between 1919 and 1929. Then members with borrowing events grow and become more comparable to the size of all members, which sizes down drastically after 1929. Borrows from new members outsize renewed members since 1934. It is not easy to compare the proportion of growth across the years.
 {{</ wrap >}}

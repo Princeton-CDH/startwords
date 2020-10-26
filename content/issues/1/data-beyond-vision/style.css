@@ -23,9 +23,12 @@ article .sketchfab-embed-wrapper {
     z-index: 1;
 }
 
+@media print { article::before { background: none; } }
+
 /* purple "interlude" section with eye/hand graphics */
 
 #interlude {
+    page-break-inside: avoid;
     position: relative;
     margin: 0 auto;
 }
@@ -127,6 +130,13 @@ article .sketchfab-embed-wrapper {
     }
 }
 
+@media print {
+    #interlude::before { background: none; }
+    #interlude .left, #interlude .right { color: #4C2A85; }
+    #interlude .left::before { right: -21px; }
+    #interlude .right::before { left: 0; }
+}
+
 /* clickable icon navigation sections */
 
 .icon-nav {
@@ -223,4 +233,9 @@ h2:not([id=acknowledgements])::after {
 @media (min-width: 768px) {
     h2[id]::before { height: 70px; top: calc(50% - 35px); }
     h2[id]::after { height: 70px; width: 70px; top: calc(50% - 35px); }
+}
+
+@media print {
+    h2[id] { line-height: 21px; margin-bottom: 40px; }
+    #weaving { margin-top: 3rem; }
 }

@@ -56,7 +56,9 @@ body {
         }
 
         header {
-            .number, .theme, .authors, .doi, time {
+            margin-bottom: 0.5rem;
+
+            .number, .theme, .authors, .doi, .tags, time {
                 font-family: $font-sans;
                 font-size: 14px;
             }
@@ -69,11 +71,10 @@ body {
             }
 
             .authors {
-                font-weight: normal;
+                font-weight: 300;
             }
 
             .theme {
-                margin: 0 0 14px;
                 padding: 0;
             }
 
@@ -106,6 +107,7 @@ body {
             }
         }
 
+        figcaption { font-size: 12px; }
     }
 }
 
@@ -184,6 +186,7 @@ body.article .footnotes {
     hr {
         display: none;
     }
+
     ol {
         list-style: decimal inside;
 
@@ -213,6 +216,8 @@ body.article .footnotes {
             }
         }
     }
+
+    &.endnotes ol li { background: white; }
 }
 
 
@@ -227,6 +232,7 @@ a.footnote-ref {
     padding: 0;
     margin: 0;
     z-index: 5;
+    font-weight: 400;
 
     &::after {
         content: '';
