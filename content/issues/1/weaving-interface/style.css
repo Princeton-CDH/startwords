@@ -9,7 +9,7 @@
 
 body.article .deepzoom {
     width: 100vw;
-    height: 230px;
+    height: 300px;
     margin-top: 15vh;
     margin-bottom: 30vh;
     background-color: black;
@@ -20,14 +20,7 @@ body.article .deepzoom {
 /* breakpoint-s */
 @media (min-width: 768px) {
     body.article .deepzoom {
-        height: 454px;
-    }
-}
-
-/* breakpoint-m */
-@media (min-width: 1024px) {
-    body.article .deepzoom {
-        height: 604px;
+        height: 608px;
     }
 }
 
