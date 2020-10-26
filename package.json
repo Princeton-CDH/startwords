@@ -6,6 +6,9 @@
   "license": "Apache-2.0",
   "private": true,
   "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1"
   },
