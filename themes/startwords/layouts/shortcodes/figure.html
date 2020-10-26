@@ -20,13 +20,11 @@
 {{ end }}
 
 <figure{{ with .Get "desc-id" }} aria-describedby="{{ . }}"{{ end }}>
-    <img loading="lazy" alt="{{ .Get `alt` }}" role="img" sizes="(max-width: 768px) 100%, 80%"
-    {{- with .Get "max-height" -}}
-     style="max-height: {{ . }}"
-    {{- end -}}
     {{- if (or $svg $gif) -}}
-     src="{{ $img.RelPermalink }}"
+    <img loading="lazy" alt="{{ .Get `alt` }}" src="{{ $img.RelPermalink }}"{{ if $svg }} role="img"{{ end }}>
     {{- else -}}
+    <img loading="lazy" alt="{{ .Get `alt` }}" src="{{ $img.RelPermalink }}"
+     sizes="(max-width: 768px) 100vw, 80vw"
      srcset="{{ (.Scratch.Get `tiny`).RelPermalink }} 500w,
     {{ (.Scratch.Get `small`).RelPermalink }} 800w,
     {{ (.Scratch.Get `medium`).RelPermalink }} 1200w,
@@ -34,8 +32,8 @@
     {{ (.Scratch.Get `huge`).RelPermalink }} 1800w,
     {{ if gt $img.Width `1800` }}{{ $img.RelPermalink }} {{ $img.Width }}w{{ end }}"
      class="{{ if ge $img.Width $img.Height }}landscape{{ else }}portrait{{ end }}"
+     {{ with .Get "max-height" }} style="max-height: {{ . }}" {{ end }}>
     {{- end -}}
-    >
     {{- if or (.Get "caption") (.Get "attr") -}}
     <figcaption>
         <p>
