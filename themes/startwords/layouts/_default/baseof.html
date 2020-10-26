@@ -46,17 +46,17 @@
     {{ block "css" . }}{{ end }}
 
     <!-- scripts -->
-    {{ if or (.HasShortcode "deepzoom") (isset .Page.Params "needs_deepzoom") }}{{/* include openseadragon when deepzoom shortcode is used or requested in page params */}}
-    <script defer src="https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js" integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>
-    {{ end }}
-    {{ $vendor := resources.Get "js/vendor.js" }}
-    <script async type="text/javascript" src="{{ $vendor.RelPermalink }}"></script>
+    {{ $polyfills := resources.Get "js/polyfills.js" }}
+    <script type="text/javascript" src="{{ $polyfills.RelPermalink }}"></script>
     {{ $issue := resources.Get "js/issue.js" }}
     {{ $notes := resources.Get "js/notes.js" }}
     {{ $nav := resources.Get "js/nav.js" }}
     {{ $js := slice $notes $nav $issue | resources.Concat "js/bundle.js" | resources.Minify }}
-    <script async type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+    <script defer type="text/javascript" src="{{ $js.RelPermalink }}"></script>
     {{ template "_internal/google_analytics_async.html" . }}
+    {{ if or (.HasShortcode "deepzoom") (isset .Page.Params "needs_deepzoom") }}{{/* include openseadragon when deepzoom shortcode is used or requested in page params */}}
+    <script defer src="https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js" integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>
+    {{ end }}
 
     <!-- alternative formats -->
     {{ range .AlternativeOutputFormats -}}
