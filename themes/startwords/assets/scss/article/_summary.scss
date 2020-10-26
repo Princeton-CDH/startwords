@@ -59,6 +59,10 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 
+    .author {
+        display: block;
+    }
+
     .authors, p { font-weight: 400; }
 
     .authors, h2 {
