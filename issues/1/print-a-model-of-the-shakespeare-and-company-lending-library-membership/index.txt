@@ -32,12 +32,12 @@
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
 |
-| CAPTION: Close up of 3D printed lollipop chart with labels. 
+| CAPTION: Close up of 3D printed lollipop chart with labels.
 | ATTRIBUTION: Photo by Shelley Szwast
 ⩩-----------------------------------------------------------------------------------⟩
 
 
-Print a model of Shakespeare and Company lending library membership by date, as described in Data Beyond Vision [URL: https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision]. 
+Print a model of Shakespeare and Company lending library membership by date, as described in Data Beyond Vision [URL: https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision].
 
 We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag #DataBeyondVision [URL: https://twitter.com/search?q=(%23DataBeyondVision]).
 
@@ -56,8 +56,10 @@ Steps
 6. Clean up any printing artifacts or threads on the lollipops.
 7. If you want to print labels, slice and print the appropriate set for your printer (dual filament or single). Dual print models are provided as base and text, to be combined in your slicing software.
 8. Arrange the comb models and labels on a table or other display.
+
 Yield
-3D printed model of Shakespeare and Company Library Membership
+
+3D printed model of Shakespeare and Company library membership
 
 
 

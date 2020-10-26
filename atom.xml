@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator><title type="html">Startwords</title><link href="https://startwords.cdh.princeton.edu/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-10-26T18:24:43+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:22:50-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.72.0">Hugo</generator><title type="html">Startwords</title><link href="https://startwords.cdh.princeton.edu/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-10-26T18:52:31+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:50:30-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
 <p>Humanists continue to expand the range of objects they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider nontraditional formats, the presentation and publishing of these experimental works (such as installations and project demos) are still secondary or sidelined, where they exist at all. What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>; Catherine D’Ignazio and Lauren Klein offer the broader term “rhetorical objects.”<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> This kind of innovative work is carefully researched and theorized. It deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.</p>
 <p>Academic research has a long history of textual practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. Both the <a href="https://openhumanitiesdata.metajnl.com/">Journal of Open Humanities Data</a> and the <a href="https://joss.theoj.org/">Journal of Open Source Software</a> can be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers.” But even these journals rely on transforming the content they review—data and software—into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, and augmented reality experiences? Will scholars need to become experts in all these modes, or can we find a way to become conversant in multiple forms of argumentation, as with other important scholarly theories?</p>
 <p>The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides toward reading and thinking in creative new scholarly modes.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
@@ -762,7 +762,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>This work is based on pre-release versions of the <a href="https://shakespeareandco.princeton.edu/about/data/">datasets now available</a>. Kotin et al., <em>Shakespeare and Company Project Dataset</em>. <a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Print a model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:22:50-04:00</updated><content type="html"><![CDATA[<p>
+</section>]]></content></entry><entry><title type="html">Print a model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:50:30-04:00</updated><content type="html"><![CDATA[<p>
 
 
 
@@ -791,7 +791,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
     /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up_hub2dfc5608e8305f7eaaaae3e90a5c8a5_5473478_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/images/modeling-close-up.jpg 3400w"
      class="landscape"><figcaption>
-        <p>Close up of 3D printed lollipop chart with labels.<span class="attribution">Photo by Shelley Szwast</span>
+        <p>Close-up of 3D printed lollipop chart with labels.<span class="attribution">Photo by Shelley Szwast</span>
         </p>
     </figcaption>
 </figure>
@@ -827,7 +827,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <li>Arrange the comb models and labels on a table or other display.</li>
 </ol>
 <h2 id="yield">Yield</h2>
-<p>3D printed model of Shakespeare and Company Library Membership</p>
+<p>3D printed model of Shakespeare and Company library membership</p>
 <p>
 <div class="sketchfab-embed-wrapper">
     <iframe
@@ -854,7 +854,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:22:50-04:00</updated><content type="html"><![CDATA[<p>
+]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:50:30-04:00</updated><content type="html"><![CDATA[<p>
 
 
 
@@ -876,14 +876,14 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 <figure>
-    <img loading="lazy" alt="A partition of a paper model against dark background with years printed on the base." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_500x0_resize_q75_box.jpg 500w,
+    <img loading="lazy" alt="A portion of a paper model against dark background with years printed on the base." role="img" sizes="(max-width: 768px) 100%, 80%"srcset="/issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_500x0_resize_q75_box.jpg 500w,
     /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_800x0_resize_q75_box.jpg 800w,
     /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1200x0_resize_q75_box.jpg 1200w,
     /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1500x0_resize_q75_box.jpg 1500w,
     /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2_hu1697ab991fe780752a9ac253a846b640_6198895_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/stack-shakespeare-and-company-membership-activities/images/stacking-part_v2.jpg 6016w"
      class="landscape"><figcaption>
-        <p>Close-up of the finished model of membership activities of Shakespeare and Company Library
+        <p>Close-up of the finished model of membership activities of the Shakespeare and Company lending library
         </p>
     </figcaption>
 </figure>
@@ -894,14 +894,14 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | CAPTION: Close-up of the finished model of membership activities of Shakespeare and Company Library
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-<p>Create your own kirigami model of Shakespeare and Company lending library membership activities, as described in <a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision">Data Beyond Vision</a>.</p>
+<p>Create your own kirigami model of the Shakespeare and Company lending library membership activities, as described in <a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision">Data Beyond Vision</a>.</p>
 <p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag <a href="https://twitter.com/search?q=(%23DataBeyondVision)">#DataBeyondVision</a>.</p>
 <h2 id="tools">Tools</h2>
 <ul>
 <li>Printer</li>
 <li>X-acto knife or other blade</li>
 <li>Bone folder or credit card</li>
-<li>Cutting matt or a stack of scrap paper</li>
+<li>Cutting mat or a stack of scrap paper</li>
 </ul>
 <h2 id="supplies">Supplies</h2>
 <ul>
@@ -910,7 +910,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </ul>
 <h2 id="steps">Steps</h2>
 <ol>
-<li>Download <a href="stacking-chart_instructions.pdf">the PDF</a></li>
+<li>Download <a href="https://drive.google.com/drive/u/0/folders/1iGaA-NK4BzA9W8wZKg0KLhqZG8nZAckP">the PDF</a></li>
 <li>Print on cardstock paper at actual size</li>
 <li>Cut along the vertical solid lines</li>
 <li>Fold along the horizontal dotted lines. Follow the legend for mountain and valley folds.</li>
@@ -918,7 +918,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <li>For best results, set on a table against a wall and use double-stick tape to fix to table and wall surface (optional)</li>
 </ol>
 <h2 id="yield">Yield</h2>
-<p>kirigami model of New and Continuing Shakespeare and Company Library Membership Activities
+<p>kirigami model of new and continuing Shakespeare and Company library membership activities
 
 <div class="sketchfab-embed-wrapper">
     <iframe
@@ -945,7 +945,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:22:50-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
+]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:50:30-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
 <p>I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was <em>Six Months to Live</em>, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. Not all of McDaniel&rsquo;s characters had cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. McDaniel&rsquo;s books were about grief and communities formed through crisis.</p>
 <p>These books would have been perfect for a budding hypochondriac, or for a reader inclined towards purple prose and melodrama, but I read them instead for medical details, taking mental notes on how to recognize signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the sick main character, I occupied the position of the doctor, a role I planned (at the time) to take on later in real life. It turned out, though, that I would have to be the protagonist anyway.</p>
 <p>I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be a cyst. Immediately, I was launched into a world at once familiar and alien. I had grown up among doctors and research scientists in the orbit of Washington University School of Medicine, largely because my father is a medical ethicist with an abiding interest in the practical applications of his work. I had even worked in a research laboratory there from ages sixteen to twenty, studying&mdash;of all things&mdash;the genetics of breast cancer.</p>
@@ -1002,7 +1002,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>Susan Sontag, <em>Illness as Metaphor</em> (New York: Farrar, Straus and Giroux, 1978), 3. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:22:50-04:00</updated><content type="html"><![CDATA[<p>
+</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2020-10-26T14:50:30-04:00</updated><content type="html"><![CDATA[
 
 
 
@@ -1042,7 +1042,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | CAPTION: Completed weaving of the first 13 pages of Derrida’s references in chapter 1 of Of Grammatology
 | ATTRIBUTION: Photo by Shelley Szwast
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <p>Create your own data weaving of Derrida’s references in chapter 1 of <em>Of Grammatology</em>, as described in <a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision">Data Beyond Vision</a>.</p>
 <p>We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag <a href="https://twitter.com/search?q=(%23DataBeyondVision)">#DataBeyondVision</a>.</p>
 <h2 id="tools">Tools</h2>
@@ -1072,7 +1072,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </ol>
 <h2 id="yield">Yield</h2>
 <p>Weaving of the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967).</p>
-<p><div class="deepzoom" id="openseadragon-2" style="height: 10em" aria-label="Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads."></div>
+<div class="deepzoom" id="openseadragon-2" style="height: 10em" aria-label="Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads."></div>
 <script>
     window.addEventListener("DOMContentLoaded", function() {
         OpenSeadragon({
@@ -1098,9 +1098,9 @@ Overall, renewed members outsize new members before 1929, followed by five years
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <h2 id="key-points-about-the-rigid-heddle-loom">Key points about the Rigid Heddle Loom</h2>
-<p>
+
 
 
 
@@ -1304,7 +1304,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | CAPTION: “Warp” and “Weft” yarns.
 | ATTRIBUTION: Photo by Gissoo Doroudian.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <p>The yarn <em>on which</em> you weave a piece, which acts as the base of the weaving and sits longitudinally is called “warp”; yarns you use to weave a piece are called “weft”.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <h2 id="how-to-set-up-the-warp-on-the-loom">How to set up the warp on the loom</h2>
 <p>If you purchase a loom, it will most likely include setup instructions. However, below are a few great resources on how to set up the warp on a Rigid Heddle loom.</p>
@@ -1323,10 +1323,10 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <li><a href="#rya-knot">Rya knot</a></li>
 </ol>
 <h3 id="plain-weave">Plain Weave</h3>
-<p>Note: If the yarn is thin you can use the shuttle and the upper and lower position of the heddle to weave the Plain weave. However, if the yarn is too thick you need to leave the heddle in neutral position and use your hands to weave.</p>
+<p>Note: If the yarn is thin you can use the shuttle and the upper and lower position of the heddle to weave the plain weave. However, if the yarn is too thick you need to leave the heddle in neutral position and use your hands to weave.</p>
 <h4 id="method-1">Method #1</h4>
 <p>This method was used to represent plain text (in royal blue) and page separation in (white).</p>
-<p>
+
 
 
 
@@ -1355,7 +1355,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
     /issues/1/weave-derridas-references/images/plain-weave-thin_hu3ca7a7a934bf02e4eb10cd8d71d42ab0_6774351_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weave-derridas-references/images/plain-weave-thin.jpg 3000w"
      class="portrait"><figcaption>
-        <p>How to make a Plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.<span class="attribution">Photos by Shelley Szwast and Gissoo Doroudian.</span>
+        <p>How to make a plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.<span class="attribution">Photos by Shelley Szwast and Gissoo Doroudian.</span>
         </p>
     </figcaption>
 </figure>
@@ -1363,14 +1363,14 @@ Overall, renewed members outsize new members before 1929, followed by five years
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
-| CAPTION: How to make a Plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.
+| CAPTION: How to make a plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.
 | ATTRIBUTION: Photos by Shelley Szwast and Gissoo Doroudian.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
-</div></p>
+</div>
 <p>Heddle position: upper and lower</p>
 <p>Yarn size: 3/light</p>
 <p>#1-5 below correspond to the numbers on the images.</p>
-<p>To create a Plain weave:</p>
+<p>To create a plain weave:</p>
 <ol>
 <li>Place the heddle in the upper position.</li>
 <li>Insert the shuttle into the opening (called the shed) between the raised and lowered yarns.</li>
@@ -1412,7 +1412,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
     /issues/1/weave-derridas-references/images/plain-weave-thick_hu995707cad5af44648480f254d4b14b33_5182014_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weave-derridas-references/images/plain-weave-thick.jpg 3400w"
      class="landscape"><figcaption>
-        <p>How to make a Plain weave in four steps utilizing the hands to pass the yarn through the warp.<span class="attribution">Photos by Gissoo Doroudian.</span>
+        <p>How to make a plain weave in four steps utilizing the hands to pass the yarn through the warp.<span class="attribution">Photos by Gissoo Doroudian.</span>
         </p>
     </figcaption>
 </figure>
@@ -1420,7 +1420,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
-| CAPTION: How to make a Plain weave in four steps utilizing the hands to pass the yarn through the warp.
+| CAPTION: How to make a plain weave in four steps utilizing the hands to pass the yarn through the warp.
 | ATTRIBUTION: Photos by Gissoo Doroudian.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
@@ -1473,7 +1473,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
     /issues/1/weave-derridas-references/images/soumak-weave_hu069c7b8a2c95c170a85a583e1c032728_4634251_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weave-derridas-references/images/soumak-weave.jpg 3000w"
      class="portrait"><figcaption>
-        <p>How to make a Soumak weave in eight steps.
+        <p>How to make a soumak weave in eight steps.
         </p>
     </figcaption>
 </figure>
@@ -1481,15 +1481,15 @@ Overall, renewed members outsize new members before 1929, followed by five years
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
-| CAPTION: How to make a Soumak weave in eight steps.
+| CAPTION: How to make a soumak weave in eight steps.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
 <p>Heddle position: neutral</p>
 <p>Yarn size: 6/super bulky</p>
 <p>Note: images above were taken on a paper prototype loom, therefore the warp yarns are pulling more than they would on a heddle loom.</p>
 <p>#1-3 below correspond to the numbers on the images.</p>
-<p>The Soumak weave is the process of wrapping the weft yarn around the warp yarn.</p>
-<p>To create the Soumak pattern:</p>
+<p>The soumak weave is the process of wrapping the weft yarn around the warp yarn.</p>
+<p>To create the soumak pattern:</p>
 <ol>
 <li>Place the end of the weft yarn behind the two warp yarns, with the end coming out to the front on the right-hand side of the two warp yarns.</li>
 <li>Pull out the next two warp yarns. While holding the weft yarn bundling in your right hand, pass the weft yarn behind these two warp yarns from right to left.</li>
@@ -1551,11 +1551,11 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <ol>
 <li>Weave a row of plain weave in the area that you want your loops, using one or two strands of yarn. Please refer to the <a href="#plain-weave">“Plain Weave”</a> section for instructions. Since this yarn is thinner you can use a yarn needle to pass it through the warp as well.</li>
 <li>Take the wooden dowel and pick up your “stitches” by wrapping them around it as shown.</li>
-<li>Once the entire Plain weave row is on the dowel, pull the dowel down on the warp so that it brings the loops down to the support rows.</li>
+<li>Once the entire plain weave row is on the dowel, pull the dowel down on the warp so that it brings the loops down to the support rows.</li>
 <li>Gently remove the dowel so that you leave behind a row of loops.</li>
-<li>Weave another Plain weave row above your loops, and repeat the steps above, while making sure not to pull the weft too much otherwise you’ll start to lose the loops you just made. (Reflected in #5-7 in the photos)</li>
+<li>Weave another plain weave row above your loops, and repeat the steps above, while making sure not to pull the weft too much otherwise you’ll start to lose the loops you just made. (Reflected in #5-7 in the photos)</li>
 </ol>
-<p>Continue in this pattern until you have made all the loops you want. Once done, weave a support row of Plain weave and smash that support row down into your loops. You want to really smash the loop rows down so that your weave doesn’t get super loose once you cut it off the loom.</p>
+<p>Continue in this pattern until you have made all the loops you want. Once done, weave a support row of plain weave and smash that support row down into your loops. You want to really smash the loop rows down so that your weave doesn’t get super loose once you cut it off the loom.</p>
 <p>Learned and adapted from: <a href="https://www.theweavingloom.com/best-of-weaving-technique-pile-loop-weave/">https://www.theweavingloom.com/best-of-weaving-technique-pile-loop-weave/</a></p>
 <h3 id="rya-knot">Rya knot</h3>
 <p>This technique was used to represent citations.</p>
@@ -1588,7 +1588,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
     /issues/1/weave-derridas-references/images/rya-knot-weave_hu1296b2fcbd700f451230e4cdd0880f6e_5437482_1800x0_resize_q75_box.jpg 1800w,
     /issues/1/weave-derridas-references/images/rya-knot-weave.jpg 3400w"
      class="landscape"><figcaption>
-        <p>How to make a Rya knot in four steps.
+        <p>How to make a rya knot in four steps.
         </p>
     </figcaption>
 </figure>
@@ -1596,19 +1596,19 @@ Overall, renewed members outsize new members before 1929, followed by five years
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 | FIGURE. Composite of four images showing various stages of weaving.
 |
-| CAPTION: How to make a Rya knot in four steps.
+| CAPTION: How to make a rya knot in four steps.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
 <p>Heddle position: neutral</p>
 <p>Yarn size: 6/super bulky</p>
-<p>Numbered list below corresponds to the numbers on the images. To create a Rya knot:</p>
+<p>Numbered list below corresponds to the numbers on the images. To create a rya knot:</p>
 <ol>
 <li>Place strands of yarn over the warp yarns.</li>
 <li>Bring the left side of your yarn behind and around two warp yarns.</li>
 <li>Bring the right side of your yarn behind and around your other two warp yarns so that the ends meet up in the middle.</li>
 <li>Pull the end pieces below the top knot area.</li>
 </ol>
-<p>Note: Before pulling ends down and tightening the top knot, make sure to match up both sides of the end pieces and then pull evenly, so that the knot ties with all ends at about the same length. Trimming is usually required for a more uniform fringe, but this helps not waste as much yarn. If starting with the rya knot (bottom up weaving), pull the end pieces below the top knot area. If you are ending with the rya knot (top down weaving) you would pull the end pieces above the top knot area.</p>
+<p>Note: Before pulling ends down and tightening the top knot, make sure to match up both sides of the end pieces and then pull evenly, so that the knot ties with all ends at about the same length. Trimming is usually required for a more uniform fringe, but this helps reduce yarn waste. If starting with the rya knot (bottom up weaving), pull the end pieces below the top knot area. If you are ending with the rya knot (top down weaving) you would pull the end pieces above the top knot area.</p>
 <p>Learned and adapted from: <a href="https://www.theweavingloom.com/weaving-techniques-rya-knots/">https://www.theweavingloom.com/weaving-techniques-rya-knots/</a></p>
 <p>If you would like to try weaving the first chapter of Of Grammatology download the <a href="https://startwords.cdh.princeton.edu/issues/1/weave-references/Pattern-Guide-for-Weaving-Derridas-Margins.pdf">“Pattern Guide for Weaving Derrida’s Margins”</a> and follow the instructions.</p>
 <section class="footnotes" role="doc-endnotes">
@@ -1625,7 +1625,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">About</title><link href="https://startwords.cdh.princeton.edu/about/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/about/</id><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T14:22:50-04:00</updated><content type="html"><![CDATA[<p><em>Startwords</em> is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, <em>Startwords</em> is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.</p>
+]]></content></entry><entry><title type="html">About</title><link href="https://startwords.cdh.princeton.edu/about/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/about/</id><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T14:50:30-04:00</updated><content type="html"><![CDATA[<p><em>Startwords</em> is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, <em>Startwords</em> is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.</p>
 <p>Each issue features two articles that speak to a common theme, feature, or concern. “Snippets” invite readers to engage with the digital evidence underlying those articles. Issues will be released one to three times a year, when we have something to share or say.</p>
 <p><em>Startwords</em> (ISSN 2694-2658) is built with the Hugo static site generator using a custom-made theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the <a href="https://github.com/Princeton-CDH/startwords">website code</a> under an Apache 2.0 license.</p>
 <div class="masthead" id="">
@@ -1648,7 +1648,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </ul>
 
 </div>
-]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T14:22:50-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
+]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/?utm_source=atom_feed" rel="related" type="text/html" title="Print a model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2020-10-26T14:50:30-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
 <p>As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.</p>
 <p><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup> <sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
 </div> <!-- close text container -->
