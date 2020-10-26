@@ -102,7 +102,7 @@ body.article .footnotes li img {
     color: var(--purple);
     top: 2.77rem;
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
-    font-size: rem(18px);
+    font-size: 1rem;
 }
 
 .footnotes li .reftype .page {
@@ -166,7 +166,8 @@ body.article article .footnotes blockquote p {
 .page_n {
     text-decoration: none;
     color: var(--off-white);
-    font-size: 22px;
+    font-size: 0.77rem;
+    margin-top: 1rem;
 }
 
 .reference {
