@@ -1,11 +1,12 @@
 ---
 type: article
 title: Print a model of the Shakespeare and Company Lending Library Membership
-order: 7
+order: 3
 authors:
   - Rebecca Sutton Koeser
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
+slug: modeling-howto
 ---
 
 {{< figure src="images/modeling-close-up.jpg" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." caption="Close up of 3D printed lollipop chart with labels." attr="Photo by Shelley Szwast" >}}

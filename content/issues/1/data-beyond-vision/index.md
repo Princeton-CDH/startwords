@@ -209,7 +209,7 @@ The bar chart conveys a sense of certitude and exactness that does not reflect t
 ### Next Steps
 The current version uses different shapes for the two variables, but adding textures would make the model even more tactile. Simple 3D printed labels with text and braille[^28] have been added for display alongside the piece, but they could be incorporated directly on the model, and refined to provide a scale for the axes. The 3D printed objects could also be augmented with other media: lights or sound could convey the intensity of borrowing activity, or threads connecting months to represent the number of subscription renewals and convey a sense of continuity. The Python code used to create these models could be generalized for reuse, and eventually made available as a Blender plugin.[^29] New shapes or approaches could be used to leverage innovations in 3D modeling, such as generative design, to create objects that are more inviting to touch and even more distinct from 2D data visualizations. 3D models could be revised for fabrication with CNC machines to create objects out of wood instead of plastic, which could make them more inviting to touch.
 
-[Make one >](https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/)
+[Make one >](/issues/1/modeling-howto/)
 
 {{< wrap class="icon-nav" >}}
 <span class="help">Choose a different object</span>
@@ -270,7 +270,7 @@ The ability to feel the density and frequency of each type of reference, color c
 ### Next Steps
 Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.
 
-[Make one >](https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/)
+[Make one >](/issues/1/weaving-howto/)
 
 {{< wrap class="icon-nav" >}}
 <span class="help">Choose a different object</span>
@@ -351,7 +351,7 @@ Throughout the process of developing this project as practice-based research, ma
 ### Next Steps
 The pattern generation process is very programming-friendly and the materials required are also easily accessible. The data encoding process could be automated by custom code, which could then be made available as a tool for presenting part-to-whole relationships in other data sets. With the addition of dynamic media such as projection mapping, this piece could convey more context and narratives around the lending library.
 
-[Make one >](https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/)
+[Make one >](/issues/1/stacking-howto/)
 
 {{< wrap class="icon-nav" >}}
 <span class="help">Choose a different object</span>
