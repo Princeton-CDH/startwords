@@ -9,7 +9,7 @@ date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
 ---
 
-{{< figure src="images/stacking-part_v2.jpg" alt="A partition of a paper model against dark background with years printed on the base." caption="Close-up of the finished model of membership activities of Shakespeare and Company Library" >}}
+{{< figure src="images/stacking-part_v2.jpg" alt="A portion of a paper model against dark background with years printed on the base." caption="Close-up of the finished model of membership activities of the Shakespeare and Company lending library" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A partition of a paper model against dark background with years printed on the base.
@@ -18,7 +18,7 @@ tags: [DataBeyondVision, HowTo]
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-Create your own kirigami model of Shakespeare and Company lending library membership activities, as described in [Data Beyond Vision](https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision). 
+Create your own kirigami model of the Shakespeare and Company lending library membership activities, as described in [Data Beyond Vision](https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision).
 
 We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag [#DataBeyondVision](https://twitter.com/search?q=(%23DataBeyondVision)).
 
@@ -26,19 +26,19 @@ We invite you to participate in the embodiment and visible labor of data work. D
 - Printer
 - X-acto knife or other blade
 - Bone folder or credit card
-- Cutting matt or a stack of scrap paper
+- Cutting mat or a stack of scrap paper
 ## Supplies
 - 5 Sheets of cover stock paper (around 75lb or 200gsm; letter size is recommended, larger also works)
 - Double-sided tape (optional)
 ## Steps
-1. Download [the PDF](stacking-chart_instructions.pdf)
+1. Download [the PDF](https://drive.google.com/drive/u/0/folders/1iGaA-NK4BzA9W8wZKg0KLhqZG8nZAckP)
 2. Print on cardstock paper at actual size
 3. Cut along the vertical solid lines
 4. Fold along the horizontal dotted lines. Follow the legend for mountain and valley folds.
 5. Set up on a table or shelf
 6. For best results, set on a table against a wall and use double-stick tape to fix to table and wall surface (optional)
 ## Yield
-kirigami model of New and Continuing Shakespeare and Company Library Membership Activities
+kirigami model of new and continuing Shakespeare and Company library membership activities
 {{<sketchfab id="96403a4659414537b470f03da96d7a88" alt="3D model showing a folded long paper as base, with opened cuts folded into additional panels." pdf-img="images/modeling-3d-alt.jpg" pdf-alt="Three photos from multiple angles showing a folded long paper as base, with opened cuts folded into additional panels.">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
