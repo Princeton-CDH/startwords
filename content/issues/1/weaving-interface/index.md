@@ -75,17 +75,17 @@ The high resolution capture of the data weaving used here was created by Princet
 [^7]: <span class="reftype">Footnote<span class="page">, p. 20</span></span>
         *[L'Ecriture et la psychologie des peuples: actes de colloque](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/)* (1963)<br/>
             <blockquote lang="fr"><p>Cf. par ex. EP. pp. 126, 148, 355, etc. D'un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116)</p><footer>(p. 126)</footer></blockquote>
-![Cover of L'Ecriture et la psychologie des peuples: actes de colloque](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/thumbnail/)
+![Cover of L'Ecriture et la psychologie des peuples: actes de colloque](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg)
         
 [^8]: <span class="reftype">Footnote<span class="page">, p. 20</span></span>
         *[Les écritures indiennes. Le monde indien et son système graphique.](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/#sections)* (1963)<br/>
             <blockquote lang="fr"><p>Cf. par ex. EP. pp. 126, 148, 355, etc. D'un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116)</p><footer>(p. 148)</footer></blockquote>
-![Cover of Les écritures indiennes. Le monde indien et son système graphique.](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/thumbnail/)
+![Cover of Les écritures indiennes. Le monde indien et son système graphique.](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg)
         
 [^9]: <span class="reftype">Footnote<span class="page">, p. 20</span></span>
         *[L'Ecriture et la psychologie des peuples: actes de colloque](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/)* (1963)<br/>
             <blockquote lang="fr"><p>Cf. par ex. EP. pp. 126, 148, 355, etc. D'un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116)</p><footer>(p. 355)</footer></blockquote>
-![Cover of L'Ecriture et la psychologie des peuples: actes de colloque](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/thumbnail/)
+![Cover of L'Ecriture et la psychologie des peuples: actes de colloque](https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg)
         
 [^10]: <span class="reftype">Footnote<span class="page">, p. 20</span></span>
         *[Essais de linguistique générale](https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/)* (1963)<br/>
@@ -97,13 +97,13 @@ The high resolution capture of the data weaving used here was created by Princet
         *[Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/)* (1959)<br/>
     Aristotle<br/>
             <blockquote lang="fr"><p>Si, pour Aristote, par exemple, « les sons émis par la voix (*τὰ ἐν τῇ φωνῇ*) sont les symboles des états de l'âme (*παθήματα τῆς ψυχῆς*) et les mots écrits les symboles des mots émis par la voix » (*De l'interprétation* 1, 16 a 3), c'est que la voix, productrice des *premiers symboles*, a un rapport de proximité essentielle et immédiate avec l'âme.</p><footer>(p. 77)</footer></blockquote>
-![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/thumbnail/)
+![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg)
         
 [^12]: <span class="reftype">Quotation<span class="page">, p. 21</span></span>
         *[Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/)* (1959)<br/>
     Aristotle<br/>
             <blockquote lang="fr"><p>« De même que l'écriture n'est pas la même pour tous les hommes, les mots parlés ne sont pas non plus les mêmes, alors que les états de l'âme dont ces expressions sont *immédiatement les signes* (*σημεὶα πρώτως*) sont identiques chez tous, comme sont identiques aussi les choses dont ces états sont les images » (16 a. Nous soulignons).</p><footer>(p. 78)</footer></blockquote>
-![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/thumbnail/)
+![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg)
         
 [^13]: <span class="reftype">Quotation<span class="page">, p. 22</span></span>
         *[Esthétique, III, I.](https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/)* (1944)<br/>
@@ -148,7 +148,7 @@ The high resolution capture of the data weaving used here was created by Princet
         *[Phèdre](https://derridas-margins.princeton.edu/library/plato-phaedrus-1938/)* <br/>
     Plato<br/>
             <blockquote lang="fr"><p>l'écriture de la vérité dans l'âme, opposée par le *Phèdre* (278 a) à la mauvaise écriture (à l'écriture au sens « propre » et courant, à l'écriture « sensible », « dans l'espace »)</p><footer>(p. 289)</footer></blockquote>
-![Cover of Phèdre](https://derridas-margins.princeton.edu/library/plato-phaedrus-1938/gallery/images/front-cover/thumbnail/)
+![Cover of Phèdre](https://derridas-margins.princeton.edu/library/plato-phaedrus-1938/gallery/images/front-cover/iiif/full/290,/0/default.jpg)
         
 [^21]: <span class="reftype">Quotation<span class="page">, p. 26</span></span>
         *[Phèdre](https://derridas-margins.princeton.edu/library/plato-phaedrus-1961/)* (1961)<br/>
@@ -189,13 +189,13 @@ The high resolution capture of the data weaving used here was created by Princet
         *[Discours de la méthode](https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1943/)* (1943)<br/>
     René Descartes<br/>
             <blockquote lang="fr"><p>« … à lire le grand livre du monde… »</p><footer>(p. 51)</footer></blockquote>
-![Cover of Discours de la méthode](https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1943/gallery/images/front-cover/thumbnail/)
+![Cover of Discours de la méthode](https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1943/gallery/images/front-cover/iiif/full/291,/0/default.jpg)
         
 [^28]: <span class="reftype">Quotation<span class="page">, p. 27</span></span>
         *[Discours de la méthode](https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1961/)* (1961)<br/>
     René Descartes<br/>
             <blockquote lang="fr"><p>« … à lire le grand livre du monde… »</p><footer>(p. 51)</footer></blockquote>
-![Cover of Discours de la méthode](https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1961/gallery/images/front-cover/thumbnail/)
+![Cover of Discours de la méthode](https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1961/gallery/images/front-cover/iiif/full/291,/0/default.jpg)
         
 [^29]: <span class="reftype">Quotation<span class="page">, p. 27</span></span>
         *[Dialogues sur la religion naturelle](https://derridas-margins.princeton.edu/library/hume-dialogues-concerning-natural-religion-1964/)* (1964)<br/>
