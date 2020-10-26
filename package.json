@@ -9,7 +9,10 @@
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "pagedjs": "^0.1.43",
+    "pagedjs-cli": "^0.1.1"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
