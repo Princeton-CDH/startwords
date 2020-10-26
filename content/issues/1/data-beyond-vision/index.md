@@ -125,7 +125,7 @@ The physicalization contrasts the activity of the better-known members of the le
 {{</ wrap >}}
 
 ### Insights
-{{< figure src="images/folding_viaf_pie_v2-01.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." caption="A pie chart representing the proportions of members with and without VIAF identification." desc-id="pie-desc" max-height="400px">}}
+{{< figure src="images/folding_viaf_pie.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." caption="A pie chart representing the proportions of members with and without VIAF identification." desc-id="pie-desc" max-height="400px">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”.
@@ -318,7 +318,7 @@ This physicalization made use of kirigami technique, which transforms single she
 {{</ wrap >}}
 
 ### Insights
-{{< figure src="images/2d-stacked-bar-v2-01.svg" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library from 1919–194 represented as stacked bar charts."  desc-id="stackedbar-desc" >}}
+{{< figure src="images/2d-stacked-bar.svg" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library from 1919–194 represented as stacked bar charts."  desc-id="stackedbar-desc" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories.
@@ -332,7 +332,7 @@ Members with borrowing events constitute a fraction of all the members in the ea
 
 With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.
 
-{{< figure src="images/2d-pie_v2-01.svg" alt="A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library between 1919 and 1941 represented as pie charts." desc-id="pieseries-desc" >}}
+{{< figure src="images/2d-pie.svg" alt="A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of Shakespeare and Company Lending Library between 1919 and 1941 represented as pie charts." desc-id="pieseries-desc" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories.
