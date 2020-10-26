@@ -97,15 +97,13 @@ The high resolution capture of the data weaving used here was created by Princet
     *[Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/)* (1959)<br/>
     Aristotle<br/>
     <cite lang="fr">Si, pour Aristote, par exemple, « les sons émis par la voix (*τὰ ἐν τῇ φωνῇ*) sont les symboles des états de l'âme (*παθήματα τῆς ψυχῆς*) et les mots écrits les symboles des mots émis par la voix » (*De l'interprétation* 1, 16 a 3), c'est que la voix, productrice des *premiers symboles*, a un rapport de proximité essentielle et immédiate avec l'âme.</cite> (p. 77)
-![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/def
-ault.jpg)
+![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg)
 
 [^12]: <span class="reftype">Quotation<span class="page">, p. 21</span></span>
     *[Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/)* (1959)<br/>
     Aristotle<br/>
     <cite lang="fr">« De même que l'écriture n'est pas la même pour tous les hommes, les mots parlés ne sont pas non plus les mêmes, alors que les états de l'âme dont ces expressions sont *immédiatement les signes* (*σημεὶα πρώτως*) sont identiques chez tous, comme sont identiques aussi les choses dont ces états sont les images » (16 a. Nous soulignons).</cite> (p. 78)
-![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/def
-ault.jpg)
+![Cover of Organon: Catégories, De L'interprétation](https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg)
 
 [^13]: <span class="reftype">Quotation<span class="page">, p. 22</span></span>
     *[Esthétique, III, I.](https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/)* (1944)<br/>
