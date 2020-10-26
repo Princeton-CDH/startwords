@@ -128,7 +128,7 @@ body.article .footnotes.endnotes ol li a[role=doc-backlink] {
 
 body.article .footnotes.endnotes ol li p, body.article .footnotes ol li p {
     text-indent: 0;
-    margin-bottom: 1rem;  /* space before blockquote */
+    margin-bottom: 1rem;  /* space before citation */
 }
 
 body.article .footnotes.endnotes ol li::before {
@@ -142,18 +142,8 @@ body.article .footnotes.endnotes ol li::before {
     margin-top: 0.5rem;
 }
 
-body.article article .footnotes blockquote p {
+body.article article .footnotes cite {
     font-style: normal;
-    display: inline;
-}
-
-.footnotes blockquote {
-    display: inline;
-}
-
-.footnotes blockquote footer {
-    display: inline;
-    margin-left: 0.5rem;
 }
 
 .page_n {
