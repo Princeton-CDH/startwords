@@ -58,7 +58,7 @@ body {
         header {
             margin-bottom: 0.5rem;
 
-            .number, .theme, .authors, .doi, time {
+            .number, .theme, .authors, .doi, .tags, time {
                 font-family: $font-sans;
                 font-size: 14px;
             }
