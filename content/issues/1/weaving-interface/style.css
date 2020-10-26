@@ -167,7 +167,12 @@ body.article article .footnotes blockquote p {
     text-decoration: none;
     color: var(--off-white);
     font-size: 0.77rem;
-    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .page_n {
+       margin-top: 1rem;
+    }
 }
 
 .reference {
