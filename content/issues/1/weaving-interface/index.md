@@ -24,8 +24,8 @@ As a way of turning the weaving into an interface, we offer this experiment with
 
 <div class="text-container"> <!-- re-open text container -->
 
-<!-- container for page numbers for overlay (added in code based on json) -->
-<div id="page_numbers"> </div>
+<!-- container for overlays added in code based on json -->
+<div id="overlays"> </div>
 
 
 

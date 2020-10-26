@@ -14,9 +14,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
       .then(data => initAnnotatedZoom(data));
 
     function initAnnotatedZoom(data) {
-
-
-
         // create elements with page numbers to be positioned as overlays
         var frag = document.createDocumentFragment();
         data.overlays.filter(el => el.className == 'page_n')
@@ -26,7 +23,17 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 pageSpan.setAttribute('id', el.id);
                 frag.appendChild(pageSpan);
             });
-        document.getElementById('page_numbers').appendChild(frag);
+        // create containers for note references to use as overlays
+        // then move note references inside them
+        data.overlays.filter(el => el.className.includes('highlight'))
+            .forEach(el => {
+                const refZone = document.createElement('div');
+                refZone.setAttribute('id', el.id);
+                refZone.appendChild(document.getElementById('fn' + el.id));
+                frag.appendChild(refZone);
+            });
+
+        document.getElementById('overlays').appendChild(frag);
 
         var viewer = OpenSeadragon({
             id:"dataweaving-zoom",
@@ -49,7 +56,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
         function showReference() {
             // trigger contextual note via hash
-            location.hash = '#' + this.getAttribute('id').replace('ref', '');
+            location.hash = '#' + this.getAttribute('id').replace('ref', 'fn');
         }
 
         viewer.addHandler("open", function () {

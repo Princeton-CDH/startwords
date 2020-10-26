@@ -36,6 +36,14 @@ body.article .deepzoom {
     counter-increment: highlightZoneCounter;
 }
 
+/* position footnote reference within the highlight region,
+   to control where contextual note will be placed */
+.highlight sup {
+    display: block;
+    width: 100%;
+    height: 30%;
+}
+
 .highlight::after {
     /* display counter parallel to endnote number */
     content: counters(highlightZoneCounter, ".");
