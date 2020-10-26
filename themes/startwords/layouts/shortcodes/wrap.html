@@ -1,3 +1,3 @@
-<div class="{{ .Get "class" }}" id="{{ .Get "id" }}">
+<div{{ with .Get `class` }} class="{{ . }}"{{ end }}{{ with .Get `id` }} id="{{ . }}"{{ end }}>
 {{ .Inner | markdownify }}
 </div>
