@@ -28,6 +28,7 @@ article .sketchfab-embed-wrapper {
 /* purple "interlude" section with eye/hand graphics */
 
 #interlude {
+    page-break-inside: avoid;
     position: relative;
     margin: 0 auto;
 }
@@ -189,8 +190,7 @@ article .sketchfab-embed-wrapper {
 }
 
 @media print {
-    .icon-nav { padding: 70px 0 50px; margin: 0; }
-    .icon-nav .help { font-size: 12px; top: 15px; }
+    .icon-nav { display: none; }
 }
 
 /* section headers with icons */
