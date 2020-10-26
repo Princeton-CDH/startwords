@@ -7,33 +7,35 @@ class ContextualNotes {
     // off by default
     static showEndnotesOnClose = false;
 
-    constructor() {
+    // reference to footnotes container element
+    static endnotes;
+    // reference to observer that toggles footnotes to endnotes
+    static observer;
 
-        // store reference to current instance for use in event handlers
-        var contextnotes = this;
+    constructor() {
 
         // display note if page was loaded with a footnote anchor
         // with brief timeout for font loading & layout
-        contextnotes.disableHideOnScroll(2);
-        var note = contextnotes.currentNote;
+        ContextualNotes.disableHideOnScroll(2);
+        var note = ContextualNotes.currentNote;
         if (note) {
             note.opacity = 0;   // override default target note styles
             window.setTimeout(function(){
-                contextnotes.showNote();
+                ContextualNotes.showNote();
                 note.opacity = 1;
             }, 500);
         }
 
         // bind event listeners
         window.addEventListener('hashchange', function() {
-            contextnotes.showNote();
+            ContextualNotes.showNote();
         }, false);
 
         /* on scroll, if a footnote is currently targeted, unselect */
         window.addEventListener('scroll', function() {
             if (location.hash.startsWith('#fn:') && ContextualNotes.hideOnScroll) {
                 // close the note and unbind close link handler
-                ContextualNotes.closeNote(contextnotes.currentNote);
+                ContextualNotes.closeNote();
             }
         });
 
@@ -51,45 +53,45 @@ class ContextualNotes {
         });
 
         // create observable to set endnotes class on footnotes ol when visible
-        this.observer = new IntersectionObserver(this.endnoteIntersectionCallback);
-        this.endnotes = document.querySelector('.footnotes');
-        if (this.endnotes) {
-            this.observer.observe(this.endnotes);
+        ContextualNotes.observer = new IntersectionObserver(ContextualNotes.endnoteIntersectionCallback);
+        ContextualNotes.endnotes = document.querySelector('.footnotes');
+        if (ContextualNotes.endnotes) {
+            ContextualNotes.observer.observe(ContextualNotes.endnotes);
         }
         // TODO: also add summary element with text 'show endnotes' ?
     }
 
-    disableHideOnScroll(seconds) {
+    static disableHideOnScroll(seconds) {
         // temporarily disable note hide on scroll
         ContextualNotes.hideOnScroll = false;
         window.setTimeout(function(){ ContextualNotes.hideOnScroll = true;}, seconds*1000);
     }
 
-    get currentNote() {
+    static get currentNote() {
         // find currently selected note, if there is one
         if (location.hash.startsWith('#fn:')) {
             return document.getElementById(location.hash.slice(1));
         }
     }
 
-    showNote() {
+    static showNote() {
         // display the current note (if one is targeted), and bind backref handler
-        var note = this.currentNote;
+        var note = ContextualNotes.currentNote;
         if (note) {
             // if a note occurs near the end of the document,
             // end notes may already be visible.
-            if (this.endnotes.classList.contains('endnotes')) {
+            if (ContextualNotes.endnotes.classList.contains('endnotes')) {
                 // hide end notes so the note can be shown as a contextual note
-                this.endnotes.classList.remove('endnotes');
+                ContextualNotes.endnotes.classList.remove('endnotes');
                 // set a flag that endnotes need to be re-shown
                 ContextualNotes.showEndnotesOnClose = true;
                 // temporarily disable hide on scroll, since
                 // hiding the endnotes changes document length
                 // and can trigger scrolling
-                this.disableHideOnScroll(2);
+                ContextualNotes.disableHideOnScroll(2);
             }
 
-            this.positionContextualNote(note);
+            ContextualNotes.positionContextualNote(note);
             // get back reference link to override behavior
             var backref = note.getElementsByClassName('footnote-backref').item(0);
             backref.addEventListener('click', ContextualNotes.onNoteClose);
@@ -97,7 +99,7 @@ class ContextualNotes {
     }
 
     static closeNote(note) {
-        note = (typeof note !== 'undefined') ?  note : document.getElementById(location.hash.slice(1));
+        note = note || ContextualNotes.currentNote;
         if (note) {
             // change the location hash, deselecting the note
             // Set to non-existent id so note is no longer targeted,
@@ -132,7 +134,7 @@ class ContextualNotes {
         ContextualNotes.closeNote(note);
     }
 
-    positionContextualNote(note) {
+    static positionContextualNote(note) {
         // position the currently selected contextual note, if one is selected
         // and not on a mobile device
 
@@ -187,11 +189,9 @@ class ContextualNotes {
         }
     }
 
-    // using static methods for event handlers
-
     static showEndnotes(elem) {
-        // default footnotesif elem is undefined
-        elem = (typeof elem !== 'undefined') ?  elem : document.querySelector('.footnotes');
+        // default footnotes; if elem is undefined, use footnotes element
+        elem = elem || ContextualNotes.endnotes;
 
         elem.classList.add('endnotes');
         // clear computed positions/styles for all notes
@@ -203,13 +203,12 @@ class ContextualNotes {
     }
 
     static hideEndnotes(elem) {
-        // default footnotes if elem undefined
-        elem = (typeof elem !== 'undefined') ?  elem : document.querySelector('.footnotes');
+        // default footnotes; if elem is undefined, use footnotes element
+        elem = elem || ContextualNotes.endnotes;
         elem.classList.remove('endnotes');
     }
 
-
-    endnoteIntersectionCallback(entries, observer) {
+    static endnoteIntersectionCallback(entries, observer) {
         entries.forEach(entry => {
           var elem = entry.target;
             if (entry.isIntersecting) {
