@@ -16,7 +16,7 @@
 |     Xinyi Li
 |     Rebecca Sutton Koeser
 |
-|  https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/
+|  https://startwords.cdh.princeton.edu/issues/1/stacking-howto/
 |
 |
 |  #DataBeyondVision#HowTo

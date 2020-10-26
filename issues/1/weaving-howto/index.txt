@@ -15,7 +15,7 @@
 |  
 |     Gissoo Doroudian
 |
-|  https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/
+|  https://startwords.cdh.princeton.edu/issues/1/weaving-howto/
 |
 |
 |  #DataBeyondVision#HowTo

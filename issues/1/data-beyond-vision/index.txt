@@ -144,6 +144,7 @@ The physicalization contrasts the activity of the better-known members of the le
 Insights
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”.
 |
@@ -226,7 +227,7 @@ The bar chart conveys a sense of certitude and exactness that does not reflect t
 Next Steps
 The current version uses different shapes for the two variables, but adding textures would make the model even more tactile. Simple 3D printed labels with text and braille have been added for display alongside the piece, but they could be incorporated directly on the model, and refined to provide a scale for the axes.[NOTE 28] The 3D printed objects could also be augmented with other media: lights or sound could convey the intensity of borrowing activity, or threads connecting months could represent the number of subscription renewals and convey a sense of continuity. The Python code used to create these models could be generalized for reuse, and eventually made available as a Blender plugin.[NOTE 29] New shapes or approaches could be used to leverage innovations in 3D modeling, such as generative design, to create objects that are more inviting to touch and even more distinct from 2D data visualizations. 3D models could be revised for fabrication with CNC machines to create objects out of wood instead of plastic, which could make them more inviting to touch.
 
-Make one &gt; [URL: https://startwords.cdh.princeton.edu/issues/1/print-a-model-of-the-shakespeare-and-company-lending-library-membership/]
+Make one &gt; [URL: /issues/1/modeling-howto/]
 
 
 Choose a different object
@@ -287,7 +288,7 @@ The ability to feel the density and frequency of each type of reference, color c
 Next Steps
 Adding conductive thread and sensors could turn the weaving into an interface, so that touching the fabric would bring up the relevant reference on an associated screen. Data weavings could also be augmented with other media, such as lights and sound to convey other aspects of the same or related data. Incorporating other work on automated weaving and knitting machines would add to the variety of options for data textiles.
 
-Make one &gt; [URL: https://startwords.cdh.princeton.edu/issues/1/weave-derridas-references/]
+Make one &gt; [URL: /issues/1/weaving-howto/]
 
 
 Choose a different object
@@ -337,6 +338,7 @@ This physicalization made use of kirigami technique, which transforms single she
 Insights
 
 
+
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories.
 |
@@ -348,6 +350,7 @@ Members with borrowing events constitute a fraction of all the members in the ea
 
 
 With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.
+
 
 
 
@@ -368,7 +371,7 @@ Throughout the process of developing this project as practice-based research, ma
 Next Steps
 The pattern generation process is very programming-friendly and the materials required are also easily accessible. The data encoding process could be automated by custom code, which could then be made available as a tool for presenting part-to-whole relationships in other datasets. With the addition of dynamic media such as projection mapping, this piece could convey more context and narratives around the lending library.
 
-Make one &gt; [URL: https://startwords.cdh.princeton.edu/issues/1/stack-shakespeare-and-company-membership-activities/]
+Make one &gt; [URL: /issues/1/stacking-howto/]
 
 
 Choose a different object
