@@ -128,7 +128,7 @@ The physicalization contrasts the activity of the better-known members of the le
 {{</ wrap >}}
 
 ### Insights
-{{< figure src="images/folding_viaf_pie_v2-01.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." caption="A pie chart representing the proportions of members with and without VIAF identification." desc-id="pie-desc" max-height="300px">}}
+{{< figure src="images/folding_viaf_pie.svg" alt="A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”." caption="A pie chart representing the proportions of members with and without VIAF identification." desc-id="pie-desc" max-height="300px">}}
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
