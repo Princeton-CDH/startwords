@@ -78,7 +78,7 @@ body.article .footnotes {
 }
 
 
-body.article .footnotes li img {
+body.article .footnotes li p img {
     max-width: 250px;
     display: block;
     margin: auto;
