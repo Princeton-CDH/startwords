@@ -26,6 +26,7 @@ body.article .footnotes {
     /* For transitions, only the transitioned property must change.
        So the default styles for footnote li is as contextual note. */
     li {
+        page-break-inside: avoid;
         counter-increment: footnoteCounter;
         margin: 0 2.5rem;
         overscroll-behavior: none;
