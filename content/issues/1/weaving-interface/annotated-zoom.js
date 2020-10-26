@@ -77,10 +77,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
         }
 
         viewer.addHandler("open", function () {
-            // start with left part of the weaving showing
-            viewer.viewport.panTo(new OpenSeadragon.Point(0.17, 0.09), true)
             // adjust initial zoom
             adjustZoom();
+            // start with left part of the weaving showing
+            viewer.viewport.panTo(new OpenSeadragon.Point(0.17, 0.09), true)
 
             // on touch or click for reference zone, trigger contextual note
             const referenceOverlays = document.querySelectorAll(".highlight");
