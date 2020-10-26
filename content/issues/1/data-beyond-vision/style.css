@@ -189,10 +189,6 @@ article .sketchfab-embed-wrapper {
     .icon-nav::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
 }
 
-@media print {
-    .icon-nav { display: none; }
-}
-
 /* section headers with icons */
 
 h2:not([id=acknowledgements]) {
