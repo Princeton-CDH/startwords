@@ -1,7 +1,7 @@
 ---
 type: article
 title: Weaving as Interface
-order: 7
+order: 6
 authors:
   - Rebecca Sutton Koeser
   - Gissoo Doroudian

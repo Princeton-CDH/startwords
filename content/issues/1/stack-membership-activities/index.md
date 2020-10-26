@@ -1,7 +1,8 @@
 ---
 type: article
 title: Stack Shakespeare and Company Membership Activities
-order: 6
+slug: stacking-howto
+order: 5
 authors:
   - Xinyi Li
   - Rebecca Sutton Koeser

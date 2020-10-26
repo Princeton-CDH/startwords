@@ -1,7 +1,8 @@
 ---
 type: article
 title: Weave Derrida's References
-order: 8
+slug: weaving-howto
+order: 4
 authors:
   - Gissoo Doroudian
 date: 2020-10-01
