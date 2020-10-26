@@ -14,9 +14,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
       .then(data => initAnnotatedZoom(data));
 
     function initAnnotatedZoom(data) {
-
-
-
         // create elements with page numbers to be positioned as overlays
         var frag = document.createDocumentFragment();
         data.overlays.filter(el => el.className == 'page_n')
@@ -26,17 +23,29 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 pageSpan.setAttribute('id', el.id);
                 frag.appendChild(pageSpan);
             });
-        document.getElementById('page_numbers').appendChild(frag);
+        // create containers for note references to use as overlays
+        // then move note references inside them
+        data.overlays.filter(el => el.className.includes('highlight'))
+            .forEach(el => {
+                const refZone = document.createElement('div');
+                refZone.setAttribute('id', el.id);
+                refZone.appendChild(document.getElementById('fn' + el.id));
+                frag.appendChild(refZone);
+            });
+
+        document.getElementById('overlays').appendChild(frag);
+
+        var zoomLevel = 2;
 
         var viewer = OpenSeadragon({
             id:"dataweaving-zoom",
             prefixUrl:"https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
             preserveViewport: true,
             visibilityRatio: 1,
-            // disallow zoom in/out
-            minZoomLevel: 4,
-            maxZoomLevel: 4,
-            defaultZoomLevel: 4,
+            defaultZoomLevel: zoomLevel,
+            // disallow zoom in/out — disable zooming by click or scroll
+            zoomPerClick: 1.0,
+            zoomPerScroll: 1.0,
             // disable vertical panning
             panVertical: false,
             showNavigationControl: false,
@@ -45,14 +54,31 @@ window.addEventListener('DOMContentLoaded', (event) => {
             navigatorPosition:   "TOP_LEFT",
             tileSources:"https:\/\/iiif.princeton.edu\/loris\/iiif\/2\/figgy_prod%2F58%2F51%2Fd4%2F5851d48b225b42699a13181c778a6095%2Fintermediate_file.jp2\/info.json",
             overlays: data.overlays,
+            immediateRender: true,
+            viewportMargins: {
+                top: 25,
+                bottom: 25
+            }
         });
+
+
 
         function showReference() {
             // trigger contextual note via hash
-            location.hash = '#' + this.getAttribute('id').replace('ref', '');
+            location.hash = '#' + this.getAttribute('id').replace('ref', 'fn');
+        }
+
+        function adjustZoom() {
+            // show the full height of the weaving image,
+            // with space for page number above and references below
+            // fit the image vertically, then zoom in slightly
+            viewer.viewport.fitVertically(true);
+            viewer.viewport.zoomBy(1.25);
         }
 
         viewer.addHandler("open", function () {
+            // adjust initial zoom
+            adjustZoom();
             // start with left part of the weaving showing
             viewer.viewport.panTo(new OpenSeadragon.Point(0.17, 0.09), true)
 
@@ -62,12 +88,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
                 refOverlay.addEventListener('touchstart', showReference)
                refOverlay.addEventListener('click', showReference)
             }
-
         });
 
         // close any open contextual notes when panning through the image
         viewer.addHandler("pan", function () {
             ContextualNotes.closeNote();
+        });
+
+        // adjust zoom fit when the window is resized
+        window.addEventListener('resize', function() {
+            adjustZoom()
         });
 
     }

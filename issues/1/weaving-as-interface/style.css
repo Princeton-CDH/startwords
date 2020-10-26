@@ -4,12 +4,12 @@
     --off-white: #F6F6F6;
     --purple: #4C2A85;
     --light-purple: #E0CEFF;
-
+    --transparent-red: rgba(206, 41, 73, 0.5);
 }
 
 body.article .deepzoom {
     width: 100vw;
-    height: 230px;
+    height: 300px;
     margin-top: 15vh;
     margin-bottom: 30vh;
     background-color: black;
@@ -20,21 +20,21 @@ body.article .deepzoom {
 /* breakpoint-s */
 @media (min-width: 768px) {
     body.article .deepzoom {
-        height: 454px;
-    }
-}
-
-/* breakpoint-m */
-@media (min-width: 1024px) {
-    body.article .deepzoom {
-        height: 604px;
+        height: 608px;
     }
 }
 
 .highlight {
-    border: 3px solid var(--red);
-    opacity: 0.5;
+    border: 3px solid var(--transparent-red);
     counter-increment: highlightZoneCounter;
+}
+
+/* position footnote reference within the highlight region,
+   to control where contextual note will be placed */
+.highlight sup {
+    display: block;
+    width: 100%;
+    height: 30%;
 }
 
 .highlight::after {
@@ -54,9 +54,9 @@ body.article .deepzoom {
     padding-right: 0;
     background: var(--off-white);
     border-radius: 50%;
-    width: 0.8rem;
-    height: 0.8rem;
-    line-height: 0.8rem;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
     margin-top: 0.5rem;
 
 }
@@ -69,7 +69,7 @@ body.article .deepzoom {
 }
 
 .highlight:hover {
-    opacity: 1;
+    border: 3px solid var(--red);
 }
 
 body.article .footnotes {
@@ -78,7 +78,7 @@ body.article .footnotes {
 }
 
 
-body.article .footnotes li img {
+body.article .footnotes li p img {
     max-width: 250px;
     display: block;
     margin: auto;
@@ -95,7 +95,7 @@ body.article .footnotes li img {
     color: var(--purple);
     top: 2.77rem;
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
-    font-size: rem(18px);
+    font-size: 1rem;
 }
 
 .footnotes li .reftype .page {
@@ -128,7 +128,7 @@ body.article .footnotes.endnotes ol li a[role=doc-backlink] {
 
 body.article .footnotes.endnotes ol li p, body.article .footnotes ol li p {
     text-indent: 0;
-    margin-bottom: 1rem;  /* space before blockquote */
+    margin-bottom: 1rem;  /* space before citation */
 }
 
 body.article .footnotes.endnotes ol li::before {
@@ -142,24 +142,20 @@ body.article .footnotes.endnotes ol li::before {
     margin-top: 0.5rem;
 }
 
-body.article article .footnotes blockquote p {
+body.article article .footnotes cite {
     font-style: normal;
-    display: inline;
-}
-
-.footnotes blockquote {
-    display: inline;
-}
-
-.footnotes blockquote footer {
-    display: inline;
-    margin-left: 0.5rem;
 }
 
 .page_n {
     text-decoration: none;
     color: var(--off-white);
-    font-size: 22px;
+    font-size: 0.77rem;
+}
+
+@media (min-width: 768px) {
+    .page_n {
+       margin-top: 1rem;
+    }
 }
 
 .reference {
