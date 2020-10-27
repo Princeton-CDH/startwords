@@ -20,7 +20,7 @@
 |
 |  https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/
 |
-|  doi:10.5281/zenodo.3713671
+|  doi:10.5281/zenodo.3713670
 |
 |  #DataBeyondVision
 |
