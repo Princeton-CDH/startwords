@@ -46,7 +46,7 @@ We invite you to participate in the embodiment and visible labor of data work. D
 
 1. Let’s learn about some [key points and terms on the loom](#key-points-about-the-rigid-heddle-loom), and [how to set up the warp on the loom](#how-to-set-up-the-warp-on-the-loom).
 2. Let’s learn about the weaving types used in this piece and what each represents in the [“Weaving Types” section](#weaving-types).
-3. Let’s weave the Derrida references page by page, covered in the [“Pattern Guide for Weaving Derrida’s Margins.”](https://startwords.cdh.princeton.edu/issues/1/weave-references/Pattern-Guide-for-Weaving-Derridas-Margins.pdf)
+3. Let’s weave the Derrida references page by page, covered in the [“Pattern Guide for Weaving Derrida’s Margins.”](Pattern-Guide-for-Weaving-Derridas-Margins.pdf)
 
 ## Yield
 
@@ -310,7 +310,7 @@ Note: Before pulling ends down and tightening the top knot, make sure to match u
 
 Learned and adapted from: https://www.theweavingloom.com/weaving-techniques-rya-knots/
 
-If you would like to try weaving the first chapter of _de la Grammatologie_ download the [“Pattern Guide for Weaving Derrida’s Margins”](https://startwords.cdh.princeton.edu/issues/1/weave-references/Pattern-Guide-for-Weaving-Derridas-Margins.pdf) and follow the instructions.
+If you would like to try weaving the first chapter of _de la Grammatologie_ download the [“Pattern Guide for Weaving Derrida’s Margins”](Pattern-Guide-for-Weaving-Derridas-Margins.pdf) and follow the instructions.
 
 [^1]: A shuttle is a tool that is used to hold and pass the yarn through the warp.
 [^2]: A yarn is made up of several twisted strands of fiber, referred to as “plies”
