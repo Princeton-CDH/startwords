@@ -9,7 +9,7 @@ authors:
   - Xinyi Li
 date: 2020-10-01
 doi: 10.5281/zenodo.3713671
-pdf: startwords-1-data-beyond-vision.pdf
+pdf: https://zenodo.org/record/3713671/files/Data%20Beyond%20Vision.pdf
 images: ["issues/1/data-beyond-vision/images/dbv-social.jpg"]
 tags: [DataBeyondVision]
 ---
