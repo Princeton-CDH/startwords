@@ -296,9 +296,6 @@ Stacking New and Continuing Membership Activities of the Shakespeare and Company
 
 _Xinyi Li_
 
-### Goal
-This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library and bookshop by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the [Shakespeare and Company Project](https://shakespeareandco.princeton.edu/) — bringing archival data to life and facilitating rich interpretations.
-
 {{< figure src="images/stacking-horizontal-pan.gif" alt="Animated GIF with the camera panning revealing different portions of the paper model." caption="Overview of a folded model representing the lending library membership activities from 1919 to 1941.">}}
 
 {{< wrap class="txt-only" >}}
@@ -309,8 +306,8 @@ This piece aims to reveal the continuity and growth of Sylvia Beach’s lending 
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-### Description
-Shakespeare and Company Project lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the [logbooks](https://shakespeareandco.princeton.edu/sources/logbooks/); the depth depicts the number of members with borrowing activity, according to each member’s [lending library card](https://shakespeareandco.princeton.edu/sources/cards/); the length along the timeline is based on the total number of borrowing events.[^35] Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.
+### Goal
+This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library and bookshop by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the [Shakespeare and Company Project](https://shakespeareandco.princeton.edu/) — bringing archival data to life and facilitating rich interpretations.
 
 {{< figure src="images/stacking-photo-legend.png" alt="Textual labels overlaying a 3d rendering of a unit of the folded model along its three directions." caption="Legend showing how to read the information represented in three dimensions.">}}
 
@@ -322,7 +319,8 @@ Shakespeare and Company Project lending library membership data from 1919 to 194
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-This physicalization made use of kirigami technique, which transforms single sheets of paper into three-dimensional forms. Data was mapped to the shapes with [Data Illustrator](http://data-illustrator.com/), semi-manual calculation, and vector drawing. The materiality and the process have a poetic connection to the subject matter, metaphorically: stories and knowledge can be embedded on flat papers, but the act of reading unfolds the surface into interpretive space even beyond three dimensions.
+### Description
+Shakespeare and Company Project lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the [logbooks](https://shakespeareandco.princeton.edu/sources/logbooks/); the depth depicts the number of members with borrowing activity, according to each member’s [lending library card](https://shakespeareandco.princeton.edu/sources/cards/); the length along the timeline is based on the total number of borrowing events.[^35] Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.
 
 {{<sketchfab id="96403a4659414537b470f03da96d7a88" alt="3D model showing a folded long paper as base, with opened cuts folded into additional panels." pdf-img="images/stacking-3d-alt.jpg" pdf-alt="Three photos from multiple angles showing a folded long paper as base, with opened cuts folded into additional panels.">}}
 {{< wrap class="txt-only" >}}
@@ -330,6 +328,8 @@ This physicalization made use of kirigami technique, which transforms single she
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
+
+This physicalization made use of kirigami technique, which transforms single sheets of paper into three-dimensional forms. Data was mapped to the shapes with [Data Illustrator](http://data-illustrator.com/), semi-manual calculation, and vector drawing. The materiality and the process have a poetic connection to the subject matter, metaphorically: stories and knowledge can be embedded on flat papers, but the act of reading unfolds the surface into interpretive space even beyond three dimensions.
 
 ### Insights
 {{< figure src="images/2d-stacked-bar.svg" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." caption="Membership activities of the Shakespeare and Company lending library from 1919 to 1941 represented as stacked bar charts."  desc-id="stackedbar-desc" >}}
