@@ -29,7 +29,7 @@ We invite you to participate in the embodiment and visible labor of data work. D
 - Bone folder or credit card
 - Cutting mat or a stack of scrap paper
 ## Supplies
-- 5 Sheets of cover stock paper (around 75lb or 200gsm; letter size is recommended, larger also works)
+- 5 Sheets of cover stock paper (around 75 lb or 200 gsm; letter size is recommended, larger also works)
 - Double-sided tape (optional)
 ## Steps
 1. Download [the PDF](https://drive.google.com/drive/u/0/folders/1iGaA-NK4BzA9W8wZKg0KLhqZG8nZAckP)

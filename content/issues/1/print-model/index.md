@@ -1,6 +1,6 @@
 ---
 type: article
-title: Print a model of the Shakespeare and Company Lending Library Membership
+title: Print a Model of the Shakespeare and Company Lending Library Membership
 order: 3
 authors:
   - Rebecca Sutton Koeser
