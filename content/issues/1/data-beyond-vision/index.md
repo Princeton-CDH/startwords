@@ -324,7 +324,7 @@ Shakespeare and Company Project lending library membership data from 1919 to 194
 
 This physicalization made use of kirigami technique, which transforms single sheets of paper into three-dimensional forms. Data was mapped to the shapes with [Data Illustrator](http://data-illustrator.com/), semi-manual calculation, and vector drawing. The materiality and the process have a poetic connection to the subject matter, metaphorically: stories and knowledge can be embedded on flat papers, but the act of reading unfolds the surface into interpretive space even beyond three dimensions.
 
-{{<sketchfab id="96403a4659414537b470f03da96d7a88" alt="3D model showing a folded long paper as base, with opened cuts folded into additional panels." pdf-img="images/modeling-3d-alt.jpg" pdf-alt="Three photos from multiple angles showing a folded long paper as base, with opened cuts folded into additional panels.">}}
+{{<sketchfab id="96403a4659414537b470f03da96d7a88" alt="3D model showing a folded long paper as base, with opened cuts folded into additional panels." pdf-img="images/stacking-3d-alt.jpg" pdf-alt="Three photos from multiple angles showing a folded long paper as base, with opened cuts folded into additional panels.">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
