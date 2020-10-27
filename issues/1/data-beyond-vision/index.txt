@@ -313,9 +313,6 @@ Stacking New and Continuing Membership Activities of the Shakespeare and Company
 
 _Xinyi Li_
 
-Goal
-This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library and bookshop by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the Shakespeare and Company Project [URL: https://shakespeareandco.princeton.edu/] — bringing archival data to life and facilitating rich interpretations.
-
 
 
 
@@ -326,8 +323,8 @@ This piece aims to reveal the continuity and growth of Sylvia Beach’s lending 
 ⩩-----------------------------------------------------------------------------------⟩
 
 
-Description
-Shakespeare and Company Project lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the logbooks [URL: https://shakespeareandco.princeton.edu/sources/logbooks/]; the depth depicts the number of members with borrowing activity, according to each member’s lending library card [URL: https://shakespeareandco.princeton.edu/sources/cards/]; the length along the timeline is based on the total number of borrowing events.[NOTE 35] Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.
+Goal
+This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library and bookshop by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the Shakespeare and Company Project [URL: https://shakespeareandco.princeton.edu/] — bringing archival data to life and facilitating rich interpretations.
 
 
 
@@ -339,7 +336,8 @@ Shakespeare and Company Project lending library membership data from 1919 to 194
 ⩩-----------------------------------------------------------------------------------⟩
 
 
-This physicalization made use of kirigami technique, which transforms single sheets of paper into three-dimensional forms. Data was mapped to the shapes with Data Illustrator [URL: http://data-illustrator.com/], semi-manual calculation, and vector drawing. The materiality and the process have a poetic connection to the subject matter, metaphorically: stories and knowledge can be embedded on flat papers, but the act of reading unfolds the surface into interpretive space even beyond three dimensions.
+Description
+Shakespeare and Company Project lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the logbooks [URL: https://shakespeareandco.princeton.edu/sources/logbooks/]; the depth depicts the number of members with borrowing activity, according to each member’s lending library card [URL: https://shakespeareandco.princeton.edu/sources/cards/]; the length along the timeline is based on the total number of borrowing events.[NOTE 35] Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.
 
 
 
@@ -347,6 +345,8 @@ This physicalization made use of kirigami technique, which transforms single she
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩-----------------------------------------------------------------------------------⟩
 
+
+This physicalization made use of kirigami technique, which transforms single sheets of paper into three-dimensional forms. Data was mapped to the shapes with Data Illustrator [URL: http://data-illustrator.com/], semi-manual calculation, and vector drawing. The materiality and the process have a poetic connection to the subject matter, metaphorically: stories and knowledge can be embedded on flat papers, but the act of reading unfolds the surface into interpretive space even beyond three dimensions.
 
 Insights
 
