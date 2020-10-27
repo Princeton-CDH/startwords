@@ -7,6 +7,8 @@ authors:
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
 slug: modeling-howto
+images: ["issues/1/data-beyond-vision/images/modeling-close-up.jpg"]
+summary: Print a model of Shakespeare and Company lending library membership by date, as described in "Data Beyond Vision"
 ---
 
 {{< figure src="images/modeling-close-up.jpg" alt="Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground." caption="Close-up of 3D printed lollipop chart with labels." attr="Photo by Shelley Szwast" >}}
