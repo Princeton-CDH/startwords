@@ -248,7 +248,7 @@ sup {
    Adapted from weasyprint default print css.
    NOTE: not currently supported by paged.js
 */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .help {
     page-break-after: avoid;
     page-break-inside: avoid;
     bookmark-label: content(text);
