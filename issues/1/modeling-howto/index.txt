@@ -9,7 +9,7 @@
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
-|  Print a model of the Shakespeare and Company Lending Library Membership
+|  Print a Model of the Shakespeare and Company Lending Library Membership
 |
 |  Authors:
 |  

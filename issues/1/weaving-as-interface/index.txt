@@ -47,7 +47,7 @@ As a way of turning the weaving into an interface, we offer this experiment with
 
 
 
-Acknowledgements
+Acknowledgments
 ----------------
 
 The reference information shown here is drawn from datasets related to Derrida&#39;s Margins [URL: https://derridas-margins.princeton.edu/]:
@@ -83,23 +83,23 @@ The high resolution capture of the data weaving used here was created by Princet
 5. Quotation, p. 17
     *Émile ou de l&#39;éducation [URL: https://derridas-margins.princeton.edu/library/?query=rousseau-emile-ou-de-leducation-1762&amp;is_extant=false]* (1762)
     Jean-Jacques Rousseau
-    plus fondamentale que celle qui, avant cette conversion, passait pour le simple « supplément à la parole » (Rousseau). 
+    plus fondamentale que celle qui, avant cette conversion, passait pour le simple « supplément à la parole » (Rousseau).
 
 6. Footnote, p. 17
     *La voix et le phénomène [URL: https://derridas-margins.princeton.edu/library/?query=derrida-la-voix-et-le-phenomene-1967&amp;is_extant=false]* (1967)
     Jacques Derrida
-    C&#39;est un problème que nous abordons plus directement dans *La voix et le phénomène* (P.U.F. 1967). 
-        
+    C&#39;est un problème que nous abordons plus directement dans *La voix et le phénomène* (P.U.F. 1967).
+
 7. Footnote, p. 20
     *L&#39;Ecriture et la psychologie des peuples: actes de colloque [URL: https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/]* (1963)
     Cf. par ex. EP. pp. 126, 148, 355, etc. D&#39;un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116) (p. 126)
 [IMAGE: Cover of L&#39;Ecriture et la psychologie des peuples: actes de colloque]
-        
+
 8. Footnote, p. 20
     *Les écritures indiennes. Le monde indien et son système graphique. [URL: https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/#sections]* (1963)
     Cf. par ex. EP. pp. 126, 148, 355, etc. D&#39;un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116) (p. 148)
 [IMAGE: Cover of Les écritures indiennes. Le monde indien et son système graphique.]
-        
+
 9. Footnote, p. 20
     *L&#39;Ecriture et la psychologie des peuples: actes de colloque [URL: https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/]* (1963)
     Cf. par ex. EP. pp. 126, 148, 355, etc. D&#39;un autre point de vue, cf. Jakobson, *Essais de linguistique générale* (tr. fr. p. 116) (p. 355)
@@ -144,7 +144,7 @@ The high resolution capture of the data weaving used here was created by Princet
     *Le problème de l&#39;être chez Aristote [URL: https://derridas-margins.princeton.edu/library/?query=aubenque-le-probleme-de-letre-chez-aristote-1962&amp;is_extant=false]* 
     Pierre Aubenque
     C&#39;est ce que montre Pierre Aubenque (*Le problème de l&#39;être chez Aristote*, p. 106 sq.). Au cours d&#39;une remarquable analyse, dont nous nous inspirons ici, P. Aubenque note en effet : « Dans d&#39;autres textes, il est vrai, Aristote qualifie de symbole le rapport du langage aux choses : &#34;Il n&#39;est pas possible d&#39;apporter dans la discussion les choses elles-mêmes, mais, au lieu des choses, nous devons nous servir de leurs noms comme de symboles.&#34; L&#39;intermédiaire que constituait l&#39;état d&#39;âme et ici supprimé ou du moins négligé, mais cette suppression est légitime, puisque les états d&#39;âme se comportant comme les choses, celles-ci peuvent leur être immédiatement substituées. En revanche, on ne peut pas substituer, sans plus, le nom à la chose … » (p. 107-108). (p. 107-108)
-        
+
 17. Quotation, p. 24
     *Essais de linguistique générale [URL: https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/]* (1963)
     Roman Jakobson
@@ -167,7 +167,7 @@ The high resolution capture of the data weaving used here was created by Princet
     Plato
     l&#39;écriture de la vérité dans l&#39;âme, opposée par le *Phèdre* (278 a) à la mauvaise écriture (à l&#39;écriture au sens « propre » et courant, à l&#39;écriture « sensible », « dans l&#39;espace ») (p. 289)
 [IMAGE: Cover of Phèdre]
-        
+
 21. Quotation, p. 26
     *Phèdre [URL: https://derridas-margins.princeton.edu/library/plato-phaedrus-1961/]* (1961)
     Plato
@@ -201,7 +201,7 @@ The high resolution capture of the data weaving used here was created by Princet
 26. Quotation, p. 27
     *Il Saggiatore [URL: https://derridas-margins.princeton.edu/library/?query=galilei-il-saggiatore-1623&amp;is_extant=false]* (1623)
     Galileo Galilei
-    « La nature est écrite en langage mathématique. » 
+    « La nature est écrite en langage mathématique. »
 
 27. Quotation, p. 27
     *Discours de la méthode [URL: https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1943/]* (1943)
@@ -214,7 +214,7 @@ The high resolution capture of the data weaving used here was created by Princet
     René Descartes
     « … à lire le grand livre du monde… » (p. 51)
 [IMAGE: Cover of Discours de la méthode]
-        
+
 29. Quotation, p. 27
     *Dialogues sur la religion naturelle [URL: https://derridas-margins.princeton.edu/library/hume-dialogues-concerning-natural-religion-1964/]* (1964)
     David Hume
@@ -224,10 +224,10 @@ The high resolution capture of the data weaving used here was created by Princet
 30. Quotation, p. 27
     *La palingénésie philosophique [URL: https://derridas-margins.princeton.edu/library/?query=bonnet-la-palingenesie-philosophique-1769&amp;is_extant=false]* 
     Charles Bonnet
-    « Il me paraît plus philosophique de présumer que notre terre est un livre que le grand Être a donné à lire à des intelligences qui nous sont fort supérieures, et où elles étudient à fond les traits infiniment multiples et variés de son adorable sagesse. » 
+    « Il me paraît plus philosophique de présumer que notre terre est un livre que le grand Être a donné à lire à des intelligences qui nous sont fort supérieures, et où elles étudient à fond les traits infiniment multiples et variés de son adorable sagesse. »
 
 31. Quotation, p. 27
     *La symbolique du rêve/ Die Symbolik des Traumes [URL: https://derridas-margins.princeton.edu/library/?query=von-schubert-la-symbolique-du-reve-die-symbolik-des-traumes-1815&amp;is_extant=false]* (1815)
     Gotthilf Heinrich von Schubert
-    « Cette langue faite d&#39;images et d&#39;hiéroglyphes, dont se sert la Sagesse suprême dans toutes ses révélations à l&#39;humanité – qui se retrouve dans le langage tout voisin de la Poésie – et qui, dans notre condition actuelle, ressemble davantage à l&#39;expression métaphorique du rêve qu&#39;à la prose de la veille, – on peut se demander si cette langue n&#39;est pas la véritable langue de la religion supérieure. Si, tandis que nous nous croyons éveillés, nous ne sommes pas plongés dans un sommeil millénaire, ou au moins dans l&#39;écho de ses rêves, où nous ne percevons de la langue de Dieu que quelques paroles isolées et obscures, comme un dormeur perçoit les discours de son entourage. » 
+    « Cette langue faite d&#39;images et d&#39;hiéroglyphes, dont se sert la Sagesse suprême dans toutes ses révélations à l&#39;humanité – qui se retrouve dans le langage tout voisin de la Poésie – et qui, dans notre condition actuelle, ressemble davantage à l&#39;expression métaphorique du rêve qu&#39;à la prose de la veille, – on peut se demander si cette langue n&#39;est pas la véritable langue de la religion supérieure. Si, tandis que nous nous croyons éveillés, nous ne sommes pas plongés dans un sommeil millénaire, ou au moins dans l&#39;écho de ses rêves, où nous ne percevons de la langue de Dieu que quelques paroles isolées et obscures, comme un dormeur perçoit les discours de son entourage. »
 
