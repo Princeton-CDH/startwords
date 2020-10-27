@@ -32,7 +32,7 @@ We invite you to participate in the embodiment and visible labor of data work. D
 - 5 Sheets of cover stock paper (around 75 lb or 200 gsm; letter size is recommended, larger also works)
 - Double-sided tape (optional)
 ## Steps
-1. Download [the PDF](https://drive.google.com/drive/u/0/folders/1iGaA-NK4BzA9W8wZKg0KLhqZG8nZAckP)
+1. Download [the PDF for the model](stacking-chart_instructions.pdf)
 2. Print on cardstock paper at actual size
 3. Cut along the vertical solid lines
 4. Fold along the horizontal dotted lines. Follow the legend for mountain and valley folds.
