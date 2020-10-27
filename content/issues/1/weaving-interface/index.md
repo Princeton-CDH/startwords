@@ -8,6 +8,8 @@ authors:
 tags: [DataBeyondVision, Experiment]
 needs_deepzoom: true
 body_class: darkmode
+images: ["issues/1/weaving-as-interface/images/weaving-as-interface-preview.jpg"]
+summary: As a way of turning this data weaving into an interface, we offer an experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents.
 ---
 
 

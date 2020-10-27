@@ -8,6 +8,8 @@ authors:
   - Rebecca Sutton Koeser
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
+images: ["issues/1/stacking-howto/images/stacking-preview.jpg"]
+summary: Create your own kirigami model of the Shakespeare and Company lending library membership activities, as described in "Data Beyond Vision"
 ---
 
 {{< figure src="images/stacking-part_v2.jpg" alt="A portion of a paper model against dark background with years printed on the base." caption="Close-up of the finished model of membership activities of the Shakespeare and Company lending library" >}}

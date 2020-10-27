@@ -7,6 +7,8 @@ authors:
   - Gissoo Doroudian
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
+images: ["issues/1/weaving-howto/images/weaving-preview.jpg"]
+summary: Create your own data weaving of Derrida’s references in chapter 1 of de la Grammatologie, as described in "Data Beyond Vision"
 ---
 
 {{< figure src="images/weaving-display.jpg" alt="A scarf with alternating bands of blue fabrics resting on a table." caption="Completed weaving of the first thirteen pages of Derrida’s references in chapter 1 of de la Grammatologie." attr="Photo by Shelley Szwast" >}}
