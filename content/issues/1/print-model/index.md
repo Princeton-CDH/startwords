@@ -7,7 +7,7 @@ authors:
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
 slug: modeling-howto
-images: ["issues/1/data-beyond-vision/images/modeling-close-up.jpg"]
+images: ["issues/1/modeling-howto/images/modeling-preview.jpg"]
 summary: Print a model of Shakespeare and Company lending library membership by date, as described in "Data Beyond Vision"
 ---
 
