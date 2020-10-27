@@ -8,7 +8,7 @@ authors:
     - Rebecca Munson
 date: 2020-10-01
 doi: 10.5281/zenodo.3713678
-pdf: startwords-1-their-data-ourselves.pdf
+pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf
 images: ["issues/1/their-data-ourselves/images/tdo-social.png"]
 ---
 
