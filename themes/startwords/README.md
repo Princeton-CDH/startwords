@@ -76,7 +76,7 @@ Example use:
 
 When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.`.
 
-## parameters
+#### parameters
 
 - `tile`, URL to a IIIF image that will be displayed in the viewer.
 - `alt`, text used by assistive technology to describe the content of the viewer.
@@ -97,7 +97,7 @@ Example use:
 
 When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive 3D viewer displaying a model of this object.`.
 
-## parameters
+#### parameters
 
 - `id`, ID of the SketchFab object to be embedded; can be found in the URL to view the object.
 - `alt`, text used by assistive technology to describe the content of the viewer.
