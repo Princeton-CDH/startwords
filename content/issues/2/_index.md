@@ -3,7 +3,7 @@ type: issue
 layout: single
 title: Issue Two
 number: 2
-theme: Geniza # TODO: Confirm theme
+theme: Scribes 
 date: 1980-10-01 # TODO: Update date
 slug: 2
 summary: tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, # TODO: Update summary
