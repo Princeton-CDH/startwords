@@ -71,4 +71,11 @@ you make changes and save files locally, hugo will automatically refresh the pag
 
 ## License
 
-_Startwords_ is licensed under the [Apache 2.0 License](LICENSE).
+### Content
+Content published in _Startwords_ is licensed under the Creative Commons Attribution 4.0 International License (CC-BY).
+
+### Software
+
+Software included in _Startwords_ is licensed under the [Apache 2.0 License](LICENSE).
+
+©2021 Trustees of Princeton University. Permission granted via Princeton Docket #21-3753-1 for distribution online under a standard Open Source license.
