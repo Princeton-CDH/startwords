@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+iframe {
+  display: block;
+  margin: 0.5em auto;
+  border: 1px solid #444;
+  border-radius: 1em;
+}
+
+a.link-to-code {
+  display: block;
+  text-align: center;
+}
+
+p.note {
+  color: #888;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+form {
+  padding: 1em;
+}
+
+form textarea {
+  display: block;
+  width: 100%;
+}
+
+form label {
+  display: block;
+  color: #888;
+  font-size: 0.8em;
+}
+
+form button#submit {
+  display: block;
+  width: 100%;
+  background: #00979D;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 0.5em;
+}
+
+form pre {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  background: #eee;
+  min-height: 3em;
+}
+
+#keyboard {
+  padding: 0.5em;
+  background: #edc;
+}
+
+#keyboard .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#keyboards-list {
+  background: #edc;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#keyboards-list span {
+  color: #888;
+}
+
+#keyboards-list button {
+  cursor: pointer;
+  margin: 0 0.25em;
+}
+
+.keyboard-key {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.125em;
+  width: 3em;
+  height: 3em;
+}
+.keyboard-key span {
+  display: block;
+  font-size: 0.6em;
+  color: #888;
+}
+
+
+/* testing interlude wrapper */
+
+article #interlude,
+article figure,
+
+@media print { article::before { background: none; } }
+
+/* purple "interlude" section with eye/hand graphics */
+
+#interlude {
+    page-break-inside: avoid;
+    position: relative;
+    margin: 0 auto;
+}
+
+#interlude::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: -10px;
+    height: 100%;
+    background: #4C2A85;
+}
+
+#interlude .left,
+#interlude .right {
+    display: block;
+    z-index: 1;
+    color: #E0CEFF;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'IBM Plex Serif', 'Palatino', serif;
+    max-width: 55%;
+    min-height: 150px;
+}
+
+#interlude .left {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#interlude .left::before,
+#interlude .right::before {
+    position: absolute;
+    background-size: contain;
+    content: '';
+    background-repeat: no-repeat;
+}
+
+}
+
+#interlude .right {
+    text-align: right;
+    margin-left: auto;
+    padding-bottom: 35px;
+}
+
+#interlude p {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 20px;
+    z-index: 1;
+}
+
+#interlude p:first-child {
+    margin-bottom: 0;
+}
+
+#interlude strong {
+    font-weight: 700;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    #interlude::before { left: calc((100vw - 10px) / 10 * -1 - 10px) }
+    #interlude .left, #interlude .right { max-width: 200px; }
+    #interlude .left { margin-left: 20%; }
+    #interlude .right { margin-left: 50%; }
+    #interlude .left::before { right: -18%; }
+    #interlude .right::before { left: -15%; }
+}
+
+@media (min-width: 1024px) {
+    #interlude::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
+    #interlude .left::before {
+        width: 238px;
+        height: 123px;
+        right: -40%;
+    }
+    #interlude .right::before {
+        width: 354px;
+        height: 128px;
+        left: -35%;
+    }
+}
+
+@media print {
+    #interlude::before { background: none; }
+    #interlude .left, #interlude .right { color: #4C2A85; }
+    #interlude .left::before { right: -21px; }
+    #interlude .right::before { left: 0; }
