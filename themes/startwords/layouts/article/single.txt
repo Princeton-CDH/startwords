@@ -15,7 +15,7 @@
 |  {{ range .Params.Authors }}
 |     {{ . }}{{ end }}
 |
-|  {{ .RelPermalink }}
+|  {{ .Permalink }}
 |{{ if .Params.doi }}
 |  doi:{{ .Params.doi }}{{ end }}
 |{{ if .Params.tags }}
@@ -24,7 +24,7 @@
 ⩩-----------------------------------------------------------------------------------⟩
 |
 |  Issue {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
-|  {{ .Parent.RelPermalink }}
+|  {{ .Parent.Permalink }}
 |  {{ .Parent.Date.Format "January 2006" }}
 |
 ⩩-----------------------------------------------------------------------------------⟩
