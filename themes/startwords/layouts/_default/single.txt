@@ -5,4 +5,4 @@
 {{ replace .Plain "\n" "\n\n" }}
 
 
-{{ .Permalink }}
+{{ .RelPermalink }}
