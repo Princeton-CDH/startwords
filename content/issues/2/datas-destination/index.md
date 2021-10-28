@@ -7,10 +7,10 @@ order: 2
 authors:
     - Victoria Anne Van Hyning
     - Mason Alexander Jones
-date: 2021-10-01
-doi: 10.5281/zenodo.3713678
-pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf
-images: #insert pullquote screenshot in \images directory
+date: 2021-10-01 # TODO: Update date
+doi: 10.5281/zenodo.3713678 # TODO: update doi
+pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
+images: # TODO: insert pullquote screenshot in \images directory
 ---
 
 Crowdsourcing—a series of methods for engaging volunteers in STEM, humanities, and cultural heritage research—has rapidly matured over the the 21st century\'s first two decades.<!--more-->
