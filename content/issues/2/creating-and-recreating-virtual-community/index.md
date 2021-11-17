@@ -1,8 +1,8 @@
 ---
 type: article
-slug: 'creating-and-recreating-community'
+slug: 'creating-and-recreating-virtual-community'
 title: |
-  Creating and Recreating Community on Douglass Day
+  Creating and Recreating Virtual Community on Douglass Day
 order: 3
 authors:
     - Justin Smith
@@ -11,7 +11,7 @@ authors:
 date: 2021-10-01 # TODO: Update date
 doi: 10.5281/zenodo.3713678 # TODO: update doi
 pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
-images: # TODO: insert pullquote screenshot in \images directory
+images: # TODO: pullquote will make this media-rich article too busy, so select a screenshot (perhaps of one of the embedded tweets or youtube videos) for social sharing and place it in \images directory
 ---
 
 ## Douglass Day’s annual celebrations before the pandemic
@@ -62,15 +62,7 @@ Launching our social media campaign early on helped attract attention to the eve
 
 Amid the pandemic, we recognized that not all of our participants used social media so we expanded our newsletter. Our response rate was higher than on social media. We sent out regular reminders and resources, including a consistent timeline, visual aesthetic, and recurring thematic framing.
 
-`NEWSLETTER SCREENSHOT WILL GO HERE`
-
-{{< youtube tVMIcwixBnM >}}
-
-{{< youtube 1yXr9w_rZQw >}}
-
-{{< youtube qoW7nKoqfYs >}}
-
-{{< youtube ptPWIK0uUS8 >}}
+{{< youtube id="1yXr9w_rZQw" title="What is transcription? What is reviewing?" >}}
 
 ## Our Results
 
