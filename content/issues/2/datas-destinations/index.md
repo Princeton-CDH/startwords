@@ -1,8 +1,8 @@
 ---
 type: article
-slug: 'datas-destination'
+slug: 'datas-destinations'
 title: |
-  Data's Destination: Three Case Studies in Wrangling Crowdsourced Transcription Data
+  Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination
 order: 2
 authors:
     - Victoria Anne Van Hyning
@@ -13,7 +13,7 @@ pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: up
 images: # TODO: insert pullquote screenshot in \images directory
 ---
 
-Crowdsourcing—a series of methods for engaging volunteers in STEM, humanities, and cultural heritage research—has rapidly matured over the the 21st century\'s first two decades.<!--more-->
+Online crowdsourcing—a series of methods for engaging volunteers with STEM, humanities, and cultural heritage research—has rapidly matured between 2000 and 2021.<!--more-->
 
 These efforts have been led by research groups such as [Zooniverse](https://www.zooniverse.org/), platform designers such as [From the Page](https://fromthepage.com/), [Omeka](https://omeka.org/), [PyBossa](https://pybossa.com/) and [Scripto](https://scripto.org/), and cultural heritage institutions such as the [National Archives and Records Administration](https://www.archives.gov/) (NARA) and [Smithsonian](https://www.si.edu/). Volunteers help researchers, journalists, conservationists, cultural heritage practitioners and one another to gather data that contributes to real research, original art, policy, community health, and more. In this essay, we will focus on cultural heritage crowdsourcing, and transcription projects in particular. Typically, these projects invite volunteers to transcribe handwritten materials, or printed materials produced with ornate type or typewriter documents that are not amenable to handwritten text recognition (HTR) or optical character recognition (OCR), because of the slight irregularities of the type, faint ink, or use of thin papers such as onion skin.
 
