@@ -15,9 +15,9 @@ pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: up
 images: # TODO: insert pullquote screenshot in \images directory
 ---
 
-This is a piece about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration. <!--more-->
+This piece is about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration. <!--more-->
 
-This piece is about translating: from concept to design to product; from fragment to image to text; from high-level goal to incremental steps. It is about unraveling a tapestry to learn how to spin its yarn.
+This piece is about translating: from concept to design to product; from fragment to image to text; from high-level goal to incremental steps. It is about workflows and spin-offs and objectives; it is about unraveling a tapestry to learn how to spin its yarn.
 
 In *Data Feminism,* Catherine D’Ignazio and Lauren F. Klein use the example of the proliferation of street signs to make a point about making: “one does not need street names for navigation until one has strangers in the landscape.” In D’Ignazio and Klein’s usage, the ‘strangers’ here are data scientists, digging through data with which they are not intimately familiar. In this piece, we use our experience as platform maintainers[^1] to illustrate how all collaborators and participants are ‘strangers’ at one point or another in the process of research development; it is only through collective building that we can successfully name our streets.
 
