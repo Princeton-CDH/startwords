@@ -15,7 +15,28 @@ images: # TODO: insert pullquote screenshot in \images directory
 
 Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the *Scribes of the Cairo Geniza* and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference *Crowdsourcing and the Humanities* and discover that they had already been collaborating anonymously via the *Scribes of the Cairo Geniza* site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.
 
-&&& INSERT VIDEO &&&
+<script src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/14292362/partner_id/1449362"></script> 
+<div id="kaltura_player_1621444219" style="width: 720px; height: 441px;"></div>
+<script>
+kWidget.embed({
+  "targetId": "kaltura_player_1621444219",
+  "wid": "_1449362",
+  "uiconf_id": 14292362,
+  "flashvars": {
+    "mediaProxy.mediaPlayFrom" : "2670",
+"mediaProxy.mediaPlayTo" : "2940",
+},
+  "cache_st": 1621444219,
+  "entry_id": "1_w2r5byk1"
+});
+</script>
+
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| VIDEO. Embedded video of the panel. Timestamped to bring viewers to 44:30-48:17.
+| https://www.kaltura.com/index.php/extwidget/preview/partner_id/1449362/uiconf_id/14292362/entry_id/1_w2r5byk1/embed/dynamic?
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 **Matthew:** In this piece Steffy and I continue the conversation from our April 2021 panel in order to explain the basis of our collaboration, the processes by which we analyze Geniza texts and, most importantly, the stakes of crowdsourcing projects for historical research. Steffy’s work in compiling collections of Geniza fragments with similar formatting, scribal hands, and ink stamps alerted me to the existence of document types that could have otherwise taken months or years to locate. Her individual contributions speak volumes for the ways in which a vast network of *Scribes* contributors has accelerated the accessibility of Geniza texts. Contributors like Steffy are tackling foundational questions in the field of Cairo Geniza Studies that have never been pursued on such a mass scale. From the moment I happened upon the *Scribes* discussion boards in the summer of 2020, I was struck by the abundance of user collections and comments regarding the distinctions between genres of literary and documentary fragments.[^1] Steffy, in your volunteer work and collections, what are the core features within the layout of texts that you focus on in order to distinguish between fragment types?
 
