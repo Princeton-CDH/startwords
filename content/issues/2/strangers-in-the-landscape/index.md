@@ -33,7 +33,7 @@ Throughout the piece, we have provided interludes in which we will walk you thro
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**01. The Basics: A Form With Some Text Input**
+### 01. The Basics: A Form With Some Text Input
 
 Let's start by setting up a very basic web form. It has one text input field, one submit button, and one output panel.
 
@@ -55,7 +55,7 @@ Bill Endres writes that “building faces the challenge of not being writing.”
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**02. A Simple On-screen Keyboard**
+### 02. A Simple On-screen Keyboard
 
 A straightforward solution is to create an on-screen keyboard for the user. In this example, we create a Japanese keyboard with 5 characters. Clicking on each button/“keyboard key” adds the corresponding character to the end of the text input field.
 
@@ -79,7 +79,7 @@ During the brainstorming process for *Scribes*, we discussed how the *Ancient Li
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**03. Text Selection**
+### 03. Text Selection
 
 This is actually a solved problem: we use the standard HTMLInputElement’s selectionStart, selectionEnd, and setSelectionRange to interact with the “text cursor” on the text input field.
 
@@ -119,7 +119,7 @@ We were then able to use our own expertise as platform maintainers to design and
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**04. Physical Keyboard Key Capture**
+### 04. Physical Keyboard Key Capture
 
 Alright, so we now have an on-screen keyboard. But what about the user’s physical keyboard? A user might find it easier to use their physical keyboard to do text transcription, compared to clicking each on-screen keyboard button individually. With that in mind, let’s try to translate those physical key presses into our custom character input.
 
@@ -161,26 +161,23 @@ We didn’t need to start from scratch. *Ancient Lives* provided a shared refere
 
 User experience (UX) design relies on common behavioral patterns to help a user feel comfortable in an interface, even when faced with a completely novel situation (such as transcribing an ancient manuscript written in an unfamiliar language). UX designers also rely heavily on direct user feedback to ensure that the interface both functions as it should and feels natural to those users. To that end, we first identified a few key groups of user personas to envision our target audience. These personas served as guides throughout the design process. Would a grad student in Massachusetts be able to quickly understand how to transcribe a line of text? Would a pensioner in Brighton? What about a modern native speaker? By keeping in mind these different experience levels, we were able to focus our design efforts and keep scope creep to a minimum.[^15]
 
+## Multi-Language Keyboards
+
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**Multi-Language Keyboards**
-
-**05. Code Cleanup**
+### 05. Code Cleanup
 
 Before we proceed with the advanced considerations of creating an on-screen keyboard with multiple languages, let’s clean up our code.
 
 In the example below, you won’t see many changes in terms of UI functionality, but a lot of the source code was altered. Notably:
 
-The Japanese characters have now been compiled into a “Japanese keyboard” data object, setting the stage for **dynamically generated keyboards** for different languages.
-
-Similarly, we now have “English keyboard” and “QWERTY layout” data objects that help ensure **the visual layout of the on-screen keyboard matches the user’s physical keyboard.**
+* The Japanese characters have now been compiled into a “Japanese keyboard” data object, setting the stage for **dynamically generated keyboards** for different languages.
+* Similarly, we now have “English keyboard” and “QWERTY layout” data objects that help ensure **the visual layout of the on-screen keyboard matches the user’s physical keyboard.**
 
 [view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-05.html)
 
 &&& INSERT FROM SOURCE CODE &&&
-
-&&& INCLUDE UNORDERED LIST IN INTERLUDE &&&
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -205,7 +202,7 @@ It was also important that the experience remain similar across all three langua
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**06. Language Selection**
+### 06. Language Selection
 
 Now that we have cleaned up the code so that the English and Japanese keyboards are stored data objects, we see that it’s very simple to add new languages/keyboards to the system, and to allow the user to switch between those languages/keyboards.
 
@@ -235,17 +232,15 @@ In order to create useful transcription data, the team needed to ensure consiste
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**07. Hebrew and Right-to-Left languages**
+### 07. Hebrew and Right-to-Left languages
 
 With the given assumption that English is the “default” language of web code (yes, we know, that discussion is a can of worms), it’s unsurprising that that layout of most web pages default to left-to-right (LTR), top-to-bottom.
 
 As a result, we must be conscientious when we create on-screen keyboards for languages to read right-to-left (RTL), such as Hebrew and Arabic. In the example below, we’ve done two things:
 
-We’ve upgraded the keyboard data objects so each language, in addition to having characters, also has an **explicit “direction” value.** (Either “ltr” or “rtl”)
+* We’ve upgraded the keyboard data objects so each language, in addition to having characters, also has an **explicit “direction” value.** (Either “ltr” or “rtl”)
 
-The text input field has an explicit CSS direction value that changes depending on the active keyboard.
-
-&&& INCLUDE UNORDERED LIST IN INTERLUDE &&&
+* The text input field has an explicit CSS direction value that changes depending on the active keyboard.
 
 [view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-07.html)
 
@@ -287,13 +282,12 @@ Because of the variation in the way that individual characters are composed acro
 
 This resource not only boosts confidence for transcribers, it also allows them to engage with paleographic concepts in a way that meets them at their level, whatever that may be. Users can look at the full list of scripts available and learn how to distinguish between square, cursive, and minuscule scripts. They can learn the names of Hebrew characters. Regional variations on scripts may inspire transcribers to think more closely about how or why writing might differ across physical space. This resource allows people to engage deeply with primary source materials without judging their level of expertise. It tells them it’s okay to be wrong. It invites participants in and encourages budding curiosity to bloom.
 
+## Visual Script References
 
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-## Visual Script References
-
-**08. Keys with Visual Script References**
+### 08. Keys with Visual Script References
 
 Now that we’ve proven that it’s possible to map different key input to characters from different languages, we need to solve another problem. Our users will be looking at **handwritten manuscripts** from different regions and different eras, so it’ll be very useful if they can have a **visual reference** for the different kind of **scripts (handwritten text)** available.
 
@@ -328,7 +322,7 @@ Whether we’re discussing workflows, networks of communication, data pipelines,
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-**09. Multiple Visual Script References**
+### 09. Multiple Visual Script References
 
 There are several advantages to organising our "Yemenite Square" Hebrew script into a single image file. Smaller downloads for our users is one, but more importantly, its consistent visual layout allows us to use it as a template to quickly deploy **multiple visual scripts.**
 
