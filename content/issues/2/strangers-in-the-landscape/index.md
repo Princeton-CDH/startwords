@@ -168,12 +168,15 @@ Before we proceed with the advanced considerations of creating an on-screen keyb
 
 In the example below, you won’t see many changes in terms of UI functionality, but a lot of the source code was altered. Notably:
 
-* The Japanese characters have now been compiled into a “Japanese keyboard” data object, setting the stage for **dynamically generated keyboards** for different languages.
-* Similarly, we now have “English keyboard” and “QWERTY layout” data objects that help ensure **the visual layout of the on-screen keyboard matches the user’s physical keyboard.**
+The Japanese characters have now been compiled into a “Japanese keyboard” data object, setting the stage for **dynamically generated keyboards** for different languages.
+
+Similarly, we now have “English keyboard” and “QWERTY layout” data objects that help ensure **the visual layout of the on-screen keyboard matches the user’s physical keyboard.**
 
 [view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-05.html)
 
 &&& INSERT FROM SOURCE CODE &&&
+
+&&& INCLUDE UNORDERED LIST IN INTERLUDE &&&
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -233,8 +236,11 @@ With the given assumption that English is the “default” language of web code
 
 As a result, we must be conscientious when we create on-screen keyboards for languages to read right-to-left (RTL), such as Hebrew and Arabic. In the example below, we’ve done two things:
 
-* We’ve upgraded the keyboard data objects so each language, in addition to having characters, also has an **explicit “direction” value.** (Either “ltr” or “rtl”)
-* The text input field has an explicit CSS direction value that changes depending on the active keyboard.
+We’ve upgraded the keyboard data objects so each language, in addition to having characters, also has an **explicit “direction” value.** (Either “ltr” or “rtl”)
+
+The text input field has an explicit CSS direction value that changes depending on the active keyboard.
+
+&&& INCLUDE UNORDERED LIST IN INTERLUDE &&&
 
 [view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-07.html)
 &&& INSERT FROM SOURCE CODE &&&
@@ -242,7 +248,6 @@ As a result, we must be conscientious when we create on-screen keyboards for lan
 Since we’re only interested in creating a functional on-screen keyboard, we only modified the CSS direction of the text input field. On the other hand, if you’re creating, for example, a whole website that supports both LTR and RTL languages, then you need to be conscientious about the layout of your entire website, and whether that layout needs to be flipped along the horizontal axis to make sense to RTL readers.
 
 Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI interactions. For example, in the text input field below, using your mouse, try to highlight the word APPLE plus one character before it and one character after it, i.e. "הAPPLEן". Good luck!
-
 
 {{</ wrap >}}
 {{</ wrap >}}
