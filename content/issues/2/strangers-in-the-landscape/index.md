@@ -161,10 +161,12 @@ We didn’t need to start from scratch. *Ancient Lives* provided a shared refere
 
 User experience (UX) design relies on common behavioral patterns to help a user feel comfortable in an interface, even when faced with a completely novel situation (such as transcribing an ancient manuscript written in an unfamiliar language). UX designers also rely heavily on direct user feedback to ensure that the interface both functions as it should and feels natural to those users. To that end, we first identified a few key groups of user personas to envision our target audience. These personas served as guides throughout the design process. Would a grad student in Massachusetts be able to quickly understand how to transcribe a line of text? Would a pensioner in Brighton? What about a modern native speaker? By keeping in mind these different experience levels, we were able to focus our design efforts and keep scope creep to a minimum.[^15]
 
-## Multi-Language Keyboards
+
 
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
+
+## Multi-Language Keyboards
 
 ### 05. Code Cleanup
 
@@ -282,10 +284,10 @@ Because of the variation in the way that individual characters are composed acro
 
 This resource not only boosts confidence for transcribers, it also allows them to engage with paleographic concepts in a way that meets them at their level, whatever that may be. Users can look at the full list of scripts available and learn how to distinguish between square, cursive, and minuscule scripts. They can learn the names of Hebrew characters. Regional variations on scripts may inspire transcribers to think more closely about how or why writing might differ across physical space. This resource allows people to engage deeply with primary source materials without judging their level of expertise. It tells them it’s okay to be wrong. It invites participants in and encourages budding curiosity to bloom.
 
-## Visual Script References
-
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
+
+## Visual Script References
 
 ### 08. Keys with Visual Script References
 
