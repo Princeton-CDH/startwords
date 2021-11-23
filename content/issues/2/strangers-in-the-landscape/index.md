@@ -293,6 +293,8 @@ Now that we’ve proven that it’s possible to map different key input to chara
 
 Fortunately, this is a fairly straightforward matter of adding images—for each character, from various scripts—to our visual keyboard.
 
+
+
 In our example below, we’ve added the “Yemenite Square” visual script reference for the Hebrew keyboard.
 
 [view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-08.html)
@@ -303,8 +305,15 @@ The actual hard work comes in two parts. First, it requires a human hand to crea
 
 For our project, we decided to put every character of the “Yemenite Square” Hebrew script into a single image file (i.e. as opposed to having dozens of image files, one for each character) and used a CSS technique called “image sprites” to separate each character when needed. For example, when we want to show the ‘Alef’ א character (top row, right-most column) we tell the code to “crop” the image at x=440px y=0px width=50px height=50px.
 
-&&& INSERT SCRIPT IMAGE 1? &&&
-&&& INSERT SCRIPT IMAGE 2? &&&
+{{< figure src="images/yemenite-square.jpg" alt="A chart showing individual cropped Hebrew characters in Yemenite Square script." caption="Visual Hebrew script reference for Yemenite Square." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A chart showing individual cropped Hebrew characters in Yemenite Square script.
+|
+| CAPTION: Visual Hebrew script reference for Yemenite Square.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
+
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -336,7 +345,32 @@ While it’s now trivial to add new scripts from a code perspective, please reme
 
 Below, you can see three different Hebrew scripts that we used. You’ll note that while we made an effort to keep the visual layout, character position, and character size consistent across every style of script, some scripts are missing certain characters. For example, both Maghrebi Cursive and Byzantine Miniscule don’t have a visual reference for the “elongated Kaf” ך character. In these cases, we simply didn’t have a visual reference from the source.
 
-&&& INSERT THREE IMAGES? &&&
+{{< figure src="images/yemenite-square.jpg" alt="A chart showing individual cropped Hebrew characters in Yemenite Square script." caption="Visual Hebrew script reference for Yemenite Square." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A chart showing individual cropped Hebrew characters in Yemenite Square script.
+|
+| CAPTION: Visual Hebrew script reference for Yemenite Square.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
+
+{{< figure src="images/byzantine-minuscule.jpg" alt="A chart showing individual cropped Hebrew characters in Byzantine Minuscule script." caption="Visual Hebrew script reference for Byzantine Minuscule." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A chart showing individual cropped Hebrew characters in Byzantine Minuscule script.
+|
+| CAPTION: Visual Hebrew script reference for Byzantine Minuscule
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
+
+{{< figure src="images/maghrebi-cursive.jpg" alt="A chart showing individual cropped Hebrew characters in Maghrebi Cursive script." caption="Visual Hebrew script reference for Maghrebi Cursive." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A chart showing individual cropped Hebrew characters in Maghrebi Cursive script.
+|
+| CAPTION: Visual Hebrew script reference for Maghrebi Cursive.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 {{</ wrap >}}
 {{</ wrap >}}
