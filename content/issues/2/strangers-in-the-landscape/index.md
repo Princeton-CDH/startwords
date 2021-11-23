@@ -30,7 +30,7 @@ This piece will trace the history of this partnership, focusing on the interplay
 
 Throughout the piece, we have provided interludes in which we will walk you through the process of creating clickable keyboards for transcribing Hebrew script. Please feel free to interact with the example keyboards. You can try the full version by visiting [*Scribes of the Cairo Geniza*](https://www.scribesofthecairogeniza.org) and choosing the Easy Hebrew transcription workflow.[^8] You can read the interludes in their entirety and view the source code on [GitHub](https://shaunanoordin.github.io/zooniverse-startwords/).
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **01. The Basics: A Form With Some Text Input**
@@ -52,7 +52,7 @@ When we build public crowdsourcing projects, the work we do as platform builders
 
 Bill Endres writes that “building faces the challenge of not being writing.”[^9] For Endres, “building” is a practice typically excluded from institutional decisions on tenure and promotion in humanities departments. Much of the discourse around building in DH acknowledges this disparate treatment between the creation of tools and the production of traditional research, but Endres’s phrase also reminds us that writing is the medium by and around which scholarly communication has also primarily taken place. We write, we peer review, we give written feedback. When we talk about the Things We Are Building, the role of translator or mediator is often assumed by team members who have spent time in both “worlds.” Learning how to communicate across varying disciplinary backgrounds or via unfamiliar mediums (in our case, bridging concepts as varied as paleography and pull requests), requires time and patience. 
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **02. A Simple On-screen Keyboard**
@@ -76,7 +76,7 @@ To approach the transcription of a large, multilingual corpus by a nonspecialist
 
 During the brainstorming process for *Scribes*, we discussed how the *Ancient Lives* approach (presenting users with a clickable keyboard to use while transcribing) was desirable because it provides support for audiences who don’t use an Arabic or Hebrew keyboard at home and may not be familiar with each script’s characters. We know through Google Analytics and user surveys that the majority of registered Zooniverse volunteers are from the United States and the United Kingdom. As a result, we could safely assume that a significant portion of our audience would use an English-language keyboard, and a significant subset would not be able to read Arabic and/or Hebrew. Of those in our audience who *could* read Arabic and/or Hebrew, a significant subset would not have experience reading or transcribing Aramaic, Judeo-Persian, or any of the other languages known to be found among the Geniza fragments.[^11] While clickable keyboards would help with the specific task of transcription within the overall project workflow, we also knew a translatable interface would be necessary to support a multilingual community of volunteers. So we decided early on that the entire project would need to be available in Arabic, English, and Hebrew, adding an additional layer of complexity to the design and development process in order to support right-to-left (RTL) as well as left-to-right (LTR) text.
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **03. Text Selection**
@@ -116,7 +116,7 @@ To break down the necessary metadata fields into accessible tasks, we decided to
 We were then able to use our own expertise as platform maintainers to design and build resources for volunteers (including the Help Text, shown above) that allowed the content experts to communicate that information to project volunteers as efficiently as possible.[^14] The resulting effort is known as the [Sorting workflow](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/classify?workflow=4712).
 
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **04. Physical Keyboard Key Capture**
@@ -161,7 +161,7 @@ We didn’t need to start from scratch. *Ancient Lives* provided a shared refere
 
 User experience (UX) design relies on common behavioral patterns to help a user feel comfortable in an interface, even when faced with a completely novel situation (such as transcribing an ancient manuscript written in an unfamiliar language). UX designers also rely heavily on direct user feedback to ensure that the interface both functions as it should and feels natural to those users. To that end, we first identified a few key groups of user personas to envision our target audience. These personas served as guides throughout the design process. Would a grad student in Massachusetts be able to quickly understand how to transcribe a line of text? Would a pensioner in Brighton? What about a modern native speaker? By keeping in mind these different experience levels, we were able to focus our design efforts and keep scope creep to a minimum.[^15]
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **Multi-Language Keyboards**
@@ -202,7 +202,7 @@ We also realized that because the subject matter could be intimidating, it was i
 
 It was also important that the experience remain similar across all three languages, so typefaces were chosen and vetted with native speakers to ensure parity.
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **06. Language Selection**
@@ -232,7 +232,7 @@ While most of the design used common user-interface patterns—a toolbar, iconog
 
 In order to create useful transcription data, the team needed to ensure consistent line placement that an algorithm would be able to parse correctly.[^17] We looked both within and outside of Zooniverse for inspiration and found a variety of transcription methods, from single- to multi-track. We considered what to use as the basic unit of transcription: how would we ask users to break down the text on the page, e.g. by character, word, line? From our experience with other crowdsourced transcription projects, we knew that line-by-line transcription would be the optimal blend of user effort to manageable data output. And from testing, we found that it was most intuitive to click once at the start of a line and then again at the end of the line. From there, the project tutorial as well as pop-up directions guided the user through the transcription process and the use of the on-screen clickable keyboards.
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **07. Hebrew and Right-to-Left languages**
@@ -288,7 +288,7 @@ Because of the variation in the way that individual characters are composed acro
 This resource not only boosts confidence for transcribers, it also allows them to engage with paleographic concepts in a way that meets them at their level, whatever that may be. Users can look at the full list of scripts available and learn how to distinguish between square, cursive, and minuscule scripts. They can learn the names of Hebrew characters. Regional variations on scripts may inspire transcribers to think more closely about how or why writing might differ across physical space. This resource allows people to engage deeply with primary source materials without judging their level of expertise. It tells them it’s okay to be wrong. It invites participants in and encourages budding curiosity to bloom.
 
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 ## Visual Script References
@@ -325,7 +325,7 @@ In this essay, we’ve discussed the interpersonal challenges of collaborating a
 Whether we’re discussing workflows, networks of communication, data pipelines, or design processes, the individual components of public crowdsourcing projects cannot exist independently from the project as a whole. We don’t think about design as separate from data, because these pieces are inextricably linked; project data influences design, which then impacts data output. Every decision we make during the design phase will impact various other pieces of a project beyond those directly affected in that moment. Choosing to build for a broad audience instead of restricting the project to those with previous experience will have an impact on the results. It will also increase the amount of labor involved in creating the project.
 
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
 **09. Multiple Visual Script References**
