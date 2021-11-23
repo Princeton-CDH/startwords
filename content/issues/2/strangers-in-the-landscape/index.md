@@ -98,7 +98,17 @@ Once we determined that metadata enhancement could be its own crowdsourced task,
 
 To break down the necessary metadata fields into accessible tasks, we decided to map our desired classification types onto easily identifiable visual characteristics.[^13] The Geniza experts determined several pieces of information they might ask for at the pre-transcription stage, and were then challenged to teach the team members who weren’t familiar with the Geniza—or even manuscript studies in the broader sense—how to recognize these features when viewing a fragment. For example, in order to ask users whether a fragment was written in Hebrew script or Arabic script (or both), the content experts needed to determine what information is necessary to successfully answer the question.
 
-&&& INSERT IMAGE 1 &&&
+{{< figure src="images/01_script-examples.png" alt="Two columns of screenshots from Geniza fragments displaying Hebrew and Arabic script examples." caption="Script examples from the Geniza corpus, intended to help volunteers answer the question of whether a fragment they are viewing is written in Hebrew or Arabic script." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. Two columns of screenshots from Geniza fragments displaying Hebrew and 
+|  Arabic script examples.
+|
+| CAPTION: Script examples from the Geniza corpus, intended to help volunteers answer 
+|  the question of whether a fragment they are viewing is written in Hebrew or Arabic
+|  script.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 We were then able to use our own expertise as platform maintainers to design and build resources for volunteers (including the Help Text, shown above) that allowed the content experts to communicate that information to project volunteers as efficiently as possible.[^14] The resulting effort is known as the [Sorting workflow](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/classify?workflow=4712).
 
@@ -134,7 +144,16 @@ As the content specialists solidified their goals and worked with our team to de
 
 We didn’t need to start from scratch. *Ancient Lives* provided a shared reference on which to build. Which parts of that interface were successful? What made the use cases in Scribes unique and therefore required a rethinking of the user experience? What other transcription projects existed online that could provide inspiration for our task? These questions helped shape initial design sketches for the transcription workflow and text input area. 
 
-&&& INSERT IMAGE 2 &&&
+{{< figure src="images/02_CG-interface3.jpeg" alt="ALT" caption="An early sketch of the Scribes of the Cairo Geniza transcription interface." attr="By designer Becky Rother." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A photo of an open notebook showing sketches of a web page, toolbar icons,
+|  and handwritten notes.
+|
+| CAPTION: An early sketch of the Scribes of the Cairo Geniza transcription interface.
+| ATTRIBUTION: By designer Becky Rother.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 
 User experience (UX) design relies on common behavioral patterns to help a user feel comfortable in an interface, even when faced with a completely novel situation (such as transcribing an ancient manuscript written in an unfamiliar language). UX designers also rely heavily on direct user feedback to ensure that the interface both functions as it should and feels natural to those users. To that end, we first identified a few key groups of user personas to envision our target audience. These personas served as guides throughout the design process. Would a grad student in Massachusetts be able to quickly understand how to transcribe a line of text? Would a pensioner in Brighton? What about a modern native speaker? By keeping in mind these different experience levels, we were able to focus our design efforts and keep scope creep to a minimum.[^15]
@@ -164,7 +183,16 @@ As we worked through the design, it was essential that we also speak to real use
 
 We also realized that because the subject matter could be intimidating, it was important to craft an interface that would straddle the line between friendly and knowledgeable. This was accomplished through the use of typography and color. First, we looked for a typeface that could be both friendly and trustworthy: both are attributes of a family of sans-serifs called Grotesque. These simple, clean typefaces are easy to read and add a friendly personality to the interface. 
 
-&&& INSERT IMAGE 2 &&&
+{{< figure src="images/03_Geniza-type-samples.png" alt="Three font examples that read “Scribes of the Cairo Geniza” in English, Arabic, and Hebrew." caption="The three Grotesque typefaces used for Scribes of the Cairo Geniza in English, Arabic, and Hebrew." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. Three font examples that read “Scribes of the Cairo Geniza” in English, 
+|  Arabic, and Hebrew.
+|
+| CAPTION: The three Grotesque typefaces used for Scribes of the Cairo Geniza in 
+|  English, Arabic, and Hebrew.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 It was also important that the experience remain similar across all three languages, so typefaces were chosen and vetted with native speakers to ensure parity.
 
@@ -225,11 +253,28 @@ Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI in
 
 With the basic functionality of the clickable keyboards in place, we wanted to consider how we might further expand this resource for the context of *Scribes of the Cairo Geniza*. To support volunteers in the paleographic elements of transcribing Geniza fragments written in Hebrew script (again, the vast majority of the corpus), Penn team member Laura Newman Eckstein created a series of twenty script-based Hebrew “Alephbets” to be used as interchangeable skins on the clickable keyboard, to complement the modern Hebrew keyboard modeled after the *Ancient Lives* approach. 
 
-&&& INSERT ALEPHBETS IMAGE &&&
+{{< figure src="images/04_alephbet.png" alt="A chart showing square, minuscule, and cursive Hebrew character examples." caption="The “Alephbets” chart which formed the basis of the interchangeable keyboard skins, created for *Scribes of the Cairo Geniza* by Laura Newman Eckstein. Downloadable via [GitHub](https://github.com/judaicadh/cairogeniza/tree/master/_docs/Eckstein%20Alephbet%20Chart).">}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A chart showing square, minuscule, and cursive Hebrew character examples.
+|
+| CAPTION: The “Alephbets” chart which formed the basis of the interchangeable 
+|  keyboard skins, created for Scribes of the Cairo Geniza by Laura Newman Eckstein.
+|  Downloadable via GitHub: https://github.com/judaicadh/cairogeniza/tree/master/_docs/Eckstein%20Alephbet%20Chart.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 Because of the variation in the way that individual characters are composed across the variety of hands in the Geniza, these skins are essential to helping nonexpert transcribers feel more confident submitting a transcription. Users can view alternate ways of writing a particular character, and choose the keyboard that most closely matches the script type of the fragment they’re currently transcribing. The option to return to modern characters is always available, too. 
 
-&&& INSERT KEYBOARD IMAGE &&&
+{{< figure src="images/05_hebrew-keyboard-interface.png" alt="A text input box with keyboard displaying handwritten Hebrew script." caption="The *Scribes of the Cairo Geniza* transcription modal, including the Hebrew keyboard, showing the Sephardi Square script type." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A text input box with keyboard displaying handwritten Hebrew script.
+|
+| CAPTION: The Scribes of the Cairo Geniza transcription modal, including the Hebrew
+|  keyboard, showing the Sephardi Square script type.
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 This resource not only boosts confidence for transcribers, it also allows them to engage with paleographic concepts in a way that meets them at their level, whatever that may be. Users can look at the full list of scripts available and learn how to distinguish between square, cursive, and minuscule scripts. They can learn the names of Hebrew characters. Regional variations on scripts may inspire transcribers to think more closely about how or why writing might differ across physical space. This resource allows people to engage deeply with primary source materials without judging their level of expertise. It tells them it’s okay to be wrong. It invites participants in and encourages budding curiosity to bloom.
 
@@ -254,8 +299,8 @@ The actual hard work comes in two parts. First, it requires a human hand to crea
 
 For our project, we decided to put every character of the “Yemenite Square” Hebrew script into a single image file (i.e. as opposed to having dozens of image files, one for each character) and used a CSS technique called “image sprites” to separate each character when needed. For example, when we want to show the ‘Alef’ א character (top row, right-most column) we tell the code to “crop” the image at x=440px y=0px width=50px height=50px.
 
-&&& INSERT SCRIPT IMAGE 1 &&&
-&&& INSERT SCRIPT IMAGE 2 &&&
+&&& INSERT SCRIPT IMAGE 1? &&&
+&&& INSERT SCRIPT IMAGE 2? &&&
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -286,7 +331,7 @@ While it’s now trivial to add new scripts from a code perspective, please reme
 
 Below, you can see three different Hebrew scripts that we used. You’ll note that while we made an effort to keep the visual layout, character position, and character size consistent across every style of script, some scripts are missing certain characters. For example, both Maghrebi Cursive and Byzantine Miniscule don’t have a visual reference for the “elongated Kaf” ך character. In these cases, we simply didn’t have a visual reference from the source.
 
-&&& INSERT THREE IMAGES &&&
+&&& INSERT THREE IMAGES? &&&
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -334,5 +379,3 @@ And it worked. An early review of the Sorting workflow data showed that for a ma
 [^17]: A full explanation of Zooniverse text transcription data aggregation practices is available in Samantha Blickhan et al., “Individual vs. Collaborative Methods of Crowdsourced Transcription,” in “Collecting, Preserving, and Disseminating Endangered Cultural Heritage for New Understandings through Multilingual Approaches,” eds. Amel Fraisse, Ronald Jenn, and Shelley Fisher Fishkin, special issue, *Journal of Data Mining and Digital Humanities* (2019), https://doi.org/10.46298/jdmdh.5759. “Zooniverse projects all follow the same general format: each item in a project, be it an image, audio or video file, is independently assessed by multiple individuals. The responses are then aggregated together for ‘consensus’ (typically majority rule).” Blickhan et. al, “Individual vs. Collaborative Methods,” 2.
 
 [^18]: Emily Esten, “Reviewing Sorting Phase Data: Hebrew or Arabic Script?” *Judaica DH at the Penn Libraries* (blog), March 22, 2019, https://medium.com/@judaicadh/reviewing-phase-1-data-hebrew-or-arabic-script-a8ad3316fcbe.
-
-[^18]: 
