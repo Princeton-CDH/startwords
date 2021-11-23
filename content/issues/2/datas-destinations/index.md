@@ -66,7 +66,12 @@ In order for “taffytie tartes” to be included in the *OED* the editorial tea
 
 Boermans kindly baked four different examples and shared images of her work: 
 
-&&& INSERT TART IMAGE &&&
+{{< figure src="images/taffety-tarts.jpg" alt="Image of four pastries" >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. Image of four pastries
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 Boermans also supplied dated manuscript evidence, which means that “Taffety” was added to the OED in 2018.[^11]
 
