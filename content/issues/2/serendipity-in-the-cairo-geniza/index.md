@@ -27,11 +27,31 @@ The documentary texts are widely varied. Many legal documents, for example, look
 
 Studying *solitreo* letter forms—which were more commonly used in writing Judeo-Spanish—can also be helpful for understanding how a variety of documents from the sixteenth to nineteenth centuries incorporates cursive writing. So, for example, in the Judeo-Arabic communal register I referenced during our panel, on occasion, there are interconnected letters in repeating words such as “berakha / blessing / ברכה” (in purple), “fiḍḍa / silver / פצה” (in green), and “seder / order / סדר” (in red).[^3] These cursive forms give the initial impression of messiness and lack of scribal skill yet it’s crucial to recognize the pragmatic significance of this writing method. Connecting letters and abbreviating Judeo-Arabic words such as “ת׳׳ע / t[asāwī] ʿa[la]” (in blue) increased the speed at which a scribe could record notes when calligraphic aesthetics were not the objective.[^4]
 
-&&& INSERT IMAGE 1 &&&
+{{< figure src="images/Startwords_Matthew_Steffy_ENA624_22 cropped.jpg" alt="Manuscript image showing Hebrew letterforms in cursive script" caption="Image 1. [Subject 12499256](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499256) (ENA 624.22, Library of the Jewish Theological Seminary): Color-coded annotations of solitreo cursive letter forms and abbreviations, October 1798 CE." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. Manuscript image showing Hebrew letterforms in cursive script
+|
+| CAPTION: Image 1. Subject 12499256 (ENA 624.22, Library of the Jewish Theological
+|  Seminary): Color-coded annotations of solitreo cursive letter forms and 
+|  abbreviations, October 1798 CE. 
+|  https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499256
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 The headings of this fragment from Steffy’s collection[^5] were recorded during the weeks of October 7–20 1798 CE–just before the Revolt of Cairo unfolded on October 21–22nd when the city's residents fought to eject the French occupation under the leadership of Napoleon Bonaparte. The Jewish calendar dating appears in the heading of each list and it follows a shared formula throughout this type of communal register:[^6]
 
-&&& INSERT IMAGE 1.2 &&&
+{{< figure src="images/Startwords_Matthew_Steffy_ENA624_22_croppedheading.jpg" alt="ALT" caption="Image 1.2. Translation of the Upper Heading in Subject 12499256 (ENA 624.22) “עלם מקבוץ סדר נח שנת התקנט לברכה” “Account from [the] collection [during the week] of the seder Noaḥ [biblical reading in] the year 5559, may it be a blessing”">}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. The image above, cropped to highlight the translation.
+|
+| CAPTION: Image 1.2. Translation of the Upper Heading in Subject 12499256 
+|  (ENA 624.22) “עלם מקבוץ סדר נח שנת התקנט לברכה” “Account from [the] collection 
+|  [during the week] of the seder Noaḥ [biblical reading in] the year 5559, may it
+|  be a blessing”
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 The surnames mentioned in each list–such as Vialobos, Ḥadād, and Skenderī –embody the lives of individuals and families who experienced one of the most turbulent periods in Egyptian political history. Between 1798–1801 CE, the Egyptian populace withstood immense hardship in their efforts to defeat the French occupation and then between 1801–1805 as Ottoman military factions fought to assert their control over the province (a process which resulted in Muḥammad ʿAlī's rise to power as Pasha/Governor). What makes these register entries so significant, then, is that they offer a continuous internal perspective on how Cairene Jews supported their communal institutions during a period of harrowing instability.[^7] In my dissertation, I am working to compile the donation data from the many page fragments of these registers. This line of investigation may have never emerged in my research had it not been for my chance encounter with Steffy’s collection in the *Scribes* database. 
 
@@ -49,7 +69,16 @@ Meanwhile, as more and more of these fragments turned up and added to my collect
 
 **Matthew:** Likewise, when I mentioned the *Scribes* user "Citsci-Rancho'' during our panel discussion I had hoped they might be watching the panel or eventually see the recording. The serendipity of being able to collaborate on and to answer these questions is a rare opportunity. The seal you included in the register collection is crucial for two reasons. Its significance lies, firstly, in the dating– where the Hijrī year ١١٧٧/1177 AH or 1763/64 CE is visible (in purple):[^10]
 
-&&& INSERT IMAGE 2 &&&
+{{< figure src="images/Startwords_Matthew_Steffy_ENA624_20 cropped.jpg" alt="A faded ink stamp behind script" caption="Image 2. [Subject 12499254](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499254) (ENA 624.20, Library of the Jewish Theological Seminary) Ink stamp on recycled paper includes Hijrī year ١١٧٧/1177AH." >}}
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| FIGURE. A faded ink stamp behind script
+|
+| CAPTION: Image 2. Subject 12499254 (ENA 624.20, Library of the Jewish Theological
+| Seminary) Ink stamp on recycled paper includes Hijrī year ١١٧٧/1177AH.
+| https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499254
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 When we read the Hijrī year 1177 AH on the recycled paper against the dating of the upper layer of usage (September 29–October 5, 1799)– a difference of roughly 35 years emerges.[^11] This timespan marks the initial lifecycle of a piece of paper that lost its utility but was later cut up and bound within a communal register. As Rustow has shown with medieval Geniza sources, early modern ones too can help us analyze the periodicity of paper recycling in Egypt.[^12]
 
