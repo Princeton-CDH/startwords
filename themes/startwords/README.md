@@ -15,6 +15,17 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 - Article order in an issue is configurable. The first two articles will be displayed as featured essays highlighted side by side on the issue page; all other articles will be listed by title in the order specified.
 - Layouts: custom content types include feature articles [available under [layouts/article](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/article)], single issues, and list of issues [both available under [layouts/issue](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/issue)].
 - To retain the simplest directory structure that will give us the URLs we want, articles are placed in an issue number directory and have `type:article` specified in the page metadata.
+- List out credits titles under a `contributors` parameter with a list of `title` and `name`/`names` parameters to autogenerate an issue credits section. For example:
+```yaml
+contributors:
+    - title: Guest Editor
+      name: Emily Esten
+    - title: Contributors
+      names:
+        - Samantha Blickhan
+        - Jim Casey
+        ...
+```
 
 ## Article text version
 
