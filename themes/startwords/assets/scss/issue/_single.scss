@@ -57,8 +57,6 @@ body.issue {
     }
 
     #credits {
-        display: block;
-
         .contributor_group {
             margin-bottom: 15px;
         }
@@ -71,13 +69,7 @@ body.issue {
             margin-bottom: rem(10px);
         }
 
-        ul {
-            list-style: none;
-        }
-
-        .title {
-            font-weight: bold;
-        }
+        ul { list-style: none; }
     }
 
     
