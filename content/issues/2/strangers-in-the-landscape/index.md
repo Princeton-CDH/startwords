@@ -39,7 +39,12 @@ Let's start by setting up a very basic web form. It has one text input field, on
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-01.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-01.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 Everything we build from this point onwards is meant to solve one very simple problem: **how do we allow users to type, into that text input field, in a language that's not native to their keyboard?** For example, how do we help a user type in the text "ごはんを食べる" when they only have a US-International QWERTY keyboard, and we don’t want to ask them to futz about in their computer settings to install a Japanese language pack?
 
@@ -63,7 +68,13 @@ Note: we’re using the Japanese hiragana characters あいうえお here becaus
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-02.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-02.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
+
 
 The code here is simple, but we already come across a problem: what if the user wants to add a Japanese character in the middle (instead of at the end) of the text box? This is, after all, a very basic function for a normal text box—you can place the text cursor/caret at any part of the existing text and then start typing.
 
@@ -85,7 +96,13 @@ This is actually a solved problem: we use the standard HTMLInputElement’s sele
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-03.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-03.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-03.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
+
 
 In the example above, we’ve done two things in the code: 1. we ensure the Japanese characters are inserted at the position of the text cursor/caret, and 2. we ensure the text input maintains focus after the insertion. These may seem like minor coding considerations, but they’re important to **ensure a consistent User Experience (UX), since users often have pre-set expectations on how User Interface (UI) elements should behave.**
 
@@ -127,7 +144,12 @@ In this example, when the user presses the "A" key on their keyboard, the Japane
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-04.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-04.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-04.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 If you have an on-screen keyboard AND you're capturing physical key input, it’s a good idea to label those on-screen keyboard buttons with the corresponding physical keys.
 
@@ -181,7 +203,12 @@ In the example below, you won’t see many changes in terms of UI functionality,
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-05.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-05.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-05.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -214,7 +241,12 @@ To illustrate this point, we’ve added a joke "Emoji keyboard" that maps QWERTY
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-06.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-06.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 Note: there is an option to select “(No keyboard)” here, which disables the on-screen keyboard as well as key capture. As mentioned earlier, **always allow your users the option to disable your on-screen keyboard.**
 
@@ -248,7 +280,12 @@ As a result, we must be conscientious when we create on-screen keyboards for lan
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-07.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-07.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 Since we’re only interested in creating a functional on-screen keyboard, we only modified the CSS direction of the text input field. On the other hand, if you’re creating, for example, a whole website that supports both LTR and RTL languages, then you need to be conscientious about the layout of your entire website, and whether that layout needs to be flipped along the horizontal axis to make sense to RTL readers.
 
@@ -301,7 +338,12 @@ In our example below, we’ve added the “Yemenite Square” visual script refe
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-08.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-08.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-08.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 The actual hard work comes in two parts. First, it requires a human hand to create the reference image JPEG for each style of script, and to ensure it has a consistent layout. Second, ther’'s a one-off upfront development cost to map the visuals to the data. We found that this early investment is well worth it when we get into the next section.
 
@@ -341,7 +383,13 @@ In the example below, you’ll see that we’ve added **six new Hebrew scripts,*
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-09.html" >}}
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-09.html)
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT. 
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-09.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
+
 
 While it’s now trivial to add new scripts from a code perspective, please remember that it still takes a considerable amount of effort to create each individual script’s JPEG. (So developers, please remember to thank the people who’ve been scanning the manuscripts, manually identifying the handwritten characters, and putting them into a nice image file for us.)
 
