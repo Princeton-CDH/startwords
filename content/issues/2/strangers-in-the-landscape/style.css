@@ -18,6 +18,8 @@
     background: #4C2A85;
 }
 
+.interlude h2, .interlude h3 { width:  100%; }
+
 .interlude .center {
     display: flex;
     justify-content: center;
@@ -65,4 +67,5 @@
 @media print {
     .interlude::before { background: none; }
     .interlude .center { color: #4C2A85; }
+    iframe { width: 500px !important; }
 }
