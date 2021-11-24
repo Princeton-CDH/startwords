@@ -7,10 +7,9 @@ theme: Scribes
 date: 2021-09-15 # TODO: Update date
 slug: 2
 summary: Between the eleventh and nineteenth centuries, community members in Fustat, Egypt discarded textual materials in a storeroom (or ‘geniza’) of the Ben Ezra synagogue.  # TODO: Verify that Emily is okay with this final wording
-credits:
+contributors:
     - title: Guest Editor
-      names:
-        - Emily Esten
+      name: Emily Esten
     - title: Contributors
       names:
         - Samantha Blickhan
