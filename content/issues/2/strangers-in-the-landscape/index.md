@@ -39,6 +39,8 @@ Let's start by setting up a very basic web form. It has one text input field, on
 
 {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" >}}
 
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-01.html)
+
 Everything we build from this point onwards is meant to solve one very simple problem: **how do we allow users to type, into that text input field, in a language that's not native to their keyboard?** For example, how do we help a user type in the text "ごはんを食べる" when they only have a US-International QWERTY keyboard, and we don’t want to ask them to futz about in their computer settings to install a Japanese language pack?
 
 {{</ wrap >}}
@@ -59,9 +61,9 @@ A straightforward solution is to create an on-screen keyboard for the user. In t
 
 Note: we’re using the Japanese hiragana characters あいうえお here because they map easily to the English characters AIUEO, and are written left to right. We’ll build up to more complex alphabets, such as Hebrew and its right-to-left layout, in later sections.
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-02.html)
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html" >}}
 
-&&& INSERT FROM SOURCE CODE &&&
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-02.html)
 
 The code here is simple, but we already come across a problem: what if the user wants to add a Japanese character in the middle (instead of at the end) of the text box? This is, after all, a very basic function for a normal text box—you can place the text cursor/caret at any part of the existing text and then start typing.
 
@@ -81,9 +83,9 @@ During the brainstorming process for *Scribes*, we discussed how the *Ancient Li
 
 This is actually a solved problem: we use the standard HTMLInputElement’s selectionStart, selectionEnd, and setSelectionRange to interact with the “text cursor” on the text input field.
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-03.html)
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-03.html" >}}
 
-&&& INSERT FROM SOURCE CODE &&&
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-03.html)
 
 In the example above, we’ve done two things in the code: 1. we ensure the Japanese characters are inserted at the position of the text cursor/caret, and 2. we ensure the text input maintains focus after the insertion. These may seem like minor coding considerations, but they’re important to **ensure a consistent User Experience (UX), since users often have pre-set expectations on how User Interface (UI) elements should behave.**
 
@@ -122,6 +124,8 @@ We were then able to use our own expertise as platform maintainers to design and
 Alright, so we now have an on-screen keyboard. But what about the user’s physical keyboard? A user might find it easier to use their physical keyboard to do text transcription, compared to clicking each on-screen keyboard button individually. With that in mind, let’s try to translate those physical key presses into our custom character input.
 
 In this example, when the user presses the "A" key on their keyboard, the Japanese character あ is inserted into the text field instead. Same for the other characters: A -> あ , I -> い, U -> う, E -> え, O -> お
+
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-04.html" >}}
 
 [view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-04.html)
 
@@ -175,9 +179,9 @@ In the example below, you won’t see many changes in terms of UI functionality,
 * The Japanese characters have now been compiled into a “Japanese keyboard” data object, setting the stage for **dynamically generated keyboards** for different languages.
 * Similarly, we now have “English keyboard” and “QWERTY layout” data objects that help ensure **the visual layout of the on-screen keyboard matches the user’s physical keyboard.**
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-05.html)
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-05.html" >}}
 
-&&& INSERT FROM SOURCE CODE &&&
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-05.html)
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -208,9 +212,9 @@ Now that we have cleaned up the code so that the English and Japanese keyboards 
 
 To illustrate this point, we’ve added a joke "Emoji keyboard" that maps QWERTY keys to arbitrary emoji characters. Typing in “Hello world” into input text field will result in the emoji “text” of “🐟🤣🦋🦋😍 😅😍🥰🦋🐒.”
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-06.html)
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html" >}}
 
-&&& INSERT FROM SOURCE CODE &&&
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-06.html)
 
 Note: there is an option to select “(No keyboard)” here, which disables the on-screen keyboard as well as key capture. As mentioned earlier, **always allow your users the option to disable your on-screen keyboard.**
 
@@ -242,9 +246,9 @@ As a result, we must be conscientious when we create on-screen keyboards for lan
 
 * The text input field has an explicit CSS direction value that changes depending on the active keyboard.
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-07.html)
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html" >}}
 
-&&& INSERT FROM SOURCE CODE &&&
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-07.html)
 
 Since we’re only interested in creating a functional on-screen keyboard, we only modified the CSS direction of the text input field. On the other hand, if you’re creating, for example, a whole website that supports both LTR and RTL languages, then you need to be conscientious about the layout of your entire website, and whether that layout needs to be flipped along the horizontal axis to make sense to RTL readers.
 
@@ -293,13 +297,11 @@ Now that we’ve proven that it’s possible to map different key input to chara
 
 Fortunately, this is a fairly straightforward matter of adding images—for each character, from various scripts—to our visual keyboard.
 
-
-
 In our example below, we’ve added the “Yemenite Square” visual script reference for the Hebrew keyboard.
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-08.html)
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-08.html" >}}
 
-&&& INSERT FROM SOURCE CODE &&&
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-08.html)
 
 The actual hard work comes in two parts. First, it requires a human hand to create the reference image JPEG for each style of script, and to ensure it has a consistent layout. Second, ther’'s a one-off upfront development cost to map the visuals to the data. We found that this early investment is well worth it when we get into the next section.
 
@@ -337,9 +339,9 @@ There are several advantages to organising our "Yemenite Square" Hebrew script i
 
 In the example below, you’ll see that we’ve added **six new Hebrew scripts,** and if you check the code, doing so only required six additional lines of code.
 
-[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-09.html)
+{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-09.html" >}}
 
-&&& INSERT FROM SOURCE CODE &&&
+[view source code](https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-09.html)
 
 While it’s now trivial to add new scripts from a code perspective, please remember that it still takes a considerable amount of effort to create each individual script’s JPEG. (So developers, please remember to thank the people who’ve been scanning the manuscripts, manually identifying the handwritten characters, and putting them into a nice image file for us.)
 
