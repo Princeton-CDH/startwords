@@ -33,8 +33,7 @@ kWidget.embed({
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| VIDEO. Embedded video of the panel. Timestamped to bring viewers to 44:30-48:17.
-| https://www.kaltura.com/index.php/extwidget/preview/partner_id/1449362/uiconf_id/14292362/entry_id/1_w2r5byk1/
+| VIDEO. Embedded video of the panel. Timestamped to bring viewers to 44:30-48:17. https://www.kaltura.com/index.php/extwidget/preview/partner_id/1449362/uiconf_id/14292362/entry_id/1_w2r5byk1/
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 

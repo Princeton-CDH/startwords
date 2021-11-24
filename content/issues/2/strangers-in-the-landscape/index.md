@@ -122,12 +122,9 @@ To break down the necessary metadata fields into accessible tasks, we decided to
 {{< figure src="images/01_script-examples.png" alt="Two columns of screenshots from Geniza fragments displaying Hebrew and Arabic script examples." caption="Script examples from the Geniza corpus, intended to help volunteers answer the question of whether a fragment they are viewing is written in Hebrew or Arabic script." >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| FIGURE. Two columns of screenshots from Geniza fragments displaying Hebrew and 
-|  Arabic script examples.
+| FIGURE. Two columns of screenshots from Geniza fragments displaying Hebrew and Arabic script examples.
 |
-| CAPTION: Script examples from the Geniza corpus, intended to help volunteers answer 
-|  the question of whether a fragment they are viewing is written in Hebrew or Arabic
-|  script.
+| CAPTION: Script examples from the Geniza corpus, intended to help volunteers answer the question of whether a fragment they are viewing is written in Hebrew or Arabic script.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
@@ -175,8 +172,7 @@ We didn’t need to start from scratch. *Ancient Lives* provided a shared refere
 {{< figure src="images/02_CG-interface3.jpeg" alt="ALT" caption="An early sketch of the Scribes of the Cairo Geniza transcription interface." attr="By designer Becky Rother." >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| FIGURE. A photo of an open notebook showing sketches of a web page, toolbar icons,
-|  and handwritten notes.
+| FIGURE. A photo of an open notebook showing sketches of a web page, toolbar icons, and handwritten notes.
 |
 | CAPTION: An early sketch of the Scribes of the Cairo Geniza transcription interface.
 | ATTRIBUTION: By designer Becky Rother.
@@ -221,11 +217,9 @@ We also realized that because the subject matter could be intimidating, it was i
 {{< figure src="images/03_Geniza-type-samples.png" alt="Three font examples that read “Scribes of the Cairo Geniza” in English, Arabic, and Hebrew." caption="The three Grotesque typefaces used for Scribes of the Cairo Geniza in English, Arabic, and Hebrew." >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| FIGURE. Three font examples that read “Scribes of the Cairo Geniza” in English, 
-|  Arabic, and Hebrew.
+| FIGURE. Three font examples that read “Scribes of the Cairo Geniza” in English, Arabic, and Hebrew.
 |
-| CAPTION: The three Grotesque typefaces used for Scribes of the Cairo Geniza in 
-|  English, Arabic, and Hebrew.
+| CAPTION: The three Grotesque typefaces used for Scribes of the Cairo Geniza in English, Arabic, and Hebrew.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
@@ -304,9 +298,7 @@ With the basic functionality of the clickable keyboards in place, we wanted to c
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A chart showing square, minuscule, and cursive Hebrew character examples.
 |
-| CAPTION: The “Alephbets” chart which formed the basis of the interchangeable 
-|  keyboard skins, created for Scribes of the Cairo Geniza by Laura Newman Eckstein.
-|  Downloadable via GitHub: https://github.com/judaicadh/cairogeniza/tree/master/_docs/Eckstein%20Alephbet%20Chart.
+| CAPTION: The “Alephbets” chart which formed the basis of the interchangeable keyboard skins, created for Scribes of the Cairo Geniza by Laura Newman Eckstein. Downloadable via GitHub: https://github.com/judaicadh/cairogeniza/tree/master/_docs/Eckstein%20Alephbet%20Chart.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
@@ -317,8 +309,7 @@ Because of the variation in the way that individual characters are composed acro
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A text input box with keyboard displaying handwritten Hebrew script.
 |
-| CAPTION: The Scribes of the Cairo Geniza transcription modal, including the Hebrew
-|  keyboard, showing the Sephardi Square script type.
+| CAPTION: The Scribes of the Cairo Geniza transcription modal, including the Hebrew keyboard, showing the Sephardi Square script type.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
