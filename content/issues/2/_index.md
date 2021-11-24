@@ -7,6 +7,23 @@ theme: Scribes
 date: 2021-09-15 # TODO: Update date
 slug: 2
 summary: Between the eleventh and nineteenth centuries, community members in Fustat, Egypt discarded textual materials in a storeroom (or ‘geniza’) of the Ben Ezra synagogue.  # TODO: Verify that Emily is okay with this final wording
+credits:
+    - title: Guest Editor
+      names:
+        - Emily Esten
+    - title: Contributors
+      names:
+        - Samantha Blickhan
+        - Jim Casey
+        - Matthew Dudley
+        - Will Granger
+        - Victoria Anne Van Hyning
+        - Mason Alexander Jones
+        - Courtney Murray
+        - Shaun A. Noordin
+        - Steffy Reader
+        - Becky Rother
+        - Justin Smith
 ---
 
 In Fustat, Egypt during the pre-modern and medieval period, community members gathered textual materials with the intent of discarding it in a storeroom (or ‘geniza’) of the Ben Ezra synagogue. Today, this corpus of 350,000 fragments, which ranges from liturgical text to personal records, is known as the Cairo Geniza and fuels a global digital scholarship endeavor.

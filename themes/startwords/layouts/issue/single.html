@@ -35,5 +35,15 @@
             </div>
         </div>
     </section>
+    <section id="credits">
+        <div class="masthead">
+            {{ range .Params.credits }} 
+                <div class="title">{{ .title }}</div>
+                {{ range .names }}
+                <div class="names">{{ . }}</div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
 </main>
 {{ end }}
