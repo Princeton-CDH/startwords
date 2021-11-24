@@ -41,13 +41,13 @@
             <div class="masthead">
                 {{ range .Params.contributors }}
                 <div class="contributor_group">
-                    <span class="title"><strong>{{ .title }}</strong></span>
+                    <span><strong>{{ .title }}</strong></span>
                     {{ if .name }}
-                        <span class="name">{{ .name }}</span>
+                        <span>{{ .name }}</span>
                     {{ else }}
                         <ul>
                         {{ range .names }}
-                            <li class="names">{{ . }}</li>
+                            <li>{{ . }}</li>
                         {{ end }}
                         </ul>
                     {{ end }}
