@@ -56,6 +56,30 @@ body.issue {
         }
     }
 
+    #credits {
+        display: block;
+
+        .contributor_group {
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-weight: 300;
+            font-size: rem(18px);
+            font-variant: small-caps;
+            letter-spacing: 0.25rem;
+            margin-bottom: rem(10px);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+    }
+
     
     // inverted footer
     main + footer { @include inverted-footer; }
