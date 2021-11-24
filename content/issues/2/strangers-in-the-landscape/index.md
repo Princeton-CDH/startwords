@@ -37,7 +37,8 @@ Throughout the piece, we have provided interludes in which we will walk you thro
 
 Let's start by setting up a very basic web form. It has one text input field, one submit button, and one output panel.
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" width="640" height="240"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -66,7 +67,8 @@ A straightforward solution is to create an on-screen keyboard for the user. In t
 
 Note: we’re using the Japanese hiragana characters あいうえお here because they map easily to the English characters AIUEO, and are written left to right. We’ll build up to more complex alphabets, such as Hebrew and its right-to-left layout, in later sections.
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html" width="640" height="320"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -94,7 +96,8 @@ During the brainstorming process for *Scribes*, we discussed how the *Ancient Li
 
 This is actually a solved problem: we use the standard HTMLInputElement’s selectionStart, selectionEnd, and setSelectionRange to interact with the “text cursor” on the text input field.
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-03.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-03.html" width="640" height="320"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-03.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -142,7 +145,8 @@ Alright, so we now have an on-screen keyboard. But what about the user’s physi
 
 In this example, when the user presses the "A" key on their keyboard, the Japanese character あ is inserted into the text field instead. Same for the other characters: A -> あ , I -> い, U -> う, E -> え, O -> お
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-04.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-04.html" width="640" height="320"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-04.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -201,7 +205,8 @@ In the example below, you won’t see many changes in terms of UI functionality,
 * The Japanese characters have now been compiled into a “Japanese keyboard” data object, setting the stage for **dynamically generated keyboards** for different languages.
 * Similarly, we now have “English keyboard” and “QWERTY layout” data objects that help ensure **the visual layout of the on-screen keyboard matches the user’s physical keyboard.**
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-05.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-05.html" width="640" height="420"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-05.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -239,7 +244,8 @@ Now that we have cleaned up the code so that the English and Japanese keyboards 
 
 To illustrate this point, we’ve added a joke "Emoji keyboard" that maps QWERTY keys to arbitrary emoji characters. Typing in “Hello world” into input text field will result in the emoji “text” of “🐟🤣🦋🦋😍 😅😍🥰🦋🐒.”
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html" width="640" height="420"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -278,7 +284,8 @@ As a result, we must be conscientious when we create on-screen keyboards for lan
 
 * The text input field has an explicit CSS direction value that changes depending on the active keyboard.
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html" width="640" height="420"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -336,7 +343,8 @@ Fortunately, this is a fairly straightforward matter of adding images—for each
 
 In our example below, we’ve added the “Yemenite Square” visual script reference for the Hebrew keyboard.
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-08.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-08.html" width="720" height="520"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-08.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
@@ -381,7 +389,8 @@ There are several advantages to organising our "Yemenite Square" Hebrew script i
 
 In the example below, you’ll see that we’ve added **six new Hebrew scripts,** and if you check the code, doing so only required six additional lines of code.
 
-{{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-09.html" >}}
+<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-09.html" width="720" height="560"></iframe>
+<!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-09.html" >}} -->
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
