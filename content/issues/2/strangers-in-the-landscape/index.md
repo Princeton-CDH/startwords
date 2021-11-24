@@ -40,6 +40,8 @@ Let's start by setting up a very basic web form. It has one text input field, on
 <iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" width="640" height="240"></iframe>
 <!-- {{< readfile file="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" >}} -->
 
+Everything we build from this point onwards is meant to solve one very simple problem: **how do we allow users to type, into that text input field, in a language that's not native to their keyboard?** For example, how do we help a user type in the text "ごはんを食べる" when they only have a US-International QWERTY keyboard, and we don’t want to ask them to futz about in their computer settings to install a Japanese language pack?
+
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | INTERACTIVE COMPONENT. 
@@ -47,9 +49,8 @@ Let's start by setting up a very basic web form. It has one text input field, on
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-Everything we build from this point onwards is meant to solve one very simple problem: **how do we allow users to type, into that text input field, in a language that's not native to their keyboard?** For example, how do we help a user type in the text "ごはんを食べる" when they only have a US-International QWERTY keyboard, and we don’t want to ask them to futz about in their computer settings to install a Japanese language pack?
-
 {{</ wrap >}}
+
 {{</ wrap >}}
 
 ## Communal Making and Collective Building
