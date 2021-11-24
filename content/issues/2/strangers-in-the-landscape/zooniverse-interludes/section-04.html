@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="./main.css" rel="stylesheet">
+</head>
+<body>
+<form>
+  <label for="input">Input</label>
+  <textarea id="input" rows="2"></textarea>
+  <div id="keyboard">
+    <button class="keyboard-key" type="button" data-char="あ">あ <span>(A)</span></button>
+    <button class="keyboard-key" type="button" data-char="い">い <span>(I)</span></button>
+    <button class="keyboard-key" type="button" data-char="う">う <span>(U)</span></button>
+    <button class="keyboard-key" type="button" data-char="え">え <span>(E)</span></button>
+    <button class="keyboard-key" type="button" data-char="お">お <span>(O)</span></button>
+  </div>
+  <button id="submit" type="button">Submit</button>
+  <hr>
+  <label>Output</label>
+  <pre id="output"></pre>
+</form>
+</body>
+<script>
+/*
+We're organising all the keyboard logic into a single 'KeyboardApp'.
+ */
+class KeyboardApp {
+  constructor () {
+    // Let's register all the HTML elements to make them easier to access later.
+    this.html = {
+      input: document.getElementById('input'),
+      keyboard: document.getElementById('keyboard'),
+      submit: document.getElementById('submit'),
+      output: document.getElementById('output'),
+    }
+
+    // Let's register all the event handling
+    this.html.input.onkeypress = this.onKeyPress.bind(this)
+    this.html.submit.onclick = this.submit.bind(this)
+
+    this.setupKeyboard()
+  }
+
+  /*
+  This 'submit' logic is just placeholder for what you actually want to do.
+  Normally, this is where we'd submit the input data to a server. For our
+  example, we just print the text into the output field.
+   */
+  submit () {
+    const text = input.value
+    output.innerText = text
+  }
+
+  /*
+  setupKeyboard() does exactly what it says on the tin.
+   */
+  setupKeyboard () {
+    // In this version, we've hardcoded the keyboard keys into the HTML
+    const keyboardKeys = Array.from(document.getElementsByClassName('keyboard-key'))
+
+    // We're going through each <button#keyboard-key> and attaching a simple
+    // 'insert the character associated with this button' action.
+    keyboardKeys.forEach((keyboardKey) => {
+      const char = keyboardKey.dataset.char
+      keyboardKey.onclick = () => { this.insertChar(char) }
+    });
+  }
+
+  /*
+  insertChar() inserts a single character to the (end of the) input text box.
+   */
+  insertChar (char) {
+    // Find the position of the "text cursor" on the text input
+    const startIndex = this.html.input.selectionStart
+    const endIndex = this.html.input.selectionEnd
+
+    // Minor trivia: if the text cursor has selected some text (e.g. a user
+    // highlighted a word) then startIndex will not be the same as endIndex ;
+    // otherwise, startIndex will be the same as endIndex.
+
+    // Insert the new character where the text cursor is, OR replace the text
+    // that the text cursor is selecting.
+    const text = this.html.input.value
+    const startText = text.substring(0, startIndex)
+    const endText = text.substring(endIndex)
+    this.html.input.value = startText + char + endText
+
+    // Return focus to the input text box, and reset the "text cursor" to the
+    // location where we just inserted the character
+    this.html.input.focus()
+    const focusIndex = startIndex + char.length
+    this.html.input.setSelectionRange(focusIndex, focusIndex)
+  }
+
+  /*
+  onKeyPress listens for keyboard input on the text input field.
+   */
+  onKeyPress (keyboardEvent) {
+    // Get the key that the user just pressed
+    const code = keyboardEvent.code
+
+    // Note: there are different ways to get what the user typed into a text
+    // field.
+    // keyboardEvent.code corresponds to the PHYSICAL key on the keyboard.
+    // keyboardEvent.key corresponds to the TEXT VALUE of the key.
+    // If a user presses the 'A' key on a US-International QWERTY keyboard,
+    // we get code='KeyA', and key='a' (if shift/capslock is off) or key='A'
+    // (if shift/capslock is on)
+
+    // If the user presses the A, I, U, E, or O keys, then instead of
+    // inserting those English characters into the text, we insert the
+    // characters あ, い,う , え, or お
+    switch (code) {
+      case 'KeyA':
+        this.insertChar('あ')
+        return stopEvent(keyboardEvent)
+      case 'KeyI':
+        this.insertChar('い')
+        return stopEvent(keyboardEvent)
+      case 'KeyU':
+        this.insertChar('う')
+        return stopEvent(keyboardEvent)
+      case 'KeyE':
+        this.insertChar('え')
+        return stopEvent(keyboardEvent)
+      case 'KeyO':
+        this.insertChar('お')
+        return stopEvent(keyboardEvent)
+    }
+
+    return true
+  }
+}
+
+/*
+Stops the default actions for an input event. For example, pressing the 'A' key
+on a keyboard will insert the character 'a' into a text input field. If we want
+to change the action so the 'A' key inserts the 'あ' character, we first need to
+disable the default action.
+ */
+function stopEvent (e) {
+  e.preventDefault && e.preventDefault()
+  e.stopPropagation && e.stopPropagation()
+  return false
+}
+
+var app = new KeyboardApp()  // Let's start the app!
+</script>
+</html>
