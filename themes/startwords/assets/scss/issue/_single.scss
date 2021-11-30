@@ -48,12 +48,13 @@ body.issue {
     }
 }
 
- // snippets section — also on home page
- .snippets {
+// snippets section: on single issue and home page
+.snippets {
     float: left;
 }
 
 .snippets, body.issue .masthead {
+
     h2 {
         font-weight: 300;
         font-size: rem(18px);
