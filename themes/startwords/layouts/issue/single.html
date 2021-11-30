@@ -35,25 +35,25 @@
             </div>
         </div>
     </section>
-    <section id="credits" class="grid">
+    <section class="grid masthead container">
         <div class="container">
             <h2>credits</h2>
-            <div class="masthead">
                 {{ range .Params.contributors }}
-                <div class="contributor_group">
-                    <span><strong>{{ .title }}</strong></span>
-                    {{ if .name }}
-                        <span>{{ .name }}</span>
-                    {{ else }}
-                        <ul>
-                        {{ range .names }}
-                            <li>{{ . }}</li>
+                    {{ range $title, $names := . }}
+                    <p>
+                        <span><strong>{{ $title }}</strong></span>
+                        {{ if (eq ($names | len) 1) }}
+                            {{ index $names 0 }} {{/* single name */}}
+                        {{ else }}
+                            <ul> {{/* multiple names */}}
+                            {{ range $names }}
+                                <li>{{ . }}</li>
+                            {{ end }}
+                            </ul>
                         {{ end }}
-                        </ul>
+                    </p>
                     {{ end }}
-                </div>
                 {{ end }}
-            </div>
         </div>
     </section>
 </main>

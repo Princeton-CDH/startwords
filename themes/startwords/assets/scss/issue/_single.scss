@@ -41,41 +41,28 @@ body.issue {
         }
     }
 
-    // snippets section
-    .snippets {
-        float: left;
-
-        h2 {
-            font-weight: 300;
-            font-size: rem(18px);
-            font-variant: small-caps;
-            letter-spacing: 0.25rem;
-            margin-top: rem(30px);
-            margin-bottom: rem(10px);
-            @media (min-width: $breakpoint-m) { font-size: rem(20px); }
-        }
-    }
-
-    #credits {
-        .contributor_group {
-            margin-bottom: 15px;
-        }
-
-        h2 {
-            font-weight: 300;
-            font-size: rem(18px);
-            font-variant: small-caps;
-            letter-spacing: 0.25rem;
-            margin-bottom: rem(10px);
-        }
-
-        ul { list-style: none; }
-    }
-
-    
     // inverted footer
-    main + footer { 
+    main + footer {
         @include inverted-footer;
         background: $off-white;
     }
+}
+
+ // snippets section — also on home page
+ .snippets {
+    float: left;
+}
+
+.snippets, body.issue .masthead {
+    h2 {
+        font-weight: 300;
+        font-size: rem(18px);
+        font-variant: small-caps;
+        letter-spacing: 0.25rem;
+        margin-top: rem(30px);
+        margin-bottom: rem(10px);
+        @media (min-width: $breakpoint-m) { font-size: rem(20px); }
+    }
+
+    ul { list-style: none; }
 }
