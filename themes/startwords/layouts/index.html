@@ -25,7 +25,7 @@
     </div>
     <section id="features" aria-label="features" class="inverted grid">
         <div class="wide-container">
-            {{ range first 2 (.Pages.ByParam "order") }}
+            {{ range first 2 ($issue.Pages.ByParam "order") }}
                 {{ .Render "summary" }}
             {{ end }}
         </div>
