@@ -23,13 +23,7 @@
             </p>
         </div>
     </div>
-    <section id="features" aria-label="features" class="inverted grid">
-        <div class="wide-container">
-            {{ range first 2 ($issue.Pages.ByParam "order") }}
-            {{ .Render "summary" }}
-            {{ end }}
-        </div>
-    </section>
+    {{ partial "issue/features.html" $issue }}
     {{ with .Site.GetPage "/about" }}
     <div class="content grid">
         <div class="text-container">
