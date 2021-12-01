@@ -1,7 +1,7 @@
 /* single article page styles */
 
 body.article {
-    
+
     article {
         margin-top: rem(60px);
         margin-bottom: rem(100px);
@@ -16,11 +16,11 @@ body.article {
             @media (min-width: $breakpoint-s) { margin-bottom: rem(80px); }
             @media (min-width: $breakpoint-m) { margin-bottom: rem(60px); }
             @include constrain-text;
-            
+
             p {
                 margin: 0;
             }
-            
+
             .number {
                 a, a:visited {
                     color: $dark-grey;
@@ -50,7 +50,7 @@ body.article {
 
         // all textual elements that shouldn't be more than 75char wide
         p, ol, ul, blockquote, hr, h2, h3, h4, h5, h6 { @include constrain-text; }
-        
+
         // body text
         p {
             // disabling overflow hidden because
@@ -74,7 +74,7 @@ body.article {
         blockquote {
             margin-top: rem(30px);
             margin-bottom: rem(30px);
-            
+
             p {
                 margin: 0;
                 font-style: italic;
@@ -172,6 +172,12 @@ body.article {
         max-width: 100%;
     }
 
+    iframe {
+        width: 100%;
+        overflow: hidden;
+        border: 0;
+        margin: rem(30px) 0;
+    }
 }
 
 /* fallback content included to be shown in TXT version only */
