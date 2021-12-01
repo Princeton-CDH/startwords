@@ -12,7 +12,7 @@ contributors:
       - Emily Esten
     - Editor:
       - Grant Wythoff
-    - Technical Advisor:
+    - Technical Lead:
       - Rebecca Sutton Koeser
     - Technical:
       - Kevin McElwee
