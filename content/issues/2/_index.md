@@ -7,6 +7,20 @@ theme: Scribes
 date: 2021-09-15 # TODO: Update date
 slug: 2
 summary: Between the eleventh and nineteenth centuries, community members in Fustat, Egypt discarded textual materials in a storeroom (or ‘geniza’) of the Ben Ezra synagogue.  # TODO: Verify that Emily is okay with this final wording
+contributors:
+    - Guest Editor:
+      - Emily Esten
+    - Editor:
+      - Grant Wythoff
+    - Technical Lead:
+      - Rebecca Sutton Koeser
+    - Technical:
+      - Kevin McElwee
+    - UX Designer:
+      - Gissoo Doroudian
+    - Manuscript Editing:
+      - Camey VanSant
+
 ---
 
 In Fustat, Egypt during the pre-modern and medieval period, community members gathered textual materials with the intent of discarding it in a storeroom (or ‘geniza’) of the Ben Ezra synagogue. Today, this corpus of 350,000 fragments, which ranges from liturgical text to personal records, is known as the Cairo Geniza and fuels a global digital scholarship endeavor.
@@ -17,8 +31,8 @@ In April 2021, The Center for Research Data and Digital Scholarship at Universit
 
 The essays of this second issue build on these conversations, highlighting perspectives from all the different scribes that engage in this work: researchers, volunteers, developers, and project managers. “Strangers in the Landscape” documents the development of the interactive on-screen keyboards featured in Scribes of the Cairo Geniza, which allow users to match Hebrew characters on a keyboard to those on the page. Following a project’s design from concept to product, Blickhan, Granger, Noordin, and Rother discuss the process of developing tools for research and engagement. The balance of humanistic and technical inquiry within project collaboration requires us to think about the relationship between design and data.
 
-What happens after the crowdsourcing process is complete? “Data’s Destinations” explores crowdsourced transcription data’s management and dissemination, noting the challenges of contextualizing and publishing these data within traditional content management systems. Van Hyning and Jones review three case studies of crowdsourced transcription projects working towards integrating these outputs into public record.  
+What happens after the crowdsourcing process is complete? “Data’s Destinations” explores crowdsourced transcription data’s management and dissemination, noting the challenges of contextualizing and publishing these data within traditional content management systems. Van Hyning and Jones review three case studies of crowdsourced transcription projects working towards integrating these outputs into public record.
 
 While the feature articles highlight the work of project teams to support these efforts, this issue’s snippets give insights into the public who take part in these crowdsourcing projects. In “Creating & Recreating Virtual Community on Douglass Day”, members of the Colored Conventions Project team share the lessons learned in pivoting to new audiences and engagement in the midst of COVID-19 pandemic. “Serendipity in the Cairo Geniza” tackles one fragment from Scribes from two perspectives. Dudley and Reader bring their own unique expertise to this corpus, and take us on their parallel research journeys.
 
-To be a scribe in crowdsourcing is to understand one’s role in this larger research and engagement process - to be a part of the data we collect and create. We hope this issue highlights the community space for analysis and discussion, and the possibilities for new avenues of discovery, access, and management that this methodology makes possible.  
+To be a scribe in crowdsourcing is to understand one’s role in this larger research and engagement process - to be a part of the data we collect and create. We hope this issue highlights the community space for analysis and discussion, and the possibilities for new avenues of discovery, access, and management that this methodology makes possible.

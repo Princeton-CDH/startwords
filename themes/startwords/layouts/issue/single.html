@@ -19,5 +19,27 @@
         </div>
     </div>
     {{ partial "issue/features.html" . }}
+    <section class="grid masthead">
+        <div class="container">
+            <h2>credits</h2>
+                {{ range .Params.contributors }}
+                    {{ range $title, $names := . }}
+                    <p>
+                        <strong>{{ $title }}</strong>
+                        {{ if (eq ($names | len) 1) }}
+                            {{ index $names 0 }} {{/* single name */}}
+                        {{ else }}
+                            <ul> {{/* multiple names */}}
+                            {{ range $names }}
+                                <li>{{ . }}</li>
+                            {{ end }}
+                            </ul>
+                        {{ end }}
+                    </p>
+                    {{ end }}
+                {{ end }}
+        </div>
+    </section>
+
 </main>
 {{ end }}
