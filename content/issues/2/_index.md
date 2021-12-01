@@ -14,7 +14,7 @@ contributors:
       - Grant Wythoff
     - Technical Advisor:
       - Rebecca Sutton Koeser
-    - Assistant Editor:
+    - Technical:
       - Kevin McElwee
     - UX Designer:
       - Gissoo Doroudian
