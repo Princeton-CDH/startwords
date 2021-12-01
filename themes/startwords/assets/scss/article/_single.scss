@@ -172,11 +172,20 @@ body.article {
         max-width: 100%;
     }
 
-    iframe {
+    iframe, .kaltura {
         width: 100%;
+        height: auto;
+        max-width: 100vh;
         overflow: hidden;
         border: 0;
-        margin: rem(30px) 0;
+        margin: rem(30px) auto;
+    }
+
+    /* kaltura video embed */
+    .kWidgetIframeContainer {
+        margin: rem(30px) auto;
+        height: rem(240px);
+        @media (min-width: $breakpoint-s) { height: rem(440px); }
     }
 }
 
