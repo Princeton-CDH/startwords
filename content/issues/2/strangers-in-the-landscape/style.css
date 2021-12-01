@@ -67,5 +67,13 @@
 @media print {
     .interlude::before { background: none; }
     .interlude .center { color: #4C2A85; }
-    iframe { width: 500px !important; }
+
 }
+
+/* explicitly set heights for embedded keyboards to make sure the full content displays */
+/* TODO: convert to rem? */
+#kb-s01 { height: 240px; }
+#kb-s02, #kb-s03, #kb-s04 { height: 320px; }
+#kb-s05, #kb-s06, #kb-s07 { height: 420px; }
+#kb-s08 { height: 520px; }
+#kb-s09 { height: 560px; }

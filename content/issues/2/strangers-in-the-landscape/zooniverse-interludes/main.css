@@ -149,3 +149,31 @@ hr {
   width: 50px;
   height: 60px;
 }
+
+
+@media print {
+  :root {
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    color: #4C2A85;
+  }
+
+  form label {
+    color: #808080;
+  }
+
+  textarea, pre {
+    border: 1px solid #808080;
+  }
+
+  hr {
+    background-color: #808080;
+  }
+
+  iframe {
+    overflow: visible;
+  }
+
+
+}
