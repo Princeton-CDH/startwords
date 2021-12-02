@@ -16,7 +16,7 @@ images: # TODO: insert pullquote screenshot in \images directory
 summary: This piece is about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration.
 ---
 
-## INTRODUCTION
+## Introduction
 
 This piece is about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration.
 
