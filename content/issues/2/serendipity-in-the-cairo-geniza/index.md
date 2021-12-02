@@ -7,8 +7,8 @@ order: 4
 authors:
     - Matthew Dudley
     - Steffy Reader
-date: 2021-10-01 # TODO: Update date
-doi: 10.5281/zenodo.3713678 # TODO: update doi
+date: 2021-12-01
+doi: 10.5281/zenodo.5750695
 pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
 images: # TODO: insert pullquote screenshot in \images directory
 ---
