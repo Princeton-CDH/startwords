@@ -244,6 +244,14 @@ body.article .footnotes {
                     }
                 }
 
+                /* increase text indentation when footnote number
+                   gets to two digits */
+                &:nth-child(n+10) {
+                    p {
+                        text-indent: 1.5rem;
+                    }
+                }
+
                 a {
                     color: $dark-purple;
                 }
