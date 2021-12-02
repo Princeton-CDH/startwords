@@ -1,0 +1,12 @@
+{{/* Shortcode for video embedding with preview for PDF  */}}
+<div class="video-embed-wrapper">
+    {{ .Inner }}
+    <figure class="preview">
+        {{ if .Get `youtube_id` }}
+            <img src="https://i.ytimg.com/vi/{{ .Get `youtube_id` }}/hqdefault.jpg" alt="{{ .Get `pdf-alt` }}"/>
+        {{ else if .Get `pdf-img` }}
+            <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt`|default "still image from video" }}"/>
+        {{ end }}
+        <figcaption><p>The online version of this essay contains an embedded video, represented here by a still frame.</p></figcaption>
+    </figure>
+</div>

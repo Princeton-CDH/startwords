@@ -22,7 +22,12 @@ Each year, we listen to the melodies of “Lift Every Voice and Sing” and eat 
 
 We started this event from scratch in 2017. By the time we held our events at Howard University in 2020, we felt like we’d attained some momentum with our team members at the University of Delaware, Princeton’s Center for Digital Humanities, and the Center for Digital Black Research at Penn State.[^2]
 
-{{< youtube id="-SpanvQZhVI" title="Douglass Day 2020 - Highlights" class="youtube">}}
+
+{{< video youtube_id="-SpanvQZhVI" >}}
+  {{< youtube id="-SpanvQZhVI" title="Douglass Day 2020 - Highlights" >}}
+{{< /video >}}
+
+
 
 ## Adjusting During the COVID-19 Pandemic
 
@@ -82,9 +87,9 @@ Launching our social media campaign early on helped attract attention to the eve
 
 Amid the pandemic, we recognized that not all of our participants used social media so we expanded our newsletter. Our response rate was higher than on social media. We sent out regular reminders and resources, including a consistent timeline, visual aesthetic, and recurring thematic framing.
 
-{{< youtube id="1yXr9w_rZQw" title="What is transcription? What is reviewing?" class="youtube" >}}
-
-
+{{< video youtube_id="1yXr9w_rZQw" >}}
+    {{< youtube id="1yXr9w_rZQw" title="What is transcription? What is reviewing?" >}}
+{{< /video >}}
 
 ## Our Results
 

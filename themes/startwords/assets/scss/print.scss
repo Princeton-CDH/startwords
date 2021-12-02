@@ -268,12 +268,14 @@ h2:first-child {
 /* sketchfab embed & deep zoom do not render in PDF; use previews instead */
 body.article article {
     .sketchfab-embed-wrapper iframe,
+    .video-embed-wrapper iframe,
     .deepzoom {
         display: none;
     }
 
     .sketchfab-embed-wrapper .preview,
-    .deepzoom-preview, .print-only-preview {
+    .deepzoom-preview, .print-only-preview,
+    .video-embed-wrapper .preview {
         display: block;
     }
 
