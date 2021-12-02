@@ -10,7 +10,7 @@ authors:
 date: 2021-12-01
 doi: 10.5281/zenodo.5750695
 pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
-images: # TODO: insert pullquote screenshot in \images directory
+images: ["issues/2/serendipity-in-the-cairo-geniza/images/serendipity-social.jpg"]
 ---
 
 Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the *Scribes of the Cairo Geniza* and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference *Crowdsourcing and the Humanities* and discover that they had already been collaborating anonymously via the *Scribes of the Cairo Geniza* site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.

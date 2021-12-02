@@ -11,7 +11,7 @@ authors:
 date: 2021-12-01
 doi: 10.5281/zenodo.5750693
 pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
-images: # TODO: pullquote will make this media-rich article too busy, so select a screenshot (perhaps of one of the embedded tweets or youtube videos) for social sharing and place it in \images directory
+images: ["issues/2/creating-and-recreating-virtual-community/images/virtual-community-social.png"]
 ---
 
 ## Douglass Day’s annual celebrations before the pandemic
