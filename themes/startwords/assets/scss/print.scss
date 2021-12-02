@@ -201,7 +201,7 @@ body.article .footnotes {
               display the list marker and style it as close as possible
               to the design specification */
             &::before {
-                display: none;
+                display: none !important;
             }
             &::marker {
                 color: $red;
@@ -260,6 +260,11 @@ h4 { bookmark-level: 4; }
 h5 { bookmark-level: 5; }
 h6 { bookmark-level: 6; }
 
+/* if there is a h2 to start the article, no page break before it! */
+h2:first-child {
+    page-break-before: avoid;
+}
+
 /* sketchfab embed & deep zoom do not render in PDF; use previews instead */
 body.article article {
     .sketchfab-embed-wrapper iframe,
@@ -268,7 +273,19 @@ body.article article {
     }
 
     .sketchfab-embed-wrapper .preview,
-    .deepzoom-preview {
+    .deepzoom-preview, .print-only-preview {
         display: block;
     }
+
+}
+
+iframe {
+    overflow: visible;
+    height: auto;
+    page-break-inside: avoid;
+}
+
+.twitter-tweet {
+    page-break-inside: avoid;
+    // width: 75% !important;
 }

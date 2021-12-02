@@ -3,10 +3,10 @@
 }
 
 :root {
-  font-family: /*"Comic Sans MS", "Comic Sans",*/ "Tahoma", sans-serif;
-  font-size: 16px;
-  background: #fff;
-  color: #444;
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 14pt; /* ~ 18px; */
+  background-color: #4C2A85;
+  color: #E0CEFF
 }
 
 html, body {
@@ -18,52 +18,20 @@ a, a:hover {
   color: #00979D;
 }
 
-header, main, footer {
-  max-width: 1024px;
-}
-
-header {
-  margin: 1em;
-  padding: 1em;
-  border-radius: 0.2em;
-  background: #eee;
-}
-
-header h1 {
-  padding: 0;
-  margin: 0;
-}
-
 main {
   margin: 1em;
 }
 
-main h2 {
-  padding: 1em;
-  margin: 1em;
-  border-bottom: 1px solid #444;
-}
-
-footer {
-  font-size: 0.8em;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 0.2em;
-  background: #eee;
-}
-
 section {
-  border-radius: 0.2em;
   margin-bottom: 1em;
   padding: 1em;
-  box-shadow: 2px 4px 4px #eee;
 }
 
 iframe {
   display: block;
   margin: 0.5em auto;
-  border: 1px solid #444;
-  border-radius: 1em;
+  border: 0;
+  overflow: hidden;
 }
 
 a.link-to-code {
@@ -90,27 +58,30 @@ p.caption {
 }
 
 form {
-  padding: 1em;
+  padding: 0;
 }
 
 form textarea {
   display: block;
   width: 100%;
+  background-color: #F6F6F6;
+  border: 0;
+  height: 2em;
 }
 
 form label {
   display: block;
-  color: #888;
+  color: #E0CEFF;
   font-size: 0.8em;
 }
 
 form button#submit {
   display: block;
   width: 100%;
-  background: #00979D;
-  color: #fff;
+  background: #E0CEFF;
+  color: #3D206C;
   cursor: pointer;
-  border: 1px solid #eee;
+  border: 0;
   padding: 0.5em;
 }
 
@@ -118,13 +89,23 @@ form pre {
   display: block;
   width: 100%;
   padding: 0.5em;
-  background: #eee;
+  background: #E9E9E9;
   min-height: 3em;
+  color: #444;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #E0CEFF;
+  margin: 1em 0;
 }
 
 #keyboard {
   padding: 0.5em;
-  background: #edc;
+  /* background: #404040; */
 }
 
 #keyboard .row {
@@ -135,13 +116,13 @@ form pre {
 
 #keyboards-list,
 #visual-scripts-list {
-  background: #edc;
+  background: #E9E9E9;
   padding: 0.25em 0.5em;
   text-align: center;
 }
 
 #keyboards-list span {
-  color: #888;
+  color: #E9E9E9;
 }
 
 #keyboards-list button,
@@ -160,7 +141,7 @@ form pre {
 .keyboard-key span {
   display: block;
   font-size: 0.6em;
-  color: #888;
+  color: #404040;
 }
 
 .v2 .keyboard-key {
@@ -168,4 +149,34 @@ form pre {
   border: 0;
   width: 50px;
   height: 60px;
+}
+
+
+@media print {
+  :root {
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: 9pt; /* 12px; */
+    background-color: white;
+    color: #4C2A85;
+  }
+
+  form label {
+    color: #808080;
+  }
+
+  form textarea, pre, button {
+    border: 1px solid #808080;
+  }
+
+  form button#submit {
+    margin-top: 10px;
+    border: 1px solid #4C2A85;
+  }
+
+  hr {
+    background-color: #808080;
+  }
+
+
+
 }

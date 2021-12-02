@@ -33,30 +33,34 @@ Throughout the piece, we have provided interludes in which we will walk you thro
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
 
-### 01. The Basics: A Form With Some Text Input
+### 01. The Basics: A Form With Some Text Input {#kb1}
 
 Let's start by setting up a very basic web form. It has one text input field, one submit button, and one output panel.
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html" width="640" height="240"></iframe>
+<iframe id="kb-s01" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html"></iframe>
 
 Everything we build from this point onwards is meant to solve one very simple problem: **how do we allow users to type, into that text input field, in a language that's not native to their keyboard?** For example, how do we help a user type in the text "ごはんを食べる" when they only have a US-International QWERTY keyboard, and we don’t want to ask them to futz about in their computer settings to install a Japanese language pack?
+{{</ wrap >}}
+
+{{</ wrap >}}
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-01.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
+{{< wrap class="print-only-preview" >}}
+*The online version of this essay includes interactive keyboards threaded throughout the text.*
 {{</ wrap >}}
 
-{{</ wrap >}}
 
 ## Communal Making and Collective Building
 
 When we build public crowdsourcing projects, the work we do as platform builders/maintainers is intended to facilitate research goals without sacrificing the experience of the people who will be engaging with what we build. This means taking the ideas our collaborators bring to the table (“What do you want to do with this project?”) and creating tools and interfaces that support their needs (“What do we need to build/adapt to facilitate the realization of these goals?”) while simultaneously supporting public audiences by allowing them to engage with the project content with no assumption of previously-held knowledge (“How do we need to adjust these goals—and, by extension, the supporting tools/infrastructure—to make this project inclusive of a broad, public audience?”).
 
-Bill Endres writes that “building faces the challenge of not being writing.”[^9] For Endres, “building” is a practice typically excluded from institutional decisions on tenure and promotion in humanities departments. Much of the discourse around building in DH acknowledges this disparate treatment between the creation of tools and the production of traditional research, but Endres’s phrase also reminds us that writing is the medium by and around which scholarly communication has also primarily taken place. We write, we peer review, we give written feedback. When we talk about the Things We Are Building, the role of translator or mediator is often assumed by team members who have spent time in both “worlds.” Learning how to communicate across varying disciplinary backgrounds or via unfamiliar mediums (in our case, bridging concepts as varied as paleography and pull requests), requires time and patience. 
+Bill Endres writes that “building faces the challenge of not being writing.”[^9] For Endres, “building” is a practice typically excluded from institutional decisions on tenure and promotion in humanities departments. Much of the discourse around building in DH acknowledges this disparate treatment between the creation of tools and the production of traditional research, but Endres’s phrase also reminds us that writing is the medium by and around which scholarly communication has also primarily taken place. We write, we peer review, we give written feedback. When we talk about the Things We Are Building, the role of translator or mediator is often assumed by team members who have spent time in both “worlds.” Learning how to communicate across varying disciplinary backgrounds or via unfamiliar mediums (in our case, bridging concepts as varied as paleography and pull requests), requires time and patience.
 
 {{< wrap class="interlude" >}}
 {{< wrap class="center" >}}
@@ -67,11 +71,11 @@ A straightforward solution is to create an on-screen keyboard for the user. In t
 
 Note: we’re using the Japanese hiragana characters あいうえお here because they map easily to the English characters AIUEO, and are written left to right. We’ll build up to more complex alphabets, such as Hebrew and its right-to-left layout, in later sections.
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html" width="640" height="320"></iframe>
+<iframe id="kb-s02" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-02.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -93,13 +97,13 @@ During the brainstorming process for *Scribes*, we discussed how the *Ancient Li
 
 ### 03. Text Selection
 
-This is actually a solved problem: we use the standard HTMLInputElement’s selectionStart, selectionEnd, and setSelectionRange to interact with the “text cursor” on the text input field.
+This is actually a solved problem: we use the standard `HTMLInputElement`’s `selectionStart`, `selectionEnd`, and `setSelectionRange` to interact with the “text cursor” on the text input field.
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-03.html" width="640" height="320"></iframe>
+<iframe id="kb-s03" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-03.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-03.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -140,11 +144,11 @@ Alright, so we now have an on-screen keyboard. But what about the user’s physi
 
 In this example, when the user presses the "A" key on their keyboard, the Japanese character あ is inserted into the text field instead. Same for the other characters: A -> あ , I -> い, U -> う, E -> え, O -> お
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-04.html" width="640" height="320"></iframe>
+<iframe id="kb-s04" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-04.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-04.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -160,14 +164,14 @@ Note: there are different ways to get what the user typed into a text field. key
 {{</ wrap >}}
 {{</ wrap >}}
 
-This was a turning point in the collaboration, as we began to understand the real value of having multiple kinds of “strangers” and their perspectives in the room. Speaking to diverse perspectives—even within our planning meetings—prevented us from sharing ideas and information without considering how those concepts might be broken down into simpler components. Rather than being a barrier to communication, it gave us the opportunity to observe a version of the volunteer experience we were building in real time, through our interactions with one another. 
+This was a turning point in the collaboration, as we began to understand the real value of having multiple kinds of “strangers” and their perspectives in the room. Speaking to diverse perspectives—even within our planning meetings—prevented us from sharing ideas and information without considering how those concepts might be broken down into simpler components. Rather than being a barrier to communication, it gave us the opportunity to observe a version of the volunteer experience we were building in real time, through our interactions with one another.
 
 
 ## Designing Scribes of the Cairo Geniza for Public Access
 
 As the content specialists solidified their goals and worked with our team to determine the best way to accomplish those goals, two design needs became clear: first, that we could utilize existing Zooniverse project builder infrastructures to make a pre-transcription task that would produce useful metadata; and second, that a custom transcription interface would be necessary to support the on-screen keyboards.
 
-We didn’t need to start from scratch. *Ancient Lives* provided a shared reference on which to build. Which parts of that interface were successful? What made the use cases in Scribes unique and therefore required a rethinking of the user experience? What other transcription projects existed online that could provide inspiration for our task? These questions helped shape initial design sketches for the transcription workflow and text input area. 
+We didn’t need to start from scratch. *Ancient Lives* provided a shared reference on which to build. Which parts of that interface were successful? What made the use cases in Scribes unique and therefore required a rethinking of the user experience? What other transcription projects existed online that could provide inspiration for our task? These questions helped shape initial design sketches for the transcription workflow and text input area.
 
 {{< figure src="images/02_CG-interface3.jpeg" alt="ALT" caption="An early sketch of the Scribes of the Cairo Geniza transcription interface." attr="By designer Becky Rother." >}}
 {{< wrap class="txt-only" >}}
@@ -198,11 +202,11 @@ In the example below, you won’t see many changes in terms of UI functionality,
 * The Japanese characters have now been compiled into a “Japanese keyboard” data object, setting the stage for **dynamically generated keyboards** for different languages.
 * Similarly, we now have “English keyboard” and “QWERTY layout” data objects that help ensure **the visual layout of the on-screen keyboard matches the user’s physical keyboard.**
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-05.html" width="640" height="420"></iframe>
+<iframe id="kb-s05" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-05.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-05.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -212,7 +216,7 @@ In the example below, you won’t see many changes in terms of UI functionality,
 
 As we worked through the design, it was essential that we also speak to real users of the platform in order to validate our assumptions and test that the task we were designing was easy to understand. We reached out to our list of Zooniverse beta reviewers as well as personal networks to find native Hebrew and Arabic speakers who were willing to test the platform in translation. Through these conversations, we were able to see how a RTL interface would differ from English or other LTR language interfaces, and make adjustments accordingly.
 
-We also realized that because the subject matter could be intimidating, it was important to craft an interface that would straddle the line between friendly and knowledgeable. This was accomplished through the use of typography and color. First, we looked for a typeface that could be both friendly and trustworthy: both are attributes of a family of sans-serifs called Grotesque. These simple, clean typefaces are easy to read and add a friendly personality to the interface. 
+We also realized that because the subject matter could be intimidating, it was important to craft an interface that would straddle the line between friendly and knowledgeable. This was accomplished through the use of typography and color. First, we looked for a typeface that could be both friendly and trustworthy: both are attributes of a family of sans-serifs called Grotesque. These simple, clean typefaces are easy to read and add a friendly personality to the interface.
 
 {{< figure src="images/03_Geniza-type-samples.png" alt="Three font examples that read “Scribes of the Cairo Geniza” in English, Arabic, and Hebrew." caption="The three Grotesque typefaces used for Scribes of the Cairo Geniza in English, Arabic, and Hebrew." >}}
 {{< wrap class="txt-only" >}}
@@ -234,11 +238,11 @@ Now that we have cleaned up the code so that the English and Japanese keyboards 
 
 To illustrate this point, we’ve added a joke "Emoji keyboard" that maps QWERTY keys to arbitrary emoji characters. Typing in “Hello world” into input text field will result in the emoji “text” of “🐟🤣🦋🦋😍 😅😍🥰🦋🐒.”
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html" width="640" height="420"></iframe>
+<iframe id="kb-s06" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-06.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -273,11 +277,11 @@ As a result, we must be conscientious when we create on-screen keyboards for lan
 
 * The text input field has an explicit CSS direction value that changes depending on the active keyboard.
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html" width="640" height="420"></iframe>
+<iframe id="kb-s07" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-07.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -291,7 +295,7 @@ Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI in
 
 ### Creating clickable keyboards
 
-With the basic functionality of the clickable keyboards in place, we wanted to consider how we might further expand this resource for the context of *Scribes of the Cairo Geniza*. To support volunteers in the paleographic elements of transcribing Geniza fragments written in Hebrew script (again, the vast majority of the corpus), Penn team member Laura Newman Eckstein created a series of twenty script-based Hebrew “Alephbets” to be used as interchangeable skins on the clickable keyboard, to complement the modern Hebrew keyboard modeled after the *Ancient Lives* approach. 
+With the basic functionality of the clickable keyboards in place, we wanted to consider how we might further expand this resource for the context of *Scribes of the Cairo Geniza*. To support volunteers in the paleographic elements of transcribing Geniza fragments written in Hebrew script (again, the vast majority of the corpus), Penn team member Laura Newman Eckstein created a series of twenty script-based Hebrew “Alephbets” to be used as interchangeable skins on the clickable keyboard, to complement the modern Hebrew keyboard modeled after the *Ancient Lives* approach.
 
 {{< figure src="images/04_alephbet.png" alt="A chart showing square, minuscule, and cursive Hebrew character examples." caption="The “Alephbets” chart which formed the basis of the interchangeable keyboard skins, created for *Scribes of the Cairo Geniza* by Laura Newman Eckstein. Downloadable via [GitHub](https://github.com/judaicadh/cairogeniza/tree/master/_docs/Eckstein%20Alephbet%20Chart).">}}
 {{< wrap class="txt-only" >}}
@@ -302,7 +306,7 @@ With the basic functionality of the clickable keyboards in place, we wanted to c
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-Because of the variation in the way that individual characters are composed across the variety of hands in the Geniza, these skins are essential to helping nonexpert transcribers feel more confident submitting a transcription. Users can view alternate ways of writing a particular character, and choose the keyboard that most closely matches the script type of the fragment they’re currently transcribing. The option to return to modern characters is always available, too. 
+Because of the variation in the way that individual characters are composed across the variety of hands in the Geniza, these skins are essential to helping nonexpert transcribers feel more confident submitting a transcription. Users can view alternate ways of writing a particular character, and choose the keyboard that most closely matches the script type of the fragment they’re currently transcribing. The option to return to modern characters is always available, too.
 
 {{< figure src="images/05_hebrew-keyboard-interface.png" alt="A text input box with keyboard displaying handwritten Hebrew script." caption="The *Scribes of the Cairo Geniza* transcription modal, including the Hebrew keyboard, showing the Sephardi Square script type." >}}
 {{< wrap class="txt-only" >}}
@@ -328,11 +332,11 @@ Fortunately, this is a fairly straightforward matter of adding images—for each
 
 In our example below, we’ve added the “Yemenite Square” visual script reference for the Hebrew keyboard.
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-08.html" width="720" height="520"></iframe>
+<iframe id="kb-s08" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-08.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-08.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -357,9 +361,9 @@ For our project, we decided to put every character of the “Yemenite Square” 
 
 ## Research Development and Volunteer Advocacy
 
-The process of designing and building *Scribes of the Cairo Geniza* required a deeply human-centered approach to ensure we could meet the original project goals of transcribing the Geniza corpus and providing a space for anyone to engage with Geniza materials, no matter their level of expertise. To achieve this, we considered the range of experience our users might have, and included scaffolding in the project to ensure that there were multiple pathways to participation (e.g. the Sorting workflow, transcription with aid from on-screen keyboards). 
+The process of designing and building *Scribes of the Cairo Geniza* required a deeply human-centered approach to ensure we could meet the original project goals of transcribing the Geniza corpus and providing a space for anyone to engage with Geniza materials, no matter their level of expertise. To achieve this, we considered the range of experience our users might have, and included scaffolding in the project to ensure that there were multiple pathways to participation (e.g. the Sorting workflow, transcription with aid from on-screen keyboards).
 
-In this essay, we’ve discussed the interpersonal challenges of collaborating across disciplines, and the technical challenges of designing and building resources for a range of users. The final piece to discuss is the challenge of balancing engagement and outcome—in particular, identifying where the opportunities exist in this process to advocate for a positive user experience from our positions of power as builders and project leads, and considering what sort of impact that advocacy can have on the project’s outcomes. 
+In this essay, we’ve discussed the interpersonal challenges of collaborating across disciplines, and the technical challenges of designing and building resources for a range of users. The final piece to discuss is the challenge of balancing engagement and outcome—in particular, identifying where the opportunities exist in this process to advocate for a positive user experience from our positions of power as builders and project leads, and considering what sort of impact that advocacy can have on the project’s outcomes.
 
 Whether we’re discussing workflows, networks of communication, data pipelines, or design processes, the individual components of public crowdsourcing projects cannot exist independently from the project as a whole. We don’t think about design as separate from data, because these pieces are inextricably linked; project data influences design, which then impacts data output. Every decision we make during the design phase will impact various other pieces of a project beyond those directly affected in that moment. Choosing to build for a broad audience instead of restricting the project to those with previous experience will have an impact on the results. It will also increase the amount of labor involved in creating the project.
 
@@ -373,11 +377,11 @@ There are several advantages to organising our "Yemenite Square" Hebrew script i
 
 In the example below, you’ll see that we’ve added **six new Hebrew scripts,** and if you check the code, doing so only required six additional lines of code.
 
-<iframe src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-09.html" width="720" height="560"></iframe>
+<iframe id="kb-s09" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-09.html"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE COMPONENT. 
+| INTERACTIVE COMPONENT.
 | SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/section-09.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -421,7 +425,7 @@ In the case of *Scribes*, creating the Sorting workflow was not part of the orig
 
 The Sorting workflow and the clickable keyboards are both examples of how creating projects that are truly catered to nonspecialists requires teams to actually include public engagement as a goal and priority, instead of allowing it to be a secondary outcome to data generation. This prioritization requires serious time and effort. In particular, it requires a rejection of the common narrative around crowdsourcing as being a way to save time and energy, or a good option for under-resourced institutions who don’t have staff time to process data. Crowdsourcing is never a case of building a project and letting volunteers come to you. *Scribes* has succeeded in attracting a broad volunteer base because we built the project intentionally, with them in mind.
 
-Paleography and manuscript transcription have traditionally been the purview of specialists, only accessible to those with institutional access and the skills to be trusted with fragile physical resources. By opening up a complex task to a broad, nonspecialist audience through collaborative, human-centered design, *Scribes* says to the public, “We trust you, we appreciate your help, and we worked hard to create a space that will support you.” We ended up with a space that “strangers” to the field could explore without feeling lost. 
+Paleography and manuscript transcription have traditionally been the purview of specialists, only accessible to those with institutional access and the skills to be trusted with fragile physical resources. By opening up a complex task to a broad, nonspecialist audience through collaborative, human-centered design, *Scribes* says to the public, “We trust you, we appreciate your help, and we worked hard to create a space that will support you.” We ended up with a space that “strangers” to the field could explore without feeling lost.
 
 And it worked. An early review of the Sorting workflow data showed that for a majority of the fragments, volunteers were in one hundred percent agreement about which category best represented the scripts being used in the fragment (Hebrew, Arabic, both, no text). As Penn team member Emily Esten notes in a blog post about these results, “That’s impressive, considering the range of expertise from our volunteer base. For volunteers who had no experience at all, this means your best guess contributed to the community of knowledge and was, more likely than not, in agreement with others.”[^18] For public crowdsourcing projects, this is the best possible outcome: useful results created by a community of volunteers who don’t feel like they need special credentials to take part, and who can then see their collective effort taking shape as a meaningful contribution to research. From “strangers in a landscape” to makers themselves.
 
@@ -433,9 +437,9 @@ And it worked. An early review of the Sorting workflow data showed that for a ma
 
 [^4]: The Cairo Geniza is a corpus of hundreds of thousands of manuscript fragments, found in the Ben Ezra Synagogue of Fustat (Old Cairo). To learn about the fragments featured in *Scribes of the Cairo Geniza*, please see https://www.scribesofthecairogeniza.org/about#provenance.
 
-[^5]:  The project is led by the University of Pennsylvania Libraries and the Zooniverse team, in collaboration with an international cohort of Geniza researchers and image-sharing partner institutions. For a full list of partners, see https://www.scribesofthecairogeniza.org/about#partners 
+[^5]:  The project is led by the University of Pennsylvania Libraries and the Zooniverse team, in collaboration with an international cohort of Geniza researchers and image-sharing partner institutions. For a full list of partners, see https://www.scribesofthecairogeniza.org/about#partners
 
-[^6]: For more about the project goals, see Laura Newman Eckstein, “Of Scribes and Scripts: Citizen Science and the Cairo Genizah,” *Manuscript Studies* 3, no.1 (2018), 208–14;and Emily Esten and Samantha Blickhan,, “Scribes of the Cairo Geniza,” in *Visualizing Objects, Places, and Spaces: A Digital Project Handbook* (2021), https://doi.org/10.21428/51bee781.0afc1687.  
+[^6]: For more about the project goals, see Laura Newman Eckstein, “Of Scribes and Scripts: Citizen Science and the Cairo Genizah,” *Manuscript Studies* 3, no.1 (2018), 208–14;and Emily Esten and Samantha Blickhan,, “Scribes of the Cairo Geniza,” in *Visualizing Objects, Places, and Spaces: A Digital Project Handbook* (2021), https://doi.org/10.21428/51bee781.0afc1687.
 
 [^7]: IMLS award number LG-71-16-0028-16. For an overview of the project goals, see Victoria Van Hyning, Samantha Blinkhan, Laura Trouille, and Chris Lintott,  “Transforming Libraries and Archives Through Crowdsourcing,” *D-Lib Magazine* 23, nos. 5/6 (2017), https://doi.org/10.1045/may2017-vanhyning.
 
@@ -455,7 +459,7 @@ And it worked. An early review of the Sorting workflow data showed that for a ma
 
 [^15]: “Scope creep” refers to the way that projects will often gradually expand while under construction, as ongoing design and development work leads to new ideas that were not included in the original scope (or, crucially, the budget).
 
-[^16]: The Flesch-Kinkaid scale is a metric used to determine the difficulty of English-language writing. The Flesch-Kinkaid resource our team used for this project was https://goodcalculators.com/flesch-kincaid-calculator/. 
+[^16]: The Flesch-Kinkaid scale is a metric used to determine the difficulty of English-language writing. The Flesch-Kinkaid resource our team used for this project was https://goodcalculators.com/flesch-kincaid-calculator/.
 
 [^17]: A full explanation of Zooniverse text transcription data aggregation practices is available in Samantha Blickhan et al., “Individual vs. Collaborative Methods of Crowdsourced Transcription,” in “Collecting, Preserving, and Disseminating Endangered Cultural Heritage for New Understandings through Multilingual Approaches,” eds. Amel Fraisse, Ronald Jenn, and Shelley Fisher Fishkin, special issue, *Journal of Data Mining and Digital Humanities* (2019), https://doi.org/10.46298/jdmdh.5759. “Zooniverse projects all follow the same general format: each item in a project, be it an image, audio or video file, is independently assessed by multiple individuals. The responses are then aggregated together for ‘consensus’ (typically majority rule).” Blickhan et. al, “Individual vs. Collaborative Methods,” 2.
 
