@@ -33,6 +33,12 @@
     min-height: 150px;
 }
 
+@media print {
+    .interlude .center {
+        font-size: 12px;
+    }
+}
+
 .interlude .center {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -68,12 +74,25 @@
     .interlude::before { background: none; }
     .interlude .center { color: #4C2A85; }
 
+    body.article iframe {
+        width: 95%;
+    }
 }
 
 /* explicitly set heights for embedded keyboards to make sure the full content displays */
 /* TODO: convert to rem? */
-#kb-s01 { height: 240px; }
-#kb-s02, #kb-s03, #kb-s04 { height: 320px; }
-#kb-s05, #kb-s06, #kb-s07 { height: 420px; }
-#kb-s08 { height: 520px; }
-#kb-s09 { height: 560px; }
+@media screen {
+    #kb-s01 { height: 240px; }
+    #kb-s02, #kb-s03, #kb-s04 { height: 320px; }
+    #kb-s05, #kb-s06, #kb-s07 { height: 420px; }
+    #kb-s08 { height: 520px; }
+    #kb-s09 { height: 560px; }
+}
+
+@media print {
+    #kb-s01 { height: 180px; }
+    #kb-s02, #kb-s03, #kb-s04 { height: 240px; }
+    #kb-s05, #kb-s06, #kb-s07 { height: 350px; }
+    #kb-s08 { height: 440px; }
+    #kb-s09 { height: 480px; }
+}

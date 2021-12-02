@@ -4,7 +4,7 @@
 
 :root {
   font-family: 'Source Sans Pro', 'Arial', sans-serif;
-  font-size: 18px;
+  font-size: 14pt; /* ~ 18px; */
   background-color: #4C2A85;
   color: #E0CEFF
 }
@@ -66,6 +66,7 @@ form textarea {
   width: 100%;
   background-color: #F6F6F6;
   border: 0;
+  height: 2em;
 }
 
 form label {
@@ -104,7 +105,7 @@ hr {
 
 #keyboard {
   padding: 0.5em;
-  background: #808080;
+  /* background: #404040; */
 }
 
 #keyboard .row {
@@ -154,7 +155,7 @@ hr {
 @media print {
   :root {
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
-    font-size: 18px;
+    font-size: 9pt; /* 12px; */
     background-color: white;
     color: #4C2A85;
   }
@@ -163,17 +164,19 @@ hr {
     color: #808080;
   }
 
-  textarea, pre {
+  form textarea, pre, button {
     border: 1px solid #808080;
+  }
+
+  form button#submit {
+    margin-top: 10px;
+    border: 1px solid #4C2A85;
   }
 
   hr {
     background-color: #808080;
   }
 
-  iframe {
-    overflow: visible;
-  }
 
 
 }

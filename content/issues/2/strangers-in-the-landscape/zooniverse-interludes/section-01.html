@@ -7,7 +7,7 @@
 <body>
 <form>
   <label for="input">Input</label>
-  <textarea id="input" rows="2"></textarea>
+  <textarea id="input" rows="2" placeholder="type..."></textarea>
   <button id="submit" type="button">Submit</button>
   <hr>
   <label>Output</label>
@@ -19,7 +19,7 @@
 We're organising all the keyboard logic into a single 'KeyboardApp'.
  */
 class KeyboardApp {
-  constructor () {
+  constructor (form) {
     // Let's register all the HTML elements to make them easier to access later.
     this.html = {
       input: document.getElementById('input'),
@@ -42,6 +42,6 @@ class KeyboardApp {
   }
 }
 
-var app = new KeyboardApp()  // Let's start the app!
+var app = new KeyboardApp(document.getElementById("#kb1"))  // Let's start the app!
 </script>
 </html>
