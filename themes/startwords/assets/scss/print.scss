@@ -201,7 +201,7 @@ body.article .footnotes {
               display the list marker and style it as close as possible
               to the design specification */
             &::before {
-                display: none;
+                display: none !important;
             }
             &::marker {
                 color: $red;
@@ -273,7 +273,7 @@ body.article article {
     }
 
     .sketchfab-embed-wrapper .preview,
-    .deepzoom-preview {
+    .deepzoom-preview, .print-only-preview {
         display: block;
     }
 
