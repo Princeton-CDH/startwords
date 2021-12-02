@@ -22,7 +22,7 @@ Each year, we listen to the melodies of “Lift Every Voice and Sing” and eat 
 
 We started this event from scratch in 2017. By the time we held our events at Howard University in 2020, we felt like we’d attained some momentum with our team members at the University of Delaware, Princeton’s Center for Digital Humanities, and the Center for Digital Black Research at Penn State.[^2]
 
-{{< youtube -SpanvQZhVI >}}
+{{< youtube id="-SpanvQZhVI" title="Douglass Day 2020 - Highlights" class="youtube">}}
 
 ## Adjusting During the COVID-19 Pandemic
 
@@ -30,7 +30,7 @@ Then the COVID-19 pandemic arrived. We had lessons for building community from y
 
 Crucially, we connected with Lauren Algree and Carlyn Osborn at *[By The People](https://crowd.loc.gov/)*—a Library of Congress project—to feature their campaign transcribing the papers of Mary Church Terrell, a groundbreaking Black feminist educator, activist, intellectual, and writer.
 
-In the end, we managed to hold an event in February 2021 that retained the best parts of our past celebrations through lots of perseverance and creativity.  
+In the end, we managed to hold an event in February 2021 that retained the best parts of our past celebrations through lots of perseverance and creativity.
 
 This snippet serves as a reflection on that transition. We’re sharing our hard-won lessons to help any others who might face similar challenges while hosting virtual and accessible events that foster ethical communities.
 
@@ -47,22 +47,44 @@ Launching our social media campaign early on helped attract attention to the eve
 *******
 
 {{< tweet 1446478999287439372 >}}
-
 {{< tweet 1360301729451962376 >}}
-
 {{< tweet 1360976957337456641 >}}
-
 {{< tweet 1361014486589706249 >}}
-
 {{< tweet 1361039589914382344 >}}
-
 {{< tweet 1361042468469432321 >}}
+
+{{< wrap class="txt-only" >}}
+    Save the Date for Douglass Day 2022!
+
+    Help us find the names of Black women in the Colored Conventions. Where did they go?
+
+    Registration is now open. Sign up for updates & more! https://t.co/nbxI9l1lGT pic.twitter.com/5bz5fRQVLR
+    — Douglass Day (@DouglassDayorg) October 8, 2021
+
+    Picked @joythebaker ‘s excellent chocolate-peanut butter pretzel layer cake for #TheGreatDouglassDayBakeOff #DouglassDay @CCP_org @DouglassDayorg @DigBlk pic.twitter.com/lElhFccO1f
+    — Anna Lacy (@Anna_E_Lacy) February 12, 2021
+
+    Here’s our family’s little #DouglassDay cake (and art project). pic.twitter.com/azzJnIReHv
+    — Dr. Brigitte Fielder (@BrigField) February 14, 2021
+
+    #DouglassDay bakeoff! This flourless chocolate wave cake by @clairesaffitz pairs really well with a good book like @alisonmparker1’s #MaryChurchTerrell bio UNCEASING MILITANT. pic.twitter.com/02RCvBZQ9n
+    — Debbie Gershenowitz (@DGershenowitz) February 14, 2021
+
+    #DouglassDay #GreatDouglassDayBakeoff got a little carried away this year pic.twitter.com/inppgsFemp
+    — Hannah Alpert-Abrams 🤖✊🔮 (@hralperta) February 14, 2021
+
+    “Power concedes nothing without a demand.” Happy #DouglassDay! @CCP_org @librarycongress “If there is no struggle, there is no freedom.” -FD pic.twitter.com/EM9CtUxDwq
+    — Pierce Stanley (@piercestanley) February 14, 2021
+
+{{</ wrap >}}
 
 *******
 
 Amid the pandemic, we recognized that not all of our participants used social media so we expanded our newsletter. Our response rate was higher than on social media. We sent out regular reminders and resources, including a consistent timeline, visual aesthetic, and recurring thematic framing.
 
-{{< youtube id="1yXr9w_rZQw" title="What is transcription? What is reviewing?" >}}
+{{< youtube id="1yXr9w_rZQw" title="What is transcription? What is reviewing?" class="youtube" >}}
+
+
 
 ## Our Results
 
@@ -71,20 +93,42 @@ Making Douglass Day more accessible resulted in our largest Douglass Day audienc
 *******
 
 {{< tweet 1362815605502541828 >}}
-
 {{< tweet 1360291342245638144 >}}
-
 {{< tweet 1360300654254825476 >}}
-
 {{< tweet 1360640085704773635 >}}
-
 {{< tweet 1360287523004706821 >}}
-
 {{< tweet 1361075881662443526 >}}
-
 {{< tweet 1360300366256955392 >}}
-
 {{< tweet 1361043422933614597 >}}
+
+{{< wrap class="txt-only" >}}
+    One week of #DouglassDay 2021 celebrations down:
+
+    How it started How it’s going pic.twitter.com/QiVBzriEu6
+    — Douglass Day (@DouglassDayorg) February 19, 2021
+
+    #DouglassDay. I am transcribing Terrell's introduction to Phillis Wheatley as part of her fundraising effort to build a campsite for Black girls. Love to see familiar names coming across in her writing. pic.twitter.com/YX5tL2qmDP
+    — Jewon Woo 우제원 (@ClevelandKimchi) February 12, 2021
+
+    Delighted that I got to transcribe some praise for Mary Church Terrell's work on behalf of Black students for #DouglassDay pic.twitter.com/Nx9Q1pK4M4
+    — Dr. Brigitte Fielder (@BrigField) February 12, 2021
+
+    Was excited to be able to spend a little time transcribing and reviewing materials from the Mary Church Terrell Papers this morning as part of #DouglassDay! Already over 800 pages transcribed & over 1,000 awaiting review! Login, learn, & help make history more accessible! https://t.co/vfErotRZxI pic.twitter.com/yECThRILqV
+    — Trevor Owens 💾🗄🕚 (@tjowens) February 13, 2021
+
+    Helping transcribe the papers of Mary Church Terrell for the #DouglassDay Transcribe-A-Thon with other folks from @FIULibraries / @FIU_Digital_Lib pic.twitter.com/Jl0w61avP3
+    — Dan Royles🗽 (@danroyles) February 12, 2021
+
+    I celebrated #DouglassDay by transcribing this very sweet acrostic poem written about Mary Church Terrell by Revered Walter H. Brooks < 3 @DouglassDayorg pic.twitter.com/GOmygO2gLX
+    — Dr. Kristin Moriah (@DarkStars__) February 14, 2021
+
+    A joy to be participating in #DouglassDay today with @DouglassDayorg @DigBlk and @ihr_asu — Here is a screenshot of the work I'm transcribing from Mary Church Terrell's papers about the Textbook Controversy. My favorite line is highlighted. #digitalhumanities #ASUhumanities pic.twitter.com/aOTwT1CH8z
+    — celina.osuna (@celina_osuna_) February 12, 2021
+
+    Here's the announcement for Mary Church Terrell's 1899 re-election as President of the National Association of Colored Women. There's more stuff to transcribe for #DouglassDay so go find some cool stuff! (It's fun & super easy to do participate via the @librarycongress website.) https://t.co/d4RytTLsys pic.twitter.com/Ut2mPMntay
+    — Dr. Brigitte Fielder (@BrigField) February 14, 2021
+
+{{</ wrap >}}
 
 [^1]: For more about the history of these Douglass Day celebrations, see our website: https://douglassday.org/history-of-douglass-day/.
 
