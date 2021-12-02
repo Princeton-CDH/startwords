@@ -171,6 +171,29 @@ Other approaches for data representation and interpretation include:
 
 [view source](layouts/shortcodes/wrap.html)
 
+### video
+
+Use to wrap an embedded video with an image for preview in PDF / print view.
+
+Desired video content should be placed _inside_ the video shortcode and may use existing Hugo shortcodes.
+
+Example use:
+```
+{{< video youtube_id="-SpanvQZhVI" >}}
+  {{< youtube id="-SpanvQZhVI" title="Douglass Day 2020 - Highlights" >}}
+{{< /video >}}
+```
+
+#### parameters
+
+- `youtube_id` youtube id, if embedding a youtube video: used to generate the default preview image
+- `pdf-img`, path to preview image for display in the pdf
+- `pdf-alt`, alternate text for the still image (optional)
+
+Either `pdf-img` or `youtube_id` should be specified.
+
+[view source](layouts/shortcodes/video.html)
+
 ## Generating PDFs
 
 PDF versions of feature articles should be created with [paged.js](https://pagedjs.org/) from the production site so that URLs are correct.
