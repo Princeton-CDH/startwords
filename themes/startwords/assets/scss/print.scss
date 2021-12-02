@@ -269,7 +269,8 @@ h2:first-child {
 body.article article {
     .sketchfab-embed-wrapper iframe,
     .video-embed-wrapper iframe,
-    .deepzoom {
+    .video-embed-wrapper > div,
+    .deepzoom, .kaltura {
         display: none;
     }
 
