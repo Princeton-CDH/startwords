@@ -15,6 +15,7 @@ images: ["issues/2/serendipity-in-the-cairo-geniza/images/serendipity-social.jpg
 
 Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the *Scribes of the Cairo Geniza* and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference *Crowdsourcing and the Humanities* and discover that they had already been collaborating anonymously via the *Scribes of the Cairo Geniza* site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.
 
+{{< video pdf-img="images/video-preview.png" >}}
 <script src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/14292362/partner_id/1449362"></script>
 <div id="kaltura_player_1621444219" class="kaltura"></div>
 <script>
@@ -30,6 +31,7 @@ kWidget.embed({
   "entry_id": "1_w2r5byk1"
 });
 </script>
+{{< /video >}}
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩

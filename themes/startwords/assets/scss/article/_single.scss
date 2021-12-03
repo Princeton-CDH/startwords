@@ -167,6 +167,13 @@ body.article {
         width: 100%;
     }
 
+    .video-embed-wrapper {
+        .preview {
+            display: none;
+            max-width: 100%;
+        }
+    }
+
     .deepzoom-preview {
         display: none;
         max-width: 100%;
