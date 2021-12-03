@@ -283,13 +283,38 @@ iframe {
 }
 
 .twitter-tweet {
-    page-break-inside: avoid;
+    // page-break-inside: avoid;
+    /* disabling and using images because tweets do not render well */
+    display: none !important;  /* override twitter inline styles */
 }
 
 /* display groups of tweets at half-width in two columns */
-.tweet-group {
+.tweet-group, .tweet-group.print-only-preview {
+    /* grid not supported by paged.js and other print css tools */
+    /*
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+    justify-content: space-between; */
+
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-between;
+
+    // .twitter-tweet {
+    a {
+        width: 48%;
+        display: inline-block;
+
+        img {
+            /* image should take up full width of the half-width link */
+            width: 100%;
+        }
+
+        &:nth-child(odd) {
+            margin-right: 10px;
+        }
+    }
 }

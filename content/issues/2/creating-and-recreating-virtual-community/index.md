@@ -47,14 +47,22 @@ This process of rethinking our outreach transformed our use of online communicat
 Launching our social media campaign early on helped attract attention to the event and prepare our audiences for theour redesigned formatevent. We also created new hashtags, such as our #GreatDouglassDayBakeoff.
 
 *******
-{{< wrap class="tweet-group" >}}
 {{< tweet 1446478999287439372 >}}
 {{< tweet 1360301729451962376 >}}
 {{< tweet 1360976957337456641 >}}
 {{< tweet 1361014486589706249 >}}
 {{< tweet 1361039589914382344 >}}
 {{< tweet 1361042468469432321 >}}
+
+{{< wrap class="tweet-group print-only-preview" >}}
+[![screenshot of tweet from Douglass Day](images/tweetA1.png)](https://twitter.com/DouglassDayorg/status/1446478999287439372)
+[![screenshot of tweet from Anna Lacy](images/tweetA2.png)](https://twitter.com/Anna_E_Lacy/status/1360301729451962376)
+[![screenshot of tweet from Dr. Brigitte Fielder](images/tweetA3.png)](https://twitter.com/BrigField/status/1360976957337456641)
+[![screenshot of tweet from Debbie Gershenowitz](images/tweetA4.png)](https://twitter.com/DGershenowitz/status/1361014486589706249)
+[![screenshot of tweet from Hannah Alpert-Abrams](images/tweetA5.png)](https://twitter.com/hralperta/status/1361039589914382344)
+[![screenshot of tweet from Pierce Stanley](images/tweetA6.png)](https://twitter.com/piercestanley/status/1361042468469432321)
 {{< /wrap >}}
+
 {{< wrap class="txt-only" >}}
     Save the Date for Douglass Day 2022!
 
@@ -93,7 +101,6 @@ Amid the pandemic, we recognized that not all of our participants used social me
 Making Douglass Day more accessible resulted in our largest Douglass Day audience ever. We had over 7,000 attendees, including K-12 teachers, students, professors, librarians, local organizers, graduate students, groups, historic Black sororities, civic groups, and individual participants. It would not have been possible if we had not integrated the needs of our communities into our process of creating a virtual community. We will take these lessons to our future celebrations to expand the hybrid possibilities for developing our communities around these digital projects.
 
 *******
-{{< wrap class="tweet-group" >}}
 {{< tweet 1362815605502541828 >}}
 {{< tweet 1360291342245638144 >}}
 {{< tweet 1360300654254825476 >}}
@@ -102,7 +109,18 @@ Making Douglass Day more accessible resulted in our largest Douglass Day audienc
 {{< tweet 1361075881662443526 >}}
 {{< tweet 1360300366256955392 >}}
 {{< tweet 1361043422933614597 >}}
+
+{{< wrap class="tweet-group print-only-preview" >}}
+[![screenshot of tweet from Douglass Day](images/tweetB1.png)](https://twitter.com/DouglassDayorg/status/1362815605502541828)
+[![screenshot of tweet from Jewon Woo 우제원](images/tweetB2.png)](https://twitter.com/ClevelandKimchi/status/1360291342245638144)
+[![screenshot of tweet from Dr. Brigitte Fielder](images/tweetB3.png)](https://twitter.com/BrigField/status/1360300654254825476)
+[![screenshot of tweet from Trevor Owens](images/tweetB4.png)](https://twitter.com/tjowens/status/1360640085704773635)
+[![screenshot of tweet from  Dan Royles](images/tweetB5.png)](https://twitter.com/DarkStars__/status/1361075881662443526)
+[![screenshot of tweet from Dr. Kristin Moriah](images/tweetB6.png)](https://twitter.com/DarkStars__/status/1361075881662443526)
+[![screenshot of tweet from celina.osuna](images/tweetB7.png)](https://twitter.com/celina_osuna_/status/1360300366256955392)
+[![screenshot of tweet from Dr. Brigitte Fielder](images/tweetB8.png)](https://twitter.com/BrigField/status/1361043422933614597)
 {{< /wrap >}}
+
 {{< wrap class="txt-only" >}}
     One week of #DouglassDay 2021 celebrations down:
 
