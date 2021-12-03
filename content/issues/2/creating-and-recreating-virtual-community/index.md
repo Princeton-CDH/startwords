@@ -22,12 +22,9 @@ Each year, we listen to the melodies of “Lift Every Voice and Sing” and eat 
 
 We started this event from scratch in 2017. By the time we held our events at Howard University in 2020, we felt like we’d attained some momentum with our team members at the University of Delaware, Princeton’s Center for Digital Humanities, and the Center for Digital Black Research at Penn State.[^2]
 
-
 {{< video youtube_id="-SpanvQZhVI" >}}
   {{< youtube id="-SpanvQZhVI" title="Douglass Day 2020 - Highlights" >}}
 {{< /video >}}
-
-
 
 ## Adjusting During the COVID-19 Pandemic
 
@@ -50,14 +47,14 @@ This process of rethinking our outreach transformed our use of online communicat
 Launching our social media campaign early on helped attract attention to the event and prepare our audiences for theour redesigned formatevent. We also created new hashtags, such as our #GreatDouglassDayBakeoff.
 
 *******
-
+{{< wrap class="tweet-group" >}}
 {{< tweet 1446478999287439372 >}}
 {{< tweet 1360301729451962376 >}}
 {{< tweet 1360976957337456641 >}}
 {{< tweet 1361014486589706249 >}}
 {{< tweet 1361039589914382344 >}}
 {{< tweet 1361042468469432321 >}}
-
+{{< /wrap >}}
 {{< wrap class="txt-only" >}}
     Save the Date for Douglass Day 2022!
 
@@ -96,7 +93,7 @@ Amid the pandemic, we recognized that not all of our participants used social me
 Making Douglass Day more accessible resulted in our largest Douglass Day audience ever. We had over 7,000 attendees, including K-12 teachers, students, professors, librarians, local organizers, graduate students, groups, historic Black sororities, civic groups, and individual participants. It would not have been possible if we had not integrated the needs of our communities into our process of creating a virtual community. We will take these lessons to our future celebrations to expand the hybrid possibilities for developing our communities around these digital projects.
 
 *******
-
+{{< wrap class="tweet-group" >}}
 {{< tweet 1362815605502541828 >}}
 {{< tweet 1360291342245638144 >}}
 {{< tweet 1360300654254825476 >}}
@@ -105,7 +102,7 @@ Making Douglass Day more accessible resulted in our largest Douglass Day audienc
 {{< tweet 1361075881662443526 >}}
 {{< tweet 1360300366256955392 >}}
 {{< tweet 1361043422933614597 >}}
-
+{{< /wrap >}}
 {{< wrap class="txt-only" >}}
     One week of #DouglassDay 2021 celebrations down:
 

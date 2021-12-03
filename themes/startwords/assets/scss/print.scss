@@ -123,7 +123,7 @@ main {
         padding: 0;
     }
 
-    h2, section.footnotes {
+    section.footnotes {
         page-break-before: always;
     }
 
@@ -143,7 +143,6 @@ main {
     h2 {
         font-size: 14px;
         line-height: 21px;
-        width: 2.1in;
     }
 
     h3 {
@@ -260,11 +259,6 @@ h4 { bookmark-level: 4; }
 h5 { bookmark-level: 5; }
 h6 { bookmark-level: 6; }
 
-/* if there is a h2 to start the article, no page break before it! */
-h2:first-child {
-    page-break-before: avoid;
-}
-
 /* sketchfab embed & deep zoom do not render in PDF; use previews instead */
 body.article article {
     .sketchfab-embed-wrapper iframe,
@@ -290,5 +284,12 @@ iframe {
 
 .twitter-tweet {
     page-break-inside: avoid;
-    // width: 75% !important;
+}
+
+/* display groups of tweets at half-width in two columns */
+.tweet-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    justify-content: space-between;
 }
