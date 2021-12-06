@@ -73,10 +73,7 @@ Bill Endres writes that “building faces the challenge of not being writing.”
 
 A straightforward solution is to create an on-screen keyboard for the user. In this example, we create a Japanese keyboard with 5 characters. Clicking on each button/“keyboard key” adds the corresponding character to the end of the text input field.
 
-{{< wrap class="sidenote" >}}
-Note: we’re using the Japanese hiragana characters あいうえお here because they map easily to the English characters AIUEO, and are written left to right. We’ll build up to more complex alphabets, such as Hebrew and its right-to-left layout, in later sections.
-{{</ wrap >}}
-
+*Note: we’re using the Japanese hiragana characters あいうえお here because they map easily to the English characters AIUEO, and are written left to right. We’ll build up to more complex alphabets, such as Hebrew and its right-to-left layout, in later sections.*
 
 <iframe id="kb-s02" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html"></iframe>
 
