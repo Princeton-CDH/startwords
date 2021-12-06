@@ -76,6 +76,7 @@
 
     body.article iframe {
         width: 95%;
+        margin-bottom: 0;
     }
 }
 
@@ -90,9 +91,15 @@
 }
 
 @media print {
-    #kb-s01 { height: 180px; }
-    #kb-s02, #kb-s03, #kb-s04 { height: 240px; }
-    #kb-s05, #kb-s06, #kb-s07 { height: 350px; }
-    #kb-s08 { height: 440px; }
-    #kb-s09 { height: 480px; }
+    body.article iframe {
+        overflow: hidden;
+        width: 99%;
+        margin: 0;
+    }
+    #kb-s01 { max-height: 220px; }
+    #kb-s02, #kb-s03, #kb-s04 { max-height: 280px; }
+    #kb-s05 { max-height: 375px; }
+    #kb-s06, #kb-s07 { max-height: 405px; }
+    #kb-s08 { max-height: 490px; }
+    #kb-s09 { max-height: 530px; }
 }
