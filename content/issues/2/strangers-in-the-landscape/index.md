@@ -2,7 +2,7 @@
 type: article
 slug: 'strangers-in-the-landscape'
 title: |
-  "Strangers in the Landscape": On Research Development and Making Things for Making
+  “Strangers in the Landscape”: On Research Development and Making Things for Making
 order: 1
 authors:
     - Samantha Blickhan
