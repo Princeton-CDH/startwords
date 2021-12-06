@@ -1,3 +1,11 @@
+/* custom sidenote code */
+
+.sidenote {
+    font-size: small;
+    font-style: normal;
+}
+
+
 /* custom interlude code */
 
 .interlude {
@@ -95,6 +103,9 @@
         overflow: hidden;
         width: 99%;
         margin: 0;
+    }
+    body.article article ol, body.article article ul {
+        line-height: 1rem;
     }
     #kb-s01 { max-height: 220px; }
     #kb-s02, #kb-s03, #kb-s04 { max-height: 280px; }
