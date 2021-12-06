@@ -301,9 +301,7 @@ Since we’re only interested in creating a functional on-screen keyboard, we on
 
 *Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI interactions. For example, in the text input field below, using your mouse, try to highlight the word APPLE plus one character before it and one character after it, i.e. "הAPPLEן". Good luck!*
 
-<p>
 <input type="text" value="הגדלAPPLEהקטןBANANAסובב" style="font-size: 1.5em; color: #666; width:80%; margin: 0 auto; display: block;">
-</p>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
