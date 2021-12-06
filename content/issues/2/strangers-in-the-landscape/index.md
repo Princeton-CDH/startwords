@@ -40,6 +40,11 @@ Let's start by setting up a very basic web form. It has one text input field, on
 <iframe id="kb-s01" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-01.html"></iframe>
 
 Everything we build from this point onwards is meant to solve one very simple problem: **how do we allow users to type, into that text input field, in a language that's not native to their keyboard?** For example, how do we help a user type in the text "ごはんを食べる" when they only have a US-International QWERTY keyboard, and we don’t want to ask them to futz about in their computer settings to install a Japanese language pack?
+
+{{< wrap class="print-only-preview" >}}
+*The online version of this essay includes interactive keyboards threaded throughout the text.*
+{{</ wrap >}}
+
 {{</ wrap >}}
 
 {{</ wrap >}}
@@ -51,9 +56,6 @@ Everything we build from this point onwards is meant to solve one very simple pr
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-{{< wrap class="print-only-preview" >}}
-*The online version of this essay includes interactive keyboards threaded throughout the text.*
-{{</ wrap >}}
 
 
 ## Communal Making and Collective Building
