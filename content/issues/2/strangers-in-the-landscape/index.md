@@ -164,15 +164,11 @@ In this example, when the user presses the "A" key on their keyboard, the Japane
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-{{< wrap class="sidenote" >}}
-If you have an on-screen keyboard AND you're capturing physical key input, it’s a good idea to label those on-screen keyboard buttons with the corresponding physical keys.
-{{</ wrap >}}
+*If you have an on-screen keyboard AND you're capturing physical key input, it’s a good idea to label those on-screen keyboard buttons with the corresponding physical keys.*
 
 One of the biggest considerations here is **what kind of physical keyboard does your user have?** In our examples, we’re making a very hard assumption that all our users have US-International QWERTY keyboards, and we choose to map *physical keyboard keys* to their replacement characters.
 
-{{< wrap class="sidenote" >}}
-Note: there are different ways to get what the user typed into a text field. keyboardEvent.code corresponds to the PHYSICAL key on the keyboard. keyboardEvent.key corresponds to the TEXT VALUE of the key. If a user presses the “A” key on a US-International QWERTY keyboard, we get code=‘KeyA,’ and key=‘a’ (if shift and caps lock are off) or key=‘A’ (if shift and caps lock are on).
-{{</ wrap >}}
+*Note: there are different ways to get what the user typed into a text field. keyboardEvent.code corresponds to the PHYSICAL key on the keyboard. keyboardEvent.key corresponds to the TEXT VALUE of the key. If a user presses the “A” key on a US-International QWERTY keyboard, we get code=‘KeyA,’ and key=‘a’ (if shift and caps lock are off) or key=‘A’ (if shift and caps lock are on).*
 
 **WARNING:** Now that we know how to capture and replace keyboard input, we also need to learn when not to do so. Sometimes, when a user presses the “A” key, they just want to type in the character “A,” not “あ”! **Always allow your users the option to disable your on-screen keyboard.** The example above has no such option, but we'll explore how we can do this once we jump into the “multi-language” functionality of our onscreen keyboard.
 
@@ -264,9 +260,8 @@ To illustrate this point, we’ve added a joke "Emoji keyboard" that maps QWERTY
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-{{< wrap class="sidenote" >}}
-Note: there is an option to select “(No keyboard)” here, which disables the on-screen keyboard as well as key capture. As mentioned earlier, **always allow your users the option to disable your on-screen keyboard.**
-{{</ wrap >}}
+
+*Note: there is an option to select “(No keyboard)” here, which disables the on-screen keyboard as well as key capture. As mentioned earlier, **always allow your users the option to disable your on-screen keyboard.***
 
 At this point, you might realize one limitation to our solution: our code simply re-maps the QWERTY keyboard, so we can only have one character for one key.
 
@@ -307,9 +302,7 @@ As a result, we must be conscientious when we create on-screen keyboards for lan
 
 Since we’re only interested in creating a functional on-screen keyboard, we only modified the CSS direction of the text input field. On the other hand, if you’re creating, for example, a whole website that supports both LTR and RTL languages, then you need to be conscientious about the layout of your entire website, and whether that layout needs to be flipped along the horizontal axis to make sense to RTL readers.
 
-{{< wrap class="sidenote" >}}
-Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI interactions. For example, in the text input field below, using your mouse, try to highlight the word APPLE plus one character before it and one character after it, i.e. "הAPPLEן". Good luck!
-{{</ wrap >}}
+*Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI interactions. For example, in the text input field below, using your mouse, try to highlight the word APPLE plus one character before it and one character after it, i.e. "הAPPLEן". Good luck!*
 
 <p>
 <input type="text" value="הגדלAPPLEהקטןBANANAסובב" style="font-size: 1.5em; color: #666; width:80%; margin: 0 auto; display: block;">
@@ -375,9 +368,7 @@ In our example below, we’ve added the “Yemenite Square” visual script refe
 
 The actual hard work comes in two parts. First, it requires a human hand to create the reference image JPEG for each style of script, and to ensure it has a consistent layout. Second, ther’'s a one-off upfront development cost to map the visuals to the data. We found that this early investment is well worth it when we get into the next section.
 
-{{< wrap class="sidenote" >}}
-For our project, we decided to put every character of the “Yemenite Square” Hebrew script into a single image file (i.e. as opposed to having dozens of image files, one for each character) and used a CSS technique called “image sprites” to separate each character when needed. For example, when we want to show the ‘Alef’ א character (top row, right-most column) we tell the code to “crop” the image at x=440px y=0px width=50px height=50px.
-{{</ wrap >}}
+*For our project, we decided to put every character of the “Yemenite Square” Hebrew script into a single image file (i.e. as opposed to having dozens of image files, one for each character) and used a CSS technique called “image sprites” to separate each character when needed. For example, when we want to show the ‘Alef’ א character (top row, right-most column) we tell the code to “crop” the image at x=440px y=0px width=50px height=50px.*
 
 {{< figure src="images/yemenite-square.jpg" alt="A chart showing individual cropped Hebrew characters in Yemenite Square script." caption="Visual Hebrew script reference for Yemenite Square." >}}
 {{< wrap class="txt-only" >}}
@@ -425,9 +416,7 @@ In the example below, you’ll see that we’ve added **six new Hebrew scripts,*
 
 While it’s now trivial to add new scripts from a code perspective, please remember that it still takes a considerable amount of effort to create each individual script’s JPEG. (So developers, please remember to thank the people who’ve been scanning the manuscripts, manually identifying the handwritten characters, and putting them into a nice image file for us.)
 
-{{< wrap class="sidenote" >}}
-Below, you can see three different Hebrew scripts that we used. You’ll note that while we made an effort to keep the visual layout, character position, and character size consistent across every style of script, some scripts are missing certain characters. For example, both Maghrebi Cursive and Byzantine Miniscule don’t have a visual reference for the “elongated Kaf” ך character. In these cases, we simply didn’t have a visual reference from the source.
-{{</ wrap >}}
+*Below, you can see three different Hebrew scripts that we used. You’ll note that while we made an effort to keep the visual layout, character position, and character size consistent across every style of script, some scripts are missing certain characters. For example, both Maghrebi Cursive and Byzantine Miniscule don’t have a visual reference for the “elongated Kaf” ך character. In these cases, we simply didn’t have a visual reference from the source.*
 
 {{< figure src="images/yemenite-square.jpg" alt="A chart showing individual cropped Hebrew characters in Yemenite Square script." caption="Visual Hebrew script reference for Yemenite Square." >}}
 {{< wrap class="txt-only" >}}
