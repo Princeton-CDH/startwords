@@ -1,8 +1,10 @@
 /* custom sidenote code */
 
 .sidenote {
-    font-size: small;
-    font-style: normal;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
 }
 
 
