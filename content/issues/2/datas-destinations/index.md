@@ -6,7 +6,7 @@ title: |
 order: 2
 authors:
     - Victoria Anne Van Hyning
-    - Mason Alexander Jones
+    - Mason A. Jones
 date: 2021-12-01
 doi: 10.5281/zenodo.5750691
 pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link

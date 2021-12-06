@@ -30,7 +30,7 @@ We started this event from scratch in 2017. By the time we held our events at Ho
 
 Then the COVID-19 pandemic arrived. We had lessons for building community from years past. Yet even though we had been livestreaming and tweeting since 2017, we had few models for building a virtual, distanced community. We spent months of difficult planning to adapt our previous model into a virtual format.
 
-Crucially, we connected with Lauren Algree and Carlyn Osborn at *[By The People](https://crowd.loc.gov/)*—a Library of Congress project—to feature their campaign transcribing the papers of Mary Church Terrell, a groundbreaking Black feminist educator, activist, intellectual, and writer.
+Crucially, we connected with Lauren Algee and Carlyn Osborn at *[By The People](https://crowd.loc.gov/)*—a Library of Congress project—to feature their campaign transcribing the papers of Mary Church Terrell, a groundbreaking Black feminist educator, activist, intellectual, and writer.
 
 In the end, we managed to hold an event in February 2021 that retained the best parts of our past celebrations through lots of perseverance and creativity.
 
