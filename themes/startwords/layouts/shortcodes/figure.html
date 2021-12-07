@@ -10,7 +10,7 @@
 {{ $large_w := default "1500x" }}
 {{ $huge_w := default "1800x" }}
 
-{{/* generate derviatives for output in srcset */}} 
+{{/* generate derviatives for output in srcset */}}
 {{ if (not (or $svg $gif))  }}
 {{ .Scratch.Set "tiny" ($img.Resize $tiny_w) }}
 {{ .Scratch.Set "small" ($img.Resize $small_w) }}
@@ -19,7 +19,7 @@
 {{ .Scratch.Set "huge" ($img.Resize $huge_w) }}
 {{ end }}
 
-<figure{{ with .Get "desc-id" }} aria-describedby="{{ . }}"{{ end }}>
+<figure{{ with .Get "desc-id" }} aria-describedby="{{ . }}"{{ end }} {{ with .Get "class" }}class="{{ . }}"{{ end }}>
     {{- if (or $svg $gif) -}}
     <img loading="lazy" alt="{{ .Get `alt` }}"{{ with .Get `max-height` }} style="max-height: {{ . }}"{{ end }} src="{{ $img.RelPermalink }}"{{ if $svg }} role="img"{{ end }}>
     {{- else -}}

@@ -108,6 +108,10 @@ body {
         }
 
         figcaption { font-size: 12px; }
+
+        figure {
+            page-break-inside: avoid;
+        }
     }
 }
 
@@ -123,7 +127,7 @@ main {
         padding: 0;
     }
 
-    section.footnotes {
+    section.footnotes, .force-page-break {
         page-break-before: always;
     }
 

@@ -91,7 +91,7 @@ Meanwhile, as more and more of these fragments turned up and added to my collect
 
 **Matthew:** Likewise, when I mentioned the *Scribes* user "Citsci-Rancho'' during our panel discussion I had hoped they might be watching the panel or eventually see the recording. The serendipity of being able to collaborate on and to answer these questions is a rare opportunity. The seal you included in the register collection is crucial for two reasons. Its significance lies, firstly, in the dating– where the Hijrī year ١١٧٧/1177 AH or 1763/64 CE is visible (in purple):[^10]
 
-{{< figure src="images/Startwords_Matthew_Steffy_ENA624_20 cropped.jpg" alt="A faded ink stamp behind script" caption="Image 2. [Subject 12499254](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499254) (ENA 624.20, Library of the Jewish Theological Seminary) Ink stamp on recycled paper includes Hijrī year ١١٧٧/1177AH." >}}
+{{< figure src="images/Startwords_Matthew_Steffy_ENA624_20 cropped.jpg" max-height="250px" alt="A faded ink stamp behind script" caption="Image 2. [Subject 12499254](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499254) (ENA 624.20, Library of the Jewish Theological Seminary) Ink stamp on recycled paper includes Hijrī year ١١٧٧/1177AH." >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A faded ink stamp behind script

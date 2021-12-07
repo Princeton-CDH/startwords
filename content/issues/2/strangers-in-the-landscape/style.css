@@ -96,10 +96,15 @@
         width: 99%;
         margin: 0;
     }
+    body.article article ol, body.article article ul {
+        line-height: 1rem;
+    }
     #kb-s01 { max-height: 220px; }
     #kb-s02, #kb-s03, #kb-s04 { max-height: 280px; }
     #kb-s05 { max-height: 375px; }
-    #kb-s06, #kb-s07 { max-height: 405px; }
+    #kb-s06 { max-height: 405px; }
+    /* This height is necessary for kb-s07 so that input is not cutoff */
+    #kb-s07 { max-height: 390px; }
     #kb-s08 { max-height: 490px; }
     #kb-s09 { max-height: 530px; }
 }
