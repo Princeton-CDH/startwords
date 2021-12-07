@@ -183,7 +183,7 @@ As the content specialists solidified their goals and worked with our team to de
 
 We didn’t need to start from scratch. *Ancient Lives* provided a shared reference on which to build. Which parts of that interface were successful? What made the use cases in *Scribes* unique and therefore required a rethinking of the user experience? What other transcription projects existed online that could provide inspiration for our task? These questions helped shape initial design sketches for the transcription workflow and text input area.
 
-{{< figure src="images/02_CG-interface3.jpeg" alt="ALT" caption="An early sketch of the Scribes of the Cairo Geniza transcription interface." attr="By designer Becky Rother." >}}
+{{< figure src="images/02_CG-interface3.jpeg" alt="A photo of an open notebook showing sketches of a web page, toolbar icons, and handwritten notes." caption="An early sketch of the Scribes of the Cairo Geniza transcription interface." attr="By designer Becky Rother." >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A photo of an open notebook showing sketches of a web page, toolbar icons, and handwritten notes.
