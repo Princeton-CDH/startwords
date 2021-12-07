@@ -2,7 +2,7 @@
 type: article
 slug: 'strangers-in-the-landscape'
 title: |
-  "Strangers in the Landscape": On Research Development and Making Things for Making
+  “Strangers in the Landscape”: On Research Development and Making Things for Making
 order: 1
 authors:
     - Samantha Blickhan
@@ -73,7 +73,7 @@ Bill Endres writes that “building faces the challenge of not being writing.”
 
 A straightforward solution is to create an on-screen keyboard for the user. In this example, we create a Japanese keyboard with 5 characters. Clicking on each button/“keyboard key” adds the corresponding character to the end of the text input field.
 
-Note: we’re using the Japanese hiragana characters あいうえお here because they map easily to the English characters AIUEO, and are written left to right. We’ll build up to more complex alphabets, such as Hebrew and its right-to-left layout, in later sections.
+*Note: we’re using the Japanese hiragana characters あいうえお here because they map easily to the English characters AIUEO, and are written left to right. We’ll build up to more complex alphabets, such as Hebrew and its right-to-left layout, in later sections.*
 
 <iframe id="kb-s02" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-02.html"></iframe>
 
@@ -90,7 +90,7 @@ The code here is simple, but we already come across a problem: what if the user 
 {{</ wrap >}}
 {{</ wrap >}}
 
-It can help to identify shared frames of reference early in the collaboration. The original proposal for the project that would become *Scribes of the Cairo Geniza* envisioned a public transcription effort that would teach volunteers “without any prerequisite knowledge” how to transcribe the Arabic and Hebrew scripts found in the Geniza. It cited a previous Zooniverse project, [*Ancient Lives*](https://www.ancientlives.org) (2011),[^10] which featured a clickable keyboard that allowed users to transcribe ancient Greek papyri from the [Oxyrhynchus Collection](https://www.classics.ox.ac.uk/oxyrhynchus-papyri) at the University of Oxford's Sackler Library through the process of character matching. Ancient Lives became an important reference for the entire Geniza project team because it allowed a group of people with a variety of professional backgrounds to engage in referential communication around a shared goal, rather than fumbling together toward an abstract concept. Starting with a critique of an existing resource allowed us to determine the features that were applicable for the context in which we were working—what we wanted to recreate (or revamp) as well as what components were missing that would be key to working with Geniza fragments.
+It can help to identify shared frames of reference early in the collaboration. The original proposal for the project that would become *Scribes of the Cairo Geniza* envisioned a public transcription effort that would teach volunteers “without any prerequisite knowledge” how to transcribe the Arabic and Hebrew scripts found in the Geniza. It cited a previous Zooniverse project, [*Ancient Lives*](https://www.ancientlives.org) (2011),[^10] which featured a clickable keyboard that allowed users to transcribe ancient Greek papyri from the [Oxyrhynchus Collection](https://www.classics.ox.ac.uk/oxyrhynchus-papyri) at the University of Oxford's Sackler Library through the process of character matching. *Ancient Lives* became an important reference for the entire Geniza project team because it allowed a group of people with a variety of professional backgrounds to engage in referential communication around a shared goal, rather than fumbling together toward an abstract concept. Starting with a critique of an existing resource allowed us to determine the features that were applicable for the context in which we were working—what we wanted to recreate (or revamp) as well as what components were missing that would be key to working with Geniza fragments.
 
 To approach the transcription of a large, multilingual corpus by a nonspecialist audience, we needed to think about scaffolding. We began by considering the goals, translating those goals into actionable tasks, then breaking those tasks down to their very smallest unit. This is particularly useful from a project management perspective, where it’s necessary to get a sense of the total effort required—no matter how small the task—to see what can realistically be completed within the available time frame. Additionally, this process can help identify potential conflict in the design and development stages. There will often be overlap in the translation from goals into tasks: the goal of transcribing the Geniza corpus and the goal of making the project accessible by a public, nonspecialist audience are not separate things; indeed, each will significantly impact how the other is carried out. Breaking down the goals helps to identify the places where that overlap will create tension in the work.
 
@@ -161,11 +161,11 @@ In this example, when the user presses the "A" key on their keyboard, the Japane
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-If you have an on-screen keyboard AND you're capturing physical key input, it’s a good idea to label those on-screen keyboard buttons with the corresponding physical keys.
+*If you have an on-screen keyboard AND you're capturing physical key input, it’s a good idea to label those on-screen keyboard buttons with the corresponding physical keys.*
 
 One of the biggest considerations here is **what kind of physical keyboard does your user have?** In our examples, we’re making a very hard assumption that all our users have US-International QWERTY keyboards, and we choose to map *physical keyboard keys* to their replacement characters.
 
-Note: there are different ways to get what the user typed into a text field. keyboardEvent.code corresponds to the PHYSICAL key on the keyboard. keyboardEvent.key corresponds to the TEXT VALUE of the key. If a user presses the “A” key on a US-International QWERTY keyboard, we get code=‘KeyA,’ and key=‘a’ (if shift and caps lock are off) or key=‘A’ (if shift and caps lock are on).
+*Note: there are different ways to get what the user typed into a text field. keyboardEvent.code corresponds to the PHYSICAL key on the keyboard. keyboardEvent.key corresponds to the TEXT VALUE of the key. If a user presses the “A” key on a US-International QWERTY keyboard, we get code=‘KeyA,’ and key=‘a’ (if shift and caps lock are off) or key=‘A’ (if shift and caps lock are on).*
 
 **WARNING:** Now that we know how to capture and replace keyboard input, we also need to learn when not to do so. Sometimes, when a user presses the “A” key, they just want to type in the character “A,” not “あ”! **Always allow your users the option to disable your on-screen keyboard.** The example above has no such option, but we'll explore how we can do this once we jump into the “multi-language” functionality of our onscreen keyboard.
 
@@ -181,7 +181,7 @@ As the content specialists solidified their goals and worked with our team to de
 
 {{<pullquote right `User experience (UX) design relies on common behavioral patterns to help a user feel comfortable in an interface, even when faced with a completely novel situation` >}}
 
-We didn’t need to start from scratch. *Ancient Lives* provided a shared reference on which to build. Which parts of that interface were successful? What made the use cases in Scribes unique and therefore required a rethinking of the user experience? What other transcription projects existed online that could provide inspiration for our task? These questions helped shape initial design sketches for the transcription workflow and text input area.
+We didn’t need to start from scratch. *Ancient Lives* provided a shared reference on which to build. Which parts of that interface were successful? What made the use cases in *Scribes* unique and therefore required a rethinking of the user experience? What other transcription projects existed online that could provide inspiration for our task? These questions helped shape initial design sketches for the transcription workflow and text input area.
 
 {{< figure src="images/02_CG-interface3.jpeg" alt="A photo of an open notebook showing sketches of a web page, toolbar icons, and handwritten notes." caption="An early sketch of the Scribes of the Cairo Geniza transcription interface." attr="By designer Becky Rother." >}}
 {{< wrap class="txt-only" >}}
@@ -257,7 +257,8 @@ To illustrate this point, we’ve added a joke "Emoji keyboard" that maps QWERTY
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-Note: there is an option to select “(No keyboard)” here, which disables the on-screen keyboard as well as key capture. As mentioned earlier, **always allow your users the option to disable your on-screen keyboard.**
+
+*Note: there is an option to select “(No keyboard)” here, which disables the on-screen keyboard as well as key capture. As mentioned earlier, **always allow your users the option to disable your on-screen keyboard.***
 
 At this point, you might realize one limitation to our solution: our code simply re-maps the QWERTY keyboard, so we can only have one character for one key.
 
@@ -298,7 +299,16 @@ As a result, we must be conscientious when we create on-screen keyboards for lan
 
 Since we’re only interested in creating a functional on-screen keyboard, we only modified the CSS direction of the text input field. On the other hand, if you’re creating, for example, a whole website that supports both LTR and RTL languages, then you need to be conscientious about the layout of your entire website, and whether that layout needs to be flipped along the horizontal axis to make sense to RTL readers.
 
-Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI interactions. For example, in the text input field below, using your mouse, try to highlight the word APPLE plus one character before it and one character after it, i.e. "הAPPLEן". Good luck!
+*Fun(?) Note: mixing LTR text with RTL text can lead to extremely confusing UI interactions. For example, in the text input field below, using your mouse, try to highlight the word APPLE plus one character before it and one character after it, i.e. "הAPPLEן". Good luck!*
+
+<input type="text" value="הגדלAPPLEהקטןBANANAסובב" style="font-size: 1.5em; color: #666; width:80%; margin: 0 auto; display: block;">
+
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE COMPONENT.
+| SOURCE CODE: https://github.com/shaunanoordin/zooniverse-startwords/blob/master/index.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 {{</ wrap >}}
 {{</ wrap >}}
@@ -353,7 +363,7 @@ In our example below, we’ve added the “Yemenite Square” visual script refe
 
 The actual hard work comes in two parts. First, it requires a human hand to create the reference image JPEG for each style of script, and to ensure it has a consistent layout. Second, ther’'s a one-off upfront development cost to map the visuals to the data. We found that this early investment is well worth it when we get into the next section.
 
-For our project, we decided to put every character of the “Yemenite Square” Hebrew script into a single image file (i.e. as opposed to having dozens of image files, one for each character) and used a CSS technique called “image sprites” to separate each character when needed. For example, when we want to show the ‘Alef’ א character (top row, right-most column) we tell the code to “crop” the image at x=440px y=0px width=50px height=50px.
+*For our project, we decided to put every character of the “Yemenite Square” Hebrew script into a single image file (i.e. as opposed to having dozens of image files, one for each character) and used a CSS technique called “image sprites” to separate each character when needed. For example, when we want to show the ‘Alef’ א character (top row, right-most column) we tell the code to “crop” the image at x=440px y=0px width=50px height=50px.*
 
 {{< figure src="images/yemenite-square.jpg" alt="A chart showing individual cropped Hebrew characters in Yemenite Square script." caption="Visual Hebrew script reference for Yemenite Square." >}}
 {{< wrap class="txt-only" >}}
@@ -401,7 +411,7 @@ In the example below, you’ll see that we’ve added **six new Hebrew scripts,*
 
 While it’s now trivial to add new scripts from a code perspective, please remember that it still takes a considerable amount of effort to create each individual script’s JPEG. (So developers, please remember to thank the people who’ve been scanning the manuscripts, manually identifying the handwritten characters, and putting them into a nice image file for us.)
 
-Below, you can see three different Hebrew scripts that we used. You’ll note that while we made an effort to keep the visual layout, character position, and character size consistent across every style of script, some scripts are missing certain characters. For example, both Maghrebi Cursive and Byzantine Miniscule don’t have a visual reference for the “elongated Kaf” ך character. In these cases, we simply didn’t have a visual reference from the source.
+*Below, you can see three different Hebrew scripts that we used. You’ll note that while we made an effort to keep the visual layout, character position, and character size consistent across every style of script, some scripts are missing certain characters. For example, both Maghrebi Cursive and Byzantine Miniscule don’t have a visual reference for the “elongated Kaf” ך character. In these cases, we simply didn’t have a visual reference from the source.*
 
 {{< figure src="images/yemenite-square.jpg" alt="A chart showing individual cropped Hebrew characters in Yemenite Square script." caption="Visual Hebrew script reference for Yemenite Square." >}}
 {{< wrap class="txt-only" >}}
@@ -453,11 +463,11 @@ And it worked. An early review of the Sorting workflow data showed that for a ma
 
 [^5]:  The project is led by the University of Pennsylvania Libraries and the Zooniverse team, in collaboration with an international cohort of Geniza researchers and image-sharing partner institutions. For a full list of partners, see https://www.scribesofthecairogeniza.org/about#partners
 
-[^6]: For more about the project goals, see Laura Newman Eckstein, “Of Scribes and Scripts: Citizen Science and the Cairo Genizah,” *Manuscript Studies* 3, no.1 (2018), 208–14;and Emily Esten and Samantha Blickhan,, “Scribes of the Cairo Geniza,” in *Visualizing Objects, Places, and Spaces: A Digital Project Handbook* (2021), https://doi.org/10.21428/51bee781.0afc1687.
+[^6]: For more about the project goals, see Laura Newman Eckstein, “Of Scribes and Scripts: Citizen Science and the Cairo Genizah,” *Manuscript Studies* 3, no.1 (2018), 208–14; and Emily Esten and Samantha Blickhan, “Scribes of the Cairo Geniza,” in *Visualizing Objects, Places, and Spaces: A Digital Project Handbook* (2021), https://doi.org/10.21428/51bee781.0afc1687.
 
-[^7]: IMLS award number LG-71-16-0028-16. For an overview of the project goals, see Victoria Van Hyning, Samantha Blinkhan, Laura Trouille, and Chris Lintott,  “Transforming Libraries and Archives Through Crowdsourcing,” *D-Lib Magazine* 23, nos. 5/6 (2017), https://doi.org/10.1045/may2017-vanhyning.
+[^7]: IMLS award number LG-71-16-0028-16. For an overview of the project goals, see Victoria Van Hyning, Samantha Blickhan, Laura Trouille, and Chris Lintott,  “Transforming Libraries and Archives Through Crowdsourcing,” *D-Lib Magazine* 23, nos. 5/6 (2017), https://doi.org/10.1045/may2017-vanhyning.
 
-[^8]: Scribes also features a clickable modern Arabic keyboard, but this piece will focus on creating the Hebrew keyboards since the majority of the fragments in the project thus far are written in Hebrew.
+[^8]: *Scribes* also features a clickable modern Arabic keyboard, but this piece will focus on creating the Hebrew keyboards since the majority of the fragments in the project thus far are written in Hebrew.
 
 [^9]: Bill Endres, "A Literacy of Building: Making in the Digital Humanities," in *Making Things and Drawing Boundaries: Experiments in the Digital Humanities*, ed. Jentery Sayers (Minneapolis: University of Minnesota Press, 2017), 44.
 
