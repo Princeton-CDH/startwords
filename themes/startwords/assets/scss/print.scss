@@ -105,6 +105,13 @@ body {
             &.right {
                 margin-left: 16px;
             }
+
+            /* when a pull quote falls near a page break,
+              pagedjs pagination renders an empty blockquote, which displays
+              the background framing images; suppress empty pull quotes. */
+            &:empty {
+                display: none;
+            }
         }
 
         figcaption { font-size: 12px; }
