@@ -64,7 +64,7 @@ Studying *solitreo* letter forms—which were more commonly used in writing Jude
 
 The headings of this fragment from Steffy’s collection[^5] were recorded during the weeks of October 7–20 1798 CE–just before the Revolt of Cairo unfolded on October 21–22nd when the city's residents fought to eject the French occupation under the leadership of Napoleon Bonaparte. The Jewish calendar dating appears in the heading of each list and it follows a shared formula throughout this type of communal register:[^6]
 
-{{< figure src="images/Startwords_Matthew_Steffy_ENA624_22_croppedheading.jpg" alt="The image above, cropped to highlight the translation." caption="Image 1.2. Translation of the Upper Heading in Subject 12499256 (ENA 624.22) “עלם מקבוץ סדר נח שנת התקנט לברכה” “Account from [the] collection [during the week] of the seder Noaḥ [biblical reading in] the year 5559, may it be a blessing”">}}
+{{< figure src="images/Startwords_Matthew_Steffy_ENA624_22_croppedheading.jpg" alt="The image above, cropped to highlight the translation." caption="Image 1.2. Translation of the Upper Heading in Subject 12499256 (ENA 624.22) “עלם מקבוץ סדר נח שנת התקנט לברכה” “Account from [the] collection [during the week] of the seder Noaḥ [biblical reading in] the year 5559, may it be a blessing”" class="force-page-break">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. The image above, cropped to highlight the translation.
