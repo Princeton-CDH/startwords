@@ -49,7 +49,7 @@ The documentary texts are widely varied. Many legal documents, for example, look
 
 Studying *solitreo* letter forms—which were more commonly used in writing Judeo-Spanish—can also be helpful for understanding how a variety of documents from the sixteenth to nineteenth centuries incorporates cursive writing. So, for example, in the Judeo-Arabic communal register I referenced during our panel, on occasion, there are interconnected letters in repeating words such as “berakha / blessing / ברכה” (in purple), “fiḍḍa / silver / פצה” (in green), and “seder / order / סדר” (in red).[^3] These cursive forms give the initial impression of messiness and lack of scribal skill yet it’s crucial to recognize the pragmatic significance of this writing method. Connecting letters and abbreviating Judeo-Arabic words such as “ת׳׳ע / t[asāwī] ʿa[la]” (in blue) increased the speed at which a scribe could record notes when calligraphic aesthetics were not the objective.[^4]
 
-{{< figure src="images/Startwords_Matthew_Steffy_ENA624_22 cropped.jpg" alt="Manuscript image showing Hebrew letterforms in cursive script" caption="Image 1. [Subject 12499256](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499256) (ENA 624.22, Library of the Jewish Theological Seminary): Color-coded annotations of solitreo cursive letter forms and abbreviations, October 1798 CE." >}}
+{{< figure src="images/Startwords_Matthew_Steffy_ENA624_22 cropped.jpg" alt="Manuscript image showing Hebrew letterforms in cursive script" caption="Image 1. [Subject 12499256](https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499256) (ENA 624.22, Library of the Jewish Theological Seminary): Color-coded annotations of solitreo cursive letter forms and abbreviations, October 1798 CE." attr="Library of the Jewish Theological Seminary" >}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Manuscript image showing Hebrew letterforms in cursive script
@@ -58,6 +58,7 @@ Studying *solitreo* letter forms—which were more commonly used in writing Jude
 |  Seminary): Color-coded annotations of solitreo cursive letter forms and
 |  abbreviations, October 1798 CE.
 |  https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499256
+| ATTRIBUTION: Library of the Jewish Theological Seminary
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
