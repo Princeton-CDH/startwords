@@ -11,12 +11,13 @@
 {{ $huge_w := default "1800x" }}
 
 {{/* generate derviatives for output in srcset */}}
+{{/* do not generate sizes larger than the original image */}}
 {{ if (not (or $svg $gif))  }}
 {{ .Scratch.Set "tiny" ($img.Resize $tiny_w) }}
 {{ .Scratch.Set "small" ($img.Resize $small_w) }}
-{{ .Scratch.Set "medium" ($img.Resize $medium_w) }}
-{{ .Scratch.Set "large" ($img.Resize $large_w) }}
-{{ .Scratch.Set "huge" ($img.Resize $huge_w) }}
+{{ if ge $img.Width 1200 }}{{ .Scratch.Set "medium" ($img.Resize $medium_w) }}{{ end }}
+{{ if ge $img.Width 1500 }}{{ .Scratch.Set "large" ($img.Resize $large_w) }}{{ end }}
+{{ if ge $img.Width 1800 }}{{ .Scratch.Set "huge" ($img.Resize $huge_w) }}{{ end }}
 {{ end }}
 
 <figure{{ with .Get "desc-id" }} aria-describedby="{{ . }}"{{ end }} {{ with .Get "class" }}class="{{ . }}"{{ end }}>
@@ -27,10 +28,10 @@
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="{{ (.Scratch.Get `tiny`).RelPermalink }} 500w,
     {{ (.Scratch.Get `small`).RelPermalink }} 800w,
-    {{ (.Scratch.Get `medium`).RelPermalink }} 1200w,
-    {{ (.Scratch.Get `large`).RelPermalink }} 1500w,
-    {{ (.Scratch.Get `huge`).RelPermalink }} 1800w,
-    {{ if gt $img.Width `1800` }}{{ $img.RelPermalink }} {{ $img.Width }}w{{ end }}"
+    {{- with .Scratch.Get `medium` -}}{{ .RelPermalink }} 1200w, {{- end -}}
+    {{- with.Scratch.Get `large` -}}{{ .RelPermalink }} 1500w, {{- end -}}
+    {{- with .Scratch.Get `huge` -}}{{ .RelPermalink }} 1800w, {{- end -}}
+    {{ $img.RelPermalink }} {{ $img.Width }}w" {{/* include original image in srcset */}}
      class="{{ if ge $img.Width $img.Height }}landscape{{ else }}portrait{{ end }}"
      {{ with .Get `max-height` }} style="max-height: {{ . }}"{{ end }}>
     {{- end -}}
