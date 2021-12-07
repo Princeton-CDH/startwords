@@ -1,7 +1,7 @@
 /* custom interlude code */
 
 .interlude {
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
     position: relative;
     margin: 0 auto;
     display: flex;
