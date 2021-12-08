@@ -16,7 +16,7 @@ replacement = ""
 comment = "remove script embed (multiline, . match includes newline)"
 
 [[args]]
-pattern = '(?ms)\{\{\< wrap class=\"tweet-group print-only-preview\" \>\}\}.*\{\{\< \/wrap \>\}\}'
+pattern = '(?ms)\{\{\< wrap class=\"tweet-group print-only-preview\" \>\}\}[^{]*\{\{\< \/wrap \>\}\}'
 replacement = ""
 comment = "remove tweet group print preview"
 
