@@ -40,6 +40,12 @@ We started this event from scratch in 2017. By the time we held our events at Ho
   {{< youtube id="-SpanvQZhVI" title="Douglass Day 2020 - Highlights" >}}
 {{< /video >}}
 
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| VIDEO. Embedded video of highlights from Douglass Day 2020. https://www.youtube.com/watch?v=-SpanvQZhVI
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
+
 ## Adjusting During the COVID-19 Pandemic
 
 Then the COVID-19 pandemic arrived. We had lessons for building community from years past. Yet even though we had been livestreaming and tweeting since 2017, we had few models for building a virtual, distanced community. We spent months of difficult planning to adapt our previous model into a virtual format.
@@ -104,6 +110,12 @@ Below is a tutorial video with instructions about how to transcribe and review d
 {{< video youtube_id="1yXr9w_rZQw" >}}
     {{< youtube id="1yXr9w_rZQw" title="What is transcription? What is reviewing?" >}}
 {{< /video >}}
+
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| VIDEO. An embedded video tutorial for transcribing and reviewing documents https://www.youtube.com/watch?v=1yXr9w_rZQw
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 {{< tweet 1360291342245638144 >}}
 {{< tweet 1360300654254825476 >}}
