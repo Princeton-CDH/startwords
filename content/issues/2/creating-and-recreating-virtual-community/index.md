@@ -1,8 +1,7 @@
 ---
 type: article
 slug: 'creating-and-recreating-virtual-community'
-title: |
-  Creating and Recreating Virtual Community on Douglass Day
+title: Creating and Recreating Virtual Community on Douglass Day
 order: 3
 authors:
     - Justin Smith

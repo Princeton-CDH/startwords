@@ -1,8 +1,7 @@
 ---
 type: article
 slug: 'serendipity-in-the-cairo-geniza'
-title: |
-  Serendipity in the Cairo Geniza
+title: Serendipity in the Cairo Geniza
 order: 4
 authors:
     - Matthew Dudley
