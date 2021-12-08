@@ -128,7 +128,7 @@ Steffy’s and my own initial encounters with these fragments have yielded a cha
 
 [^9]: For example, see ENA 330.3, Subject 12498819: https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/1029/536401?comment=1575953&page=1.
 
-[^10]: This seal clearly incorporates the name “Ibrāhīm / ابراهيم.” One possible reading of the letters below it is the surname “ʿAbīd / عبيد.” Much of the upper half of the seal is obscured by entries in the communal register but may contain an official and/or honorific title.
+[^10]: This seal clearly incorporates the name “Ibrāhīm / ابراهيم.” One possible reading of the letters below it is the surname “ʿAbīd / عبيد.” Much of the upper half of the seal is obscured by entries in the communal register but may contain an official and/or honorific title. The seal may have belonged to the same person who signed the verso of ENA 624.20, dated 29 Muḥarram, 1181 AH (which is June 6, 1767 CE).
 
 [^11]: The entry written over this stamp was recorded in the week of the Va-Yelekh parsha reading in the Jewish calendar year 5559 AM, which was September 29–October 5, 1799.
 
