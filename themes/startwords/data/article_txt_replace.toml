@@ -73,10 +73,10 @@ comment = "remove anchor links within the current document"
 
 [[args]]
 pattern = '(?ms)^\s*$(^\s*$)+'
-replacement = "\n"
+replacement = ""
 comment = "Consolidate multiple newlines"
 
 [[args]]
 pattern = '^'
-replacement = "\n\n"
+replacement = "\n"
 comment = "Add newline to beginning of text"
