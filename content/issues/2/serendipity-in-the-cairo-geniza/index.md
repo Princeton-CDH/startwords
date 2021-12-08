@@ -87,7 +87,7 @@ I had just begun keeping a list on paper of these fragments when one with an Ara
 
 But I never imagined that I would meet that person.
 
-Meanwhile, as more and more of these fragments turned up and added to my collection, *Scribes* project researchers Jasmin Shinohara and Professor Marina Rustow provided information about the dates and partial translation of the text of the fragments.[^9] I am very grateful to them both for that information, and for giving time and attention to the curiosity of a new volunteer at the *Scribes* who wondered what she was looking at.
+Meanwhile, as more and more of these fragments turned up and added to my collection, *Scribes* project researchers Jasmin Shinohara and Professor Marina Rustow provided information about the dates and partial translation of the text of the fragments.[^9] I am very grateful to them both for that information, and for giving time and attention to the curiosity of a new volunteer at *Scribes* who wondered what she was looking at.
 
 **Matthew:** Likewise, when I mentioned the *Scribes* user "Citsci-Rancho'' during our panel discussion I had hoped they might be watching the panel or eventually see the recording. The serendipity of being able to collaborate on and to answer these questions is a rare opportunity. The seal you included in the register collection is crucial for two reasons. Its significance lies, firstly, in the dating– where the Hijrī year ١١٧٧/1177 AH or 1763/64 CE is visible (in purple):[^10]
 
