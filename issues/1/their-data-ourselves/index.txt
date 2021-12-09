@@ -20,7 +20,6 @@
 |
 |  doi:10.5281/zenodo.3713678
 |
-|
 ⩩-----------------------------------------------------------------------------------⟩
 |
 |  Issue 1: TRANSFORMATIONS
@@ -28,6 +27,7 @@
 |  October 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩
+
 When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.
 
 I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was *Six Months to Live*, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. Not all of McDaniel&#39;s characters had cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. McDaniel&#39;s books were about grief and communities formed through crisis.
@@ -35,8 +35,6 @@ I was twelve and fixated on books written by an author with the improbable name 
 These books would have been perfect for a budding hypochondriac, or for a reader inclined toward purple prose and melodrama, but I read them instead for medical details, taking mental notes on how to recognize signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the sick main character, I occupied the position of the doctor, a role I planned (at the time) to take on later in real life. It turned out, though, that I would have to be the protagonist anyway.
 
 I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be a cyst. Immediately, I was launched into a world at once familiar and alien. I had grown up among doctors and research scientists in the orbit of Washington University School of Medicine, largely because my father is a medical ethicist with an abiding interest in the practical applications of his work. I had even worked in a research laboratory there from ages sixteen to twenty, studying---of all things---the genetics of breast cancer.
-
-
 
 Is it any wonder, then, that I investigated my treatment options as though I were the PI on an exploratory grant rather than a cancer patient? The type of breast cancer I have (triple negative) is particularly rare and intractable. At the time of my diagnosis it had already progressed to its most advanced stage with metastases to lungs, liver, and bones. It was immediately clear that finding promising clinical trials would be my best option. My parents and I (all academics) and circle of friends (ditto) kicked into research mode, scouring databases and firing off emails to friends from conferences, people from our past, even casual acquaintances who might have a line on newer, more successful treatments. The numbers were not good. We wanted some better numbers.
 
@@ -56,8 +54,6 @@ Neither exists in the sense of being detectable, nameable, or identifiable until
 
 The introduction of the interpretive viewpoint in medicine is called diagnosis. During the initial diagnostic phase, as I received phone call after phone call with more bad news, I spent some time thinking about how &#34;diagnosis&#34; sounded like a term familiar to me from my PhD in Renaissance literature, one that showed up mostly in discussions of tragedies: anagnorisis, meaning &#34;recognition,&#34; referring to the moment of a critical discovery about a character&#39;s own circumstances.
 
-
-
 You will not recognize that you have cancer until someone tells you. You may have a suspicion that something is not quite right, but you require professional assessment. Assessment comes in the form of quantification, which requires abstraction. Your physical body is transformed into radiological images by technologies that allow trained specialists to measure and quantify, to compare averages and standard variations, and to relay that information back to you in language that leads, invariably, to another set of numbers concerned with averages and likelihoods. Where is the line between &#34;normal&#34; and &#34;pathological&#34;? In whose view is a treatment &#34;better&#34; or &#34;worse&#34;? When the questions are of life and death, it is more than a little disconcerting to realize that the answer depends very much on who you&#39;re asking.
 
 Cancer exists before it is named, just like data. And even at its moment of detection (capture) its fixity is illusory: it is in cancer&#39;s nature to grow and change, just like data. The moment of visibility for both is firmly situated in time, place, and the subject position of the interpreter. Take, for example, the open question of how extensively cancer may have spread to my liver. Unusually for my age, I was actually tested for cancer in 2016, in search of answers to a years-long chronic fatigue for which I still have no good explanation. The bone marrow biopsy showed no cause for concern and even though there was a lesion on my liver, measuring 29 mm x 28 mm, the conclusion was that it was a benign growth called a hemangioma. (I stand by this view, if only because a cancerous growth on my liver, a canary in a coal mine, would have become significantly worse over the course of three years given how aggressive cancer has been elsewhere in my body in the time since my diagnosis.)
@@ -71,8 +67,6 @@ There is no way to know, though the probability is strong that the first lesion 
 ***********
 
 In *The Undying*, her account of treatment for triple-negative breast cancer, the poet Anne Boyer writes that &#34;a patient is a system-containing object within a series of interlocking systems full of other system-containing objects&#34; and that &#34;to take a thing or set of things from one system and reclassify these as elements in another also resembles diagnosis, which takes information from our bodies and rearranges what came from inside of us into a system imposed from far away.”[NOTE 2] Cancer is caused by the body&#39;s own cells growing out of control, a hostile takeover from within that violates the rules of the system already in place. Reclassified, your own cells are a disease and your own body a weapon. Reclassified, you are not an individual but a patient and your body not a collection of sensations but a rich mine of information.
-
-
 
 Once you enter the systems of modern medicine you become data to be ingested, part of the larger dataset of those who have previously been ill, been treated, and lived or died. This is not the &#34;violence of abstraction&#34; of which Marxist theorists wrote, yet the phrase seems equally applicable to the anonymity---the interchangeability---of those subsumed by the medical-industrial complex. Part of the reason that I sought clinical trials was that I felt that it was the best way to enable physicians to see me as an individual whose life, and whose treatment, mattered. I was eager to make myself an object of study and contribute to thwarting the disease that is threatening my life. But I was equally eager not to be simply tagged, processed, and swept through the prescribed (and not very promising) series of treatments that constituted the &#34;standard of care&#34; for my type of cancer.
 

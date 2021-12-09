@@ -18,7 +18,8 @@
 |  https://startwords.cdh.princeton.edu/issues/1/modeling-howto/
 |
 |
-|  #DataBeyondVision#HowTo
+|  #DataBeyondVision
+|#HowTo
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
@@ -28,14 +29,12 @@
 |
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
 |
 | CAPTION: Close up of 3D printed lollipop chart with labels.
 | ATTRIBUTION: Photo by Shelley Szwast
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Print a model of Shakespeare and Company lending library membership by date, as described in Data Beyond Vision [URL: https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision].
 
@@ -61,10 +60,7 @@ Yield
 
 3D printed model of Shakespeare and Company library membership
 
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩-----------------------------------------------------------------------------------⟩
-
 

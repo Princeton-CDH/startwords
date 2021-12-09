@@ -19,7 +19,8 @@
 |  https://startwords.cdh.princeton.edu/issues/1/stacking-howto/
 |
 |
-|  #DataBeyondVision#HowTo
+|  #DataBeyondVision
+|#HowTo
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
@@ -29,13 +30,11 @@
 |
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A partition of a paper model against dark background with years printed on the base.
 |
 | CAPTION: Close-up of the finished model of membership activities of Shakespeare and Company Library
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Create your own kirigami model of the Shakespeare and Company lending library membership activities, as described in Data Beyond Vision [URL: https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision].
 
@@ -59,10 +58,7 @@ Steps
 Yield
 kirigami model of new and continuing Shakespeare and Company library membership activities
 
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩-----------------------------------------------------------------------------------⟩
-
-
 

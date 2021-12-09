@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="./main.css" rel="stylesheet">
+</head>
+<body>
+<form>
+  <label for="input">Input</label>
+  <textarea id="input" rows="2" placeholder="type..."></textarea>
+  <button id="submit" type="button">Submit</button>
+  <hr>
+  <label>Output</label>
+  <pre id="output"></pre>
+</form>
+</body>
+<script>
+/*
+We're organising all the keyboard logic into a single 'KeyboardApp'.
+ */
+class KeyboardApp {
+  constructor (form) {
+    // Let's register all the HTML elements to make them easier to access later.
+    this.html = {
+      input: document.getElementById('input'),
+      submit: document.getElementById('submit'),
+      output: document.getElementById('output'),
+    }
+
+    // Let's register all the event handling
+    this.html.submit.onclick = this.submit.bind(this)
+  }
+
+  /*
+  This 'submit' logic is just placeholder for what you actually want to do.
+  Normally, this is where we'd submit the input data to a server. For our
+  example, we just print the text into the output field.
+   */
+  submit () {
+    const text = input.value
+    output.innerText = text
+  }
+}
+
+var app = new KeyboardApp(document.getElementById("#kb1"))  // Let's start the app!
+</script>
+</html>

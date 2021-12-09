@@ -19,7 +19,8 @@
 |  https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/
 |
 |
-|  #DataBeyondVision#Experiment
+|  #DataBeyondVision
+|#Experiment
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
@@ -33,19 +34,7 @@ This weaving represents the references in chapter one of Jacques Derrida’s _de
 
 As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.
 
-
 [NOTE 1] [NOTE 2] [NOTE 3] [NOTE 4] [NOTE 5] [NOTE 6] [NOTE 7] [NOTE 8] [NOTE 9] [NOTE 10] [NOTE 11] [NOTE 12] [NOTE 13] [NOTE 14] [NOTE 15] [NOTE 16] [NOTE 17] [NOTE 18] [NOTE 19] [NOTE 20] [NOTE 21] [NOTE 22] [NOTE 23] [NOTE 24] [NOTE 25] [NOTE 26] [NOTE 27] [NOTE 28] [NOTE 29] [NOTE 30] [NOTE 31]
-
- 
-
-
-
- 
-
-
- 
-
-
 
 Acknowledgments
 ----------------
@@ -57,7 +46,6 @@ The reference information shown here is drawn from datasets related to Derrida&#
 &gt; Chenoweth, Katie, Alexander Baron-Raiffe, Renée Altergott, Chad Córdova, Austin Hancock, Chloé Vettier, Rebecca Sutton Koeser, Jean Bauer, Benjamin Hicks, and Nick Budak. 2018. “Works Cited by Jacques Derrida in De La Grammatologie”. figshare. doi:10.6084/m9.figshare.7180460.v1 [URL: https://doi.org/10.6084/m9.figshare.7180460.v1].
 
 The high resolution capture of the data weaving used here was created by Princeton University Library, Digital Imaging Studio.  Annotations on the image were drawn with Recogito [URL: https://recogito.pelagios.org/].
-
 
 1. Epigraph, p. 15
     *La Naissance de la tragédie [URL: https://derridas-margins.princeton.edu/library/nietzsche-die-geburt-der-tragodie-aus-dem-geiste-der-musik-1949/]* (1949)

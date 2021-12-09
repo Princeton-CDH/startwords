@@ -31,17 +31,14 @@
 |  October 2020
 |
 ⩩-----------------------------------------------------------------------------------⟩
+
 How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.
-
-
 
 Humanists continue to expand the range of objects they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider nontraditional formats, the presentation and publishing of these experimental works (such as installations and project demos) are still secondary or sidelined, where they exist at all. What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text;[NOTE 1] Catherine D’Ignazio and Lauren Klein offer the broader term “rhetorical objects.”[NOTE 2] This kind of innovative work is carefully researched and theorized. It deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.
 
 Academic research has a long history of textual practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. Both the Journal of Open Humanities Data [URL: https://openhumanitiesdata.metajnl.com/] and the Journal of Open Source Software [URL: https://joss.theoj.org/] can be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers.” But even these journals rely on transforming the content they review—data and software—into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, and augmented reality experiences? Will scholars need to become experts in all these modes, or can we find a way to become conversant in multiple forms of argumentation, as with other important scholarly theories?
 
 The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides toward reading and thinking in creative new scholarly modes.[NOTE 3]
-
-
 
 SEE
 
@@ -50,11 +47,9 @@ Cold, commanding.
 Sense of mastery,  
 but optical illusions deceive.
 
-
 Look in a mirror.  
 and see yourself  
 seeing.  
-
 
 TOUCH  
 
@@ -67,14 +62,9 @@ Run fingers across skin
 and touch yourself  
 touching.
 
-
-
 Data physicalization represents data in physical form.[NOTE 4] Like other approaches to understanding and representing data, it highlights particular senses to communicate information, specifically touch and sight.[NOTE 5] But data physicalization is distinct from other sensory approaches in that it bridges the gap between creative, physical, and conceptual exploration, a nexus often associated with critical making.[NOTE 6] Data physicalizations surface the amount of labor involved with data production and representation; they lend data different perspectives and dimensions.[NOTE 7] These physicalizations also create an opportunity for viewers to become active participants in the making of a piece using data.
 
 Data physicalization attempts to defamiliarize us from the many two-dimensional data representations we have seen by literally placing data in the _mise en scène_ of a conceptual exploration. There is something unique about turning data points into physical forms and placing them in space, something that triggers the mind to understand data in a distinctive way.
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE.
@@ -84,8 +74,6 @@ Data physicalization attempts to defamiliarize us from the many two-dimensional 
 | LINK: https://doi.org/10.5281/zenodo.3261531
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
 Other approaches for data representation and interpretation include:
 - Data Visualization, which focuses on storytelling by using graphical elements
 - Data Edibilization, which focuses on experiencing data through food using edible materials
@@ -93,7 +81,6 @@ Other approaches for data representation and interpretation include:
 - Data Visceralization, which focuses on physical and emotional experience by using multiple senses and affect, making it the only approach that emphasizes emotion.
 - Data Art, which focuses on representing links between data and artistic creations by using expressive frameworks and raw data.
 - Interpretive object, which focuses on revealing meanings and relationships via non-textual forms by using metaphors.
-
 
 There is an ethics of drawing on other senses. Feminist philosopher Donna Haraway describes “visualizing technologies” as the “god trick of seeing everything from nowhere.”[NOTE 8] Klein and D’Ignazio expand on this, demonstrating that the assumed neutrality and objectivity of even the simplest visualizations always come from a particular perspective, usually a dominant cultural view that fundamentally excludes and marginalizes.[^fleventy-four]
 
@@ -107,13 +94,11 @@ These are not artist statements because this is not art; these objects might loo
 
 We invite you to participate in the embodiment and visible labor of data work. Download the following models and instructions, use your hands to recreate the data physicalizations we developed, or use them as inspiration to make your own interpretive objects. If you make any of these physicalizations, please share them on social media with the hashtag #DataBeyondVision [URL: https://twitter.com/search?q=(%23DataBeyondVision]).
 
-
 Choose an object
 [IMAGE: read folding section]
 [IMAGE: read modeling section]
 [IMAGE: read weaving section]
 [IMAGE: read stacking section]
-
 
 Folding in the Lesser Known Members of the Shakespeare and Company Lending Library 
 --------------------------------------------------------------------------
@@ -123,9 +108,6 @@ _Nick Budak, Xinyi Li_
 Goal
 The Shakespeare and Company lending library is best known for its famous members — writers such as Gertrude Stein, James Joyce, Ernest Hemingway, Aimé Césaire, and Simone de Beauvoir. We wanted to highlight the activity of the relatively unknown members — many of them women — who in fact represent a much larger portion of the library&#39;s day-to-day activity and thus arguably better represent it than do the prominent names. This piece makes use of unit origami to create a larger, cohesive form from small folded units, mirroring the relationship between the overall membership of the library and a single member.[NOTE 14]
 
-
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Folded origami model of a green cube intersecting a white octahedron covered with printed text.
 |
@@ -133,20 +115,14 @@ The Shakespeare and Company lending library is best known for its famous members
 | ATTRIBUTION: Photo by Shelley Szwast.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 Description
 The physicalization contrasts the activity of the better known members of the lending library — those linked by researchers to an entry in the Virtual International Authority File [URL: https://viaf.org/] (VIAF)[NOTE 15] — with the activity of relatively unknown members with no known authority record.[NOTE 16] Activity is represented by the total number of borrowing events that would plausibly have brought members into the library, namely checking out and returning books. Names of the lesser known members are printed on the paper used to create the octahedron as a way of corporealizing and “re-humanizing” humanities data.[NOTE 17] By holding the physicalization in two different ways, the user can “grasp” two separate sets of data: the octahedron (non-famous members) and the cube (famous members). The ratio of the volumes of these two solids reflects the use of the library by these two different groups.[NOTE 18]
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3-D model of a green cube intersecting a white octahedron covered with printed text.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 Insights
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A pie chart with a 70% majority section labeled “no VIAF” in green, with the remainder labeled “VIAF”.
@@ -154,22 +130,17 @@ Insights
 | CAPTION: A pie chart representing the proportions of members with and without VIAF identification.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
 The majority section of the pie chart represents the 14,583 library members who we identified as “lesser known” because they are not listed in VIAF. The minority section represents the 6,248 members who are listed in VIAF, often because they were involved with a well-known creative work.
-
 
 A pie chart can be used to present the same ratio of data conveyed in the physicalization; this representation is useful when we want to illustrate a situation where we know the totality of the data. Pie charts also depict a world where data fit neatly into mutually exclusive categories. The act of grasping the two intersecting solids in our physicalization is a response to this approach: the membership data of the lending library is a work in progress, updated as researchers comb through archives that are fragmentary and incomplete. One cannot see all sides of a three-dimensional solid simultaneously. By representing our data as intersecting solids, we instead mirror the fuzzy distinction between “famous” and “non-famous” members, acknowledging the intersection of the varied identities of the library’s members.[NOTE 19]
 
 Next Steps
 Using cut, punched, or embossed paper would make the piece more tactile; instead of simply printing names, we could add unique patterns to represent membership and borrowing activities for individual members. In the future, we could use generative methods to create unique folding patterns for individual library member activity and make them available via print-on-demand. This would enable viewers to become participants and turn folding into an act of recovery of the stories of the lesser known library members.[NOTE 20]
 
-
 Choose a different object
 [IMAGE: read modeling section]
 [IMAGE: read weaving section]
 [IMAGE: read stacking section]
-
 
 Modeling Shakespeare and Company Library Membership 
 ---------------------------------------------------
@@ -178,8 +149,6 @@ _Rebecca Sutton Koeser_
 
 Goal
 
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years 1919–1942.
 |
@@ -187,11 +156,7 @@ Goal
 | ATTRIBUTION: Photo by Shelley Szwast.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Alternating rows of white and green “lollipops” fade into the distance and out of focus, with the white data points noticeably larger in the foreground.
@@ -200,20 +165,14 @@ This data physicalization demonstrates the affordances of three dimensions for r
 | ATTRIBUTION: Photo by Shelley Szwast.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 Description
 This is a two-variable, three-dimensional lollipop chart showing the membership of the Shakespeare and Company lending library and bookshop, by month and year, from November 1919 when Sylvia Beach opened her bookshop to its official closing in 1941.[NOTE 21] Membership data are drawn from two different sources, both of which are incomplete: broad membership information comes from logbooks [URL: https://shakespeareandco.princeton.edu/sources/logbooks/] (although logbooks for 1930, parts of 1931–32, and 1937 are missing); detailed borrowing histories come from lending library cards [URL: https://shakespeareandco.princeton.edu/sources/cards/] for a subset of members.[NOTE 22] The white octahedrons represent the number of members with an active membership in each month; the green icospheres correspond to the number of members with borrowing activity in each month.[NOTE 23] For any month where the value is zero, there is no lollipop. Representing the two different datasets as adjacent, half lollipops exposes the discrepancies between the stories these sources tell us about the membership of the library without privileging either of them.[NOTE 24] Using two different shapes makes the two parts of the physicalization distinguishable to touch. The two lollipop charts are designed to be printed independently and then assembled, so that any 3D printer can be used. In this version, the two pieces slide together; this is both a simplification and an improvement over the previous version, where one piece was placed on top of the other.[NOTE 25]
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 Insights
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Bar chart showing members with borrowing activity and total members each month.
@@ -223,10 +182,7 @@ Insights
 | LINK: http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
 Plotting documented membership accounts against borrowing activity shows the differences in members tracked across the two sources. The Shakespeare and Company Project has information about the borrowing activity of 11% of lending library members. For the 1920s, the percentage is lower: only 6%. But in the 1930s, the percentage is higher: 23%. Some months show more members with borrowing activity than total members because information on the cards overlaps gaps in logbook coverage.
-
 
 The same membership data can be presented in a two-variable bar chart. Overall trends are easy to see, and both representations of the data make it possible to compare the two data series against each other. Seasonal trends are visible in the bar chart, but it’s difficult to identify distinct months; in contrast, changing perspective on the 3D lollipop chart allows us to focus on yearly or monthly trends. Missing data in one variable are visible in both, but seem more striking in the 3D version where the base of the piece is bare without any lollipop tops. At the current scale, touching the piece requires focusing attention on just a portion of the object but invites exploration, which can proceed in any direction.[NOTE 26] While the bar chart demands sequential reading from left to right, the 3D printed object doesn’t provide or demand a particular starting point or sequence.
 
@@ -237,12 +193,10 @@ The current version uses different shapes for the two variables, but adding text
 
 Make one &gt; [URL: /issues/1/modeling-howto/]
 
-
 Choose a different object
 [IMAGE: read folding section]
 [IMAGE: read weaving section]
 [IMAGE: read stacking section]
-
 
 Weaving Derrida’s References 
 ----------------------------
@@ -255,20 +209,14 @@ _Rebecca Sutton Koeser, Gissoo Doroudian_
 Goal
 With this piece, we aim to literalize the metaphor of weaving as writing, embedded in the very words “textile” and “text,” by representing Derrida’s intertextuality as a woven tapestry.[NOTE 30] The textures of the yarn and woven fabric invite touch, but by showing an in-progress weaving with the pattern and instructions provided, we move viewers beyond seeing and touching to enable them to become participants in reconstructing the data. Showing the weaving in progress also foregrounds the labor of data work, since curation, collection, and visualization all take an enormous amount of work and skill, often from a range of different individuals.
 
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads.
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Description
 This weaving represents the references in Chapter 1 of Jacques Derrida’s _de la Grammatologie_ (1967). The references have been cataloged and categorized by the research team of Derrida’s Margins.[NOTE 31] Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. Derrida’s highly intertextual writing suggested the idea of weaving.[NOTE 32] Using yarn to symbolize the foundational work of deconstructionism, which operates by finding the place where a text unravels, gives additional depth to this physicalization.
 
 Working with textiles is often stereotyped as female activity; therefore this piece also raises questions of gender and other false binaries such as art versus craft, high- versus low-tech. Based on anthropological research, women produced most of the textiles in the ancient world, but that work can be read as female authorship involved in the earliest textual practices.[NOTE 33] The loom itself runs the gamut from high to low technology: a backstrap loom can be assembled at home from dowels, rods, and cords; and yet, Joseph-Marie Jacquard’s 1801 power loom, which used punch cards to automatically create elaborate woven patterns, was an important precursor to early computers.
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. The weaver sits in front of a table-top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it.
@@ -276,12 +224,8 @@ Working with textiles is often stereotyped as female activity; therefore this pi
 | CAPTION: Gissoo, creating a Soumak weave.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 Insights
 The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, the bar chart may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Stacked bar chart showing number and kind of references by page.
@@ -289,10 +233,7 @@ The data encoded in the weaving could be represented as a stacked bar chart, a f
 | CAPTION: References in chapter 1 of De la grammatologie by page and type. (Chapter 1 begins on page 15).
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
 The chart shows that quotations are the most common type of reference in Chapter 1, and a few pages include six or more quotations. Footnotes are the next most common reference; there is only one epigraph, on the first page in the chapter, and one citation, on page 35. Only six pages have no references at all, and many pages have more than one.
-
 
 The ability to feel the density and frequency of each type of reference, color coded above, creates a unique experience for each participant, specific to their own perspective. These organic experiences bring to light the depth and complexities of the original work as well as the labor involved with gathering this data. This woven piece, which represents the first half (thirteen pages) of the first chapter of _De la grammatologie_ is thirty-seven inches long, a little more than three feet. The physical nature of this data representation required that materials and dimensions be carefully calculated and measured.[NOTE 34] The process of creating this piece is embodied and experiential, which naturally leads to conversations that effortlessly surface the labor of data work and the depth of the original text. Unfortunately, this is less likely to happen naturally when creating data visualizations.
 
@@ -301,20 +242,15 @@ Adding conductive thread and sensors could turn the weaving into an interface, s
 
 Make one &gt; [URL: /issues/1/weaving-howto/]
 
-
 Choose a different object
 [IMAGE: read folding section]
 [IMAGE: read modeling section]
 [IMAGE: read stacking section]
 
-
 Stacking New and Continuing Membership Activities of the Shakespeare and Company Lending Library 
 ------------------------------------------------------------------------------------------------
 
 _Xinyi Li_
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Animated GIF with the camera panning revealing different portions of the paper model.
@@ -322,12 +258,8 @@ _Xinyi Li_
 | CAPTION: Overview of a folded model representing the lending library membership activities from 1919 to 1941.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 Goal
 This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library and bookshop by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the Shakespeare and Company Project [URL: https://shakespeareandco.princeton.edu/] — bringing archival data to life and facilitating rich interpretations.
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Textual labels overlaying a 3D rendering of a unit of the folded model along its three directions.
@@ -335,22 +267,16 @@ This piece aims to reveal the continuity and growth of Sylvia Beach’s lending 
 | CAPTION: Legend showing how to read the information represented in three dimensions.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 Description
 Shakespeare and Company Project lending library membership data from 1919 to 1941 are represented as a hybrid of time-series and stacked bar charts showing part-to-whole relationships made from paper and folding. Each unit, a cuboid in space and sometimes its stacking child, represents one year and displays nine variables for that year. The height corresponds to the number of active members recorded in the logbooks [URL: https://shakespeareandco.princeton.edu/sources/logbooks/]; the depth depicts the number of members with borrowing activity, according to each member’s lending library card [URL: https://shakespeareandco.princeton.edu/sources/cards/]; the length along the timeline is based on the total number of borrowing events.[NOTE 35] Each of the variables is split into two parts: previous members who have renewed a membership contrasted with new members. The upper portion shows the growth and the activities of new readers. Viewers can see the rise and fall of members, inspect the difference between members with borrowing activity and the members as represented in the logbooks, compare the growth over time by viewing the stacking part from the front, and survey the involvement of continuing members versus new members, to name a few possibilities. In some cases, a small number of new members were very active readers based on their borrowing activity.
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
 This physicalization made use of kirigami technique, which transforms single sheets of paper into three-dimensional forms. Data was mapped to the shapes with Data Illustrator [URL: http://data-illustrator.com/], semi-manual calculation, and vector drawing. The materiality and the process have a poetic connection to the subject matter, metaphorically: stories and knowledge can be embedded on flat papers, but the act of reading unfolds the surface into interpretive space even beyond three dimensions.
 
 Insights
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories.
@@ -358,15 +284,9 @@ Insights
 | CAPTION: Membership activities of the Shakespeare and Company Lending Library from 1919 to 194 represented as stacked bar charts.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
 Members with borrowing events constitute a fraction of all the members in the earlier years. The overall number of borrowing events increases gradually from 1919 to 1926, drops off slightly, then evidently increases from 1934 to 1939, even though the number of members drops drastically after 1929. It’s not easy to compare book borrowing by new members across the years.
 
-
 With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A series of pie charts comparing the number of members, numbers of borrowers, borrowing events, and the portion of new and renewed members among each of these categories.
@@ -374,10 +294,7 @@ With current off-the-shelf visualization tools like the ones that come with Goog
 | CAPTION: Membership activities of the Shakespeare and Company lending library between 1919 and 1941 represented as pie charts.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
 Overall, renewed members outsize new members before 1929, followed by five years with nearly two times more new members than renewed members. Members with borrowing events represent a fraction of all the members in the early years between 1919 and 1929. Then members with borrowing events grow and become more comparable to the size of all members, which sizes down drastically after 1929. Borrows from new members outsize renewed members since 1934. It is not easy to compare the proportion of growth across the years.
-
 
 Extending into physical space allows data to be encoded in three axes and provides multiple possible angles to view the piece, depending on the relationships one is interested in. Different angles can reveal new interactions between logbook members, members with lending library card activities, and borrowing events. The separation of renewing and new members makes it possible to juxtapose and compare activities between the two groups of members. Spatial factors communicate different facets of the data, and color coding is no longer required.
 
@@ -388,12 +305,10 @@ The pattern generation process is very programming-friendly and the materials re
 
 Make one &gt; [URL: /issues/1/stacking-howto/]
 
-
 Choose a different object
 [IMAGE: read folding section]
 [IMAGE: read modeling section]
 [IMAGE: read weaving section]
-
 
 Acknowledgments
 Photos of the data physicalizations on display and Gissoo Doroudian weaving are by Shelley Szwast. The high resolution capture of the data weaving used for the deep zoom and margin image was created by the Digital Imaging Studio, Princeton University Library. The photo of the CDH main space with empty tables is by Mana Winters. The custom visuals for this essay were created by Doroudian; the icons for each section were created by Doroudian and revised by Doroudian and Xinyi Li. All other photos, charts, and models were created by the authors.

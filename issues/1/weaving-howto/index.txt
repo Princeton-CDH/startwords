@@ -18,7 +18,8 @@
 |  https://startwords.cdh.princeton.edu/issues/1/weaving-howto/
 |
 |
-|  #DataBeyondVision#HowTo
+|  #DataBeyondVision
+|#HowTo
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
@@ -28,17 +29,12 @@
 |
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. A scarf with alternating bands of blue fabrics resting on a table.
 |
 | CAPTION: Completed weaving of the first 13 pages of Derrida’s references in chapter 1 of de la Grammatologie
 | ATTRIBUTION: Photo by Shelley Szwast
 ⩩-----------------------------------------------------------------------------------⟩
-
-
 
 Create your own data weaving of Derrida’s references in chapter 1 of _de la Grammatologie_, as described in Data Beyond Vision [URL: https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision].
 
@@ -70,21 +66,11 @@ Yield
 
 Weaving of the references in chapter one of Jacques Derrida’s _de la Grammatologie_ (1967).
 
-
-
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Interactive zoomable viewer displaying a blue scarf with alternating bands of varied threads.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
 Key points about the Rigid Heddle Loom
-
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Wooden loom sitting on table with blue thread strung taught.
@@ -93,24 +79,12 @@ Key points about the Rigid Heddle Loom
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
-
-
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Wooden loom sitting on table with blue thread strung taught, pulled upwards.
 |
 | CAPTION: Heddle in upper position.
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩-----------------------------------------------------------------------------------⟩
-
-
-
-
-
-
 
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Wooden loom sitting on table with blue thread strung taught, pulled downwards.
@@ -119,12 +93,6 @@ Key points about the Rigid Heddle Loom
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
-
-
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it.
 |
@@ -132,20 +100,12 @@ Key points about the Rigid Heddle Loom
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩-----------------------------------------------------------------------------------⟩
 
-
-
-
-
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Close-up of crossed yarn with vertical threads labeled “Warp” and horizontal threads labeled “weft”.
 |
 | CAPTION: “Warp” and “weft” yarns.
 | ATTRIBUTION: Photo by Gissoo Doroudian.
 ⩩-----------------------------------------------------------------------------------⟩
-
-
 
 The yarn _on which_ you weave a piece, which acts as the base of the weaving and sits longitudinally is called “warp”; yarns you use to weave a piece are called “weft”.[NOTE 3]
 
@@ -176,16 +136,12 @@ Method #1
 
 This method was used to represent plain text (in royal blue) and page separation in (white).
 
-
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
 | CAPTION: How to make a plain weave in eight steps utilizing the shuttle along with changing the heddle positions, appropriate for thinner yarns.
 | ATTRIBUTION: Photos by Shelley Szwast and Gissoo Doroudian.
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Heddle position: upper and lower
 
@@ -208,15 +164,12 @@ Learned and adapted from: https://www.theweavingloom.com/weaving-techniques-the-
 Method #2
 This method was used to represent quotations.
 
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
 | CAPTION: How to make a plain weave in four steps utilizing the hands to pass the yarn through the warp.
 | ATTRIBUTION: Photos by Gissoo Doroudian.
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Heddle position: neutral
 
@@ -242,14 +195,11 @@ https://www.theweavingloom.com/weaving-techniques-the-plain-weave/
 Soumak Weave
 This technique was used to represent footnotes.
 
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Composite of eight images showing various stages of weaving.
 |
 | CAPTION: How to make a soumak weave in eight steps. Photos by Gissoo Doroudian.
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Heddle position: neutral
 
@@ -277,15 +227,12 @@ Learned and adapted from: https://www.youtube.com/watch?v=OaP4eQLRefk
 Pile Loop Weave
 This technique was used to represent epigraphs.
 
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Composite of seven images showing various stages of weaving.
 |
 | CAPTION: How to make a pile loop weave in seven steps.
 | ATTRIBUTION: Photos by Gissoo Doroudian.
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Heddle position: neutral
 
@@ -305,14 +252,11 @@ Learned and adapted from: https://www.theweavingloom.com/best-of-weaving-techniq
 Rya knot
 This technique was used to represent citations.
 
-
-
 ⩩-----------------------------------------------------------------------------------⟩
 | FIGURE. Composite of four images showing various stages of weaving.
 |
 | CAPTION: How to make a rya knot in four steps.
 ⩩-----------------------------------------------------------------------------------⟩
-
 
 Heddle position: neutral
 
