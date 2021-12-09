@@ -333,4 +333,10 @@ iframe {
             margin-right: 10px;
         }
     }
+
+    /* center tweets that appear by themselves */
+    a:only-child {
+        width: 60%;
+        margin-left: 20%;
+    }
 }
