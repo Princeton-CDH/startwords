@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="./main.css" rel="stylesheet">
+</head>
+<body>
+<form>
+  <label for="input">Input</label>
+  <textarea id="input" rows="2"></textarea>
+  <div id="keyboard"></div>
+  <button id="submit" type="button">Submit</button>
+  <hr>
+  <label>Output</label>
+  <pre id="output"></pre>
+</form>
+</body>
+<script>
+/*
+We're organising all the keyboard logic into a single 'KeyboardApp'.
+ */
+class KeyboardApp {
+  constructor () {
+    // Let's register all the HTML elements to make them easier to access later.
+    this.html = {
+      input: document.getElementById('input'),
+      keyboard: document.getElementById('keyboard'),
+      submit: document.getElementById('submit'),
+      output: document.getElementById('output'),
+    }
+
+    // Let's register some event handling
+    this.html.input.onkeypress = this.onKeyPress.bind(this)
+    this.html.submit.onclick = this.submit.bind(this)
+
+    // Let's set the current keyboard language
+    this.activeKeyboard = JAPANESE_KEYBOARD
+    this.setupKeyboard()
+  }
+
+  /*
+  This 'submit' logic is just placeholder for what you actually want to do.
+  Normally, this is where we'd submit the input data to a server. For our
+  example, we just print the text into the output field.
+   */
+  submit () {
+    const text = input.value
+    output.innerText = text
+  }
+
+  /*
+  setupKeyboard() does exactly what it says on the tin.
+   */
+  setupKeyboard () {
+    // First, we erase everything in the current keyboard.
+    while (this.html.keyboard.firstChild) {
+      this.html.keyboard.removeChild(this.html.keyboard.firstChild)
+    }
+
+    // If there's no active keyboard, I guess we've got nothing to do!
+    if (!this.activeKeyboard) return
+
+    // Right, now let's add the keys (buttons) for a QWERTY layout
+    QWERTY_LAYOUT.forEach((row) => {
+      const divRow = document.createElement('div')
+      divRow.className = 'row'
+
+      row.forEach((key) => {
+        // Create a button for each key in the QWERTY layout
+        const buttonKey = document.createElement('button')
+        buttonKey.className = 'keyboard-key'
+        buttonKey.type = 'button'
+
+        // Is there a character in our custom language keyboard that corresponds
+        // with this QWERTY key? If so, then pressing the key should insert
+        // the associated character.
+        const char = this.activeKeyboard[key]
+        if (char) {
+          buttonKey.innerText = char
+          buttonKey.onclick = () => { this.insertChar(char) }
+        } else {
+          buttonKey.innerText = ' '
+        }
+
+        // Add the 'shortcut' (i.e. the QWERTY key)
+        const shortcutSpan = document.createElement('span')
+        shortcutSpan.innerText = '(' + ENGLISH_KEYBOARD[key] + ')'
+        buttonKey.appendChild(shortcutSpan)
+
+        divRow.appendChild(buttonKey)
+      })
+
+      this.html.keyboard.appendChild(divRow)
+    })
+  }
+
+  /*
+  insertChar() inserts a single character to the (end of the) input text box.
+   */
+  insertChar (char) {
+    // Find the position of the "text cursor" on the text input
+    const startIndex = this.html.input.selectionStart
+    const endIndex = this.html.input.selectionEnd
+
+    // Minor trivia: if the text cursor has selected some text (e.g. a user
+    // highlighted a word) then startIndex will not be the same as endIndex ;
+    // otherwise, startIndex will be the same as endIndex.
+
+    // Insert the new character where the text cursor is, OR replace the text
+    // that the text cursor is selecting.
+    const text = this.html.input.value
+    const startText = text.substring(0, startIndex)
+    const endText = text.substring(endIndex)
+    this.html.input.value = startText + char + endText
+
+    // Return focus to the input text box, and reset the "text cursor" to the
+    // location where we just inserted the character
+    this.html.input.focus()
+    const focusIndex = startIndex + char.length
+    this.html.input.setSelectionRange(focusIndex, focusIndex)
+  }
+
+  /*
+  onKeyPress listens for keyboard input on the text input field.
+   */
+  onKeyPress (keyboardEvent) {
+    // Get the key that the user just pressed
+    const keyPressed = keyboardEvent.code
+
+    // Note: there are different ways to get what the user typed into a text
+    // field.
+    // keyboardEvent.code corresponds to the PHYSICAL key on the keyboard.
+    // keyboardEvent.key corresponds to the TEXT VALUE of the key.
+    // If a user presses the 'A' key on a US-International QWERTY keyboard,
+    // we get code='KeyA', and key='a' (if shift/capslock is off) or key='A'
+    // (if shift/capslock is on)
+
+    // Check to see if there's a character on the on-screen keyboard that
+    // corresponds to the key the user just pressed. If yes, insert that
+    // character.
+    const char = this.activeKeyboard && this.activeKeyboard[keyPressed]
+    if (char) {
+      this.insertChar(char)
+      return stopEvent(keyboardEvent)
+    }
+
+    return true
+  }
+}
+
+/*
+Stops the default actions for an input event. For example, pressing the 'A' key
+on a keyboard will insert the character 'a' into a text input field. If we want
+to change the action so the 'A' key inserts the 'あ' character, we first need to
+disable the default action.
+ */
+function stopEvent (e) {
+  e.preventDefault && e.preventDefault()
+  e.stopPropagation && e.stopPropagation()
+  return false
+}
+
+/*
+English Keyboard + QWERTY Layout: defines the baseline US-International QWERTY
+keyboard that we assume each user is using.
+ */
+const ENGLISH_KEYBOARD = {
+  'KeyQ': 'Q',
+  'KeyW': 'W',
+  'KeyE': 'E',
+  'KeyR': 'R',
+  'KeyT': 'T',
+  'KeyY': 'Y',
+  'KeyU': 'U',
+  'KeyI': 'I',
+  'KeyO': 'O',
+  'KeyP': 'P',
+  // --------
+  'KeyA': 'A',
+  'KeyS': 'S',
+  'KeyD': 'D',
+  'KeyF': 'F',
+  'KeyG': 'G',
+  'KeyH': 'H',
+  'KeyJ': 'J',
+  'KeyK': 'K',
+  'KeyL': 'L',
+  // --------
+  'KeyZ': 'Z',
+  'KeyX': 'X',
+  'KeyC': 'C',
+  'KeyV': 'V',
+  'KeyB': 'B',
+  'KeyN': 'N',
+  'KeyM': 'M',
+ }
+ const QWERTY_LAYOUT = [
+   [ 'KeyQ', 'KeyW', 'KeyE', 'KeyR', 'KeyT', 'KeyY', 'KeyU', 'KeyI', 'KeyO', 'KeyP' ],
+   [ 'KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ', 'KeyK', 'KeyL' ],
+   [ 'KeyZ', 'KeyX', 'KeyC', 'KeyV', 'KeyB', 'KeyN', 'KeyM' ]
+ ]
+
+/*
+Japanese Keyboard: translates key presses on a US-International QWERTY keyboard
+into (a small subset of) Japanese hiragana characters.
+ */
+const JAPANESE_KEYBOARD = {
+  'KeyA': 'あ',
+  'KeyI': 'い',
+  'KeyU': 'う',
+  'KeyE': 'え',
+  'KeyO': 'お',
+}
+
+var app = new KeyboardApp()  // Let's start the app!
+</script>
+</html>

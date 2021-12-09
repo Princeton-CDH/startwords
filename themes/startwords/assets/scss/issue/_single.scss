@@ -41,22 +41,29 @@ body.issue {
         }
     }
 
-    // snippets section
-    .snippets {
-        float: left;
+    // inverted footer
+    main + footer {
+        @include inverted-footer;
+        background: $off-white;
+    }
+}
 
-        h2 {
-            font-weight: 300;
-            font-size: rem(18px);
-            font-variant: small-caps;
-            letter-spacing: 0.25rem;
-            margin-top: rem(30px);
-            margin-bottom: rem(10px);
-            @media (min-width: $breakpoint-m) { font-size: rem(20px); }
-        }
+// snippets section: on single issue and home page
+.snippets {
+    float: left;
+}
+
+.snippets, body.issue .masthead {
+
+    h2 {
+        font-weight: 300;
+        font-size: rem(18px);
+        font-variant: small-caps;
+        letter-spacing: 0.25rem;
+        margin-top: rem(30px);
+        margin-bottom: rem(10px);
+        @media (min-width: $breakpoint-m) { font-size: rem(20px); }
     }
 
-    
-    // inverted footer
-    main + footer { @include inverted-footer; }
+    ul { list-style: none; }
 }

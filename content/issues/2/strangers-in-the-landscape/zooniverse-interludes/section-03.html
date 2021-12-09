@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="./main.css" rel="stylesheet">
+</head>
+<body>
+<form>
+  <label for="input">Input</label>
+  <textarea id="input" rows="2"></textarea>
+  <div id="keyboard">
+    <button class="keyboard-key" type="button" data-char="あ">あ</button>
+    <button class="keyboard-key" type="button" data-char="い">い</button>
+    <button class="keyboard-key" type="button" data-char="う">う</button>
+    <button class="keyboard-key" type="button" data-char="え">え</button>
+    <button class="keyboard-key" type="button" data-char="お">お</button>
+  </div>
+  <button id="submit" type="button">Submit</button>
+  <hr>
+  <label>Output</label>
+  <pre id="output"></pre>
+</form>
+</body>
+<script>
+/*
+We're organising all the keyboard logic into a single 'KeyboardApp'.
+ */
+class KeyboardApp {
+  constructor () {
+    // Let's register all the HTML elements to make them easier to access later.
+    this.html = {
+      input: document.getElementById('input'),
+      keyboard: document.getElementById('keyboard'),
+      submit: document.getElementById('submit'),
+      output: document.getElementById('output'),
+    }
+
+    // Let's register all the event handling
+    this.html.submit.onclick = this.submit.bind(this)
+
+    this.setupKeyboard()
+  }
+
+  /*
+  This 'submit' logic is just placeholder for what you actually want to do.
+  Normally, this is where we'd submit the input data to a server. For our
+  example, we just print the text into the output field.
+   */
+  submit () {
+    const text = input.value
+    output.innerText = text
+  }
+
+  /*
+  setupKeyboard() does exactly what it says on the tin.
+   */
+  setupKeyboard () {
+    // In this version, we've hardcoded the keyboard keys into the HTML
+    const keyboardKeys = Array.from(document.getElementsByClassName('keyboard-key'))
+
+    // We're going through each <button#keyboard-key> and attaching a simple
+    // 'insert the character associated with this button' action.
+    keyboardKeys.forEach((keyboardKey) => {
+      const char = keyboardKey.dataset.char
+      keyboardKey.onclick = () => { this.insertChar(char) }
+    });
+  }
+
+  /*
+  insertChar() inserts a single character to the (end of the) input text box.
+   */
+  insertChar (char) {
+    // Find the position of the "text cursor" on the text input
+    const startIndex = this.html.input.selectionStart
+    const endIndex = this.html.input.selectionEnd
+
+    // Minor trivia: if the text cursor has selected some text (e.g. a user
+    // highlighted a word) then startIndex will not be the same as endIndex ;
+    // otherwise, startIndex will be the same as endIndex.
+
+    // Insert the new character where the text cursor is, OR replace the text
+    // that the text cursor is selecting.
+    const text = this.html.input.value
+    const startText = text.substring(0, startIndex)
+    const endText = text.substring(endIndex)
+    this.html.input.value = startText + char + endText
+
+    // Return focus to the input text box, and reset the "text cursor" to the
+    // location where we just inserted the character
+    this.html.input.focus()
+    const focusIndex = startIndex + char.length
+    this.html.input.setSelectionRange(focusIndex, focusIndex)
+  }
+}
+
+var app = new KeyboardApp()  // Let's start the app!
+</script>
+</html>

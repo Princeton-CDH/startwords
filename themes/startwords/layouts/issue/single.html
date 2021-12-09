@@ -18,22 +18,28 @@
             </a>
         </div>
     </div>
-    <section id="features" aria-label="features" class="inverted grid">
-        <div class="wide-container">
-            {{ range first 2 (.Pages.ByParam "order") }}
-                {{ .Render "summary" }}
-            {{ end }}
-            <div class="snippets">
-                <h2>snippets</h2>
-                {{ range after 2 (.Pages.ByParam "order") }}
-                <div class="article-short-summary">
-                    <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    {{ partial "authors" . }}
-                    {{ partial "tags" . }}
-                </div>
+    {{ partial "issue/features.html" . }}
+    <section class="grid masthead">
+        <div class="container">
+            <h2>credits</h2>
+                {{ range .Params.contributors }}
+                    {{ range $title, $names := . }}
+                    <p>
+                        <strong>{{ $title }}</strong>
+                        {{ if (eq ($names | len) 1) }}
+                            {{ index $names 0 }} {{/* single name */}}
+                        {{ else }}
+                            <ul> {{/* multiple names */}}
+                            {{ range $names }}
+                                <li>{{ . }}</li>
+                            {{ end }}
+                            </ul>
+                        {{ end }}
+                    </p>
+                    {{ end }}
                 {{ end }}
-            </div>
         </div>
     </section>
+
 </main>
 {{ end }}

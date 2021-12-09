@@ -21,12 +21,13 @@ Each issue features two articles that speak to a common theme, feature, or conce
 
 **UX Designer** Gissoo Doroudian
 
-**Technical Lead** Nick Budak
+**Technical Lead** Rebecca Sutton Koeser
 
 **Manuscript Editing** Camey VanSant
 
 **Technical**
-- Rebecca Sutton Koeser
+- Nick Budak (Technical Lead, 2020)
+- Kevin McElwee
 - Grant Wythoff
 
 **Board of Advisors**
@@ -34,6 +35,6 @@ Each issue features two articles that speak to a common theme, feature, or conce
 - Natalia Ermolaev
 - Zoe LeBlanc
 - Meredith Martin
-- Rebecca Munson
+- Rebecca Munson (2020)
 
 {{</ wrap >}}

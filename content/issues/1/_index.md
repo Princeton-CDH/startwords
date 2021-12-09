@@ -7,6 +7,19 @@ theme: Transformations
 date: 2020-10-01
 slug: 1
 summary: Every day, countless decisions are quietly made on the basis of data most of us will never touch.
+contributors:
+    - Editor:
+      - Grant Wythoff
+    - UX Designer:
+      - Gissoo Doroudian
+    - Technical Lead:
+      - Nick Budak
+    - Manuscript Editing:
+      - Camey VanSant
+    - Technical:
+      - Rebecca Sutton Koeser
+      - Grant Wythoff
+
 ---
 
 Every day, countless decisions are quietly made on the basis of data most of us will never touch. Automated decision-making impacts insurance premiums and exam grades, traffic signals and pretrial risk assessments, all by relying on data captured through methods that are rarely transparent or representative. But despite the intangibility of this data, its consequences are felt in countless facets of social life: when targeted ads reflect a user's habits back to her through a distorted mirror, or when historically biased training data move a job applicant's resume to the bottom of the pile. We constantly feel the effects of data even if we can't put our finger on them.

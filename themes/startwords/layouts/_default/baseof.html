@@ -63,7 +63,7 @@
 
     <!-- alternative formats -->
     {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" />` .Rel .MediaType.Type .Permalink | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" />` .Rel .MediaType.Type .RelPermalink | safeHTML }}
     {{ end -}}
 </head>
 <body class="{{ block `pagetype` . }}{{ end }} {{ .Page.Params.body_class }}">
