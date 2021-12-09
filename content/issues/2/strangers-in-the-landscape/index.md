@@ -248,7 +248,7 @@ Now that we have cleaned up the code so that the English and Japanese keyboards 
 
 To illustrate this point, we’ve added a joke "Emoji keyboard" that maps QWERTY keys to arbitrary emoji characters. Typing in “Hello world” into input text field will result in the emoji “text” of “🐟🤣🦋🦋😍 😅😍🥰🦋🐒.”
 
-<iframe title="Emoji Keyboard" id="kb-s06" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html"></iframe>
+<iframe title="Emoji Keyboard" id="kb-s06" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-06.html" class="force-page-break"></iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
