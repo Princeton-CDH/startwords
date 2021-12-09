@@ -285,7 +285,6 @@ With the given assumption that English is the “default” language of web code
 As a result, we must be conscientious when we create on-screen keyboards for languages to read right-to-left (RTL), such as Hebrew and Arabic. In the example below, we’ve done two things:
 
 * We’ve upgraded the keyboard data objects so each language, in addition to having characters, also has an **explicit “direction” value.** (Either “ltr” or “rtl”)
-
 * The text input field has an explicit CSS direction value that changes depending on the active keyboard.
 
 <iframe title="Hebrew, English, and Emoji Keyboard" id="kb-s07" src="/issues/2/strangers-in-the-landscape/zooniverse-interludes/section-07.html"></iframe>
