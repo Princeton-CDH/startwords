@@ -16,7 +16,7 @@ Matthew Dudley is a PhD candidate at Yale University where he is completing a di
 
 {{< video pdf-img="images/video-preview.png" >}}
 <script src="https://cdnapisec.kaltura.com/p/1449362/sp/144936200/embedIframeJs/uiconf_id/14292362/partner_id/1449362"></script>
-<div id="kaltura_player_1621444219" class="kaltura"></div>
+<div id="kaltura_player_1621444219" class="kaltura" defer></div>
 <script>
 kWidget.embed({
   "targetId": "kaltura_player_1621444219",
