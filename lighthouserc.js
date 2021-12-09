@@ -14,6 +14,11 @@ module.exports = {
         "/issues/",
         "/issues/1/",
         "/issues/1/data-beyond-vision/",
+        "/issues/2/",
+        "/issues/2/strangers-in-the-landscape/",
+        "/issues/2/datas-destinations/",
+        "/issues/2/creating-and-recreating-virtual-community/",
+        "/issues/2/serendipity-in-the-cairo-geniza/",
         "/404.html"
     ]
     },
