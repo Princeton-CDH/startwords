@@ -44,17 +44,22 @@
     padding-bottom: 35px;
 }
 
-.interlude p {
+.interlude .center > p {
     position: relative;
     margin-top: 0;
     margin-bottom: 10px;
     line-height: 20px;
     z-index: 1;
+    /* make full-width and left-aligned to ensure paragraphs
+       broken across page breaks in PDF look correct */
+    width: 100%;
+    text-align: left;
 }
 
+/* NOTE: disabling to improve PDF rendering
 .interlude p:first-child {
-    margin-bottom: 0;
-}
+     margin-bottom: 0;
+}*/
 
 .interlude strong {
     font-weight: 700;
