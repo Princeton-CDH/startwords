@@ -105,9 +105,20 @@ body {
             &.right {
                 margin-left: 16px;
             }
+
+            /* when a pull quote falls near a page break,
+              pagedjs pagination renders an empty blockquote, which displays
+              the background framing images; suppress empty pull quotes. */
+            &:empty {
+                display: none;
+            }
         }
 
         figcaption { font-size: 12px; }
+
+        figure {
+            page-break-inside: avoid;
+        }
     }
 }
 
@@ -123,7 +134,7 @@ main {
         padding: 0;
     }
 
-    h2, section.footnotes {
+    section.footnotes, .force-page-break {
         page-break-before: always;
     }
 
@@ -143,7 +154,6 @@ main {
     h2 {
         font-size: 14px;
         line-height: 21px;
-        width: 2.1in;
     }
 
     h3 {
@@ -201,7 +211,7 @@ body.article .footnotes {
               display the list marker and style it as close as possible
               to the design specification */
             &::before {
-                display: none;
+                display: none !important;
             }
             &::marker {
                 color: $red;
@@ -263,12 +273,63 @@ h6 { bookmark-level: 6; }
 /* sketchfab embed & deep zoom do not render in PDF; use previews instead */
 body.article article {
     .sketchfab-embed-wrapper iframe,
-    .deepzoom {
+    .video-embed-wrapper iframe,
+    .video-embed-wrapper > div,
+    .deepzoom, .kaltura {
         display: none;
     }
 
     .sketchfab-embed-wrapper .preview,
-    .deepzoom-preview {
+    .deepzoom-preview, .print-only-preview,
+    .video-embed-wrapper .preview {
         display: block;
+    }
+
+    video {
+        max-height: 3.5in;
+    }
+
+}
+
+iframe {
+    overflow: visible;
+    height: auto;
+    page-break-inside: avoid;
+}
+
+.twitter-tweet {
+    // page-break-inside: avoid;
+    /* disabling and using images because tweets do not render well */
+    display: none !important;  /* override twitter inline styles */
+}
+
+/* display groups of tweets at half-width in two columns */
+.tweet-group, .tweet-group.print-only-preview {
+    /* grid not supported by paged.js and other print css tools */
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    justify-content: space-between; */
+
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    // .twitter-tweet {
+    a {
+        width: 48%;
+        display: inline-block;
+
+        img {
+            /* image should take up full width of the half-width link */
+            width: 100%;
+        }
+
+        &:nth-child(odd) {
+            margin-right: 10px;
+        }
     }
 }

@@ -1,5 +1,6 @@
 {{ define "css" }}
     {{ range .Resources.Match "*.css" }}
+    <link rel="preload" href="{{ .RelPermalink }}" as="style">
     <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
 {{ end }}

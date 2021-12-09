@@ -244,6 +244,22 @@ body.article .footnotes {
                     }
                 }
 
+                /* increase text indentation when footnote number
+                   gets to two digits */
+                &:nth-child(n+10) {
+                    p {
+                        text-indent: 1.5rem;
+                    }
+                }
+                /* same text indentation for two digit numbers, for PDF
+                   (nth-child doesn't work once pagedjs paginates) */
+                &[data-item-num^="1"]:not([data-item-num="1"]),
+                &[data-item-num^="2"]:not([data-item-num="2"]) {
+                    p {
+                        text-indent: 1.5rem;
+                    }
+                }
+
                 a {
                     color: $dark-purple;
                 }

@@ -1,7 +1,7 @@
 # <div align="center"><img src="https://startwords.cdh.princeton.edu/logotype.svg" alt="Startwords"/></div>
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Hugo](https://img.shields.io/badge/hugo-0.67-blue.svg)](https://gohugo.io)
+[![Hugo](https://img.shields.io/badge/hugo-0.90-blue.svg)](https://gohugo.io)
 ![Node version](https://img.shields.io/badge/node-12-blue)
 
 _Startwords_ is a research periodical irregularly published by the [Center for Digital Humanities](cdh.princeton.edu/) at Princeton University. It is implemented as a static site using the [Hugo static site generator](https://gohugo.io).
@@ -24,7 +24,7 @@ $ hugo version
 
 this should output version info like:
 
-```sh
+```
 Hugo Static Site Generator v0.72.0/extended darwin/amd64 BuildDate: unknown
 ```
 

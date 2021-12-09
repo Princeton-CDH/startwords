@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Source Sans Pro', 'Arial', sans-serif;
+  font-size: 14pt; /* ~ 18px; */
+  background-color: #4C2A85;
+  color: #E0CEFF
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  color: #00979D;
+}
+
+main {
+  margin: 1em;
+}
+
+section {
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+iframe {
+  display: block;
+  margin: 0.5em auto;
+  border: 0;
+  overflow: hidden;
+}
+
+a.link-to-code {
+  display: block;
+  text-align: center;
+}
+
+p.note {
+  color: #888;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+img.illustration {
+  display: block;
+  margin: 0.5em auto;
+}
+
+p.caption {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0.25em auto 1em auto;
+  padding: 0;
+}
+
+form {
+  padding: 0;
+}
+
+form textarea {
+  display: block;
+  width: 100%;
+  background-color: #F6F6F6;
+  border: 0;
+  height: 2em;
+}
+
+form label {
+  display: block;
+  color: #E0CEFF;
+  font-size: 0.8em;
+}
+
+form button#submit {
+  display: block;
+  width: 100%;
+  background: #E0CEFF;
+  color: #3D206C;
+  cursor: pointer;
+  border: 0;
+  padding: 0.5em;
+}
+
+form pre {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  background: #E9E9E9;
+  min-height: 3em;
+  color: #444;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #E0CEFF;
+  margin: 1em 0;
+}
+
+#keyboard {
+  padding: 0.5em;
+  /* background: #404040; */
+}
+
+#keyboard .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#keyboards-list,
+#visual-scripts-list {
+  background: #E9E9E9;
+  padding: 0.25em 0.5em;
+  text-align: center;
+}
+
+#keyboards-list span {
+  color: #E9E9E9;
+}
+
+#keyboards-list button,
+#visual-scripts-list button {
+  cursor: pointer;
+  margin: 0 0.25em;
+}
+
+.keyboard-key {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.125em;
+  width: 3em;
+  height: 3em;
+}
+.keyboard-key span {
+  display: block;
+  font-size: 0.6em;
+  color: #404040;
+}
+
+.v2 .keyboard-key {
+  padding: 0;
+  border: 0;
+  width: 50px;
+  height: 60px;
+}
+
+
+@media print {
+  :root {
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    font-size: 9pt; /* 12px; */
+    background-color: white;
+    color: #4C2A85;
+  }
+
+  form label {
+    color: #808080;
+  }
+
+  form textarea, pre, button {
+    border: 1px solid #808080;
+  }
+
+  form button#submit {
+    margin-top: 10px;
+    border: 1px solid #4C2A85;
+  }
+
+  hr {
+    background-color: #808080;
+  }
+
+
+
+}

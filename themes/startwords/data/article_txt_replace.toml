@@ -11,6 +11,16 @@ comment = "Testing a simple string replacement."
 skip = true
 
 [[args]]
+pattern = '(?ms)<script.*</script>'
+replacement = ""
+comment = "remove script embed (multiline, . match includes newline)"
+
+[[args]]
+pattern = '(?ms)\{\{\< wrap class=\"tweet-group print-only-preview\" \>\}\}[^{]*\{\{\< \/wrap \>\}\}'
+replacement = ""
+comment = "remove tweet group print preview"
+
+[[args]]
 pattern = '!\[([^\]]+)\]\([^\)]+\)'
 replacement = "[IMAGE: $1]"
 comment = "convert markdown image"
@@ -60,3 +70,13 @@ comment = "remove custom anchor names (markdown syntax)"
 pattern = '\[(.+)\]\(#.*\)'
 replacement = "$1"
 comment = "remove anchor links within the current document"
+
+[[args]]
+pattern = '(?ms)^\s*$(^\s*$)+'
+replacement = ""
+comment = "Consolidate multiple newlines"
+
+[[args]]
+pattern = '^'
+replacement = "\n"
+comment = "Add newline to beginning of text"

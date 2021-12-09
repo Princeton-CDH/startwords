@@ -15,6 +15,17 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 - Article order in an issue is configurable. The first two articles will be displayed as featured essays highlighted side by side on the issue page; all other articles will be listed by title in the order specified.
 - Layouts: custom content types include feature articles [available under [layouts/article](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/article)], single issues, and list of issues [both available under [layouts/issue](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/issue)].
 - To retain the simplest directory structure that will give us the URLs we want, articles are placed in an issue number directory and have `type:article` specified in the page metadata.
+- Issue-specific contributors can be specified in issue index metadata via `contributors` parameter, for display on the single-issue detail page, underneath the issue contents.  Provide the role or title and a list of one or more names. For example:
+```yaml
+contributors:
+  - Editor:
+    - Grant Wythoff
+  - Technical Lead:
+    - Nick Budak
+  - Technical:
+    - Rebecca Sutton Koeser
+    - Grant Wythoff
+```
 
 ## Article text version
 
@@ -159,6 +170,29 @@ Other approaches for data representation and interpretation include:
 ```
 
 [view source](layouts/shortcodes/wrap.html)
+
+### video
+
+Use to wrap an embedded video with an image for preview in PDF / print view.
+
+Desired video content should be placed _inside_ the video shortcode and may use existing Hugo shortcodes.
+
+Example use:
+```
+{{< video youtube_id="-SpanvQZhVI" >}}
+  {{< youtube id="-SpanvQZhVI" title="Douglass Day 2020 - Highlights" >}}
+{{< /video >}}
+```
+
+#### parameters
+
+- `youtube_id` youtube id, if embedding a youtube video: used to generate the default preview image
+- `pdf-img`, path to preview image for display in the pdf
+- `pdf-alt`, alternate text for the still image (optional)
+
+Either `pdf-img` or `youtube_id` should be specified.
+
+[view source](layouts/shortcodes/video.html)
 
 ## Generating PDFs
 

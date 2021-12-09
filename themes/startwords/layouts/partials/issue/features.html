@@ -1,0 +1,17 @@
+<section id="features" aria-label="features" class="inverted grid">
+    <div class="wide-container">
+        {{ range first 2 (.Pages.ByParam "order") }}
+            {{ .Render "summary" }}
+        {{ end }}
+        <div class="snippets">
+            <h2>snippets</h2>
+            {{ range after 2 (.Pages.ByParam "order") }}
+            <div class="article-short-summary">
+                <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ partial "authors" . }}
+                {{ partial "tags" . }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

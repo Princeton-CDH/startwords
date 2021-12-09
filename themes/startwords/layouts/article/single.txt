@@ -19,8 +19,8 @@
 |{{ if .Params.doi }}
 |  doi:{{ .Params.doi }}{{ end }}
 |{{ if .Params.tags }}
-|  {{ range .Params.tags }}#{{ . }}{{ end }}{{ end }}
-|
+|  {{ range .Params.tags }}#{{ . }}
+|{{ end }}{{ end }}
 ⩩-----------------------------------------------------------------------------------⟩
 |
 |  Issue {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
