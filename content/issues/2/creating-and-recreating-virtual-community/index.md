@@ -16,7 +16,7 @@ images: ["issues/2/creating-and-recreating-virtual-community/images/virtual-comm
 {{< tweet 1446478999287439372 >}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
-[![screenshot of tweet from Douglass Day](images/tweet1.png)](https://twitter.com/DouglassDayorg/status/1446478999287439372)
+<a href="https://twitter.com/DouglassDayorg/status/1446478999287439372"><img loading="lazy" src="images/tweet1.png" alt="screenshot of tweet from Douglass Day"></a>
 {{< /wrap >}}
 
 {{< wrap class="txt-only" >}}
@@ -74,11 +74,11 @@ Launching our social media campaign early on helped attract attention to the eve
 {{< tweet 1361042468469432321 >}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
-[![screenshot of tweet from Anna Lacy](images/tweetA1.png)](https://twitter.com/Anna_E_Lacy/status/1360301729451962376)
-[![screenshot of tweet from Dr. Brigitte Fielder](images/tweetA2.png)](https://twitter.com/BrigField/status/1360976957337456641)
-[![screenshot of tweet from Debbie Gershenowitz](images/tweetA3.png)](https://twitter.com/DGershenowitz/status/1361014486589706249)
-[![screenshot of tweet from Hannah Alpert-Abrams](images/tweetA4.png)](https://twitter.com/hralperta/status/1361039589914382344)
-[![screenshot of tweet from Pierce Stanley](images/tweetA5.png)](https://twitter.com/piercestanley/status/1361042468469432321)
+<a href="https://twitter.com/Anna_E_Lacy/status/1360301729451962376"><img loading="lazy" src="images/tweetA1.png" alt="screenshot of tweet from Anna Lacy"></a>
+<a href="https://twitter.com/BrigField/status/1360976957337456641"><img loading="lazy" src="images/tweetA2.png" alt="screenshot of tweet from Dr. Brigitte Fielder"></a>
+<a href="https://twitter.com/DGershenowitz/status/1361014486589706249"><img loading="lazy" src="images/tweetA3.png" alt="screenshot of tweet from Debbie Gershenowitz"></a>
+<a href="https://twitter.com/hralperta/status/1361039589914382344"><img loading="lazy" src="images/tweetA4.png" alt="screenshot of tweet from Hannah Alpert-Abrams"></a>
+<a href="https://twitter.com/piercestanley/status/1361042468469432321"><img loading="lazy" src="images/tweetA5.png" alt="screenshot of tweet from Pierce Stanley"></a>
 {{< /wrap >}}
 
 {{< wrap class="txt-only" >}}
@@ -124,11 +124,11 @@ Below is a tutorial video with instructions about how to transcribe and review d
 {{< tweet 1360300366256955392 >}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
-[![screenshot of tweet from Jewon Woo 우제원](images/tweetB1.png)](https://twitter.com/ClevelandKimchi/status/1360291342245638144)
-[![screenshot of tweet from Dr. Brigitte Fielder](images/tweetB2.png)](https://twitter.com/BrigField/status/1360300654254825476)
-[![screenshot of tweet from Dan Royles](images/tweetB3.png)](https://twitter.com/danroyles/status/1360287523004706821)
-[![screenshot of tweet from Dr. Kristin Moriah](images/tweetB4.png)](https://twitter.com/DarkStars__/status/1361075881662443526)
-[![screenshot of tweet from celina.osuna](images/tweetB5.png)](https://twitter.com/celina_osuna_/status/1360300366256955392)
+<a href="https://twitter.com/ClevelandKimchi/status/1360291342245638144"><img loading="lazy"  src="images/tweetB1.png" alt="screenshot of tweet from Jewon Woo 우제원"></a>
+<a href="https://twitter.com/BrigField/status/1360300654254825476"><img loading="lazy"  src="images/tweetB2.png" alt="screenshot of tweet from Dr. Brigitte Fielder"></a>
+<a href="https://twitter.com/danroyles/status/1360287523004706821"><img loading="lazy"  src="images/tweetB3.png" alt="screenshot of tweet from Dan Royles"></a>
+<a href="https://twitter.com/DarkStars__/status/1361075881662443526"><img loading="lazy"  src="images/tweetB4.png" alt="screenshot of tweet from Dr. Kristin Moriah"></a>
+<a href="https://twitter.com/celina_osuna_/status/1360300366256955392"><img loading="lazy"  src="images/tweetB5.png" alt="screenshot of tweet from celina.osuna"></a>
 {{< /wrap >}}
 
 {{< wrap class="txt-only" >}}
