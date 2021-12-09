@@ -304,9 +304,7 @@ Since we’re only interested in creating a functional on-screen keyboard, we on
 
 <input id="tricky-text-selector" type="text" value="הגדלAPPLEהקטןBANANAסובב" style="font-size: 1.5em; color: #666; width:80%; margin: 0 auto; display: block;">
 
-{{< wrap class="sr-only" >}}
-<label for="tricky-text-selector">Tricky text selector</label>
-{{</ wrap >}}
+<label for="tricky-text-selector" class="sr-only">Tricky text selector</label>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
