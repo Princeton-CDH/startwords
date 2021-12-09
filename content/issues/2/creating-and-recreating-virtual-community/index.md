@@ -149,9 +149,11 @@ Below is a tutorial video with instructions about how to transcribe and review d
 
 {{</ wrap >}}
 
+{{< wrap class="force-page-break" >}}
 ## Our Results
 
 Making Douglass Day more accessible resulted in our largest Douglass Day audience ever. We had over 7,000 attendees, including K–12 teachers, students, professors, librarians, local organizers, graduate students, community groups, historic Black sororities, civic groups, and individual participants. It would not have been possible if we had not integrated the needs of our communities into our process of creating a virtual community. We will take these lessons to our future celebrations to expand the hybrid possibilities for developing our communities around these digital projects.
+{{</ wrap >}}
 
 *******
 {{< tweet 1362815605502541828 >}}
