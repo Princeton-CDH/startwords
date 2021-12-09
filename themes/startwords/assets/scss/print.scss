@@ -285,8 +285,9 @@ body.article article {
         display: block;
     }
 
-    video {
-        max-height: 3.5in;
+    /* for now, assume video in figure has a pdf preview images */
+    figure video {
+        display: none;
     }
 
 }
