@@ -18,7 +18,7 @@ summary: Online crowdsourcing—a series of methods for engaging volunteers with
 
 Online crowdsourcing—a series of methods for engaging volunteers with STEM, humanities, and cultural heritage research—has rapidly matured between 2000 and 2021. These efforts have been led by research groups and platform designers like [Zooniverse](https://www.zooniverse.org/), platform designers like [FromThePage](https://fromthepage.com/), [Omeka](https://omeka.org/), [PYBOSSA ](https://pybossa.com/)and [Scripto](https://scripto.org/), and cultural heritage institutions like the [National Archives and Records Administration](https://www.archives.gov/) (NARA) and [Smithsonian Institution](https://www.si.edu/). Volunteers help researchers, journalists, conservationists, cultural heritage practitioners, and one another to gather data that contributes to real research, original art, policy, community health, and more. In this essay, we will focus on cultural heritage crowdsourcing, and transcription projects in particular. Typically, these projects invite volunteers to transcribe handwritten or printed materials produced with ornate type or typewriter documents that—due to slight irregularities of the type, faint ink, or use of thin papers like onion skin—are not amenable to handwritten text recognition (HTR) or optical character recognition (OCR).
 
-{{< video >}}
+{{< video pdf-img="images/datas-destinations-social.png" >}}
 <figure>
   <video autoplay loop muted playsinline>
     <source src="images/ShaxW_Step4_Transcribe.webm" type="video/webm">
