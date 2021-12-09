@@ -11,7 +11,7 @@ authors:
     - Becky Rother
 date: 2021-12-01
 doi: 10.5281/zenodo.5750679
-pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
+pdf: "" #https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
 images: ["issues/2/strangers-in-the-landscape/images/keyboards-social.png"]
 summary: This piece is about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration.
 ---

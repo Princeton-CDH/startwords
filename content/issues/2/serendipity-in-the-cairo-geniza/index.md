@@ -8,7 +8,7 @@ authors:
     - Steffy Reader
 date: 2021-12-01
 doi: 10.5281/zenodo.5750695
-pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
+pdf: "" #https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
 images: ["issues/2/serendipity-in-the-cairo-geniza/images/serendipity-social.jpg"]
 ---
 
