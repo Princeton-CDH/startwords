@@ -9,7 +9,7 @@ authors:
     - Mason A. Jones
 date: 2021-12-01
 doi: 10.5281/zenodo.5750691
-pdf: "" #https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
+pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf
 images: ["issues/2/datas-destinations/images/datas-destinations-social.png"]
 summary: Online crowdsourcing—a series of methods for engaging volunteers with STEM, humanities, and cultural heritage research—has rapidly matured between 2000 and 2021.
 ---

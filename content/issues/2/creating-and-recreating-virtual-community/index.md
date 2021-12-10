@@ -9,7 +9,7 @@ authors:
     - Jim Casey
 date: 2021-12-01
 doi: 10.5281/zenodo.5750693
-pdf: "" #https://zenodo.org/record/3713678/files/their-data-ourselves.pdf # TODO: update pdf link
+pdf: https://zenodo.org/record/5750693/files/startwords-2-creating-and-recreating-virtual-community.pdf
 images: ["issues/2/creating-and-recreating-virtual-community/images/virtual-community-social.png"]
 ---
 
