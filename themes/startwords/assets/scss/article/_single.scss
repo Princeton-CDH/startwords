@@ -125,6 +125,7 @@ body.article {
             font-style: italic;
             color: $purple;
             line-height: rem(30px);
+            z-index: 1;  /* display over link underlines */
 
             @media (min-width: $breakpoint-s) { width: 50%; }
             @media (min-width: $breakpoint-m) {
