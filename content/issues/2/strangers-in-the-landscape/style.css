@@ -36,6 +36,7 @@
 @media print {
     .interlude .center {
         font-size: 12px;
+        padding-top: 0;
     }
 }
 
