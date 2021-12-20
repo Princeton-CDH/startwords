@@ -2,7 +2,7 @@
 type: article
 slug: 'test-strangers-in-the-landscape'
 title: |
-  “Strangers in the Testscape”: On Research Development and Making Things for Making
+  "Testers in the Testscape”: On Research Development and Making Things for Making
 order: -1
 authors:
     - Samantha Blickhan
@@ -13,8 +13,15 @@ date: 2021-12-01
 doi: 10.5281/zenodo.5750679
 pdf: https://zenodo.org/record/5750679/files/startwords-2-strangers-in-the-landscape.pdf
 images: ["issues/2/strangers-in-the-landscape/images/keyboards-social.png"]
-summary: This piece is about making in support of making. Testing multiple
+summary: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 ---
+
+
 
 ## Introduction
 
