@@ -131,18 +131,17 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 
-    // REMAINING CSS LOGIC
-    // if even number of siblings. set all even siblings {
-    //    transform: translateY(50%);
-    //    margin-top: 0px;
-    //} 
-    // otherwise set even siblings {
-    //   margin-top: rem(40px);
-    //}
-
-    &:not(:nth-of-type(1)):not(:nth-of-type(2)) {
+    &:not(:first-of-type):not(:nth-of-type(2)) {  
         padding-top: inherit;
     }
+
+    // Apply when there are three features (i.e. when the 2nd article summary
+    //  is also the 2nd to last article summary). If we want more, we'll need
+    //  to add more CSS to handle this.
+    &:nth-of-type(2):nth-last-of-type(2) { padding-top: 30%; }
+    // Apply when there are five features
+    &:nth-of-type(2):nth-last-of-type(4) { padding-top: 30%; }
+    
 
     // inverted portions use light purple instead of white
     &.inverted,
