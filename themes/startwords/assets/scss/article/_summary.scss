@@ -12,6 +12,7 @@ $preview-height-xl: rem(250px);  // 1024px-
     font-size: rem(16px);
     font-family: $font-sans;
     position: relative;
+    z-index: 1;
 
     @media (min-width: $breakpoint-m) { font-size: rem(18px); }
 
@@ -94,8 +95,8 @@ $preview-height-xl: rem(250px);  // 1024px-
         width: 100%;
     }
 
-    // left/first preview
-    &:first-of-type {
+    // left summaries
+    &:nth-of-type(odd) {
         float: left;
         text-align: left;
 
@@ -111,11 +112,10 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 
-    // right/second preview
-    &:last-of-type {
+    // right summaries
+    &:nth-of-type(even) {
         float: right;
         text-align: right;
-        margin-top: rem(40px);
 
         .bg-text {
             left: 0;
@@ -128,6 +128,21 @@ $preview-height-xl: rem(250px);  // 1024px-
             float: left;
             shape-outside: $triangle-right;
         }
+    }
+
+    // REMAINING CSS LOGIC
+    // if even number of siblings. set all even siblings {
+    //    transform: translateY(50%);
+    //} 
+    // otherwise set even siblings {
+    //   margin-top: rem(40px);
+    //}
+
+    &:nth-of-type(odd):not(:nth-of-type(1)) {
+        padding-top: inherit;
+    }
+    &:nth-of-type(even):not(:nth-of-type(2)) {
+        padding-top: inherit;
     }
 
     // inverted portions use light purple instead of white
