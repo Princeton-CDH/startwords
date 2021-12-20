@@ -7,8 +7,8 @@ on:
 
 # versions should be kept in sync with lighthouse-ci workflow
 env:
-  HUGO_VERSION: 0.90.0  # if you update this, change the README badge and lighthouse-ci.yml too!
-  NODE_VERSION: 10
+  HUGO_VERSION: 0.91.0  # if you update this, change the README badge and lighthouse-ci.yml too!
+  NODE_VERSION: 16 # if you update this, change the README badge and lighthouse-ci.yml too!
 
 jobs:
   build-deploy:
