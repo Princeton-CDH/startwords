@@ -1,11 +1,13 @@
 <section id="features" aria-label="features" class="inverted grid">
+    <span id="test">{{ .Params.feature_count }}</span>
     <div class="wide-container">
-        {{ range first 2 (.Pages.ByParam "order") }}
+        
+        {{ range first (int .Params.feature_count) (.Pages.ByParam "order") }}
             {{ .Render "summary" }}
         {{ end }}
         <div class="snippets">
             <h2>snippets</h2>
-            {{ range after 2 (.Pages.ByParam "order") }}
+            {{ range after (int .Params.feature_count) (.Pages.ByParam "order") }}
             <div class="article-short-summary">
                 <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
                 {{ partial "authors" . }}
