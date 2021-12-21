@@ -11,7 +11,7 @@ enableGitInfo = true
 timeout = "300s"
 
 # disable taxonomies until we are ready to use them and have templates
-disableKinds = ["term", "tag"] # "taxonomy"
+# disableKinds = ["term", "tag", "taxonomy"]
 [taxonomies]
   author = "authors"
 #  tag = "tags"
