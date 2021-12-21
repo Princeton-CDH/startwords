@@ -60,11 +60,19 @@ The regular expressions used to convert article markdown to the plain text artic
 
 ## Generate new issues and articles
 
-You can use [hugo archetypes](https://gohugo.io/content-management/archetypes/#directory-based-archetypes) to quickly build new issues and articles. To build the fourth issue, for example, follow this command and then edit the metadata:
+You can use [hugo archetypes](https://gohugo.io/content-management/archetypes/#directory-based-archetypes) to quickly build new issues and articles. To build the fourth issue, for example, use this command and then edit the metadata:
 
 ```sh
 hugo new --kind issue issues/4
 ```
+
+And to publish a new article named "A Cup of Tea":
+
+```sh
+hugo new --kind issue issues/4/a-cup-of-tea
+```
+
+Both of these commands need to be performed at the root directory.
 
 ## Shortcodes
 
