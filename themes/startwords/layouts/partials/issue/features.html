@@ -4,7 +4,7 @@
             {{ .Render "summary" }}
         {{ end }}
         <div class="snippets">
-            <h2>snippets</h2>
+            <h2>{{ T "snippets" }}</h2>
             {{ range after (default 2 (int .Params.num_features)) (.Pages.ByParam "order") }}
             <div class="article-short-summary">
                 <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>

@@ -15,7 +15,7 @@
     <div class="issue-summary inverted grid">
         <div class="container">
             {{ $issue := index (where .Site.AllPages "Type" "issue") 0 }}
-            <span class="number">Issue {{ $issue.Params.number }}</span>
+            <span class="number">{{ T "issue" }} {{ $issue.Params.number }}</span>
             <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
                 {{ $issue.Summary | plainify }}

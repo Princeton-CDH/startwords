@@ -10,7 +10,7 @@
 <main>
     <div class="issue-summary grid">
         <div class="container">
-            <span class="number">{{ i18n "issues" }} {{ .Params.number }}</span>
+            <span class="number">{{ T "issues" }} {{ .Params.number }}</span>
             <h1 class="theme">{{ .Params.theme }}</h1>
             <div class="summary">{{ .Content }}</div>
             <a href="#features" class="chevron highlight-focus">
@@ -21,7 +21,7 @@
     {{ partial "issue/features.html" . }}
     <section class="grid masthead">
         <div class="container">
-            <h2>credits</h2>
+            <h2>{{ T "credits" }}</h2>
                 {{ range .Params.contributors }}
                     {{ range $title, $names := . }}
                     <p>
