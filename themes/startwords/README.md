@@ -58,6 +58,14 @@ Editors working on publishing new articles should review the text versions of th
 
 The regular expressions used to convert article markdown to the plain text article display are managed in a [data file](data/article_txt_replace.toml), with comments to document the purpose of each regular expression.
 
+## Generate new issues and articles
+
+You can use [hugo archetypes](https://gohugo.io/content-management/archetypes/#directory-based-archetypes) to quickly build new issues and articles. To build the fourth issue, for example, follow this command and then edit the metadata:
+
+```sh
+hugo new --kind issue issues/4
+```
+
 ## Shortcodes
 
 The _Startwords_ theme includes the following custom short codes.
