@@ -69,4 +69,8 @@ disableKinds = ["taxonomy", "term", "tag"]
   [languages.en]
     languageName = 'English'
     weight = 1
+  [languages.es]
+    languageName = 'Spanish'
+    Lang = 'Spanish'
+    weight = 2
 
