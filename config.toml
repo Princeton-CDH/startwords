@@ -64,3 +64,9 @@ disableKinds = ["taxonomy", "term", "tag"]
   [security.http]
     methods = ['(?i)GET|POST']
     urls = ['.*']
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+
