@@ -22,7 +22,7 @@
     {{- end -}}
     {{/* Remove from here... */}}
     {{- if .IsTranslated -}}
-        {{ $title = printf "%s (%s)" $title (index site.Data.i18n.languages .Lang) }}
+        {{ $title = printf "%s (%s)" $title (.Language) }}
     {{- end -}}
     {{/* to here... */}}
     {{ printf `<title type="html"><![CDATA[%s]]></title>` $title | safeHTML }}
@@ -40,7 +40,7 @@
     {{- range .Translations }}
         {{ $output_formats := .OutputFormats }}
         {{- $lang := .Lang }}
-        {{- $langstr := index site.Data.i18n.languages .Lang }}
+        {{- $langstr := .Language }}
         {{ range $output_formats -}}
             {{ with $output_formats.Get .Name }}
                 {{ printf `<link href=%q rel="alternate" type=%q hreflang=%q title="[%s] %s" />` .Permalink .MediaType.Type $lang $langstr .Name | safeHTML }}
