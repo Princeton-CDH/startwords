@@ -65,6 +65,7 @@ disableKinds = ["taxonomy", "term", "tag"]
     methods = ['(?i)GET|POST']
     urls = ['.*']
 
+# TODO: Unable to get this to work in themes/startwords ?
 [languages]
   [languages.en]
     languageName = 'English'
@@ -72,4 +73,8 @@ disableKinds = ["taxonomy", "term", "tag"]
   [languages.es]
     languageName = 'Spanish'
     weight = 2
+    [[languages.es.menu.footer]]
+      name = "Acerca de"
+      url = "/es/acerca-de/"
+      weight = 20
 
