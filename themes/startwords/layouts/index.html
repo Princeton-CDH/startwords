@@ -19,7 +19,7 @@
             <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
                 {{ $issue.Summary | plainify }}
-                <a class="more highlight-focus" href="{{ $issue.RelPermalink }}">view this issue</a>
+                <a class="more highlight-focus" href="{{ $issue.RelPermalink }}">{{ T "view-this-issue" }}</a>
             </p>
         </div>
     </div>
