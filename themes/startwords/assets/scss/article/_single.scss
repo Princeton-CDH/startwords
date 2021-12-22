@@ -226,7 +226,6 @@ body.article {
         clear: both;
     }
 
-
     @media (min-width: 768px) {
         .interlude::before { left: calc((100vw - 10px) / 10 * -1 - 10px) }
     }
