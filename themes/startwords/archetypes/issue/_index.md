@@ -5,7 +5,7 @@ title: Issue {{ .Name }}
 number: {{ .Name }}
 theme: INSERT_THEME
 # Unless the publish date is before today's date, hugo won't publish it.
-date: 2100-12-01 
+date: {{ now.Format "2006-01-02" }} # Change me
 slug: {{ .Name }}
 summary: Insert the beginning of the editor's letter
 # editorial staff and any development & design contributors for this issue
