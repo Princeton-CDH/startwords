@@ -13,7 +13,7 @@ pdf: https://zenodo.org/record/5750693/files/startwords-2-creating-and-recreatin
 images: ["issues/2/creating-and-recreating-virtual-community/images/virtual-community-social.png"]
 ---
 
-{{< tweet 1446478999287439372 >}}
+{{< tweet user="DouglassDayorg" id="1446478999287439372" >}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
 <a href="https://twitter.com/DouglassDayorg/status/1446478999287439372"><img loading="lazy" src="images/tweet1.png" alt="screenshot of tweet from Douglass Day"></a>
@@ -67,11 +67,11 @@ This process of rethinking our outreach transformed our use of online communicat
 Launching our social media campaign early on helped attract attention to the event and prepare our audiences for the redesigned event. We also created new hashtags, such as our [#GreatDouglassDayBakeoff](https://twitter.com/search?q=%23GreatDouglassDayBakeoff&src=typed_query).
 
 *******
-{{< tweet 1360301729451962376 >}}
-{{< tweet 1360976957337456641 >}}
-{{< tweet 1361014486589706249 >}}
-{{< tweet 1361039589914382344 >}}
-{{< tweet 1361042468469432321 >}}
+{{< tweet user="Anna_E_Lacy" id="1360301729451962376" >}}
+{{< tweet user="BrigField" id="1360976957337456641" >}}
+{{< tweet user="DGershenowitz" id="1361014486589706249" >}}
+{{< tweet user="hralperta" id="1361039589914382344" >}}
+{{< tweet user="piercestanley" id="1361042468469432321" >}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
 <a href="https://twitter.com/Anna_E_Lacy/status/1360301729451962376"><img loading="lazy" src="images/tweetA1.png" alt="screenshot of tweet from Anna Lacy"></a>
@@ -117,11 +117,11 @@ Below is a tutorial video with instructions about how to transcribe and review d
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-{{< tweet 1360291342245638144 >}}
-{{< tweet 1360300654254825476 >}}
-{{< tweet 1360287523004706821 >}}
-{{< tweet 1361075881662443526 >}}
-{{< tweet 1360300366256955392 >}}
+{{< tweet user="ClevelandKimchi" id="1360291342245638144" >}}
+{{< tweet user="BrigField" id="1360300654254825476" >}}
+{{< tweet user="danroyles" id="1360287523004706821" >}}
+{{< tweet user="DarkStars__" id="1361075881662443526" >}}
+{{< tweet user="celina_osuna_" id="1360300366256955392" >}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
 <a href="https://twitter.com/ClevelandKimchi/status/1360291342245638144"><img loading="lazy"  src="images/tweetB1.png" alt="screenshot of tweet from Jewon Woo 우제원"></a>
@@ -156,7 +156,7 @@ Making Douglass Day more accessible resulted in our largest Douglass Day audienc
 {{</ wrap >}}
 
 *******
-{{< tweet 1362815605502541828 >}}
+{{< tweet user="DouglassDayorg" id="1362815605502541828" >}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
 [![screenshot of tweet from Douglass Day](images/tweetC1.png)](https://twitter.com/DouglassDayorg/status/1362815605502541828)
