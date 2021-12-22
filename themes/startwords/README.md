@@ -66,14 +66,14 @@ You can use [hugo archetypes](https://gohugo.io/content-management/archetypes/#d
 hugo new --kind issue issues/4
 ```
 
-In the issue's `_index.md` file, you'll then need to set metadata like `theme` and `contributors`.
+In `content/issues/4/_index.md` file, you'll then need to set metadata like `theme` and `contributors`.
 
 And to draft a new article named "A Cup of Tea":
 
 ```sh
 hugo new --kind article issues/4/a-cup-of-tea
 # All articles  have an `images` directory
-mkdir issues/4/a-cup-of-tea/images
+mkdir content/issues/4/a-cup-of-tea/images
 ```
 
 Then you would need to manually set the metadata and content for the article in `issues/4/a-cup-of-tea/index.md`. The `order` parameter determines what order in the issue this article falls. (This also helps determine whether an article is categorized as a "feature" or a "snippet", see note about `num_features` above.) The `images` parameter is used for social media previews. And the `date`, `doi`, and `pdf` metadata must be set later in the publishing process.
