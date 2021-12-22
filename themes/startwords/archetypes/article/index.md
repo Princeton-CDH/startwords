@@ -2,7 +2,7 @@
 type: article
 title: {{ replace .Name "-" " " | title }}
 slug: {{ .Name }}
-order: 1 # Change me
+order: 1 # set to determine article order within the issue
 authors:
   - INSERT
   - AUTHORS
