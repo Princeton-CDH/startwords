@@ -69,7 +69,7 @@ hugo new --kind issue issues/4
 And to publish a new article named "A Cup of Tea":
 
 ```sh
-hugo new --kind issue issues/4/a-cup-of-tea
+hugo new --kind article issues/4/a-cup-of-tea
 ```
 
 Both of these commands need to be performed at the root directory.
