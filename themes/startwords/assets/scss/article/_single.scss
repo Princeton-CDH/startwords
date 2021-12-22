@@ -199,6 +199,46 @@ body.article {
         height: rem(240px);
         @media (min-width: $breakpoint-s) { height: rem(440px); }
     }
+
+
+    .interlude {
+        /* page-break-inside: avoid; */
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .interlude::before {
+        content: '';
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        left: -10px;
+        height: 100%;
+        background: #4C2A85;
+    }
+
+    .interlude h2, .interlude h3 { width:  100%; }
+
+    .interlude strong {
+        font-weight: 700;
+        clear: both;
+    }
+
+
+    @media (min-width: 768px) {
+        .interlude::before { left: calc((100vw - 10px) / 10 * -1 - 10px) }
+    }
+
+    @media (min-width: 1024px) {
+        .interlude::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
+    }
+
+    @media print {
+        .interlude::before { background: none; }
+    }
+
 }
 
 /* fallback content included to be shown in TXT version only */
