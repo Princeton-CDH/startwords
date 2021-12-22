@@ -8,19 +8,12 @@ theme: INSERT_THEME
 date: 2100-12-01 
 slug: {{ .Name }}
 summary: Insert the beginning of the editor's letter
+# editorial staff and any development & design contributors for this issue
 contributors:
-    - Guest Editor:
-      - INSERT GUEST EDITOR
     - Editor:
-      - Grant Wythoff
-    - Technical Lead:
-      - Rebecca Sutton Koeser
-    - Technical:
-      - Kevin McElwee
-    - UX Designer:
-      - Gissoo Doroudian
+      - name
     - Manuscript Editing:
-      - Camey VanSant
+      - name
 
 ---
 
