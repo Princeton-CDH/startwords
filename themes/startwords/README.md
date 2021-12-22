@@ -60,19 +60,25 @@ The regular expressions used to convert article markdown to the plain text artic
 
 ## Generate new issues and articles
 
-You can use [hugo archetypes](https://gohugo.io/content-management/archetypes/#directory-based-archetypes) to quickly build new issues and articles. To build the fourth issue, for example, use this command and then edit the metadata:
+You can use [hugo archetypes](https://gohugo.io/content-management/archetypes/#directory-based-archetypes) to quickly build new issues and articles. To build the fourth issue, for example, use this command:
 
 ```sh
 hugo new --kind issue issues/4
 ```
 
-And to publish a new article named "A Cup of Tea":
+In the issue's `_index.md` file, you'll then need to set metadata like `theme` and `contributors`.
+
+And to draft a new article named "A Cup of Tea":
 
 ```sh
 hugo new --kind article issues/4/a-cup-of-tea
+# All articles  have an `images` directory
+mkdir issues/4/a-cup-of-tea/images
 ```
 
-Both of these commands need to be performed at the root directory.
+Then you would need to manually set the metadata and content for the article in `issues/4/a-cup-of-tea/index.md`. The `order` parameter determines what order in the issue this article falls. (This also helps determine whether an article is categorized as a "feature" or a "snippet", see note about `num_features` above.) The `images` parameter is used for social media previews. And the `date`, `doi`, and `pdf` metadata must be set later in the publishing process.
+
+Both of these commands need to be performed at the project's top-level directory.
 
 ## Shortcodes
 
