@@ -72,7 +72,7 @@ And to draft a new article named "A Cup of Tea":
 
 ```sh
 hugo new --kind article issues/4/a-cup-of-tea
-# All articles  have an `images` directory
+# All articles eventually need an `images` directory
 mkdir content/issues/4/a-cup-of-tea/images
 ```
 
