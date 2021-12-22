@@ -8,7 +8,7 @@ authors:
   - additional author (if any)
 date: {{ now.Format "2006-01-02" }} # Change me
 images: ["{{ .File.Dir }}images/social-media-preview.jpg"]
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+# summary: Optional override article beginning if necessary
 # tags: [DataBeyondVision, HowTo, ... etc]
 # doi: DOI/zenodo.ZENODO_ID
 # pdf: https://zenodo.org/record/DOI/files/startwords-#-{{ .Name }}.pdf
