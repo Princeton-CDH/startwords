@@ -1,7 +1,14 @@
 <ul>
-    {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+    {{ range $.Site.Data.authors }}
+    <li>
+        {{ if isset . "orcid"}}
+        <a href="https://orcid.org/{{ .orcid }}">{{ .name }}</a>
+        {{ else }}
+        {{ .name }}
+        {{ end }}
+        {{ if isset . "affiliation"}}
+        ({{ .affiliation }})
+        {{ end }}
+    </li>
     {{ end }}
 </ul>
