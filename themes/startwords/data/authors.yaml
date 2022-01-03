@@ -1,5 +1,41 @@
 - name: Becky Rother
+- name: Courtney Murray
+  affiliation: Pennsylvania State University
+- name: Jim Casey
+  affiliation: Pennsylvania State University
+- name: Justin Smith
+  affiliation: Pennsylvania State University
+- name: Mason A. Jones
+  affiliation: University of Maryland
+- name: Matthew Dudley
+  affiliation: Yale University
+- name: Samantha Blickhan
   affiliation: Affiliation
-- name: Kevin McElwee
-  orcid: 0000-0003-2577-8102
+  orcid: ORCID
+- name: Shaun A. Noordin
+  affiliation: Affiliation
+  orcid: ORCID
+- name: Steffy Reader
+  affiliation: Affiliation
+  orcid: ORCID
+- name: Victoria Anne Van Hyning
+  affiliation: Affiliation
+  orcid: ORCID
+- name: Will Granger
+  affiliation: Affiliation
+  orcid: ORCID
+- name: Gissoo Doroudian
   affiliation: Princeton University
+  orcid: 0000-0002-6702-6964
+- name: Nick Budak
+  affiliation: Princeton University
+  orcid: 0000-0002-4542-0899
+- name: Rebecca Munson
+  affiliation: Princeton University
+  orcid: 0000-0002-8735-8405
+- name: Rebecca Sutton Koeser
+  affiliation: Princeton University
+  orcid: 0000-0002-8762-8057
+- name: Xinyi Li
+  affiliation: Princeton University
+  orcid: 0000-0002-6114-3182

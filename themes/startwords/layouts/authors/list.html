@@ -1,5 +1,5 @@
 <ul>
-    {{ range $.Site.Data.authors }}
+    {{ range sort $.Site.Data.authors "name" }}
     <li>
         {{ if isset . "orcid"}}
         <a href="https://orcid.org/{{ .orcid }}">{{ .name }}</a>
