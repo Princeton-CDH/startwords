@@ -1,7 +1,6 @@
 <ul>
     {{ range sort $.Site.Data.authors }}
-    <li>
-
+    <li id="{{ urlize .name }}">
         {{ if .orcid}}
         <a href="https://orcid.org/{{ .orcid }}">{{ .name }}</a>
         {{ else }}
