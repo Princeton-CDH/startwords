@@ -1,5 +1,7 @@
 <ul class="authors">
     {{ range .Params.Authors }}
-    <li><address>{{ . }}</address></li>
+    <li>
+        <address><a href="/authors/{{ urlize . }}">{{ . }}</a></address>
+    </li>
     {{ end }}
 </ul>

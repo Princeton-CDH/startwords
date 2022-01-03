@@ -1,12 +1,13 @@
 <ul>
-    {{ range sort $.Site.Data.authors "name" }}
+    {{ range sort $.Site.Data.authors }}
     <li>
-        {{ if isset . "orcid"}}
+
+        {{ if .orcid}}
         <a href="https://orcid.org/{{ .orcid }}">{{ .name }}</a>
         {{ else }}
         {{ .name }}
         {{ end }}
-        {{ if isset . "affiliation"}}
+        {{ if .affiliation}}
         ({{ .affiliation }})
         {{ end }}
     </li>
