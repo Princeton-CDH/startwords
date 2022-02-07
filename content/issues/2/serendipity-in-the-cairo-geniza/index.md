@@ -79,7 +79,7 @@ The surnames mentioned in each list–such as Vialobos, Ḥadād, and Skenderī 
 
 **Steffy:** Shortly after I began volunteering in early 2018, a batch of these oddly similar fragment images started to pop up. Volunteers could tell these Hebrew script fragments were the work of a single less skilled writer but not why he had written so many similar-looking notes. They did not look like religious texts, legal documents, or letters.
 
-A basic task for the “citizen humanists” who volunteer in the *Scribes of the Cairo Geniza* project is to try to sort images of the fragments which accumulated in the Geniza for nearly a thousand years into two piles: those in Hebrew scripts, and those which display some Arabic script. Even for volunteers who, like me, cannot read these scripts, this is usually easy to do.
+A basic task for the “citizen humanists” who volunteer in the *Scribes of the Cairo Geniza* project is to try to sort images of the fragments which accumulated in the Geniza for nearly a thousand years into two piles: those in Hebrew script, and those which display some Arabic script. Even for volunteers who, like me, cannot read these scripts, this is usually easy to do.
 
 As I wondered what these fragments were, I realized that each one had areas which showed math sums done in Eastern Arabic numerals.[^8] Perhaps these fragments were entries in a ledger recording an activity which might interest an historian someday?
 
@@ -134,6 +134,6 @@ Steffy’s and my own initial encounters with these fragments have yielded a cha
 
 [^12]: Marina Rustow, *The Lost Archive: Traces of a Caliphate in a Cairo Synagogue* (Princeton: Princeton University Press, 2020), 73–82.
 
-[^13]: This reference appears in line three of the second entry of ENA 624.20. MuḥsinʻAlī Shūmān cites the existence of this congregation by the early seventeenth century. MuḥsinʻAlī Shūmān, *The Jews in Ottoman Egypt Until the Beginning of the Nineteenth Century/**a**l-Yahūd fī Miṣr al-ʻUthmānīyah* *ḥatta awāʾil al-qarn al-tāsiʻ ʻashar**,* vol. 2 (Cairo: al-Hayʼah al-Miṣrīyah al-ʻĀmmah lil-Kitāb, 2000) 70, 102. Maurice Fargeon confirms that the “Torkia” synagogue still existed in Cairo in the 1930s. Maurice Fargeon, *Les Juifs en Egypte: Depuis les Origines jusqu'à ce jour* (Cairo: Imprimerie Paul Barbey, 1938), 200.
+[^13]: This reference appears in line three of the second entry of ENA 624.20. MuḥsinʻAlī Shūmān cites the existence of this congregation by the early seventeenth century. MuḥsinʻAlī Shūmān, *The Jews in Ottoman Egypt Until the Beginning of the Nineteenth Century / al-Yahūd fī Miṣr al-ʻUthmānīyah ḥatta awāʾil al-qarn al-tāsiʻ ʻashar,* vol. 2 (Cairo: al-Hayʼah al-Miṣrīyah al-ʻĀmmah lil-Kitāb, 2000) 70, 102. Maurice Fargeon confirms that the “Torkia” synagogue still existed in Cairo in the 1930s. Maurice Fargeon, *Les Juifs en Egypte: Depuis les Origines jusqu'à ce jour* (Cairo: Imprimerie Paul Barbey, 1938), 200.
 
 [^14]: Solomon Schechter, “Miscellany,” (lecture, *The Genizah and Jewish Learning*, Dropsie College, May 5, 1910), qtd. in Norman Bentwich, *Solomon Schechter: A Biography* (Philadelphia: Jewish Publication Society of America, 1938), 161.

@@ -363,7 +363,7 @@ In our example below, we’ve added the “Yemenite Square” visual script refe
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-The actual hard work comes in two parts. First, it requires a human hand to create the reference image JPEG for each style of script, and to ensure it has a consistent layout. Second, ther’'s a one-off upfront development cost to map the visuals to the data. We found that this early investment is well worth it when we get into the next section.
+The actual hard work comes in two parts. First, it requires a human hand to create the reference image JPEG for each style of script, and to ensure it has a consistent layout. Second, there's a one-off upfront development cost to map the visuals to the data. We found that this early investment is well worth it when we get into the next section.
 
 *For our project, we decided to put every character of the “Yemenite Square” Hebrew script into a single image file (i.e. as opposed to having dozens of image files, one for each character) and used a CSS technique called “image sprites” to separate each character when needed. For example, when we want to show the ‘Alef’ א character (top row, right-most column) we tell the code to “crop” the image at x=440px y=0px width=50px height=50px.*
 
