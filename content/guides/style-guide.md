@@ -1,15 +1,15 @@
 ---
-layout: page
+layout: content_page
 title: Style Guide
 summary: For Contributors
 ---
 
 ## Overview of the Journal
-
+<!--
 ```
 Embed of Gissoo's ACH video goes here
 https://drive.google.com/file/d/1cuY6KQ_zUuyWMwZLmYoFxqHY7PkA18EI/view?usp=sharing
-```
+``` -->
 
 ***Startwords* publishes experimental humanities research for a public audience.**
 
@@ -25,9 +25,9 @@ Things we look for in the articles we publish:
 
 For style inspiration, contributors can review other publications like:
 
-[Triple Canopy](https://www.canopycanopycanopy.com/) • [The Pudding](https://pudding.cool/) • [Distill](https://distill.pub/) • [Journal of Slavery and Data Preservation](https://jsdp.enslaved.org/) • [Parametric Press](https://parametric.press/issue-02/) • [Emergence Magazine](https://emergencemagazine.org/) 
+[Triple Canopy](https://www.canopycanopycanopy.com/) • [The Pudding](https://pudding.cool/) • [Distill](https://distill.pub/) • [Journal of Slavery and Data Preservation](https://jsdp.enslaved.org/) • [Parametric Press](https://parametric.press/issue-02/) • [Emergence Magazine](https://emergencemagazine.org/)
 
-Each issue of *Startwords* showcases (typically) two feature articles (2,000–5,000 words) in conversation on a shared theme. That theme is encapsulated by a keyword for the issue’s title (i.e. Issue 1: “Transformations”, Issue 2: “Scribes”). 
+Each issue of *Startwords* showcases (typically) two feature articles (2,000–5,000 words) in conversation on a shared theme. That theme is encapsulated by a keyword for the issue’s title (i.e. Issue 1: “Transformations”, Issue 2: “Scribes”).
 
 Snippets, consisting of a couple hundred words of context and an interactive feature, elaborate on the issue theme with short provocations, tutorials, code, annotated data, or other nontraditional scholarly output. Snippets can be related to one of the two features (i.e. instructions for reproducing the feature article’s results), or snippets can be devoted to an entirely separate project, so long as they relate to the issue theme.
 
@@ -42,7 +42,7 @@ If using a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) word processor like 
 
 Rather than having contributors and editors work in a de-contextualized WYSIWYG word processor all the way up to the point of final page proofs, *Startwords* aspires to an iterative workflow that incorporates writing, editing, design, and development. After receiving your first drafts, the CDH team will create a “stub” or placeholder version of the new issue on a development branch. We will then send you initial page proofs, at an unlisted URL, showing how your writing will look once it's typeset on the site. During the editorial review and feedback process, you can iteratively edit based on how your writing will look when typeset alongside its interactive features or multimedia elements.
 
-If you would like more information on the way we build the journal using the Hugo static site generator and typeset articles in HTML, PDF, and plain text, see the [*Startwords* theme README](https://github.com/Princeton-CDH/startwords/blob/main/themes/startwords/README.md). 
+If you would like more information on the way we build the journal using the Hugo static site generator and typeset articles in HTML, PDF, and plain text, see the [*Startwords* theme README](https://github.com/Princeton-CDH/startwords/blob/main/themes/startwords/README.md).
 
 ## Licensing
 
@@ -64,10 +64,7 @@ It should also never include the words “image”, “graphic”, etc. since th
 
 ##### Example
 
-```
-Image goes here
-https://github.com/Princeton-CDH/startwords/blob/develop/content/guides/images/weaving-soumak.jpg
-```
+{{< figure src="images/weaving-soumak.jpg" alt="The weaver sits in front of a table top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it." caption="Gissoo Doroudian, creating a Soumak weave.">}}
 
 Alt text for this image might read: “A woman carefully adjusts blue threads on a wooden loom surrounded by bundles of cloth.”
 
@@ -85,10 +82,8 @@ Long descriptions can also describe in detail particular data points or illustra
 
 ##### Example
 
-```
-Image goes here
-https://github.com/Princeton-CDH/startwords/blob/develop/content/guides/images/2d-stacked-bar.svg
-```
+{{< figure src="images/2d-stacked-bar.svg" alt="two-dimensional stacked bar chart">}}
+
 
 A long description for this image might read: “This chart compares the proportion of events for new members against the proportion of events for returning members for each year that the Shakespeare and Company bookstore was open. The overall number of events that brought people to the bookstore increases gradually from 1919 to 1929, drops off slightly, then increases dramatically from 1932 to 1939. The chart also distinguishes borrowing of books from subscriptions to the library. During the period from 1932 to 1939, the share of book borrowing by new members increased relative to existing members each year.”
 
@@ -136,6 +131,6 @@ In both cases, this generates a figure that is hidden in the HTML view but rende
 
 The same logic should work for custom interactive content that is added without using these shortcodes. (But editors should be sure to test all versions of an article with any such content!)
 
-**Example:** 
+**Example:**
 
 [“Data Beyond Vision,”](https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/) in Issue 1, includes sketchfab 3D model and IIIF Deep Zoom; in the PDF, each of these is replaced with a static image that shows the model from multiple angles or different portions of the weaving at various scales.

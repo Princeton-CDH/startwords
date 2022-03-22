@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: content_page
 title: Editorial Guidelines
 ---
 
@@ -9,7 +9,7 @@ Each issue of _Startwords_ typically involves four core meetings between the CDH
 
 **********
 
-**Meeting 1:** Soliciting Contributors and Defining Roles 
+**Meeting 1:** Soliciting Contributors and Defining Roles
 
 *Editor, Guest Editor, Tech Lead*
 
