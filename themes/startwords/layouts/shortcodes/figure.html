@@ -1,7 +1,13 @@
-{{/* get page resource matching filename specified as "src" in shortcode */}}
-{{ $img := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
-{{ $gif := eq (path.Ext (.Get "src")) ".gif" }}
-{{ $svg := eq (path.Ext (.Get "src")) ".svg" }}
+{{/* get page or site resource matching filename specified as "src" in shortcode */}}
+{{ $src := .Get "src" }}
+{{/* get page resource with wildcard or site resource relative to assets directory */}}
+{{ $page_img := .Page.Resources.GetMatch (printf "*%s*" $src) }}
+{{ $asset_img := resources.Get $src }}
+{{/* remove any null resources and then take the first remaining */}}
+{{ $img_resources := slice $page_img $asset_img | complement (slice nil) }}
+{{ $img := index $img_resources 0 }}
+{{ $gif := eq (path.Ext $src) ".gif" }}
+{{ $svg := eq (path.Ext $src) ".svg" }}
 
 {{/* set image derivative sizes */}}
 {{ $tiny_w := default "500x" }}
