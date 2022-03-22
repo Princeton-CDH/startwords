@@ -7,7 +7,7 @@ authors:
   - author name (firstname lastname)
   - additional author (if any)
 date: {{ now.Format "2006-01-02" }} # Change me
-images: ["{{ .File.Dir }}images/social-media-preview.jpg"]
+images: ["{{ .File.Dir }}images/social-media-preview.jpg"] # social media preview image(s)
 # summary: Optional override article beginning if necessary
 # tags: [DataBeyondVision, HowTo, ... etc]
 # doi: DOI/zenodo.ZENODO_ID
