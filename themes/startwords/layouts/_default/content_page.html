@@ -1,0 +1,19 @@
+{{ define "pagetype" }}content-page{{ end }}
+
+
+{{ define "main" }}
+<main>
+    <article>
+        <div class="grid">
+            <div class="text-container">
+            <header>
+                {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+            </header>
+
+            {{ .Content }}
+            </div>
+        </div>
+    </article>
+</main>
+
+{{ end }}

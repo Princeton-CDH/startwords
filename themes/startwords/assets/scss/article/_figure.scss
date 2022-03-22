@@ -1,13 +1,13 @@
 /* figures (images, diagrams) in articles */
 
 // fallback styles for images outside of figures (shouldn't happen)
-body.article .text-container > p > img {
+body.article .text-container > p > img, body.content-page img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
 }
 
-body.article figure {
+figure {
     margin: rem(30px) 0;
 
     img {
@@ -31,4 +31,10 @@ body.article figure {
         font-style: italic;
         font-size: rem(16px);
     }
+}
+
+pre {
+    margin: rem(30px) auto;
+    max-width: 75%;
+    white-space: pre-wrap;
 }

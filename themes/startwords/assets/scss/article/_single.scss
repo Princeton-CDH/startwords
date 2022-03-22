@@ -47,6 +47,12 @@ body.article {
 
             .formats a { margin-right: rem(5px); }
         }
+    }
+
+}
+
+// common styles for articles and content pages
+body.article, body.content-page {
 
         // all textual elements that shouldn't be more than 75char wide
         p, ol, ul, blockquote, hr, h2, h3, h4, h5, h6 { @include constrain-text; }
@@ -147,7 +153,6 @@ body.article {
             background-position: rem(10px) rem(10px), right rem(10px) bottom rem(10px);
             background-repeat: no-repeat, no-repeat;
         }
-    }
 
     // embedded content
     .sketchfab-embed-wrapper {
