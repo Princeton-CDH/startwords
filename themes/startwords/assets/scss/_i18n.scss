@@ -1,0 +1,22 @@
+/* translation/localization styles */
+
+
+.issue-list {
+    .translations {
+        padding: 2rem 0 0 2rem;
+
+        span {
+            display: inline-block;
+            margin-right: 0.5rem;
+            width: 1.7rem;
+            height: 1.3rem;
+            background: white;
+            /* Purple */
+            border: 1.5px solid $purple;
+            border-radius: 3px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+}
+
