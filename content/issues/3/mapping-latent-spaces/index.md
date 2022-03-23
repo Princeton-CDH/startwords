@@ -12,6 +12,7 @@ pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf
 images: ["issues/2/datas-destinations/images/datas-destinations-social.png"] #TODO: replace social preview
 summary: The technology I need to discuss in this paper doesn’t yet have a consensus name.
 ---
+
 The technology I need to discuss in this paper doesn't yet have a consensus name. Some observers point to an architecture, the Transformer.[^1] "On the Dangers of Stochastic Parrots" focuses on size and discusses "large language models."[^2] A paper from Stanford emphasizes applications: "foundation models" are those that can adapt "to a wide range of downstream tasks."[^3] Each name identifies a different feature of recent research as the one that matters. To keep that question open, I'll refer here to "deep neural models of language," a looser category.
 
 However we define them, neural models of language are already changing the way we search the web, write code, and even play games. Academics outside computer science urgently need to reflect on them. "On the Dangers of Stochastic Parrots" deserves credit for starting that discussion---especially since publication required tenacity and courage. I am honored to be part of a symposium exploring its significance for the humanities.
@@ -46,7 +47,7 @@ One way around this impasse is to train a single model that can explicitly disti
 
 If neural language models are to play a constructive role in research, universities will also need alternatives to material dependence on tech giants. In 2020, it seemed that only the largest corporations could deploy enough silicon to move this field forward. In October 2021, things are starting to look less dire. Coalitions like EleutherAI are reverse-engineering language models.[^10] Smaller corporations like HuggingFace are helping to cover underrepresented languages. NSF is proposing new computing resources.[^11] The danger of oligopoly is by no means behind us, but we can at least begin to see how scholars might train models that represent a wider range of perspectives.
 
-# The effects of modeling culture
+## The effects of modeling culture
 
 Of course, scholars are not the only people who matter. What will language models (and models of culture) mean for people outside universities?
 
