@@ -6,6 +6,10 @@
 body.page {
     h1 {
         @include constrain-text;
+        font-size: rem(32px);
+    }
+    h2 {
+        @include constrain-text;
         font-size: rem(24px);
     }
 
@@ -25,7 +29,7 @@ nav#TableOfContents {
     }
     & > ul {
         border-bottom: 1px solid gray;
-        padding: 0 0 0.5rem;
+        padding: 0 0 2.4rem;
     }
 }
 
