@@ -18,10 +18,10 @@
                     <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="Issue {{ .Params.number }}">
                         {{ .Render "summary" }}
                     </a>
-                    <div class="translations" aria-label='{{ T "languages available:" }}'>
-                        <span>{{ .Lang }}</span> {{/* language of this issue */}}
+                    <div class="translations" aria-label='{{ "languages available:" }}'> {{/* todo: translate */}}
+                        <span>{{ .Lang | upper }}</span> {{/* language of this issue */}}
                         {{- range .Translations -}}
-                            <span aria-label="{{ .Language.LanguageName }}">{{ .Lang }}</span> {{/* other languages */}}
+                            <span aria-label="{{ .Language.LanguageName }}">{{ .Lang | upper }}</span> {{/* other languages */}}
                         {{ end }}
                     </div>
                 </li>
