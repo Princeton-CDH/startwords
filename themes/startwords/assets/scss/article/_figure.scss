@@ -1,7 +1,7 @@
 /* figures (images, diagrams) in articles */
 
 // fallback styles for images outside of figures (shouldn't happen)
-body.article .text-container > p > img, body.content-page article img {
+body.article .text-container > p > img, body.page article img {
     display: block;
     margin: 0 auto;
     max-width: 100%;

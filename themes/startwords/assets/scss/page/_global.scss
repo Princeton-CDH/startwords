@@ -1,6 +1,36 @@
 /* global styles for regular (non-article/issue) pages */
 
+
+/* content pages */
+
 body.page {
+    h1 {
+    @include constrain-text;
+    }
+
+    main header {
+        margin: 0 2.5rem;
+
+        h2 {
+            font-weight: normal;
+        }
+    }
+
+}
+
+nav#TableOfContents {
+    li {
+        list-style-type: none;
+    }
+    & > ul {
+        border-bottom: 1px solid gray;
+        padding: 0 0 0.5rem;
+    }
+}
+
+
+/* about page */
+body.about {
     ul { list-style: none; }    // non-bulleted lists
 
     main header {
@@ -30,31 +60,3 @@ body.page {
         border-right: 0.1rem solid $dark-grey;
     }
 }
-
-/* content pages */
-
-body.content-page {
-    h1 {
-    @include constrain-text;
-    }
-
-    main header {
-        margin: 0 2.5rem;
-
-        h2 {
-            font-weight: normal;
-        }
-    }
-
-}
-
-nav#TableOfContents {
-    li {
-        list-style-type: none;
-    }
-    & > ul {
-        border-bottom: 1px solid gray;
-        padding: 0 0 0.5rem;
-    }
-}
-

@@ -1,5 +1,5 @@
 ---
-layout: content_page
+layout: page
 title: Editorial Guidelines
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: content_page
+layout: page
 title: Style Guide
 summary: For Contributors
 ---
