@@ -35,6 +35,20 @@ disableKinds = ["taxonomy", "term", "tag"]
     url = "about/"
     weight = 20
 
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.es]
+    languageName = "Spanish"
+    weight = 2
+    [[languages.es.menu.footer]]
+      name = "Acerca de"
+      url = "/es/acerca-de/"
+      weight = 20
+
 [Author]
   name = "Center for Digital Humanities at Princeton"
   email = "cdh-info@princeton.edu"
@@ -64,3 +78,6 @@ disableKinds = ["taxonomy", "term", "tag"]
   [security.http]
     methods = ['(?i)GET|POST']
     urls = ['.*']
+
+
+
