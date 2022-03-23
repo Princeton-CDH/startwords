@@ -4,10 +4,18 @@ body.page {
     ul { list-style: none; }    // non-bulleted lists
 
     main header {
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
         max-width: 32rem;
+        @media (min-width: $breakpoint-s) {
+            max-width: auto;
+            margin-left: 0;
+        }
+
+        dl {
+            margin-left: 1rem;
+        }
     }
 }
 
@@ -22,3 +30,31 @@ body.page {
         border-right: 0.1rem solid $dark-grey;
     }
 }
+
+/* content pages */
+
+body.content-page {
+    h1 {
+    @include constrain-text;
+    }
+
+    main header {
+        margin: 0 2.5rem;
+
+        h2 {
+            font-weight: normal;
+        }
+    }
+
+}
+
+nav#TableOfContents {
+    li {
+        list-style-type: none;
+    }
+    & > ul {
+        border-bottom: 1px solid gray;
+        padding: 0 0 0.5rem;
+    }
+}
+
