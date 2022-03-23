@@ -52,7 +52,7 @@ body.article {
 }
 
 // common styles for articles and content pages
-body.article, body.content-page {
+body.article article, body.content-page article {
 
         // all textual elements that shouldn't be more than 75char wide
         p, ol, ul, blockquote, hr, h2, h3, h4, h5, h6 { @include constrain-text; }
