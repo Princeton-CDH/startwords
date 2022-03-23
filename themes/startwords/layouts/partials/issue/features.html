@@ -1,11 +1,16 @@
 <section id="features" aria-label="features" class="inverted grid">
     <div class="wide-container">
-        {{ range first (default 2 (int .Params.num_features)) (.Pages.ByParam "order") }}
+        {{/* display feature essays; two by default, but overridable in issue params */}}
+        {{ $numFeatures := default 2 (int .Params.num_features) }}
+        {{ range first $numFeatures (.Pages.ByParam "order") }}
             {{ .Render "summary" }}
         {{ end }}
+        {{/* display snippets, if any; any articles after the features */}}
+        {{ $snippets := after $numFeatures (.Pages.ByParam "order") }}
+        {{ if $snippets }}
         <div class="snippets">
             <h2>snippets</h2>
-            {{ range after (default 2 (int .Params.num_features)) (.Pages.ByParam "order") }}
+            {{ range $snippets }}
             <div class="article-short-summary">
                 <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
                 {{ partial "authors" . }}
@@ -13,5 +18,6 @@
             </div>
             {{ end }}
         </div>
+        {{ end }}
     </div>
 </section>
