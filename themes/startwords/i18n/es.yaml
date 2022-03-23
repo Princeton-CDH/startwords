@@ -1,0 +1,52 @@
+issues:
+  other: Ediciónes
+issue:
+  other: Edicióne
+view-issue:
+  other: ver esta edición
+features:
+  other: features
+snippets:
+  other: fragmentos
+# navigation
+cdh:
+  other: "The Center for Digital Humanities at Princeton"
+home:
+  other: Home
+main:
+  other: main
+breadcrumbs:
+  other: breadcrumbs
+read-more:
+  other: "Read more..."
+footer-links:
+  other: footer links
+# error page
+error:
+  other: Error
+not-found:
+  other: Not Found
+not-found-text:
+  other: Hmm, that one must be in our stopword list...
+# atom feed
+feed-title-on:
+  other: "on"
+# credits / masthead roles
+credits:
+  other: Credits
+Guest Editor:
+  other: Guest Editor
+Editor:
+  other: Editor
+Technical Lead:
+  other: Technical Lead
+Technical:
+  other: Technical
+UX Designer:
+  other: UX Designer
+Manuscript Editing:
+  other: Manuscript Editing
+Board of Advisors:
+  other: Board of Advisors
+Translator:
+  other: Translator

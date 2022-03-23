@@ -10,7 +10,7 @@
             <ol>
                 {{ range . }}
                 <li>
-                    <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="Issue {{ .Params.number }}">
+                    <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="{{ i18n "issue" }} {{ .Params.number }}">
                         {{ .Render "summary" }}
                     </a>
                 </li>

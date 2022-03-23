@@ -1,5 +1,5 @@
 <footer>
-    <nav aria-label="footer links">
+    <nav aria-label="{{ i18n "footer-links" }}">
         {{ with .Site.Menus.footer }}
         <ul>
             {{ range . }}
@@ -16,7 +16,7 @@
             <div class="logo" id="startwords"></div>
         </a>
         <a class="highlight-focus" href="https://cdh.princeton.edu/"
-            aria-label="The Center for Digital Humanities at Princeton">
+            aria-label="{{ i18n "cdh" }}">
             <div class="logo" id="cdh"></div>
         </a>
     </div>

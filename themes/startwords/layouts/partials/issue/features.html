@@ -1,4 +1,4 @@
-<section id="features" aria-label="features" class="inverted grid">
+<section id="features" aria-label="{{ i18n "features" }}" class="inverted grid">
     <div class="wide-container">
         {{/* display feature essays; two by default, but overridable in issue params */}}
         {{ $numFeatures := default 2 (int .Params.num_features) }}
@@ -9,7 +9,7 @@
         {{ $snippets := after $numFeatures (.Pages.ByParam "order") }}
         {{ if $snippets }}
         <div class="snippets">
-            <h2>snippets</h2>
+            <h2>{{ i18n "snippets" }}</h2>
             {{ range $snippets }}
             <div class="article-short-summary">
                 <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>

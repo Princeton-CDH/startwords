@@ -51,6 +51,23 @@ disableKinds = ["taxonomy", "term", "tag"]
   ISSN = "2694-2658"
   googleSiteVerification = "pS2kpksxg6JeC90IvA8BHVsFuK_6b7J_vARVLqqu7ck"
 
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.es]
+    languageName = "Spanish"
+    weight = 2
+    [languages.es.params]
+      license_text = "Atribución 4.0 Internacional (CC BY 4.0)"
+      description = "Una publicación periódica de investigación publicada irregularmente por el Centro de Humanidades Digitales de Princeton."
+    [[languages.es.menu.footer]]
+      name = "Acerca de"
+      url = "/es/acerca-de/"
+      weight = 20
+
 [markup.goldmark.renderer]
   unsafe = true
 
