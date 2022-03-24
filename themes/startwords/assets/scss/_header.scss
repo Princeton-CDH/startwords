@@ -76,9 +76,8 @@ body > header {
         .issues {
             position: absolute;
             font-size: rem(22px);
-            top: rem(18px);
+            top: rem(19.2px);
             left: 0;
-            width: rem(33px);
             a {
                 background: $dark-purple;
                 height: auto;
@@ -92,7 +91,7 @@ body > header {
                 color: $off-white;
                 &:focus {
                     border-right-width: 4px;
-                    width: rem(29px);
+                    width: rem(30px);
                 }
 
 
@@ -101,7 +100,7 @@ body > header {
     }
 }
 
-/* current not in use */
+/* currently not in use */
 /*
 nav[aria-label="breadcrumbs"] {
     transform: rotate(180deg);
