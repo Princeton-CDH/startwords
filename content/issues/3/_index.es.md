@@ -3,7 +3,7 @@ type: issue
 layout: single
 title: Issue Three
 number: 3
-theme: Parrots
+theme: Loros
 date: 2022-02-01 #TODO: Replace with final publication date
 slug: 3
 num_features: 3
