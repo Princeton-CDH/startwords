@@ -19,9 +19,8 @@
                         {{ .Render "summary" }}
                     </a>
                     <div class="translations" aria-label='{{ "languages available:" }}'> {{/* todo: translate */}}
-                        <span>{{ .Lang | upper }}</span> {{/* language of this issue */}}
-                        {{- range .Translations -}}
-                            <span aria-label="{{ .Language.LanguageName }}">{{ .Lang | upper }}</span> {{/* other languages */}}
+                        {{- range .AllTranslations -}}
+                            <span aria-label="{{ .Language.LanguageName }}" title="Available in {{ .Language.LanguageName }}">{{ .Lang | upper }}</span>
                         {{ end }}
                     </div>
                 </li>
