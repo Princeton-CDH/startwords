@@ -6,14 +6,25 @@
         <div class="container">
             {{ with .Title }}<h1 class="sr-only">{{ . }}</h1>{{ end }}
             {{ with .Content }}{{ . }}{{ end }}
-            {{ with .Sections }}
+            {{/* get all issues in any language */}}
+            {{ $issues := where (where .Site.AllPages "Type" "issue") ".Params.number" "gt" 0 }}
+            {{ $currentLang := .Site.Language.Lang }}
+            {{ if $issues }}
             <ol>
-                {{ range . }}
-                <li>
+                {{ range $issues }}
+                {{/* don't show translated issue if available in the current language */}}
+                {{ if not (where .Translations ".Lang" $currentLang) }}
+                <li {{ if not (eq .Lang $currentLang )}}lang="{{ .Lang }}"{{ end }}> {{/* set language if it changes */}}
                     <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="{{ i18n "issue" }} {{ .Params.number }}">
                         {{ .Render "summary" }}
                     </a>
+                    <div class="translations" aria-label='{{ "languages available:" }}'> {{/* todo: translate */}}
+                        {{- range .AllTranslations -}}
+                            <span aria-label="{{ .Language.LanguageName }}" title="Available in {{ .Language.LanguageName }}">{{ .Lang | upper }}</span>
+                        {{ end }}
+                    </div>
                 </li>
+                {{ end }}
                 {{ end }}
             </ol>
             {{ else }}
