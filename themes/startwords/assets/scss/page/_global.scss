@@ -23,6 +23,10 @@ body.page {
 
 }
 
+h2.contents {
+    font-family: $font-sans;
+}
+
 nav#TableOfContents {
     li {
         list-style-type: none;
