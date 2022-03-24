@@ -2,6 +2,7 @@
     <div class="bg-text" role="presentation">{{ .Summary | plainify }}</div>
     <p>{{ .Summary | plainify }}</p>
     <h2><a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ partial "available_languages.html" . }}
     {{ partial "authors" . }}
     {{ with .Params.doi }}
     <a class="doi highlight-focus" href="https://doi.org/{{ . }}">{{ . }}</a>

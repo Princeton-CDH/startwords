@@ -1,7 +1,8 @@
 /* translation/localization styles */
 
 /* translation toggle */
-article header, .issue-summary .container {
+article header,
+.issue-summary .container {
     /* make space for translations toggle */
     position: relative;
     padding-top: 45px;
@@ -94,21 +95,41 @@ aside.translations {
 }
 
 .issue-list {
-    .translations {
+    .languages {
         padding: 2rem 0 1.5rem 2rem;
-
-        span {
-            display: inline-block;
-            margin-right: 0.5rem;
-            width: 1.7rem;
-            height: 1.3rem;
-            background: white;
-            /* Purple */
-            border: 2px solid $purple;
-            border-radius: 4px;
-            text-transform: uppercase;
-            text-align: center;
-            color: $black;
-        }
     }
+}
+
+.languages {
+    span {
+        display: inline-block;
+        margin-right: 0.5rem;
+        width: 1.7rem;
+        height: 1.3rem;
+        background: white;
+        border: 2px solid $purple;
+        border-radius: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        color: $black;
+    }
+}
+
+@mixin dark-bg-language-chip {
+    background: $darkest-purple;
+    color: $light-purple;
+    border: 2px solid $darkest-purple;
+}
+
+/* language indicators for articles on issue detail page and home page*/
+#features .languages {
+    margin-bottom: rem(12px);
+
+    span {
+        @include dark-bg-language-chip;
+    }
+}
+
+.snippets .languages {
+    margin-top: rem(5px);
 }

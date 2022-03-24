@@ -18,11 +18,7 @@
                     <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="{{ i18n "issue" }} {{ .Params.number }}">
                         {{ .Render "summary" }}
                     </a>
-                    <div class="translations" aria-label='{{ "languages available:" }}'> {{/* todo: translate */}}
-                        {{- range .AllTranslations -}}
-                            <span aria-label="{{ .Language.LanguageName }}" title="Available in {{ .Language.LanguageName }}">{{ .Lang | upper }}</span>
-                        {{ end }}
-                    </div>
+                   {{ partial "available_languages.html" . }}
                 </li>
                 {{ end }}
                 {{ end }}
