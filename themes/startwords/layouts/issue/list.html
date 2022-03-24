@@ -14,7 +14,7 @@
                 {{ range $issues }}
                 {{/* don't show translated issue if available in the current language */}}
                 {{ if not (where .Translations ".Lang" $currentLang) }}
-                <li>
+                <li {{ if not (eq .Lang $currentLang )}}lang="{{ .Lang }}"{{ end }}> {{/* set language if it changes */}}
                     <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="Issue {{ .Params.number }}">
                         {{ .Render "summary" }}
                     </a>
