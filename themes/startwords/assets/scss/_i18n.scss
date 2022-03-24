@@ -3,7 +3,7 @@
 
 .issue-list {
     .translations {
-        padding: 2rem 0 0 2rem;
+        padding: 2rem 0 1.5rem 2rem;
 
         span {
             display: inline-block;
@@ -12,10 +12,11 @@
             height: 1.3rem;
             background: white;
             /* Purple */
-            border: 1.5px solid $purple;
-            border-radius: 3px;
+            border: 2px solid $purple;
+            border-radius: 4px;
             text-transform: uppercase;
             text-align: center;
+            color: $black;
         }
     }
 }
