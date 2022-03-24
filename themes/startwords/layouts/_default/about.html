@@ -9,6 +9,13 @@
         </header>
         <div class="text-container">
             {{ with .Content }}{{ . }}{{ end }}
+
+            <div class="masthead">
+                <h2>Masthead</h2>
+                {{ range .Params.masthead }}
+                    {{ partial "credits.html" . }}
+                {{ end }}
+            </div>
         </div>
     </div>
 </main>

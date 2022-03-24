@@ -1,0 +1,15 @@
+{{/* display issue credits or site masthead */}}
+{{- range $title, $names := . -}}
+<p>
+    <strong>{{ i18n $title }}</strong>
+    {{ if (eq ($names | len) 1) }}
+        {{ index $names 0 }} {{/* single name */}}
+    {{ else }}
+        <ul> {{/* multiple names */}}
+        {{ range $names }}
+            <li>{{ . }}</li>
+        {{ end }}
+        </ul>
+    {{ end }}
+</p>
+{{- end -}}
