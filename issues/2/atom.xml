@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.90.0">Hugo</generator><title type="html">Issue Two on Startwords</title><link href="https://startwords.cdh.princeton.edu/issues/2/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/issues/2/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/issues/2/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-02-07T18:56:27+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/2/</id><entry><title type="html">Creating and Recreating Virtual Community on Douglass Day</title><link href="https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/</id><author><name>Justin Smith</name></author><author><name>Courtney Murray</name></author><author><name>Jim Casey</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Save the Date for Douglass Day 2022!<br><br>Help us find the names of Black women in the Colored Conventions. Where did they go?<br><br>Registration is now open. Sign up for updates &amp; more!  <a href="https://t.co/nbxI9l1lGT">https://t.co/nbxI9l1lGT</a> <a href="https://t.co/5bz5fRQVLR">pic.twitter.com/5bz5fRQVLR</a></p>&mdash; Douglass Day (@DouglassDayorg) <a href="https://twitter.com/DouglassDayorg/status/1446478999287439372?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.91.0">Hugo</generator><title type="html">Issue Two on Startwords</title><link href="https://startwords.cdh.princeton.edu/issues/2/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/issues/2/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/issues/2/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-03-24T19:24:25+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/2/</id><entry><title type="html">Creating and Recreating Virtual Community on Douglass Day</title><link href="https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/</id><author><name>Justin Smith</name></author><author><name>Courtney Murray</name></author><author><name>Jim Casey</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Save the Date for Douglass Day 2022!<br><br>Help us find the names of Black women in the Colored Conventions. Where did they go?<br><br>Registration is now open. Sign up for updates &amp; more!  <a href="https://t.co/nbxI9l1lGT">https://t.co/nbxI9l1lGT</a> <a href="https://t.co/5bz5fRQVLR">pic.twitter.com/5bz5fRQVLR</a></p>&mdash; Douglass Day (@DouglassDayorg) <a href="https://twitter.com/DouglassDayorg/status/1446478999287439372?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="tweet-group print-only-preview">
@@ -193,7 +193,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination</title><link href="https://startwords.cdh.princeton.edu/issues/2/datas-destinations/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/datas-destinations/</id><author><name>Victoria Anne Van Hyning</name></author><author><name>Mason A. Jones</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+]]></content></entry><entry><title type="html">Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination</title><link href="https://startwords.cdh.princeton.edu/issues/2/datas-destinations/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/datas-destinations/</id><author><name>Victoria Anne Van Hyning</name></author><author><name>Mason A. Jones</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Online crowdsourcing—a series of methods for engaging volunteers with STEM, humanities, and cultural heritage research—has rapidly matured between 2000 and 2021. These efforts have been led by research groups and platform designers like <a href="https://www.zooniverse.org/">Zooniverse</a>, platform designers like <a href="https://fromthepage.com/">FromThePage</a>, <a href="https://omeka.org/">Omeka</a>, <a href="https://pybossa.com/">PYBOSSA </a>and <a href="https://scripto.org/">Scripto</a>, and cultural heritage institutions like the <a href="https://www.archives.gov/">National Archives and Records Administration</a> (NARA) and <a href="https://www.si.edu/">Smithsonian Institution</a>. Volunteers help researchers, journalists, conservationists, cultural heritage practitioners, and one another to gather data that contributes to real research, original art, policy, community health, and more. In this essay, we will focus on cultural heritage crowdsourcing, and transcription projects in particular. Typically, these projects invite volunteers to transcribe handwritten or printed materials produced with ornate type or typewriter documents that—due to slight irregularities of the type, faint ink, or use of thin papers like onion skin—are not amenable to handwritten text recognition (HTR) or optical character recognition (OCR).</p>
 <p>
 <div class="video-embed-wrapper">
@@ -279,6 +279,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Volunteer transcription of an early modern creame cheese recipe." src="/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld_hue63b1972d48a1ce608a915f2767de879_1804370_500x0_resize_box_3.png 500w,
@@ -314,6 +320,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </blockquote>
 <p>Boermans kindly baked four different examples and shared images of her work:</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -396,6 +408,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Screenshot from By the People transcription project, showing a manuscript page from the Mary Church Terrell Papers and a user&#39;s transcription of that document&#39;s text." src="/issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage_hu85d7db1ee8495c5a3efa12fdac180d3d_351696_500x0_resize_box_3.png 500w,
@@ -417,6 +435,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </div></p>
 <p>Of the over 620,000 documents made available on <em>BTP</em> since October 2018, roughly 392,000 pages have been transcribed, reviewed, and marked as complete by volunteers, and 63,400 have been incorporated into loc.gov. The data are published in two ways. First, <a href="https://www.loc.gov/search/?in=&amp;q=%22volunteers+participating+in+the+By%22&amp;new=true">the transcriptions</a> are embedded in the metadata for individual pages as well as full documents. They appear alongside the images of the original manuscripts, thus creating pathways to individual pages. These transcriptions can be downloaded as .txt files either one page at a time or as whole documents. An attribution to the volunteers appears in two places, first as an overlay in the on-screen display for each page, and embedded in the .txt transcription file itself: “Transcribed and reviewed by volunteers participating in the <em>By The People</em> project at crowd.loc.gov.” The second way that LOC makes the transcriptions available is as <a href="https://www.loc.gov/search/?fa=contributor:by+the+people+(program)">bulk datasets</a> consisting of a .CSV file and README file detailing the context in which the data were originally collected on <em>BTP</em>. Bulk datasets have different affordances from individual .txt files.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -465,6 +489,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </blockquote>
 <p>The transcription project focuses predominantly on the written documents contained within the curated collection of personal papers. The team endeavored to make Driskell’s personal papers and the accompanying transcriptions easily accessible to best serve both an informational role and an accessibility role for researchers attempting to learn more about his life and the impact of his efforts to raise awareness of the quality, quantity, and vibrancy of Black art in America and abroad. The project launched in February 2021 with a corpus of over 1,200 documents, and additional materials have been uploaded since. Volunteers and some of the original project team have transcribed over 1,300 pages of documents and staff have begun work on indexing these transcriptions following review and OCR corrections.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -597,7 +627,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">Serendipity in the Cairo Geniza</title><link href="https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/</id><author><name>Matthew Dudley</name></author><author><name>Steffy Reader</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the <em>Scribes of the Cairo Geniza</em> and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference <em>Crowdsourcing and the Humanities</em> and discover that they had already been collaborating anonymously via the <em>Scribes of the Cairo Geniza</em> site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.</p>
+]]></content></entry><entry><title type="html">Serendipity in the Cairo Geniza</title><link href="https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/</id><author><name>Matthew Dudley</name></author><author><name>Steffy Reader</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the <em>Scribes of the Cairo Geniza</em> and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference <em>Crowdsourcing and the Humanities</em> and discover that they had already been collaborating anonymously via the <em>Scribes of the Cairo Geniza</em> site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.</p>
 
 <div class="video-embed-wrapper">
     
@@ -636,6 +666,12 @@ kWidget.embed({
 <p><strong>Matthew:</strong> Just as you have noted, Steffy, besides the layout of texts and the economical usage of paper, some other features for assessing the genre of Geniza fragments lie in script usage and the distribution of numerical figures. Square Hebrew letters, or “ מרובע / merūbaʿ,” are indeed a helpful indicator for tracing sacred literary texts. In the period I work on, between the sixteenth and nineteenth centuries, many Geniza texts begin to bear the influence of Sephardi <em>rashi</em> and <em>solitreo</em> scripts. As a result of the immigration of Sephardi refugees into Egypt across the fourteenth through sixteenth centuries—but especially after the Spanish expulsion of the 1492 CE—Geniza fragments portray the increased influence of Iberian systems of Hebrew script.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>Studying <em>solitreo</em> letter forms—which were more commonly used in writing Judeo-Spanish—can also be helpful for understanding how a variety of documents from the sixteenth to nineteenth centuries incorporate cursive writing. So, for example, in the Judeo-Arabic communal register I referenced during our panel, on occasion, there are interconnected letters in repeating words such as “berakha / blessing / ברכה” (in purple), “fiḍḍa / silver / פצה” (in green), and “seder / order / סדר” (in red).<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> These cursive forms give the initial impression of messiness and lack of scribal skill yet it’s crucial to recognize the pragmatic significance of this writing method. Connecting letters and abbreviating Judeo-Arabic words such as “ת׳׳ע / t[asāwī] ʿa[la]” (in blue) increased the speed at which a scribe could record notes when calligraphic aesthetics were not the objective.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -701,6 +737,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure class="force-page-break"><img loading="lazy" alt="The image above, cropped to highlight the translation." src="/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading_hu7fba9da1679ce4a56c592454604cb9c1_808702_500x0_resize_q75_box.jpg 500w,
@@ -730,6 +772,12 @@ kWidget.embed({
 <p>Meanwhile, as more and more of these fragments turned up and added to my collection, <em>Scribes</em> project researchers Jasmin Shinohara and Professor Marina Rustow provided information about the dates and partial translation of the text of the fragments.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> I am very grateful to them both for that information, and for giving time and attention to the curiosity of a new volunteer at <em>Scribes</em> who wondered what she was looking at.</p>
 <p><strong>Matthew:</strong> Likewise, when I mentioned the <em>Scribes</em> user &ldquo;Citsci-Rancho'' during our panel discussion I had hoped they might be watching the panel or eventually see the recording. The serendipity of being able to collaborate on and to answer these questions is a rare opportunity. The seal you included in the register collection is crucial for two reasons. Its significance lies, firstly, in the dating– where the Hijrī year ١١٧٧/1177 AH or 1763/64 CE is visible (in purple):<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -821,7 +869,7 @@ kWidget.embed({
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">“Strangers in the Landscape”: On Research Development and Making Things for Making</title><link href="https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/</id><author><name>Samantha Blickhan</name></author><author><name>Will Granger</name></author><author><name>Shaun A. Noordin</name></author><author><name>Becky Rother</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+]]></content></entry><entry><title type="html">“Strangers in the Landscape”: On Research Development and Making Things for Making</title><link href="https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/</id><author><name>Samantha Blickhan</name></author><author><name>Will Granger</name></author><author><name>Shaun A. Noordin</name></author><author><name>Becky Rother</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This piece is about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration.</p>
 <p>This piece is about translating: from concept to design to product; from fragment to image to text; from high-level goal to incremental steps. It is about workflows and spin-offs and objectives; it is about unraveling a tapestry to learn how to spin its yarn.</p>
 <p>In <em>Data Feminism</em>, Catherine D’Ignazio and Lauren F. Klein use the example of the proliferation of street signs to make a point about making: <em>“One does not need street names for navigation until one has strangers in the landscape</em>” (italics in the original).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> In D’Ignazio and Klein’s usage, the “strangers” here are data scientists, digging through data with which they are not intimately familiar. In this piece, we use our experience as platform maintainers to illustrate how all collaborators and participants are “strangers” at one point or another in the process of research development;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> it is only through collective building that we can successfully name our streets.</p>
@@ -921,6 +969,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Two columns of screenshots from Geniza fragments displaying Hebrew and Arabic script examples." src="/issues/2/strangers-in-the-landscape/images/01_script-examples.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/strangers-in-the-landscape/images/01_script-examples_hu3da65b61b419604a55e3823b10c0f42e_2038119_500x0_resize_box_3.png 500w,
@@ -988,6 +1042,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="A photo of an open notebook showing sketches of a web page, toolbar icons, and handwritten notes." src="/issues/2/strangers-in-the-landscape/images/02_CG-interface3.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/strangers-in-the-landscape/images/02_CG-interface3_hu5d933f6ebe9c4c50c7755f0ec17eb888_2433924_500x0_resize_q75_box.jpeg 500w,
@@ -1030,6 +1090,12 @@ kWidget.embed({
 <p>As we worked through the design, it was essential that we also speak to real users of the platform in order to validate our assumptions and test that the task we were designing was easy to understand. We reached out to our list of Zooniverse beta reviewers as well as personal networks to find native Hebrew and Arabic speakers who were willing to test the platform in translation. Through these conversations, we were able to see how a RTL interface would differ from English or other LTR language interfaces, and make adjustments accordingly.</p>
 <p>We also realized that because the subject matter could be intimidating, it was important to craft an interface that would straddle the line between friendly and knowledgeable. This was accomplished through the use of typography and color. First, we looked for a typeface that could be both friendly and trustworthy: both are attributes of a family of sans-serifs called Grotesque. These simple, clean typefaces are easy to read and add a friendly personality to the interface.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -1144,6 +1210,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="A chart showing square, minuscule, and cursive Hebrew character examples." src="/issues/2/strangers-in-the-landscape/images/04_alephbet.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/strangers-in-the-landscape/images/04_alephbet_hu4722e4fda57175f589f054ac216c609b_399528_500x0_resize_box_3.png 500w,
@@ -1163,6 +1235,12 @@ kWidget.embed({
 </div></p>
 <p>Because of the variation in the way that individual characters are composed across the variety of hands in the Geniza, these skins are essential to helping nonexpert transcribers feel more confident submitting a transcription. Users can view alternate ways of writing a particular character, and choose the keyboard that most closely matches the script type of the fragment they’re currently transcribing. The option to return to modern characters is always available, too.</p>
 <p>
+
+
+
+
+
+
 
 
 

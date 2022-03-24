@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.90.0">Hugo</generator><title type="html">Startwords</title><link href="https://startwords.cdh.princeton.edu/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-02-07T18:56:27+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/</id><entry><title type="html">Creating and Recreating Virtual Community on Douglass Day</title><link href="https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/</id><author><name>Justin Smith</name></author><author><name>Courtney Murray</name></author><author><name>Jim Casey</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Save the Date for Douglass Day 2022!<br><br>Help us find the names of Black women in the Colored Conventions. Where did they go?<br><br>Registration is now open. Sign up for updates &amp; more!  <a href="https://t.co/nbxI9l1lGT">https://t.co/nbxI9l1lGT</a> <a href="https://t.co/5bz5fRQVLR">pic.twitter.com/5bz5fRQVLR</a></p>&mdash; Douglass Day (@DouglassDayorg) <a href="https://twitter.com/DouglassDayorg/status/1446478999287439372?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.91.0">Hugo</generator><title type="html">Startwords</title><link href="https://startwords.cdh.princeton.edu/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-03-24T19:24:25+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/</id><entry><title type="html">Creating and Recreating Virtual Community on Douglass Day</title><link href="https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/</id><author><name>Justin Smith</name></author><author><name>Courtney Murray</name></author><author><name>Jim Casey</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Save the Date for Douglass Day 2022!<br><br>Help us find the names of Black women in the Colored Conventions. Where did they go?<br><br>Registration is now open. Sign up for updates &amp; more!  <a href="https://t.co/nbxI9l1lGT">https://t.co/nbxI9l1lGT</a> <a href="https://t.co/5bz5fRQVLR">pic.twitter.com/5bz5fRQVLR</a></p>&mdash; Douglass Day (@DouglassDayorg) <a href="https://twitter.com/DouglassDayorg/status/1446478999287439372?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="tweet-group print-only-preview">
@@ -193,7 +193,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination</title><link href="https://startwords.cdh.princeton.edu/issues/2/datas-destinations/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/datas-destinations/</id><author><name>Victoria Anne Van Hyning</name></author><author><name>Mason A. Jones</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+]]></content></entry><entry><title type="html">Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination</title><link href="https://startwords.cdh.princeton.edu/issues/2/datas-destinations/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/datas-destinations/</id><author><name>Victoria Anne Van Hyning</name></author><author><name>Mason A. Jones</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Online crowdsourcing—a series of methods for engaging volunteers with STEM, humanities, and cultural heritage research—has rapidly matured between 2000 and 2021. These efforts have been led by research groups and platform designers like <a href="https://www.zooniverse.org/">Zooniverse</a>, platform designers like <a href="https://fromthepage.com/">FromThePage</a>, <a href="https://omeka.org/">Omeka</a>, <a href="https://pybossa.com/">PYBOSSA </a>and <a href="https://scripto.org/">Scripto</a>, and cultural heritage institutions like the <a href="https://www.archives.gov/">National Archives and Records Administration</a> (NARA) and <a href="https://www.si.edu/">Smithsonian Institution</a>. Volunteers help researchers, journalists, conservationists, cultural heritage practitioners, and one another to gather data that contributes to real research, original art, policy, community health, and more. In this essay, we will focus on cultural heritage crowdsourcing, and transcription projects in particular. Typically, these projects invite volunteers to transcribe handwritten or printed materials produced with ornate type or typewriter documents that—due to slight irregularities of the type, faint ink, or use of thin papers like onion skin—are not amenable to handwritten text recognition (HTR) or optical character recognition (OCR).</p>
 <p>
 <div class="video-embed-wrapper">
@@ -279,6 +279,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Volunteer transcription of an early modern creame cheese recipe." src="/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld_hue63b1972d48a1ce608a915f2767de879_1804370_500x0_resize_box_3.png 500w,
@@ -314,6 +320,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </blockquote>
 <p>Boermans kindly baked four different examples and shared images of her work:</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -396,6 +408,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Screenshot from By the People transcription project, showing a manuscript page from the Mary Church Terrell Papers and a user&#39;s transcription of that document&#39;s text." src="/issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage_hu85d7db1ee8495c5a3efa12fdac180d3d_351696_500x0_resize_box_3.png 500w,
@@ -417,6 +435,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </div></p>
 <p>Of the over 620,000 documents made available on <em>BTP</em> since October 2018, roughly 392,000 pages have been transcribed, reviewed, and marked as complete by volunteers, and 63,400 have been incorporated into loc.gov. The data are published in two ways. First, <a href="https://www.loc.gov/search/?in=&amp;q=%22volunteers+participating+in+the+By%22&amp;new=true">the transcriptions</a> are embedded in the metadata for individual pages as well as full documents. They appear alongside the images of the original manuscripts, thus creating pathways to individual pages. These transcriptions can be downloaded as .txt files either one page at a time or as whole documents. An attribution to the volunteers appears in two places, first as an overlay in the on-screen display for each page, and embedded in the .txt transcription file itself: “Transcribed and reviewed by volunteers participating in the <em>By The People</em> project at crowd.loc.gov.” The second way that LOC makes the transcriptions available is as <a href="https://www.loc.gov/search/?fa=contributor:by+the+people+(program)">bulk datasets</a> consisting of a .CSV file and README file detailing the context in which the data were originally collected on <em>BTP</em>. Bulk datasets have different affordances from individual .txt files.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -465,6 +489,12 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </blockquote>
 <p>The transcription project focuses predominantly on the written documents contained within the curated collection of personal papers. The team endeavored to make Driskell’s personal papers and the accompanying transcriptions easily accessible to best serve both an informational role and an accessibility role for researchers attempting to learn more about his life and the impact of his efforts to raise awareness of the quality, quantity, and vibrancy of Black art in America and abroad. The project launched in February 2021 with a corpus of over 1,200 documents, and additional materials have been uploaded since. Volunteers and some of the original project team have transcribed over 1,300 pages of documents and staff have begun work on indexing these transcriptions following review and OCR corrections.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -597,7 +627,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">Serendipity in the Cairo Geniza</title><link href="https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/</id><author><name>Matthew Dudley</name></author><author><name>Steffy Reader</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the <em>Scribes of the Cairo Geniza</em> and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference <em>Crowdsourcing and the Humanities</em> and discover that they had already been collaborating anonymously via the <em>Scribes of the Cairo Geniza</em> site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.</p>
+]]></content></entry><entry><title type="html">Serendipity in the Cairo Geniza</title><link href="https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/</id><author><name>Matthew Dudley</name></author><author><name>Steffy Reader</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the <em>Scribes of the Cairo Geniza</em> and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference <em>Crowdsourcing and the Humanities</em> and discover that they had already been collaborating anonymously via the <em>Scribes of the Cairo Geniza</em> site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.</p>
 
 <div class="video-embed-wrapper">
     
@@ -636,6 +666,12 @@ kWidget.embed({
 <p><strong>Matthew:</strong> Just as you have noted, Steffy, besides the layout of texts and the economical usage of paper, some other features for assessing the genre of Geniza fragments lie in script usage and the distribution of numerical figures. Square Hebrew letters, or “ מרובע / merūbaʿ,” are indeed a helpful indicator for tracing sacred literary texts. In the period I work on, between the sixteenth and nineteenth centuries, many Geniza texts begin to bear the influence of Sephardi <em>rashi</em> and <em>solitreo</em> scripts. As a result of the immigration of Sephardi refugees into Egypt across the fourteenth through sixteenth centuries—but especially after the Spanish expulsion of the 1492 CE—Geniza fragments portray the increased influence of Iberian systems of Hebrew script.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>Studying <em>solitreo</em> letter forms—which were more commonly used in writing Judeo-Spanish—can also be helpful for understanding how a variety of documents from the sixteenth to nineteenth centuries incorporate cursive writing. So, for example, in the Judeo-Arabic communal register I referenced during our panel, on occasion, there are interconnected letters in repeating words such as “berakha / blessing / ברכה” (in purple), “fiḍḍa / silver / פצה” (in green), and “seder / order / סדר” (in red).<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> These cursive forms give the initial impression of messiness and lack of scribal skill yet it’s crucial to recognize the pragmatic significance of this writing method. Connecting letters and abbreviating Judeo-Arabic words such as “ת׳׳ע / t[asāwī] ʿa[la]” (in blue) increased the speed at which a scribe could record notes when calligraphic aesthetics were not the objective.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -701,6 +737,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure class="force-page-break"><img loading="lazy" alt="The image above, cropped to highlight the translation." src="/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading_hu7fba9da1679ce4a56c592454604cb9c1_808702_500x0_resize_q75_box.jpg 500w,
@@ -730,6 +772,12 @@ kWidget.embed({
 <p>Meanwhile, as more and more of these fragments turned up and added to my collection, <em>Scribes</em> project researchers Jasmin Shinohara and Professor Marina Rustow provided information about the dates and partial translation of the text of the fragments.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> I am very grateful to them both for that information, and for giving time and attention to the curiosity of a new volunteer at <em>Scribes</em> who wondered what she was looking at.</p>
 <p><strong>Matthew:</strong> Likewise, when I mentioned the <em>Scribes</em> user &ldquo;Citsci-Rancho'' during our panel discussion I had hoped they might be watching the panel or eventually see the recording. The serendipity of being able to collaborate on and to answer these questions is a rare opportunity. The seal you included in the register collection is crucial for two reasons. Its significance lies, firstly, in the dating– where the Hijrī year ١١٧٧/1177 AH or 1763/64 CE is visible (in purple):<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup></p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -821,7 +869,7 @@ kWidget.embed({
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">“Strangers in the Landscape”: On Research Development and Making Things for Making</title><link href="https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/</id><author><name>Samantha Blickhan</name></author><author><name>Will Granger</name></author><author><name>Shaun A. Noordin</name></author><author><name>Becky Rother</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+]]></content></entry><entry><title type="html">“Strangers in the Landscape”: On Research Development and Making Things for Making</title><link href="https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/</id><author><name>Samantha Blickhan</name></author><author><name>Will Granger</name></author><author><name>Shaun A. Noordin</name></author><author><name>Becky Rother</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This piece is about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration.</p>
 <p>This piece is about translating: from concept to design to product; from fragment to image to text; from high-level goal to incremental steps. It is about workflows and spin-offs and objectives; it is about unraveling a tapestry to learn how to spin its yarn.</p>
 <p>In <em>Data Feminism</em>, Catherine D’Ignazio and Lauren F. Klein use the example of the proliferation of street signs to make a point about making: <em>“One does not need street names for navigation until one has strangers in the landscape</em>” (italics in the original).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> In D’Ignazio and Klein’s usage, the “strangers” here are data scientists, digging through data with which they are not intimately familiar. In this piece, we use our experience as platform maintainers to illustrate how all collaborators and participants are “strangers” at one point or another in the process of research development;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> it is only through collective building that we can successfully name our streets.</p>
@@ -921,6 +969,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Two columns of screenshots from Geniza fragments displaying Hebrew and Arabic script examples." src="/issues/2/strangers-in-the-landscape/images/01_script-examples.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/strangers-in-the-landscape/images/01_script-examples_hu3da65b61b419604a55e3823b10c0f42e_2038119_500x0_resize_box_3.png 500w,
@@ -988,6 +1042,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="A photo of an open notebook showing sketches of a web page, toolbar icons, and handwritten notes." src="/issues/2/strangers-in-the-landscape/images/02_CG-interface3.jpeg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/strangers-in-the-landscape/images/02_CG-interface3_hu5d933f6ebe9c4c50c7755f0ec17eb888_2433924_500x0_resize_q75_box.jpeg 500w,
@@ -1030,6 +1090,12 @@ kWidget.embed({
 <p>As we worked through the design, it was essential that we also speak to real users of the platform in order to validate our assumptions and test that the task we were designing was easy to understand. We reached out to our list of Zooniverse beta reviewers as well as personal networks to find native Hebrew and Arabic speakers who were willing to test the platform in translation. Through these conversations, we were able to see how a RTL interface would differ from English or other LTR language interfaces, and make adjustments accordingly.</p>
 <p>We also realized that because the subject matter could be intimidating, it was important to craft an interface that would straddle the line between friendly and knowledgeable. This was accomplished through the use of typography and color. First, we looked for a typeface that could be both friendly and trustworthy: both are attributes of a family of sans-serifs called Grotesque. These simple, clean typefaces are easy to read and add a friendly personality to the interface.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -1144,6 +1210,12 @@ kWidget.embed({
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="A chart showing square, minuscule, and cursive Hebrew character examples." src="/issues/2/strangers-in-the-landscape/images/04_alephbet.png"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/2/strangers-in-the-landscape/images/04_alephbet_hu4722e4fda57175f589f054ac216c609b_399528_500x0_resize_box_3.png 500w,
@@ -1163,6 +1235,12 @@ kWidget.embed({
 </div></p>
 <p>Because of the variation in the way that individual characters are composed across the variety of hands in the Geniza, these skins are essential to helping nonexpert transcribers feel more confident submitting a transcription. Users can view alternate ways of writing a particular character, and choose the keyboard that most closely matches the script type of the fragment they’re currently transcribing. The option to return to modern characters is always available, too.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -1381,7 +1459,7 @@ kWidget.embed({
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
+]]></content></entry><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
 <p>Humanists continue to expand the range of objects they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider nontraditional formats, the presentation and publishing of these experimental works (such as installations and project demos) are still secondary or sidelined, where they exist at all. What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Catherine D’Ignazio and Lauren Klein offer the broader term “rhetorical objects.”<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> This kind of innovative work is carefully researched and theorized. It deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.</p>
 <p>Academic research has a long history of textual practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. Both the <a href="https://openhumanitiesdata.metajnl.com/">Journal of Open Humanities Data</a> and the <a href="https://joss.theoj.org/">Journal of Open Source Software</a> can be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers.” But even these journals rely on transforming the content they review—data and software—into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, and augmented reality experiences? Will scholars need to become experts in all these modes, or can we find a way to become conversant in multiple forms of argumentation, as with other important scholarly theories?</p>
 <p>The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides toward reading and thinking in creative new scholarly modes.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
@@ -1410,6 +1488,12 @@ touching.</p>
 </div>
 <p>Data physicalization represents data in physical form.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Like other approaches to understanding and representing data, it highlights particular senses to communicate information, specifically touch and sight.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> But data physicalization is distinct from other sensory approaches in that it bridges the gap between creative, physical, and conceptual exploration, a nexus often associated with critical making.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Data physicalizations surface the amount of labor involved with data production and representation; they lend data different perspectives and dimensions.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> These physicalizations also create an opportunity for viewers to become active participants in the making of a piece using data.</p>
 <p>Data physicalization attempts to defamiliarize us from the many two-dimensional data representations we have seen by literally placing data in the <em>mise en scène</em> of a conceptual exploration. There is something unique about turning data points into physical forms and placing them in space, something that triggers the mind to understand data in a distinctive way.</p>
+
+
+
+
+
+
 
 
 
@@ -1491,6 +1575,12 @@ touching.</p>
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Folded origami model of a green cube intersecting a white octahedron covered with printed text." src="/issues/1/data-beyond-vision/images/folding-installation-photo.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_500x0_resize_q75_box.jpg 500w,
@@ -1533,6 +1623,12 @@ touching.</p>
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
 <h3 id="insights">Insights</h3>
+
+
+
+
+
+
 
 
 
@@ -1598,6 +1694,12 @@ The majority section of the pie chart represents the 14,583 library members who 
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years 1919–1942." src="/issues/1/data-beyond-vision/images/modeling-side-view.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_500x0_resize_q75_box.jpg 500w,
@@ -1617,6 +1719,12 @@ The majority section of the pie chart represents the 14,583 library members who 
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div>
 <p>This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.</p>
+
+
+
+
+
+
 
 
 
@@ -1686,6 +1794,12 @@ The majority section of the pie chart represents the 14,583 library members who 
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
 <h3 id="insights-1">Insights</h3>
+
+
+
+
+
+
 
 
 
@@ -1790,6 +1904,12 @@ Plotting documented membership accounts against borrowing activity shows the dif
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="The weaver sits in front of a table top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it." src="/issues/1/data-beyond-vision/images/weaving-soumak.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_500x0_resize_q75_box.jpg 500w,
@@ -1809,6 +1929,12 @@ Plotting documented membership accounts against borrowing activity shows the dif
 </div>
 <h3 id="insights-2">Insights</h3>
 <p>The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, the bar chart may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.</p>
+
+
+
+
+
+
 
 
 
@@ -1868,6 +1994,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Animated GIF with the camera panning revealing different portions of the paper model." src="/issues/1/data-beyond-vision/images/stacking-horizontal-pan.gif"><figcaption>
         <p>Overview of a folded model representing the lending library membership activities from 1919 to 1941.
         </p>
@@ -1882,6 +2014,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 </div>
 <h3 id="goal-3">Goal</h3>
 <p>This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library and bookshop by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the <a href="https://shakespeareandco.princeton.edu/">Shakespeare and Company Project</a> — bringing archival data to life and facilitating rich interpretations.</p>
+
+
+
+
+
+
 
 
 
@@ -1967,6 +2105,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 
 
 
+
+
+
+
+
+
 <figure aria-describedby="stackedbar-desc" ><img loading="lazy" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." src="/issues/1/data-beyond-vision/images/2d-stacked-bar.svg" role="img"><figcaption>
         <p>Membership activities of the Shakespeare and Company lending library from 1919 to 1941 represented as stacked bar charts.
         </p>
@@ -1983,6 +2127,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 Members with borrowing events constitute a fraction of all the members in the earlier years. The overall number of borrowing events increases gradually from 1919 to 1926, drops off slightly, then evidently increases from 1934 to 1939, even though the number of members drops drastically after 1929. It’s not easy to compare book borrowing by new members across the years.
 </div>
 <p>With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.</p>
+
+
+
+
+
+
 
 
 
@@ -2140,7 +2290,13 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>This work is based on pre-release versions of the <a href="https://shakespeareandco.princeton.edu/about/data/">datasets now available</a>. Kotin et al., <em>Shakespeare and Company Project Dataset: Lending Library Members, Books, Events.</em>&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Print a Model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>
+</section>]]></content></entry><entry><title type="html">Print a Model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>
+
+
+
+
+
+
 
 
 
@@ -2231,7 +2387,13 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>
+]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>
+
+
+
+
+
+
 
 
 
@@ -2321,7 +2483,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
+]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
 <p>I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was <em>Six Months to Live</em>, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. Not all of McDaniel&rsquo;s characters had cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. McDaniel&rsquo;s books were about grief and communities formed through crisis.</p>
 <p>These books would have been perfect for a budding hypochondriac, or for a reader inclined toward purple prose and melodrama, but I read them instead for medical details, taking mental notes on how to recognize signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the sick main character, I occupied the position of the doctor, a role I planned (at the time) to take on later in real life. It turned out, though, that I would have to be the protagonist anyway.</p>
 <p>I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be a cyst. Immediately, I was launched into a world at once familiar and alien. I had grown up among doctors and research scientists in the orbit of Washington University School of Medicine, largely because my father is a medical ethicist with an abiding interest in the practical applications of his work. I had even worked in a research laboratory there from ages sixteen to twenty, studying&mdash;of all things&mdash;the genetics of breast cancer.</p>
@@ -2378,7 +2540,13 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>Susan Sontag, <em>Illness as Metaphor</em> (New York: Farrar, Straus and Giroux, 1978), 3.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[
+</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[
+
+
+
+
+
+
 
 
 
@@ -2497,6 +2665,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught." src="/issues/1/weaving-howto/images/loom-neutral-position.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_500x0_resize_q75_box.jpg 500w,
@@ -2515,6 +2689,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div>
+
+
+
+
+
+
 
 
 
@@ -2577,6 +2757,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled downwards." src="/issues/1/weaving-howto/images/loom-lower-position.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_500x0_resize_q75_box.jpg 500w,
@@ -2617,6 +2803,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it." src="/issues/1/weaving-howto/images/shuttle.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_500x0_resize_q75_box.jpg 500w,
@@ -2635,6 +2827,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div>
+
+
+
+
+
+
 
 
 
@@ -2718,6 +2916,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Composite of eight images showing various stages of weaving." src="/issues/1/weaving-howto/images/plain-weave-thin.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/plain-weave-thin_huf032ac8439ba3742b430b43046a2812d_6876127_500x0_resize_q75_box.jpg 500w,
@@ -2753,6 +2957,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <h4 id="method-2">Method #2</h4>
 <p>This method was used to represent quotations.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -2833,6 +3043,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Composite of eight images showing various stages of weaving." src="/issues/1/weaving-howto/images/soumak-weave.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/soumak-weave_hu7ed6df7bb8b0216e72d821b99a1bdddd_3525885_500x0_resize_q75_box.jpg 500w,
@@ -2871,6 +3087,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <h3 id="pile-loop-weave">Pile Loop Weave</h3>
 <p>This technique was used to represent epigraphs.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -2946,6 +3168,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Composite of four images showing various stages of weaving." src="/issues/1/weaving-howto/images/rya-knot-weave.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/rya-knot-weave_hud3071ba86ff95d7aec199970c73cee20_4420018_500x0_resize_q75_box.jpg 500w,
@@ -2989,9 +3217,10 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">About</title><link href="https://startwords.cdh.princeton.edu/about/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/about/</id><published>0001-01-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p><em>Startwords</em> is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, <em>Startwords</em> is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.</p>
+]]></content></entry><entry><title type="html">About</title><link href="https://startwords.cdh.princeton.edu/about/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/about/</id><published>0001-01-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p><em>Startwords</em> is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, <em>Startwords</em> is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.</p>
 <p>Each issue features two articles that speak to a common theme, feature, or concern. “Snippets” invite readers to engage with the digital evidence underlying those articles. Issues will be released one to three times a year, when we have something to share or say.</p>
 <p><em>Startwords</em> (ISSN 2694-2658) is built with the Hugo static site generator using a custom-made theme. In support of open access principles, we publish all articles under a Creative Commons license (CC BY 4.0) and the <a href="https://github.com/Princeton-CDH/startwords">website code</a> under an Apache 2.0 license.</p>
+<p>Though we are not accepting submissions at this time, we make available for reference these working versions of the journal’s <a href="https://startwords.cdh.princeton.edu/guides/editorial-guidelines/">Editorial Guidelines</a> and <a href="https://startwords.cdh.princeton.edu/guides/style-guide/">Contributor Style Guide</a>.</p>
 <div class="masthead">
 <h2 id="masthead">Masthead</h2>
 <p><strong>Editor</strong> Grant Wythoff</p>
@@ -3013,7 +3242,184 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </ul>
 
 </div>
-]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
+]]></content></entry><entry><title type="html">Editorial Guidelines</title><link href="https://startwords.cdh.princeton.edu/guides/editorial-guidelines/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/guides/editorial-guidelines/</id><published>0001-01-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<h2 id="meetings">Meetings</h2>
+<p>Each issue of <em>Startwords</em> typically involves four core meetings between the CDH team, Guest Editor, and Contributors.</p>
+<hr>
+<p><strong>Meeting 1:</strong> Soliciting Contributors and Defining Roles</p>
+<p><em>Editor, Guest Editor, Tech Lead</em></p>
+<p>Devoted to discussing the issue theme, potential contributors, scope of work involved, and roles and responsibilities.</p>
+<hr>
+<p><strong>Meeting 2:</strong> Workshopping Article Pitches</p>
+<p><em>Editor, Guest Editor, Contributors, Tech Lead, CDH Dev &amp; Design Team</em></p>
+<p>Devoted to introducing editorial guidelines and workshopping ideas for articles and snippets. Meeting 2 will be the first time the Guest Editor introduces the Contributors to the full CDH team. Contributors will be provided with an introduction to the journal in advance of this meeting, and should come prepared to deliver a 5-10 minute pitch on their in-progress idea. The Editor will moderate this conversation, and the Guest Editor will frame the pitches within their overall vision for the issue. If possible, contributors should circulate materials in advance so that everyone can prepare their feedback and ideas before the meeting. In this meeting, the CDH team will provide conceptual feedback (how to frame the argument, what context readers will need, etc.) as well as scoping feedback on how much development and design work they will be able to devote to an article or snippet.</p>
+<hr>
+<p><strong>Meeting 3:</strong> Platform Workshop</p>
+<p><em>Contributors, CDH Dev &amp; Design Team</em></p>
+<p>Devoted to a technical introduction of <em>Startwords</em>, GitHub, and our editing and publishing workflow.</p>
+<hr>
+<p><strong>Meeting 4:</strong> Final Review</p>
+<p><em>Editor, Guest Editor, Tech Lead</em></p>
+<p>Devoted to a final editorial conversation and review of copyedits.</p>
+<h2 id="roles">Roles</h2>
+<h3 id="guest-editor">Guest Editor</h3>
+<p>The Guest Editor serves as the primary point of contact with all issue contributors. Responsibilities include helping to schedule meetings between CDH team and Contributors, and maintaining a spreadsheet containing every Contributor&rsquo;s name, email address, Twitter account, and title of the feature/snippet they&rsquo;re working on. The Guest Editor will be added to the CDH Slack as a single-channel guest.</p>
+<p><strong>During Meeting 2 Workshop:</strong> Guest Editor is responsible for soliciting supporting material or a brief pitch from each issue Contributor in advance of the Meeting 2 Workshop, so that the CDH team can review these materials in advance. This meeting is an opportunity for the Guest Editor to frame the features and snippets within their overall vision for the issue. This will give Contributors a shared framework to work within as they’re writing their pieces.</p>
+<p><strong>On Rejections:</strong> “Revise and resubmit” in the context of <em>Startwords</em> means design suggestions and developmental editing. It involves a fair amount of back-and-forth between Contributors, Guest Editor, and CDH team. So, we will consider whether there is enough time within the issue&rsquo;s deadlines to work with an author to develop their piece. Though Guest Editors will solicit features and snippets, it is ultimately up to the CDH team whether a pitch or an article draft will ultimately be accepted. Before rejecting a piece, however, the <em>Startwords</em> Editor will confer with the Guest Editor about the decision to make sure there aren&rsquo;t any other paths forward.</p>
+<p><strong>First-Round Editing:</strong> The Guest Editor is responsible for a first-round edit of features and snippets before sending them to the Editor. First-round editing consists of:</p>
+<ul>
+<li>Ensuring that there are no glaring issues with comprehensibility, style, argumentation, and overall fit between the issue’s pieces. The pieces should feel in conversation with one another.</li>
+<li>Suggesting which sentences or phrases would be best to feature as pull quotes in an article.</li>
+<li>Considering how the article’s opening sentence will be featured on the homepage: does it work well as an opening hook? Can there be any edits that will make the line a) be intelligible to a general audience, b) introduce the article and/or issue topic, c) make the reader want to open the article and read more?</li>
+<li>Guest Editor is welcome to edit more extensively or in other ways, if need be, so long as those edits and their approval by contributors still fits within the issue’s production timeline.</li>
+</ul>
+<h4 id="issue-introduction">Issue Introduction</h4>
+<p>Finally, the Guest Editor writes a brief introduction to the issue, which will be included on the main issue page. Introductions should be very brief 400–800 words and simply lay out the theme that is bringing together all of these pieces in conversation.</p>
+<h3 id="editor">Editor</h3>
+<p>The <em>Startwords</em> Editor will conduct second-round editing, which consists of a more comprehensive developmental edit that focuses on elements like style, opening hook, and questions of audience. If the author hasn’t used section breaks or suggested pull quotes, the Editor will consider where they might work well.</p>
+<p>The Editor moderates the group meetings listed above, and is responsible for monitoring the issue production schedule. The Editor serves as the point person responsible for facilitating between parties responsible for writing, editing, development, and design. When first drafts have been received, the Editor will send an early version of the articles typeset on a development branch of the site. The Editor will also moderate between Copyeditor and Contributors.</p>
+<h3 id="technical-lead">Technical Lead</h3>
+<p>The Technical Lead is responsible for coordinating the tasks and time of CDH developers and designers working on a <em>Startwords</em> issue. The Technical Lead advises all parties on technical constraints and implementation, and consults on embedding interactive elements or dynamic content.</p>
+<p>The Technical Lead oversees CDH developers and designers who will be responsible for converting finished features and snippets from Google / Word Doc into markdown, generating PDFs and depositing them in Zenodo, adding DOI to article metadata, and ensuring images are formatted properly with the appropriate alternative text. More details are available in the Asana “issue release checklist” template.</p>]]></content></entry><entry><title type="html">Style Guide</title><link href="https://startwords.cdh.princeton.edu/guides/style-guide/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/guides/style-guide/</id><published>0001-01-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<h2 id="overview-of-the-journal">Overview of the Journal</h2>
+<!--
+```
+Embed of Gissoo's ACH video goes here
+https://drive.google.com/file/d/1cuY6KQ_zUuyWMwZLmYoFxqHY7PkA18EI/view?usp=sharing
+``` -->
+<p><strong><em>Startwords</em> publishes experimental humanities research for a public audience.</strong></p>
+<p>Things we look for in the articles we publish:</p>
+<ul>
+<li>story just as important as argument</li>
+<li>academic writing that allows for interpretive flexibility and exploration on the part of readers</li>
+<li>portrait of a project in progress</li>
+<li>interactive features</li>
+<li>digital methods in fields that don&rsquo;t traditionally have them applied</li>
+<li>writing that is engaging for a public audience</li>
+<li>writing that shows people how we understand, read, and use data in the humanities</li>
+</ul>
+<p>For style inspiration, contributors can review other publications like:</p>
+<p><a href="https://www.canopycanopycanopy.com/">Triple Canopy</a> • <a href="https://pudding.cool/">The Pudding</a> • <a href="https://distill.pub/">Distill</a> • <a href="https://jsdp.enslaved.org/">Journal of Slavery and Data Preservation</a> • <a href="https://parametric.press/issue-02/">Parametric Press</a> • <a href="https://emergencemagazine.org/">Emergence Magazine</a></p>
+<p>Each issue of <em>Startwords</em> showcases (typically) two feature articles (2,000–5,000 words) in conversation on a shared theme. That theme is encapsulated by a keyword for the issue’s title (i.e. Issue 1: “Transformations”, Issue 2: “Scribes”).</p>
+<p>Snippets, consisting of a couple hundred words of context and an interactive feature, elaborate on the issue theme with short provocations, tutorials, code, annotated data, or other nontraditional scholarly output. Snippets can be related to one of the two features (i.e. instructions for reproducing the feature article’s results), or snippets can be devoted to an entirely separate project, so long as they relate to the issue theme.</p>
+<p>If using a <a href="https://en.wikipedia.org/wiki/WYSIWYG">WYSIWYG</a> word processor like Google Docs or Microsoft Word to write your articles, please keep in mind the following features of how <em>Startwords</em> will typeset your article:</p>
+<ul>
+<li>The opening lines of your essay (the &ldquo;lede&rdquo; or &ldquo;hook&rdquo;) will go on the homepage. There is room for roughly 185 total characters in that opening page lede, and it should be a complete sentence.</li>
+<li>Authors have the option of creating section breaks in their article with a flourished section break: the <em>Startwords</em> icon.</li>
+<li>Footnotes will be typeset using a new feature we call contextual notes: inline annotations anchored to the relevant position in the body text. These contextual notes can contain scrollable media, including long text and images. When linking to an external site or resource in your article, you’ll want to decide whether to use either a hyperlink or a contextual note, but not both. It&rsquo;s redundant to have a hyperlink at the end of a sentence alongside a contextual note. (In addition to making the clicking functionality difficult.)</li>
+<li>Pull quotes: you may suggest which of your article’s lines you’d like to feature in bigger text offset from the main body of the article. Alternatively, the Guest Editor and <em>Startwords</em> Editor can select these pull quotes for you.</li>
+</ul>
+<h2 id="editing--typesetting">Editing &amp; Typesetting</h2>
+<p>Rather than having contributors and editors work in a de-contextualized WYSIWYG word processor all the way up to the point of final page proofs, <em>Startwords</em> aspires to an iterative workflow that incorporates writing, editing, design, and development. After receiving your first drafts, the CDH team will create a “stub” or placeholder version of the new issue on a development branch. We will then send you initial page proofs, at an unlisted URL, showing how your writing will look once it&rsquo;s typeset on the site. During the editorial review and feedback process, you can iteratively edit based on how your writing will look when typeset alongside its interactive features or multimedia elements.</p>
+<p>If you would like more information on the way we build the journal using the Hugo static site generator and typeset articles in HTML, PDF, and plain text, see the <a href="https://github.com/Princeton-CDH/startwords/blob/main/themes/startwords/README.md"><em>Startwords</em> theme README</a>.</p>
+<h2 id="licensing">Licensing</h2>
+<p>Articles will be uploaded to the data repository <a href="https://zenodo.org/">Zenodo</a>, which will assign each article a DOI. Articles will be published open access, with CC-BY license, so they can be republished and reused in any other forum or format.</p>
+<h2 id="images">Images</h2>
+<h3 id="accessibility">Accessibility</h3>
+<p>All images that are informative (not decorative) must provide text content that can be accessed by non-sighted users. Contributors are responsible for writing this alternative image text.</p>
+<h4 id="alternative-text">Alternative Text</h4>
+<p>For images that don’t convey a large amount of information (for example, photographs) the author should supply alternative text that describes the image in an unbiased way using 100 <strong>characters</strong> or less, since some screen readers will only read the first 100 characters of the text.</p>
+<p>One way to think of alternative text is as standing in for the image itself - therefore, the text should never duplicate information that is already elsewhere on the page (e.g. if the image has a caption). Put another way, it’s how you would describe a picture if you were talking to someone on the phone – just enough information for them to visualize it in words.</p>
+<p>It should also never include the words “image”, “graphic”, etc. since the screen reader will often say this word before reading the description, causing the user to hear it twice.</p>
+<h5 id="example">Example</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure ><img loading="lazy" alt="The weaver sits in front of a table top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it." src="/images/weaving-soumak.jpg"
+     sizes="(max-width: 768px) 100vw, 80vw"
+     srcset="/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_500x0_resize_q75_box.jpg 500w,
+    /images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_800x0_resize_q75_box.jpg 800w,/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_1200x0_resize_q75_box.jpg 1200w,/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_1500x0_resize_q75_box.jpg 1500w,/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_1800x0_resize_q75_box.jpg 1800w,/images/weaving-soumak.jpg 3400w" 
+     class="landscape"
+     ><figcaption>
+        <p>Gissoo Doroudian, creating a Soumak weave.
+        </p>
+    </figcaption>
+</figure>
+<p>Alt text for this image might read: “A woman carefully adjusts blue threads on a wooden loom surrounded by bundles of cloth.”</p>
+<h5 id="further-reading">Further reading</h5>
+<p>For more information on alternative text, see <a href="https://html.spec.whatwg.org/multipage/images.html#alt">the WHATWG HTML specification</a>.</p>
+<h4 id="long-descriptions">Long Descriptions</h4>
+<p>Images that convey a substantial amount of information to the viewer, like charts and graphs, often require a longer description <strong>in addition to</strong> their alternative text (see above) in order to make all of the information available to non-sighted users. In this case, assistive technology will generally first read the alternative text, pause for a moment, then continue by reading the longer description.</p>
+<p>For these images, the author should also supply a long description that captures all of the major insights of the image in an unbiased way using 100 <strong>words</strong> or less. There is no hard length requirement, but most assistive tech users prefer more concise descriptions where possible. The long description should try to avoid duplicating information available elsewhere on the page, including in the image’s alternative text and caption.</p>
+<p>Long descriptions can also describe in detail particular data points or illustration techniques used in the image, in order to give the user a fuller understanding of the image that approximates the affordances of color, size, shape, etc.</p>
+<h5 id="example-1">Example</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure ><img loading="lazy" alt="two-dimensional stacked bar chart" src="/images/2d-stacked-bar.svg" role="img">
+</figure>
+<p>A long description for this image might read: “This chart compares the proportion of events for new members against the proportion of events for returning members for each year that the Shakespeare and Company bookstore was open. The overall number of events that brought people to the bookstore increases gradually from 1919 to 1929, drops off slightly, then increases dramatically from 1932 to 1939. The chart also distinguishes borrowing of books from subscriptions to the library. During the period from 1932 to 1939, the share of book borrowing by new members increased relative to existing members each year.”</p>
+<h5 id="further-reading-1">Further reading</h5>
+<p>For more information on long descriptions, see <a href="https://www.w3.org/WAI/tutorials/images/examples/2014-first-qtr/">the W3C’s WAI tutorials</a>.</p>
+<h2 id="including-custom-javascriptcss">Including Custom JavaScript/CSS</h2>
+<p><em>Startwords</em> supports article-specific styles or functionality. For those Contributors planning to incorporate interactive content (JavaScript, etc.), we ask that you develop these resources on your own for now, and then we will integrate into our Hugo build. The Contributor will also be responsible for creating a static version of that interactive content for PDF (i.e. a screenshot of a GIF or a filterable data table).</p>
+<p>To include custom CSS or JavaScript in an article, simply include the files in the resource bundle for the article (i.e., within the directory). Any files that end in .css or .js will be automatically inserted via stylesheet or script tag respectively. No preprocessing is applied to these files.</p>
+<p><strong>Example:</strong></p>
+<p><a href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/">“Weaving as Interface,”</a> in Issue 1, includes JavaScript and CSS <a href="https://github.com/Princeton-CDH/startwords/tree/main/content/issues/1/weaving-interface">in the directory</a> with the article.</p>
+<h2 id="alternate-versions-of-content">Alternate Versions of Content</h2>
+<h3 id="figures">Figures</h3>
+<p>Images in article text should be added with the Startwords customized version of Hugo’s figure shortcode. This shortcode will generate derivative image sizes as needed for display, and provides support for extended descriptions for screen readers. See <a href="https://github.com/Princeton-CDH/startwords/tree/main/themes/startwords#figure">figure shortcode documentation</a> for specifics.</p>
+<p>Shortcodes are not included in the text version of an article; figure information should be duplicated in a text version of the figure, as explained in <a href="https://github.com/Princeton-CDH/startwords/tree/main/themes/startwords#article-text-version">theme documentation</a>.</p>
+<h3 id="interactive-content">Interactive Content</h3>
+<p>The <a href="https://github.com/Princeton-CDH/startwords/tree/main/themes/startwords#deepzoom">deepzoom</a> and <a href="https://github.com/Princeton-CDH/startwords/tree/main/themes/startwords#sketchfab">sketchfab</a> shortcodes both include the optional parameters pdf-img and pdf-alt to specify a static image and image alt text to be displayed in the PDF.</p>
+<p>In both cases, this generates a figure that is hidden in the HTML view but rendered in the PDF, with this structure:</p>
+<pre tabindex="0"><code>&lt;figure class=&quot;preview&quot;&gt;
+
+    &lt;img src=&quot;images/modeling-3d-alt.jpg&quot; alt=&quot;3D printed object and accompanying 3D printed labels displayed on a table; this side view shows labels for the years 1919–1942.&quot;&gt;
+
+  &lt;figcaption&gt;
+
+      &lt;p&gt;The online version of this essay includes an interactive 3D viewer displaying a model of this object.&lt;/p&gt;
+
+  &lt;/figcaption&gt;
+
+&lt;/figure&gt;
+</code></pre><p>The same logic should work for custom interactive content that is added without using these shortcodes. (But editors should be sure to test all versions of an article with any such content!)</p>
+<p><strong>Example:</strong></p>
+<p><a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/">“Data Beyond Vision,”</a> in Issue 1, includes sketchfab 3D model and IIIF Deep Zoom; in the PDF, each of these is replaced with a static image that shows the model from multiple angles or different portions of the weaving at various scales.</p>
+]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
 <p>As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.</p>
 <p><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup> <sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
 </div> <!-- close text container -->

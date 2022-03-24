@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.90.0">Hugo</generator><title type="html">Issue One on Startwords</title><link href="https://startwords.cdh.princeton.edu/issues/1/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/issues/1/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/issues/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-02-07T18:56:27+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/1/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.91.0">Hugo</generator><title type="html">Issue One on Startwords</title><link href="https://startwords.cdh.princeton.edu/issues/1/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/issues/1/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/issues/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-03-24T19:24:25+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/1/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
 <p>Humanists continue to expand the range of objects they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider nontraditional formats, the presentation and publishing of these experimental works (such as installations and project demos) are still secondary or sidelined, where they exist at all. What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Catherine D’Ignazio and Lauren Klein offer the broader term “rhetorical objects.”<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> This kind of innovative work is carefully researched and theorized. It deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.</p>
 <p>Academic research has a long history of textual practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. Both the <a href="https://openhumanitiesdata.metajnl.com/">Journal of Open Humanities Data</a> and the <a href="https://joss.theoj.org/">Journal of Open Source Software</a> can be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers.” But even these journals rely on transforming the content they review—data and software—into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, and augmented reality experiences? Will scholars need to become experts in all these modes, or can we find a way to become conversant in multiple forms of argumentation, as with other important scholarly theories?</p>
 <p>The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides toward reading and thinking in creative new scholarly modes.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
@@ -27,6 +27,12 @@ touching.</p>
 </div>
 <p>Data physicalization represents data in physical form.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> Like other approaches to understanding and representing data, it highlights particular senses to communicate information, specifically touch and sight.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> But data physicalization is distinct from other sensory approaches in that it bridges the gap between creative, physical, and conceptual exploration, a nexus often associated with critical making.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> Data physicalizations surface the amount of labor involved with data production and representation; they lend data different perspectives and dimensions.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> These physicalizations also create an opportunity for viewers to become active participants in the making of a piece using data.</p>
 <p>Data physicalization attempts to defamiliarize us from the many two-dimensional data representations we have seen by literally placing data in the <em>mise en scène</em> of a conceptual exploration. There is something unique about turning data points into physical forms and placing them in space, something that triggers the mind to understand data in a distinctive way.</p>
+
+
+
+
+
+
 
 
 
@@ -108,6 +114,12 @@ touching.</p>
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Folded origami model of a green cube intersecting a white octahedron covered with printed text." src="/issues/1/data-beyond-vision/images/folding-installation-photo.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/data-beyond-vision/images/folding-installation-photo_hue8cc9d37f77dd4cd10109019f3675f97_9534334_500x0_resize_q75_box.jpg 500w,
@@ -150,6 +162,12 @@ touching.</p>
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
 <h3 id="insights">Insights</h3>
+
+
+
+
+
+
 
 
 
@@ -215,6 +233,12 @@ The majority section of the pie chart represents the 14,583 library members who 
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="3D printed object and accompanying 3D printed labels laid out on a table; this side view shows labels for the years 1919–1942." src="/issues/1/data-beyond-vision/images/modeling-side-view.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/data-beyond-vision/images/modeling-side-view_hu5bc641453e1033078d4f48224daca5b0_4425375_500x0_resize_q75_box.jpg 500w,
@@ -234,6 +258,12 @@ The majority section of the pie chart represents the 14,583 library members who 
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div>
 <p>This data physicalization demonstrates the affordances of three dimensions for representing data: time series data are displayed with sequential months and years adjacent to each other, which makes it easier to discern seasonal and annual trends. I hope to inspire others to try experimental approaches to representing data; writing software to generate printable 3D models directly from the data makes the process reproducible, and may eventually enable others to create and print their own physicalizations. The tactile nature of the object suggests the possibilities of 3D printing to create more accessible representations of data.</p>
+
+
+
+
+
+
 
 
 
@@ -303,6 +333,12 @@ The majority section of the pie chart represents the 14,583 library members who 
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
 <h3 id="insights-1">Insights</h3>
+
+
+
+
+
+
 
 
 
@@ -407,6 +443,12 @@ Plotting documented membership accounts against borrowing activity shows the dif
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="The weaver sits in front of a table top loom; one hand lifts two strand of the warp yarn, the other stretches out the yarn being looped around it." src="/issues/1/data-beyond-vision/images/weaving-soumak.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/data-beyond-vision/images/weaving-soumak_hu4c20ea29d73279e64865a8a2b7a14231_9638085_500x0_resize_q75_box.jpg 500w,
@@ -426,6 +468,12 @@ Plotting documented membership accounts against borrowing activity shows the dif
 </div>
 <h3 id="insights-2">Insights</h3>
 <p>The data encoded in the weaving could be represented as a stacked bar chart, a familiar and easily available choice for communicating types and quantities. However, the bar chart may be the least effective for communicating the depth and conceptual nuance of data on multiple levels.</p>
+
+
+
+
+
+
 
 
 
@@ -485,6 +533,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Animated GIF with the camera panning revealing different portions of the paper model." src="/issues/1/data-beyond-vision/images/stacking-horizontal-pan.gif"><figcaption>
         <p>Overview of a folded model representing the lending library membership activities from 1919 to 1941.
         </p>
@@ -499,6 +553,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 </div>
 <h3 id="goal-3">Goal</h3>
 <p>This piece aims to reveal the continuity and growth of Sylvia Beach’s lending library and bookshop by showing the extent of activity and recorded membership based on logbooks and lending library cards. Multiple variables are encoded in the dimensions of stacking boxes based on the technique of pop-up box folds. By exhibiting the evolution of the library over time while contrasting activities of new and old members, this piece enables multiple ways to compare and interpret the data. By transforming a flat surface to a three-dimensional form with play of light and shadows, this production technique serves as a metaphor for the larger purpose of the <a href="https://shakespeareandco.princeton.edu/">Shakespeare and Company Project</a> — bringing archival data to life and facilitating rich interpretations.</p>
+
+
+
+
+
+
 
 
 
@@ -584,6 +644,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 
 
 
+
+
+
+
+
+
 <figure aria-describedby="stackedbar-desc" ><img loading="lazy" alt="A series of stacked bar charts comparing the number of members, numbers of borrowers, and borrowing events, and the portion of new and renewed members among each of these categories." src="/issues/1/data-beyond-vision/images/2d-stacked-bar.svg" role="img"><figcaption>
         <p>Membership activities of the Shakespeare and Company lending library from 1919 to 1941 represented as stacked bar charts.
         </p>
@@ -600,6 +666,12 @@ The chart shows that quotations are the most common type of reference in Chapter
 Members with borrowing events constitute a fraction of all the members in the earlier years. The overall number of borrowing events increases gradually from 1919 to 1926, drops off slightly, then evidently increases from 1934 to 1939, even though the number of members drops drastically after 1929. It’s not easy to compare book borrowing by new members across the years.
 </div>
 <p>With current off-the-shelf visualization tools like the ones that come with Google Sheets, these three data series can generate three separate stacked bar charts. Since the numbers have different ranges, the vertical axes are drawn in different scales, which makes comparison across series impossible. The aggregate version presented here required manual adjustment to combine the separated charts and to make the Y axes comparable. In this 2D version, various activities of the growing membership body are not linked, and it’s difficult to draw connections between active members and the intensity of their activities because spatially these bars are not adjacent to each other. In the conventional pie charts, although the part-whole relationship between new membership activity and all activity is apparent, comparing across the three types of activities is not possible.</p>
+
+
+
+
+
+
 
 
 
@@ -757,7 +829,13 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>This work is based on pre-release versions of the <a href="https://shakespeareandco.princeton.edu/about/data/">datasets now available</a>. Kotin et al., <em>Shakespeare and Company Project Dataset: Lending Library Members, Books, Events.</em>&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Print a Model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>
+</section>]]></content></entry><entry><title type="html">Print a Model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>
+
+
+
+
+
+
 
 
 
@@ -848,7 +926,13 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>
+]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>
+
+
+
+
+
+
 
 
 
@@ -938,7 +1022,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
+]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
 <p>I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was <em>Six Months to Live</em>, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. Not all of McDaniel&rsquo;s characters had cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. McDaniel&rsquo;s books were about grief and communities formed through crisis.</p>
 <p>These books would have been perfect for a budding hypochondriac, or for a reader inclined toward purple prose and melodrama, but I read them instead for medical details, taking mental notes on how to recognize signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the sick main character, I occupied the position of the doctor, a role I planned (at the time) to take on later in real life. It turned out, though, that I would have to be the protagonist anyway.</p>
 <p>I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be a cyst. Immediately, I was launched into a world at once familiar and alien. I had grown up among doctors and research scientists in the orbit of Washington University School of Medicine, largely because my father is a medical ethicist with an abiding interest in the practical applications of his work. I had even worked in a research laboratory there from ages sixteen to twenty, studying&mdash;of all things&mdash;the genetics of breast cancer.</p>
@@ -995,7 +1079,13 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>Susan Sontag, <em>Illness as Metaphor</em> (New York: Farrar, Straus and Giroux, 1978), 3.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[
+</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[
+
+
+
+
+
+
 
 
 
@@ -1114,6 +1204,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught." src="/issues/1/weaving-howto/images/loom-neutral-position.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/loom-neutral-position_hu8cc7c7aed7826c8aacb143f017aeac83_3956849_500x0_resize_q75_box.jpg 500w,
@@ -1132,6 +1228,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div>
+
+
+
+
+
+
 
 
 
@@ -1194,6 +1296,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Wooden loom sitting on table with blue thread strung taught, pulled downwards." src="/issues/1/weaving-howto/images/loom-lower-position.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/loom-lower-position_huaab913883759ea62d53fc817d5b16562_3740196_500x0_resize_q75_box.jpg 500w,
@@ -1234,6 +1342,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Close-up of wooden loom showing long wooden rod with blue yarn wrapped around it." src="/issues/1/weaving-howto/images/shuttle.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/shuttle_hu517e8a7be430e6ac680aac87e5b4d973_4964328_500x0_resize_q75_box.jpg 500w,
@@ -1252,6 +1366,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | ATTRIBUTION: Photo by Gissoo Doroudian, edited by Xinyi Li.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div>
+
+
+
+
+
+
 
 
 
@@ -1335,6 +1455,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Composite of eight images showing various stages of weaving." src="/issues/1/weaving-howto/images/plain-weave-thin.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/plain-weave-thin_huf032ac8439ba3742b430b43046a2812d_6876127_500x0_resize_q75_box.jpg 500w,
@@ -1370,6 +1496,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <h4 id="method-2">Method #2</h4>
 <p>This method was used to represent quotations.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -1450,6 +1582,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Composite of eight images showing various stages of weaving." src="/issues/1/weaving-howto/images/soumak-weave.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/soumak-weave_hu7ed6df7bb8b0216e72d821b99a1bdddd_3525885_500x0_resize_q75_box.jpg 500w,
@@ -1488,6 +1626,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <h3 id="pile-loop-weave">Pile Loop Weave</h3>
 <p>This technique was used to represent epigraphs.</p>
 <p>
+
+
+
+
+
+
 
 
 
@@ -1563,6 +1707,12 @@ Overall, renewed members outsize new members before 1929, followed by five years
 
 
 
+
+
+
+
+
+
 <figure ><img loading="lazy" alt="Composite of four images showing various stages of weaving." src="/issues/1/weaving-howto/images/rya-knot-weave.jpg"
      sizes="(max-width: 768px) 100vw, 80vw"
      srcset="/issues/1/weaving-howto/images/rya-knot-weave_hud3071ba86ff95d7aec199970c73cee20_4420018_500x0_resize_q75_box.jpg 500w,
@@ -1606,7 +1756,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 </li>
 </ol>
 </section>
-]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2022-02-07T13:54:19-05:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
+]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2022-03-24T15:22:28-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
 <p>As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.</p>
 <p><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup> <sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
 </div> <!-- close text container -->
