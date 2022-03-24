@@ -15,7 +15,7 @@
                 {{/* don't show translated issue if available in the current language */}}
                 {{ if not (where .Translations ".Lang" $currentLang) }}
                 <li {{ if not (eq .Lang $currentLang )}}lang="{{ .Lang }}"{{ end }}> {{/* set language if it changes */}}
-                    <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="Issue {{ .Params.number }}">
+                    <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="{{ i18n "issue" }} {{ .Params.number }}">
                         {{ .Render "summary" }}
                     </a>
                     <div class="translations" aria-label='{{ "languages available:" }}'> {{/* todo: translate */}}

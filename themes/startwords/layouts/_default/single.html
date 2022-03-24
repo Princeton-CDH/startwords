@@ -1,15 +1,21 @@
 {{ define "pagetype" }}page{{ end }}
 
+
 {{ define "main" }}
 <main>
-    <div class="grid">
-        <header>
-            {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-            {{ .Summary }}
-        </header>
-        <div class="text-container">
-            {{ with .Content }}{{ . }}{{ end }}
+    <article>
+        <div class="grid">
+            <div class="text-container">
+            <header>
+                {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+                <h2>Contents</h2>
+                {{ .TableOfContents }}
+            </header>
+
+            {{ .Content }}
+            </div>
         </div>
-    </div>
+    </article>
 </main>
+
 {{ end }}

@@ -1,4 +1,4 @@
-body.article .footnotes {
+body.article .footnotes, body.page .footnotes {
     min-height: 50vh;
     margin-top: rem(120px);
     margin-bottom: rem(120px);
@@ -316,4 +316,7 @@ sup {
     line-height: 0;  /* don't disrupt nearby text line-height */
 }
 
-body.article .endnotes a.footnote-backref:focus { outline-color: $black; }
+body.article .endnotes a.footnote-backref:focus,
+body.page .endnotes a.footnote-backref:focus {
+    outline-color: $black;
+}

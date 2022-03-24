@@ -5,11 +5,13 @@ title: Editorial Guidelines
 
 <!--more-->
 
+## Meetings
+
 Each issue of _Startwords_ typically involves four core meetings between the CDH team, Guest Editor, and Contributors.
 
 **********
 
-**Meeting 1:** Soliciting Contributors and Defining Roles 
+**Meeting 1:** Soliciting Contributors and Defining Roles
 
 *Editor, Guest Editor, Tech Lead*
 
@@ -39,9 +41,9 @@ Devoted to a technical introduction of _Startwords_, GitHub, and our editing and
 
 Devoted to a final editorial conversation and review of copyedits.
 
-# Roles
+## Roles
 
-## Guest Editor
+### Guest Editor
 
 The Guest Editor serves as the primary point of contact with all issue contributors. Responsibilities include helping to schedule meetings between CDH team and Contributors, and maintaining a spreadsheet containing every Contributor's name, email address, Twitter account, and title of the feature/snippet they're working on. The Guest Editor will be added to the CDH Slack as a single-channel guest.
 
@@ -56,17 +58,17 @@ The Guest Editor serves as the primary point of contact with all issue contribut
 - Considering how the article’s opening sentence will be featured on the homepage: does it work well as an opening hook? Can there be any edits that will make the line a) be intelligible to a general audience, b) introduce the article and/or issue topic, c) make the reader want to open the article and read more?
 - Guest Editor is welcome to edit more extensively or in other ways, if need be, so long as those edits and their approval by contributors still fits within the issue’s production timeline.
 
-### Issue Introduction
+#### Issue Introduction
 
 Finally, the Guest Editor writes a brief introduction to the issue, which will be included on the main issue page. Introductions should be very brief 400–800 words and simply lay out the theme that is bringing together all of these pieces in conversation.
 
-## Editor
+### Editor
 
 The _Startwords_ Editor will conduct second-round editing, which consists of a more comprehensive developmental edit that focuses on elements like style, opening hook, and questions of audience. If the author hasn’t used section breaks or suggested pull quotes, the Editor will consider where they might work well.
 
 The Editor moderates the group meetings listed above, and is responsible for monitoring the issue production schedule. The Editor serves as the point person responsible for facilitating between parties responsible for writing, editing, development, and design. When first drafts have been received, the Editor will send an early version of the articles typeset on a development branch of the site. The Editor will also moderate between Copyeditor and Contributors.
 
-## Technical Lead
+### Technical Lead
 
 The Technical Lead is responsible for coordinating the tasks and time of CDH developers and designers working on a _Startwords_ issue. The Technical Lead advises all parties on technical constraints and implementation, and consults on embedding interactive elements or dynamic content.
 

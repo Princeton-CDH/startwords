@@ -15,11 +15,11 @@
     <div class="issue-summary inverted grid">
         <div class="container">
             {{ $issue := index (where .Site.AllPages "Type" "issue") 0 }}
-            <span class="number">Issue {{ $issue.Params.number }}</span>
+            <span class="number">{{ i18n "issue" }} {{ $issue.Params.number }}</span>
             <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
                 {{ $issue.Summary | plainify }}
-                <a class="more highlight-focus" href="{{ $issue.RelPermalink }}">view this issue</a>
+                <a class="more highlight-focus" href="{{ $issue.RelPermalink }}">{{ i18n "view-issue" }}</a>
             </p>
         </div>
     </div>
