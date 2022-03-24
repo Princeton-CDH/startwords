@@ -4,7 +4,7 @@ layout: single
 title: Issue Three
 number: 3
 theme: Parrots
-date: 2022-02-01 #TODO: Replace with final publication date
+date: 2022-04-01 #TODO: Replace with final publication date
 slug: 3
 num_features: 3
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #TODO: Replace placeholder text
