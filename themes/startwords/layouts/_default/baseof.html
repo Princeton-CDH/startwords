@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#3D206C" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {{/* when a page is available in translation, link all versions as alternates */}}
+    {{- if .IsTranslated -}} {{/* include current language */}}
+        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+    {{- range .Translations -}}
+        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+    {{- end -}}
+    {{- end -}}
     {{ $favicon_path := "/img/favicon" | relURL}}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ $favicon_path }}/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon_path }}/favicon-32x32.png" />
