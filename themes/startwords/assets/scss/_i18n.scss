@@ -22,13 +22,22 @@ article header {
             background-color: $light-purple;
             color: $dark-purple;
             font-family: $font-sans;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             transform-style: preserve-3d;
-            width: 45px;
-            height: 40px;
-            // unselected
-            transform: scale3d(1, 1, 1.75) translate3d(5px, 3px, 45px);
 
+            --button-width: 40px;
+            --button-height: 34px;
+
+            width: var(--button-width);
+            height: var(--button-height);
+            // unselected
+            transform: scale3d(1, 1, 1.75) translate3d(5px, 3px, var(--button-width));
+
+            @media (min-width: $breakpoint-s) {
+                --button-width: 45px;
+                --button-height: 40px;
+                font-size: 1.2rem;
+            }
             &.current {
                 background-color: $medium-dark-purple;
                 font-weight: 600;
@@ -39,7 +48,7 @@ article header {
             span {
                 width: 100%;
                 text-align: center;
-                line-height: 40px;
+                line-height: var(--button-height);
                 text-decoration: none;
                 display: block;
             }
@@ -47,7 +56,7 @@ article header {
             &:not(:first-child):not(.current) {
                 /* remove space between */
                 // transform is slightly different for button on right
-                transform: scale3d(1, 1, 1.75) translate3d(8px, 4px, 45px);
+                transform: scale3d(1, 1, 1.75) translate3d(calc(var(--button-width) * 0.1), calc(var(--button-width) * 0.08), var(--button-width));
             }
 
             /* use pseduo-elements to create visible cube faces */
@@ -66,12 +75,12 @@ article header {
             }
             &::before {
                 /* cube face right */
-                transform: rotateY(-270deg) translateX(45px);
+                transform: rotateY(-270deg) translateX(var(--button-width));
                 transform-origin: top right;
             }
             &::after {
                 /* cube face bottom */
-                transform: rotateX(270deg) translateY(40px);
+                transform: rotateX(270deg) translateY(var(--button-height));
                 transform-origin: bottom center;
             }
         }
