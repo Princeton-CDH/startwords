@@ -1,6 +1,6 @@
 <article class="article-summary">
     <div class="bg-text" role="presentation">{{ .Summary | plainify }}</div>
-    <p>{{ .Summary | plainify }}</p>
+    <p style="--length:{{ .Summary | plainify | len }};--words: {{ .Summary | plainify | countwords }}"><span style="--length:{{ .Summary | plainify | len }};--words: {{ .Summary | plainify | countwords }};height:{{ mul 1.4  (.Summary | plainify | len) }}px"></span>{{ .Summary | plainify }}</p>
     <h2><a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     {{ partial "authors" . }}
     {{ with .Params.doi }}

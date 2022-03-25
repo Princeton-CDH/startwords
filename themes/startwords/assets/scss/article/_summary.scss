@@ -27,16 +27,39 @@ $preview-height-xl: rem(250px);  // 1024px-
         @media (min-width: $breakpoint-m) { font-size: rem(18px); }
     }
 
+    // height must be set for shape-outside text flow;
+    // set the height based on content length
+    p { // }, p::before {
+        // position: relative;
+        // height: calc(7.6 * var(--words)) + "px";
+        // height: calc(1.4 * var(--length)) + "px";
+        hyphens: auto;
+    }
+
+    p span {
+        width: 60%;
+        // height: calc(7.6 * var(--words)) + "px";
+    }
+
+    p:before, span {
+        float: right;
+        display: block;
+        // min-height: 88px;
+        width: 100%;
+        // height: 100%;
+    }
+
+
     // carefully scale paragraph sizes with custom breakpoints to achieve
     // desired text shape. here be dragons
-    p,
+    /*p,
     p::before {
         height: $preview-height-xs;
         @media (min-width: 375px) { height: $preview-height-s; }
         @media (min-width: 414px) { height: $preview-height-m; }
         @media (min-width: $breakpoint-s) { height: $preview-height-l; }
         @media (min-width: $breakpoint-m) { height: $preview-height-xl; }
-    }
+    }*/
 
     .bg-text,
     .bg-text::before {
@@ -105,7 +128,13 @@ $preview-height-xl: rem(250px);  // 1024px-
             right: 0;
         }
 
-        p::before,
+        p::before, p span {
+            float: right;
+            shape-outside: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            clip-path: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            background-color: white;
+            opacity: 0.1;
+        }
         .bg-text::before {
             float: right;
             shape-outside: $triangle-left;
@@ -124,14 +153,22 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         p { margin-left: auto; }
 
-        p::before,
+        p span {
+            float: left;
+            clip-path: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
+            shape-outside: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
+            // shape-outside: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            // clip-path: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            background-color: white;
+            opacity: 0.1;
+        }
         .bg-text::before {
             float: left;
             shape-outside: $triangle-right;
         }
     }
 
-    &:not(:first-of-type):not(:nth-of-type(2)) {  
+    &:not(:first-of-type):not(:nth-of-type(2)) {
         padding-top: inherit;
     }
 
@@ -141,7 +178,7 @@ $preview-height-xl: rem(250px);  // 1024px-
     &:nth-of-type(2):nth-last-of-type(2) { padding-top: 30%; }
     // Apply when there are five features
     &:nth-of-type(2):nth-last-of-type(4) { padding-top: 30%; }
-    
+
 
     // inverted portions use light purple instead of white
     &.inverted,
