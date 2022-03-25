@@ -71,7 +71,7 @@ Launching our social media campaign early on helped attract attention to the eve
 {{< tweet user="BrigField" id="1360976957337456641" >}}
 {{< tweet user="DGershenowitz" id="1361014486589706249" >}}
 {{< tweet user="hralperta" id="1361039589914382344" >}}
-{{< tweet user="piercestanley" id="1361042468469432321" >}}
+{{/*< tweet user="piercestanley" id="1361042468469432321" >*/}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
 <a href="https://twitter.com/Anna_E_Lacy/status/1360301729451962376"><img loading="lazy" src="images/tweetA1.png" alt="screenshot of tweet from Anna Lacy"></a>
