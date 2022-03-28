@@ -1,11 +1,13 @@
 <article class="article-summary">
-    <div class="bg-text" role="presentation">{{ .Summary | plainify }}</div>
-    <p style="--length:{{ .Summary | plainify | len }};--words: {{ .Summary | plainify | countwords }}"><span style="--length:{{ .Summary | plainify | len }};--words: {{ .Summary | plainify | countwords }};height:{{ mul 1.4  (.Summary | plainify | len) }}px"></span>{{ .Summary | plainify }}</p>
+    {{ $summaryText := .Summary | plainify }}
+    <div class="bg-text" role="presentation">{{ $summaryText }}</div>
+    {{/* output length + wordcount in case it is helpful to editors/devs adjusting height */}}
+    <!-- summary length: {{ $summaryText | len }}; word count: {{ $summaryText | countwords }}-->
+    <p><span style="height:{{ mul 1.25  ($summaryText | len) | lang.FormatNumber 3 }}px"></span>{{ .Summary | plainify }}</p>
     <h2><a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     {{ partial "authors" . }}
-    {{/* disable DOI display to streamline issue list / homepage details
     {{ with .Params.doi }}
     <a class="doi highlight-focus" href="https://doi.org/{{ . }}">{{ . }}</a>
     {{ end }}
-    */}}
+
 </article>

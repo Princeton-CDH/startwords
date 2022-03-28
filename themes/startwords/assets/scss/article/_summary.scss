@@ -1,5 +1,25 @@
 /* article summary styles */
 
+$triangle-left: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 250% 50%);
+$triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -150% 50%);
+
+// adjusted shapes as of issue 3
+$curve-left: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+$curve-right: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
+// scale vertically for desktop
+$curve-left-desktop: polygon(100% 0, 100% calc(100% * 1.1), 16% calc(100% * 1.1), 55% calc(91% * 1.1), 82% calc(81% * 1.1), 100% calc(53% * 1.1), 80% calc(20% * 1.1), 53% calc(9% * 1.1), 14% 0);
+$curve-right-desktop: polygon(100% 0, 100% calc(100% * 1.1), 16% calc(100% * 1.1), 55% calc(91% * 1.1), 82% calc(81% * 1.1), 100% calc(53% * 1.1), 80% calc(20% * 1.1), 53% calc(9% * 1.1), 14% 0);
+
+@function scale-polygon($poly, $amount: 1.1) {
+  @for $_ from 1 through $exponent {
+    $result: $result * $base;
+  }
+  @return $result;
+    $inverse: change-color($color, $hue: hue($color) + 180);
+    @return mix($inverse, $color, $amount);
+}
+
+
 $preview-height-xs: rem(300px);  // 320px-375px
 $preview-height-s:  rem(275px);  // 375px-414px
 $preview-height-m:  rem(230px);  // 414px-768px
@@ -8,7 +28,7 @@ $preview-height-xl: rem(250px);  // 1024px-
 
 .article-summary {
     display: block;
-    width: 50%;
+    width: 48%;  /* leave some space between columns */
     font-size: rem(16px);
     font-family: $font-sans;
     position: relative;
@@ -28,37 +48,13 @@ $preview-height-xl: rem(250px);  // 1024px-
     }
 
     // height must be set for shape-outside text flow;
-    // set the height based on content length
-    p { // }, p::before {
-        // position: relative;
-        // height: calc(7.6 * var(--words)) + "px";
-        // height: calc(1.4 * var(--length)) + "px";
-    }
-
+    // spacer height is set in hugo template based on content length
     p span {
         width: 60%;
-        // height: calc(7.6 * var(--words)) + "px";
-    }
-
-    p:before, span {
         float: right;
         display: block;
-        // min-height: 88px;
-        width: 100%;
-        // height: 100%;
     }
 
-
-    // carefully scale paragraph sizes with custom breakpoints to achieve
-    // desired text shape. here be dragons
-    /*p,
-    p::before {
-        height: $preview-height-xs;
-        @media (min-width: 375px) { height: $preview-height-s; }
-        @media (min-width: 414px) { height: $preview-height-m; }
-        @media (min-width: $breakpoint-s) { height: $preview-height-l; }
-        @media (min-width: $breakpoint-m) { height: $preview-height-xl; }
-    }*/
 
     .bg-text,
     .bg-text::before {
@@ -73,7 +69,6 @@ $preview-height-xl: rem(250px);  // 1024px-
         font-family: $font-sans;
         font-weight: bold;
         font-style: italic;
-        text-decoration: underline;
         margin: rem(12px) 0;
 
         &::after {
@@ -111,8 +106,7 @@ $preview-height-xl: rem(250px);  // 1024px-
     }
 
     // text-shaping elements
-    .bg-text::before,
-    p::before {
+    .bg-text::before {
         content: '';
         width: 100%;
     }
@@ -127,13 +121,22 @@ $preview-height-xl: rem(250px);  // 1024px-
             right: 0;
         }
 
-        p::before, p span {
+        $shape-scale: 0.9;
+
+        p span {
             float: right;
-            shape-outside: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            shape-outside: $curve-left;
             /* turn on clip-path to debug the shape
-            clip-path: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            clip-path: $curve-left;
             background-color: white;
              opacity: 0.1; */
+
+            /* desktop shape should be ~1.1 scale of desktop; adjust the shape */
+            @media (min-width: $breakpoint-s) {
+                shape-outside: $curve-left-desktop;
+
+            }
+
         }
         .bg-text::before {
             float: right;
@@ -155,11 +158,15 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         p span {
             float: left;
-            shape-outside: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
-            /* turn on clip-path to debug the shape
-            clip-path: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
+            shape-outside: $curve-left;
+            /* turn on clip-path to debug the shape (make sure to update if you change!)
+            clip-path: $curve-left;
             background-color: white;
             opacity: 0.1; */
+            shape-outside: $curve-right;
+            @media (min-width: $breakpoint-s) {
+            //    shape-outside: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            }
         }
         .bg-text::before {
             float: left;
@@ -167,17 +174,23 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 
-    &:not(:first-of-type):not(:nth-of-type(2)) {
-        padding-top: inherit;
+    // Adjust vertical spacing for the second article when there are three features
+    //  (i.e., 2nd article summary is also the 2nd to last article summary).
+    &:nth-of-type(2):nth-last-of-type(2) {
+        padding-top: 30%;  /* TBD: still needs to be adjusted per design */
     }
 
-    // Apply when there are three features (i.e. when the 2nd article summary
-    //  is also the 2nd to last article summary). If we want more, we'll need
-    //  to add more CSS to handle this.
-    &:nth-of-type(2):nth-last-of-type(2) { padding-top: 30%; }
-    // Apply when there are five features
-    &:nth-of-type(2):nth-last-of-type(4) { padding-top: 30%; }
-
+    // adjust spacing for first summary when there are three
+    &:nth-of-type(1):nth-last-of-type(3) {
+        margin-top: rem(62px);
+    }
+    /* add spacing to any summary that comes after th first in a column */
+    &:nth-child(n+3) {
+        margin-top: rem(96px);
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(124px);
+        }
+    }
 
     // inverted portions use light purple instead of white
     &.inverted,
