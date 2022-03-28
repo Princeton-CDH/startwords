@@ -130,9 +130,10 @@ $preview-height-xl: rem(250px);  // 1024px-
         p::before, p span {
             float: right;
             shape-outside: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            /* turn on clip-path to debug the shape
             clip-path: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
             background-color: white;
-            opacity: 0.1;
+             opacity: 0.1; */
         }
         .bg-text::before {
             float: right;
@@ -154,12 +155,11 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         p span {
             float: left;
-            clip-path: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
             shape-outside: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
-            // shape-outside: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
-            // clip-path: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+            /* turn on clip-path to debug the shape
+            clip-path: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
             background-color: white;
-            opacity: 0.1;
+            opacity: 0.1; */
         }
         .bg-text::before {
             float: left;
