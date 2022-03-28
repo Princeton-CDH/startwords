@@ -11,6 +11,7 @@ doi: 10.5281/zenodo.5750691 #TODO: replace DOI
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
 images: ["issues/2/datas-destinations/images/datas-destinations-social.png"] #TODO: replace social image
 summary: How is it possible to go forward with large language models with the knowledge of just how biased, how incomplete, and how harmful—to both people and the planet—these models truly are?
+hook_height_override: 215
 ---
 
 How is it possible to go forward with the development and use of large language models, given the clear evidence of just how biased, how incomplete, and how harmful---to both people and the planet---these models truly are? This is the question that "Stochastic Parrots" productively sets in motion, and that has continued to reverberate throughout the artificial intelligence (AI) and machine learning (ML) community since the paper's release.[^1]
@@ -25,7 +26,7 @@ I will admit that I do not yet have a definitive answer to this question. But as
 2. **All technologies are imbricated in this unequal power.**
 3. **Refusal is, in itself, a generative act.**
 
-In what follows, I elaborate each of these points. 
+In what follows, I elaborate each of these points.
 
 ***********
 
@@ -81,7 +82,7 @@ And so I join the authors of "Stochastic Parrots" in the work of reimagining how
 
 [^10]: Jessica Marie Johnson, *Wicked Flesh: Black Women, Intimacy, and Freedom in the Atlantic World* (Philadelphia: Univ. of Pennsylvania Press, 2020).
 
-[^11]: Mar Hicks, *Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing* (MIT Press, 2017); Banu Subramaniam, *Ghost Stories for Darwin: The Science of Variation and the Politics of Diversity* (Univ. of Illinois Press, 2014); Simone Browne, *Dark Matters: On the Surveillance of Blackness* (Duke Univ. Press, 2015). 
+[^11]: Mar Hicks, *Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing* (MIT Press, 2017); Banu Subramaniam, *Ghost Stories for Darwin: The Science of Variation and the Politics of Diversity* (Univ. of Illinois Press, 2014); Simone Browne, *Dark Matters: On the Surveillance of Blackness* (Duke Univ. Press, 2015).
 
 [^12]: Jeffrey Binder, "Alien Reading: Text Mining, Language Standardization, and the Humanities," *Debates in the Digital Humanities 2016*, ed. Matthew K. Gold and Lauren F. Klein (Minneapolis: Univ. of Minnesota Press). <https://dhdebates.gc.cuny.edu/read/untitled/section/4b276a04-c110-4cba-b93d-4ded8fcfafc9>
 

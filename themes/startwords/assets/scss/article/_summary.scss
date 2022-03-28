@@ -10,16 +10,6 @@ $curve-right: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 4
 $curve-left-desktop: polygon(100% 0, 100% calc(100% * 1.1), 16% calc(100% * 1.1), 55% calc(91% * 1.1), 82% calc(81% * 1.1), 100% calc(53% * 1.1), 80% calc(20% * 1.1), 53% calc(9% * 1.1), 14% 0);
 $curve-right-desktop: polygon(100% 0, 100% calc(100% * 1.1), 16% calc(100% * 1.1), 55% calc(91% * 1.1), 82% calc(81% * 1.1), 100% calc(53% * 1.1), 80% calc(20% * 1.1), 53% calc(9% * 1.1), 14% 0);
 
-@function scale-polygon($poly, $amount: 1.1) {
-  @for $_ from 1 through $exponent {
-    $result: $result * $base;
-  }
-  @return $result;
-    $inverse: change-color($color, $hue: hue($color) + 180);
-    @return mix($inverse, $color, $amount);
-}
-
-
 $preview-height-xs: rem(300px);  // 320px-375px
 $preview-height-s:  rem(275px);  // 375px-414px
 $preview-height-m:  rem(230px);  // 414px-768px
@@ -70,6 +60,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         font-weight: bold;
         font-style: italic;
         margin: rem(12px) 0;
+        text-decoration: underline;
 
         &::after {
             position: relative;
