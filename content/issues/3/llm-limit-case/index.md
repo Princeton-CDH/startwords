@@ -5,7 +5,7 @@ title: |
   Are Large Language Models our Limit Case?
 order: 3
 authors:
-    - Lauren Klein
+    - kleinlauren
 date: 2022-02-01
 doi: 10.5281/zenodo.5750691 #TODO: replace DOI
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
@@ -25,7 +25,7 @@ I will admit that I do not yet have a definitive answer to this question. But as
 2. **All technologies are imbricated in this unequal power.**
 3. **Refusal is, in itself, a generative act.**
 
-In what follows, I elaborate each of these points. 
+In what follows, I elaborate each of these points.
 
 ***********
 
@@ -81,7 +81,7 @@ And so I join the authors of "Stochastic Parrots" in the work of reimagining how
 
 [^10]: Jessica Marie Johnson, *Wicked Flesh: Black Women, Intimacy, and Freedom in the Atlantic World* (Philadelphia: Univ. of Pennsylvania Press, 2020).
 
-[^11]: Mar Hicks, *Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing* (MIT Press, 2017); Banu Subramaniam, *Ghost Stories for Darwin: The Science of Variation and the Politics of Diversity* (Univ. of Illinois Press, 2014); Simone Browne, *Dark Matters: On the Surveillance of Blackness* (Duke Univ. Press, 2015). 
+[^11]: Mar Hicks, *Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing* (MIT Press, 2017); Banu Subramaniam, *Ghost Stories for Darwin: The Science of Variation and the Politics of Diversity* (Univ. of Illinois Press, 2014); Simone Browne, *Dark Matters: On the Surveillance of Blackness* (Duke Univ. Press, 2015).
 
 [^12]: Jeffrey Binder, "Alien Reading: Text Mining, Language Standardization, and the Humanities," *Debates in the Digital Humanities 2016*, ed. Matthew K. Gold and Lauren F. Klein (Minneapolis: Univ. of Minnesota Press). <https://dhdebates.gc.cuny.edu/read/untitled/section/4b276a04-c110-4cba-b93d-4ded8fcfafc9>
 

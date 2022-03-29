@@ -1,0 +1,52 @@
+{{ define "pagetype" }}authors{{ end }}
+
+{{ define "main" }}
+<main>
+    <div class="grid">
+        <header>
+            <h1>Authors</h1>
+        </header>
+        <div class="text-container">
+            {{ with .Content }}{{ . }}{{ end }}
+
+            <div class="author-list">
+                {{/* Hugo sorts collections by key by default */}}
+                {{ range $id, $info := $.Site.Data.authors }}
+                    <div id="{{ $id }}">
+                    <h2>{{ $info.name }}
+                    {{- with $info.orcid -}}
+                    <a class="orcid" href="https://orcid.org/{{ . }}"><img alt="ORCID" src="{{ relURL "/img/logos/orcid.svg" }}" width="20" height="20" /></a>
+                    {{- end -}}
+                    </h2>
+                    {{- if (or $info.affiliation $info.title) -}}
+                    <p>{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</p>
+                    {{- end -}}
+                    {{/* find all articles by this author */}}
+                    {{ $articles := where $.Site.AllPages ".Params.Authors" "intersect" (slice $id) }}
+                    {{ range $articles }}
+                    <div class="article">
+                        <h3><a href="{{ .RelPermalink }}">{{ if eq .Type "issue" }}Editorial Introduction{{ else }}{{ .Params.Title }}{{ end }}</a></h3> {{/* TODO: language indicator */}}
+                        {{/* display co-authors, if any */}}
+                        {{ $coauthors := .Params.Authors | complement (slice $id) }}
+                        {{- with $coauthors -}}
+                        with {{  delimit . ", " ", and "}}
+                        {{- end -}}
+
+                        {{ if eq .Type "article"}} {{/* for an article, the parent page is issue */}}
+                            {{ .Scratch.Set "issue" .Parent }}
+                        {{ else }}
+                            {{ .Scratch.Set "issue" . }}
+                        {{ end }}
+                        {{ with .Scratch.Get "issue" }}
+                        <p><a href="{{ .RelPermalink }}">{{ i18n "issue" }} {{ .Params.number }}</a>: <span class="theme">{{ .Params.theme }}</span>, {{ .Params.date | time.Format "January 2006"}}</p>
+                        {{ end }}
+                        {{ partial "tags" . }}
+                    </div>
+                    {{ end }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

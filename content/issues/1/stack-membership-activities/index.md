@@ -5,7 +5,7 @@ slug: stacking-howto
 order: 5
 authors:
   - Xinyi Li
-  - Rebecca Sutton Koeser
+  - koeserrebecca
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
 images: ["issues/1/stacking-howto/images/stacking-preview.jpg"]

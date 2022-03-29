@@ -1,5 +1,7 @@
 <ul class="authors">
     {{ range .Params.Authors }}
-    <li><address>{{ . }}</address></li>
+    {{ $info := index $.Site.Data.authors . }} {{/* get author info */}}
+    {{/* display name from param as fallback if there is no entry in the authors data file */}}
+    <li>{{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}</li>
     {{ end }}
 </ul>

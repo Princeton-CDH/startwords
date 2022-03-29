@@ -3,7 +3,7 @@ type: article
 title: Print a Model of the Shakespeare and Company Lending Library Membership
 order: 3
 authors:
-  - Rebecca Sutton Koeser
+  - koeserrebecca
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
 slug: modeling-howto

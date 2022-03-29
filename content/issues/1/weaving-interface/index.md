@@ -3,7 +3,7 @@ type: article
 title: Weaving as Interface
 order: 6
 authors:
-  - Rebecca Sutton Koeser
+  - koeserrebecca
   - Gissoo Doroudian
 tags: [DataBeyondVision, Experiment]
 needs_deepzoom: true

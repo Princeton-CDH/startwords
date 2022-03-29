@@ -3,7 +3,7 @@ type: article
 title: Data Beyond Vision
 order: 1
 authors:
-  - Rebecca Sutton Koeser
+  - koeserrebecca
   - Gissoo Doroudian
   - Nick Budak
   - Xinyi Li
@@ -28,26 +28,26 @@ The pieces that follow describe four different data physicalizations, which we c
 {{< wrap class="left" >}}
 **SEE**
 
-from a distance.  
-Cold, commanding.  
-Sense of mastery,  
+from a distance.
+Cold, commanding.
+Sense of mastery,
 but optical illusions deceive.
 
 
-Look in a mirror.  
-and see yourself  
-seeing.  
+Look in a mirror.
+and see yourself
+seeing.
 {{</ wrap >}}
 {{< wrap class="right" >}}
-**TOUCH**  
+**TOUCH**
 
-up close.  
-Intimate, incomplete.  
-Explore partial knowledge,  
-enlighten slowly.  
+up close.
+Intimate, incomplete.
+Explore partial knowledge,
+enlighten slowly.
 
-Run fingers across skin  
-and touch yourself  
+Run fingers across skin
+and touch yourself
 touching.
 {{</ wrap >}}
 {{</ wrap >}}
