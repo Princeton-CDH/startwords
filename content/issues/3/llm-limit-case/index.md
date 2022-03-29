@@ -11,7 +11,7 @@ doi: 10.5281/zenodo.5750691 #TODO: replace DOI
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
 images: ["issues/2/datas-destinations/images/datas-destinations-social.png"] #TODO: replace social image
 summary: How is it possible to go forward with large language models with the knowledge of just how biased, how incomplete, and how harmful—to both people and the planet—these models truly are?
-hook_height_override: 215
+hook_height_override: 225
 ---
 
 How is it possible to go forward with the development and use of large language models, given the clear evidence of just how biased, how incomplete, and how harmful---to both people and the planet---these models truly are? This is the question that "Stochastic Parrots" productively sets in motion, and that has continued to reverberate throughout the artificial intelligence (AI) and machine learning (ML) community since the paper's release.[^1]

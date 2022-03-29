@@ -7,8 +7,9 @@ $triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -150% 50%);
 $curve-left: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
 $curve-right: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
 // scale vertically for desktop
-$curve-left-desktop: polygon(100% 0, 100% calc(100% * 1.1), 16% calc(100% * 1.1), 55% calc(91% * 1.1), 82% calc(81% * 1.1), 100% calc(53% * 1.1), 80% calc(20% * 1.1), 53% calc(9% * 1.1), 14% 0);
-$curve-right-desktop: polygon(100% 0, 100% calc(100% * 1.1), 16% calc(100% * 1.1), 55% calc(91% * 1.1), 82% calc(81% * 1.1), 100% calc(53% * 1.1), 80% calc(20% * 1.1), 53% calc(9% * 1.1), 14% 0);
+$v : 1.1;
+$curve-left-desktop: polygon(100% 0, 100% calc(100% * $v), 16% calc(100% * $v), 55% calc(91% * $v), 82% calc(81% * $v), 100% calc(53% * $v), 80% calc(20% * $v), 53% calc(9% * $v), 14% 0);
+$curve-right-desktop: polygon(0 0, 0 calc(100% * $v), 97% calc(100% * $v), 39% calc(86% * $v), 15% calc(75% * $v), 0 calc(48% * $v), 16% calc(21% * $v), 46% calc(10% * $v), 100% 0);
 
 $preview-height-xs: rem(300px);  // 320px-375px
 $preview-height-s:  rem(275px);  // 375px-414px
@@ -117,15 +118,15 @@ $preview-height-xl: rem(250px);  // 1024px-
         p span {
             float: right;
             shape-outside: $curve-left;
-            /* turn on clip-path to debug the shape
+            /* turn on clip-path to view the shape for debugging
             clip-path: $curve-left;
             background-color: white;
-             opacity: 0.1; */
+            opacity: 0.1; */
 
             /* desktop shape should be ~1.1 scale of desktop; adjust the shape */
             @media (min-width: $breakpoint-s) {
                 shape-outside: $curve-left-desktop;
-
+                clip-path: $curve-left-desktop;
             }
 
         }
@@ -149,14 +150,14 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         p span {
             float: left;
-            shape-outside: $curve-left;
-            /* turn on clip-path to debug the shape (make sure to update if you change!)
-            clip-path: $curve-left;
+            /* turn on clip-path to view the shape for debugging
+            clip-path: $curve-right;
             background-color: white;
             opacity: 0.1; */
             shape-outside: $curve-right;
             @media (min-width: $breakpoint-s) {
-            //    shape-outside: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+               shape-outside: $curve-right-desktop;
+               clip-path: $curve-right-desktop;
             }
         }
         .bg-text::before {
@@ -165,10 +166,13 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 
-    // Adjust vertical spacing for the second article when there are three features
+    // Adjust vertical spacing for the second article when there are three articles
     //  (i.e., 2nd article summary is also the 2nd to last article summary).
     &:nth-of-type(2):nth-last-of-type(2) {
-        padding-top: 30%;  /* TBD: still needs to be adjusted per design */
+        padding-top: 12em;
+        @media (min-width: $breakpoint-s) {
+            padding-top: 10em;
+        }
     }
 
     // adjust spacing for first summary when there are three
