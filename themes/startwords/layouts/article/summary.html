@@ -1,10 +1,11 @@
 <article class="article-summary">
     {{ $summaryText := .Summary | plainify }}
-    <div class="bg-text" role="presentation">{{ $summaryText }}</div>
+    {{ $shaperHeight := .Params.hook_height_override | default (mul 1.45  ($summaryText | countrunes) | lang.FormatNumber 3) }}
+    <div class="bg-text" role="presentation"><span class="shaper" style="height:{{ $shaperHeight }}px"></span>{{ $summaryText }}</div>
     {{/* output length + wordcount in case it is helpful to editors/devs adjusting height */}}
     <!-- summary length: {{ $summaryText | len }}; rune count: {{ $summaryText | countrunes }}; word count: {{ $summaryText | countwords }}-->
     {{/* use override param if set; otherwise calculate based on text length; length * 1.25; runecount * 1.4   */}}
-    <p><span style="height:{{ .Params.hook_height_override | default (mul 1.45  ($summaryText | countrunes) | lang.FormatNumber 3) }}px"></span>{{ $summaryText }}</p>
+    <p><span class="shaper" style="height:{{ $shaperHeight }}px"></span>{{ $summaryText }}</p>
     <h2><a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
     {{ partial "available_languages.html" . }}
     {{ partial "authors" . }}

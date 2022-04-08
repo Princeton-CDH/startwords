@@ -31,7 +31,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         text-decoration: none;
     }
 
-    p {
+    p, .bg-text {
         margin: 0;
         line-height: rem(22px);
         max-width: rem(200px);
@@ -40,15 +40,16 @@ $preview-height-xl: rem(250px);  // 1024px-
         @media (min-width: $breakpoint-m) { font-size: rem(18px); }
     }
 
+
     // height must be set for shape-outside text flow;
     // spacer height is set in hugo template based on content length
-    p span {
+    .shaper {
         width: 60%;
         float: right;
         display: block;
     }
 
-
+    /*
     .bg-text,
     .bg-text::before {
         height: calc(#{$preview-height-xs} * 1.5);
@@ -56,7 +57,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         @media (min-width: 414px) { height: calc(#{$preview-height-m} * 1.5); }
         @media (min-width: $breakpoint-s) { height: calc(#{$preview-height-l} * 1.5); }
         @media (min-width: $breakpoint-m) { height: calc(#{$preview-height-xl} * 1.5); }
-    }
+    }*/
 
     h2 {
         font-family: $font-sans;
@@ -91,19 +92,32 @@ $preview-height-xl: rem(250px);  // 1024px-
     // background text
     .bg-text {
         position: absolute;
-        width: 48vw;
+        left: 0;
+        top: 0;
+        /*width: 48vw; */
+        width: 100%;
         color: rgba(224, 206, 255, 0.05);
-        top: rem(-50px);
-        font-size: rem(20px);
+        // top: rem(-50px);
+        // font-size: rem(20px);
         pointer-events: none;
-        @media (min-width: $breakpoint-s) { font-size: rem(30px); }
+        // @media (min-width: $breakpoint-s) { font-size: rem(30px); }
+        transform: translate(-175px, 0) scale(1.5);
     }
 
+    // for debugging
+    /*p {
+        opacity: 0.5;
+    }
+    .bg-text {
+        color: gray !important;
+    }*/
+
     // text-shaping elements
+    /*
     .bg-text::before {
         content: '';
         width: 100%;
-    }
+    }*/
 
     // scale the polygon shape based on screen width
     p span {
@@ -126,7 +140,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
 
 
-        p span {
+        .shaper {
             float: right;
             shape-outside: $curve-left;
             /* turn on clip-path to view the shape for debugging
@@ -141,10 +155,10 @@ $preview-height-xl: rem(250px);  // 1024px-
             }
 
         }
-        .bg-text::before {
+        /*.bg-text::before {
             float: right;
             shape-outside: $triangle-left;
-        }
+        }*/
     }
 
     // right summaries
@@ -159,7 +173,7 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         p { margin-left: auto; }
 
-        p span {
+        .shaper {
             float: left;
             /* turn on clip-path to view the shape for debugging
             clip-path: $curve-right;
@@ -173,9 +187,12 @@ $preview-height-xl: rem(250px);  // 1024px-
 
             }
         }
-        .bg-text::before {
-            float: left;
-            shape-outside: $triangle-right;
+
+
+        .bg-text {
+            right: 0;
+            left: auto;
+            transform: translate(175px, 0) scale(1.5);;
         }
     }
 
@@ -183,8 +200,18 @@ $preview-height-xl: rem(250px);  // 1024px-
     //  (i.e., 2nd article summary is also the 2nd to last article summary).
     &:nth-of-type(2):nth-last-of-type(2) {
         padding-top: 12em;
+
+        // adjust background text so it is aligned with main text
+        .bg-text {
+            top: 12em;
+        }
+
         @media (min-width: $breakpoint-s) {
             padding-top: 10em;
+
+            .bg-text {
+                top: 10em;
+            }
         }
     }
 
