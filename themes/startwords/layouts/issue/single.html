@@ -19,14 +19,29 @@
         </div>
     </div>
     {{ partial "issue/features.html" . }}
-    <section class="grid masthead">
+
+    {{/* get contributor information from current page OR default language issue */}}
+    {{ $credits := newScratch }}
+    {{ if .Params.contributors }}
+        {{ $credits.Set "contributors" .Params.contributors }}
+    {{ else }}
+        {{/* If contributors are not set, get default language version of this page.
+            Since defaultContentLanguage is not accessible; get first language by priority */}}
+        {{ $defaultLang := index .Site.Languages 0 }}
+        {{ with index (where .Translations ".Lang" $defaultLang.Lang) 0 }}
+            {{ $credits.Set "contributors" .Params.contributors }}
+        {{ end }}
+    {{ end }}
+    {{ if $credits.Get "contributors" }}
+    <section class="grid masthead" id="credits">
         <div class="container">
             <h2>{{ i18n "credits" }}</h2>
-                {{ range .Params.contributors }}
+                {{ range $credits.Get "contributors" }}
                     {{ partial "credits.html" . }}
                 {{ end }}
         </div>
     </section>
+    {{ end }}
 
 </main>
 {{ end }}

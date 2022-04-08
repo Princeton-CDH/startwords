@@ -8,19 +8,7 @@ date: 2022-02-01 #TODO: Replace with final publication date
 slug: 3
 num_features: 3
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #TODO: Replace placeholder text
-contributors:
-    - Guest Editor:
-      - Toma Tasovac
-    - Editor:
-      - Grant Wythoff
-    - Technical Lead:
-      - Rebecca Sutton Koeser
-    - Technical:
-      - Kevin McElwee
-    - UX Designer:
-      - Gissoo Doroudian
-    - Manuscript Editing:
-      - Camey VanSant
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis commodo odio aenean sed adipiscing diam. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Nunc eget lorem dolor sed viverra ipsum nunc. Vestibulum morbi blandit cursus risus at ultrices mi. Euismod nisi porta lorem mollis aliquam ut porttitor leo. A diam maecenas sed enim. Orci porta non pulvinar neque laoreet suspendisse. Pulvinar sapien et ligula ullamcorper malesuada. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Metus dictum at tempor commodo. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Quam adipiscing vitae proin sagittis nisl. Ultricies leo integer malesuada nunc. Facilisis volutpat est velit egestas dui id ornare.
