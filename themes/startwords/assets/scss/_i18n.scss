@@ -123,10 +123,11 @@ aside.translations {
 
 /* language indicators for articles on issue detail page and home page*/
 #features .languages {
-    margin-bottom: rem(12px);
+    margin-bottom: rem(18px);
 
     span {
         @include dark-bg-language-chip;
+        margin-right: rem(4px);
     }
 }
 
