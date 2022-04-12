@@ -7,9 +7,9 @@ $triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -150% 50%);
 $curve-left: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
 $curve-right: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
 // scale vertically for desktop
-$v : 1.1;
-$curve-left-desktop: polygon(100% 0, 100% calc(100% * $v), 16% calc(100% * $v), 55% calc(91% * $v), 82% calc(81% * $v), 100% calc(53% * $v), 80% calc(20% * $v), 53% calc(9% * $v), 14% 0);
-$curve-right-desktop: polygon(0 0, 0 calc(100% * $v), 97% calc(100% * $v), 39% calc(86% * $v), 15% calc(75% * $v), 0 calc(48% * $v), 16% calc(21% * $v), 46% calc(10% * $v), 100% 0);
+// var(--h) : 1.1;
+$curve-left-desktop: polygon(100% 0, 100% calc(100% * var(--h)), 16% calc(100% * var(--h)), 55% calc(91% * var(--h)), 82% calc(81% * var(--h)), 100% calc(53% * var(--h)), 80% calc(20% * var(--h)), 53% calc(9% * var(--h)), 14% 0);
+$curve-right-desktop: polygon(0 0, 0 calc(100% * var(--h)), 97% calc(100% * var(--h)), 39% calc(86% * var(--h)), 15% calc(75% * var(--h)), 0 calc(48% * var(--h)), 16% calc(21% * var(--h)), 46% calc(10% * var(--h)), 100% 0);
 
 $preview-height-xs: rem(300px);  // 320px-375px
 $preview-height-s:  rem(275px);  // 375px-414px
@@ -103,6 +103,16 @@ $preview-height-xl: rem(250px);  // 1024px-
         width: 100%;
     }
 
+    // scale the polygon shape based on screen width
+    p span {
+        --h: 1;
+
+        @media (min-width: $breakpoint-s) { --h: 1.2; }
+        /* desktop shape should be ~1.1 scale of desktop; adjust the shape */
+        @media (min-width: $breakpoint-m) { --h: 1.1 }
+
+    }
+
     // left summaries
     &:nth-of-type(odd) {
         float: left;
@@ -113,7 +123,6 @@ $preview-height-xl: rem(250px);  // 1024px-
             right: 0;
         }
 
-        $shape-scale: 0.9;
 
         p span {
             float: right;
@@ -153,11 +162,13 @@ $preview-height-xl: rem(250px);  // 1024px-
             /* turn on clip-path to view the shape for debugging
             clip-path: $curve-right;
             background-color: white;
-            opacity: 0.1; */
+            opacity: 0.1;*/
+
             shape-outside: $curve-right;
             @media (min-width: $breakpoint-s) {
                shape-outside: $curve-right-desktop;
                clip-path: $curve-right-desktop;
+
             }
         }
         .bg-text::before {
