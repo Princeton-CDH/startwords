@@ -70,7 +70,7 @@ body > header {
                 left: rem(6px);
             }
 
-            a:focus {
+            a:focus, a:active {
                 border-left-width: 4px;
             }
         }
@@ -88,12 +88,13 @@ body > header {
                 transform: rotate(180deg);
                 padding-bottom: rem(70px); /* above / to the right of the text */
                 padding-top: rem(15px);
-                clip-path: polygon(100% 100%, 0.2px 100%, 0px 0px, calc(100% - 8.4px) 0px, 100% 18.5px, 100% 100%);
+                clip-path: polygon(100% 100%, 0px 100%, 0px 0px, calc(100% - 8.4px) 0px, 100% 18.5px, 100% 100%);
 
                 color: $off-white;
-                &:focus {
+                &:focus, &:active {
                     border-right-width: 4px;
-                    width: rem(30px);
+                    // clip so shape does not widen and text appears to slide
+                    clip-path: polygon(100% 100%, 4px 100%, 4px 0px, calc(100% - 8.4px) 0px, 100% 18.5px, 100% 100%);
                 }
 
 
