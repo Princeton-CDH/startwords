@@ -13,24 +13,24 @@
                 {{/* Hugo sorts collections by key by default */}}
                 {{ range $id, $info := $.Site.Data.authors }}
                     <div id="{{ $id }}">
-                    <h2>{{ $info.name }}
+                    <h2 class="author-name">{{ $info.name }}
                     {{- with $info.orcid -}}
-                    <a class="orcid" href="https://orcid.org/{{ . }}"><img alt="ORCID" src="{{ relURL "/img/logos/orcid.svg" }}" width="20" height="20" /></a>
+                    &nbsp;<a class="orcid" href="https://orcid.org/{{ . }}"><img alt="ORCID" src="{{ relURL "/img/logos/orcid.svg" }}" width="20" height="20" /></a>
                     {{- end -}}
                     </h2>
                     {{- if (or $info.affiliation $info.title) -}}
-                    <p>{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</p>
+                    <p><i>{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</i></p>
                     {{- end -}}
                     {{/* find all articles by this author */}}
                     {{ $articles := where $.Site.AllPages ".Params.Authors" "intersect" (slice $id) }}
                     {{ range $articles }}
                     <div class="article">
-                        <h3><a href="{{ .RelPermalink }}">{{ if eq .Type "issue" }}Editorial Introduction{{ else }}{{ .Params.Title }}{{ end }}</a></h3> {{/* TODO: language indicator */}}
-                        {{/* display co-authors, if any */}}
+                        <p class="article-title"><a href="{{ .RelPermalink }}">{{ if eq .Type "issue" }}Editorial Introduction{{ else }}{{ .Params.Title }}{{ end }}</a></p> {{/* TODO: language indicator */}}
+                        <p class="article-info">{{/* display co-authors, if any */}}
                         {{ $coauthors := .Params.Authors | complement (slice $id) }}
                         {{- with $coauthors -}}
                         with {{  delimit . ", " ", and "}}
-                        {{- end -}}
+                        {{- end -}}</p>
 
                         {{ if eq .Type "article"}} {{/* for an article, the parent page is issue */}}
                             {{ .Scratch.Set "issue" .Parent }}
@@ -38,9 +38,9 @@
                             {{ .Scratch.Set "issue" . }}
                         {{ end }}
                         {{ with .Scratch.Get "issue" }}
-                        <p><a href="{{ .RelPermalink }}">{{ i18n "issue" }} {{ .Params.number }}</a>: <span class="theme">{{ .Params.theme }}</span>, {{ .Params.date | time.Format "January 2006"}}</p>
+                        <p>{{ i18n "issue" }} {{ .Params.number }}: <span class="theme"><a href="{{ .RelPermalink }}">{{ .Params.theme }}</a></span>, {{ .Params.date | time.Format "January 2006"}}</p>
                         {{ end }}
-                        {{ partial "tags" . }}
+                        <p class="article-info">{{ partial "tags" . }}</p>
                     </div>
                     {{ end }}
                     </div>

@@ -72,14 +72,15 @@ body.about {
 /* author list page */
 body.authors {
     .author-list div {
-        padding-left: 1rem;
+        // padding-left: 1rem;
         position: relative;
 
         .theme {
-            font-weight: 900;
+            font-weight: 600;
             // font-size: rem(20px);
             color: $purple;
             text-transform: uppercase;
+            a {text-decoration: none;}
         }
 
         &:target::before {
@@ -90,6 +91,21 @@ body.authors {
             height: 100%;
             left: 0;
             border-left: 2px solid $light-purple;
+        }
+    
+        .author-name {
+            margin-top: 1.5em;
+            margin-bottom: -0.5em;
+        }
+
+        .article-title{
+            font-weight: 700;
+            margin-top: 1.5em;
+            margin-bottom: -0.5em;
+        }
+        
+        .article-info{
+            margin-bottom: -0.5em;
         }
     }
 }
