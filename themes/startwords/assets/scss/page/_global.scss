@@ -23,6 +23,10 @@ body.page {
 
 }
 
+h2.contents {
+    font-family: $font-sans;
+}
+
 nav#TableOfContents {
     li {
         list-style-type: none;
@@ -30,6 +34,7 @@ nav#TableOfContents {
     & > ul {
         border-bottom: 1px solid gray;
         padding: 0 0 2.4rem;
+        font-family: $font-sans;
     }
 }
 
