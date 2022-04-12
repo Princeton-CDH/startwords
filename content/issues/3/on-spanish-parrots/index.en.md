@@ -10,12 +10,12 @@ date: 2022-02-01
 doi: 10.5281/zenodo.5750691 #TODO: replace DOI
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
 images: ["issues/2/datas-destinations/images/datas-destinations-social.png"] #TODO: replace social preview
-summary: Spanish is the second most widely-spoken language in the world as a mother tongue.
+summary: Spanish is the second most widely-spoken language in the world as a mother tongue. Official reports, survey-based studies, and Wikipedia confirm it. And Google can predict it.
 ---
 
 ## 1. A Parrot called MarIA
 
-Spanish is the second most widely-spoken language in the world as a mother tongue.[^1] Official reports, survey-based studies, and Wikipedia confirm it. Also, Google can predict it. There are more than twenty countries where Spanish is the official language. Furthermore, Spanish is the most popular second language choice in American universities and there are twenty-three Academies of the Spanish Language ---the Academias de la Lengua Española--- all over the world[^2]. However, and quite paradoxically, Spanish has been losing the geopolitical and symbolic battle against English as language of science since the last century, and very few technological developments have helped to improve this situation[^3].
+Spanish is the second most widely-spoken language in the world as a mother tongue.[^1] Official reports, survey-based studies, and Wikipedia confirm it. And Google can predict it. There are more than twenty countries where Spanish is the official language. Furthermore, Spanish is the most popular second language choice in American universities and there are twenty-three Academies of the Spanish Language ---the Academias de la Lengua Española--- all over the world[^2]. However, and quite paradoxically, Spanish has been losing the geopolitical and symbolic battle against English as language of science since the last century, and very few technological developments have helped to improve this situation[^3].
 
 In recent years, global research on artificial intelligence (AI) and machine learning has grown exponentially, offering computational linguistics and natural language processing (NLP) a place of relevance in the academic curriculum of different disciplines and fields, such as Digital Humanities. Nonetheless, the North-South imbalance in this field is evident. Most NLP research is still mainly done in English and it takes a lot of time sometimes to make these resources available in Spanish. Moreover, when they do become available, it is often via multilingual versions which are not as performant as the English alternative.
 
