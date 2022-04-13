@@ -1,5 +1,16 @@
 /* article summary styles */
 
+$triangle-left: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 250% 50%);
+$triangle-right: polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%, -150% 50%);
+
+// adjusted shapes as of issue 3
+$curve-left: polygon(100% 0, 100% 100%, 16% 100%, 55% 91%, 82% 81%, 100% 53%, 80% 20%, 53% 9%, 14% 0);
+$curve-right: polygon(0 0, 0 100%, 97% 100%, 39% 86%, 15% 75%, 0 48%, 16% 21%, 46% 10%, 100% 0);
+// scale vertically for desktop
+// var(--h) : 1.1;
+$curve-left-desktop: polygon(100% 0, 100% calc(100% * var(--h)), 16% calc(100% * var(--h)), 55% calc(91% * var(--h)), 82% calc(81% * var(--h)), 100% calc(53% * var(--h)), 80% calc(20% * var(--h)), 53% calc(9% * var(--h)), 14% 0);
+$curve-right-desktop: polygon(0 0, 0 calc(100% * var(--h)), 97% calc(100% * var(--h)), 39% calc(86% * var(--h)), 15% calc(75% * var(--h)), 0 calc(48% * var(--h)), 16% calc(21% * var(--h)), 46% calc(10% * var(--h)), 100% 0);
+
 $preview-height-xs: rem(300px);  // 320px-375px
 $preview-height-s:  rem(275px);  // 375px-414px
 $preview-height-m:  rem(230px);  // 414px-768px
@@ -8,7 +19,7 @@ $preview-height-xl: rem(250px);  // 1024px-
 
 .article-summary {
     display: block;
-    width: 50%;
+    width: 48%;  /* leave some space between columns */
     font-size: rem(16px);
     font-family: $font-sans;
     position: relative;
@@ -27,16 +38,14 @@ $preview-height-xl: rem(250px);  // 1024px-
         @media (min-width: $breakpoint-m) { font-size: rem(18px); }
     }
 
-    // carefully scale paragraph sizes with custom breakpoints to achieve
-    // desired text shape. here be dragons
-    p,
-    p::before {
-        height: $preview-height-xs;
-        @media (min-width: 375px) { height: $preview-height-s; }
-        @media (min-width: 414px) { height: $preview-height-m; }
-        @media (min-width: $breakpoint-s) { height: $preview-height-l; }
-        @media (min-width: $breakpoint-m) { height: $preview-height-xl; }
+    // height must be set for shape-outside text flow;
+    // spacer height is set in hugo template based on content length
+    p span {
+        width: 60%;
+        float: right;
+        display: block;
     }
+
 
     .bg-text,
     .bg-text::before {
@@ -51,8 +60,8 @@ $preview-height-xl: rem(250px);  // 1024px-
         font-family: $font-sans;
         font-weight: bold;
         font-style: italic;
-        text-decoration: underline;
         margin: rem(12px) 0;
+        text-decoration: underline;
 
         &::after {
             position: relative;
@@ -89,10 +98,19 @@ $preview-height-xl: rem(250px);  // 1024px-
     }
 
     // text-shaping elements
-    .bg-text::before,
-    p::before {
+    .bg-text::before {
         content: '';
         width: 100%;
+    }
+
+    // scale the polygon shape based on screen width
+    p span {
+        --h: 1;
+
+        @media (min-width: $breakpoint-s) { --h: 1.2; }
+        /* desktop shape should be ~1.1 scale of desktop; adjust the shape */
+        @media (min-width: $breakpoint-m) { --h: 1.1 }
+
     }
 
     // left summaries
@@ -105,7 +123,22 @@ $preview-height-xl: rem(250px);  // 1024px-
             right: 0;
         }
 
-        p::before,
+
+        p span {
+            float: right;
+            shape-outside: $curve-left;
+            /* turn on clip-path to view the shape for debugging
+            clip-path: $curve-left;
+            background-color: white;
+            opacity: 0.1; */
+
+            /* desktop shape should be ~1.1 scale of desktop; adjust the shape */
+            @media (min-width: $breakpoint-s) {
+                shape-outside: $curve-left-desktop;
+                clip-path: $curve-left-desktop;
+            }
+
+        }
         .bg-text::before {
             float: right;
             shape-outside: $triangle-left;
@@ -124,24 +157,46 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         p { margin-left: auto; }
 
-        p::before,
+        p span {
+            float: left;
+            /* turn on clip-path to view the shape for debugging
+            clip-path: $curve-right;
+            background-color: white;
+            opacity: 0.1;*/
+
+            shape-outside: $curve-right;
+            @media (min-width: $breakpoint-s) {
+               shape-outside: $curve-right-desktop;
+               clip-path: $curve-right-desktop;
+
+            }
+        }
         .bg-text::before {
             float: left;
             shape-outside: $triangle-right;
         }
     }
 
-    &:not(:first-of-type):not(:nth-of-type(2)) {  
-        padding-top: inherit;
+    // Adjust vertical spacing for the second article when there are three articles
+    //  (i.e., 2nd article summary is also the 2nd to last article summary).
+    &:nth-of-type(2):nth-last-of-type(2) {
+        padding-top: 12em;
+        @media (min-width: $breakpoint-s) {
+            padding-top: 10em;
+        }
     }
 
-    // Apply when there are three features (i.e. when the 2nd article summary
-    //  is also the 2nd to last article summary). If we want more, we'll need
-    //  to add more CSS to handle this.
-    &:nth-of-type(2):nth-last-of-type(2) { padding-top: 30%; }
-    // Apply when there are five features
-    &:nth-of-type(2):nth-last-of-type(4) { padding-top: 30%; }
-    
+    // adjust spacing for first summary when there are three
+    &:nth-of-type(1):nth-last-of-type(3) {
+        margin-top: rem(62px);
+    }
+    /* add spacing to any summary that comes after th first in a column */
+    &:nth-child(n+3) {
+        margin-top: rem(96px);
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(124px);
+        }
+    }
 
     // inverted portions use light purple instead of white
     &.inverted,

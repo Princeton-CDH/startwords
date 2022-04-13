@@ -229,6 +229,15 @@ Generate a PDF:
 pagedjs-cli https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/ -o startwords-1-their-data-ourselves.pdf
 ```
 
+## Customizing shape of preview text for article hook on issue list and home page
+
+By default, the height of the shaping element is determined by the length of the content of the summary as plain text.  If you need to override this for an article where the calculation does not work, you can specify `hook_height_override` as a parameter on the article. This should be the desired height of the shaping element on mobile in pixels (provide the numerical value only).
+
+Example:
+
+```yaml
+hook_height_override: 215
+```
 
 ## Information Architecture
 

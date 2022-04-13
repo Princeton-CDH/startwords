@@ -12,6 +12,7 @@ images: ["{{ .File.Dir }}images/social-media-preview.jpg"] # social media previe
 # tags: [DataBeyondVision, HowTo, ... etc]
 # doi: DOI/zenodo.ZENODO_ID
 # pdf: https://zenodo.org/record/DOI/files/startwords-#-{{ .Name }}.pdf
+# hook_height_override: height for preview shape on mobile if default calculation on mobile does not work
 ---
 
 opening summary
