@@ -27,7 +27,7 @@ contributors:
     - Rebecca Sutton Koeser
     - Grant Wythoff
 ```
-For translated issues, the credits should only be added to the issue in the default content language (i.e., English); credits will be displayed and localized on all translated issue pages from the main issue.
+For translated issues, the credits should only be added to the issue in the default content language (i.e., English); credits will be displayed and localized on all translated issue pages from the default / English issue page.
 
 ## Article text version
 
