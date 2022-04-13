@@ -6,16 +6,11 @@ body > header {
     z-index: 2;
 
     nav {
-        /* sideways-rl is only available in ff currently, so we
-           use vertical-rl and rotate it to get the same effect */
-        transform: rotate(180deg);
-        writing-mode: vertical-lr;
-        text-orientation: mixed;
         position: absolute;
         top: 0;
-        height: 100vh;
 
-        ol, ul {
+        ol,
+        ul {
             margin: 0;
             padding: 0;
             list-style: none;
@@ -27,7 +22,7 @@ body > header {
         }
     }
 
-    nav[aria-label=main] {
+    nav[aria-label="main"] {
         left: 0;
         transition: left 0.4s ease;
 
@@ -35,13 +30,11 @@ body > header {
 
         ul {
             position: relative;
-            left: rem(-34px);
         }
-
         li {
             position: absolute;
             width: rem(34px);
-            transform: rotate(180deg);
+            // transform: rotate(180deg);
             cursor: pointer;
         }
 
@@ -51,12 +44,13 @@ body > header {
             display: block;
             width: 100%;
             height: 100%;
-            transition: border 0.2s linear;
+            transition: border 0.2s linear  width 0.2s ease;
             border-width: 0;
             border-color: white;
             border-style: solid;
 
-            span, img {
+            span,
+            img {
                 position: absolute;
             }
         }
@@ -65,41 +59,56 @@ body > header {
             background: $red;
             position: absolute;
             height: rem(100px);
-            bottom: 0;
-            -webkit-clip-path: polygon(0px 0px, 0px 101px, 32px 19.2px, 23.6px 0px, 0px 0px);
-            clip-path: polygon(0px 0px, 0px 101px, 32px 19.2px, 23.6px 0px, 0px 0px);
+            top: 0;
+            left: 0;
+            z-index: 2; /* above the issues link */
+            -webkit-clip-path: polygon(0px 0px, 0px 100%, 100% 19.2px, 23.6px 0px, 0px 0px);
+            clip-path: polygon(0px 0px, 0px 100%, 100% 19.2px, 23.6px 0px, 0px 0px);
 
             img {
                 top: rem(5px);
                 left: rem(6px);
             }
 
-            a:focus { border-left-width: 4px; }
+            a:focus, a:active {
+                border-left-width: 4px;
+            }
         }
 
         .issues {
-            background: $dark-purple;
-            height: rem(145px);
-            bottom: rem(19px);
-            -webkit-clip-path: polygon(32px 145px, 32px 0.2px, 0px 82px, 0px 126.5px, 8.4px 145px, 32px 145px);
-            clip-path: polygon(32px 145px, 32px 0.2px, 0px 82px, 0px 126.5px, 8.4px 145px, 32px 145px);
-
+            position: absolute;
+            font-size: rem(22px);
+            top: rem(19.2px);
+            left: 0;
             a {
-                color: $off-white;
+                background: $dark-purple;
+                height: auto;
+                text-direction: sideways;
+                writing-mode: vertical-lr;
                 transform: rotate(180deg);
+                padding-bottom: rem(70px); /* above / to the right of the text */
+                padding-top: rem(15px);
+                clip-path: polygon(100% 100%, 0px 100%, 0px 0px, calc(100% - 8.4px) 0px, 100% 18.5px, 100% 100%);
 
-                &:focus { border-right-width: 4px; }
-            }
+                color: $off-white;
+                &:focus, &:active {
+                    border-right-width: 4px;
+                    // clip so shape does not widen and text appears to slide
+                    clip-path: polygon(100% 100%, 4px 100%, 4px 0px, calc(100% - 8.4px) 0px, 100% 18.5px, 100% 100%);
+                }
 
-            span {
-                font-size: rem(22px);
-                top: rem(18px);
-                right: rem(3px);
+
             }
         }
     }
-
-    nav[aria-label=breadcrumbs] {
-        right: -100vw;
-    }
 }
+
+/* currently not in use */
+/*
+nav[aria-label="breadcrumbs"] {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    right: -100vw;
+}
+*/
