@@ -21,6 +21,15 @@ read-more:
   other: "Read more..."
 footer-links:
   other: footer links
+# translation links
+languages available:
+  other: languages available
+available-in-lang:
+  other: Available in {{ . }}
+English:
+  other: English
+Spanish:
+  other: Spanish
 # error page
 error:
   other: Error

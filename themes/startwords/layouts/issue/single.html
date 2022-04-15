@@ -10,13 +10,15 @@
 <main>
     <div class="issue-summary grid">
         <div class="container">
-            <span class="number">Issue {{ .Params.number }}</span>
+            <span class="number">{{ i18n "issue" }} {{ .Params.number }}</span>
             <h1 class="theme">{{ .Params.theme }}</h1>
             <div class="summary">{{ .Content }}</div>
             <a href="#features" class="chevron highlight-focus">
                 <img src="/img/chevron.svg" alt="skip to featured content"/>
             </a>
+            {{ partial "translations.html" . }}
         </div>
+
     </div>
     {{ partial "issue/features.html" . }}
 

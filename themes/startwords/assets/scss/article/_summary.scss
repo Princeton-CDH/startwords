@@ -27,7 +27,9 @@ $preview-height-xl: rem(250px);  // 1024px-
 
     @media (min-width: $breakpoint-m) { font-size: rem(18px); }
 
-    a:not(.doi) { text-decoration: none; }
+    a:not(.doi) {
+        text-decoration: none;
+    }
 
     p {
         margin: 0;
@@ -60,8 +62,8 @@ $preview-height-xl: rem(250px);  // 1024px-
         font-family: $font-sans;
         font-weight: bold;
         font-style: italic;
-        margin: rem(12px) 0;
         text-decoration: underline;
+        margin: rem(12px) 0 rem(16px);
 
         &::after {
             position: relative;

@@ -1,0 +1,10 @@
+{{ if .IsTranslated }}
+<aside class="translations">
+    <h2 class="sr-only">{{ i18n "translations" }}</h2>
+    <ul>
+        {{- range $.AllTranslations -}}
+        <li {{ if eq $.Lang .Lang }}class="current"{{ end }}>{{ if eq $.Permalink .Permalink }}<span>{{ else }}</a><a href="{{ .RelPermalink }}">{{ end }}{{ .Lang | upper }}{{ if eq $.Permalink .Permalink }}<span>{{ else }}</span>{{ end }}</a></li>
+        {{- end -}}
+    </ul>
+</aside>
+{{ end }}
