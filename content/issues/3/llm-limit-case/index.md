@@ -46,15 +46,15 @@ In terms of text analysis tools more specifically, I've followed with interest [
 
 |                                                                                                               | "Data for good" | Data for co-liberation |
 |:------------------------------------------------------------------------------------------------------------- |:---------------:|:----------------------:|
-| Leadership by members of minoritized groups working in community                                              |                 |           x            |
-| Money and resources managed by members of minoritized groups                                                  |                 |           x            |
-| Data owned and governed by the community                                                                      |                 |           x            |
-| Quantitative data analysis “ground truthed” through a participatory, community-centered data analysis process |                 |           x            |
-| Data scientists are not rock stars and wizards, but rather facilitators and guides                            |                 |           x            |
-| Data education and knowledge transfer are part of the project design                                          |                 |           x            |
-| Building social infrastructure—community solidarity and shared understanding—is part of the project design    |                 |           x            |
+| Leadership by members of minoritized groups working in community                                              |                 |           ✓            |
+| Money and resources managed by members of minoritized groups                                                  |                 |           ✓            |
+| Data owned and governed by the community                                                                      |                 |           ✓            |
+| Quantitative data analysis “ground truthed” through a participatory, community-centered data analysis process |                 |           ✓            |
+| Data scientists are not rock stars and wizards, but rather facilitators and guides                            |                 |           ✓            |
+| Data education and knowledge transfer are part of the project design                                          |                 |           ✓            |
+| Building social infrastructure—community solidarity and shared understanding—is part of the project design    |                 |           ✓            |
 
-*Above: “Features of ‘data for good’ versus data for co-liberation, from Catherine D’Ignazio and Lauren F. Klein,* Data Feminism *(MIT Press, 2020), p. 140.*
+<table><caption>Above: Features of ‘data for good’ versus data for co-liberation, from Catherine D’Ignazio and Lauren F. Klein, Data Feminism (MIT Press, 2020), p. 140.</caption></table>
 
 Quantitative literary and cultural studies scholars must strongly contend with these same ethical, environmental, and economic concerns. But they must also contend with an additional set of concerns---part methodological and part epistemological---that pertain to humanistic inquiry in particular. For example, even as there begin to exist [LLMs that are trained on historical corpora](https://macberth.netlify.app/), the amount of data that is required results in training datasets with timespans---1450 to 1950, in the case of MacBERTh---that far exceed any disciplinary sense of periodization. How can we reconcile the historical specificity that we so value in our own research with the fact that even the most appropriate LLM for historical scholarship may be trained on data so temporally distant from the time period that bounds our own scholarly expertise? Furthermore, even as we know to fine-tune such a model on our own more curated datasets, how are we to measure the effects of that fine-tuning in ways that are meaningful to us as humanities scholars? When parameters no longer correspond to specific textual or linguistic features, as with earlier model architectures, we will require even more creative ways to understand the significance of the texts contained in our curated datasets in relation to those on which the larger model was trained.
 
