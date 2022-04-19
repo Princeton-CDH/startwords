@@ -12,10 +12,12 @@ masthead:
         - Gissoo Doroudian
     - Technical Lead:
         - Rebecca Sutton Koeser
+        - Nick Budak (2020)
     - Manuscript Editing:
         - Camey VanSant
     - Technical:
-        - Nick Budak (Technical Lead, 2020)
+        - Nick Budak
+        - Rebecca Sutton Koeser
         - Kevin McElwee
         - Grant Wythoff
     - Board of Advisors:
