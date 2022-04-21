@@ -4,7 +4,7 @@ title: Stack Shakespeare and Company Membership Activities
 slug: stacking-howto
 order: 5
 authors:
-  - Xinyi Li
+  - lixinyi
   - koeserrebecca
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]

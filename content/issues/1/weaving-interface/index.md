@@ -4,7 +4,7 @@ title: Weaving as Interface
 order: 6
 authors:
   - koeserrebecca
-  - Gissoo Doroudian
+  - doroudiangissoo
 tags: [DataBeyondVision, Experiment]
 needs_deepzoom: true
 body_class: darkmode
