@@ -5,7 +5,7 @@ title: |
   Sobre los loros que hablan español
 order: 2
 authors:
-    - Gimena del Rio Riande
+    - delrioriandegimena
 date: 2022-02-01
 doi: 10.5281/zenodo.5750691 #TODO: replace DOI
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
