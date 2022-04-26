@@ -76,6 +76,38 @@ body.article article, body.page article {
             line-height: rem(27px);
         }
 
+        // tables
+        table {
+            font-family: $font-sans;
+            font-size: rem(16px);
+            margin: auto;
+            // align cells left by default
+            // unless specified otherwise in markdown with |:----| beneath column header
+            text-align: left;
+            // tabular data headers
+            th {
+                font-weight: 600;
+                padding: 0 0.5rem 0.5rem 0;
+                }
+            // tabular data cells
+            td {
+                font-weight: 400;
+                padding: 0.25rem 0.5rem 0.25rem 0;
+            }
+            caption {
+                caption-side: bottom;
+                font-family: $font-serif;
+                font-style: italic;
+                font-weight: 300;
+                line-height: 30px;
+                padding-top: 1.5rem;
+                padding-bottom: 1rem;
+                width: 100%;
+                text-align: left;
+                margin: 0;
+            }
+        }
+        
         // block quotes
         blockquote {
             margin-top: rem(30px);
