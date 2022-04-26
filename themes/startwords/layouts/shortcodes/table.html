@@ -1,3 +1,4 @@
+{{/* Shortcode for markdown tables with included HTML caption */}}
 {{ $htmlTable := .Inner | markdownify }}
 {{ $caption := .Get 0 }}
 {{ $old := "<table>" }}
