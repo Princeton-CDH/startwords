@@ -14,7 +14,7 @@
             <h1 class="theme">{{ .Params.theme }}</h1>
             <div class="summary">
                 {{ .Content }}
-                —{{ partial "authors" . }}
+                {{ partial "intro-authors" . }}
             </div>
             <a href="#features" class="chevron highlight-focus">
                 <img src="/img/chevron.svg" alt="skip to featured content"/>
