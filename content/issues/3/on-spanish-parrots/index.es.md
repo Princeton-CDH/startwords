@@ -7,7 +7,7 @@ order: 2
 authors:
     - Gimena del Rio Riande
 date: 2022-02-01
-doi: 10.5281/zenodo.5750691 #TODO: replace DOI
+doi: 10.5281/zenodo.6567966
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
 images: ["issues/2/datas-destinations/images/datas-destinations-social.png"] #TODO: replace social preview
 summary: El español es la segunda lengua más hablada en el mundo.

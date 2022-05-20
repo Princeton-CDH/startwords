@@ -9,14 +9,10 @@ slug: 3
 num_features: 3
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #TODO: Replace placeholder text
 contributors:
-    - Guest Editor:
-      - Toma Tasovac
     - Editor:
       - Grant Wythoff
     - Technical Lead:
       - Rebecca Sutton Koeser
-    - Technical:
-      - Kevin McElwee
     - UX Designer:
       - Gissoo Doroudian
     - Manuscript Editing:
