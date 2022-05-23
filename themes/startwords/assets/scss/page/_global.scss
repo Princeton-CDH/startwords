@@ -68,28 +68,3 @@ body.about {
         border-right: 0.1rem solid $dark-grey;
     }
 }
-
-/* author list page */
-body.authors {
-    .author-list div {
-        padding-left: 1rem;
-        position: relative;
-
-        .theme {
-            font-weight: 900;
-            // font-size: rem(20px);
-            color: $purple;
-            text-transform: uppercase;
-        }
-
-        &:target::before {
-            content: " ";
-            display: block;
-            position: absolute;
-            width: 10px;
-            height: 100%;
-            left: 0;
-            border-left: 2px solid $light-purple;
-        }
-    }
-}

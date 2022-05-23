@@ -19,28 +19,40 @@
                     {{- end -}}
                     </h2>
                     {{- if (or $info.affiliation $info.title) -}}
-                    <p>{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</p>
+                    <p class="title">{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</p>
                     {{- end -}}
                     {{/* find all articles by this author */}}
                     {{ $articles := where $.Site.AllPages ".Params.Authors" "intersect" (slice $id) }}
                     {{ range $articles }}
                     <div class="article">
-                        <h3><a href="{{ .RelPermalink }}">{{ if eq .Type "issue" }}Editorial Introduction{{ else }}{{ .Params.Title }}{{ end }}</a></h3> {{/* TODO: language indicator */}}
-                        {{/* display co-authors, if any */}}
-                        {{ $coauthors := .Params.Authors | complement (slice $id) }}
-                        {{- with $coauthors -}}
-                        with {{  delimit . ", " ", and "}}
-                        {{- end -}}
-
+                        {{/* list and link to issue first */}}
                         {{ if eq .Type "article"}} {{/* for an article, the parent page is issue */}}
-                            {{ .Scratch.Set "issue" .Parent }}
+                        {{ .Scratch.Set "issue" .Parent }}
                         {{ else }}
                             {{ .Scratch.Set "issue" . }}
                         {{ end }}
                         {{ with .Scratch.Get "issue" }}
-                        <p><a href="{{ .RelPermalink }}">{{ i18n "issue" }} {{ .Params.number }}</a>: <span class="theme">{{ .Params.theme }}</span>, {{ .Params.date | time.Format "January 2006"}}</p>
+                        <p class="issue"><a href="{{ .RelPermalink }}">{{ i18n "issue" }} {{ .Params.number }}</a>: <span class="theme">{{ .Params.theme }}</span>, {{ .Params.date | time.Format "January 2006"}}</p>
                         {{ end }}
-                        {{ partial "tags" . }}
+                        {{/* then link to article */}}
+                        <a href="{{ .RelPermalink }}">{{ if eq .Type "issue" }}Editorial Introduction{{ else }}{{ .Params.Title }}{{ end }}</a>
+                        {{/* TODO: language indicator */}}
+                        {{/* display co-authors, if any */}}
+                        {{- $coauthors := .Params.Authors | complement (slice $id) -}}
+                        {{- $coauthor_count := (len $coauthors) -}}
+                        {{- if $coauthor_count -}}
+                        <div class="coauthors">with
+                        {{- range $index, $auth := $coauthors -}}
+                            {{- if $index -}} {{/* add delimiters when after first co-author */}}
+                            {{- if eq (add $index 1) $coauthor_count -}}&nbsp;and {{ else }}, {{ end -}}
+                            {{- end -}}
+                            {{ $info := index $.Site.Data.authors $auth }} {{/* get co-author info */}}
+                            {{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}
+                        {{- end -}}{{/* end looping on coauthors */}}
+                        </div> {{/* has coauthors */}}
+                        {{- end -}}
+
+                        {{/* partial "tags" . */}}
                     </div>
                     {{ end }}
                     </div>
