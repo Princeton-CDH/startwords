@@ -7,8 +7,17 @@ body.issue {
         min-height: 100vh;
 
         // summary is a <div> containing rich text here
-        .summary { margin: 0; }
-        .summary > p { margin-top: rem(5px); }
+        .summary {
+            margin: 0;
+            & > p { margin-top: rem(5px); }
+
+            // introduction authors
+            a, address {
+            display: inline;
+            font-style: normal;
+            color: $black;
+            }
+        }
     }
 
     // link to scroll down

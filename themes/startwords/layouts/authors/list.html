@@ -44,7 +44,7 @@
                         <div class="coauthors">with
                         {{- range $index, $auth := $coauthors -}}
                             {{- if $index -}} {{/* add delimiters when after first co-author */}}
-                            {{- if eq (add $index 1) $coauthor_count -}}&nbsp;and {{ else }}, {{ end -}}
+                            {{- if eq (add $index 1) $coauthor_count -}}&nbsp;and {{- else -}}, {{- end -}}
                             {{- end -}}
                             {{ $info := index $.Site.Data.authors $auth }} {{/* get co-author info */}}
                             {{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}

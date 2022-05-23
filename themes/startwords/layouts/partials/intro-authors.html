@@ -1,5 +1,12 @@
-{{ range .Params.Authors }}
-{{ $info := index $.Site.Data.authors . }} {{/* get author info */}}
-{{/* display name from param as fallback if there is no entry in the authors data file */}}
-{{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}
+{{/* display author(s) for issue introduction */}}
+{{- $author_count := (len .Params.Authors) -}}
+<div class="authors">— 
+{{ range $index, $author := .Params.Authors }}
+    {{- if $index -}} {{/* add delimiters when after first author */}}
+    {{- if eq (add $index 1) $author_count -}} and {{ else }}, {{ end -}}
+    {{- end -}}
+    {{ $info := index $.Site.Data.authors $author }} {{/* get author info */}}
+    {{/* display name from param as fallback if there is no entry in the authors data file */}}
+    {{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}
 {{ end }}
+</div>
