@@ -14,7 +14,9 @@
     </div>
     <div class="issue-summary inverted grid">
         <div class="container">
-            {{ $issue := index (where .Site.AllPages "Type" "issue") 0 }}
+            {{/* get issues for the current language; fill in with all issues; then choose the first. */}}
+            {{ $issues := where .Site.Pages "Type" "issue" | lang.Merge (where .Site.AllPages "Type" "issue") }}
+            {{ $issue := index ($issues) 0 }}
             <span class="number">{{ i18n "issue" }} {{ $issue.Params.number }}</span>
             <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
