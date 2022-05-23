@@ -22,7 +22,7 @@ body > header {
         }
     }
 
-    nav[aria-label="main"] {
+    nav.main {
         left: 0;
         transition: left 0.4s ease;
 
@@ -105,7 +105,7 @@ body > header {
 
 /* currently not in use */
 /*
-nav[aria-label="breadcrumbs"] {
+nav.breadcrumbs {
     transform: rotate(180deg);
     writing-mode: vertical-lr;
     text-orientation: mixed;
