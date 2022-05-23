@@ -74,6 +74,8 @@ body.authors {
             }
         }
 
+
+
         /* highlight linked author */
         /* disable
         &:target::before {
@@ -87,4 +89,12 @@ body.authors {
         }
         */
     }
+
+    .languages {
+        margin-bottom: rem(8px);
+        span {
+            border: 1px solid $dark-purple;
+        }
+    }
+
 }

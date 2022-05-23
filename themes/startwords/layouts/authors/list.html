@@ -8,6 +8,7 @@
         </header>
         <div class="text-container">
             {{ with .Content }}{{ . }}{{ end }}
+            {{ $currentLang := .Site.Language.Lang }}
 
             <div class="author-list">
                 {{/* Hugo sorts collections by key by default */}}
@@ -23,6 +24,7 @@
                     {{- end -}}
                     {{/* find all articles by this author */}}
                     {{ $articles := where $.Site.AllPages ".Params.Authors" "intersect" (slice $id) }}
+
                     {{ range $articles }}
                     <div class="article">
                         {{/* list and link to issue first */}}
@@ -36,7 +38,8 @@
                         {{ end }}
                         {{/* then link to article */}}
                         <a href="{{ .RelPermalink }}">{{ if eq .Type "issue" }}Editorial Introduction{{ else }}{{ .Params.Title }}{{ end }}</a>
-                        {{/* TODO: language indicator */}}
+                        {{ partial "available_languages.html" . }}
+
                         {{/* display co-authors, if any */}}
                         {{- $coauthors := .Params.Authors | complement (slice $id) -}}
                         {{- $coauthor_count := (len $coauthors) -}}
