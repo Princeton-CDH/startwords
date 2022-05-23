@@ -1,5 +1,5 @@
 <header>
-    <nav aria-label="{{ i18n "main" }}">
+    <nav class="main" aria-label="{{ i18n "main" }}">
         <ul>
             <li class="home">
                 <a href="{{ relLangURL "/" }}">
@@ -7,15 +7,13 @@
                 </a>
             </li>
             <li class="issues">
-                <a href="{{ relLangURL "/issues/" }}">
-                    <span>{{ i18n "issues" }}</span>
-                </a>
+                <a href="{{ relLangURL "/issues/" }}">{{ i18n "issues" }}</a>
             </li>
         </ul>
     </nav>
     {{/*
     {{ if not .IsHome }}
-    <nav aria-label="{{ i18n "breadcrumbs" }}">
+    <nav class="breadcrumbs" aria-label="{{ i18n "breadcrumbs" }}">
         <ol>
             {{ template "breadcrumbnav" (dict "p1" .Parent "p2" .Parent) }}
         </ol>

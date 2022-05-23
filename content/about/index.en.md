@@ -11,18 +11,20 @@ masthead:
     - UX Designer:
         - Gissoo Doroudian
     - Technical Lead:
-        - Rebecca Sutton Koeser
+        - Rebecca Sutton Koeser (Issue 2–3)
+        - Nick Budak (Issue 1)
     - Manuscript Editing:
         - Camey VanSant
     - Technical:
-        - Nick Budak (Technical Lead, 2020)
-        - Kevin McElwee
+        - Nick Budak
+        - Rebecca Sutton Koeser
+        - Kevin McElwee (Issue 2)
         - Grant Wythoff
     - Board of Advisors:
       - Natalia Ermolaev
       - Zoe LeBlanc
       - Meredith Martin
-      - Rebecca Munson (2020)
+      - Rebecca Munson (Issue 1)
 ---
 
 *Startwords* is a research periodical irregularly published by the Center for Digital Humanities at Princeton. More formal than a blog yet more speculative and iterative than a peer-reviewed journal, *Startwords* is a forum for experimental humanities scholarship. Embedded code, data physicalizations, design, and emerging forms of process documentation are detailed through writing that is essayistic, creative, and research-driven.

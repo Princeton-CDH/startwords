@@ -1,0 +1,7 @@
+{{/* display language "chips" to make available language explicit */}}
+<div class="languages" aria-label='{{ i18n "languages available" }}'>
+    {{- range .AllTranslations -}}
+    {{ $translatedLangName := i18n .Language.LanguageName }}
+        <span aria-label="{{ .Language.LanguageName }}" title="{{ i18n "available-in-lang" $translatedLangName }}">{{ .Lang | upper }}</span>
+    {{ end }}
+</div>

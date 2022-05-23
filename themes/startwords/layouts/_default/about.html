@@ -11,9 +11,26 @@
             {{ with .Content }}{{ . }}{{ end }}
 
             <div class="masthead">
-                <h2>Masthead</h2>
-                {{ range .Params.masthead }}
-                    {{ partial "credits.html" . }}
+                <h2>{{ i18n "masthead" }}</h2>
+
+                {{/* get contributor information from current page OR default language about page */}}
+                {{ $credits := newScratch }}
+                {{ if .Params.masthead }}
+                    {{ $credits.Set "contributors" .Params.masthead }}
+                {{ else }}
+                    {{/* If contributors are not set, get default language version of this page.
+                        Since defaultContentLanguage is not accessible; get first language by priority */}}
+                    {{ $defaultLang := index .Site.Languages 0 }}
+                    {{ with index (where .Translations ".Lang" $defaultLang.Lang) 0 }}
+                        {{ $credits.Set "contributors" .Params.masthead }}
+                    {{ end }}
+                {{ end }}
+                {{ if $credits.Get "contributors" }}
+                    <div class="container">
+                        {{ range $credits.Get "contributors" }}
+                            {{ partial "credits.html" . }}
+                        {{ end }}
+                    </div>
                 {{ end }}
             </div>
         </div>

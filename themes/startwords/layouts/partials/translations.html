@@ -1,0 +1,12 @@
+{{ if .IsTranslated }}
+<aside class="translations">
+    <h2 class="sr-only">{{ i18n "translations" }}</h2>
+    <ul>
+        {{- range $.AllTranslations -}}
+        {{ $translatedLangName := i18n .Language.LanguageName }}
+        {{ $label := i18n "read-in-lang" $translatedLangName }}
+        <li {{ if eq $.Lang .Lang }}class="current"{{ end }} >{{ if eq $.Permalink .Permalink }}<span>{{ else }}</a><a href="{{ .RelPermalink }}" aria-label="{{ $label }}" title="{{ $label }}">{{ end }}{{ .Lang | upper }}{{ if eq $.Permalink .Permalink }}<span>{{ else }}</span>{{ end }}</a></li>
+        {{- end -}}
+    </ul>
+</aside>
+{{ end }}
