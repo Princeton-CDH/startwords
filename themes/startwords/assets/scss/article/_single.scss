@@ -39,8 +39,19 @@ body.article {
             .authors {
                 font-weight: 400;
                 li, address { display: inline; }
-                address::after { content: ', '; }
-                li:last-child address::after { content: ''; }
+                // comma should be outside the a tag
+                li::after { content: ', ';}
+                li:last-child::after { content: ''; }
+
+                // make author links inline-blocks to improve
+                // tap target accessibility
+                a {
+                    display: inline-block;
+                }
+                /* put space between links to make tap targets distinct */
+                li {
+                    margin-right: 5px;
+                }
             }
 
             .formats { font-weight: 400; margin-top: .5rem; }
@@ -107,7 +118,7 @@ body.article article, body.page article {
                 margin: 0;
             }
         }
-        
+
         // block quotes
         blockquote {
             margin-top: rem(30px);
