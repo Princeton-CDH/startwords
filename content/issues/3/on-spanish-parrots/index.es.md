@@ -10,7 +10,7 @@ date: 2022-02-01
 doi: 10.5281/zenodo.6567966
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
 images: ["issues/2/datas-destinations/images/datas-destinations-social.png"] #TODO: replace social preview
-summary: El español es la segunda lengua más hablada en el mundo.
+summary: El español es la segunda lengua más hablada en el mundo. Y no lo digo yo, lo dice y lo predice Google.
 ---
 
 ## 1. Una lora llamada MarIA

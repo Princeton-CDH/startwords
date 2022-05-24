@@ -42,7 +42,7 @@ In short, I think people who use neural models of language typically use them fo
 
 While I'm skeptical that language models are devoid of meaning, I do share other concerns raised by the authors of "Stochastic Parrots." For instance, I agree that researchers will need a way to understand the subset of texts that shape a model's response to a given prompt. Culture is historically specific, so models will never be free of omission and bias. But by the same token, we need to know which practices they represent.
 
-If companies want to offer language models as a service to the public --- say, in web search --- they will need to do even more than know what their models represent. Somehow, a single model will need to produce a picture of the world that is acceptable to a wide range of audiences, without amplifying harmful biases or filtering out minority discourses (Bender et al, "Stochastic Parrots," 614). That's a delicate balancing act.
+If companies want to offer language models as a service to the public --- say, in web search --- they will need to do even more than know what their models represent. Somehow, a single model will need to produce a picture of the world that is acceptable to a wide range of audiences, without amplifying harmful biases or filtering out minority discourses (Bender et al., "Stochastic Parrots," 614). That's a delicate balancing act.
 
 Historians don't have to compress their material as severely as that. Since history is notoriously a story of conflict, and our sources were interested participants, few people expect historians to represent all aspects of the past with one correctly balanced model. On the contrary, historical inquiry is usually about comparing perspectives. Machine learning is not the only way to do this, but it can help. For instance, researchers can measure differences of perspective by training multiple models on different publication venues or slices of the timeline.[^6]
 
@@ -102,7 +102,7 @@ Champaign, IL
 
 [^1]: Ashish Vaswani et al., "Attention Is All You Need," 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, 2017. <https://arxiv.org/abs/1706.03762>.
 
-[^2]: Emily M. Bender et al., "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? ," [*FAccT \'21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*](https://dl.acm.org/doi/proceedings/10.1145/3442188) (New York: Association for Computing Machinery, 2021), 610--623, <https://doi.org/10.1145/3442188.3445922>. Further citations of this work are given in the text.
+[^2]: Emily M. Bender et al., "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? ," *FAccT \'21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency* (New York: Association for Computing Machinery, 2021), 610--623, <https://doi.org/10.1145/3442188.3445922>. Further citations of this work are given in the text.
 
 [^3]: Rishi Bommasani et al., "On the Opportunities and Risks of Foundation Models," CoRR Aug 2021, 3--4, [https://arxiv.org/abs/2108.07258](https://arxiv.org/abs/2108.07258).
 
@@ -110,7 +110,7 @@ Champaign, IL
 
 [^5]: To this list one might also add the material and social aspects of book production. In commenting on "Stochastic Parrots," Katherine Bode notes that book history prefers to paint a picture where "meaning is dispersed across . . . human and non-human agents." Katherine Bode, qtd. in Lauren M. E. Goodlad, "Data-Centrism and Its Discontents," *Critical AI* (blog)*,* Oct. 15, 2021, <https://criticalai.org/2021/10/14/blog-recap-stochastic-parrots-ethics-of-data-curation/>.
 
-[^6]: Sandeep Soni, Lauren F. Klein, and Jacob Eisenstein, "Abolitionist Networks: Modeling Language Change in Nineteenth-Century Activist Newspapers," *Journal of Cultural Analytics* 6, no. 1(Jan. 18, 2021), [https://culturalanalytics.org/article/18841-abolitionist-networks-modeling-language-change-in-nineteenth-century-activist-newspapers](https://culturalanalytics.org/article/18841-abolitionist-networks-modeling-language-change-in-nineteenth-century-activist-newspapers); Ted Underwood, "Machine Learning and Human Perspective," *PMLA* 135, no. 1 (Jan. 2020): 92--109, <http://hdl.handle.net/2142/109140>.
+[^6]: Sandeep Soni, Lauren F. Klein, and Jacob Eisenstein, "Abolitionist Networks: Modeling Language Change in Nineteenth-Century Activist Newspapers," *Journal of Cultural Analytics* 6, no. 1 (Jan. 18, 2021), [https://culturalanalytics.org/article/18841-abolitionist-networks-modeling-language-change-in-nineteenth-century-activist-newspapers](https://culturalanalytics.org/article/18841-abolitionist-networks-modeling-language-change-in-nineteenth-century-activist-newspapers); Ted Underwood, "Machine Learning and Human Perspective," *PMLA* 135, no. 1 (Jan. 2020): 92--109, <http://hdl.handle.net/2142/109140>.
 
 [^7]: Bhuwan Dhingra et al., "Time-Aware Language Models as Temporal Knowledge Bases," *Transactions of the Association for Computational Linguistics* 10 (Mar. 18, 2022): 257--73, [https://doi.org/10.1162/tacl_a\_00459](https://doi.org/10.1162/tacl_a_00459).
 
