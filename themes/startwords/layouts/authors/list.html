@@ -18,6 +18,9 @@
                     {{- with $info.orcid -}}
                     <a class="orcid" href="https://orcid.org/{{ . }}"><img alt="ORCID" src="{{ relURL "/img/logos/orcid.svg" }}" width="20" height="20" /></a>
                     {{- end -}}
+                    {{- with $info.website -}}
+                    <a class="website" href="{{ $info.website }}"><i class="ph-globe-thin"></i></a>
+                    {{- end -}}
                     </h2>
                     {{- if (or $info.affiliation $info.title) -}}
                     <p class="title">{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</p>

@@ -34,6 +34,11 @@ body.authors {
             }
         }
 
+        a.website, a:visited.website {
+            color: $dark-grey;
+            margin-left: 0.3rem;
+        }
+
         .article {
             font-size: rem(16px);
             @media (min-width: $breakpoint-s) {
