@@ -9,7 +9,7 @@ authors:
 date: 2022-02-01
 doi: 10.5281/zenodo.6567481
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
-images: ["issues/2/datas-destinations/images/datas-destinations-social.png"] #TODO: replace social preview
+images: ["issues/3/mapping-latent-spaces/images/mapping-latent-spaces-social.png"]
 summary: The technology I need to discuss in this paper doesn’t yet have a consensus name.
 # hook_height_override: 255
 ---
