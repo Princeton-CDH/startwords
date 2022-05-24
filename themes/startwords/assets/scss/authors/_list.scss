@@ -84,6 +84,10 @@ body.authors {
             content: "; "
         }
 
+        .translators:empty {
+            display: none;
+        }
+
         /* highlight linked author */
         /* disable
         &:target::before {
