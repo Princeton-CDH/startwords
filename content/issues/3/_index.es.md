@@ -1,7 +1,7 @@
 ---
 type: issue
 layout: single
-title: Issue Three
+title: Issue Three # TODO: translate
 number: 3
 theme: Loros
 date: 2022-02-01 #TODO: Replace with final publication date

@@ -6,21 +6,18 @@
         <div class="container">
             {{ with .Title }}<h1 class="sr-only">{{ . }}</h1>{{ end }}
             {{ with .Content }}{{ . }}{{ end }}
-            {{/* get all issues in any language */}}
-            {{ $issues := where (where .Site.AllPages "Type" "issue") ".Params.number" "gt" 0 }}
+            {{/* get all issues in current language; supplement from main language where missing */}}
+            {{ $issues := where .Pages "Type" "issue" | lang.Merge (where (where .Site.AllPages "Type" "issue") ".Params.number" "gt" 0) }}
             {{ $currentLang := .Site.Language.Lang }}
             {{ if $issues }}
             <ol>
                 {{ range $issues }}
-                {{/* don't show translated issue if available in the current language */}}
-                {{ if not (where .Translations ".Lang" $currentLang) }}
                 <li {{ if not (eq .Lang $currentLang )}}lang="{{ .Lang }}"{{ end }}> {{/* set language if it changes */}}
                     <a class="highlight-focus" href="{{ .RelPermalink }}" aria-label="{{ i18n "issue" }} {{ .Params.number }}">
                         {{ .Render "summary" }}
                     </a>
                    {{ partial "available_languages.html" . }}
                 </li>
-                {{ end }}
                 {{ end }}
             </ol>
             {{ else }}

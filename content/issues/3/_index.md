@@ -17,6 +17,8 @@ contributors:
       - Gissoo Doroudian
     - Manuscript Editing:
       - Camey VanSant
+    - Translator: 
+      - David Andrés Rivera Mosquera
 ---
 
 By the time Emily Bender, Timnit Gebru, Angelina McMillan-Major and Margaret Mitchell's paper "[On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://doi.org/10.1145/3442188.3445922)" was published in March 2021, it had already been shaking up the machine learning (ML) world for some time. Two of its authors were [fired from Google](https://www.emergingtechbrew.com/stories/2021/03/29/one-biggest-advancements-ai-also-sparked-fierce-debate-heres), and the natural language processing (NLP) community was grappling with the uncomfortable truths the paper had raised about the harms posed by algorithms that many claimed would change modern life. Those of us working in the computational humanities certainly took notice of the Parrots paper, too. While most humanists’ day-to-day research tasks may not directly involve large language models (LLMs), the concerns raised by the authors --- about the ethical, social, and environmental risks of emerging technologies --- were familiar terrain. The paper also helped us revisit the humanistic principles we espouse in our approaches to text, language, and meaning, and to consider what happens when they intersect with tools emerging from a tech culture obsessed with chasing what is biggest and fastest.
