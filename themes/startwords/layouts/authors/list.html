@@ -8,8 +8,6 @@
         </header>
         <div class="text-container">
             {{ with .Content }}{{ . }}{{ end }}
-            {{ $currentLang := .Site.Language.Lang }}
-
             <div class="author-list">
                 {{/* Hugo sorts collections by key by default */}}
                 {{ range $id, $info := $.Site.Data.authors }}
@@ -25,9 +23,8 @@
                     {{- if (or $info.affiliation $info.title) -}}
                     <p class="title">{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</p>
                     {{- end -}}
-                    {{/* find all articles by this author */}}
-                    {{ $articles := where $.Site.AllPages ".Params.Authors" "intersect" (slice $id) }}
-
+                    {{/* find all articles by this author within current site (current language) */}}
+                    {{ $articles := where $.Site.Pages ".Params.Authors" "intersect" (slice $id)  }}
                     {{ range $articles }}
                     <div class="article">
                         {{/* list and link to issue first */}}
