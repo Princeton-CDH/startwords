@@ -63,14 +63,17 @@ languages:
   en:
     languageName: English
     weight: 1
+    params:
+      available_in: Available in English
   es:
-    languageName: Spanish
+    languageName: Español
     weight: 2
     params:
       license_text: Atribución 4.0 Internacional (CC BY 4.0)
       description: >-
         Una publicación periódica de investigación publicada irregularmente por
         el Centro de Humanidades Digitales de Princeton.
+      available_in: Disponible en Español
     menu:
       footer:
         - name: Acerca de
