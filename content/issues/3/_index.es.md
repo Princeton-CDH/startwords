@@ -7,6 +7,8 @@ theme: Loros
 date: 2022-02-01 #TODO: Replace with final publication date
 slug: 3
 num_features: 3
+translators:
+    - David Andrés Rivera Mosquera
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #TODO: Replace placeholder text
 
 ---

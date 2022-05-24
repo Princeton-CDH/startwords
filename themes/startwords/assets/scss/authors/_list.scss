@@ -68,18 +68,21 @@ body.authors {
             }
         }
 
-        .coauthors {
+        .coauthors, .translators {
             font-style: italic;
             font-weight: 400;
             line-height: rem(24px);
+            display: inline-block;
             a, address {
                 display: inline;
                 text-decoration: none;
                 color: $dark-grey;
             }
         }
-
-
+        /* when an item has both co-authors and translators, separate */
+        .coauthors + .translators:not(:empty)::before {
+            content: "; "
+        }
 
         /* highlight linked author */
         /* disable

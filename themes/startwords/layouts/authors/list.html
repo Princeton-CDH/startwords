@@ -55,6 +55,17 @@
                         </div> {{/* has coauthors */}}
                         {{- end -}}
 
+                        {{/* display translator information if translated */}}
+                        {{ if .IsTranslated }}
+                        <div class="translators">
+                        {{ range .Translations }}
+                            {{ if .Params.translators }}
+                            translated into {{ .Language.LanguageName }} by {{ delimit .Params.translators "," "and" }}
+                            {{ end }}
+                        {{ end }}
+                        </div>
+                        {{ end }}
+
                         {{/* partial "tags" . */}}
                     </div>
                     {{ end }}
