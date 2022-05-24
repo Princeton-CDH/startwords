@@ -1,24 +1,24 @@
 issues:
-  other: Ediciónes
+  other: Números
 issue:
-  other: Edicióne
+  other: Número
 view-issue:
   other: ver esta edición
 features:
-  other: features
+  other: Artículos destacados
 snippets:
-  other: fragmentos
+  other: fragmentos destacados
 # navigation
 cdh:
   other: "The Center for Digital Humanities at Princeton"
 home:
-  other: Home
+  other: Inicio
 main:
-  other: main
+  other: principal
 breadcrumbs:
-  other: breadcrumbs
+  other: Hilo de Ariadna
 read-more:
-  other: "Read more..."
+  other: "Leer más..."
 footer-links:
   other: footer links
 # translation links
@@ -27,37 +27,39 @@ English:
 Spanish:
   other:  Español
 read-in-lang:
-  other: read this page in {{ . }}
+  other: Leer esta página en {{ . }}
 languages available:
-  other: languages available
+  other: lenguas disponibles
 available-in-lang:
   other: disponible en {{ . }}
 # error page
 error:
   other: Error
 not-found:
-  other: Not Found
+  other: no encontrado
 not-found-text:
-  other: Hmm, that one must be in our stopword list...
+  other: Hmm, eso debe estar en nuestra lista de palabras vacías...
 # atom feed
 feed-title-on:
   other: "on"
 # credits / masthead roles
+masthead:
+  other: Encabezado
 credits:
-  other: Credits
+  other: Créditos
 Guest Editor:
-  other: Guest Editor
+  other: Editora invitada
 Editor:
   other: Editor
 Technical Lead:
-  other: Technical Lead
+  other: Liderazgo Técnico
 Technical:
-  other: Technical
+  other: Equipo Técnico
 UX Designer:
-  other: UX Designer
+  other: Diseñadora UX
 Manuscript Editing:
-  other: Manuscript Editing
+  other: Edición de Manuscrito
 Board of Advisors:
-  other: Board of Advisors
+  other: Comité Asesor
 Translator:
-  other: Translator
+  other: Traductor
