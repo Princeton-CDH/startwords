@@ -39,18 +39,16 @@ body.article {
             .authors {
                 font-weight: 400;
                 li, address { display: inline; }
-                // comma should be outside the a tag
-                li::after { content: ', ';}
-                li:last-child::after { content: ''; }
+                address::after { content: ', '; }
+                li:last-child address::after { content: ''; }
 
                 // make author links inline-blocks to improve
                 // tap target accessibility
                 a {
                     display: inline-block;
-                }
-                /* put space between links to make tap targets distinct */
-                li {
-                    margin-right: 5px;
+                    color: $dark-grey;
+                    padding-right: rem(8px);
+                    font-size: rem(16px);  /* increase font size slightly for phosphor link */
                 }
             }
 
