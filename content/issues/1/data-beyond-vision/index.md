@@ -24,30 +24,30 @@ Academic research has a long history of textual practice and citation that we ha
 
 The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides toward reading and thinking in creative new scholarly modes.[^3]
 
-{{< wrap id="interlude" >}}
+{{< wrap class="interlude" >}}
 {{< wrap class="left" >}}
 **SEE**
 
-from a distance.  
-Cold, commanding.  
-Sense of mastery,  
+from a distance.
+Cold, commanding.
+Sense of mastery,
 but optical illusions deceive.
 
 
-Look in a mirror.  
-and see yourself  
-seeing.  
+Look in a mirror.
+and see yourself
+seeing.
 {{</ wrap >}}
 {{< wrap class="right" >}}
-**TOUCH**  
+**TOUCH**
 
-up close.  
-Intimate, incomplete.  
-Explore partial knowledge,  
-enlighten slowly.  
+up close.
+Intimate, incomplete.
+Explore partial knowledge,
+enlighten slowly.
 
-Run fingers across skin  
-and touch yourself  
+Run fingers across skin
+and touch yourself
 touching.
 {{</ wrap >}}
 {{</ wrap >}}

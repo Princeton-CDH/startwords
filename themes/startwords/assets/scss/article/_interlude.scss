@@ -1,0 +1,60 @@
+/* purple "interlude" section originally created for Data Beyond Vision in issue */
+
+.interlude {
+
+    page-break-inside: avoid;
+    position: relative;
+    margin: 0 0;
+
+    color: #E0CEFF;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'IBM Plex Serif', 'Palatino', serif;
+
+
+    /* use pseudo element to absolutely position a full-width
+    background color behind everything else inthe interlude */
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        left: -10px;
+        height: 100%;
+        background: #4C2A85;
+
+        @media (min-width: $breakpoint-s) {
+            left: calc((100vw - 10px) / 10 * -1 - 10px);
+        }
+        @media (min-width: $breakpoint-m) {
+            left: calc((100vw - 10px) / 10 * -2 - 10px);
+        }
+    }
+
+    p {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 10px;
+        line-height: 20px;
+        z-index: 1;
+    }
+
+    strong {
+        font-weight: 700;
+        clear: both;
+    }
+
+    @media print {
+        color: #4C2A85;
+
+        &::before { background: none; }
+
+        h2 {
+            page-break-before: always;
+            width: 2.1in;
+        }
+    }
+}
+
+
+
