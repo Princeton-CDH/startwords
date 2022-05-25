@@ -60,9 +60,6 @@
     {{ $print := resources.Get "scss/print.scss" | resources.ToCSS $printOptions | resources.PostCSS }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
-    {{/* include current phosphor icons as css; check https://unpkg.com/phosphor-icons for latest version */}}
-    <link rel="preload" href="https://unpkg.com/phosphor-icons@1.4.2/src/css/icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://unpkg.com/phosphor-icons@1.4.2/src/css/icons.css"></noscript>
     {{ block "css" . }}{{ end }}
 
     <!-- scripts -->
