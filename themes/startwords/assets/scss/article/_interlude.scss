@@ -5,12 +5,12 @@
     page-break-inside: avoid;
     position: relative;
     margin: 0 0;
+    padding: 35px 0;
 
     color: #E0CEFF;
     font-weight: 300;
     font-size: 16px;
     font-family: 'IBM Plex Serif', 'Palatino', serif;
-
 
     /* use pseudo element to absolutely position a full-width
     background color behind everything else inthe interlude */
@@ -22,6 +22,7 @@
         left: -10px;
         height: 100%;
         background: #4C2A85;
+        /*opacity: 0.5; /* for testing */
 
         @media (min-width: $breakpoint-s) {
             left: calc((100vw - 10px) / 10 * -1 - 10px);
@@ -31,12 +32,28 @@
         }
     }
 
-    p {
+    /* make sure everything inside the interlude is positioned relatively */
+    & > * {
         position: relative;
+    }
+
+    /* when a heading appears first in the interlude, tighten up space slightly */
+    & > h2:first-child, & > h3:first-child {
+        margin-top: rem(25px);
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(50px);
+        }
+    }
+
+    p {
         margin-top: 0;
         margin-bottom: 10px;
         line-height: 20px;
-        z-index: 1;
+
+        /* make full-width and left-aligned to ensure paragraphs
+        broken across page breaks in PDF look correct */
+        width: 100%;
+        text-align: left;
     }
 
     strong {

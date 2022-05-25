@@ -31,8 +31,6 @@ This piece will trace the history of this partnership, focusing on the interplay
 Throughout the piece, we have provided interludes in which we will walk you through the process of creating clickable keyboards for transcribing Hebrew script. Please feel free to interact with the example keyboards. You can try the full version by visiting [*Scribes of the Cairo Geniza*](https://www.scribesofthecairogeniza.org) and choosing the Easy Hebrew transcription workflow.[^8] You can read the interludes in their entirety and view the source code on [GitHub](https://shaunanoordin.github.io/zooniverse-startwords/).
 
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
-
 ### 01. The Basics: A Form With Some Text Input {#kb1}
 
 Let's start by setting up a very basic web form. It has one text input field, one submit button, and one output panel.
@@ -43,8 +41,6 @@ Everything we build from this point onwards is meant to solve one very simple pr
 
 {{< wrap class="print-only-preview" >}}
 *The online version of this essay includes interactive keyboards threaded throughout the text.*
-{{</ wrap >}}
-
 {{</ wrap >}}
 
 {{</ wrap >}}
@@ -67,7 +63,6 @@ When we build public crowdsourcing projects, the work we do as platform builders
 Bill Endres writes that “building faces the challenge of not being writing.”[^9] For Endres, “building” is a practice typically excluded from institutional decisions on tenure and promotion in humanities departments. Much of the discourse around building in DH acknowledges this disparate treatment between the creation of tools and the production of traditional research, but Endres’s phrase also reminds us that writing is the medium by and around which scholarly communication has also primarily taken place. We write, we peer review, we give written feedback. When we talk about the Things We Are Building, the role of translator or mediator is often assumed by team members who have spent time in both “worlds.” Learning how to communicate across varying disciplinary backgrounds or via unfamiliar mediums (in our case, bridging concepts as varied as paleography and pull requests) requires time and patience.
 
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
 
 ### 02. A Simple On-screen Keyboard
 
@@ -88,7 +83,6 @@ A straightforward solution is to create an on-screen keyboard for the user. In t
 The code here is simple, but we already come across a problem: what if the user wants to add a Japanese character in the middle (instead of at the end) of the text box? This is, after all, a very basic function for a normal text box—you can place the text cursor/caret at any part of the existing text and then start typing.
 
 {{</ wrap >}}
-{{</ wrap >}}
 
 It can help to identify shared frames of reference early in the collaboration. The original proposal for the project that would become *Scribes of the Cairo Geniza* envisioned a public transcription effort that would teach volunteers “without any prerequisite knowledge” how to transcribe the Arabic and Hebrew scripts found in the Geniza. It cited a previous Zooniverse project, [*Ancient Lives*](https://www.ancientlives.org) (2011),[^10] which featured a clickable keyboard that allowed users to transcribe ancient Greek papyri from the [Oxyrhynchus Collection](https://www.classics.ox.ac.uk/oxyrhynchus-papyri) at the University of Oxford's Sackler Library through the process of character matching. *Ancient Lives* became an important reference for the entire Geniza project team because it allowed a group of people with a variety of professional backgrounds to engage in referential communication around a shared goal, rather than fumbling together toward an abstract concept. Starting with a critique of an existing resource allowed us to determine the features that were applicable for the context in which we were working—what we wanted to recreate (or revamp) as well as what components were missing that would be key to working with Geniza fragments.
 
@@ -99,8 +93,6 @@ To approach the transcription of a large, multilingual corpus by a nonspecialist
 During the brainstorming process for *Scribes*, we discussed how the *Ancient Lives* approach (presenting users with a clickable keyboard to use while transcribing) was desirable because it provides support for audiences who don’t use an Arabic or Hebrew keyboard at home and may not be familiar with each script’s characters. We know through Google Analytics and user surveys that the majority of registered Zooniverse volunteers are from the United States and the United Kingdom. As a result, we could safely assume that a significant portion of our audience would use an English-language keyboard, and a significant subset would not be able to read Arabic and/or Hebrew. Of those in our audience who *could* read Arabic and/or Hebrew, a significant subset would not have experience reading or transcribing Aramaic, Judeo-Persian, or any of the other languages known to be found among the Geniza fragments.[^11] While clickable keyboards would help with the specific task of transcription within the overall project workflow, we also knew a translatable interface would be necessary to support a multilingual community of volunteers. So we decided early on that the entire project would need to be available in Arabic, English, and Hebrew, adding an additional layer of complexity to the design and development process in order to support right-to-left (RTL) as well as left-to-right (LTR) text.
 
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
-
 ### 03. Text Selection
 
 This is actually a solved problem: we use the standard `HTMLInputElement`’s `selectionStart`, `selectionEnd`, and `setSelectionRange` to interact with the “text cursor” on the text input field.
@@ -114,10 +106,8 @@ This is actually a solved problem: we use the standard `HTMLInputElement`’s `s
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-
 In the example above, we’ve done two things in the code: 1. we ensure the Japanese characters are inserted at the position of the text cursor/caret, and 2. we ensure the text input maintains focus after the insertion. These may seem like minor coding considerations, but they’re important to **ensure a consistent User Experience (UX), since users often have pre-set expectations on how User Interface (UI) elements should behave.**
 
-{{</ wrap >}}
 {{</ wrap >}}
 
 
@@ -144,8 +134,6 @@ We were then able to use our own expertise as platform maintainers to design and
 
 
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
-
 ### 04. Physical Keyboard Key Capture
 
 Alright, so we now have an on-screen keyboard. But what about the user’s physical keyboard? A user might find it easier to use their physical keyboard to do text transcription, compared to clicking each on-screen keyboard button individually. With that in mind, let’s try to translate those physical key presses into our custom character input.
@@ -169,7 +157,6 @@ One of the biggest considerations here is **what kind of physical keyboard does 
 
 **WARNING:** Now that we know how to capture and replace keyboard input, we also need to learn when not to do so. Sometimes, when a user presses the “A” key, they just want to type in the character “A,” not “あ”! **Always allow your users the option to disable your on-screen keyboard.** The example above has no such option, but we'll explore how we can do this once we jump into the “multi-language” functionality of our onscreen keyboard.
 
-{{</ wrap >}}
 {{</ wrap >}}
 
 This was a turning point in the collaboration, as we began to understand the real value of having multiple kinds of “strangers” and their perspectives in the room. Speaking to diverse perspectives—even within our planning meetings—prevented us from sharing ideas and information without considering how those concepts might be broken down into simpler components. Rather than being a barrier to communication, it gave us the opportunity to observe a version of the volunteer experience we were building in real time, through our interactions with one another.
@@ -196,10 +183,7 @@ We didn’t need to start from scratch. *Ancient Lives* provided a shared refere
 
 User experience (UX) design relies on common behavioral patterns to help a user feel comfortable in an interface, even when faced with a completely novel situation (such as transcribing an ancient manuscript written in an unfamiliar language). UX designers also rely heavily on direct user feedback to ensure that the interface both functions as it should and feels natural to those users. To that end, we first identified a few key groups of user personas to envision our target audience. These personas served as guides throughout the design process. Would a grad student in Massachusetts be able to quickly understand how to transcribe a line of text? Would a pensioner in Brighton? What about a modern native speaker? By keeping in mind these different experience levels, we were able to focus our design efforts and keep scope creep to a minimum.[^15]
 
-
-
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
 
 ## Multi-Language Keyboards
 
@@ -222,7 +206,6 @@ In the example below, you won’t see many changes in terms of UI functionality,
 {{</ wrap >}}
 
 {{</ wrap >}}
-{{</ wrap >}}
 
 As we worked through the design, it was essential that we also speak to real users of the platform in order to validate our assumptions and test that the task we were designing was easy to understand. We reached out to our list of Zooniverse beta reviewers as well as personal networks to find native Hebrew and Arabic speakers who were willing to test the platform in translation. Through these conversations, we were able to see how a RTL interface would differ from English or other LTR language interfaces, and make adjustments accordingly.
 
@@ -240,7 +223,6 @@ We also realized that because the subject matter could be intimidating, it was i
 It was also important that the experience remain similar across all three languages, so typefaces were chosen and vetted with native speakers to ensure parity.
 
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
 
 ### 06. Language Selection
 
@@ -267,7 +249,6 @@ While we started our examples with a very simple five-character Japanese keyboar
 In the next section, we’ll start adding a Hebrew keyboard. The Hebrew alphabet has 22 characters, which will map very easily to English/QWERTY’s 26 characters. However, the Hebrew alphabet will introduce a new wrinkle: **right-to-left text**, which we’ll need to solve.
 
 {{</ wrap >}}
-{{</ wrap >}}
 
 After the typography was chosen, we created a color palette that was inspired by the Geniza fragments themselves. A contrasting purple was chosen for the background to allow the subjects to visually pop. Even the help text was closely considered: because of the wide reach of the project, help text needed to be clear, concise, and easy to understand. Our baseline was a fifth-grade reading level using the Flesch-Kincaid scale.[^16]
 
@@ -276,7 +257,6 @@ While most of the design used common user-interface patterns—a toolbar, iconog
 In order to create useful transcription data, the team needed to ensure consistent line placement that an algorithm would be able to parse correctly.[^17] We looked both within and outside of Zooniverse for inspiration and found a variety of transcription methods, from single- to multi-track. We considered what to use as the basic unit of transcription: how would we ask users to break down the text on the page, e.g. by character, word, line? From our experience with other crowdsourced transcription projects, we knew that line-by-line transcription would be the optimal blend of user effort to manageable data output. And from testing, we found that it was most intuitive to click once at the start of a line and then again at the end of the line. From there, the project tutorial as well as pop-up directions guided the user through the transcription process and the use of the on-screen clickable keyboards.
 
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
 
 ### 07. Hebrew and Right-to-Left languages
 
@@ -313,7 +293,6 @@ Since we’re only interested in creating a functional on-screen keyboard, we on
 {{</ wrap >}}
 
 {{</ wrap >}}
-{{</ wrap >}}
 
 ### Creating clickable keyboards
 
@@ -342,7 +321,6 @@ Because of the variation in the way that individual characters are composed acro
 This resource not only boosts confidence for transcribers, it also allows them to engage with paleographic concepts in a way that meets them at their level, whatever that may be. Users can look at the full list of scripts available and learn how to distinguish between square, cursive, and minuscule scripts. They can learn the names of Hebrew characters. Regional variations on scripts may inspire transcribers to think more closely about how or why writing might differ across physical space. This resource allows people to engage deeply with primary source materials without judging their level of expertise. It tells them it’s okay to be wrong. It invites participants in and encourages budding curiosity to bloom.
 
 {{< wrap class="interlude force-page-break" >}}
-{{< wrap class="center" >}}
 
 ## Visual Script References
 
@@ -376,10 +354,7 @@ The actual hard work comes in two parts. First, it requires a human hand to crea
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-
 {{</ wrap >}}
-{{</ wrap >}}
-
 
 ## Research Development and Volunteer Advocacy
 
@@ -393,7 +368,6 @@ Whether we’re discussing workflows, networks of communication, data pipelines,
 
 
 {{< wrap class="interlude" >}}
-{{< wrap class="center" >}}
 
 ### 09. Multiple Visual Script References
 
@@ -442,7 +416,6 @@ While it’s now trivial to add new scripts from a code perspective, please reme
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-{{</ wrap >}}
 {{</ wrap >}}
 
 In the case of *Scribes*, creating the Sorting workflow was not part of the original project goals. Including the workflow meant that there would be another large set of project results, in addition to the transcription data being generated, that the Penn team would need to manage. It also meant that our team would have to consider how best to move data from the Sorting workflow into the appropriate Transcription workflows based on how the data was classified. Yes, this choice has resulted in more work for all of us, but it is also by far the most popular workflow on the project, with more than 325,000 classifications generated since *Scribes* launched in August 2017.

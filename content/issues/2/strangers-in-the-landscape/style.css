@@ -1,60 +1,12 @@
-/* custom interlude code */
+/* customize the interlude styles for the keyboards */
 
 .interlude {
-    /* page-break-inside: avoid; */
-    position: relative;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    /* disable avoid page break for this piece only, since it makes PDF layout problematic */
+    page-break-inside: auto;
 }
 
-.interlude::before {
-    content: '';
-    position: absolute;
-    width: 100vw;
-    top: 0;
-    left: -10px;
-    height: 100%;
-    background: #4C2A85;
-}
-
-.interlude h2, .interlude h3 { width:  100%; }
-
-.interlude .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
-    color: #E0CEFF;
-    font-weight: 300;
-    font-size: 16px;
-    font-family: 'IBM Plex Serif', 'Palatino', serif;
-    min-height: 150px;
-}
-
-@media print {
-    .interlude .center {
-        font-size: 12px;
-        padding-top: 0;
-    }
-}
-
-.interlude .center {
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
-.interlude .center > p {
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 10px;
-    line-height: 20px;
-    z-index: 1;
-    /* make full-width and left-aligned to ensure paragraphs
-       broken across page breaks in PDF look correct */
-    width: 100%;
-    text-align: left;
+.interlude figure {
+    max-width: 32rem;
 }
 
 /* NOTE: disabling to improve PDF rendering
@@ -62,24 +14,7 @@
      margin-bottom: 0;
 }*/
 
-.interlude strong {
-    font-weight: 700;
-    clear: both;
-}
-
-@media (min-width: 768px) {
-    .interlude::before { left: calc((100vw - 10px) / 10 * -1 - 10px) }
-    .interlude .center { max-width: 550px; }
-}
-
-@media (min-width: 1024px) {
-    .interlude::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
-}
-
 @media print {
-    .interlude::before { background: none; }
-    .interlude .center { color: #4C2A85; }
-
     body.article iframe {
         width: 95%;
         margin-bottom: 0;

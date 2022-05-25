@@ -35,10 +35,6 @@ article .sketchfab-embed-wrapper {
     min-height: 150px;
 }
 
-.interlude .left {
-    padding-top: 35px;
-}
-
 .interlude .left::before,
 .interlude .right::before {
     position: absolute;
