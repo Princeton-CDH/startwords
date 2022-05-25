@@ -22,7 +22,7 @@ $preview-height-xl: rem(250px);  // 1024px-
     width: 48%;  /* leave some space between columns */
     font-size: rem(16px);
     font-family: $font-sans;
-    position: relative;
+    // position: relative;   /* remove so bg-text can be positioned absolutely outside the summary */
     z-index: 1;
 
     @media (min-width: $breakpoint-m) { font-size: rem(18px); }
@@ -92,16 +92,28 @@ $preview-height-xl: rem(250px);  // 1024px-
     // background text
     .bg-text {
         position: absolute;
-        left: 0;
-        top: 0;
-        /*width: 48vw; */
+        left: 0;  // attach to left of viewport; keep fixed with text vertically
         width: 100%;
-        color: rgba(224, 206, 255, 0.05);
-        // top: rem(-50px);
-        // font-size: rem(20px);
+        color: $light-purple;
+        opacity: 0.1;
         pointer-events: none;
-        // @media (min-width: $breakpoint-s) { font-size: rem(30px); }
-        transform: translate(-175px, 0) scale(1.5);
+
+        // use scale for sizing to ensure text shape matches visible summary
+        // scale relative to initial font size of 1rem (18px)
+
+        // on mobile, position 21px above corresponding summary text
+        // desired font size is 19px; original mobile font size is 16, so 1.18
+        transform: translate(0, -21px) scale(1.18);
+        // set transform origin relative to left so that scaling will not move off-screen
+        transform-origin: left top;
+
+        // shift to desktop styles at the breakpoint where summaries are not attached to viewport edge
+        @media (min-width: $breakpoint-s) {
+            // position 108px above corresponding summary text
+            // desired font size is 32px = 1.8x
+            transform: translate(0, -108px) scale(1.8);
+        }
+
     }
 
     // for debugging
@@ -120,7 +132,7 @@ $preview-height-xl: rem(250px);  // 1024px-
     }*/
 
     // scale the polygon shape based on screen width
-    p span {
+    p span, .bg-text span {
         --h: 1;
 
         @media (min-width: $breakpoint-s) { --h: 1.2; }
@@ -136,7 +148,6 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         .bg-text {
             text-align: left;
-            right: 0;
         }
 
 
@@ -155,10 +166,7 @@ $preview-height-xl: rem(250px);  // 1024px-
             }
 
         }
-        /*.bg-text::before {
-            float: right;
-            shape-outside: $triangle-left;
-        }*/
+
     }
 
     // right summaries
@@ -167,10 +175,6 @@ $preview-height-xl: rem(250px);  // 1024px-
         text-align: right;
         margin-top: rem(40px);
 
-        .bg-text {
-            left: 0;
-        }
-
         p { margin-left: auto; }
 
         .shaper {
@@ -178,21 +182,19 @@ $preview-height-xl: rem(250px);  // 1024px-
             /* turn on clip-path to view the shape for debugging
             clip-path: $curve-right;
             background-color: white;
-            opacity: 0.1;*/
+            opacity: 0.1; */
 
             shape-outside: $curve-right;
             @media (min-width: $breakpoint-s) {
                shape-outside: $curve-right-desktop;
                clip-path: $curve-right-desktop;
-
             }
         }
 
-
         .bg-text {
-            right: 0;
+            right: 0;  // attach to right side of screen instead of left
             left: auto;
-            transform: translate(175px, 0) scale(1.5);;
+            transform-origin: right top;  // scale relative to right side
         }
     }
 
@@ -201,17 +203,8 @@ $preview-height-xl: rem(250px);  // 1024px-
     &:nth-of-type(2):nth-last-of-type(2) {
         padding-top: 12em;
 
-        // adjust background text so it is aligned with main text
-        .bg-text {
-            top: 12em;
-        }
-
         @media (min-width: $breakpoint-s) {
             padding-top: 10em;
-
-            .bg-text {
-                top: 10em;
-            }
         }
     }
 
