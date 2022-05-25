@@ -1,7 +1,7 @@
-{{/* Shortcode for markdown tables with included HTML caption */}}
+{{/* Shortcode to wrap markdown tables with an HTML caption */}}
 {{ $htmlTable := .Inner | markdownify }}
-{{ $caption := .Get 0 }}
-{{ $old := "<table>" }}
-{{ $new := printf "<table> <caption>%s</caption>" $caption }}
-{{ $htmlTable := replace $htmlTable $old $new }}
+{{ $caption := .Get "caption" }}
+{{ $tableClass := cond (ne (.Get "class") "") (printf " class=\"%s\" " (.Get "class")) "" }}
+{{ $new := printf "<table%s> <caption>%s</caption>" $tableClass $caption }}
+{{ $htmlTable := replace $htmlTable "<table>" $new }}
 {{ $htmlTable | safeHTML }}
