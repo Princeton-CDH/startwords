@@ -29,7 +29,24 @@ body > footer {
         clip-path: polygon(calc(100vw - 60px) 0, 100% 27%, 100% 100%, 0 100%);
     }
 
-    nav { position: relative; }
+    nav {
+        position: absolute;
+        bottom: rem(10px);
+        right: rem(8px);
+
+        @media (min-width: $breakpoint-s) {
+            right: rem(30px);
+            bottom: rem(15px);
+        }
+
+        ul {
+            padding: 0;
+        }
+        li {
+            text-align: left;
+            padding-top: rem(8px);
+        }
+    }
 
     &.inverted {  @include inverted-footer; }
 
@@ -55,12 +72,14 @@ body > footer {
 
     .icons {
         position: absolute;
-        right: rem(45px);
+        right: rem(93px);
         bottom: rem(10px);
+        min-width: 136px;  /* don't let the icons div wrap */
 
-        @media (min-width: $breakpoint-s) { bottom: rem(15px); }
-        @media (min-width: $breakpoint-m) { bottom: rem(10px); }
-
+        @media (min-width: $breakpoint-s) {
+            right: rem(130px);
+            bottom: rem(15px);
+        }
 
         .logo {
             mask-size: contain;
