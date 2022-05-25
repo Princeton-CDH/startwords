@@ -32,8 +32,8 @@
         }
     }
 
-    /* make sure everything inside the interlude is positioned relatively */
-    & > * {
+    /* make sure content inside the interlude is positioned relatively */
+    > * {
         position: relative;
     }
 

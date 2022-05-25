@@ -30,9 +30,14 @@ article .sketchfab-embed-wrapper {
 .interlude .left,
 .interlude .right {
     display: block;
+    position: initial;
     z-index: 1;
     max-width: 55%;
     min-height: 150px;
+}
+
+.interlude .left > *, .interlude .right * {
+    position: relative;
 }
 
 .interlude .left::before,
