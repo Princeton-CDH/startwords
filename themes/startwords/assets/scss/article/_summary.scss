@@ -49,16 +49,6 @@ $preview-height-xl: rem(250px);  // 1024px-
         display: block;
     }
 
-    /*
-    .bg-text,
-    .bg-text::before {
-        height: calc(#{$preview-height-xs} * 1.5);
-        @media (min-width: 375px) { height: calc(#{$preview-height-s} * 1.5); }
-        @media (min-width: 414px) { height: calc(#{$preview-height-m} * 1.5); }
-        @media (min-width: $breakpoint-s) { height: calc(#{$preview-height-l} * 1.5); }
-        @media (min-width: $breakpoint-m) { height: calc(#{$preview-height-xl} * 1.5); }
-    }*/
-
     h2 {
         font-family: $font-sans;
         font-weight: bold;
@@ -120,13 +110,13 @@ $preview-height-xl: rem(250px);  // 1024px-
         opacity: 3%;
         // on mobile, position 49px above corresponding summary text
         // desired font size is 32px; original mobile font size is 16, so 2x
-        transform: translate(0, -49px) scale(2);
+        transform: translate(-14px, -49px) scale(2);
 
         // shift to desktop styles at the breakpoint where summaries are not attached to viewport edge
         @media (min-width: $breakpoint-s) {
             // position 170px above corresponding summary text
             // shift left (text begins off screen)
-            // desired font size is 54px, relative to 18x base font size is 3x
+            // desired font size is 54px, relative to 16x base font size is 3x
             transform: translate(-28px, -170px) scale(3);
         }
     }
