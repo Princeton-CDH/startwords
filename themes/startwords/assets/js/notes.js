@@ -222,7 +222,6 @@ class ContextualNotes {
 
 document.addEventListener('DOMContentLoaded', function() {
     // initialize contextual notes and make available on window
-    console.debug('context notes initialized')
     window.contextnotes = new ContextualNotes();
 });
 
