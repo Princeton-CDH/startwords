@@ -22,9 +22,13 @@ But when "Stochastic Parrots" was released, and when Dr. Gebru and Dr. Mitchell 
 
 I will admit that I do not yet have a definitive answer to this question. But as a way of working through my current thinking, I will offer three unequivocal assertions:
 
+{{<wrap class="interlude">}}
+
 1. **There is no outside of unequal power.**
 2. **All technologies are imbricated in this unequal power.**
 3. **Refusal is, in itself, a generative act.**
+
+{{</wrap>}}
 
 In what follows, I elaborate each of these points.
 
@@ -44,6 +48,7 @@ In terms of text analysis tools more specifically, I've followed with interest [
 
 "Stochastic Parrots" participates in this reimagining by describing an alternative approach to technical research, one in which issues of cost, access, potential harms, and potential benefits, are addressed early in the research process. This slower and more intentional process also allows for input from---and, ideally, meaningful collaboration with---impacted communities. This process echoes some of what Catherine and I have written about in terms of a model of [data science for good vs. data science for co-liberation](https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/3#nobxi408tlj): what it would look like to imagine a way of doing data science in which those from both dominant and minoritized groups work together to free themselves from the oppressive systems that harm all of us. But the example at the center of "Stochastic Parrots" complicates this vision in necessary ways, because LLMs may well function as a limit case---not only for the AI/ML researchers who would otherwise work to improve them, but also for scholars of literature and culture, myself included, who would make use of them in their own quantitative work.
 
+{{<wrap class="interlude">}}
 {{<table "Above: Features of ‘data for good’ versus data for co-liberation, from Catherine D’Ignazio and Lauren F. Klein, Data Feminism (MIT Press, 2020), p. 140.">}}
 |                                                                                                               | "Data for good" | Data for co-liberation |
 |:------------------------------------------------------------------------------------------------------------- |:---------------:|:----------------------:|
@@ -55,6 +60,7 @@ In terms of text analysis tools more specifically, I've followed with interest [
 | Data education and knowledge transfer are part of the project design                                          |                 |           ✓            |
 | Building social infrastructure—community solidarity and shared understanding—is part of the project design    |                 |           ✓            |
 {{</table>}}
+{{</wrap>}}
 
 Quantitative literary and cultural studies scholars must strongly contend with these same ethical, environmental, and economic concerns. But they must also contend with an additional set of concerns---part methodological and part epistemological---that pertain to humanistic inquiry in particular. For example, even as there begin to exist [LLMs that are trained on historical corpora](https://macberth.netlify.app/), the amount of data that is required results in training datasets with timespans---1450 to 1950, in the case of MacBERTh---that far exceed any disciplinary sense of periodization. How can we reconcile the historical specificity that we so value in our own research with the fact that even the most appropriate LLM for historical scholarship may be trained on data so temporally distant from the time period that bounds our own scholarly expertise? Furthermore, even as we know to fine-tune such a model on our own more curated datasets, how are we to measure the effects of that fine-tuning in ways that are meaningful to us as humanities scholars? When parameters no longer correspond to specific textual or linguistic features, as with earlier model architectures, we will require even more creative ways to understand the significance of the texts contained in our curated datasets in relation to those on which the larger model was trained.
 
