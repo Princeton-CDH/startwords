@@ -95,14 +95,14 @@ $preview-height-xl: rem(250px);  // 1024px-
         left: 0;  // attach to left of viewport; keep fixed with text vertically
         width: 100%;
         color: $light-purple;
-        opacity: 0.1;
+        opacity: 10%;
         pointer-events: none;
 
         // use scale for sizing to ensure text shape matches visible summary
         // scale relative to initial font size of 1rem (18px)
 
         // on mobile, position 21px above corresponding summary text
-        // desired font size is 19px; original mobile font size is 16, so 1.18
+        // desired font size is 19px; original mobile font size is 16, so 1.18x
         transform: translate(0, -21px) scale(1.18);
         // set transform origin relative to left so that scaling will not move off-screen
         transform-origin: left top;
@@ -110,26 +110,26 @@ $preview-height-xl: rem(250px);  // 1024px-
         // shift to desktop styles at the breakpoint where summaries are not attached to viewport edge
         @media (min-width: $breakpoint-s) {
             // position 108px above corresponding summary text
-            // desired font size is 32px = 1.8x
+            // desired font size is 32px, relative to 18x base font size is 1.8x
             transform: translate(0, -108px) scale(1.8);
         }
-
     }
 
-    // for debugging
-    /*p {
-        opacity: 0.5;
-    }
-    .bg-text {
-        color: gray !important;
-    }*/
+    // secondary shadow is even larger and more transparent
+    .bg-text.secondary {
+        opacity: 3%;
+        // on mobile, position 49px above corresponding summary text
+        // desired font size is 32px; original mobile font size is 16, so 2x
+        transform: translate(0, -49px) scale(2);
 
-    // text-shaping elements
-    /*
-    .bg-text::before {
-        content: '';
-        width: 100%;
-    }*/
+        // shift to desktop styles at the breakpoint where summaries are not attached to viewport edge
+        @media (min-width: $breakpoint-s) {
+            // position 170px above corresponding summary text
+            // shift left (text begins off screen)
+            // desired font size is 54px, relative to 18x base font size is 3x
+            transform: translate(-28px, -170px) scale(3);
+        }
+    }
 
     // scale the polygon shape based on screen width
     p span, .bg-text span {
