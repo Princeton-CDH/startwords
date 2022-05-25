@@ -212,12 +212,17 @@ $preview-height-xl: rem(250px);  // 1024px-
     &:nth-of-type(1):nth-last-of-type(3) {
         margin-top: rem(62px);
     }
-    /* add spacing to any summary that comes after th first in a column */
+    /* add spacing to any summary that comes after the first in a column */
     &:nth-child(n+3) {
         margin-top: rem(96px);
         @media (min-width: $breakpoint-s) {
             margin-top: rem(124px);
         }
+    }
+
+    // adjust spacing for last summary when there are three
+    &:nth-of-type(3):nth-last-of-type(1) {
+        margin-bottom: rem(62px);
     }
 
     // inverted portions use light purple instead of white
