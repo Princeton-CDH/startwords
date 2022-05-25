@@ -7,6 +7,9 @@
 
 .interlude figure {
     max-width: 32rem;
+    /* ensure images are centered within the interlude */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* NOTE: disabling to improve PDF rendering
