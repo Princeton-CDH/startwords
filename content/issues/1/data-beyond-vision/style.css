@@ -15,7 +15,7 @@ article::before {
     pointer-events: none;
 }
 
-article #interlude,
+article .interlude,
 article figure,
 article .deepzoom,
 article .sketchfab-embed-wrapper {
@@ -25,49 +25,30 @@ article .sketchfab-embed-wrapper {
 
 @media print { article::before { background: none; } }
 
-/* purple "interlude" section with eye/hand graphics */
+/* customize purple "interlude" section for left/right blocks and eye/hand graphics */
 
-#interlude {
-    page-break-inside: avoid;
-    position: relative;
-    margin: 0 auto;
-}
-
-#interlude::before {
-    content: '';
-    position: absolute;
-    width: 100vw;
-    top: 0;
-    left: -10px;
-    height: 100%;
-    background: #4C2A85;
-}
-
-#interlude .left,
-#interlude .right {
+.interlude .left,
+.interlude .right {
     display: block;
+    position: initial;
     z-index: 1;
-    color: #E0CEFF;
-    font-weight: 300;
-    font-size: 16px;
-    font-family: 'IBM Plex Serif', 'Palatino', serif;
     max-width: 55%;
     min-height: 150px;
 }
 
-#interlude .left {
-    padding-top: 35px;
+.interlude .left > *, .interlude .right * {
+    position: relative;
 }
 
-#interlude .left::before,
-#interlude .right::before {
+.interlude .left::before,
+.interlude .right::before {
     position: absolute;
     background-size: contain;
     content: '';
     background-repeat: no-repeat;
 }
 
-#interlude .left::before {
+.interlude .left::before {
     background-image: url("/issues/1/data-beyond-vision/images/eyeball.svg");
     width: 174px;
     height: 90px;
@@ -75,13 +56,13 @@ article .sketchfab-embed-wrapper {
     top: 60px;
 }
 
-#interlude .right {
+.interlude .right {
     text-align: right;
     margin-left: auto;
     padding-bottom: 35px;
 }
 
-#interlude .right::before {
+.interlude .right::before {
     background-image: url("/issues/1/data-beyond-vision/images/hand.svg");
     opacity: 0.7;
     width: 230px;
@@ -90,40 +71,25 @@ article .sketchfab-embed-wrapper {
     bottom: 60px;
 }
 
-#interlude p {
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 10px;
-    line-height: 20px;
-    z-index: 1;
-}
-
-#interlude p:first-child {
+.interlude p:first-child {
     margin-bottom: 0;
 }
 
-#interlude strong {
-    font-weight: 700;
-    clear: both;
-}
-
 @media (min-width: 768px) {
-    #interlude::before { left: calc((100vw - 10px) / 10 * -1 - 10px) }
-    #interlude .left, #interlude .right { max-width: 200px; }
-    #interlude .left { margin-left: 20%; }
-    #interlude .right { margin-left: 50%; }
-    #interlude .left::before { right: -18%; }
-    #interlude .right::before { left: -15%; }
+    .interlude .left, .interlude .right { max-width: 200px; }
+    .interlude .left { margin-left: 20%; }
+    .interlude .right { margin-left: 50%; }
+    .interlude .left::before { right: -18%; }
+    .interlude .right::before { left: -15%; }
 }
 
 @media (min-width: 1024px) {
-    #interlude::before { left: calc((100vw - 10px) / 10 * -2 - 10px) }
-    #interlude .left::before {
+    .interlude .left::before {
         width: 238px;
         height: 123px;
         right: -40%;
     }
-    #interlude .right::before {
+    .interlude .right::before {
         width: 354px;
         height: 128px;
         left: -35%;
@@ -131,15 +97,8 @@ article .sketchfab-embed-wrapper {
 }
 
 @media print {
-    #interlude::before { background: none; }
-    #interlude .left, #interlude .right { color: #4C2A85; }
-    #interlude .left::before { right: -21px; }
-    #interlude .right::before { left: 0; }
-
-    h2 {
-        page-break-before: always;
-        width: 2.1in;
-    }
+    .interlude .left::before { right: -21px; }
+    .interlude .right::before { left: 0; }
 
 }
 
