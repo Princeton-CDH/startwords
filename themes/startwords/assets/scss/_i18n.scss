@@ -77,6 +77,7 @@ aside.translations {
             /* adjust height and spacing to simulate key/toggle depressed */
             margin-top: 4px;
             height: calc(var(--button-height) - 4px);
+            line-height: calc(var(--button-height) - 4px);
             transform: translate(0, 4px);
             font-weight: 600;
             // background-image: url("/img/icons/lang-toggle-selected.svg");
