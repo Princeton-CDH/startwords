@@ -1,0 +1,112 @@
+/* author list page */
+
+body.authors {
+    /* indent intro text */
+    .text-container > p {
+        padding: 0px 50px;
+    }
+
+    .author-list > div {
+        position: relative;
+        margin-top: rem(40px);
+        @media (min-width: $breakpoint-s) {
+            margin-top: rem(50px);
+        }
+
+        h2 {
+            margin-bottom: rem(4px);
+            font-size: rem(20px);
+            @media (min-width: $breakpoint-s) {
+                margin-top: rem(27px);
+            }
+        }
+        .title {
+            margin: 0;
+            font-size: rem(20px);
+        }
+        .orcid {
+            margin-left: 0.3rem;
+            transform: scale(0.85); /* scale slightly for mobile*/
+
+            @media (min-width: $breakpoint-s) {
+                margin-left: 0.5rem;
+                transform: scale(1.0); /* full size */
+            }
+        }
+
+        a.website, a:visited.website {
+            color: $dark-grey;
+            margin-left: 0.3rem;
+        }
+
+        .article {
+            font-size: rem(16px);
+            @media (min-width: $breakpoint-s) {
+                font-size: 1rem; /* 18px */
+            }
+            .issue {
+                font-weight: 300;
+                margin-top: rem(16px);
+                margin-bottom: rem(8px);
+
+                a {
+                    text-decoration: none;
+                    color: $dark-grey;
+                }
+                .theme {
+                    font-weight: 900;
+                    // font-size: rem(20px);
+                    color: $purple;
+                    text-transform: uppercase;
+                }
+            }
+            /* link to article */
+            & > a {
+                display: block;
+                font-weight: 400;
+                margin-bottom: rem(12px);
+            }
+        }
+
+        .coauthors, .translators {
+            font-style: italic;
+            font-weight: 400;
+            line-height: rem(24px);
+            display: inline-block;
+            a, address {
+                display: inline;
+                text-decoration: none;
+                color: $dark-grey;
+            }
+        }
+        /* when an item has both co-authors and translators, separate */
+        .coauthors + .translators:not(:empty)::before {
+            content: "; "
+        }
+
+        .translators:empty {
+            display: none;
+        }
+
+        /* highlight linked author */
+        /* disable
+        &:target::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            width: 10px;
+            height: 100%;
+            left: 0;
+            border-left: 2px solid $light-purple;
+        }
+        */
+    }
+
+    .languages {
+        margin-bottom: rem(8px);
+        span {
+            border: 1px solid $dark-purple;
+        }
+    }
+
+}

@@ -43,6 +43,9 @@ article {
     }
 
     .doi::before { content: 'doi:'; }
+    .doi-lang {
+        font-size: rem(14px);
+    }
 
 
     // headings

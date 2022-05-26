@@ -1,0 +1,26 @@
+{{/* display author(s) for issue introduction */}}
+{{/* get introduction authors from current page OR default language issue */}}
+{{ $authors := newScratch }}
+{{ if .Params.authors }}
+    {{ $authors.Set "authors" .Params.authors }}
+{{ else }}
+    {{/* If authors are not set, get default language version of this page.
+        Since defaultContentLanguage is not accessible; get first language by priority */}}
+    {{ $defaultLang := index .Site.Languages 0 }}
+    {{ with index (where .Translations ".Lang" $defaultLang.Lang) 0 }}
+        {{ $authors.Set "authors" .Params.authors }}
+    {{ end }}
+{{ end }}
+{{ $authors := $authors.Get "authors" }}
+
+{{- $author_count := (len $authors) -}}
+<div class="authors">— 
+{{ range $index, $author := $authors }}
+    {{- if $index -}} {{/* add delimiters when after first author */}}
+    {{- if eq (add $index 1) $author_count -}} {{ i18n "and" }} {{ else }}, {{ end -}}
+    {{- end -}}
+    {{ $info := index $.Site.Data.authors $author }} {{/* get author info */}}
+    {{/* display name from param as fallback if there is no entry in the authors data file */}}
+    {{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}
+{{ end }}
+</div>

@@ -3,10 +3,10 @@ type: article
 title: Data Beyond Vision
 order: 1
 authors:
-  - Rebecca Sutton Koeser
-  - Gissoo Doroudian
-  - Nick Budak
-  - Xinyi Li
+  - koeserrebecca
+  - doroudiangissoo
+  - budaknick
+  - lixinyi
 date: 2020-10-01
 doi: 10.5281/zenodo.3713670
 pdf: https://zenodo.org/record/4139781/files/startwords-1-data-beyond-vision.pdf

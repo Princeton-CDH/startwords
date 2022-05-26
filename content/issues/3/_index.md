@@ -8,6 +8,9 @@ date: 2022-03-01 #TODO: Replace with final publication date
 slug: 3
 num_features: 3
 summary: "By the time Emily Bender, Timnit Gebru, Angelina McMillan-Major and Margaret Mitchell’s paper “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” was published in March 2021, it had already been shaking up the AI world for some time."
+authors:
+    - tasovactoma
+    - ermolaevnatalia
 contributors:
     - Editor:
       - Grant Wythoff
@@ -17,7 +20,7 @@ contributors:
       - Gissoo Doroudian
     - Manuscript Editing:
       - Camey VanSant
-    - Translator: 
+    - Translator:
       - David Andrés Rivera Mosquera
 ---
 
@@ -33,11 +36,8 @@ While most of us nodded vigorously while reading the Parrots paper, we also knew
 
 We wanted to bring varied perspectives together to discuss "On the Dangers of Stochastic Parrots" and consider how the humanistic view may help forge the path toward mitigating the risks posed by emerging technologies such as LLMs. We invited three leading digital humanists --- Gimena del Rio Riande, Lauren Klein, and Ted Underwood --- to share their thoughts, and asked two of the article co-authors --- McMillan-Major and Mitchell --- to respond during [a live-streamed Zoom roundtable](https://cdh.princeton.edu/updates/join-us-for-a-roundtable-on-machine-predictions-and-synthetic-text/) in late October 2021.
 
-The three humanists’ position papers comprise this issue of *Startwords*. In "Mapping the Latent Spaces of Culture," Underwood acknowledges the serious risks posed by LLMs, but also asks us to take a broad view of how language functions, how models produce meaning, and how disruptive technologies have also always played a generative role in transforming cultural practices. 
+The three humanists’ position papers comprise this issue of *Startwords*. In "Mapping the Latent Spaces of Culture," Underwood acknowledges the serious risks posed by LLMs, but also asks us to take a broad view of how language functions, how models produce meaning, and how disruptive technologies have also always played a generative role in transforming cultural practices.
 
-Del Rio Riande's piece, "On Spanish-Speaking Parrots," examines the role of language by foregrounding another vexed problem in NLP, which is its lack of linguistic diversity. She discusses the BERTIN project, which not only produced a monolingual LLM for Spanish, but as a collaborative and community-driven effort, exemplified a more ethical alternative to the technopositivist and resource-intensive models that concern the Parrots authors. (The "small batch" approach to creating annotated data and training models for new languages has also been the approach taken by the CDH in our NEH-funded [New Languages for NLP: Building Linguistic Diversity in the Digital Humanities Institute](https://newnlp.princeton.edu/), a collaborative project with DARIAH-EU.) 
+Del Rio Riande's piece, "On Spanish-Speaking Parrots," examines the role of language by foregrounding another vexed problem in NLP, which is its lack of linguistic diversity. She discusses the BERTIN project, which not only produced a monolingual LLM for Spanish, but as a collaborative and community-driven effort, exemplified a more ethical alternative to the technopositivist and resource-intensive models that concern the Parrots authors. (The "small batch" approach to creating annotated data and training models for new languages has also been the approach taken by the CDH in our NEH-funded [New Languages for NLP: Building Linguistic Diversity in the Digital Humanities Institute](https://newnlp.princeton.edu/), a collaborative project with DARIAH-EU.)
 
 Finally, in "Are Large Language Models Our Limit Case?," Klein asks provocatively whether all of us --- in industry, in academia, or in our personal lives --- who keep finding ourselves trying to work around these asymmetrical configurations of power and resources, should perhaps embrace radical refusal and work toward changing our systems instead.
-
-— Natalia Ermolaev & Toma Tasovac
-: Spanish translation by David Andrés Rivera Mosquera

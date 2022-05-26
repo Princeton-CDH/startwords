@@ -5,7 +5,7 @@ title: |
   Mapping the Latent Spaces of Culture
 order: 1
 authors:
-    - Ted Underwood
+    - underwoodted
 date: 2022-02-01
 doi: 10.5281/zenodo.6567481
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
@@ -69,7 +69,7 @@ Consider the surprising art scene that sprang up when CLIP was released. OpenAI 
 |
 | CAPTION: The angel of air. Unreal Engine.
 | ATTRIBUTION: VQGAN + CLIP, Aran Komatsukaki, May 31, 2021.
-| LINK: 
+| LINK:
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
@@ -82,7 +82,7 @@ Does the emergence of this subculture make any sense if we assume that CLIP is j
 |
 | CAPTION: The clockwork angel of air flying over a rocky coast, Kodak Portra film.
 | ATTRIBUTION: Ted Underwood, using Katherine Crowson's cc12m_1 diffusion model, December 28, 2021.
-| LINK: 
+| LINK:
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
