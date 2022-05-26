@@ -34,7 +34,7 @@
 
             dl dd:last-child::after {
                 content: url('/link-arrow-right.svg');
-                vertical-align: top;
+                vertical-align: bottom;
                 padding-left: rem(5px);
                 transition: padding 0.2s ease;
             }
