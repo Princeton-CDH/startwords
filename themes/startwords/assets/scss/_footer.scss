@@ -44,7 +44,11 @@ body > footer {
         }
         li {
             text-align: left;
-            padding-top: rem(8px);
+
+            a {
+                display: inline-block;
+                padding-top: rem(8px);
+            }
         }
     }
 
