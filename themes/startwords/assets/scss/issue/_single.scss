@@ -1,5 +1,13 @@
 /* single issue page styles */
 
+/* secondary shadow text runs off the page, which makes
+   the page horizontally scrollable on iOS; disable that here */
+html, body {
+    position: relative;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
 body.issue {
     // issue summary display similar to homepage
     .issue-summary {

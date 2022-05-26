@@ -22,7 +22,7 @@ $preview-height-xl: rem(250px);  // 1024px-
     width: 48%;  /* leave some space between columns */
     font-size: rem(16px);
     font-family: $font-sans;
-    position: relative;
+    // position: relative;   /* remove so bg-text can be positioned absolutely outside the summary */
     z-index: 1;
 
     @media (min-width: $breakpoint-m) { font-size: rem(18px); }
@@ -31,7 +31,7 @@ $preview-height-xl: rem(250px);  // 1024px-
         text-decoration: none;
     }
 
-    p {
+    p, .bg-text {
         margin: 0;
         line-height: rem(22px);
         max-width: rem(200px);
@@ -40,22 +40,13 @@ $preview-height-xl: rem(250px);  // 1024px-
         @media (min-width: $breakpoint-m) { font-size: rem(18px); }
     }
 
+
     // height must be set for shape-outside text flow;
     // spacer height is set in hugo template based on content length
-    p span {
+    .shaper {
         width: 60%;
         float: right;
         display: block;
-    }
-
-
-    .bg-text,
-    .bg-text::before {
-        height: calc(#{$preview-height-xs} * 1.5);
-        @media (min-width: 375px) { height: calc(#{$preview-height-s} * 1.5); }
-        @media (min-width: 414px) { height: calc(#{$preview-height-m} * 1.5); }
-        @media (min-width: $breakpoint-s) { height: calc(#{$preview-height-l} * 1.5); }
-        @media (min-width: $breakpoint-m) { height: calc(#{$preview-height-xl} * 1.5); }
     }
 
     h2 {
@@ -91,22 +82,47 @@ $preview-height-xl: rem(250px);  // 1024px-
     // background text
     .bg-text {
         position: absolute;
-        width: 48vw;
-        color: rgba(224, 206, 255, 0.05);
-        top: rem(-50px);
-        font-size: rem(20px);
+        left: 0;  // attach to left of viewport; keep fixed with text vertically
+        width: 100%;
+        color: $light-purple;
+        opacity: 10%;
         pointer-events: none;
-        @media (min-width: $breakpoint-s) { font-size: rem(30px); }
+
+        // use scale for sizing to ensure text shape matches visible summary
+        // scale relative to initial font size of 1rem (18px)
+
+        // on mobile, position 21px above corresponding summary text
+        // desired font size is 19px; original mobile font size is 16, so 1.18x
+        transform: translate(0, -21px) scale(1.18);
+        // set transform origin relative to left so that scaling will not move off-screen
+        transform-origin: left top;
+
+        // shift to desktop styles at the breakpoint where summaries are not attached to viewport edge
+        @media (min-width: $breakpoint-s) {
+            // position 108px above corresponding summary text
+            // desired font size is 32px, relative to 18x base font size is 1.8x
+            transform: translate(0, -108px) scale(1.8);
+        }
     }
 
-    // text-shaping elements
-    .bg-text::before {
-        content: '';
-        width: 100%;
+    // secondary shadow is even larger and more transparent
+    .bg-text.secondary {
+        opacity: 3%;
+        // on mobile, position 49px above corresponding summary text
+        // desired font size is 32px; original mobile font size is 16, so 2x
+        transform: translate(-14px, -49px) scale(2);
+
+        // shift to desktop styles at the breakpoint where summaries are not attached to viewport edge
+        @media (min-width: $breakpoint-s) {
+            // position 170px above corresponding summary text
+            // shift left (text begins off screen)
+            // desired font size is 54px, relative to 16x base font size is 3x
+            transform: translate(-28px, -170px) scale(3);
+        }
     }
 
     // scale the polygon shape based on screen width
-    p span {
+    p span, .bg-text span {
         --h: 1;
 
         @media (min-width: $breakpoint-s) { --h: 1.2; }
@@ -122,11 +138,10 @@ $preview-height-xl: rem(250px);  // 1024px-
 
         .bg-text {
             text-align: left;
-            right: 0;
         }
 
 
-        p span {
+        .shaper {
             float: right;
             shape-outside: $curve-left;
             /* turn on clip-path to view the shape for debugging
@@ -141,10 +156,7 @@ $preview-height-xl: rem(250px);  // 1024px-
             }
 
         }
-        .bg-text::before {
-            float: right;
-            shape-outside: $triangle-left;
-        }
+
     }
 
     // right summaries
@@ -153,29 +165,26 @@ $preview-height-xl: rem(250px);  // 1024px-
         text-align: right;
         margin-top: rem(40px);
 
-        .bg-text {
-            left: 0;
-        }
-
         p { margin-left: auto; }
 
-        p span {
+        .shaper {
             float: left;
             /* turn on clip-path to view the shape for debugging
             clip-path: $curve-right;
             background-color: white;
-            opacity: 0.1;*/
+            opacity: 0.1; */
 
             shape-outside: $curve-right;
             @media (min-width: $breakpoint-s) {
                shape-outside: $curve-right-desktop;
                clip-path: $curve-right-desktop;
-
             }
         }
-        .bg-text::before {
-            float: left;
-            shape-outside: $triangle-right;
+
+        .bg-text {
+            right: 0;  // attach to right side of screen instead of left
+            left: auto;
+            transform-origin: right top;  // scale relative to right side
         }
     }
 
@@ -183,6 +192,7 @@ $preview-height-xl: rem(250px);  // 1024px-
     //  (i.e., 2nd article summary is also the 2nd to last article summary).
     &:nth-of-type(2):nth-last-of-type(2) {
         padding-top: 12em;
+
         @media (min-width: $breakpoint-s) {
             padding-top: 10em;
         }
@@ -192,12 +202,17 @@ $preview-height-xl: rem(250px);  // 1024px-
     &:nth-of-type(1):nth-last-of-type(3) {
         margin-top: rem(62px);
     }
-    /* add spacing to any summary that comes after th first in a column */
+    /* add spacing to any summary that comes after the first in a column */
     &:nth-child(n+3) {
         margin-top: rem(96px);
         @media (min-width: $breakpoint-s) {
             margin-top: rem(124px);
         }
+    }
+
+    // adjust spacing for last summary when there are three
+    &:nth-of-type(3):nth-last-of-type(1) {
+        margin-bottom: rem(62px);
     }
 
     // inverted portions use light purple instead of white
