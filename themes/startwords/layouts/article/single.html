@@ -53,7 +53,14 @@
                 {{ partial "pubdate" . }}<br>
                 {{ partial "tags" . }}<br>
                 {{ if .Params.doi }}
-                <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
+                    {{ if .IsTranslated }}{{/* if translated, display all DOIs with language indicated */}}
+                    {{ range .AllTranslations }}
+                        <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a> <span class="doi-lang">({{ i18n .Language.LanguageName }})</span><br>
+                    {{ end }}
+                    {{ else }}
+                    <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
+                    {{ end }}
+
                 {{ end }}
                 <p class="formats">
                 {{ with  .OutputFormats.Get "txt" -}}

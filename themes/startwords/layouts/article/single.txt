@@ -13,11 +13,18 @@
 |
 |  Authors:
 |  {{ range .Params.Authors }}
-|     {{ . }}{{ end }}
+|     {{ . }}
+|  {{ end }}
 |
 |  {{ .Permalink }}
 |{{ if .Params.doi }}
+  {{- if .IsTranslated -}}{{/* if translated, display all DOIs with language indicated */}}
+|    {{ range .AllTranslations }}
+|  doi:{{ .Params.doi }} ({{ i18n .Language.LanguageName }})
+    {{- end -}}
+  {{ else }}
 |  doi:{{ .Params.doi }}{{ end }}
+|{{ end }}
 |{{ if .Params.tags }}
 |  {{ range .Params.tags }}#{{ . }}
 |{{ end }}{{ end }}
