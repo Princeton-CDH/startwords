@@ -45,7 +45,8 @@
         }
     }
 
-    p {
+    /* make sure selector is specific enough to override default article p styles */
+    body.article article & p {
         margin-top: 0;
         margin-bottom: 10px;
         line-height: 20px;
