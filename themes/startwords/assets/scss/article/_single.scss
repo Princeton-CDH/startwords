@@ -41,6 +41,18 @@ body.article {
                 li, address { display: inline; }
                 address::after { content: ', '; }
                 li:last-child address::after { content: ''; }
+
+                // make author links inline-blocks to improve
+                // tap target accessibility
+                a {
+                    display: inline-block;
+                    color: $dark-grey;
+                    width: 48px;
+                    margin-left: -30px;
+                    text-align: right;
+                    padding-right: rem(8px);
+                    font-size: rem(16px);  /* increase font size slightly for phosphor link */
+                }
             }
 
             .formats { font-weight: 400; margin-top: .5rem; }
@@ -107,7 +119,7 @@ body.article article, body.page article {
                 margin: 0;
             }
         }
-        
+
         // block quotes
         blockquote {
             margin-top: rem(30px);

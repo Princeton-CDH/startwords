@@ -4,8 +4,8 @@ slug: 'serendipity-in-the-cairo-geniza'
 title: Serendipity in the Cairo Geniza
 order: 4
 authors:
-    - Matthew Dudley
-    - Steffy Reader
+    - dudleymatthew
+    - readersteffy
 date: 2021-12-01
 doi: 10.5281/zenodo.5750695
 pdf: https://zenodo.org/record/5750695/files/startwords-2-serendipity-in-the-cairo-geniza.pdf

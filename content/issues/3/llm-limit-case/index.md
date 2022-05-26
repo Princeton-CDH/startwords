@@ -5,7 +5,7 @@ title: |
   Are Large Language Models our Limit Case?
 order: 3
 authors:
-    - Lauren Klein
+    - kleinlauren
 date: 2022-02-01
 doi: 10.5281/zenodo.5750691 #TODO: replace DOI
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF

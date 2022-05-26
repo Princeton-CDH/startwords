@@ -8,6 +8,9 @@ date: 2022-03-01 #TODO: Replace with final publication date
 slug: 3
 num_features: 3
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #TODO: Replace placeholder text
+authors:
+    - tasovactoma
+    - ermolaevnatalia
 contributors:
     - Guest Editor:
       - Toma Tasovac
@@ -34,5 +37,3 @@ Nec feugiat nisl pretium fusce id velit ut tortor. Urna et pharetra pharetra mas
 Id aliquet risus feugiat in. Bibendum arcu vitae elementum curabitur vitae nunc sed. Scelerisque viverra mauris in aliquam. Eget lorem dolor sed viverra ipsum nunc aliquet. Interdum consectetur libero id faucibus nisl tincidunt eget. Volutpat blandit aliquam etiam erat. Quis blandit turpis cursus in hac habitasse. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Sodales ut etiam sit amet nisl purus in mollis. Sociis natoque penatibus et magnis dis parturient montes. Egestas sed tempus urna et pharetra. Magna etiam tempor orci eu.
 
 Egestas congue quisque egestas diam. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat lacus laoreet non curabitur gravida arcu. Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. At urna condimentum mattis pellentesque id nibh. Facilisis leo vel fringilla est ullamcorper eget. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Duis ut diam quam nulla porttitor. Vitae purus faucibus ornare suspendisse sed nisi lacus. Augue ut lectus arcu bibendum at varius vel pharetra. Nunc id cursus metus aliquam. Consequat nisl vel pretium lectus quam id leo. Et odio pellentesque diam volutpat commodo. Nibh sit amet commodo nulla facilisi nullam. Posuere ac ut consequat semper. Nisl nunc mi ipsum faucibus vitae. Orci ac auctor augue mauris. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus.
-
-–Toma Tasovac

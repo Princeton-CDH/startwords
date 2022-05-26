@@ -5,8 +5,8 @@ title: |
   Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination
 order: 2
 authors:
-    - Victoria Anne Van Hyning
-    - Mason A. Jones
+    - vanhyningvictoriaanne
+    - jonesmasona
 date: 2021-12-01
 doi: 10.5281/zenodo.5750691
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf

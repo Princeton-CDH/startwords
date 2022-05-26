@@ -64,6 +64,8 @@ $preview-height-xl: rem(250px);  // 1024px-
 
     .authors {
         display: block;
+        // suppress author link on summary view
+        a { display: none; }
     }
 
     .authors, p { font-weight: 400; }
@@ -257,6 +259,9 @@ $preview-height-xl: rem(250px);  // 1024px-
         address { font-style: normal; }
         address::after { content: ', '; }
         li:last-child address::after { content: ''; }
+
+        // suppress author link on summary view
+        a { display: none; }
     }
 
 }
