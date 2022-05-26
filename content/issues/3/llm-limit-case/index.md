@@ -24,9 +24,13 @@ But when "Stochastic Parrots" was released, and when Dr. Gebru and Dr. Mitchell 
 
 I will admit that I do not yet have a definitive answer to this question. But as a way of working through my current thinking, I will offer three unequivocal assertions:
 
-1. **There is no outside of unequal power.**
-2. **All technologies are imbricated in this unequal power.**
-3. **Refusal is, in itself, a generative act.**
+{{<wrap class="interlude">}}
+
+1. There is no outside of unequal power.
+2. All technologies are imbricated in this unequal power.
+3. Refusal is, in itself, a generative act.
+
+{{</wrap>}}
 
 In what follows, I elaborate each of these points.
 
@@ -48,7 +52,8 @@ In terms of text analysis tools more specifically, I've followed with interest t
 
 "Stochastic Parrots" participates in this reimagining by describing an alternative approach to technical research, one in which issues of cost, access, potential harms, and potential benefits are addressed early in the research process. This slower and more intentional process also allows for input from --- and, ideally, meaningful collaboration with --- impacted communities. This process echoes some of what Catherine and I have described as data science for good vs. data science for co-liberation: the latter imagines a way of doing data science in which those from both dominant and minoritized groups work together to free themselves from the oppressive systems that harm all of us.[^24]
 
-{{<table "Above: Features of ‘data for good’ versus data for co-liberation, from Catherine D’Ignazio and Lauren F. Klein, Data Feminism (Cambridge: MIT Press, 2020), 140.">}}
+{{<wrap class="interlude">}}
+{{<table caption="Above: Features of ‘data for good’ versus data for co-liberation, from Catherine D’Ignazio and Lauren F. Klein, Data Feminism (MIT Press, 2020), p. 140.">}}
 |                                                                                                               | "Data for good" | Data for co-liberation |
 |:------------------------------------------------------------------------------------------------------------- |:---------------:|:----------------------:|
 | Leadership by members of minoritized groups working in community                                              |                 |           ✓            |
@@ -59,6 +64,7 @@ In terms of text analysis tools more specifically, I've followed with interest t
 | Data education and knowledge transfer are part of the project design                                          |                 |           ✓            |
 | Building social infrastructure—community solidarity and shared understanding—is part of the project design    |                 |           ✓            |
 {{</table>}}
+{{</wrap>}}
 
 But the discussion of LLMs at the center of "Stochastic Parrots" complicates this vision of data for co-liberation in necessary ways, because LLMs may well function as a limit case. This is for a number of reasons. For one, the computational resources required to train up larger and larger models may make it infrastructurally impossible to allow anyone from outside of these institutions --- let alone members of minoritized groups --- to assume primary leadership of these models' training or future development. The same holds for financial leadership, since LLMs are just as resource-intensive with respect to cost as they are to compute. It is difficult to see how any corporation --- which, by definition, is driven by its own bottom line --- would allow an outside group to independently manage a budget that reflected one of these models' true economic cost, even as that same corporation might bestow seemingly generous grants to outside groups for specific purposes.
 
