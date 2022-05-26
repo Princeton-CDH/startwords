@@ -68,13 +68,13 @@
     outline: none;
     outline-offset: 2px;
 
-    &:focus {
+    &:focus-visible {
         outline: 1px dashed $black;
     }
 }
 .highlight-focus { @include highlight-focus; }
 .inverted .highlight-focus {
-    &:focus {
+    &:focus-visible {
         outline-color: $off-white;
     }
 }
