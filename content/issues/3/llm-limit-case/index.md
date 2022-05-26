@@ -24,9 +24,9 @@ I will admit that I do not yet have a definitive answer to this question. But as
 
 {{<wrap class="interlude">}}
 
-1. **There is no outside of unequal power.**
-2. **All technologies are imbricated in this unequal power.**
-3. **Refusal is, in itself, a generative act.**
+1. There is no outside of unequal power.
+2. All technologies are imbricated in this unequal power.
+3. Refusal is, in itself, a generative act.
 
 {{</wrap>}}
 
