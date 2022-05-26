@@ -15,6 +15,11 @@ aside.translations {
     padding: 0;
     margin: 0;
 
+    /* don't display language toggles on print version */
+    @media print {
+        display: none;
+    }
+
     ul {
         margin: 0;
         padding: 0;
