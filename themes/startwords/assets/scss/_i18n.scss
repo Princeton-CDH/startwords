@@ -31,26 +31,72 @@ aside.translations {
         color: $dark-purple;
         font-family: $font-sans;
         font-size: 1.1rem;
-        background-image: url("/img/icons/lang-toggle-deselected.png");
-        background-size: 100% 100%;
+        // background-image: url("/img/icons/lang-toggle-deselected.svg");
+        box-sizing: border-box;
+        border-left: 2px inset $medium-purple;
+        border-right: 2px inset $medium-purple;
+        border-bottom: 3px inset $medium-purple;
+
+        background-size: fill;
+
+        /* use pseudo-elements for corners */
+        &::before, &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 6px solid $off-white;
+        }
+
+        /* top left corner */
+        &::before {
+            left: -2px;
+            border-right: 2.5px solid transparent;
+        }
+        &::after {
+            right: -2px;
+            border-left: 2.5px solid transparent;
+        }
 
         --button-height: 34px;
 
         width: 44px;
         height: var(--button-height);
 
-
         @media (min-width: $breakpoint-s) {
-            width: 49px;
-            --button-height: 36px;
+            width: calc(49px - 4px);
+            --button-height: calc(36px - 3px);
             font-size: 1.2rem;
         }
         /** selected */
         &.current {
             background-color: $medium-dark-purple;
+
+            /* adjust height and spacing to simulate key/toggle depressed */
+            margin-top: 4px;
+            height: calc(var(--button-height) - 4px);
+            transform: translate(0, 4px);
             font-weight: 600;
-            transform: none;
-            background-image: url("/img/icons/lang-toggle-selected.png");
+            // background-image: url("/img/icons/lang-toggle-selected.svg");
+            border-left: 0.4px inset $medium-purple;
+            border-right: 0.4px inset $medium-purple;
+            border-bottom: 0.5px inset $medium-purple;
+
+            /* top left corner */
+            &::before, &::after {
+                border-top: 2px solid $off-white;
+            }
+
+            &::before {
+                left: -1px;
+                border-right: 1px solid transparent;
+            }
+            &::after {
+                right: -0.5px;
+                border-left: 1px solid transparent;
+            }
         }
 
         a,
@@ -61,7 +107,6 @@ aside.translations {
             text-decoration: none;
             display: block;
         }
-
 
     }
 }
