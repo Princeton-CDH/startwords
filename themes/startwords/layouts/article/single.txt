@@ -11,7 +11,7 @@
 |
 |  {{ .Title }}
 |
-|  Authors:
+|  {{ i18n "Authors" }}:
 |  {{ range .Params.Authors }}
 |     {{ . }}
 |  {{ end }}
@@ -30,9 +30,9 @@
 |{{ end }}{{ end }}
 ⩩-----------------------------------------------------------------------------------⟩
 |
-|  Issue {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
+|  {{ i18n "issue" }} {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
 |  {{ .Parent.Permalink }}
-|  {{ .Parent.Date.Format "January 2006" }}
+|  {{ .Parent.Date | time.Format "January 2006" }}
 |
 ⩩-----------------------------------------------------------------------------------⟩
 {{- $rawContent := .RawContent -}}
