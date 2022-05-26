@@ -62,12 +62,12 @@ I agree with the authors of "Stochastic Parrots" that neural language models are
 
 Consider the surprising art scene that sprang up when CLIP was released. OpenAI still hasn't released the DALL-E model that uses the numbers CLIP assigns to text to find a corresponding point in a latent space of hypothetical images.[^11] But that didn't stop graduate students and interested amateurs from duct-taping CLIP to various generative image models and using the contraption to explore visual culture in dizzying ways.[^12]
 
-{{< figure src="images/AngelOfAirUnrealKomatsuzaki.png" alt="A computer generated picture of a candle. The automatically generated text description reads: a picture containing candle." caption="The angle of air. Unreal Engine." attr="VQGAN + CLIP, Aran Komatsukaki, May 31, 2021." attrlink="" >}}
+{{< figure src="images/AngelOfAirUnrealKomatsuzaki.png" alt="A computer generated picture of a candle. The automatically generated text description reads: a picture containing candle." caption="The angel of air. Unreal Engine." attr="VQGAN + CLIP, Aran Komatsukaki, May 31, 2021." attrlink="" >}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE.  A computer generated picture of a candle. The automatically generated text description reads: a picture containing candle.
 |
-| CAPTION: The angle of air. Unreal Engine.
+| CAPTION: The angel of air. Unreal Engine.
 | ATTRIBUTION: VQGAN + CLIP, Aran Komatsukaki, May 31, 2021.
 | LINK: 
 #-----------------------------------------------------------------------------------
@@ -75,12 +75,12 @@ Consider the surprising art scene that sprang up when CLIP was released. OpenAI 
 
 Does the emergence of this subculture make any sense if we assume that CLIP is just a failed attempt to reproduce individual language use? In practice, the people tinkering with CLIP don't expect it to respond like a human reader. More to the point, they don't want it to. They're fascinated because CLIP uses language *differently* than a human individual would --- mashing together the senses and overtones of words and refracting them into the potential space of internet images like a new kind of synesthesia.[^13] The pictures produced are fascinating, but (at least for now) too glitchy to impress most people as art. They're better understood as postcards from an unmapped latent space.[^14] The point of a postcard, after all, is not to be itself impressive, but to evoke features of a larger region that looks fun to explore. Here the "region" is a particular visual culture; artists use CLIP to find combinations of themes and styles that could have occurred within it (although they never quite did).
 
-{{< figure src="images/UnderwoodClockworkangelrockycoast.png" alt="A picture containing text, water, ocean, shore. Description automatically generated." caption="The clockwork angle of air flying over a rocky coast, Kodak Portra film." attr="Ted Underwood, using Katherine Crowson's cc12m_1 diffusion model, December 28, 2021." attrlink="" >}}
+{{< figure src="images/UnderwoodClockworkangelrockycoast.png" alt="A picture containing text, water, ocean, shore. Description automatically generated." caption="The clockwork angel of air flying over a rocky coast, Kodak Portra film." attr="Ted Underwood, using Katherine Crowson's cc12m_1 diffusion model, December 28, 2021." attrlink="" >}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE.  A picture containing text, water, ocean, shore. Description automatically generated.
 |
-| CAPTION: The clockwork angle of air flying over a rocky coast, Kodak Portra film.
+| CAPTION: The clockwork angel of air flying over a rocky coast, Kodak Portra film.
 | ATTRIBUTION: Ted Underwood, using Katherine Crowson's cc12m_1 diffusion model, December 28, 2021.
 | LINK: 
 #-----------------------------------------------------------------------------------
