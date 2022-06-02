@@ -11,6 +11,7 @@ doi: 10.5281/zenodo.6567850
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
 images: ["issues/3/on-spanish-parrots/images/on-spanish-parrots-social.png"]
 summary: Spanish is the second most widely spoken language in the world as a mother tongue. Official reports, survey-based studies, and Wikipedia confirm it. And Google can predict it.
+hook_height_override: 180
 ---
 
 ## 1. A Parrot Called MarIA
