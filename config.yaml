@@ -37,6 +37,10 @@ menu:
     - name: About
       url: about/
       weight: 20
+    - name: Authors
+      url: authors/
+      weight: 30
+
 
 Author:
   name: Center for Digital Humanities at Princeton
@@ -79,6 +83,10 @@ languages:
         - name: Acerca de
           url: /es/acerca-de/
           weight: 20
+        - name: Authors
+          url: authors/
+          weight: 30
+
 
 markup:
   goldmark:
