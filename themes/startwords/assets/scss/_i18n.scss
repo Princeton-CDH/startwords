@@ -134,3 +134,25 @@ aside.translations {
 .snippets .languages {
     margin-top: rem(5px);
 }
+
+/* adjust translation toggles on about page */
+.about {
+
+//    @media (min-width: $breakpoint-m) {
+       header {
+           position: relative
+       }
+    // }
+
+    .translations {
+        right: -45px;
+        margin-top: rem(65px);
+        // right: 5px;
+        // top: 5px;
+
+        @media (min-width: $breakpoint-m) {
+            margin-top: rem(25px);
+            right: -150px;
+        }
+    }
+}
