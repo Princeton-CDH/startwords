@@ -37,7 +37,11 @@ aside.translations {
         font-family: $font-sans;
         font-size: 1.1rem; // = 18px
 
-        // background-image: url("/img/icons/lang-toggle-deselected.svg");
+        /* override default inverted backgroud link color */
+        .inverted & a, .inverted & a:visited {
+            color: $dark-purple;
+        }
+
         box-sizing: border-box;
         border-left: 2px inset $medium-purple;
         border-right: 2px inset $medium-purple;
@@ -54,6 +58,11 @@ aside.translations {
             width: 0;
             height: 0;
             border-top: 6px solid $off-white;
+
+            /* adjust color when on inverted background */
+            .inverted & {
+                border-top: 6px solid $purple;
+            }
         }
 
         /* top left corner */
@@ -92,6 +101,11 @@ aside.translations {
             /* top left corner */
             &::before, &::after {
                 border-top: 2px solid $off-white;
+
+                /* adjust color when on inverted background */
+                .inverted & {
+                    border-top: 2px solid $purple;
+                }
             }
 
             &::before {
