@@ -20,7 +20,7 @@
 |{{ if .Params.doi }}
   {{- if .IsTranslated -}}{{/* if translated, display all DOIs with language indicated */}}
 |    {{ range .AllTranslations }}
-|  doi:{{ .Params.doi }} ({{ i18n .Language.LanguageName }})
+|  doi:{{ .Params.doi }} ({{ .Language.LanguageName }})
     {{- end -}}
   {{ else }}
 |  doi:{{ .Params.doi }}{{ end }}

@@ -46,8 +46,8 @@
     <article {{ with .Params.article_class }} class="{{ . }}" {{ end }}>
         <div class="grid">
             <header>
-                <p class="number">{{ i18n "issue" }} {{ .Parent.Params.number }}</p>
-                <p class="theme"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Params.theme }}</a></p>
+                <p class="number"><a href="{{ .Parent.RelPermalink }}">{{ i18n "issue" }} {{ .Parent.Params.number }}</a></p>
+                <p class="theme">{{ .Parent.Params.theme }}</p>
                 <h1>{{ .Params.Title }}</h1>
                 {{ partial "authors" . }}<br>
                 {{ partial "pubdate" . }}<br>
@@ -55,7 +55,7 @@
                 {{ if .Params.doi }}
                     {{ if .IsTranslated }}{{/* if translated, display all DOIs with language indicated */}}
                     {{ range .AllTranslations }}
-                        <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a> <span class="doi-lang">({{ i18n .Language.LanguageName }})</span><br>
+                        <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a> <span class="doi-lang">({{ .Language.LanguageName }})</span><br>
                     {{ end }}
                     {{ else }}
                     <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
