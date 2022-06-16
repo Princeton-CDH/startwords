@@ -11,7 +11,7 @@
 |
 |  {{ .Title }}
 |
-|  Authors:
+|  {{ i18n "Authors" }}:
 |  {{ range .Params.Authors }}
 |     {{ . }}
 |  {{ end }}
@@ -20,7 +20,7 @@
 |{{ if .Params.doi }}
   {{- if .IsTranslated -}}{{/* if translated, display all DOIs with language indicated */}}
 |    {{ range .AllTranslations }}
-|  doi:{{ .Params.doi }} ({{ i18n .Language.LanguageName }})
+|  doi:{{ .Params.doi }} ({{ .Language.LanguageName }})
     {{- end -}}
   {{ else }}
 |  doi:{{ .Params.doi }}{{ end }}
@@ -30,9 +30,9 @@
 |{{ end }}{{ end }}
 ⩩-----------------------------------------------------------------------------------⟩
 |
-|  Issue {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
+|  {{ i18n "issue" }} {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
 |  {{ .Parent.Permalink }}
-|  {{ .Parent.Date.Format "January 2006" }}
+|  {{ .Parent.Date | time.Format "January 2006" }}
 |
 ⩩-----------------------------------------------------------------------------------⟩
 {{- $rawContent := .RawContent -}}
