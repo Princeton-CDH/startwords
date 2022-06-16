@@ -15,82 +15,110 @@ aside.translations {
     padding: 0;
     margin: 0;
 
+    /* don't display language toggles on print version */
+    @media print {
+        display: none;
+    }
+
     ul {
         margin: 0;
         padding: 0;
-        perspective: 1477px;
-        perspective-origin: 150% 375%;
     }
 
     li {
+        margin: 0;
+        padding: 0;
+
         list-style-type: none;
         display: inline-block;
         position: relative;
         background-color: $light-purple;
         color: $dark-purple;
         font-family: $font-sans;
-        font-size: 1.1rem;
-        transform-style: preserve-3d;
+        font-size: 1.1rem; // = 18px
 
-        --button-width: 40px;
+        // background-image: url("/img/icons/lang-toggle-deselected.svg");
+        box-sizing: border-box;
+        border-left: 2px inset $medium-purple;
+        border-right: 2px inset $medium-purple;
+        border-bottom: 3px inset $medium-purple;
+
+        background-size: fill;
+
+        /* use pseudo-elements for corners */
+        &::before, &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 6px solid $off-white;
+        }
+
+        /* top left corner */
+        &::before {
+            left: -2px;
+            border-right: 2.5px solid transparent;
+        }
+        &::after {
+            right: -2px;
+            border-left: 2.5px solid transparent;
+        }
+
         --button-height: 34px;
 
-        width: var(--button-width);
+        width: 44px;
         height: var(--button-height);
-        // unselected
-        transform: scale3d(1, 1, 1.75) translate3d(5px, 3px, var(--button-width));
 
         @media (min-width: $breakpoint-s) {
-            --button-width: 45px;
-            --button-height: 40px;
-            font-size: 1.2rem;
+            width: calc(49px - 4px);
+            --button-height: 37px;
+            font-size: 1.2rem;  // = 22px
         }
+        /** selected */
         &.current {
             background-color: $medium-dark-purple;
+
+            /* adjust height and spacing to simulate key/toggle depressed */
+            height: calc(var(--button-height) - 6px);
+            transform: translate(0, 4px);
             font-weight: 600;
-            transform: none;
+            // background-image: url("/img/icons/lang-toggle-selected.svg");
+            border-left: 0.4px inset $medium-purple;
+            border-right: 0.4px inset $medium-purple;
+            border-bottom: 0.5px inset $medium-purple;
+
+            /* top left corner */
+            &::before, &::after {
+                border-top: 2px solid $off-white;
+            }
+
+            &::before {
+                left: -1px;
+                border-right: 1px solid transparent;
+            }
+            &::after {
+                right: -0.5px;
+                border-left: 1px solid transparent;
+            }
         }
 
         a,
         span {
             width: 100%;
+            height: 100%;
             text-align: center;
-            line-height: var(--button-height);
             text-decoration: none;
             display: block;
+
+            /* center text vertically */
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
         }
 
-        &:not(:first-child):not(.current) {
-            /* remove space between */
-            // transform is slightly different for button on right
-            transform: scale3d(1, 1, 1.75)
-                translate3d(calc(var(--button-width) * 0.1), calc(var(--button-width) * 0.08), var(--button-width));
-        }
-
-        /* use pseduo-elements to create visible cube faces */
-        &::before,
-        &::after {
-            content: " ";
-            box-sizing: border-box;
-            display: inline-block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: $medium-purple;
-            border: 1px solid $medium-purple;
-        }
-        &::before {
-            /* cube face right */
-            transform: rotateY(-270deg) translateX(var(--button-width));
-            transform-origin: top right;
-        }
-        &::after {
-            /* cube face bottom */
-            transform: rotateX(270deg) translateY(var(--button-height));
-            transform-origin: bottom center;
-        }
     }
 }
 
@@ -106,6 +134,7 @@ aside.translations {
         margin-right: 0.5rem;
         width: 1.7rem;
         height: 1.3rem;
+        line-height: 1.3rem;
         background: white;
         border: 2px solid $purple;
         border-radius: 4px;

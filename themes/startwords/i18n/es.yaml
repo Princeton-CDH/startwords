@@ -5,7 +5,7 @@ issue:
 view-issue:
   other: ver esta edición
 features:
-  other: características
+  other: Artículos destacados
 snippets:
   other: fragmentos destacados
 # navigation
@@ -27,7 +27,7 @@ English:
 Spanish:
   other:  Español
 read-in-lang:
-  other: read this page in {{ . }}
+  other: Leer esta página en {{ . }}
 languages available:
   other: lenguas disponibles
 available-in-lang:
@@ -65,6 +65,8 @@ Translator:
   other: Traductor
 Authors:
   other: Autores
+Spanish Editor:
+  other: Traductor de Español
 # misc
 and:
   other: "y"

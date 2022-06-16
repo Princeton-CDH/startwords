@@ -46,8 +46,8 @@
     <article {{ with .Params.article_class }} class="{{ . }}" {{ end }}>
         <div class="grid">
             <header>
-                <p class="number"><a href="{{ .Parent.RelPermalink }}">{{ i18n "issue" }} {{ .Parent.Params.number }}</a></p>
-                <p class="theme">{{ .Parent.Params.theme }}</p>
+                <p class="number">{{ i18n "issue" }} {{ .Parent.Params.number }}</p>
+                <p class="theme"><a href="{{ .Parent.RelPermalink }}">{{ .Parent.Params.theme }}</a></p>
                 <h1>{{ .Params.Title }}</h1>
                 {{ partial "authors" . }}<br>
                 {{ partial "pubdate" . }}<br>
