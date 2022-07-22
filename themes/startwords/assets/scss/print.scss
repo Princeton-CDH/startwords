@@ -42,6 +42,10 @@
     }
 }
 
+html, body, main {
+    overflow: visible;
+}
+
 
 body {
     font-family: $font-serif;
