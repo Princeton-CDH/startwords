@@ -181,21 +181,14 @@ aside.translations {
 /* adjust translation toggles on about page */
 .about {
 
-//    @media (min-width: $breakpoint-m) {
-       header {
-           position: relative
-       }
-    // }
-
     .translations {
-        right: -45px;
-        margin-top: rem(65px);
-        // right: 5px;
-        // top: 5px;
+        position: relative;
+        text-align: right;
+        grid-column: 7/11;
 
         @media (min-width: $breakpoint-m) {
-            margin-top: rem(25px);
-            right: -150px;
+            grid-column: 7/9;
+            margin-top: 1.5rem;
         }
     }
 }
