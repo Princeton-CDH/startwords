@@ -1,6 +1,6 @@
 {{ if .IsTranslated }}
 <aside class="translations">
-    <h2 class="sr-only">{{ i18n "translations" }}</h2>
+    <h2 class="sr-only">{{ i18n "languages available" }}</h2>
     <ul>
         {{- range $.AllTranslations -}}
         {{- $translatedLangName := i18n .Language.LanguageName -}}
