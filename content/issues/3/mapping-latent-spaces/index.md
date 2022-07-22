@@ -94,11 +94,6 @@ Let me end, however, on a positive note. I have suggested that approaching neura
 
 I don't know which of those worlds we will build. But either way, I suspect we will need to reframe our conversation about artificial intelligence as a conversation about models of culture and the latent spaces they imply. Philosophers and science fiction writers may enjoy debating whether software can have mental attributes like intention. But that old argument does little to illuminate the social questions new technologies are really raising. Neural language models are dangerous and fascinating because they can illuminate and transform shared patterns of behavior --- in other words, cultural practices. When the problem is redescribed this way, the concerns about equity foregrounded by "Stochastic Parrots" still matter deeply. But the imagined contrast between mimicry and meaning in the article's title no longer connects with any satirical target. Culture clearly has meaning. But I'm not sure that anyone cares whether a culture has autonomous intent, or whether it is merely parroting human action.
 
-Ted Underwood
-
-December 28, 2021
-
-Champaign, IL
 
 [^1]: Ashish Vaswani et al., "Attention Is All You Need," 31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, 2017. <https://arxiv.org/abs/1706.03762>.
 
