@@ -45,8 +45,8 @@ article {
     .doi::before { content: 'doi:'; }
     .doi-lang {
         font-size: rem(14px);
+        margin-left: rem(5px);
     }
-
 
     // headings
     h1, h2, h3, h4, h5 { font-family: $font-serif; }

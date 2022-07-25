@@ -42,6 +42,8 @@ not-found-text:
 feed-title-on:
   other: "on"
 # credits / masthead roles
+masthead:
+  other: Masthead
 credits:
   other: Credits
 Guest Editor:

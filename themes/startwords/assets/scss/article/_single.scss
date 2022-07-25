@@ -58,6 +58,11 @@ body.article {
                     text-align: right;
                     padding-left: rem(4px);
                     font-size: rem(16px);  /* increase font size slightly for phosphor link */
+
+                    // decrease size for print
+                    @media print {
+                        font-size: 12px;
+                    }
                 }
             }
 

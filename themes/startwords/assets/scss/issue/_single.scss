@@ -2,7 +2,7 @@
 
 /* secondary shadow text runs off the page, which makes
    the page horizontally scrollable on iOS; disable that here */
-html, body {
+html, body.issue, body.home {
     position: relative;
     overflow-x: hidden;
     max-width: 100vw;

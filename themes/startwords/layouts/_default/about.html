@@ -7,6 +7,7 @@
             {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
             {{ .Summary }}
         </header>
+        {{ partial "translations.html" . }}
         <div class="text-container">
             {{ with .Content }}{{ . }}{{ end }}
 
