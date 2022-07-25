@@ -1,7 +1,7 @@
 // pitbar behavior adapted from PPA
 // https://github.com/Princeton-CDH/ppa-django/blob/master/srcmedia/js/pitbar.js
 document.addEventListener('DOMContentLoaded', function() {
-    var nav = document.querySelector('nav[aria-label=main]')
+    var nav = document.querySelector('nav.main')
     var scroll = 0
 
     // hide the nav element when scrolling down; show when scrolling up quickly
@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function setHandler() {
         var mobile = window.matchMedia('(max-width: 768px)')
         if (mobile.matches) document.addEventListener('scroll', checkScroll)
-        else document.removeEventListener('scroll', checkScroll) 
+        else document.removeEventListener('scroll', checkScroll)
     }
-    
+
     // apply the behavior on page load and re-apply if window is resized
     setHandler()
     window.addEventListener('resize', setHandler)
