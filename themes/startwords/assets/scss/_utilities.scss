@@ -30,7 +30,11 @@
     > .text-container {
         grid-column: 1 / 11;
         @media (min-width: $breakpoint-s) { grid-column: 2 / 10; }
-        @media (min-width: $breakpoint-m) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) {
+            grid-column: 3 / 9;
+            /* don't allow to grow wider than the grid (e.g., embedded videos) */
+            max-width: 100%;
+        }
     }
 }
 
