@@ -4,7 +4,7 @@ title: Weave Derrida's References
 slug: weaving-howto
 order: 4
 authors:
-  - doroudiangissoo
+  - DoroudianGissoo
 date: 2020-10-01
 tags: [DataBeyondVision, HowTo]
 images: ["issues/1/weaving-howto/images/weaving-preview.jpg"]

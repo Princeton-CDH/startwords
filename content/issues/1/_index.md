@@ -8,7 +8,7 @@ date: 2020-10-01
 slug: 1
 summary: Every day, countless decisions are quietly made on the basis of data most of us will never touch.
 authors:
-  - wythoffgrant
+  - WythoffGrant
 contributors:
     - Editor:
       - Grant Wythoff

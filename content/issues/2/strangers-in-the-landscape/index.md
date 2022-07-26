@@ -5,10 +5,10 @@ title: |
   “Strangers in the Landscape”: On Research Development and Making Things for Making
 order: 1
 authors:
-    - blickhansamantha
-    - grangerwill
-    - noordinshauna
-    - rotherbecky
+    - BlickhanSamantha
+    - GrangerWill
+    - NoordinShaunA
+    - RotherBecky
 date: 2021-12-01
 doi: 10.5281/zenodo.5750679
 pdf: https://zenodo.org/record/5750679/files/startwords-2-strangers-in-the-landscape.pdf
