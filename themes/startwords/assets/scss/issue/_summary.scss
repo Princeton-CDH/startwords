@@ -16,7 +16,6 @@
         .theme, .theme a { color: $light-purple; }
     }
 
-    a:not(.more) { text-decoration: none; }
     .more { font-size: rem(16px); }
 
     .number,
@@ -27,7 +26,7 @@
 
     .theme {
         font-size: rem(20px);
-        margin: rem(5px) 0 0;  
+        margin: rem(5px) 0 0;
         line-height: normal;
         @media (min-width: $breakpoint-m) { font-size: rem(22px); }
 
@@ -45,7 +44,7 @@
         line-height: rem(25px);
         @media (min-width: $breakpoint-m) { line-height: rem(27px); }
     }
-    
+
     .number, .more {
         @media (min-width: $breakpoint-m) { font-size: rem(18px); }
     }

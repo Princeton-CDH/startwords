@@ -20,7 +20,7 @@ body.issue {
             & > p { margin-top: rem(5px); }
 
             // introduction authors
-            a, address {
+            address {
             display: inline;
             font-style: normal;
             color: $black;
