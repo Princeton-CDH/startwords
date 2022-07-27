@@ -16,9 +16,9 @@
 {{- $author_count := (len $authors) -}}
 <div class="authors">— 
 {{ range $index, $author := $authors }}
-    {{ if $index }} {{/* add delimiters when after first author */}}
-    {{ if eq (add $index 1) $author_count }} {{ i18n "and" }} {{ else }}, {{ end }}
-    {{ end }}
+    {{- if $index -}} {{/* add delimiters when after first author */}}
+    {{- if eq (add $index 1) $author_count -}} {{ printf " %s " (i18n "and") }} {{- else -}}, {{- end -}}
+    {{- end -}}
     {{ $info := index $.Site.Data.authors $author }} {{/* get author info */}}
     {{/* display name from param as fallback if there is no entry in the authors data file */}}
     {{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}
