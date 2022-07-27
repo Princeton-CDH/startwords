@@ -59,16 +59,18 @@
                 <p class="number"><a href="{{ .Parent.RelPermalink }}">{{ i18n "issue" }} {{ .Parent.Params.number }}</a></p>
                 <p class="theme">{{ .Parent.Params.theme }}</p>
                 <h1>{{ .Params.Title }}</h1>
-                {{ partial "authors" . }}<br>
-                {{ partial "pubdate" . }}<br>
-                {{ partial "tags" . }}<br>
+                <p>{{ partial "authors" . }}</p>
+                <p>{{ partial "pubdate" . }}</p>
+                {{ partial "tags" . }}
                 {{ if .Params.doi }}
                     {{ if .IsTranslated }}{{/* if translated, display all DOIs with language indicated */}}
+                    <div class="doi-group">
                     {{ range .AllTranslations }}
-                        <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a> <span class="doi-lang">({{ .Language.LanguageName }})</span><br>
+                        <p><a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a> <span class="doi-lang">({{ .Language.LanguageName }})</span></p>
                     {{ end }}
+                    </div>
                     {{ else }}
-                    <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
+                    <p><a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a></p>
                     {{ end }}
 
                 {{ end }}

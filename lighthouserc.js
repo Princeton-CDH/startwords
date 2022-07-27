@@ -14,11 +14,11 @@ module.exports = {
         "/issues/",
         "/issues/1/",
         "/issues/1/data-beyond-vision/",
-        "/issues/2/",
-        "/issues/2/strangers-in-the-landscape/",
-        "/issues/2/datas-destinations/",
-        "/issues/2/creating-and-recreating-virtual-community/",
-        "/issues/2/serendipity-in-the-cairo-geniza/",
+        "/issues/3/",
+        "/issues/3/mapping-latent-spaces/",
+        "/issues/3/on-spanish-parrots/",
+        "/es/issues/3/on-spanish-parrots/",
+        "/issues/3/llm-limit-case/",
         "/authors/",
         "/404.html"
     ]
@@ -40,6 +40,9 @@ module.exports = {
         /* 3rd-party fonts included by e.g. sketchfab don't use font-display,
            so we have to switch it to a warning */
         "font-display": "warn",
+
+        // some tap target warnings (adjacent DOIs, author/about links in footer)
+        "tap-targets": "warn",
 
         // switch misc. performance issues to warnings until they are resolved
         "unsized-images": "warn",
