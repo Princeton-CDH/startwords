@@ -97,8 +97,9 @@
             {{ end }}
             {{ with .Params.Authors -}}
                 {{- range . -}} <!-- Assuming the author front-matter to be a list -->
+                {{ $info := index $.Site.Data.authors . }} {{/* get author info */}}
                     <author>
-                        <name>{{ . }}</name>
+                        <name>{{ $info.name | default . }}</name>
                     </author>
                 {{- end -}}
             {{- end }}
