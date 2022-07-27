@@ -1,4 +1,4 @@
-name: github pages
+name: hugo i18n check
 
 on:
   pull_request:
