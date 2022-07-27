@@ -5,7 +5,7 @@ title: |
   Mapping the Latent Spaces of Culture
 order: 1
 authors:
-    - underwoodted
+    - UnderwoodTed
 date: 2022-02-01
 doi: 10.5281/zenodo.6567481
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF

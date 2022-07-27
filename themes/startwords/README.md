@@ -262,6 +262,27 @@ Either `pdf-img` or `youtube_id` should be specified.
 
 [view source](layouts/shortcodes/video.html)
 
+## Author metadata
+
+New authors should be added to the author data file with name, title, affiliation, and optional website URL and ORCID. Identifiers in the author data file should be in `PascalCase` based on last name first, so that names can be sorted based on those identifiers. Authors of articles and issue introductions should be listed in page metadata using the same identifier as the data file, for linking the content and displaying the author's name properly.  If an author's sort name cannot be programmatically determined from their display name, it should be set explicitly in the author data file.
+
+Example data file entry:
+```
+VanLastnameFirstname:
+  name: Firstname A. Lastname
+  sort_name: van Lastname, Firstname A.
+  title: Job title
+  affiliation: Example University
+  orcid: 0000-000X-XXXX-XXXX
+  website: https://example.org/profile
+```
+
+Example author metadata:
+```
+authors:
+    - LastnameFirstname
+```
+
 ## Generating PDFs
 
 PDF versions of feature articles should be created with [paged.js](https://pagedjs.org/) from the production site so that URLs are correct.

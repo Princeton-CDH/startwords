@@ -4,9 +4,9 @@ slug: 'creating-and-recreating-virtual-community'
 title: Creating and Recreating Virtual Community on Douglass Day
 order: 3
 authors:
-    - smithjustin
-    - murraycourtney
-    - caseyjim
+    - SmithJustin
+    - MurrayCourtney
+    - CaseyJim
 date: 2021-12-01
 doi: 10.5281/zenodo.5750693
 pdf: https://zenodo.org/record/5750693/files/startwords-2-creating-and-recreating-virtual-community.pdf

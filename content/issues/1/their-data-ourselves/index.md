@@ -5,7 +5,7 @@ title: |
   Their Data, Ourselves: Illness as Information
 order: 2
 authors:
-    - munsonrebecca
+    - MunsonRebecca
 date: 2020-10-01
 doi: 10.5281/zenodo.3713678
 pdf: https://zenodo.org/record/3713678/files/their-data-ourselves.pdf

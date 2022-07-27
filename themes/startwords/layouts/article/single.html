@@ -21,8 +21,18 @@
 <meta name="citation_title" content="{{ .Params.Title | htmlEscape }}"/>
 <meta name="citation_date" content="{{ .Params.date.Format `2006/01` }}"/>
 {{/* NOTE: Google Scholar prefers full date in YYYY/MM/DD form or year only */}}
+
+{{/* get author info from author data file */}}
+{{ $data := newScratch }} {{/* collect names for comma-delimited output */}}
 {{ range .Params.Authors }}
-<meta name="citation_author" content="{{ . }}"/>  {{/* lastname first preferred, if possible */}}
+    {{ $info := index $.Site.Data.authors . }} {{/* get author info */}}
+    {{ $lastname_first := partial "author_lastnamefirst.html" $info }}
+    {{/* add display name to author list for combined author metadata; use name from param as fallback if there is no entry in the authors data file */}}
+    {{ $data.Add "author_names" (slice ($info.name | default .)) }}
+<meta name="citation_author" content="{{ $lastname_first | default . }}"/>  {{/* lastname first preferred, if possible */}}
+{{- with $info.orcid -}}
+<meta name="citation_author_orcid" content="https://orcid.org/{{ . }}"/>
+{{- end -}}
 {{ end }}
 {{ with .Params.pdf -}}<meta name="citation_pdf_url" content="{{ . }}">{{- end }}
 {{ if .Params.doi }}<meta name="citation_doi" content="{{ .Params.doi }}"/>{{ end }}
@@ -33,7 +43,7 @@
 <meta name="citation_publisher" content="Center for Digital Humanities, Princeton University"/>
 <meta name="DC.rights" content="{{ .Site.Params.license }}" />
 {{/* metadata for PDF */}}
-<meta name="author" content="{{ delimit .Params.Authors ", " }}" />
+<meta name="author" content="{{ delimit ($data.Get "author_names") ", " }}" />
 <meta name="generator" content="Center for Digital Humanities, Princeton University"/>
 <meta name="dcterms.created" content="{{ .Params.date.Format `2006-01` }}"/>
 {{/* also available: dcterms.modified, keywords */}}
