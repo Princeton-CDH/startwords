@@ -36,6 +36,14 @@ body.article {
                 }
             }
 
+            .doi-group {
+                margin-top: rem(10px);
+                margin-bottom: rem(5px);
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
             .doi { display: inline; clear: both; }
 
             // sequential author display with commas
