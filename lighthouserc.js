@@ -41,6 +41,9 @@ module.exports = {
            so we have to switch it to a warning */
         "font-display": "warn",
 
+        // some tap target warnings (adjacent DOIs, author/about links in footer)
+        "tap-targets": "warn",
+
         // switch misc. performance issues to warnings until they are resolved
         "unsized-images": "warn",
         "uses-responsive-images": "warn",
