@@ -41,7 +41,7 @@ jobs:
       run: npm ci
 
     - name: Generate Hugo i18n warnings
-      run: hugo --printI18nWarnings | grep MISSING_TRANSLATION > /tmp/i18n-warnings.txt
+      run: hugo --printI18nWarnings | grep MISSING_TRANSLATION > /tmp/i18n-warnings.txt || true
 
     - name: Count Hugo i18n warnings
       run: if [[ `wc -l /tmp/i18n-warnings.txt` ]]; then cat /tmp/i18n-warnings.txt && exit 1; else echo "No missing translations"; fi
