@@ -1,0 +1,51 @@
+name: github pages
+
+on:
+  pull_request:
+
+# versions should be kept in sync with gh-pages and lighthouse-ci workflow
+env:
+  HUGO_VERSION: 0.95.0  # if you update this, change the README badge and lighthouse-ci.yml too!
+  NODE_VERSION: 16 # if you update this, change the README badge and lighthouse-ci.yml too!
+
+jobs:
+  build-deploy:
+    name: Check Hugo i18n translations
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout repository
+      uses: actions/checkout@v2
+
+    - name: setup hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: ${{ env.HUGO_VERSION }}
+        extended: true
+
+    - name: setup node.js
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+
+    - name: fetch js dependencies from cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: npm-${{ hashFiles('package-lock.json') }}
+        restore-keys: |
+          npm-${{ hashFiles('package-lock.json') }}
+          npm-
+
+    - name: install js dependencies
+      run: npm ci
+
+    - name: Generate Hugo i18n warnings
+      run: hugo --printI18nWarnings | grep MISSING_TRANSLATION > /tmp/i18n-warnings.txt
+
+    - name: Count Hugo i18n warnings
+      run: if [[ $((`wc -l /tmp/i18n-warnings.txt`)) -eq 0 ]]; then echo "No missing translations"; else cat /tmp/i18n-warnings.txt && exit 1; fi
+
+
+
+
