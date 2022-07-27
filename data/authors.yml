@@ -12,6 +12,7 @@ UnderwoodTed:
   website: https://tedunderwood.com/
 delRioRiandeGimena:
   name: Gimena del Rio Riande
+  sort_name: del Rio Riande, Gimena
   title: Investigadora Asociada del Consejo Nacional de Investigaciones Científicas y Técnicas [Associate Researcher at the National Scientific and Technical Research Council]
   affiliation: CONICET, Argentina
   orcid: 0000-0002-8997-5415
@@ -46,6 +47,7 @@ CaseyJim:
   website: https://jim-casey.com/
 VanHyningVictoriaAnne:
   name: Victoria Anne Van Hyning
+  sort_name: Van Hyning, Victoria Anne
   title: Assistant Professor of Library Innovation
   affiliation: University of Maryland, College of Information Studies
   orcid: 0000-0001-6775-2870
