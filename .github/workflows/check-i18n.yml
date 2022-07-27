@@ -44,7 +44,7 @@ jobs:
       run: hugo --printI18nWarnings | grep MISSING_TRANSLATION > /tmp/i18n-warnings.txt
 
     - name: Count Hugo i18n warnings
-      run: if [[ $((`wc -l /tmp/i18n-warnings.txt`)) -eq 0 ]]; then echo "No missing translations"; else cat /tmp/i18n-warnings.txt && exit 1; fi
+      run: if [[ `wc -l /tmp/i18n-warnings.txt` ]]; then cat /tmp/i18n-warnings.txt && exit 1; else echo "No missing translations"; fi
 
 
 
