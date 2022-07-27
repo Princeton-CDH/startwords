@@ -30,7 +30,15 @@
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Params.Authors }}<author>{{ delimit  . ", " }}</author>{{ end }}
+      {{ $data := newScratch }} {{/* collect author names for comma-delimited output */}}
+      {{ range .Params.Authors }}
+        {{ $info := index $.Site.Data.authors . }} {{/* get author info */}}
+        {{/* add display name to author list for combined author metadata; use name from param as fallback if there is no entry in the authors data file */}}
+        {{ $data.Add "author_names" (slice ($info.name | default .)) }}
+      {{ end  }}
+      {{ with $data.Get "author_names" }}
+        <author>{{ delimit . ", " | safeHTML }}</author>
+      {{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Summary | html }}</description>
     </item>

@@ -30,6 +30,8 @@ English:
   other: English
 Spanish:
   other: Spanish
+Español:
+  other: Spanish
 read-in-lang:
   other: read this page in {{ . }}
 # error page

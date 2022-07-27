@@ -25,7 +25,9 @@ footer-links:
 English:
   other: Inglés
 Spanish:
-  other:  Español
+  other: Español
+Español:
+  other: Español
 read-in-lang:
   other: Leer esta página en {{ . }}
 languages available:
