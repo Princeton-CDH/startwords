@@ -1,13 +1,16 @@
-{{/* return sort name for an author; expects to be called with an author data file entry */}}
-{{/* if sort name is explicitly set in author metadata, use that */}}
-{{ $lastname_first := .sort_name }}
-{{/* otherwise generate from name */}}
-{{ if not .sort_name }}
-    {{ $nameParts := split .name " " }} {{/* split on spaces */}}
-    {{ $last := last 1 $nameParts }}{{/* assume last name is last word */}}
-    {{/* get all parts before the last */}}
-    {{ $first_parts := first (sub (len $nameParts) 1) $nameParts }}
-    {{/* combine last and then first name(s) */}}
-    {{ $lastname_first = delimit ((last 1 $nameParts) | append (delimit $first_parts " "))     ", " }}
-{{ end }}
+{{ $lastname_first := "" }}
+{{/* NOTE: build will fail if an author id doesn't match an author data record;
+    could check if . is set, but then will silently fail */}}
+    {{/* return sort name for an author; expects to be called with an author data file entry */}}
+    {{/* if sort name is explicitly set in author metadata, use that */}}
+        {{ $lastname_first = .sort_name }}
+    {{/* otherwise generate from name */}}
+    {{ if not .sort_name }}
+        {{ $nameParts := split .name " " }} {{/* split on spaces */}}
+        {{ $last := last 1 $nameParts }}{{/* assume last name is last word */}}
+        {{/* get all parts before the last */}}
+        {{ $first_parts := first (sub (len $nameParts) 1) $nameParts }}
+        {{/* combine last and then first name(s) */}}
+        {{ $lastname_first = delimit ((last 1 $nameParts) | append (delimit $first_parts " "))     ", " }}
+    {{ end }}
 {{ return $lastname_first }}
