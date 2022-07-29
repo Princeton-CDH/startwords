@@ -1,0 +1,3 @@
+# config to get production urls for generating PDFs
+params:
+  absoluteArticleLinks: true
