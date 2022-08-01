@@ -4,7 +4,7 @@ layout: single
 title: Issue Three
 number: 3
 theme: Parrots
-date: 2022-03-01 #TODO: Replace with final publication date
+date: 2022-08-01
 slug: 3
 num_features: 3
 summary: "By the time Emily Bender, Timnit Gebru, Angelina McMillan-Major and Margaret Mitchell’s paper “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” was published in March 2021, it had already been shaking up the AI world for some time."
