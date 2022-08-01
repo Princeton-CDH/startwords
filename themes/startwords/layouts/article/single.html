@@ -17,7 +17,7 @@
 
 {{ define "page_meta" }}
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/>
-<meta name="citation_public_url" content="{{ .RelPermalink | absURL }}" />
+<meta name="citation_public_url" content="{{ cond .Site.Params.absoluteArticleLinks .Permalink .RelPermalink | absURL }}" />
 <meta name="citation_title" content="{{ .Params.Title | htmlEscape }}"/>
 <meta name="citation_date" content="{{ .Params.date.Format `2006/01` }}"/>
 {{/* NOTE: Google Scholar prefers full date in YYYY/MM/DD form or year only */}}
@@ -56,7 +56,7 @@
     <article {{ with .Params.article_class }} class="{{ . }}" {{ end }}>
         <div class="grid">
             <header>
-                <p class="number"><a href="{{ .Parent.RelPermalink }}">{{ i18n "issue" }} {{ .Parent.Params.number }}</a></p>
+                <p class="number"><a href="{{ cond .Site.Params.absoluteArticleLinks .Parent.Permalink  .Parent.RelPermalink }}">{{ i18n "issue" }} {{ .Parent.Params.number }}</a></p>
                 <p class="theme">{{ .Parent.Params.theme }}</p>
                 <h1>{{ .Params.Title }}</h1>
                 <p>{{ partial "authors" . }}</p>
@@ -76,7 +76,7 @@
                 {{ end }}
                 <p class="formats">
                 {{ with  .OutputFormats.Get "txt" -}}
-                    <a href="{{ .RelPermalink }}" rel="alternate" type="text/plain">TXT</a>
+                    <a href="{{ cond $.Site.Params.absoluteArticleLinks .Permalink .RelPermalink }}" rel="alternate" type="text/plain">TXT</a>
                 {{- end }}
                 {{ with .Params.pdf -}}
                     <a href="{{ . }}" rel="alternate" type="application/pdf">PDF</a>
@@ -88,11 +88,11 @@
 
             {{/* elements for PDF header & footer */}}
             <section class='print-only'>
-
-                <a class="first-page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+                {{ $siteUrl := cond .Site.Params.absoluteArticleLinks (absURL "/") (relURL "/") }}
+                <a class="first-page-header" href="{{ $siteUrl }}" aria-label="Startwords">
                     <img alt="Startwords" src="{{ relURL "/pdf-logotype.svg" }}" /></a>
 
-                <a class="page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+                <a class="page-header" href="{{ $siteUrl }}" aria-label="Startwords">
                     <img alt="Startwords" src="{{ relURL "/pdf-logo.svg" }}" /></a>
 
                  <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="page-doi">doi:{{ .Params.doi }}</a>
