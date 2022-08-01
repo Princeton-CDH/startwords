@@ -13,8 +13,9 @@
 |
 |  {{ i18n "Authors" }}:
 |  {{ range .Params.Authors }}
-|     {{ . }}
-|  {{ end }}
+{{- $info := index $.Site.Data.authors . -}} {{/* get author info */}}
+|     {{ $info.name | default . }}{{ end }}
+|
 |
 |  {{ .Permalink }}
 |{{ if .Params.doi }}
