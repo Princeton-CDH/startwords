@@ -234,6 +234,12 @@ body.article .footnotes {
     &.endnotes ol li { background: white; }
 }
 
+// NOTE: pagedjs is ignoring page-break before endnote section,
+// so apply to last paragraph of article text
+.text-container > p:last-of-type {
+    page-break-after: always;
+}
+
 
 // a::after { content: ", see " target-text(attr(href)) }
 
