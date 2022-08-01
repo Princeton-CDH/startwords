@@ -8,7 +8,7 @@ authors:
     - KleinLauren
 date: 2022-08-01
 doi: 10.5281/zenodo.6567985
-pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
+pdf: https://zenodo.org/record/6567985/files/startwords-3-llm-limit-case.pdf
 images: ["issues/3/llm-limit-case/images/llm-limit-case-social.png"]
 summary: How is it possible to go forward with large language models with the knowledge of just how biased, how incomplete, and how harmful — to both people and the planet — these models truly are?
 hook_height_override: 220

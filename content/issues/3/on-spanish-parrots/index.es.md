@@ -8,7 +8,7 @@ authors:
   - DelRioRiandeGimena
 date: 2022-08-01
 doi: 10.5281/zenodo.6567966
-pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
+pdf: https://zenodo.org/record/6567966/files/startwords-3-on-spanish-parrots-es.pdf
 images: ["issues/3/on-spanish-parrots/images/sobre-los-loros-social.png"]
 summary: El español es el segundo idioma más hablado en el mundo como lengua materna. Informes oficiales, estudios basados en encuestas y Wikipedia lo confirman. Y Google lo puede predecir.
 hook_height_override: 210
