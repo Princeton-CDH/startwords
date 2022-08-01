@@ -329,4 +329,4 @@ hook_height_override: 215
 
 The Startwords theme is licensed under the [Apache 2.0 License](LICENSE).
 
-©2021 Trustees of Princeton University. Permission granted via Princeton Docket #21-3753-1 for distribution online under a standard Open Source license.
+©2022 Trustees of Princeton University. Permission granted via Princeton Docket #21-3753-1 for distribution online under a standard Open Source license.
