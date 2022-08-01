@@ -5,7 +5,7 @@ title: |
   On Spanish-Speaking Parrots
 order: 2
 authors:
-    - delRioRiandeGimena
+  - DelRioRiandeGimena
 date: 2022-08-01
 doi: 10.5281/zenodo.6567850
 pdf: https://zenodo.org/record/5750691/files/startwords-2-datas-destinations.pdf #TODO: replace PDF
