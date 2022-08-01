@@ -138,7 +138,7 @@ main {
         padding: 0;
     }
 
-    section.footnotes, .force-page-break {
+    section.footnotes, div.endnotes, .force-page-break {
         page-break-before: always;
     }
 
