@@ -306,7 +306,7 @@ hugo --environment pre-production
 
 Serve out the built static site so that you can access it locally, e.g. using python:
 ```
-python3 -m http-server --directory public
+python3 -m http.server --directory public
 ```
 
 Review the site locally and then generate PDFs as documented.
