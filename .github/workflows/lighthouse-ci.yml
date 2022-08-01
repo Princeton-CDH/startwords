@@ -4,7 +4,7 @@ on: [push]
 
 # versions should be kept in sync with gh-pages workflow
 env:
-    HUGO_VERSION: 0.91.0  # if you update this, change the README badge and gh-pages.yml too!
+    HUGO_VERSION: 0.101.0  # if you update this, change the README badge and gh-pages.yml too!
     NODE_VERSION: 16  # if you update this, change the README badge and gh-pages.yml too!
     LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 

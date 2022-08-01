@@ -41,6 +41,9 @@ body.article .footnotes, body.page .footnotes {
         padding: rem(120px) rem(15px) 2.25rem  rem(15px);
         max-height: rem(379px);
 
+        // make sure long content (like urls) wrap in all browsers
+        overflow-wrap: break-word;
+
         clip-path: polygon(77.5% 0, 100% 42px, 100% 100%, 0 100%, 0 107.5px);
         background: $purple;
 

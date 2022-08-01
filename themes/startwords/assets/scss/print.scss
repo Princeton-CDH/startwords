@@ -42,6 +42,10 @@
     }
 }
 
+html, body, main {
+    overflow: visible;
+}
+
 
 body {
     font-family: $font-serif;
@@ -134,7 +138,7 @@ main {
         padding: 0;
     }
 
-    section.footnotes, .force-page-break {
+    section.footnotes, div.endnotes, .force-page-break {
         page-break-before: always;
     }
 
@@ -228,6 +232,12 @@ body.article .footnotes {
     }
 
     &.endnotes ol li { background: white; }
+}
+
+// NOTE: pagedjs is ignoring page-break before endnote section,
+// so apply to last paragraph of article text
+.text-container > p:last-of-type {
+    page-break-after: always;
 }
 
 

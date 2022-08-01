@@ -31,6 +31,15 @@ class ContextualNotes {
             ContextualNotes.showNote();
         }, false);
 
+        // bind to footnote reference click to manage browser hsitory
+        document.querySelectorAll("a.footnote-ref").forEach(function(a) {
+            a.addEventListener('click', function handleClick(event) {
+                event.preventDefault();
+                // NOTE: replace the location to avoid polluting browser history
+                window.location.replace(a.getAttribute('href'));
+            });
+        });
+
         /* on scroll, if a footnote is currently targeted, unselect */
         window.addEventListener('scroll', function() {
             if (location.hash.startsWith('#fn:') && ContextualNotes.hideOnScroll) {
@@ -104,7 +113,9 @@ class ContextualNotes {
             // change the location hash, deselecting the note
             // Set to non-existent id so note is no longer targeted,
             // but document does not scroll
-            location.hash = '#-';
+            // NOTE: replace the location to avoid polluting browser history
+            window.location.replace('#-');
+            history.replaceState(null, '', location);
             // unbind the close link handler
             var backref = note.getElementsByClassName('footnote-backref').item(0);
             backref.removeEventListener('click', ContextualNotes.onNoteClose);
@@ -222,7 +233,6 @@ class ContextualNotes {
 
 document.addEventListener('DOMContentLoaded', function() {
     // initialize contextual notes and make available on window
-    console.debug('context notes initialized')
     window.contextnotes = new ContextualNotes();
 });
 

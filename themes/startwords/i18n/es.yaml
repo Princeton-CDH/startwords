@@ -1,0 +1,76 @@
+issues:
+  other: Números
+issue:
+  other: Número
+view-issue:
+  other: ver esta edición
+features:
+  other: Artículos destacados
+snippets:
+  other: fragmentos destacados
+# navigation
+cdh:
+  other: "The Center for Digital Humanities at Princeton"
+home:
+  other: Inicio
+main:
+  other: principal
+breadcrumbs:
+  other: Hilo de Ariadna
+read-more:
+  other: "Leer más..."
+footer-links:
+  other: footer links
+# translation links
+English:
+  other: Inglés
+Spanish:
+  other: Español
+Español:
+  other: Español
+read-in-lang:
+  other: Leer esta página en {{ . }}
+languages available:
+  other: lenguas disponibles
+available-in-lang:
+  other: disponible en {{ . }}
+# error page
+error:
+  other: Error
+not-found:
+  other: no encontrado
+not-found-text:
+  other: Hmm, eso debe estar en nuestra lista de palabras vacías...
+# atom feed
+feed-title-on:
+  other: "on"
+# credits / masthead roles
+masthead:
+  other: Encabezado
+credits:
+  other: Créditos
+Guest Editor:
+  other: Editora invitada
+Editor:
+  other: Editor
+Technical Lead:
+  other: Liderazgo Técnico
+Technical:
+  other: Equipo Técnico
+UX Designer:
+  other: Diseñadora UX
+Manuscript Editing:
+  other: Edición de Manuscrito
+Board of Advisors:
+  other: Comité Asesor
+Translator:
+  other: Traductor
+Authors:
+  other: Autores
+Spanish Editor:
+  other: Traductor de Español
+# misc
+and:
+  other: "y"
+translation-by:
+  other: "traducción por"

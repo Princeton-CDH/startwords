@@ -1,0 +1,67 @@
+{{ define "pagetype" }}authors{{ end }}
+
+{{ define "main" }}
+<main>
+    <div class="grid">
+        <header>
+            <h1>Authors</h1>
+        </header>
+        <div class="text-container">
+            {{ with .Content }}{{ . }}{{ end }}
+            <div class="author-list">
+                {{/* Hugo sorts collections by key by default */}}
+                {{ range $id, $info := $.Site.Data.authors }}
+                    <div id="{{ $id }}">
+                    <h2>{{ $info.name }}
+                    {{- with $info.orcid -}}
+                    <a class="orcid" href="https://orcid.org/{{ . }}"><img alt="ORCID" src="{{ relURL "/img/logos/orcid.svg" }}" width="20" height="20" /></a>
+                    {{- end -}}
+                    {{- with $info.website -}}
+                    <a class="website" href="{{ $info.website }}" aria-label="website"><i class="ph-globe-thin"></i></a>
+                    {{- end -}}
+                    </h2>
+                    {{- if (or $info.affiliation $info.title) -}}
+                    <p class="title">{{ with $info.title }}{{ . }}{{ end }}{{ if (and $info.title $info.affiliation) }}, {{ end }}{{ with $info.affiliation }}{{ . }}{{ end }}</p>
+                    {{- end -}}
+                    {{/* find all articles by this author within current site (current language) */}}
+                    {{ $articles := where $.Site.Pages ".Params.Authors" "intersect" (slice $id)  }}
+                    {{ range $articles }}
+                    <div class="article">
+                        {{/* list and link to issue first */}}
+                        {{ if eq .Type "article"}} {{/* for an article, the parent page is issue */}}
+                        {{ .Scratch.Set "issue" .Parent }}
+                        {{ else }}
+                            {{ .Scratch.Set "issue" . }}
+                        {{ end }}
+                        {{ with .Scratch.Get "issue" }}
+                        <p class="issue"><a href="{{ .RelPermalink }}">{{ i18n "issue" }} {{ .Params.number }}</a>: <span class="theme">{{ .Params.theme }}</span>, {{ .Params.date | time.Format "January 2006"}}</p>
+                        {{ end }}
+                        {{/* then link to article */}}
+                        <a href="{{ .RelPermalink }}">{{ if eq .Type "issue" }}Editorial Introduction{{ else }}{{ .Params.Title }}{{ end }}</a>
+                        {{ partial "available_languages.html" . }}
+
+                        {{/* display co-authors, if any */}}
+                        {{- $coauthors := .Params.Authors | complement (slice $id) -}}
+                        {{- $coauthor_count := (len $coauthors) -}}
+                        {{- if $coauthor_count -}}
+                        <div class="coauthors">with
+                        {{- range $index, $auth := $coauthors -}}
+                            {{- if $index -}} {{/* add delimiters when after first co-author */}}
+                            {{- if eq (add $index 1) $coauthor_count -}}&nbsp;and {{- else -}}, {{- end -}}
+                            {{- end -}}
+                            {{ $info := index $.Site.Data.authors $auth }} {{/* get co-author info */}}
+                            {{ if $info }}<a href="{{ relURL "/authors/" }}#{{ . }}">{{ end }}<address>{{ $info.name | default . }}</address>{{ if $info }}</a>{{ end }}
+                        {{- end -}}{{/* end looping on coauthors */}}
+                        </div> {{/* has coauthors */}}
+                        {{- end -}}
+                        {{ partial "translators" . }}
+                        {{/* partial "tags" . */}}
+                    </div>
+                    {{ end }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

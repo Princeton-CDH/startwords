@@ -1,21 +1,19 @@
 <header>
-    <nav aria-label="main">
+    <nav class="main" aria-label="{{ i18n "main" }}">
         <ul>
             <li class="home">
-                <a href="/">
-                    <img class="logo" src="/img/logos/startwords.svg" alt="Home" width="15" height="33">
+                <a href="{{ relLangURL "/" }}">
+                    <img class="logo" src="/img/logos/startwords.svg" alt="{{ i18n "home" }}" width="15" height="33">
                 </a>
             </li>
             <li class="issues">
-                <a href="/issues">
-                    <span>Issues</span>
-                </a>
+                <a href="{{ relLangURL "/issues/" }}">{{ i18n "issues" }}</a>
             </li>
         </ul>
     </nav>
     {{/*
     {{ if not .IsHome }}
-    <nav aria-label="breadcrumbs">
+    <nav class="breadcrumbs" aria-label="{{ i18n "breadcrumbs" }}">
         <ol>
             {{ template "breadcrumbnav" (dict "p1" .Parent "p2" .Parent) }}
         </ol>

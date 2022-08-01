@@ -1,0 +1,194 @@
+/* translation/localization styles */
+
+/* translation toggle */
+article header,
+.issue-summary .container {
+    /* make space for translations toggle */
+    position: relative;
+    padding-top: 45px;
+}
+
+aside.translations {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+
+    /* don't display language toggles on print version */
+    @media print {
+        display: none;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin: 0;
+        padding: 0;
+
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        background-color: $light-purple;
+        color: $dark-purple;
+        font-family: $font-sans;
+        font-size: 1.1rem; // = 18px
+
+        /* override default inverted backgroud link color */
+        .inverted & a, .inverted & a:visited {
+            color: $dark-purple;
+        }
+
+        box-sizing: border-box;
+        border-left: 2px inset $medium-purple;
+        border-right: 2px inset $medium-purple;
+        border-bottom: 3px inset $medium-purple;
+
+        background-size: fill;
+
+        /* use pseudo-elements for corners */
+        &::before, &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 6px solid $off-white;
+
+            /* adjust color when on inverted background */
+            .inverted & {
+                border-top: 6px solid $purple;
+            }
+        }
+
+        /* top left corner */
+        &::before {
+            left: -2px;
+            border-right: 2.5px solid transparent;
+        }
+        &::after {
+            right: -2px;
+            border-left: 2.5px solid transparent;
+        }
+
+        --button-height: 34px;
+
+        width: 44px;
+        height: var(--button-height);
+
+        @media (min-width: $breakpoint-s) {
+            width: calc(49px - 4px);
+            --button-height: 37px;
+            font-size: 1.2rem;  // = 22px
+        }
+        /** selected */
+        &.current {
+            background-color: $medium-dark-purple;
+
+            /* adjust height and spacing to simulate key/toggle depressed */
+            height: calc(var(--button-height) - 6px);
+            transform: translate(0, 4px);
+            font-weight: 600;
+            // background-image: url("/img/icons/lang-toggle-selected.svg");
+            border-left: 0.4px inset $medium-purple;
+            border-right: 0.4px inset $medium-purple;
+            border-bottom: 0.5px inset $medium-purple;
+
+            /* top left corner */
+            &::before, &::after {
+                border-top: 2px solid $off-white;
+
+                /* adjust color when on inverted background */
+                .inverted & {
+                    border-top: 2px solid $purple;
+                }
+            }
+
+            &::before {
+                left: -1px;
+                border-right: 1px solid transparent;
+            }
+            &::after {
+                right: -0.5px;
+                border-left: 1px solid transparent;
+            }
+        }
+
+        a,
+        span {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+
+            /* center text vertically */
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+        }
+
+    }
+}
+
+.issue-list {
+    .languages {
+        padding: 2rem 0 1.5rem 2rem;
+    }
+}
+
+.languages {
+    span {
+        display: inline-block;
+        margin-right: 0.5rem;
+        width: 1.7rem;
+        height: 1.3rem;
+        line-height: 1.3rem;
+        background: white;
+        border: 2px solid $purple;
+        border-radius: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        color: $black;
+    }
+}
+
+@mixin dark-bg-language-chip {
+    background: $darkest-purple;
+    color: $light-purple;
+    border: 2px solid $darkest-purple;
+}
+
+/* language indicators for articles on issue detail page and home page*/
+#features .languages {
+    margin-bottom: rem(18px);
+
+    span {
+        @include dark-bg-language-chip;
+        margin-right: rem(4px);
+    }
+}
+
+.snippets .languages {
+    margin-top: rem(5px);
+}
+
+/* adjust translation toggles on about page */
+.about {
+
+    .translations {
+        position: relative;
+        text-align: right;
+        grid-column: 7/11;
+
+        @media (min-width: $breakpoint-m) {
+            grid-column: 7/9;
+            margin-top: 1.5rem;
+        }
+    }
+}

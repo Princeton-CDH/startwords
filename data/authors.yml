@@ -1,0 +1,116 @@
+KleinLauren:
+  name: Lauren Klein
+  title: Winship Distinguished Research Professor and Associate Professor
+  affiliation: Emory University
+  orcid:  0000-0002-1511-0910
+  website: https://lklein.com/
+UnderwoodTed:
+  name: Ted Underwood
+  title: Professor and Associate Dean for Academic Affairs
+  affiliation: University of Illinois Urbana-Champaign, School of Information Sciences
+  orcid: 0000-0001-8960-1846
+  website: https://tedunderwood.com/
+DelRioRiandeGimena:
+  name: Gimena del Rio Riande
+  sort_name: del Rio Riande, Gimena
+  title: Investigadora Asociada del Consejo Nacional de Investigaciones Científicas y Técnicas [Associate Researcher at the National Scientific and Technical Research Council]
+  affiliation: CONICET, Argentina
+  orcid: 0000-0002-8997-5415
+  website: https://www.aacademica.org/gimena.delrio.riande
+TasovacToma:
+  name: Toma Tasovac
+  title: Director
+  affiliation: DARIAH
+  orcid: 0000-0002-3919-993X
+ErmolaevNatalia:
+  name: Natalia Ermolaev
+  title: Associate Director
+  affiliation: Center for Digital Humanities at Princeton
+  orcid:
+EstenEmily:
+  name: Emily Esten
+  title: Arnold and Deanne Kaplan Collection of Early American Judaica Curator of Digital Humanities
+  affiliation: University of Pennsylvania Libraries
+  orcid: 0000-0002-1120-1698
+SmithJustin:
+  name: Justin Smith
+  title: PhD Candidate
+  affiliation: The Pennsylvania State University
+MurrayCourtney:
+  name: Courtney Murray
+  title: PhD Candidate
+  affiliation: The Pennsylvania State University
+CaseyJim:
+  name: Jim Casey
+  title: Assistant Professor of African American Studies, History, and English
+  affiliation: The Pennsylvania State University
+  website: https://jim-casey.com/
+VanHyningVictoriaAnne:
+  name: Victoria Anne Van Hyning
+  sort_name: Van Hyning, Victoria Anne
+  title: Assistant Professor of Library Innovation
+  affiliation: University of Maryland, College of Information Studies
+  orcid: 0000-0001-6775-2870
+JonesMasonA:
+  name: Mason A. Jones
+  title: PhD Candidate
+  affiliation: University of Maryland, College Park, iSchool
+  orcid: 0000-0002-8777-2315
+  website: https://masonajones.com
+DudleyMatthew:
+  name: Matthew Dudley
+  title: PhD Candidate
+  affiliation: Yale University, Department of History
+ReaderSteffy:
+  name: Steffy Reader
+  title: Retired Psychotherapist
+BlickhanSamantha:
+  name: Samantha Blickhan
+  title: Humanities Lead and Co-Director of the Zooniverse Team
+  affiliation: The Adler Planetarium, Chicago IL
+  orcid: 0000-0002-3775-5744
+GrangerWill:
+  name: Will Granger
+  title: Web Developer
+  affiliation: Zooniverse, The Adler Planetarium, Chicago IL
+NoordinShaunA:
+  name: Shaun A. Noordin
+  title: Web Developer
+  affiliation: Zooniverse, The Adler Planetarium, Chicago IL
+RotherBecky:
+  name: Becky Rother
+  title: Senior Product Designer
+  affiliation: Devbridge
+KoeserRebeccaSutton:
+  name: Rebecca Sutton Koeser
+  title: Lead Developer
+  affiliation: Center for Digital Humanities at Princeton
+  orcid: 0000-0002-8762-8057
+  website: https://rlskoeser.github.io/
+DoroudianGissoo:
+  name: Gissoo Doroudian
+  title: User Experience Designer
+  affiliation: Center for Digital Humanities at Princeton
+  orcid: 0000-0002-6702-6964
+  website: https://dynamicdor.com/
+BudakNick:
+  name: Nick Budak
+  title: Digital Humanities Developer
+  affiliation: Center for Digital Humanities at Princeton
+  orcid: https://orcid.org/0000-0002-4542-0899
+LiXinyi:
+  name: Xinyi Li
+  title: Assistant Professor, Undergraduate Communications Design
+  affiliation: Pratt Institute
+  orcid: 0000-0002-6114-3182
+MunsonRebecca:
+  name: Rebecca Munson
+  title: Assistant Director for Interdisciplinary Education
+  affiliation: Center for Digital Humanities at Princeton
+  orcid: 0000-0002-8735-8405
+WythoffGrant:
+  name: Grant Wythoff
+  title: Digital Humanities Strategist
+  affiliation: Center for Digital Humanities at Princeton
+  orcid: 0000-0002-6605-9596
+  website: https://wythoff.net

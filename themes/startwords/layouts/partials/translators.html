@@ -1,0 +1,8 @@
+{{/* display translator information if translated */}}
+{{- if .IsTranslated -}}
+<div class="translators">
+{{- range where .AllTranslations ".Params.translators" "!=" nil -}}
+    {{ i18n .Language.LanguageName }} {{ i18n "translation-by" }} {{ delimit .Params.translators "," "and" }}
+{{- end -}}
+</div>
+{{- end -}}

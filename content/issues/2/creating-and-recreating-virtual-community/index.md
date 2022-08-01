@@ -4,9 +4,9 @@ slug: 'creating-and-recreating-virtual-community'
 title: Creating and Recreating Virtual Community on Douglass Day
 order: 3
 authors:
-    - Justin Smith
-    - Courtney Murray
-    - Jim Casey
+    - SmithJustin
+    - MurrayCourtney
+    - CaseyJim
 date: 2021-12-01
 doi: 10.5281/zenodo.5750693
 pdf: https://zenodo.org/record/5750693/files/startwords-2-creating-and-recreating-virtual-community.pdf
@@ -71,7 +71,7 @@ Launching our social media campaign early on helped attract attention to the eve
 {{< tweet user="BrigField" id="1360976957337456641" >}}
 {{< tweet user="DGershenowitz" id="1361014486589706249" >}}
 {{< tweet user="hralperta" id="1361039589914382344" >}}
-{{< tweet user="piercestanley" id="1361042468469432321" >}}
+{{/*< tweet user="piercestanley" id="1361042468469432321" >*/}}
 
 {{< wrap class="tweet-group print-only-preview" >}}
 <a href="https://twitter.com/Anna_E_Lacy/status/1360301729451962376"><img loading="lazy" src="images/tweetA1.png" alt="screenshot of tweet from Anna Lacy"></a>

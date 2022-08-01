@@ -7,6 +7,8 @@ theme: Scribes
 date: 2021-12-01
 slug: 2
 summary: Between the ninth and nineteenth centuries, community members in Fustat, Egypt discarded textual materials in a storeroom (or ‘geniza’) of the Ben Ezra synagogue.
+authors:
+  - EstenEmily
 contributors:
     - Guest Editor:
       - Emily Esten
@@ -36,5 +38,3 @@ What happens after the crowdsourcing process is complete? “Data’s Destinatio
 While the feature articles highlight the work of project teams to support these efforts, this issue’s snippets shed light on the public who take part in these crowdsourcing projects. In “Creating & Recreating Virtual Community on Douglass Day”, members of the Colored Conventions Project team share the lessons learned in pivoting to new audiences and engagement in the midst of COVID-19 pandemic. “Serendipity in the Cairo Geniza” tackles one fragment from *Scribes* from two perspectives: that of a graduate student and a crowdsourcing volunteer. Dudley and Reader bring their own unique expertise to this corpus, and take us on their parallel research journeys.
 
 To be a crowdsourcing scribe is to understand one’s role in this larger research and engagement process—to be a part of the data we collect and create. We hope this issue highlights the space for analysis and discussion within community-engaged scholarship, and the possibilities for new avenues of discovery, access, and management that this methodology makes possible.
-
-—Emily Esten

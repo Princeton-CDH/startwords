@@ -15,18 +15,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom"{{ with site.LanguageCode }} xml:lang="{{ . }}"{{ end }}>
     <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
     {{- $title := site.Title -}}
+    {{/* if section title is different than site title, prepend with site title */}}
     {{- with .Title -}}
         {{- if (not (eq . site.Title)) -}}
-            {{- $title = printf `%s %s %s` . (i18n "feed_title_on" | default "on") site.Title -}}
+            {{- $title = printf `%s %s` site.Title . -}}
         {{- end -}}
     {{- end -}}
     {{- if .IsTranslated -}}
-        {{ $title = printf "%s (%s)" $title (index site.Data.i18n.languages .Lang) }}
-    {{- end -}}
+    {{- range .Translations -}}
     {{ printf `<title type="html"><![CDATA[%s]]></title>` $title | safeHTML }}
     {{ with (or (.Param "subtitle") (.Param "tagline")) }}
         {{ printf `<subtitle type="html"><![CDATA[%s]]></subtitle>` . | safeHTML }}
     {{ end }}
+    {{- end -}}
+    {{- end -}}
     {{ $output_formats := .OutputFormats }}
     {{ range $output_formats -}}
         {{- $rel := (or (and (eq "atom" (.Name | lower)) "self") "alternate") -}}
@@ -37,10 +39,9 @@
     {{- range .Translations }}
         {{ $output_formats := .OutputFormats }}
         {{- $lang := .Lang }}
-        {{- $langstr := index site.Data.i18n.languages .Lang }}
         {{ range $output_formats -}}
             {{ with $output_formats.Get .Name }}
-                {{ printf `<link href=%q rel="alternate" type=%q hreflang=%q title="[%s] %s" />` .Permalink .MediaType.Type $lang $langstr .Name | safeHTML }}
+                {{ printf `<link href=%q rel="alternate" type=%q hreflang=%q title="[%s] %s" />` .Permalink .MediaType.Type $lang $lang .Name | safeHTML }}
             {{- end -}}
         {{- end }}
     {{- end }}
@@ -96,8 +97,9 @@
             {{ end }}
             {{ with .Params.Authors -}}
                 {{- range . -}} <!-- Assuming the author front-matter to be a list -->
+                {{ $info := index $.Site.Data.authors . }} {{/* get author info */}}
                     <author>
-                        <name>{{ . }}</name>
+                        <name>{{ $info.name | default . }}</name>
                     </author>
                 {{- end -}}
             {{- end }}

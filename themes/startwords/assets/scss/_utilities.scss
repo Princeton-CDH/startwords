@@ -30,7 +30,11 @@
     > .text-container {
         grid-column: 1 / 11;
         @media (min-width: $breakpoint-s) { grid-column: 2 / 10; }
-        @media (min-width: $breakpoint-m) { grid-column: 3 / 9; }
+        @media (min-width: $breakpoint-m) {
+            grid-column: 3 / 9;
+            /* don't allow to grow wider than the grid (e.g., embedded videos) */
+            max-width: 100%;
+        }
     }
 }
 
@@ -68,13 +72,37 @@
     outline: none;
     outline-offset: 2px;
 
-    &:focus {
+    &:focus-visible {
         outline: 1px dashed $black;
     }
 }
 .highlight-focus { @include highlight-focus; }
 .inverted .highlight-focus {
-    &:focus {
+    &:focus-visible {
         outline-color: $off-white;
     }
+}
+
+/* phosphor icons
+   https://phosphoricons.com/
+
+   Rather than load the full set, download and define only the ones we are using
+*/
+
+i[class^="ph-"] {
+    background-size: contain;
+    display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+
+    fill: currentColor;
+    vertical-align: -0.15em;
+}
+
+.ph-link-thin {
+    background-image: url(/img/icons/phosphor/link-thin.svg);
+}
+
+.ph-globe-thin {
+    background-image: url(/img/icons/phosphor/globe-thin.svg);
 }

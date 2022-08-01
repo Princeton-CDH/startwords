@@ -11,21 +11,29 @@
 |
 |  {{ .Title }}
 |
-|  Authors:
+|  {{ i18n "Authors" }}:
 |  {{ range .Params.Authors }}
-|     {{ . }}{{ end }}
+{{- $info := index $.Site.Data.authors . -}} {{/* get author info */}}
+|     {{ $info.name | default . }}{{ end }}
+|
 |
 |  {{ .Permalink }}
 |{{ if .Params.doi }}
+  {{- if .IsTranslated -}}{{/* if translated, display all DOIs with language indicated */}}
+|    {{ range .AllTranslations }}
+|  doi:{{ .Params.doi }} ({{ .Language.LanguageName }})
+    {{- end -}}
+  {{ else }}
 |  doi:{{ .Params.doi }}{{ end }}
+|{{ end }}
 |{{ if .Params.tags }}
 |  {{ range .Params.tags }}#{{ . }}
 |{{ end }}{{ end }}
 ⩩-----------------------------------------------------------------------------------⟩
 |
-|  Issue {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
+|  {{ i18n "issue" }} {{ .Parent.Params.number }}: {{ upper .Parent.Params.theme }}
 |  {{ .Parent.Permalink }}
-|  {{ .Parent.Date.Format "January 2006" }}
+|  {{ .Parent.Date | time.Format "January 2006" }}
 |
 ⩩-----------------------------------------------------------------------------------⟩
 {{- $rawContent := .RawContent -}}

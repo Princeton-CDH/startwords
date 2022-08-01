@@ -1,20 +1,35 @@
-<section id="features" aria-label="features" class="inverted grid">
+<section id="features" aria-label="{{ i18n "features" }}" class="inverted grid">
     <div class="wide-container">
         {{/* display feature essays; two by default, but overridable in issue params */}}
+
+        {{/* get articles for the current issue */}}
+        {{ $pages := newScratch }}
+        {{ $currentArticles := .Pages.ByParam "order" }}
+        {{ $pages.Set "articles" $currentArticles }}
+        {{/* if this issue is translated, get articles from main language issue to supplement any untranslated content */}}
+        {{ if .IsTranslated }}
+            {{ $defaultLang := index .Site.Languages 0 }}
+            {{ $mainLangIssue := index (where .Translations ".Lang" $defaultLang.Lang) 0 }}
+            {{ $pages.Set "articles" ($currentArticles | lang.Merge ($mainLangIssue.Pages.ByParam "order")) }}
+        {{ end }}
+        {{/* order the merged set so mixed language articles will sort properly */}}
+        {{ $articles := sort ($pages.Get "articles")  ".Params.order" }}
+
         {{ $numFeatures := default 2 (int .Params.num_features) }}
-        {{ range first $numFeatures (.Pages.ByParam "order") }}
+        {{ range first $numFeatures  $articles }}
             {{ .Render "summary" }}
         {{ end }}
         {{/* display snippets, if any; any articles after the features */}}
-        {{ $snippets := after $numFeatures (.Pages.ByParam "order") }}
+        {{ $snippets := after $numFeatures $articles }}
         {{ if $snippets }}
         <div class="snippets">
-            <h2>snippets</h2>
+            <h2>{{ i18n "snippets" }}</h2>
             {{ range $snippets }}
             <div class="article-short-summary">
                 <a class="highlight-focus" href="{{ .RelPermalink }}">{{ .Title }}</a>
                 {{ partial "authors" . }}
                 {{ partial "tags" . }}
+                {{ partial "available_languages.html" . }}
             </div>
             {{ end }}
         </div>

@@ -12,6 +12,7 @@
 @import 'home';
 @import 'error';
 @import 'darkmode';
+@import 'i18n';
 
 // articles
 @import 'article/global';
@@ -19,12 +20,16 @@
 @import 'article/single';
 @import 'article/notes';
 @import 'article/figure';
+@import 'article/interlude';
 
 // issues
 @import 'issue/global';
 @import 'issue/summary';
 @import 'issue/list';
 @import 'issue/single';
+
+// author list page
+@import 'authors/list';
 
 // pages
 @import 'page/global';

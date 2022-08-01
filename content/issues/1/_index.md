@@ -7,6 +7,8 @@ theme: Transformations
 date: 2020-10-01
 slug: 1
 summary: Every day, countless decisions are quietly made on the basis of data most of us will never touch.
+authors:
+  - WythoffGrant
 contributors:
     - Editor:
       - Grant Wythoff
@@ -29,5 +31,3 @@ The essays in this inaugural issue of *Startwords* seek to give data a different
 While "Data Beyond Vision" demonstrates the importance of giving data tangible form, "Their Data, Ourselves" explores the mirror image of that process, when things in the world are first captured as data. Rebecca Munson asks what it means to "become at once both object and analyst" of data about an illness, to inhabit a body whose meaning is transformed into crucial millimeters of difference between periodic scans. In a world still trying to make sense of the pandemic, still coming to terms with the quantification of illness and risk, this essay provides guidance from someone who has known what it means to experience a body as data for some time.
 
 What's at stake in both of these essays isn't simply the transformation of data from one state into another, but the affective repercussions of those transformations. The essays are published here in conversation, but we also hope that their very different forms showcase the range and variety of writing we've designed this journal to feature in the future.
-
-—Grant Wythoff

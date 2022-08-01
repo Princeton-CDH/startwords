@@ -1,0 +1,9 @@
+{{/* display language "chips" to make available language explicit */}}
+<div class="languages" aria-label='{{ i18n "languages available" }}'>
+    {{- range .AllTranslations -}}
+       {{ $translatedLangName := i18n .Language.LanguageName }}
+       {{/* NOTE: since i18n doesn't currently allow specifying language,
+       use language-specific site param to display text in the TARGET language instead of current */}}
+        <span aria-label="{{ .Language.LanguageName }}" title="{{ .Site.Params.available_in }}">{{ .Lang | upper }}</span>
+    {{ end }}
+</div>

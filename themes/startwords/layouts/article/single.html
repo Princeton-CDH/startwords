@@ -17,12 +17,22 @@
 
 {{ define "page_meta" }}
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/>
-<meta name="citation_public_url" content="{{ .RelPermalink | absURL }}" />
+<meta name="citation_public_url" content="{{ cond .Site.Params.absoluteArticleLinks .Permalink .RelPermalink | absURL }}" />
 <meta name="citation_title" content="{{ .Params.Title | htmlEscape }}"/>
 <meta name="citation_date" content="{{ .Params.date.Format `2006/01` }}"/>
 {{/* NOTE: Google Scholar prefers full date in YYYY/MM/DD form or year only */}}
+
+{{/* get author info from author data file */}}
+{{ $data := newScratch }} {{/* collect names for comma-delimited output */}}
 {{ range .Params.Authors }}
-<meta name="citation_author" content="{{ . }}"/>  {{/* lastname first preferred, if possible */}}
+    {{ $info := index $.Site.Data.authors . }} {{/* get author info */}}
+    {{ $lastname_first := partial "author_lastnamefirst.html" $info }}
+    {{/* add display name to author list for combined author metadata; use name from param as fallback if there is no entry in the authors data file */}}
+    {{ $data.Add "author_names" (slice ($info.name | default .)) }}
+<meta name="citation_author" content="{{ $lastname_first | default . }}"/>  {{/* lastname first preferred, if possible */}}
+{{- with $info.orcid -}}
+<meta name="citation_author_orcid" content="https://orcid.org/{{ . }}"/>
+{{- end -}}
 {{ end }}
 {{ with .Params.pdf -}}<meta name="citation_pdf_url" content="{{ . }}">{{- end }}
 {{ if .Params.doi }}<meta name="citation_doi" content="{{ .Params.doi }}"/>{{ end }}
@@ -33,7 +43,7 @@
 <meta name="citation_publisher" content="Center for Digital Humanities, Princeton University"/>
 <meta name="DC.rights" content="{{ .Site.Params.license }}" />
 {{/* metadata for PDF */}}
-<meta name="author" content="{{ delimit .Params.Authors ", " }}" />
+<meta name="author" content="{{ delimit ($data.Get "author_names") ", " }}" />
 <meta name="generator" content="Center for Digital Humanities, Princeton University"/>
 <meta name="dcterms.created" content="{{ .Params.date.Format `2006-01` }}"/>
 {{/* also available: dcterms.modified, keywords */}}
@@ -46,32 +56,43 @@
     <article {{ with .Params.article_class }} class="{{ . }}" {{ end }}>
         <div class="grid">
             <header>
-                <p class="number"><a href="{{ .Parent.RelPermalink }}">Issue {{ .Parent.Params.number }}</a></p>
+                <p class="number"><a href="{{ cond .Site.Params.absoluteArticleLinks .Parent.Permalink  .Parent.RelPermalink }}">{{ i18n "issue" }} {{ .Parent.Params.number }}</a></p>
                 <p class="theme">{{ .Parent.Params.theme }}</p>
                 <h1>{{ .Params.Title }}</h1>
-                {{ partial "authors" . }}<br>
-                {{ partial "pubdate" . }}<br>
-                {{ partial "tags" . }}<br>
+                <p>{{ partial "authors" . }}</p>
+                <p>{{ partial "pubdate" . }}</p>
+                {{ partial "tags" . }}
                 {{ if .Params.doi }}
-                <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a><br>
+                    {{ if .IsTranslated }}{{/* if translated, display all DOIs with language indicated */}}
+                    <div class="doi-group">
+                    {{ range .AllTranslations }}
+                        <p><a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a> <span class="doi-lang">({{ .Language.LanguageName }})</span></p>
+                    {{ end }}
+                    </div>
+                    {{ else }}
+                    <p><a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="doi">{{ .Params.doi }}</a></p>
+                    {{ end }}
+
                 {{ end }}
                 <p class="formats">
                 {{ with  .OutputFormats.Get "txt" -}}
-                    <a href="{{ .RelPermalink }}" rel="alternate" type="text/plain">TXT</a>
+                    <a href="{{ cond $.Site.Params.absoluteArticleLinks .Permalink .RelPermalink }}" rel="alternate" type="text/plain">TXT</a>
                 {{- end }}
                 {{ with .Params.pdf -}}
                     <a href="{{ . }}" rel="alternate" type="application/pdf">PDF</a>
                 {{- end }}
                 </p>
+
+                {{ partial "translations.html" . }}
             </header>
 
             {{/* elements for PDF header & footer */}}
             <section class='print-only'>
-
-                <a class="first-page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+                {{ $siteUrl := cond .Site.Params.absoluteArticleLinks (absURL "/") (relURL "/") }}
+                <a class="first-page-header" href="{{ $siteUrl }}" aria-label="Startwords">
                     <img alt="Startwords" src="{{ relURL "/pdf-logotype.svg" }}" /></a>
 
-                <a class="page-header" href="{{ relURL "/" }}" aria-label="Startwords">
+                <a class="page-header" href="{{ $siteUrl }}" aria-label="Startwords">
                     <img alt="Startwords" src="{{ relURL "/pdf-logo.svg" }}" /></a>
 
                  <a href="http://doi.org/{{ .Params.doi }}" rel="alternate" class="page-doi">doi:{{ .Params.doi }}</a>
