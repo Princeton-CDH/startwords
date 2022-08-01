@@ -16,6 +16,7 @@
 |     Xinyi Li
 |     Rebecca Sutton Koeser
 |
+|
 |  https://startwords.cdh.princeton.edu/issues/1/stacking-howto/
 |
 |

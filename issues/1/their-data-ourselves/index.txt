@@ -16,9 +16,11 @@
 |  
 |     Rebecca Munson
 |
+|
 |  https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/
 |
 |  doi:10.5281/zenodo.3713678
+|
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |

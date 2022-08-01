@@ -7,7 +7,9 @@ function ContextualNotes(){_classCallCheck(this,ContextualNotes);// display note
 // with brief timeout for font loading & layout
 ContextualNotes.disableHideOnScroll(2);var note=ContextualNotes.currentNote;if(note){note.opacity=0;// override default target note styles
 window.setTimeout(function(){ContextualNotes.showNote();note.opacity=1},500)}// bind event listeners
-window.addEventListener("hashchange",function(){ContextualNotes.showNote()},false);/* on scroll, if a footnote is currently targeted, unselect */window.addEventListener("scroll",function(){if(location.hash.startsWith("#fn:")&&ContextualNotes.hideOnScroll){// close the note and unbind close link handler
+window.addEventListener("hashchange",function(){ContextualNotes.showNote()},false);// bind to footnote reference click to manage browser hsitory
+document.querySelectorAll("a.footnote-ref").forEach(function(a){a.addEventListener("click",function handleClick(event){event.preventDefault();// NOTE: replace the location to avoid polluting browser history
+window.location.replace(a.getAttribute("href"))})});/* on scroll, if a footnote is currently targeted, unselect */window.addEventListener("scroll",function(){if(location.hash.startsWith("#fn:")&&ContextualNotes.hideOnScroll){// close the note and unbind close link handler
 ContextualNotes.closeNote()}});/* Adjust for poor behavior on iOS, where it requires clicking twice
         to display the contextual note. */window.addEventListener("touchend",function(event){// if a footnote reference is touched, disable hide on scroll
 // (in case the touch includes page movement) and trigger a click
@@ -27,7 +29,8 @@ ContextualNotes.disableHideOnScroll(2)}ContextualNotes.positionContextualNote(no
 var backref=note.getElementsByClassName("footnote-backref").item(0);backref.addEventListener("click",ContextualNotes.onNoteClose)}}},{key:"closeNote",value:function closeNote(note){note=note||ContextualNotes.currentNote;if(note){// change the location hash, deselecting the note
 // Set to non-existent id so note is no longer targeted,
 // but document does not scroll
-location.hash="#-";// unbind the close link handler
+// NOTE: replace the location to avoid polluting browser history
+window.location.replace("#-");history.replaceState(null,"",location);// unbind the close link handler
 var backref=note.getElementsByClassName("footnote-backref").item(0);backref.removeEventListener("click",ContextualNotes.onNoteClose);// if endnotes were hidden to show this note, redisplay them
 if(ContextualNotes.showEndnotesOnClose){ContextualNotes.showEndnotes();ContextualNotes.showEndnotesOnClose=false}}}},{key:"onNoteClose",value:function onNoteClose(event){// prevent default behavior to avoid jarring scroll to reference
 // Check that the parent note is still selected; otherwise behave normally
@@ -55,9 +58,9 @@ note.style.top=noteLocation.top-adjustment+"px"}}},{key:"showEndnotes",value:fun
 elem=elem||ContextualNotes.endnotes;elem.classList.add("endnotes");// clear computed positions/styles for all notes
 var notes=elem.getElementsByTagName("li");Array.prototype.forEach.call(notes,function(li){li.removeAttribute("style");li.classList.remove("flip")})}},{key:"hideEndnotes",value:function hideEndnotes(elem){// default footnotes; if elem is undefined, use footnotes element
 elem=elem||ContextualNotes.endnotes;elem.classList.remove("endnotes")}},{key:"endnoteIntersectionCallback",value:function endnoteIntersectionCallback(entries,observer){entries.forEach(function(entry){var elem=entry.target;if(entry.isIntersecting){ContextualNotes.showEndnotes(elem)}else{ContextualNotes.hideEndnotes(elem)}})}}]);return ContextualNotes}();_defineProperty(ContextualNotes,"hideOnScroll",true);_defineProperty(ContextualNotes,"showEndnotesOnClose",false);_defineProperty(ContextualNotes,"endnotes",void 0);_defineProperty(ContextualNotes,"observer",void 0);document.addEventListener("DOMContentLoaded",function(){// initialize contextual notes and make available on window
-console.debug("context notes initialized");window.contextnotes=new ContextualNotes});;// pitbar behavior adapted from PPA
+window.contextnotes=new ContextualNotes});;// pitbar behavior adapted from PPA
 // https://github.com/Princeton-CDH/ppa-django/blob/master/srcmedia/js/pitbar.js
-document.addEventListener("DOMContentLoaded",function(){var nav=document.querySelector("nav[aria-label=main]");var scroll=0;// hide the nav element when scrolling down; show when scrolling up quickly
+document.addEventListener("DOMContentLoaded",function(){var nav=document.querySelector("nav.main");var scroll=0;// hide the nav element when scrolling down; show when scrolling up quickly
 function checkScroll(){var scrolled=Math.abs(document.body.getBoundingClientRect().top);if(scrolled>scroll&&scrolled>40){if(!nav.classList.contains("hidden")){nav.classList.add("hidden")}}else if(scrolled<scroll&&scroll-scrolled>5){if(nav.classList.contains("hidden")){nav.classList.remove("hidden")}}scroll=scrolled}// only use the hide/show behavior if the screen matches mobile media query
 function setHandler(){var mobile=window.matchMedia("(max-width: 768px)");if(mobile.matches)document.addEventListener("scroll",checkScroll);else document.removeEventListener("scroll",checkScroll)}// apply the behavior on page load and re-apply if window is resized
 setHandler();window.addEventListener("resize",setHandler)});// use js to enable smooth scroll on issue list page for safari via polyfill

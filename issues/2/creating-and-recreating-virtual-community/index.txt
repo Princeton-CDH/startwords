@@ -17,9 +17,11 @@
 |     Courtney Murray
 |     Jim Casey
 |
+|
 |  https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/
 |
 |  doi:10.5281/zenodo.5750693
+|
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |
@@ -70,6 +72,8 @@ Launching our social media campaign early on helped attract attention to the eve
 
 *****
 
+{{//}}
+
     Picked @joythebaker ‘s excellent chocolate-peanut butter pretzel layer cake for #TheGreatDouglassDayBakeOff #DouglassDay @CCP_org @DouglassDayorg @DigBlk pic.twitter.com/lElhFccO1f
     — Anna Lacy (@Anna_E_Lacy) February 12, 2021
 
@@ -85,7 +89,7 @@ Launching our social media campaign early on helped attract attention to the eve
     “Power concedes nothing without a demand.” Happy #DouglassDay! @CCP_org @librarycongress “If there is no struggle, there is no freedom.” -FD pic.twitter.com/EM9CtUxDwq
     — Pierce Stanley (@piercestanley) February 14, 2021
 
-*****
+*******
 
 Amid the pandemic, we recognized that not all of our participants used social media so we expanded our newsletter. Our response rate was higher than on social media. We sent out regular reminders and resources, including a consistent timeline, visual aesthetic, and recurring thematic framing.
 

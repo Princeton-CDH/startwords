@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.91.0">Hugo</generator><title type="html">Issue One on Startwords</title><link href="https://startwords.cdh.princeton.edu/issues/1/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/issues/1/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/issues/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-03-24T20:25:01+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/1/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T16:23:20-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.101.0">Hugo</generator><link href="https://startwords.cdh.princeton.edu/issues/1/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/issues/1/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/issues/1/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-08-01T19:00:29+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/1/</id><entry><title type="html">Data Beyond Vision</title><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><author><name>Nick Budak</name></author><author><name>Xinyi Li</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-08-01T14:58:15-04:00</updated><content type="html"><![CDATA[<p>How do we represent tangible objects in a visual medium? We use words, pictures, and diagrams. We describe, share, show, and fail.</p>
 <p>Humanists continue to expand the range of objects they study, but the range of scholarly outputs has not seen a similar expansion. While there are movements within Digital Humanities to consider nontraditional formats, the presentation and publishing of these experimental works (such as installations and project demos) are still secondary or sidelined, where they exist at all. What would it look like to consider non-textual research outputs as first-order scholarly work? The historian David Staley suggests the terms “interpretive objects” or “humanistic objects” for creative scholarly acts that are not limited to text;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Catherine D’Ignazio and Lauren Klein offer the broader term “rhetorical objects.”<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> This kind of innovative work is carefully researched and theorized. It deserves scholarly engagement and intellectual rigor even if it does not fit into established modes of scholarly communication.</p>
 <p>Academic research has a long history of textual practice and citation that we haven’t yet figured out how to adapt to non-textual scholarship. Both the <a href="https://openhumanitiesdata.metajnl.com/">Journal of Open Humanities Data</a> and the <a href="https://joss.theoj.org/">Journal of Open Source Software</a> can be seen as steps in this direction: they provide venues for the review and publication of data and software, respectively, accompanied by brief “metapapers.” But even these journals rely on transforming the content they review—data and software—into text in order to function! What are the implications if we truly expand the range of accepted scholarly outputs to include such interpretive objects as data structures, databases, software, datasets, physical objects, and augmented reality experiences? Will scholars need to become experts in all these modes, or can we find a way to become conversant in multiple forms of argumentation, as with other important scholarly theories?</p>
 <p>The pieces that follow describe four different data physicalizations, which we consider to be one class of interpretive object. This is an exploration of our work as we wrestle with how to present physical objects in a non-physical medium, objects meant to be held, touched, or viewed from different angles. Not quite metapaper, manual, or manifesto — these are guides toward reading and thinking in creative new scholarly modes.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
-<div id="interlude">
+<div class="interlude">
 <div class="left">
 <p><strong>SEE</strong></p>
-<p>from a distance.<br>
-Cold, commanding.<br>
-Sense of mastery,<br>
+<p>from a distance.
+Cold, commanding.
+Sense of mastery,
 but optical illusions deceive.</p>
-<p>Look in a mirror.<br>
-and see yourself<br>
+<p>Look in a mirror.
+and see yourself
 seeing.</p>
 </div>
 <div class="right">
 <p><strong>TOUCH</strong></p>
-<p>up close.<br>
-Intimate, incomplete.<br>
-Explore partial knowledge,<br>
+<p>up close.
+Intimate, incomplete.
+Explore partial knowledge,
 enlighten slowly.</p>
-<p>Run fingers across skin<br>
-and touch yourself<br>
+<p>Run fingers across skin
+and touch yourself
 touching.</p>
 </div>
 
@@ -717,119 +717,119 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <h2 id="acknowledgments">Acknowledgments</h2>
 <p>Photos of the data physicalizations on display and Gissoo Doroudian weaving are by Shelley Szwast. The high resolution capture of the data weaving used for the deep zoom and margin image was created by the Digital Imaging Studio, Princeton University Library. The photo of the CDH main space with empty tables is by Mana Winters. The custom visuals for this essay were created by Doroudian; the icons for each section were created by Doroudian and revised by Doroudian and Xinyi Li. All other photos, charts, and models were created by the authors.</p>
 <p>Thanks to our collaborators on the <a href="https://shakespeareandco.princeton.edu/about/credits/">Shakespeare and Company Project team</a> and <a href="https://derridas-margins.princeton.edu/credits/">Derrida’s Margins project team</a> for their work to create the data we have experimented with and physicalized here; to the <a href="http://ach2019.ach.org/cfp-call-for-participation-en/">ACH2019 conference organizers for the generous CFP</a> with the option of installations, which led in part to this work; and to the <a href="https://cdh.princeton.edu/">Center for Digital Humanities at Princeton</a> and our colleagues there for the tremendous support and encouragement for this project. Special thanks to our colleagues at Princeton University Library, Meghan Testerman and Annette Jushchuk, for participating in a weaving exhibition test run and giving us feedback to improve the instructions.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>David Staley, “On the ‘Maker Turn’ in the Humanities,” in <em>Making Things and Drawing Boundaries: Experiments in the Digital Humanities</em>, ed. Jentery Sayers (Minneapolis: University of Minnesota Press, 2017), 32–41, <a href="https://doi.org/10.5749/j.ctt1pwt6wq.5">https://doi.org/10.5749/j.ctt1pwt6wq.5</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
+<li id="fn:2">
 <p>“Any communicating object that reflects choices about the selection and representation of reality is a rhetorical object.” Catherine D’Ignazio and Lauren F. Klein, <em>Data Feminism</em> (Cambridge: MIT Press, 2020), 78.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
+<li id="fn:3">
 <p>These pieces are based on statements—partly inspired by artist statements—that were included as part of the “Data Beyond Vision” installation presented at the ACH2019 conference. However, we have considerably expanded and adapted them, moving beyond that format. Rebecca Sutton Koeser, Nick Budak, Gissoo Doroudian, and Xinyi Li, “Data Beyond Vision” (installation, ACH2019, Pittsburgh, PA, July 25, 2019).&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:4" role="doc-endnote">
+<li id="fn:4">
 <p>The term “data physicalization” can be understood in three ways: as a “physical artifact whose geometry or material properties encode data”; as the process of giving physical form to data; or, as the research area combining data visualization and tangible user interfaces.  See Yvonne Jansen, Pierre Dragicevic, Petra Isenberg, Jason Alexander, Abhijit Karnik, Johan Kildal, Sriram Subramanian, and Kasper Hornbæk, “Opportunities and Challenges for Data Physicalization,” in <em>CHI ’15: Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems</em> (April 2015), 3227–36, <a href="https://doi.org/10.1145/2702123.2702180">https://doi.org/10.1145/2702123.2702180</a>.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:5" role="doc-endnote">
+<li id="fn:5">
 <p>To get a better sense of the variety and historic range of data physicalizations, browse a gallery of physical visualizations and related artifacts at <a href="http://dataphys.org/list/gallery/">http://dataphys.org/list/gallery/</a>.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:6" role="doc-endnote">
+<li id="fn:6">
 <p>Read more about “Critical Making”, which was coined by Matt Ratto, at <a href="https://criticalmaking.com/matt-ratto/">https://criticalmaking.com/matt-ratto/</a>.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:7" role="doc-endnote">
+<li id="fn:7">
 <p>This work is strongly aligned with the principles of data feminism—in particular, elevating emotion and embodiment; considering context; and making labor visible. D’Ignazio and Klein, <em>Data Feminism</em>, 17–18.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:8" role="doc-endnote">
+<li id="fn:8">
 <p>Donna Haraway, &ldquo;Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective,&rdquo; <em>Feminist Studies</em> 14, no. 3 (Autumn 1988): 581. <a href="https://doi.org/10.2307/3178066">https://doi.org/10.2307/3178066</a>.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:9" role="doc-endnote">
+<li id="fn:9">
 <p>D’Ignazio and Klein, <em>Data Feminism</em>, 76.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:10" role="doc-endnote">
+<li id="fn:10">
 <p>We’re trying out this approach on research partnership projects we’ve worked on at the Center for Digital Humanities at Princeton. Read the <a href="https://github.com/princeton-cdh/mep-django/issues/404">GitHub issue where we discussed the implementation</a>, the <a href="https://www.sarasoueidan.com/blog/accessible-data-charts-for-khan-academy-2018-annual-report/">article that inspired our approach</a>, and an example of it in use in a <a href="https://prosody.princeton.edu/editorial/2020/01/visualizing-collections/">Princeton Prosody Archive Editorial essay</a>. The journal you are now reading also experiments with this approach. See the <a href="https://github.com/Princeton-CDH/startwords/pull/95">GitHub pull request</a> where we discussed a plain text caption and alt-text schema.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:11" role="doc-endnote">
+<li id="fn:11">
 <p>The difficulty and unfamiliarity of this intimacy may be demonstrated in part by our experience with displaying these objects. We often have to encourage and reassure people that they are allowed to touch these items, even though there are signs clearly posted inviting just that.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:12" role="doc-endnote">
+<li id="fn:12">
 <p>&ldquo;Mastery&rdquo; is a problematic term, as African Americans and members of other marginalized groups know well, and as the racial unrest in the United States this summer has made White Americans more aware. Klein and D’Ignazio also point out that the term has a gendered component as well, with the master stereotype associated with men across many Western cultures. <em>Data Feminism,</em> 77. For a discussion of “master” and its unfortunate use in technology, see “Toward anti-racist technical terminology,” Association for Computers and the Humanities (ACH), accessed October 22, 2020, <a href="https://ach.org/toward-anti-racist-technical-terminology/">https://ach.org/toward-anti-racist-technical-terminology/</a>&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:13" role="doc-endnote">
+<li id="fn:13">
 <p>“Levinas is one of few philosophers to displace the metaphor of vision dominating ontological accounts of intersubjectivity into a metaphor of touch … which resonates with Irigaray’s own reformulation of subject-object relations in the figure of the two lips.” Ince, Kate Ince, “Questions to Luce Irigaray,” <em>Hypatia</em> 11, no. 2 (1996): 122–40, <a href="http://www.jstor.org/stable/3810267">http://www.jstor.org/stable/3810267</a>&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:14" role="doc-endnote">
+<li id="fn:14">
 <p>“This gesture . . . which weds without consum(mat)ing .. may be called: the touch of the caress. . . . This touch binds and unbinds two others in a flesh that is still and always untouched by mastery.” Luce Irigaray, <em>An Ethics of Sexual Difference</em>, trans. Carolyn Burke and Gillian C. Gill (Ithaca: Cornell Press, 1993), 186.&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:15" role="doc-endnote">
+<li id="fn:15">
 <p>This technique, also called “modular origami,” uses separate sheets folded into repeated interlocking small forms. The practice is attested as early as the eighteenth century, but gained popularity in the 1960s with the work of Robert Neale in the United States and Mitsunobu Sonobe in Japan. Our model uses forms from Tomoko Fuse’s book, <em>Unit Origami: Multidimensional Transformations</em> (Tokyo: Japan Publications, 1990).&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:16" role="doc-endnote">
+<li id="fn:16">
 <p>VIAF aggregates records from multiple national libraries with authoritative names for people, organizations, and titles. Typically only people associated with published works, such as authors and translators, have records in VIAF; we used this as a proxy for some degree of fame, even though there are plenty of names in VIAF that are not strictly famous.&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:17" role="doc-endnote">
+<li id="fn:17">
 <p>This work is based on pre-release versions of the datasets now published as: Joshua Kotin, Rebecca Sutton Koeser, Carl Adair, Serena Alagappan, Jean Bauer, Oliver J. Browne, Nick Budak, Harriet Calver, Jin Chow, Ian Davis, Gissoo Doroudian, Currie Engel, Elspeth Green, Benjamin Hicks, Madeleine E. Joelson, Carolyn Kelly, Sara Krolewski, Xinyi Li, Ellie Maag, Cate Mahoney, Jesse D. McCarthy, Mary Naydan, Isabel Ruehl, Sylvie Thode, Camey VanSant, and Clifford E. Wulfman, <em>Shakespeare and Company Project Dataset: Lending Library Members, Books, Events</em>, version 1.0, July 2020, distributed by DataSpace, Princeton University, <a href="https://doi.org/10.34770/pe9w-x904">https://doi.org/10.34770/pe9w-x904</a>. For more information, see <a href="https://shakespeareandco.princeton.edu/about/data/">https://shakespeareandco.princeton.edu/about/data/</a>&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:18" role="doc-endnote">
+<li id="fn:18">
 <p>This is inspired in part by ethical principles from the Colored Conventions Project, which asks researchers using their data to “contextualize and narrate the conditions of the people who appear as ‘data’ and to name them when possible.” “Introduction to CCP Corpus,” Colored Conventions Project, accessed October 22, 2020, <a href="https://coloredconventions.org/about-records/ccp-corpus/">https://coloredconventions.org/about-records/ccp-corpus/</a>.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:19" role="doc-endnote">
+<li id="fn:19">
 <p>We wanted to include a 3D model of this physicalization in order to provide some semblance of virtually grasping and rotating the object. Because we didn’t have a way to capture the actual object in 3D, we created a model of it in <a href="https://www.blender.org/">Blender</a>; this was fairly straightforward, since it consists of two simple shapes.&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:20" role="doc-endnote">
+<li id="fn:20">
 <p>For more on the strengths and weaknesses of the pie chart, see Steve Johnson, “The Case Against Pie Charts,” University of Utah Health, March 3, 2017, <a href="https://accelerate.uofuhealth.utah.edu/connect/steves-dojo-7-the-case-against-pie-charts">https://accelerate.uofuhealth.utah.edu/connect/steves-dojo-7-the-case-against-pie-charts</a>.&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:21" role="doc-endnote">
+<li id="fn:21">
 <p>We do not provide a how-to for this object out of respect for the copyright of origami authors, who often spend years developing and refining single designs. The three-dimensional forms used to make this piece are a combination of two modular origami units which are the original creations of the brilliant Tomoko Fuse, and can be found in her book <em>Unit Origami</em>. The octahedron is formed from eight units with triangular windows, and these windows are filled with eight so-called E-b units that create the illusion of an intersecting cube. Fuse, <em>Multidimensional Origami,</em> 109, 233. When assembling from your own paper, you can print <a href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/non_viaf_names.pdf">a document containing the names of the non-VIAF members of the library</a> onto the paper before folding the octahedron. Sheets of 8.5 inch x 11 inch copy paper can become difficult to manipulate when folded many times; thinner paper is easier to work with.&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:22" role="doc-endnote">
+<li id="fn:22">
 <p>A <a href="https://datavizproject.com/data-type/lollipop-chart/">lollipop chart</a> is a bar chart variant that uses dots to mark the values. Earlier prototypes of this model were based on bar charts, but I discovered that the space between bars in a lollipop chart made it easier to “read” the 3D version, since the thinner vertical supports obscure less of the model visually.&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:23" role="doc-endnote">
+<li id="fn:23">
 <p>This work is based on pre-release versions of the <a href="https://shakespeareandco.princeton.edu/about/data/">datasets now available</a>. Kotin et al., <em>Shakespeare and Company Project Dataset: Lending Library Members, Books, Events.</em>&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:24" role="doc-endnote">
+<li id="fn:24">
 <p>We use white and green in our physicalizations of data from the Shakespeare and Company Project because green is the most iconic color used in the site design. <img src="images/scp_colors_dark.png" alt="Color palette from Shakespeare and company project.">&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:25" role="doc-endnote">
+<li id="fn:25">
 <p>To better understand the Shakespeare and Company Project sources, see Shakespeare and Company Project, “Lending Library Cards,” Center for Digital Humanities, Princeton University, November 20, 2019, <a href="https://shakespeareandco.princeton.edu/sources/cards/">https://shakespeareandco.princeton.edu/sources/cards/</a>; and Shakespeare and Company Project, “Logbooks,” Center for Digital Humanities, Princeton University, November 20, 2019, <a href="https://shakespeareandco.princeton.edu/sources/logbooks/">https://shakespeareandco.princeton.edu/sources/logbooks/</a>. To understand how the Project data from those sources fit together, read Joshua Kotin and Rebecca Sutton Koeser, “The Shakespeare and Company Lending Library Cards in Context,” Shakespeare and Company Project, Center for Digital Humanities, Princeton University. March 9, 2020, <a href="http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/">http://shakespeareandco.princeton.edu/analysis/2020/03/shakespeare-and-company-lending-library-cards-context/</a>.&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:26" role="doc-endnote">
+<li id="fn:26">
 <p>The previous version was more complicated to print; the overlapping framework interfered with small data points, and the tightly interlocking parts did not scale well. <img src="images/modeling-ach2019-side-view.jpg" alt="Side view of early model version draft for ACH 2019 conference."> <img src="images/modeling-ach2019-top-view.jpg" alt="Top view of early model version draft for ACH 2019 conference.">&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:27" role="doc-endnote">
+<li id="fn:27">
 <p>Due to COVID-19, I’m writing and revising this from my home office without physical access to the object in question. I find myself closing my eyes and extending my fingers to focus on my memories of touching the object.&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:28" role="doc-endnote">
+<li id="fn:28">
 <p>For an exploration of the subjectivity, uncertainty, and interpretation implicit in data, read <a href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/">Rebecca Munson’s essay</a> in this issue of <em>Startwords</em>. For an overview of common techniques for representing uncertainty visually, see Nathan Yau, “Visualizing the Uncertainty in Data,” <em>FlowingData</em> (blog), January 8, 2018, <a href="https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/">https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/</a>. For more on the difficulty people have in recognizing uncertainty in data visualization, see D’Ignazio and Klein on “Visceralizing Uncertainty” in <em>Data Feminism</em>, 88.&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:29" role="doc-endnote">
+<li id="fn:29">
 <p>These have not yet been tested by anyone who reads braille.&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:30" role="doc-endnote">
+<li id="fn:30">
 <p><a href="https://www.blender.org/">Blender</a> is an open-source 3D modeling creation suite which includes a Python API. I experimented with multiple other solutions for generating 3D models programmatically, including <a href="https://www.openscad.org/">OpenSCAD</a> and <a href="https://github.com/dbrgn/tangible">Tangible</a>, but found they were too limited and couldn’t handle a model of the size and complexity I needed to generate for this dataset, so I eventually settled on Blender and Python. The Blender interface makes it possible to view and modify models generated from code, there is <a href="https://docs.blender.org/api/current/">documentation for the Python API</a>, and I found many helpful answers on <a href="https://blender.stackexchange.com/">Blender Stack Exchange</a>.&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:31" role="doc-endnote">
+<li id="fn:31">
 <p>The word “text” comes from Latin <em>textus,</em> literally “thing woven” and from the verb <em>texere,</em> “to weave.” According to Kathryn Sullivan Kruger, “the connection between weaving (textiles) and language (texts) becomes so entangled as to be almost impossible to separate. In many languages, including English, the verb to weave defines not just the making of textiles, but any creative act.” Kathryn Sullivan Kruger, <em>Weaving the Word: The Metaphorics of Weaving and Female Textual Production</em> (Cranbury, NJ: Rosemont Publishing &amp; Printing, 2001), 29. To play on one of Derrida’s most famous statements, “<em>il n&rsquo;y a pas de hors-textile.</em>”&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:32" role="doc-endnote">
+<li id="fn:32">
 <p>See the <em>Derrida&rsquo;s Margins</em> project at <a href="https://derridas-margins.princeton.edu/">https://derridas-margins.princeton.edu/</a>. Kate Chenoweth et al., “References in Jacques Derrida&rsquo;s <em>de la Grammatologie</em>,” September 10, 2018, Figshare, <a href="https://doi.org/10.6084/m9.figshare.7180448.v1">https://doi.org/10.6084/m9.figshare.7180448.v1</a>.&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:33" role="doc-endnote">
+<li id="fn:33">
 <p>For a deeper exploration of textile metaphors in Derrida’s work, see Caroline Rooney’s “Deconstruction and Weaving” in <em>Deconstructions: A User&rsquo;s Guide,</em> ed. Nicholas Royle (London: Palgrave, 2000), <a href="https://doi.org/10.1007/978-1-137-06095-2_14">https://doi.org/10.1007/978-1-137-06095-2_14</a>.&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:34" role="doc-endnote">
+<li id="fn:34">
 <p>See Kruger, <em>Weaving the Word,</em> 21, 34, 136.&#160;<a href="#fnref:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:35" role="doc-endnote">
+<li id="fn:35">
 <p>When we first did the math on the weaving and measured, we discovered that doing all of Chapter 1 would require a warp longer than three tables end-to-end in the CDH main space, which is why we scaled back to just half of the chapter. <img src="images/cdh-empty-tables.jpg" alt="read of empty tables in main space at CDH.">&#160;<a href="#fnref:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:36" role="doc-endnote">
+<li id="fn:36">
 <p>This work is based on pre-release versions of the <a href="https://shakespeareandco.princeton.edu/about/data/">datasets now available</a>. Kotin et al., <em>Shakespeare and Company Project Dataset: Lending Library Members, Books, Events.</em>&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Print a Model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T16:23:20-04:00</updated><content type="html"><![CDATA[<p>
+</div>]]></content></entry><entry><title type="html">Print a Model of the Shakespeare and Company Lending Library Membership</title><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/modeling-howto/</id><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-08-01T14:58:15-04:00</updated><content type="html"><![CDATA[<p>
 
 
 
@@ -926,7 +926,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3-D model of Shakespeare and Company membership lollipop chart.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T16:23:20-04:00</updated><content type="html"><![CDATA[<p>
+]]></content></entry><entry><title type="html">Stack Shakespeare and Company Membership Activities</title><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/stacking-howto/</id><author><name>Xinyi Li</name></author><author><name>Rebecca Sutton Koeser</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-08-01T14:58:15-04:00</updated><content type="html"><![CDATA[<p>
 
 
 
@@ -1022,7 +1022,7 @@ Overall, renewed members outsize new members before 1929, followed by five years
 | FIGURE. 3D model showing a folded long paper as base, with opened cuts folded into additional panels.
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
 </div></p>
-]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T16:23:20-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
+]]></content></entry><entry><title type="html">Their Data, Ourselves: Illness as Information</title><link href="https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/</id><author><name>Rebecca Munson</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-08-01T14:58:15-04:00</updated><content type="html"><![CDATA[<p>When I was growing up I liked to read about dying children. I’m not talking about the Victorian orphan kind of dying, not the dying of storybooks, but children who were terminally ill.</p>
 <p>I was twelve and fixated on books written by an author with the improbable name of Lurlene McDaniel. The first book I encountered was <em>Six Months to Live</em>, which chronicled the life of a popular teenager in the wake of her diagnosis with leukemia. Not all of McDaniel&rsquo;s characters had cancer; they wrestled with all kinds of chronic illnesses (cystic fibrosis, hemophilia, diabetes) as well as the untimely death of loved ones from causes including suicide. McDaniel&rsquo;s books were about grief and communities formed through crisis.</p>
 <p>These books would have been perfect for a budding hypochondriac, or for a reader inclined toward purple prose and melodrama, but I read them instead for medical details, taking mental notes on how to recognize signs and symptoms and stockpiling already-outdated knowledge about treatment options. Rather than imagining myself as the sick main character, I occupied the position of the doctor, a role I planned (at the time) to take on later in real life. It turned out, though, that I would have to be the protagonist anyway.</p>
 <p>I was diagnosed with Stage 4 breast cancer in January 2019. I was thirty-four at the time, with zero family history and no warning signs aside from the lump I hoped fervently would be a cyst. Immediately, I was launched into a world at once familiar and alien. I had grown up among doctors and research scientists in the orbit of Washington University School of Medicine, largely because my father is a medical ethicist with an abiding interest in the practical applications of his work. I had even worked in a research laboratory there from ages sixteen to twenty, studying&mdash;of all things&mdash;the genetics of breast cancer.</p>
@@ -1063,23 +1063,23 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>I did not know that I was in training for a time when we would all of necessity be regarded as bodies with the potential to produce valuable data about the spread and effects of COVID-19. We are constantly starved for numbers, for data on infections and recoveries and for statistical models that may relieve us of the uncertainty we feel about the future. I cannot provide that. But I can tell you to be cautious readers of data and statistics that speak with any pretense to authority right now, even though I crave them too.</p>
 <p>We are in the middle of the data. Some of us clamor loudly to be heard, to be seen and counted by institutions that deliberately overlook and under-report. For some of us, visibility entails vulnerability and the threat of unemployment or detainment weighs so heavily that illness must remain invisible, ignored or hidden. We are the data, but we do not always speak for ourselves.</p>
 <p>Susan Sontag wrote in <em>Illness as Metaphor</em> that &ldquo;everyone who is born holds dual citizenship, in the kingdom of the well and in the kingdom of the sick. Although we all prefer to use only the good passport, sooner or later each of us is obliged, at least for a spell, to identify ourselves as citizens of that other place.”<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> A pandemic transcends borders but does not do away with the kingdom of the sick. As someone already resident, I can say to you: welcome. The hardest thing about being here is the grief for what we have lost, including a sense of normalcy. The best thing, though, is what we may find: community in a time of crisis.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>Johanna Drucker, &ldquo;Humanities Approaches to Graphical Display,&rdquo; <em>Digital Humanities Quarterly</em> 5, no. 1 (March 10, 2011), <a href="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
+<li id="fn:2">
 <p>Anne Boyer, <em>The Undying: Pain, Vulnerability, Mortality, Medicine, Art, Time, Dreams, Data, Exhaustion, Cancer, and Care,</em> (New York: Farrar, Straus and Giroux, 2019), 65, 14.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
+<li id="fn:3">
 <p>Boyer, <em>Undying,</em> 55.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:4" role="doc-endnote">
+<li id="fn:4">
 <p>Susan Sontag, <em>Illness as Metaphor</em> (New York: Farrar, Straus and Giroux, 1978), 3.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-03-24T16:23:20-04:00</updated><content type="html"><![CDATA[
+</div>]]></content></entry><entry><title type="html">Weave Derrida's References</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="related" type="text/html" title="Weaving as Interface"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-howto/</id><author><name>Gissoo Doroudian</name></author><published>2020-10-01T00:00:00+00:00</published><updated>2022-08-01T14:58:15-04:00</updated><content type="html"><![CDATA[
 
 
 
@@ -1742,21 +1742,21 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>Note: Before pulling ends down and tightening the top knot, make sure to match up both sides of the end pieces and then pull evenly, so that the knot ties with all ends at about the same length. Trimming is usually required for a more uniform fringe, but this helps reduce yarn waste. If starting with the rya knot (bottom up weaving), pull the end pieces below the top knot area. If you are ending with the rya knot (top down weaving) you would pull the end pieces above the top knot area.</p>
 <p>Learned and adapted from: <a href="https://www.theweavingloom.com/weaving-techniques-rya-knots/">https://www.theweavingloom.com/weaving-techniques-rya-knots/</a></p>
 <p>If you would like to try weaving the first chapter of <em>de la Grammatologie</em> download the <a href="Pattern-Guide-for-Weaving-Derridas-Margins.pdf">“Pattern Guide for Weaving Derrida’s Margins”</a> and follow the instructions.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p>A shuttle is a tool that is used to hold and pass the yarn through the warp.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
+<li id="fn:2">
 <p>A yarn is made up of several twisted strands of fiber, referred to as “plies”&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
-<p>The word “weft” literally means “that which is woven,” and comes from an obsolete form of the word “weave”; the forms are similar to “leave” and “left.” Wikipedia, s.v. “Weaving,” last modified October 13, 2020, 22:52, <a href="https://en.wikipedia.org/wiki/Weaving;">https://en.wikipedia.org/wiki/Weaving;</a> OED Online, s.v. “weft, n. 1,” accessed October 26, 2020, <a href="http://www.oed.com/view/Entry/226851">www.oed.com/view/Entry/226851</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:3">
+<p>The word “weft” literally means “that which is woven,” and comes from an obsolete form of the word “weave”; the forms are similar to “leave” and “left.” Wikipedia, s.v. “Weaving,” last modified October 13, 2020, 22:52, <a href="https://en.wikipedia.org/wiki/Weaving;">https://en.wikipedia.org/wiki/Weaving;</a> OED Online, s.v. “weft, n. 1,” accessed October 26, 2020, <a href="https://www.oed.com/view/Entry/226851">www.oed.com/view/Entry/226851</a>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
-]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2022-03-24T16:23:20-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
+</div>
+]]></content></entry><entry><title type="html">Weaving as Interface</title><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/?utm_source=atom_feed" rel="alternate" type="text/html"/><link href="https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/?utm_source=atom_feed" rel="related" type="text/html" title="Data Beyond Vision"/><link href="https://startwords.cdh.princeton.edu/issues/1/modeling-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Print a Model of the Shakespeare and Company Lending Library Membership"/><link href="https://startwords.cdh.princeton.edu/issues/1/stacking-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Stack Shakespeare and Company Membership Activities"/><link href="https://startwords.cdh.princeton.edu/issues/1/weaving-howto/?utm_source=atom_feed" rel="related" type="text/html" title="Weave Derrida's References"/><id>https://startwords.cdh.princeton.edu/issues/1/weaving-as-interface/</id><author><name>Rebecca Sutton Koeser</name></author><author><name>Gissoo Doroudian</name></author><published>0001-01-01T00:00:00+00:00</published><updated>2022-08-01T14:58:15-04:00</updated><content type="html"><![CDATA[<p>This weaving represents the references in chapter one of Jacques Derrida’s <em>de la Grammatologie</em> (1967). The references have been cataloged and categorized by the research team of <a href="https://derridas-margins.princeton.edu/">Derrida’s Margins</a>. Each type of reference (epigraph, citation, quotation, footnote) is represented by a distinct yarn and weaving pattern. For more details on the goals and insights of this data physicalization, read <a href="/issues/1/data-beyond-vision/#weaving">Weaving Derrida’s References</a>.</p>
 <p>As a way of turning the weaving into an interface, we offer this experiment with an annotated deep-zoom image of the weaving linked to information about the references it represents, allowing you to explore the underlying data through the context of the weaving.</p>
 <p><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> <sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> <sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> <sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup> <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> <sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> <sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup> <sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> <sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> <sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> <sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> <sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> <sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> <sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> <sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> <sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> <sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> <sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> <sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup> <sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> <sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> <sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup></p>
 </div> <!-- close text container -->
@@ -1773,212 +1773,212 @@ Overall, renewed members outsize new members before 1929, followed by five years
 <p>Chenoweth, Katie, Alexander Baron-Raiffe, Renée Altergott, Chad Córdova, Austin Hancock, Chloé Vettier, Rebecca Sutton Koeser, Jean Bauer, Benjamin Hicks, and Nick Budak. 2018. “Works Cited by Jacques Derrida in De La Grammatologie”. figshare. <a href="https://doi.org/10.6084/m9.figshare.7180460.v1">doi:10.6084/m9.figshare.7180460.v1</a>.</p>
 </blockquote>
 <p>The high resolution capture of the data weaving used here was created by Princeton University Library, Digital Imaging Studio.  Annotations on the image were drawn with <a href="https://recogito.pelagios.org/">Recogito</a>.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
+<li id="fn:1">
 <p><span class="reftype">Epigraph<span class="page">, p. 15</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/nietzsche-die-geburt-der-tragodie-aus-dem-geiste-der-musik-1949/">La Naissance de la tragédie</a></em> (1949)<br/>
 Friedrich Nietzsche<br/>
 <cite lang="fr">Socrate, celui qui n&rsquo;écrit pas.</cite> (p. 172)
 <img src="https://derridas-margins.princeton.edu/library/nietzsche-die-geburt-der-tragodie-aus-dem-geiste-der-musik-1949/gallery/images/front-cover/thumbnail/" alt="Cover of La Naissance de la tragédie">&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2" role="doc-endnote">
+<li id="fn:2">
 <p><span class="reftype">Footnote<span class="page">, p. 16</span></span>
 <em><a href="https://derridas-margins.princeton.edu/titles/227/">Langue et écriture</a></em> <br/>
 V. M. Istrin<br/>
 <cite lang="fr">Parler ici d&rsquo;une écriture première ne revient pas à affirmer une priorité chronologique de fait. On connaît ce débat  : l&rsquo;écriture est-elle, comme l&rsquo;affirmaient par exemple Metchnaninov et Marr, puis Loukotka, « antérieure au langage phonétique » ? (Conclusion assumée par la première édition de la Grande Encyclopédie Soviétique, puis contredite par Staline. Sur ce débat, cf. V. Istrine, <em>Langue et écriture</em>, in <em>Linguistique, op. cit.</em>, pp. 35, 60. Ce débat s&rsquo;est aussi fixé autour des thèses du P. van Ginneken. Sur la discussion de ces thèses, cf. J. Février, <em>Histoire de l&rsquo;écriture</em>, Payot, 1948-1959, p. 5 sq.) Nous essaierons de montrer plus loin pourquoi les termes et les prémisses d&rsquo;un tel débat appellent la suspicion.</cite> (p. 35)&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3" role="doc-endnote">
+<li id="fn:3">
 <p><span class="reftype">Footnote<span class="page">, p. 16</span></span>
 <em><a href="https://derridas-margins.princeton.edu/titles/227/">Langue et écriture</a></em> <br/>
 V. M. Istrin<br/>
 <cite lang="fr">Parler ici d&rsquo;une écriture première ne revient pas à affirmer une priorité chronologique de fait. On connaît ce débat  : l&rsquo;écriture est-elle, comme l&rsquo;affirmaient par exemple Metchnaninov et Marr, puis Loukotka, « antérieure au langage phonétique » ? (Conclusion assumée par la première édition de la Grande Encyclopédie Soviétique, puis contredite par Staline. Sur ce débat, cf. V. Istrine, <em>Langue et écriture</em>, in <em>Linguistique, op. cit.</em>, pp. 35, 60. Ce débat s&rsquo;est aussi fixé autour des thèses du P. van Ginneken. Sur la discussion de ces thèses, cf. J. Février, <em>Histoire de l&rsquo;écriture</em>, Payot, 1948-1959, p. 5 sq.) Nous essaierons de montrer plus loin pourquoi les termes et les prémisses d&rsquo;un tel débat appellent la suspicion.</cite> (p. 60)&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:4" role="doc-endnote">
+<li id="fn:4">
 <p><span class="reftype">Footnote<span class="page">, p. 16</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=fevrier-histoire-de-lecriture-1948&amp;is_extant=false">Histoire de l&rsquo;écriture</a></em> (1948)<br/>
 James Février<br/>
 <cite lang="fr">Parler ici d&rsquo;une écriture première ne revient pas à affirmer une priorité chronologique de fait. On connaît ce débat  : l&rsquo;écriture est-elle, comme l&rsquo;affirmaient par exemple Metchnaninov et Marr, puis Loukotka, « antérieure au langage phonétique » ? (Conclusion assumée par la première édition de la Grande Encyclopédie Soviétique, puis contredite par Staline. Sur ce débat, cf. V. Istrine, <em>Langue et écriture</em>, in <em>Linguistique, op. cit.</em>, pp. 35, 60. Ce débat s&rsquo;est aussi fixé autour des thèses du P. van Ginneken. Sur la discussion de ces thèses, cf. J. Février, <em>Histoire de l&rsquo;écriture</em>, Payot, 1948-1959, p. 5 sq.) Nous essaierons de montrer plus loin pourquoi les termes et les prémisses d&rsquo;un tel débat appellent la suspicion.</cite> (p. 5)&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:5" role="doc-endnote">
+<li id="fn:5">
 <p><span class="reftype">Quotation<span class="page">, p. 17</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=rousseau-emile-ou-de-leducation-1762&amp;is_extant=false">Émile ou de l&rsquo;éducation</a></em> (1762)<br/>
 Jean-Jacques Rousseau<br/>
 <cite lang="fr">plus fondamentale que celle qui, avant cette conversion, passait pour le simple « supplément à la parole » (Rousseau).</cite>&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:6" role="doc-endnote">
+<li id="fn:6">
 <p><span class="reftype">Footnote<span class="page">, p. 17</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=derrida-la-voix-et-le-phenomene-1967&amp;is_extant=false">La voix et le phénomène</a></em> (1967)<br/>
 Jacques Derrida<br/>
 <cite lang="fr">C&rsquo;est un problème que nous abordons plus directement dans <em>La voix et le phénomène</em> (P.U.F. 1967).</cite>&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:7" role="doc-endnote">
+<li id="fn:7">
 <p><span class="reftype">Footnote<span class="page">, p. 20</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/">L&rsquo;Ecriture et la psychologie des peuples: actes de colloque</a></em> (1963)<br/>
 <cite lang="fr">Cf. par ex. EP. pp. 126, 148, 355, etc. D&rsquo;un autre point de vue, cf. Jakobson, <em>Essais de linguistique générale</em> (tr. fr. p. 116)</cite> (p. 126)
-<img src="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg" alt="Cover of L&rsquo;Ecriture et la psychologie des peuples: actes de colloque">&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<img src="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg" alt="Cover of L&amp;rsquo;Ecriture et la psychologie des peuples: actes de colloque">&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:8" role="doc-endnote">
+<li id="fn:8">
 <p><span class="reftype">Footnote<span class="page">, p. 20</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/#sections">Les écritures indiennes. Le monde indien et son système graphique.</a></em> (1963)<br/>
 <cite lang="fr">Cf. par ex. EP. pp. 126, 148, 355, etc. D&rsquo;un autre point de vue, cf. Jakobson, <em>Essais de linguistique générale</em> (tr. fr. p. 116)</cite> (p. 148)
 <img src="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg" alt="Cover of Les écritures indiennes. Le monde indien et son système graphique.">&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:9" role="doc-endnote">
+<li id="fn:9">
 <p><span class="reftype">Footnote<span class="page">, p. 20</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/">L&rsquo;Ecriture et la psychologie des peuples: actes de colloque</a></em> (1963)<br/>
 <cite lang="fr">Cf. par ex. EP. pp. 126, 148, 355, etc. D&rsquo;un autre point de vue, cf. Jakobson, <em>Essais de linguistique générale</em> (tr. fr. p. 116)</cite> (p. 355)
-<img src="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg" alt="Cover of L&rsquo;Ecriture et la psychologie des peuples: actes de colloque">&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<img src="https://derridas-margins.princeton.edu/library/bloch-lecriture-et-la-psychologie-des-peuples-actes-de-colloque-1963/gallery/images/front-cover/iiif/full/372,/0/default.jpg" alt="Cover of L&amp;rsquo;Ecriture et la psychologie des peuples: actes de colloque">&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:10" role="doc-endnote">
+<li id="fn:10">
 <p><span class="reftype">Footnote<span class="page">, p. 20</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/">Essais de linguistique générale</a></em> (1963)<br/>
 Roman Jakobson<br/>
 <cite lang="fr">Cf. par ex. EP. pp. 126, 148, 355, etc. D&rsquo;un autre point de vue, cf. Jakobson, <em>Essais de linguistique générale</em> (tr. fr. p. 116)</cite> (p. 116)
 <img src="https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/gallery/images/front-cover/thumbnail/" alt="Cover of Essais de linguistique générale">&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:11" role="doc-endnote">
+<li id="fn:11">
 <p><span class="reftype">Quotation<span class="page">, p. 21</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/">Organon: Catégories, De L&rsquo;interprétation</a></em> (1959)<br/>
 Aristotle<br/>
 <cite lang="fr">Si, pour Aristote, par exemple, « les sons émis par la voix (<em>τὰ ἐν τῇ φωνῇ</em>) sont les symboles des états de l&rsquo;âme (<em>παθήματα τῆς ψυχῆς</em>) et les mots écrits les symboles des mots émis par la voix » (<em>De l&rsquo;interprétation</em> 1, 16 a 3), c&rsquo;est que la voix, productrice des <em>premiers symboles</em>, a un rapport de proximité essentielle et immédiate avec l&rsquo;âme.</cite> (p. 77)
-<img src="https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg" alt="Cover of Organon: Catégories, De L&rsquo;interprétation">&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<img src="https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg" alt="Cover of Organon: Catégories, De L&amp;rsquo;interprétation">&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:12" role="doc-endnote">
+<li id="fn:12">
 <p><span class="reftype">Quotation<span class="page">, p. 21</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/">Organon: Catégories, De L&rsquo;interprétation</a></em> (1959)<br/>
 Aristotle<br/>
 <cite lang="fr">« De même que l&rsquo;écriture n&rsquo;est pas la même pour tous les hommes, les mots parlés ne sont pas non plus les mêmes, alors que les états de l&rsquo;âme dont ces expressions sont <em>immédiatement les signes</em> (<em>σημεὶα πρώτως</em>) sont identiques chez tous, comme sont identiques aussi les choses dont ces états sont les images » (16 a. Nous soulignons).</cite> (p. 78)
-<img src="https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg" alt="Cover of Organon: Catégories, De L&rsquo;interprétation">&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<img src="https://derridas-margins.princeton.edu/library/aristotle-organon-categories-de-linterpretation-1959/gallery/images/front-cover/iiif/full/313,/0/default.jpg" alt="Cover of Organon: Catégories, De L&amp;rsquo;interprétation">&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:13" role="doc-endnote">
+<li id="fn:13">
 <p><span class="reftype">Quotation<span class="page">, p. 22</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/">Esthétique, III, I.</a></em> (1944)<br/>
 Georg Wilhelm Friedrich Hegel<br/>
 <cite lang="fr">« Ce mouvement idéal, par lequel, dirait-on, se manifeste la simple subjectivité, l&rsquo;âme du corps résonnant, l&rsquo;oreille le perçoit de la même manière théorique que celle dont l&rsquo;œil perçoit la couleur ou la forme, l&rsquo;intériorité de l&rsquo;objet devenant ainsi celle du sujet lui-même » (<em>Esthétique</em>, III, I., tr. fr. p. 16).</cite> (p. 16)
 <img src="https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/gallery/images/front-cover/thumbnail/" alt="Cover of Esthétique, III, I.">&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:14" role="doc-endnote">
+<li id="fn:14">
 <p><span class="reftype">Quotation<span class="page">, p. 22</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/">Esthétique, III, I.</a></em> (1944)<br/>
 Georg Wilhelm Friedrich Hegel<br/>
 <cite lang="fr">« … L&rsquo;oreille au contraire, sans se tourner pratiquement vers les objets, perçoit le résultat de ce tremblement intérieur du corps par lequel se manifeste et se révèle, non la figure matérielle, mais une première idéalité venant de l&rsquo;âme » (p. 296).</cite> (p. 296)
 <img src="https://derridas-margins.princeton.edu/library/hegel-vorlesungen-uber-die-asthetik-1944/gallery/images/front-cover/thumbnail/" alt="Cover of Esthétique, III, I.">&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:15" role="doc-endnote">
+<li id="fn:15">
 <p><span class="reftype">Footnote<span class="page">, p. 22</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=aubenque-le-probleme-de-letre-chez-aristote-1962&amp;is_extant=false">Le problème de l&rsquo;être chez Aristote</a></em> <br/>
 Pierre Aubenque<br/>
 <cite lang="fr">C&rsquo;est ce que montre Pierre Aubenque (<em>Le problème de l&rsquo;être chez Aristote</em>, p. 106 sq.). Au cours d&rsquo;une remarquable analyse, dont nous nous inspirons ici, P. Aubenque note en effet : « Dans d&rsquo;autres textes, il est vrai, Aristote qualifie de symbole le rapport du langage aux choses : &ldquo;Il n&rsquo;est pas possible d&rsquo;apporter dans la discussion les choses elles-mêmes, mais, au lieu des choses, nous devons nous servir de leurs noms comme de symboles.&rdquo; L&rsquo;intermédiaire que constituait l&rsquo;état d&rsquo;âme et ici supprimé ou du moins négligé, mais cette suppression est légitime, puisque les états d&rsquo;âme se comportant comme les choses, celles-ci peuvent leur être immédiatement substituées. En revanche, on ne peut pas substituer, sans plus, le nom à la chose … » (p. 107-108).</cite> (p. 106-108)&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:16" role="doc-endnote">
+<li id="fn:16">
 <p><span class="reftype">Footnote<span class="page">, p. 22</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=aubenque-le-probleme-de-letre-chez-aristote-1962&amp;is_extant=false">Le problème de l&rsquo;être chez Aristote</a></em> <br/>
 Pierre Aubenque<br/>
 <cite lang="fr">C&rsquo;est ce que montre Pierre Aubenque (<em>Le problème de l&rsquo;être chez Aristote</em>, p. 106 sq.). Au cours d&rsquo;une remarquable analyse, dont nous nous inspirons ici, P. Aubenque note en effet : « Dans d&rsquo;autres textes, il est vrai, Aristote qualifie de symbole le rapport du langage aux choses : &ldquo;Il n&rsquo;est pas possible d&rsquo;apporter dans la discussion les choses elles-mêmes, mais, au lieu des choses, nous devons nous servir de leurs noms comme de symboles.&rdquo; L&rsquo;intermédiaire que constituait l&rsquo;état d&rsquo;âme et ici supprimé ou du moins négligé, mais cette suppression est légitime, puisque les états d&rsquo;âme se comportant comme les choses, celles-ci peuvent leur être immédiatement substituées. En revanche, on ne peut pas substituer, sans plus, le nom à la chose … » (p. 107-108).</cite> (p. 107-108)&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:17" role="doc-endnote">
+<li id="fn:17">
 <p><span class="reftype">Quotation<span class="page">, p. 24</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/">Essais de linguistique générale</a></em> (1963)<br/>
 Roman Jakobson<br/>
 <cite lang="fr">La pensée structuraliste moderne l&rsquo;a clairement établi : le langage est un système de signes, la linguistique est partie intégrante de la science des signes, la <em>sémiotique</em> (ou, dans les termes de Saussure, la <em>sémiologie</em>). La définition médiévale – aliquid stat pro aliquo – que notre époque a ressuscité, s&rsquo;est montrée toujours valable et féconde. C&rsquo;est ainsi que la marque constitutive de tout signe en général, du signe linguistique en particulier, réside dans son caractère double : chaque unité linguistique est bipartite et comporte deux aspects ; l&rsquo;un sensible et l&rsquo;autre intelligible – d&rsquo;une part le signans (le <em>signifiant</em> de Saussure), d&rsquo;autre part le <em>signatum</em> (le signifié). Ces deux éléments constitutifs du signe linguistique (et du signe en général) se supposent et s&rsquo;appellent nécessairement l&rsquo;un l&rsquo;autre. »</cite> (p. 162)
 <img src="https://derridas-margins.princeton.edu/library/jakobson-fundamentals-of-language-1963/gallery/images/front-cover/thumbnail/" alt="Cover of Essais de linguistique générale">&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:18" role="doc-endnote">
+<li id="fn:18">
 <p><span class="reftype">Footnote<span class="page">, p. 24</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=ortigues-le-discours-et-le-symbole-1962&amp;is_extant=false">Le discours et le symbole</a></em> (1962)<br/>
 Edmond Ortigues<br/>
 <cite lang="fr">Sur ce problème, sur la tradition du concept du signe et sur l&rsquo;originalité de l&rsquo;apport saussurien à l&rsquo;intérieur de cette continuité, cf. Ortigues, <em>op. cit</em>, p. 54 sq.</cite> (p. 54)&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:19" role="doc-endnote">
+<li id="fn:19">
 <p><span class="reftype">Quotation<span class="page">, p. 26</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/plato-phaedrus-1964/">Phaedrus</a></em> (1964)<br/>
 Plato<br/>
 <cite lang="fr">l&rsquo;écriture de la vérité dans l&rsquo;âme, opposée par le <em>Phèdre</em> (278 a) à la mauvaise écriture (à l&rsquo;écriture au sens « propre » et courant, à l&rsquo;écriture « sensible », « dans l&rsquo;espace »)</cite> (p. 170)
 <img src="https://derridas-margins.princeton.edu/library/plato-phaedrus-1964/gallery/images/00000001tif/thumbnail/" alt="Cover of Phaedrus">&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:20" role="doc-endnote">
+<li id="fn:20">
 <p><span class="reftype">Quotation<span class="page">, p. 26</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/plato-phaedrus-1938/">Phèdre</a></em> <br/>
 Plato<br/>
 <cite lang="fr">l&rsquo;écriture de la vérité dans l&rsquo;âme, opposée par le <em>Phèdre</em> (278 a) à la mauvaise écriture (à l&rsquo;écriture au sens « propre » et courant, à l&rsquo;écriture « sensible », « dans l&rsquo;espace »)</cite> (p. 289)
 <img src="https://derridas-margins.princeton.edu/library/plato-phaedrus-1938/gallery/images/front-cover/iiif/full/290,/0/default.jpg" alt="Cover of Phèdre">&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:21" role="doc-endnote">
+<li id="fn:21">
 <p><span class="reftype">Quotation<span class="page">, p. 26</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/plato-phaedrus-1961/">Phèdre</a></em> (1961)<br/>
 Plato<br/>
 <cite lang="fr">l&rsquo;écriture de la vérité dans l&rsquo;âme, opposée par le <em>Phèdre</em> (278 a) à la mauvaise écriture (à l&rsquo;écriture au sens « propre » et courant, à l&rsquo;écriture « sensible », « dans l&rsquo;espace »)</cite> (p. 94)
 <img src="https://derridas-margins.princeton.edu/library/plato-phaedrus-1961/gallery/images/front-cover/thumbnail/" alt="Cover of Phèdre">&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:22" role="doc-endnote">
+<li id="fn:22">
 <p><span class="reftype">Quotation<span class="page">, p. 26</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/">La littérature européenne et le Moyen Âge latin</a></em> (1956)<br/>
 Ernst Robert Curtius<br/>
 <cite lang="fr">Dans <em>Le symbolisme du livre</em>, ce beau chapitre de *La littérature européenne et le Moyen Âge latin, E. R. Curtius décrit avec une grande richesse d&rsquo;exemples l&rsquo;évolution qui conduit du <em>Phèdre</em> à Calderon, jusqu&rsquo;à paraître « inverser la situation » (tr. fr. p. 372) par la « nouvelle considération dont jouissait le livre » (p. 374).</cite> (p. 372)
 <img src="https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/gallery/images/front-cover/thumbnail/" alt="Cover of La littérature européenne et le Moyen Âge latin">&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:23" role="doc-endnote">
+<li id="fn:23">
 <p><span class="reftype">Quotation<span class="page">, p. 26</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/">La littérature européenne et le Moyen Âge latin</a></em> (1956)<br/>
 Ernst Robert Curtius<br/>
 <cite lang="fr">Dans <em>Le symbolisme du livre</em>, ce beau chapitre de *La littérature européenne et le Moyen Âge latin, E. R. Curtius décrit avec une grande richesse d&rsquo;exemples l&rsquo;évolution qui conduit du <em>Phèdre</em> à Calderon, jusqu&rsquo;à paraître « inverser la situation » (tr. fr. p. 372) par la « nouvelle considération dont jouissait le livre » (p. 374).</cite> (p. 476)
 <img src="https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/gallery/images/front-cover/thumbnail/" alt="Cover of La littérature européenne et le Moyen Âge latin">&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:24" role="doc-endnote">
+<li id="fn:24">
 <p><span class="reftype">Quotation<span class="page">, p. 26</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/">La littérature européenne et le Moyen Âge latin</a></em> (1956)<br/>
 Ernst Robert Curtius<br/>
 <cite lang="fr">Dans <em>Le symbolisme du livre</em>, ce beau chapitre de *La littérature européenne et le Moyen Âge latin, E. R. Curtius décrit avec une grande richesse d&rsquo;exemples l&rsquo;évolution qui conduit du <em>Phèdre</em> à Calderon, jusqu&rsquo;à paraître « inverser la situation » (tr. fr. p. 372) par la « nouvelle considération dont jouissait le livre » (p. 374).</cite> (p. 476)
 <img src="https://derridas-margins.princeton.edu/library/curtius-la-litterature-europeenne-et-le-moyen-age-latin-1956/gallery/images/front-cover/thumbnail/" alt="Cover of La littérature européenne et le Moyen Âge latin">&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:25" role="doc-endnote">
+<li id="fn:25">
 <p><span class="reftype">Quotation<span class="page">, p. 27</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/levinas-difficile-liberte-essais-sur-le-judaisme-1963/">Difficile liberté</a></em> (1963)<br/>
 Emmanuel Levinas<br/>
 <cite lang="fr">Rabbi Eliezer a dit : « Si toutes les mers étaient d&rsquo;encre, tous les étangs plantés de calames, si le ciel et la terre étaient des parchemins et si tous les humains exerçaient l&rsquo;art d&rsquo;écrire – ils n&rsquo;épuiseraient pas la Thora apprise par moi, alors que la Thora elle-même ne s&rsquo;en trouve diminuée que d&rsquo;autant qu&rsquo;emporte la pointe du pinceau trempé dans la mer. »</cite> (p. 44)
 <img src="https://derridas-margins.princeton.edu/library/levinas-difficile-liberte-essais-sur-le-judaisme-1963/gallery/images/front-cover/thumbnail/" alt="Cover of Difficile liberté">&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:26" role="doc-endnote">
+<li id="fn:26">
 <p><span class="reftype">Quotation<span class="page">, p. 27</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=galilei-il-saggiatore-1623&amp;is_extant=false">Il Saggiatore</a></em> (1623)<br/>
 Galileo Galilei<br/>
 <cite lang="fr">« La nature est écrite en langage mathématique. »</cite>&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:27" role="doc-endnote">
+<li id="fn:27">
 <p><span class="reftype">Quotation<span class="page">, p. 27</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1943/">Discours de la méthode</a></em> (1943)<br/>
 René Descartes<br/>
 <cite lang="fr">« … à lire le grand livre du monde… »</cite> (p. 51)
 <img src="https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1943/gallery/images/front-cover/iiif/full/291,/0/default.jpg" alt="Cover of Discours de la méthode">&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:28" role="doc-endnote">
+<li id="fn:28">
 <p><span class="reftype">Quotation<span class="page">, p. 27</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1961/">Discours de la méthode</a></em> (1961)<br/>
 René Descartes<br/>
 <cite lang="fr">« … à lire le grand livre du monde… »</cite> (p. 51)
 <img src="https://derridas-margins.princeton.edu/library/descartes-discours-de-la-methode-1961/gallery/images/front-cover/iiif/full/291,/0/default.jpg" alt="Cover of Discours de la méthode">&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:29" role="doc-endnote">
+<li id="fn:29">
 <p><span class="reftype">Quotation<span class="page">, p. 27</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/hume-dialogues-concerning-natural-religion-1964/">Dialogues sur la religion naturelle</a></em> (1964)<br/>
 David Hume<br/>
 <cite lang="fr">« Et ce livre qu&rsquo;est la nature contient une grande et inexplicable énigme, plutôt qu&rsquo;aucun discours ou raisonnement intelligible. »</cite> (p. 73)
 <img src="https://derridas-margins.princeton.edu/library/hume-dialogues-concerning-natural-religion-1964/gallery/images/front-cover/thumbnail/" alt="Cover of Dialogues sur la religion naturelle">&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:30" role="doc-endnote">
+<li id="fn:30">
 <p><span class="reftype">Quotation<span class="page">, p. 27</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=bonnet-la-palingenesie-philosophique-1769&amp;is_extant=false">La palingénésie philosophique</a></em> <br/>
 Charles Bonnet<br/>
 <cite lang="fr">« Il me paraît plus philosophique de présumer que notre terre est un livre que le grand Être a donné à lire à des intelligences qui nous sont fort supérieures, et où elles étudient à fond les traits infiniment multiples et variés de son adorable sagesse. »</cite>&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:31" role="doc-endnote">
+<li id="fn:31">
 <p><span class="reftype">Quotation<span class="page">, p. 27</span></span>
 <em><a href="https://derridas-margins.princeton.edu/library/?query=von-schubert-la-symbolique-du-reve-die-symbolik-des-traumes-1815&amp;is_extant=false">La symbolique du rêve/ Die Symbolik des Traumes</a></em> (1815)<br/>
 Gotthilf Heinrich von Schubert<br/>
 <cite lang="fr">« Cette langue faite d&rsquo;images et d&rsquo;hiéroglyphes, dont se sert la Sagesse suprême dans toutes ses révélations à l&rsquo;humanité – qui se retrouve dans le langage tout voisin de la Poésie – et qui, dans notre condition actuelle, ressemble davantage à l&rsquo;expression métaphorique du rêve qu&rsquo;à la prose de la veille, – on peut se demander si cette langue n&rsquo;est pas la véritable langue de la religion supérieure. Si, tandis que nous nous croyons éveillés, nous ne sommes pas plongés dans un sommeil millénaire, ou au moins dans l&rsquo;écho de ses rêves, où nous ne percevons de la langue de Dieu que quelques paroles isolées et obscures, comme un dormeur perçoit les discours de son entourage. »</cite>&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
 ]]></content></entry></feed>

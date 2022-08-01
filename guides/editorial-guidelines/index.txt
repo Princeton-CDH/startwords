@@ -4,25 +4,25 @@ Editorial Guidelines
 
 Meetings Each issue of Startwords typically involves four core meetings between the CDH team, Guest Editor, and Contributors.
 
- Meeting 1: Soliciting Contributors and Defining Roles
+Meeting 1: Soliciting Contributors and Defining Roles
 
 Editor, Guest Editor, Tech Lead
 
 Devoted to discussing the issue theme, potential contributors, scope of work involved, and roles and responsibilities.
 
- Meeting 2: Workshopping Article Pitches
+Meeting 2: Workshopping Article Pitches
 
 Editor, Guest Editor, Contributors, Tech Lead, CDH Dev &amp;amp; Design Team
 
 Devoted to introducing editorial guidelines and workshopping ideas for articles and snippets. Meeting 2 will be the first time the Guest Editor introduces the Contributors to the full CDH team. Contributors will be provided with an introduction to the journal in advance of this meeting, and should come prepared to deliver a 5-10 minute pitch on their in-progress idea. The Editor will moderate this conversation, and the Guest Editor will frame the pitches within their overall vision for the issue. If possible, contributors should circulate materials in advance so that everyone can prepare their feedback and ideas before the meeting. In this meeting, the CDH team will provide conceptual feedback (how to frame the argument, what context readers will need, etc.) as well as scoping feedback on how much development and design work they will be able to devote to an article or snippet.
 
- Meeting 3: Platform Workshop
+Meeting 3: Platform Workshop
 
 Contributors, CDH Dev &amp;amp; Design Team
 
 Devoted to a technical introduction of Startwords, GitHub, and our editing and publishing workflow.
 
- Meeting 4: Final Review
+Meeting 4: Final Review
 
 Editor, Guest Editor, Tech Lead
 
@@ -36,7 +36,7 @@ On Rejections: “Revise and resubmit” in the context of Startwords means desi
 
 First-Round Editing: The Guest Editor is responsible for a first-round edit of features and snippets before sending them to the Editor. First-round editing consists of:
 
- Ensuring that there are no glaring issues with comprehensibility, style, argumentation, and overall fit between the issue’s pieces. The pieces should feel in conversation with one another. Suggesting which sentences or phrases would be best to feature as pull quotes in an article. Considering how the article’s opening sentence will be featured on the homepage: does it work well as an opening hook? Can there be any edits that will make the line a) be intelligible to a general audience, b) introduce the article and/or issue topic, c) make the reader want to open the article and read more? Guest Editor is welcome to edit more extensively or in other ways, if need be, so long as those edits and their approval by contributors still fits within the issue’s production timeline.  Issue Introduction Finally, the Guest Editor writes a brief introduction to the issue, which will be included on the main issue page. Introductions should be very brief 400–800 words and simply lay out the theme that is bringing together all of these pieces in conversation.
+Ensuring that there are no glaring issues with comprehensibility, style, argumentation, and overall fit between the issue’s pieces. The pieces should feel in conversation with one another. Suggesting which sentences or phrases would be best to feature as pull quotes in an article. Considering how the article’s opening sentence will be featured on the homepage: does it work well as an opening hook? Can there be any edits that will make the line a) be intelligible to a general audience, b) introduce the article and/or issue topic, c) make the reader want to open the article and read more? Guest Editor is welcome to edit more extensively or in other ways, if need be, so long as those edits and their approval by contributors still fits within the issue’s production timeline. Issue Introduction Finally, the Guest Editor writes a brief introduction to the issue, which will be included on the main issue page. Introductions should be very brief 400–800 words and simply lay out the theme that is bringing together all of these pieces in conversation.
 
 Editor The Startwords Editor will conduct second-round editing, which consists of a more comprehensive developmental edit that focuses on elements like style, opening hook, and questions of audience. If the author hasn’t used section breaks or suggested pull quotes, the Editor will consider where they might work well.
 

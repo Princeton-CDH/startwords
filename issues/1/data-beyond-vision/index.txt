@@ -18,9 +18,11 @@
 |     Nick Budak
 |     Xinyi Li
 |
+|
 |  https://startwords.cdh.princeton.edu/issues/1/data-beyond-vision/
 |
 |  doi:10.5281/zenodo.3713670
+|
 |
 |  #DataBeyondVision
 |
@@ -42,24 +44,24 @@ The pieces that follow describe four different data physicalizations, which we c
 
 SEE
 
-from a distance.  
-Cold, commanding.  
-Sense of mastery,  
+from a distance.
+Cold, commanding.
+Sense of mastery,
 but optical illusions deceive.
 
-Look in a mirror.  
-and see yourself  
-seeing.  
+Look in a mirror.
+and see yourself
+seeing.
 
-TOUCH  
+TOUCH
 
-up close.  
-Intimate, incomplete.  
-Explore partial knowledge,  
-enlighten slowly.  
+up close.
+Intimate, incomplete.
+Explore partial knowledge,
+enlighten slowly.
 
-Run fingers across skin  
-and touch yourself  
+Run fingers across skin
+and touch yourself
 touching.
 
 Data physicalization represents data in physical form.[NOTE 4] Like other approaches to understanding and representing data, it highlights particular senses to communicate information, specifically touch and sight.[NOTE 5] But data physicalization is distinct from other sensory approaches in that it bridges the gap between creative, physical, and conceptual exploration, a nexus often associated with critical making.[NOTE 6] Data physicalizations surface the amount of labor involved with data production and representation; they lend data different perspectives and dimensions.[NOTE 7] These physicalizations also create an opportunity for viewers to become active participants in the making of a piece using data.

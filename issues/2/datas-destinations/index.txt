@@ -17,9 +17,11 @@
 |     Victoria Anne Van Hyning
 |     Mason A. Jones
 |
+|
 |  https://startwords.cdh.princeton.edu/issues/2/datas-destinations/
 |
 |  doi:10.5281/zenodo.5750691
+|
 |
 ⩩-----------------------------------------------------------------------------------⟩
 |

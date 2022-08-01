@@ -10,19 +10,7 @@ Startwords (ISSN 2694-2658) is built with the Hugo static site generator using a
 
 Though we are not accepting submissions at this time, we make available for reference these working versions of the journal’s Editorial Guidelines and Contributor Style Guide.
 
-Masthead Editor Grant Wythoff
 
-UX Designer Gissoo Doroudian
-
-Technical Lead Rebecca Sutton Koeser
-
-Manuscript Editing Camey VanSant
-
-Technical
-
- Nick Budak (Technical Lead, 2020) Kevin McElwee Grant Wythoff  Board of Advisors
-
- Natalia Ermolaev Zoe LeBlanc Meredith Martin Rebecca Munson (2020)   
 
 
 https://startwords.cdh.princeton.edu/about/
