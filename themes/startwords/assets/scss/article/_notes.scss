@@ -12,6 +12,10 @@ body.article .footnotes, body.page .footnotes {
     /* arrow point is 22.5% from right; subtract ~1/2 icon size */
     $close-icon-margin: calc(22.5% - 13px);
 
+    // counter needs enough space for more than one digit
+    $counter-width: 100px;
+    $counter-margin: calc(22.5% - 50px);
+
     ol {
         padding: 0;
         counter-reset: footnoteCounter;
@@ -94,10 +98,10 @@ body.article .footnotes, body.page .footnotes {
             /* position footnote number for contextual note by default */
             position: absolute;
             font-weight: bold;
-            /* align with arrow icon */
-            width: $close-icon-size;
+
             text-align: center;
-            right: $close-icon-margin;
+            width: $counter-width;
+            right: $counter-margin;
             top: rem(50px);
             font-size: rem(35px);
         }
@@ -173,7 +177,7 @@ body.article .footnotes, body.page .footnotes {
             background-position: 20.5% rem(5px);
 
             &::before {
-                left: $close-icon-margin;
+                left: $counter-margin;
             }
 
             a[role=doc-backlink] {
