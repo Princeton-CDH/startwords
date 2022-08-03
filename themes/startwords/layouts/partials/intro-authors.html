@@ -17,6 +17,8 @@
 <div class="authors">— 
 {{ range $index, $author := $authors }}
     {{- if $index -}} {{/* add delimiters when after first author */}}
+    {{/* line 22 produces extra space between author names for no apparent reason */}}
+    {{/* until we find a fix, there is an invisible, zero-width space:  -}}HERE{{ printf */}}
     {{- if eq (add $index 1) $author_count -}}​{{ printf " %s " (i18n "and") }} {{- else -}}, {{- end -}}
     {{- end -}}
     {{ $info := index $.Site.Data.authors $author }} {{/* get author info */}}
