@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 2022-08-10 updates
+
+- New custom shortcode for embedding collapsed source code in documents
+- Make source code for Issue 2 keyboards piece accessible in context
+- Fix missing space between issue introduction author names
+- Fix display problem for two-digit contextual note numbers
+- Fix mobile display issue for translator on author list
+
 ## Issue 3
 
 Major new features:
