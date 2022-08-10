@@ -79,9 +79,22 @@ body.authors {
                 color: $dark-grey;
             }
         }
+
         /* when an item has both co-authors and translators, separate */
-        .coauthors + .translators:not(:empty)::before {
-            content: "; "
+        .coauthors + .translators:not(:empty) {
+            // put translators on second line on mobile
+            display: block;
+
+            @media (min-width: $breakpoint-s) {
+                display: inline;
+            }
+
+            &::before {
+                // on desktop, add a semicolon to separate since it doesn't wrap
+                @media (min-width: $breakpoint-s) {
+                    content: "; "
+                }
+            }
         }
 
         .translators:empty {
