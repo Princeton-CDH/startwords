@@ -34,7 +34,14 @@ figure {
 }
 
 pre {
-    margin: rem(30px) auto;
-    max-width: 75%;
+    margin: 0;
+    /* compensate for interlude margins */
+    margin-left: -10px;
+    padding-left: 10px;
     white-space: pre-wrap;
+
+    @media (min-width: $breakpoint-s) {
+        margin: rem(30px) auto;
+        max-width: 75%;
+    }
 }

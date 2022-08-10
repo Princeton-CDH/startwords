@@ -269,6 +269,35 @@ body.article article, body.page article {
     }
 }
 
+details.code {
+    margin-bottom: rem(22px);
+    background-color: #272822;  // match code background color
+    summary {
+        // match background when closed
+        background-color: $off-white;
+        .interlude & {
+            background-color: $purple;
+        }
+        text-align: center;
+        font-style: italic;
+    }
+
+    &[open] {
+        // full width on mobile
+        margin-left: -10px;
+        padding-left: 10px;
+        @media (min-width: $breakpoint-s) {
+            margin-left: auto;
+            padding-left: auto;
+        }
+
+        summary {
+        // match code background when open
+        background-color: #272822;
+        }
+    }
+}
+
 /* fallback content included to be shown in TXT version only */
 .txt-only {
     display: none;

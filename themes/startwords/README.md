@@ -262,6 +262,18 @@ Either `pdf-img` or `youtube_id` should be specified.
 
 [view source](layouts/shortcodes/video.html)
 
+### source code
+
+Use to display highlighted source code from a file in a details/summary element.
+Path should be relative to content directory.
+
+Example use:
+```
+{{< source_code source_file="path/to/code.html" format="html" >}}
+```
+
+[view source](layouts/shortcodes/source_code.html)
+
 ## Author metadata
 
 New authors should be added to the author data file with name, title, affiliation, and optional website URL and ORCID. Identifiers in the author data file should be in `PascalCase` based on last name first, so that names can be sorted based on those identifiers. Authors of articles and issue introductions should be listed in page metadata using the same identifier as the data file, for linking the content and displaying the author's name properly.  If an author's sort name cannot be programmatically determined from their display name, it should be set explicitly in the author data file.
