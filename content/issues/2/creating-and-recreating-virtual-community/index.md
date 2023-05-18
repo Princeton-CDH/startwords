@@ -71,7 +71,9 @@ Launching our social media campaign early on helped attract attention to the eve
 {{< tweet user="BrigField" id="1360976957337456641" >}}
 {{< tweet user="DGershenowitz" id="1361014486589706249" >}}
 {{< tweet user="hralperta" id="1361039589914382344" >}}
-{{/*< tweet user="piercestanley" id="1361042468469432321" >*/}}
+
+***“Power concedes nothing without a demand.” Happy #DouglassDay! @CCP_org @librarycongress “If there is no struggle, there is no freedom.” -FD pic.twitter.com/EM9CtUxDwq*** <br/>
+**— Pierce Stanley (@piercestanley) February 14, 2021** <br/>*[tweet deleted]*
 
 {{< wrap class="tweet-group print-only-preview" >}}
 <a href="https://twitter.com/Anna_E_Lacy/status/1360301729451962376"><img loading="lazy" src="images/tweetA1.png" alt="screenshot of tweet from Anna Lacy"></a>
@@ -117,7 +119,9 @@ Below is a tutorial video with instructions about how to transcribe and review d
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
-{{< tweet user="ClevelandKimchi" id="1360291342245638144" >}}
+***#DouglassDay. I am transcribing Terrell's introduction to Phillis Wheatley as part of her fundraising effort to build a campsite for Black girls. Love to see familiar names coming across in her writing. pic.twitter.com/YX5tL2qmDP*** <br/>
+**— Jewon Woo 우제원 (@ClevelandKimchi) February 12, 2021** <br/>*[tweet deleted]*
+
 {{< tweet user="BrigField" id="1360300654254825476" >}}
 {{< tweet user="danroyles" id="1360287523004706821" >}}
 {{< tweet user="DarkStars__" id="1361075881662443526" >}}
