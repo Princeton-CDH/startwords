@@ -15,7 +15,7 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 - Article order in an issue is configurable. The first two articles will be displayed as featured essays highlighted side by side on the issue page; all other articles will be listed by title in the order specified.
 - Layouts: custom content types include feature articles [available under [layouts/article](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/article)], single issues, and list of issues [both available under [layouts/issue](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/issue)].
 - To retain the simplest directory structure that will give us the URLs we want, articles are placed in an issue number directory and have `type:article` specified in the page metadata.
-- An essay can be either a "feature" or a "snippet." The placement of an issue's features and snippets are determined by order and the number of features in that issue (the features come first, while snippets are listed at the bottom of the page). By default, each issue has two features, but that can be customized by setting `num_features` in the issue's YAML metadata. For example, if an issue with 5 essays is set to `num_features = 3`, then the first 3 essays will appear as features, and the final 2 essays will appear as snippets. A maximum of 5 features is currently supported.
+- An essay can be either a "feature" or a "snippet." The placement of an issue's features and snippets are determined by order and the number of features in that issue (the features come first, while snippets are listed at the bottom of the page). By default, each issue has two features, but that can be customized by setting `num_features` in the issue's YAML metadata. For example, if an issue with 5 essays is set to `num_features: 3`, then the first 3 essays will appear as features, and the final 2 essays will appear as snippets. A maximum of 5 features is currently supported.
 - Issue-specific contributors can be specified in issue index metadata via `contributors` parameter, for display on the single-issue detail page, underneath the issue contents.  Provide the role or title and a list of one or more names. For example:
 ```yaml
 contributors:
@@ -68,6 +68,8 @@ hugo new --kind issue issues/4
 ```
 
 In `content/issues/4/_index.md` file, you'll then need to set metadata like `theme` and `contributors`.
+
+You should also add the name(s) of the authors of the issue introduction in two places: first, add that name as an entry in `data/authors.yml`. Second, add the LastnameFirstname slug of that author or authors into the metadata of the `content/issues/4/_index.md` file.
 
 And to draft a new article named "A Cup of Tea", run these commands, again at the project's top-level directory:
 
