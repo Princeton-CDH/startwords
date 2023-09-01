@@ -43,12 +43,11 @@ So how can we access the sounds of a language that lost its last native speakers
 
 {{<wrap class="interlude" id="fig2">}}
 <p>
-          This figure is intended to illustrate the concept of a
+          <b>Figure 2,</b> intended to illustrate the concept of a
           <a href="https://en.wikipedia.org/wiki/Heteronym_(linguistics)"
             >heteronym</a
           >, something that occurs in our data and presents an interesting
-          problem when working with Early Chinese text. I picked a table as the
-          simplest way to show it, but maybe there's a better way.
+          problem when working with Early Chinese text.
         </p>
         <table>
           <caption>
@@ -95,7 +94,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
 
 {{<wrap class="interlude">}}
 <p>
-          This graphic illustrates the sometimes hidden parallelism across
+          <b>Figure 3</b>, illustrating the sometimes hidden parallelism across
           ancient texts. One phrase, "he did not speak for three years", is
           reproduced exactly across all three texts — this is easy to see
           because the characters are the same. However, there are two other
@@ -111,9 +110,8 @@ Another problem is the graphic variation common in early forms of Chinese, espec
         </p>
         <p>
           The medievalist Paul Zumthor referred to this idea as
-          <cite>mouvance</cite>, an 'interplay between variant readings and
-          reworkings' (<a href="https://doi.org/10.1093/llc/fqx033">see paper</a
-          >). The concept shares some similarity with the idea of
+          <a href="https://doi.org/10.1093/llc/fqx033">mouvance</a>, an 'interplay between variant readings and
+          reworkings.' The concept shares some similarity with the idea of
           <cite>generation loss</cite> in digital media: the phenomenon where
           successive copies of copies gradually degrade, and information is lost
           or transformed by the very act of re-recording. The effect is made
@@ -178,7 +176,7 @@ The stability of the script also led to problems over time. In China, generation
 
 {{<wrap class="interlude" id="fig4">}}
 <p>
-          This figure illustrates the way that phonological change over time is
+          <b>Figure 4,</b> illustrating the way that phonological change over time is
           visible in rhyming Chinese poetry. This famous poem from the
           <cite>Book of Odes</cite> displays a classic end-rhyme scheme visible
           in the first stanza, which has largely carried through even into
@@ -197,7 +195,7 @@ The stability of the script also led to problems over time. In China, generation
           indicate near-rhymes. The graphic and example are recreations of those
           in
           <a href="https://link.springer.com/article/10.1007/s42803-022-00053-8"
-            >Jeff Tharsen's article "From form to Sound"</a
+            >Jeffrey Tharsen's article "From form to Sound"</a
           >, with Gian's transcriptions. Translations are taken from James
           Legge's original 1876 translation of the <cite>Book of Odes</cite>,
           which is out of copyright. The text is available on
@@ -284,7 +282,7 @@ The stability of the script also led to problems over time. In China, generation
             </tr>
             <tr>
               <td colspan="4" class="stanza-header">
-                3. Waking and sleeping, he sought her. He sought her and found
+                2. Waking and sleeping, he sought her. He sought her and found
                 her not [...]
               </td>
             </tr>
@@ -367,7 +365,7 @@ The *Jingdian Shiwen* utilizes a relatively novel form of commentary: rather tha
 
 {{< deepzoom tile="https://ids.lib.harvard.edu/ids/iiif/16417509/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.lib.harvard.edu/ids/iiif/16417509/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="40em" >}}
 
-**[caption and alt text needed]**
+**Figure 5. [caption and alt text needed]**
 
 While earlier dictionaries primarily glossed glyphs through similar-sounding glyphs, the *Jingdian Shiwen* employed a rather novel way of indicating pronunciation: the *fanqie* 反切 system.[^18] This method of noting a glyph's phonology separates a syllable into its initial consonant on the one hand, and its rhyme and tone on the other. No longer constrained to providing pronunciations by finding a word that overlapped exactly in sound, the *fanqie* system allowed scholars such as Lu Deming to instead choose common graphs for the initial and rhyme plus tone independently. Given the reliance on the Chinese script, both initial and rhyme plus tone are each expressed through a common glyph.
 
@@ -388,6 +386,8 @@ While earlier dictionaries primarily glossed glyphs through similar-sounding gly
     <p class="large">Fish + light = fight</p>
     <p>/fɪ<span class="fade">ʃ</span>/   /<span class="fade">l</span>ʌɪt/</p>
   </aside>
+
+  <p><b>Figure 6</b></p>
 {{</wrap>}}
 
 In this way, the *Jingdian Shiwen* is both comprehensive and concise in the way it provides phonological data in context. We believe it provides enough data to train an NLP model. The key question is then how to extract this data; while Lu Deming's meticulous attention to detail produced what is effectively a machine-readable dataset millennia before such machines would exist, adjusting the specific format still necessitates significant labor on our part.
@@ -400,12 +400,12 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 
 {{<wrap class="interlude" id="fig7">}}
   <p>
-          This graphic shows the richness of annotations in the
+          <b>Figure 7,</b> showing the richness of annotations in the
           <cite>Jingdian Shiwen</cite>, and the common patterns they take.
         </p>
         <p>
           The original passage from the <cite>Book of Changes</cite>, a
-          divinatory text, is explaining how the 64 different hexagrams
+          divinatory text, explains how the 64 different hexagrams
           represented in the text are formed via permutations of line-forms.
           Each hexagram represents a result, and a fortune-teller using the text
           would select a hexagram by forming each line one-at-a-time.
@@ -478,8 +478,6 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
         </blockquote>
 {{</wrap>}}  
 
-[*[\[figure 7\]]{.underline}*](https://jdsw-figures.glitch.me/annotations)
-
 Our approach to handling these complexities is to train a special-purpose model equipped to parse the terse style of the *Jingdian Shiwen*'s highly-structured annotations. We use the Prodigy annotation tool to note parts of speech and syntactic relationships in the commentary, and pair it with the spaCy NLP library to create a custom processing pipeline.[^21] By applying this micro-model to the annotation corpus, each individual reading gloss can be extracted and paired with quantifying data. A notable side-effect of this approach is that it simultaneously produces a citation network dataset: references that the *Jingdian Shiwen* makes to other texts and authors can be extracted from the text along with phonological data.
 
 Once we have extracted all of the relevant phonological data, the task still remains to transform it into reconstructed forms of first Middle Chinese, and then Old Chinese. This is a process involving a few considerations: while the reading glosses of the *Jingdian Shiwen* --- given directly and in *fanqie* form --- reflect Middle Chinese, these glosses can also be used to make some inferences about the earlier Old Chinese. In order to strengthen these inferences, we use the reading glosses provided by the *Jingdian Shiwen* as disambiguation data and cross-reference these glosses with both contemporary rhyme dictionaries like the *Qieyun* as well as modern historical linguistic data (primarily William H. Baxter and Laurent Sagart's 2014 reconstruction of Old Chinese[^22]). The overall goal is to stay as true as possible to the source material: if the rhyming portion of a syllable can be determined, but its initial consonant is represented ambiguously in the *Jingdian Shiwen*, we attempt to capture that ambiguity in the data.
@@ -500,19 +498,19 @@ Our project continues the practice of reading classical texts as data, but with 
 
 [^4]: Compare, in this context, insights from Toma Tasovac, Natalia Ermolaev, Andrew Janco, David Lassner, and Nick Budak, "Humanistic NLP: Bridging the Gap Between Digital Humanities and Natural Language Processing," Paper presented at Digital Humanities 2023 (Graz, Austria, July 13, 2023).
 
-[^5]: Nick Budak and Gian Duri Rominger, "DIRECT: Digital Intertextual Resonances in Early Chinese Texts," GitHub organization, last modified August 17, 2023, [[https://github.com/direct-phonology]{.underline}](https://github.com/direct-phonology).
+[^5]: Nick Budak and Gian Duri Rominger, "DIRECT: Digital Intertextual Resonances in Early Chinese Texts," GitHub organization, last modified August 17, 2023, [https://github.com/direct-phonology](https://github.com/direct-phonology).
 
-[^6]: Besides manuscripts stemming from archaeologically excavated sites, numerous looted manuscripts have surfaced in the last few decades. For issues regarding this trend, compare Paul R. Goldin, "*Heng Xian* and the Problems of Studying Looted Artifacts," *Dao* 12 (2013), 153-160, [[s11712-013-9323-4]{.underline}](https://doi.org/10.1007/s11712-013-9323-4); compare also Goldin's response to his critics in Paul R. Goldin, "The Problem of Looted Artifacts in Chinese Studies: A Rejoinder to Critics," *Dao* 22 (2023): 145--151, [[10.1007/s11712-022-09870-8]{.underline}](https://doi.org/10.1007/s11712-022-09870-8).
+[^6]: Besides manuscripts stemming from archaeologically excavated sites, numerous looted manuscripts have surfaced in the last few decades. For issues regarding this trend, compare Paul R. Goldin, "*Heng Xian* and the Problems of Studying Looted Artifacts," *Dao* 12 (2013), 153-160, [s11712-013-9323-4](https://doi.org/10.1007/s11712-013-9323-4); compare also Goldin's response to his critics in Paul R. Goldin, "The Problem of Looted Artifacts in Chinese Studies: A Rejoinder to Critics," *Dao* 22 (2023): 145--151, [10.1007/s11712-022-09870-8](https://doi.org/10.1007/s11712-022-09870-8).
 
-[^7]: Compare, for example, "SuPar-Kanbun," a BERT model trained on Classical texts; see Koichi Yasuoka, Christian Wittern, Tomohiko Morioka, Takumi Ikeda, Naoki Yamazaki, Yoshihiro Nikaido, Shingo Suzuki, Shigeki Moro, and Kazunori Fujita, "Designing Universal Dependencies for Classical Chinese and Its Application." *Journal of Information Processing Society of Japan* 63.2 (2022): 355-363, [[http://id.nii.ac.jp/1001/00216242/]{.underline}](http://id.nii.ac.jp/1001/00216242/). In such models, the target language is often simply defined in opposition to modern Standard Chinese, and the training data consists of texts from across the millennia.
+[^7]: Compare, for example, "SuPar-Kanbun," a BERT model trained on Classical texts; see Koichi Yasuoka, Christian Wittern, Tomohiko Morioka, Takumi Ikeda, Naoki Yamazaki, Yoshihiro Nikaido, Shingo Suzuki, Shigeki Moro, and Kazunori Fujita, "Designing Universal Dependencies for Classical Chinese and Its Application." *Journal of Information Processing Society of Japan* 63.2 (2022): 355-363, [http://id.nii.ac.jp/1001/00216242/](http://id.nii.ac.jp/1001/00216242/). In such models, the target language is often simply defined in opposition to modern Standard Chinese, and the training data consists of texts from across the millennia.
 
-[^8]: Pronunciation data, often rendered in the International Phonetic Alphabet, is at best noise and at worst misinformation for Transformer models; the significance of a newspaper headline like the *Washington Post*'s description of Starbucks CEO Howard Schultz's 2020 campaign as being in "\...a whole latte trouble" would be completely lost (see Dana Milbank, "Howard Schultz brings a whole latte trouble," *The Washington Post*, Jan. 30, 2019, [[https://www.washingtonpost.com/opinions/howard-schultz-brings-a-whole-latte-trouble/2019/01/30/6d45a1ee-24cb-11e9-ad53-824486280311_story.html]{.underline}](https://www.washingtonpost.com/opinions/howard-schultz-brings-a-whole-latte-trouble/2019/01/30/6d45a1ee-24cb-11e9-ad53-824486280311_story.html).
+[^8]: Pronunciation data, often rendered in the International Phonetic Alphabet, is at best noise and at worst misinformation for Transformer models; the significance of a newspaper headline like the *Washington Post*'s description of Starbucks CEO Howard Schultz's 2020 campaign as being in "\...a whole latte trouble" would be completely lost (see Dana Milbank, "Howard Schultz brings a whole latte trouble," *The Washington Post*, Jan. 30, 2019, [https://www.washingtonpost.com/opinions/howard-schultz-brings-a-whole-latte-trouble/2019/01/30/6d45a1ee-24cb-11e9-ad53-824486280311_story.html](https://www.washingtonpost.com/opinions/howard-schultz-brings-a-whole-latte-trouble/2019/01/30/6d45a1ee-24cb-11e9-ad53-824486280311_story.html).
 
     For an overview of the so-called Masters literature (*zi shu*) and issues within this genre, compare, for example, Wiebke Denecke, *The Dynamics of Masters Literature: Early Chinese Thought From Confucius to Han Feizi* (Cambridge, MA: Harvard University Press, 2010). For the importance of sound in texts, compare, for example, Wolfgang Behr, "Three sound-correlated text structuring devices in pre-Qin philosophical prose," *Bochumer Jahrbuch zur Ostasienforschung* 29 (2005): 15-33. For discussions of the transformative effects of sounds, music, and poetry, see Haun Saussy, *The Problem of a Chinese Aesthetic* (Stanford: Stanford University Press, 1993), 77-105; and Steven Van Zoeren, *Poetry and Personality. Reading, Exegesis, and Hermeneutics in Traditional China* (Stanford: Stanford University Press, 1991), 95-103. On the relationship between music and rulership in early China and its assumed cultivating effects, see especially Kenneth J. DeWoskin, *A Song for One or Two. Music and the Concept of Art in Early China* (Ann Arbor: University of Michigan, Center for Chinese Studies; Michigan Papers in Chinese Studies no. 42, 1982), 13-14, 85-98.
 
 [^9]: Compare, for example, Martin Kern, "Creating a Book and Performing It: The 'Yao lüe' Chapter of the *Huainanzi* as a Western Han *Fu*," in Sarah A. Queen and Michael Puett (eds.), *The* Huainanzi *and Textual Production in Early China* (Leiden: Brill, 2014), 124-150.
 
-[^10]: See Frederick Liu, Han Lu, and Graham Neubig, "Handling Homographs in Neural Machine Translation," in *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1* (New Orleans: Association for Computational Linguistics, 2018), 1336--1345, [[https://aclanthology.org/N18-1121]{.underline}](https://aclanthology.org/N18-1121).
+[^10]: See Frederick Liu, Han Lu, and Graham Neubig, "Handling Homographs in Neural Machine Translation," in *Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1* (New Orleans: Association for Computational Linguistics, 2018), 1336--1345, [https://aclanthology.org/N18-1121](https://aclanthology.org/N18-1121).
 
 [^11]: Compare, for example, Martin Kern, "The *Odes* in Excavated Manuscripts," in *Text and Ritual in Early China* (Seattle: University of Washington Press, 2005): 149-193, esp. 171. For broader overviews of the developments of Chinese writing in antiquity, compare Xigui Qiu, Gilbert Louis Mattos, and Jerry Norman, *Chinese Writing* (Berkeley: Society for the Study of Early China, 2000); William G. Boltz, *The Origin and the Development of the Chinese Writing System* (New Haven: American Oriental Society, 2003); and Imre Galambos, *Orthography of Early Chinese Writing: Evidence from Newly Excavated Manuscripts* (Budapest: Department of East Asian Studies, Eötvös Loránd University, 2006).
 
@@ -530,12 +528,12 @@ Our project continues the practice of reading classical texts as data, but with 
 
 [^18]: This more abstract understanding of phonology may have reached Chinese scholars by way of Sanskrit and Indian linguistics, which had gained relevance with the increasing institutionalization of Chinese Buddhism in the 6th and 7th centuries; compare Victor H. Mair, \"*Tzu-shu* 字書 or *tzu-tien* 字典 (dictionaries)\", in Nienhauser, William H. (ed.), *The Indiana Companion to Traditional Chinese Literature (Volume 2)* (Bloomington: Indiana University Press, 1998), 168.
 
-[^19]: "About Kanseki Repository," Kanripo, last accessed Aug. 21, 2023, [[https://www.kanripo.org/]{.underline}](https://www.kanripo.org/).
+[^19]: "About Kanseki Repository," Kanripo, last accessed Aug. 21, 2023, [https://www.kanripo.org/](https://www.kanripo.org/).
 
 [^20]: See footnote 5.
 
-[^21]: For the Prodigy annotation tool, see "Prodigy 101 --- everything you need to know," Prodigy, accessed Aug. 12, 2023, [[https://prodi.gy/docs]{.underline}](https://prodi.gy/docs). For spaCy, see "spaCy 101: Everything you need to know," spaCy, accessed Aug. 21, 2023, [[https://spacy.io/usage/spacy-101]{.underline}](https://spacy.io/usage/spacy-101).
+[^21]: For the Prodigy annotation tool, see "Prodigy 101 --- everything you need to know," Prodigy, accessed Aug. 12, 2023, [https://prodi.gy/docs](https://prodi.gy/docs). For spaCy, see "spaCy 101: Everything you need to know," spaCy, accessed Aug. 21, 2023, [https://spacy.io/usage/spacy-101](https://spacy.io/usage/spacy-101).
 
-[^22]: For this reconstruction, see William H. Baxter and Laurent Sagart, *Old Chinese: A New Reconstruction* (Oxford: Oxford University Press, 2014), [[10.1093/acprof:oso/9780199945375.001.0001]{.underline}](https://doi.org/10.1093/acprof:oso/9780199945375.001.0001).
+[^22]: For this reconstruction, see William H. Baxter and Laurent Sagart, *Old Chinese: A New Reconstruction* (Oxford: Oxford University Press, 2014), [10.1093/acprof:oso/9780199945375.001.0001](https://doi.org/10.1093/acprof:oso/9780199945375.001.0001).
 
-[^23]: For an example of this technique as applied to finding quoted passages in chinese text, compare Paul Vierthaler and Mees Gelein, "A BLAST-based, Language-agnostic Text Reuse Algorithm with a MARKUS Implementation and Sequence Alignment Optimized for Large Chinese Corpora." *Journal of Cultural Analytics* 4.2 (2019), [[10.22148/16.034]{.underline}](https://doi.org/10.22148/16.034); this inspired [[our dphon tool]{.underline}](https://github.com/direct-phonology/dphon).
+[^23]: For an example of this technique as applied to finding quoted passages in chinese text, compare Paul Vierthaler and Mees Gelein, "A BLAST-based, Language-agnostic Text Reuse Algorithm with a MARKUS Implementation and Sequence Alignment Optimized for Large Chinese Corpora." *Journal of Cultural Analytics* 4.2 (2019), [10.22148/16.034](https://doi.org/10.22148/16.034); this inspired [our dphon tool](https://github.com/direct-phonology/dphon).
