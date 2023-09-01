@@ -1,0 +1,124 @@
+/* custom styles for "An Unnatural Language" */
+
+/* figure 2 styles */
+
+#fig2 th {
+  font-size: 1.5rem;
+}
+
+#fig2 th[scope=row] {
+  font-size: 1rem;
+  text-align: end;
+}
+
+#fig2 .words td {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#fig2 .translit td,
+#fig2 .gloss td {
+  padding: .5rem;
+}
+
+#fig2 img.character {
+  width: 3rem;
+  height: 3rem;
+}
+
+
+/* figure 3 (provisional) */
+
+.source {
+  font-size: 2rem;
+  line-height: 2.7rem !important;
+}
+
+.par {
+  text-decoration: underline;
+}
+
+.g1 {
+  border: 1px solid gray;
+  background-color: lightblue;
+}
+
+.g2 {
+  border: 1px solid gray;
+  background-color: pink;
+}
+
+/* figure 4 (provisional) */
+
+#fig4 .stanza-header {
+  text-align: center;
+  font-style: italic;
+}
+
+#fig4 .lb > td {
+  padding-top: 1rem;
+}
+
+#fig4 .rhyme {
+  border: 2px solid black;
+}
+
+#fig4 .half-rhyme {
+  border: 2px solid gray;
+}
+
+
+/* figure 6 */
+.card {
+	display: inline-block;
+	width: 48%;
+
+}
+
+.card .large {
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 58px;
+}
+
+.card header {
+    margin-bottom: 1.67rem !important;
+}
+
+.card .fade {
+	color: #AE80FF;
+	opacity: 0.7;
+}
+
+
+/* figure 7 (provisional) */
+
+#fig7 .source {
+  font-size: 2rem;
+  line-height: 2.7rem !important;  
+}
+
+#fig7 .head {
+  text-decoration: underline;
+}
+
+#fig7 .graf {
+  background-color: #4dd0e1;
+}
+
+#fig7 .phon {
+  background-color: #ffab40;
+}
+
+#fig7 .sem {
+  background-color: #eeff41;
+}
+
+#fig7 .per {
+  background-color: #009688;
+}
+
+#fig7 .work {
+  background-color: #78909c;
+}
