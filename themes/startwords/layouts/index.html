@@ -20,6 +20,7 @@
             {{ $issues := where .Site.Pages "Type" "issue" | lang.Merge (where .Site.AllPages "Type" "issue") }}
             {{ $issue := index ($issues) 0 }}
             <span class="number">{{ i18n "issue" }} {{ $issue.Params.number }}</span>
+            {{ partial "pubdate" $issue }}
             <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
                 {{ $issue.Summary | plainify }}
