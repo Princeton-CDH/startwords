@@ -60,14 +60,7 @@ So how can we access the sounds of a language that lost its last native speakers
               <th colspan="2">US English</th>
             </tr>
             <tr class="words">
-              <td colspan="2">
-                <img
-                  class="character"
-                  src="https://upload.wikimedia.org/wikipedia/commons/8/86/%E6%A8%82-silk.svg"
-                  aria-labelledby="yue-desc"
-                />
-                <span lang="zh" id="yue-desc" class="visually-hidden sr-only">樂</span>
-              </td>
+              <td colspan="2" lang="zh">樂</td>
               <td colspan="2">excuse</td>
             </tr>
             <tr class="gloss">
