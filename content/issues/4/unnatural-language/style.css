@@ -1,5 +1,15 @@
 /* custom styles for "An Unnatural Language" */
 
+/* disable normal blockquote styles for <cite>, which we use to mark book titles */
+cite.book {
+  display: inline !important;
+  font-style: italic !important;
+}
+
+cite.book::before {
+  display: none !important;
+}
+
 /* figure 2 styles */
 
 #fig2 th {
@@ -40,6 +50,8 @@
 .source {
   font-size: 2rem;
   line-height: 2.7rem !important;
+  font-style: normal !important;
+  text-underline-offset: .5rem;
 }
 
 .par {
@@ -54,6 +66,10 @@
 .g2 {
   border: 1px solid gray;
   background-color: pink;
+}
+
+.g1, .g2 {
+  color: black;
 }
 
 /* figure 4 (provisional) */
@@ -103,8 +119,12 @@
 /* figure 7 (provisional) */
 
 #fig7 .source {
-  font-size: 2rem;
+  font-size: 0;   /* removes spaces between spans */
   line-height: 2.7rem !important;  
+}
+
+#fig7 .translation {
+  line-height: 1.5;
 }
 
 #fig7 .head {
@@ -129,4 +149,18 @@
 
 #fig7 .work {
   background-color: #78909c;
+}
+
+#fig7 .source span {
+  font-size: 2rem;
+  display: inline;
+}
+
+#fig7 .graf,
+#fig7 .phon,
+#fig7 .sem,
+#fig7 .per,
+#fig7 .work {
+  border: 1px solid grey;
+  color: black;
 }

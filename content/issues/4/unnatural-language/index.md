@@ -105,7 +105,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
           The medievalist Paul Zumthor referred to this idea as
           <a href="https://doi.org/10.1093/llc/fqx033">mouvance</a>, an 'interplay between variant readings and
           reworkings.' The concept shares some similarity with the idea of
-          <cite>generation loss</cite> in digital media: the phenomenon where
+          <cite class="book">generation loss</cite> in digital media: the phenomenon where
           successive copies of copies gradually degrade, and information is lost
           or transformed by the very act of re-recording. The effect is made
           visible on very old VHS tapes.
@@ -124,7 +124,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
           </p>
           <footer>
             尚書《毋逸》"Do not Indulge", from the
-            <cite>Book of Documents</cite>
+            <cite class="book">Book of Documents</cite>
           </footer>
         </blockquote>
         <blockquote>
@@ -134,13 +134,13 @@ Another problem is the graphic variation common in early forms of Chinese, espec
             >。
           </p>
           <p class="translation">
-            The <cite>Documents</cite> state: ‘Gaozong
+            The <cite class="book">Documents</cite> state: ‘Gaozong
             <span class="par">did not speak for three years</span>. When he did
             speak, he was <span class="g1">joyous</span>.’
           </p>
           <footer>
             禮記《檀弓下》"Tan Gong II", from the
-            <cite>Book of Rites</cite>
+            <cite class="book">Book of Rites</cite>
           </footer>
         </blockquote>
         <blockquote>
@@ -156,7 +156,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
           </p>
           <footer>
             《呂氏春秋》6/2 from
-            <cite>Master Lü's Spring and Autumn Annals</cite>
+            <cite class="book">Master Lü's Spring and Autumn Annals</cite>
           </footer>
         </blockquote>
 {{</wrap>}}
@@ -171,14 +171,14 @@ The stability of the script also led to problems over time. In China, generation
 <p>
           <b>Figure 4,</b> illustrating the way that phonological change over time is
           visible in rhyming Chinese poetry. This famous poem from the
-          <cite>Book of Odes</cite> displays a classic end-rhyme scheme visible
+          <cite class="book">Book of Odes</cite> displays a classic end-rhyme scheme visible
           in the first stanza, which has largely carried through even into
           modern Chinese.
         </p>
         <p>
           Yet the same end-rhyme in the third stanza is not present in Middle
           Chinese, and was already lost by the time of the compilation of the
-          <cite>Jingdian Shiwen</cite> in the late 6th century, leading scholars
+          <cite class="book">Jingdian Shiwen</cite> in the late 6th century, leading scholars
           to puzzle over the reason the poem did not rhyme when read aloud in
           their own dialects.
         </p>
@@ -190,14 +190,14 @@ The stability of the script also led to problems over time. In China, generation
           <a href="https://link.springer.com/article/10.1007/s42803-022-00053-8"
             >Jeffrey Tharsen's article "From form to Sound"</a
           >, with Gian's transcriptions. Translations are taken from James
-          Legge's original 1876 translation of the <cite>Book of Odes</cite>,
+          Legge's original 1876 translation of the <cite class="book">Book of Odes</cite>,
           which is out of copyright. The text is available on
           <a href="https://ctext.org/book-of-poetry/guan-ju">ctext.org.</a>
         </p>
         <table>
           <caption>
             詩經《關雎》"The Osprey’s Cry", from the
-            <cite>Book of Odes</cite>
+            <cite class="book">Book of Odes</cite>
           </caption>
           <thead>
             <tr>
@@ -394,32 +394,32 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 {{<wrap class="interlude" id="fig7">}}
   <p>
           <b>Figure 7,</b> showing the richness of annotations in the
-          <cite>Jingdian Shiwen</cite>, and the common patterns they take.
+          <cite class="book">Jingdian Shiwen</cite>, and the common patterns they take.
         </p>
         <p>
-          The original passage from the <cite>Book of Changes</cite>, a
+          The original passage from the <cite class="book">Book of Changes</cite>, a
           divinatory text, explains how the 64 different hexagrams
           represented in the text are formed via permutations of line-forms.
           Each hexagram represents a result, and a fortune-teller using the text
           would select a hexagram by forming each line one-at-a-time.
         </p>
         <p>
-          The <cite>Jingdian Shiwen</cite> quotes several different people and
+          The <cite class="book">Jingdian Shiwen</cite> quotes several different people and
           texts in an attempt to explain the term that the original text uses to
           refer to the act of permutation (underlined). This mathematical
           concept is not otherwise addressed explicitly until the time of
           ancient Greece, centuries after the creation of the
-          <cite>Book of Changes</cite>; this may well be its first written
+          <cite class="book">Book of Changes</cite>; this may well be its first written
           attestation!
         </p>
         <p>
-          The sections of the <cite>Jingdian Shiwen</cite> commentary are color-coded based on their function, which is how our model identifies them:
+          The sections of the <cite class="book">Jingdian Shiwen</cite> commentary are color-coded based on their function, which is how our model identifies them:
           <ul>
-            <li>Graphic (notes about character appearance and variation)</li>  
-            <li>Semantic (notes about the meaning of words)</li>
-            <li>Phonetic (notes about the pronounciation of words)</li>
-            <li>People</li>
-            <li>Works</li>
+            <li><span class="graf">Graphic (notes about character appearance and variation)</span></li>  
+            <li><span class="sem">Semantic (notes about the meaning of words)</span></li>
+            <li><span class="phon">Phonetic (notes about the pronounciation of words)</span></li>
+            <li><span class="per">People (family names, given names, courtesy names)</span></li>
+            <li><span class="work">Works (books, poems, chapters)</span></li>
           </ul>
         </p>
         <blockquote>
@@ -427,28 +427,30 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
             是故，剛柔<span class="head">相摩</span>，八卦相盪。
           </p>
           <p class="translation">
-            After this fashion a strong and a weak line were manipulated
-            together (till there were the eight trigrams), and those eight
+            After this fashion a strong and a weak line were <span class="par">manipulated
+            together</span> (till there were the eight trigrams), and those eight
             trigrams were added, each to itself and to all the others, (till the
             sixty-four hexagrams were formed).
           </p>
           <footer>
             周易《繫辭上》“Attached Verbalizations 1”, from the
-            <cite>Book of Changes</cite>
+            <cite class="book">Book of Changes</cite>
           </footer>
         </blockquote>
         <blockquote>
           <p class="source" lang="zh">
-            <span class="head">相摩</span>(<span class="graf">本又作磨</span
-            ><span class="phon">末何反</span><span class="per">京</span
-            ><span class="sem">云相磑切也</span>
+            <span class="head">相摩</span>
+            <span class="graf">本又作磨</span>
+            <span class="phon">末何反</span>
+            <span class="per">京</span>
+            <span class="sem">云相磑切也</span>
             <span class="phon">磑音古代反</span>
             <span class="per">馬</span>
             <span class="sem">云摩切也</span>
-            <span class="per">鄭</span>注
-            <span class="work">禮記</span>
+            <span class="per">鄭</span>
+            <span class="work">注禮記</span>
             <span class="sem">云迫也</span>
-            <span class="phon">迫音百</span>)
+            <span class="phon">迫音百</span>
           </p>
           <p class="translation">
             <span class="graf">Edition[s] also write it [摩] as “磨”</span>;
@@ -461,13 +463,13 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
               >“mill” [磑] is pronounced like 古 + 代 [gojH]</span
             >. <span class="per">Ma</span>
             <span class="sem">says that it means “ground up”</span>.
-            <span class="per">Zheng’s</span> commentary on the
-            <span class="work"><cite>Book of Rites</cite></span>
+            <span class="per">Zheng’s</span>
+            <span class="work"> commentary on the <cite class="book">Book of Rites</cite></span>
             <span class="sem">says that it means “compelled”</span>;
             <span class="phon">“compel” [迫] is pronounced like 百 [paek]</span
             >.
           </p>
-          <footer>經典釋文 <cite>Jingdian Shiwen</cite></footer>
+          <footer>經典釋文 <cite class="book">Jingdian Shiwen</cite></footer>
         </blockquote>
 {{</wrap>}}  
 
