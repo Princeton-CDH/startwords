@@ -93,6 +93,11 @@ cite.book::before {
 
 
 /* figure 6 */
+
+#fig6 p {
+  line-height: normal !important;
+}
+
 .card {
 	display: inline-block;
 	width: 48%;

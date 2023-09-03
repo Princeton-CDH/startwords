@@ -380,7 +380,7 @@ While earlier dictionaries primarily glossed glyphs through similar-sounding gly
     <p>/fɪ<span class="fade">ʃ</span>/   /<span class="fade">l</span>ʌɪt/</p>
   </aside>
 
-  <p><b>Figure 6</b></p>
+  <p><b>Figure 6,</b> how the <em>fanqie</em> pronunciation system works</p>
 {{</wrap>}}
 
 In this way, the *Jingdian Shiwen* is both comprehensive and concise in the way it provides phonological data in context. We believe it provides enough data to train an NLP model. The key question is then how to extract this data; while Lu Deming's meticulous attention to detail produced what is effectively a machine-readable dataset millennia before such machines would exist, adjusting the specific format still necessitates significant labor on our part.
