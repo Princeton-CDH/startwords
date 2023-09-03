@@ -27,7 +27,7 @@ In the project we introduce here[^5] --- the result of a collaboration between a
 
 Let's begin by describing some of the distinctive features of Old Chinese, a language that survives in a corpus of ancient texts that can be dated to the centuries leading up to and following the first dynasties of Imperial China, or roughly 476 BCE --- 220 CE. . These written texts survive either as documents that were transmitted and copied through the millennia, or as recently-excavated artifacts and manuscripts.[^6]
 
-{{< deepzoom tile="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="60em" >}}
+{{< deepzoom tile="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="50em" >}}
 
 **Figure 1.** Four Wooden Tablets in clerical script, Freer Gallery of Art [https://asia-archive.si.edu/object/F1981.4a-e/](https://asia-archive.si.edu/object/F1981.4a-e/) (accessed 8/20/2023).
 
