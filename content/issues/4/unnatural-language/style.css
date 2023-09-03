@@ -17,13 +17,21 @@
 }
 
 #fig2 .translit td,
-#fig2 .gloss td {
+#fig2 .translit th,
+#fig2 .gloss td,
+#fig2 .gloss th {
   padding: .5rem;
 }
 
 #fig2 img.character {
   width: 3rem;
   height: 3rem;
+}
+
+#fig2 caption,
+#fig2 .languages,
+#fig2 .words {
+  text-align: center;
 }
 
 
