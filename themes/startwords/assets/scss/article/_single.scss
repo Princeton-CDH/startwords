@@ -234,6 +234,11 @@ body.article article, body.page article {
 
     .deepzoom {
         width: 100%;
+        /* limit height to avoid scroll traps on mobile */
+        max-height: 50vh;
+        @media (min-width: $breakpoint-xs) {
+            max-height: auto;
+        }
     }
 
     .video-embed-wrapper {
