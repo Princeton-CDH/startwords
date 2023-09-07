@@ -27,9 +27,9 @@ In the project we introduce here[^5] --- the result of a collaboration between a
 
 Let's begin by describing some of the distinctive features of Old Chinese, a language that survives in a corpus of ancient texts that can be dated to the centuries leading up to and following the first dynasties of Imperial China, or roughly 476 BCE --- 220 CE. . These written texts survive either as documents that were transmitted and copied through the millennia, or as recently-excavated artifacts and manuscripts.[^6]
 
-{{< deepzoom tile="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="60em" >}}
+{{< deepzoom tile="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="50em" >}}
 
-**Figure 1.** Four Wooden Tablets in clerical script, Freer Gallery of Art [https://asia-archive.si.edu/object/F1981.4a-e/](https://asia-archive.si.edu/object/F1981.4a-e/) (accessed 8/20/2023).
+**Figure 1.** Four Wooden Tablets in clerical script, [Freer Gallery of Art](https://asia-archive.si.edu/object/F1981.4a-e/) (accessed 8/20/2023).
 
 For heuristic purposes, we use the term "Old Chinese" for the underlying language, and like other stages of the Chinese language family, it is marked by the usage of Chinese characters or glyphs. As a writing system, Chinese glyphs have remained largely stable from the Han dynasty (202 BCE--220 CE) to the present day, with the greatest change occurring in 1956 in the form of the People's Republic of China's script reform and the introduction of simplified characters. A text from the early 20th century may thus on the surface appear indistinguishable from a genuinely ancient piece of writing. This is in particular the case due to the venerated status of a few classical texts, largely from pre-imperial China, which served as models for later literary forms of writing up until the 20th century. Existing NLP models for premodern Chinese assume a seemingly enduring and unchanging use of the written language, grouped under the notions of "Literary" or "Classical Chinese" (*wen yan* 文言 and *gudian Hanyu* 古典漢語).[^7] But this understanding of a never-changing and static language is not just ahistorical and incorrect, it also misses the point of what Chinese glyphs inherently represent: like other forms of writing, they are a conventionalized system used to represent the dynamic utterances of a language.
 
@@ -60,14 +60,7 @@ So how can we access the sounds of a language that lost its last native speakers
               <th colspan="2">US English</th>
             </tr>
             <tr class="words">
-              <td colspan="2">
-                <img
-                  class="character"
-                  src="https://upload.wikimedia.org/wikipedia/commons/8/86/%E6%A8%82-silk.svg"
-                  aria-labelledby="yue-desc"
-                />
-                <span lang="zh" id="yue-desc" class="visually-hidden sr-only">樂</span>
-              </td>
+              <td colspan="2" lang="zh">樂</td>
               <td colspan="2">excuse</td>
             </tr>
             <tr class="gloss">
@@ -112,7 +105,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
           The medievalist Paul Zumthor referred to this idea as
           <a href="https://doi.org/10.1093/llc/fqx033">mouvance</a>, an 'interplay between variant readings and
           reworkings.' The concept shares some similarity with the idea of
-          <cite>generation loss</cite> in digital media: the phenomenon where
+          <cite class="book">generation loss</cite> in digital media: the phenomenon where
           successive copies of copies gradually degrade, and information is lost
           or transformed by the very act of re-recording. The effect is made
           visible on very old VHS tapes.
@@ -131,7 +124,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
           </p>
           <footer>
             尚書《毋逸》"Do not Indulge", from the
-            <cite>Book of Documents</cite>
+            <cite class="book">Book of Documents</cite>
           </footer>
         </blockquote>
         <blockquote>
@@ -141,13 +134,13 @@ Another problem is the graphic variation common in early forms of Chinese, espec
             >。
           </p>
           <p class="translation">
-            The <cite>Documents</cite> state: ‘Gaozong
+            The <cite class="book">Documents</cite> state: ‘Gaozong
             <span class="par">did not speak for three years</span>. When he did
             speak, he was <span class="g1">joyous</span>.’
           </p>
           <footer>
             禮記《檀弓下》"Tan Gong II", from the
-            <cite>Book of Rites</cite>
+            <cite class="book">Book of Rites</cite>
           </footer>
         </blockquote>
         <blockquote>
@@ -163,7 +156,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
           </p>
           <footer>
             《呂氏春秋》6/2 from
-            <cite>Master Lü's Spring and Autumn Annals</cite>
+            <cite class="book">Master Lü's Spring and Autumn Annals</cite>
           </footer>
         </blockquote>
 {{</wrap>}}
@@ -178,14 +171,14 @@ The stability of the script also led to problems over time. In China, generation
 <p>
           <b>Figure 4,</b> illustrating the way that phonological change over time is
           visible in rhyming Chinese poetry. This famous poem from the
-          <cite>Book of Odes</cite> displays a classic end-rhyme scheme visible
+          <cite class="book">Book of Odes</cite> displays a classic end-rhyme scheme visible
           in the first stanza, which has largely carried through even into
           modern Chinese.
         </p>
         <p>
           Yet the same end-rhyme in the third stanza is not present in Middle
           Chinese, and was already lost by the time of the compilation of the
-          <cite>Jingdian Shiwen</cite> in the late 6th century, leading scholars
+          <cite class="book">Jingdian Shiwen</cite> in the late 6th century, leading scholars
           to puzzle over the reason the poem did not rhyme when read aloud in
           their own dialects.
         </p>
@@ -197,14 +190,14 @@ The stability of the script also led to problems over time. In China, generation
           <a href="https://link.springer.com/article/10.1007/s42803-022-00053-8"
             >Jeffrey Tharsen's article "From form to Sound"</a
           >, with Gian's transcriptions. Translations are taken from James
-          Legge's original 1876 translation of the <cite>Book of Odes</cite>,
+          Legge's original 1876 translation of the <cite class="book">Book of Odes</cite>,
           which is out of copyright. The text is available on
           <a href="https://ctext.org/book-of-poetry/guan-ju">ctext.org.</a>
         </p>
         <table>
           <caption>
             詩經《關雎》"The Osprey’s Cry", from the
-            <cite>Book of Odes</cite>
+            <cite class="book">Book of Odes</cite>
           </caption>
           <thead>
             <tr>
@@ -363,9 +356,9 @@ The *Jingdian Shiwen* wrestles with some of the same problems we face today, as 
 
 The *Jingdian Shiwen* utilizes a relatively novel form of commentary: rather than reproducing the source text in full, it instead lists only the glossed headwords. In this way, it presents short sequences of characters and pairs them with a corresponding annotation. Each headword is distinctive enough to be matched to its location in the full text of the original source. The *Jingdian Shiwen* is thus a semi-structured text that provides sequences of glyphs that can be located in specific contexts in the source texts, and supplies annotations for a specific glyph in the relevant sequence.[^16] By essentially compressing the source texts in this way, the *Jingdian Shiwen* manages to cover almost 900,000 characters of primary-source material in just over 100,000 characters of excerpt. The resulting "compression ratio" is 13:1.[^17]
 
-{{< deepzoom tile="https://ids.lib.harvard.edu/ids/iiif/16417509/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.lib.harvard.edu/ids/iiif/16417509/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="40em" >}}
+{{< deepzoom tile="https://ids.lib.harvard.edu/ids/iiif/16417478/info.json" alt="Interactive zoomable viewer showing folio from the Jingdian Shiwen with large and small characters." pdf-img="https://ids.lib.harvard.edu/ids/iiif/16417478/full/full/0/default.jpg" pdf-alt="Folio view of vertical Chinese script with large characters and half-width notes in a smaller font size" height="40em" >}}
 
-**Figure 5. [caption and alt text needed]**
+**Figure 5.** Photograph of folio from 1680 printing of the _Jingdian Shiwen_. Headwords are rendered in large characters, while annotations are rendered in half-width characters running in two columns immediately following. [Harvard-Yenching Library, Harvard University](https://iiif.lib.harvard.edu/manifests/view/drs:16416657$80i) (accessed 9/3/2023).
 
 While earlier dictionaries primarily glossed glyphs through similar-sounding glyphs, the *Jingdian Shiwen* employed a rather novel way of indicating pronunciation: the *fanqie* 反切 system.[^18] This method of noting a glyph's phonology separates a syllable into its initial consonant on the one hand, and its rhyme and tone on the other. No longer constrained to providing pronunciations by finding a word that overlapped exactly in sound, the *fanqie* system allowed scholars such as Lu Deming to instead choose common graphs for the initial and rhyme plus tone independently. Given the reliance on the Chinese script, both initial and rhyme plus tone are each expressed through a common glyph.
 
@@ -387,7 +380,7 @@ While earlier dictionaries primarily glossed glyphs through similar-sounding gly
     <p>/fɪ<span class="fade">ʃ</span>/   /<span class="fade">l</span>ʌɪt/</p>
   </aside>
 
-  <p><b>Figure 6</b></p>
+  <p><b>Figure 6,</b> how the <em>fanqie</em> pronunciation system works</p>
 {{</wrap>}}
 
 In this way, the *Jingdian Shiwen* is both comprehensive and concise in the way it provides phonological data in context. We believe it provides enough data to train an NLP model. The key question is then how to extract this data; while Lu Deming's meticulous attention to detail produced what is effectively a machine-readable dataset millennia before such machines would exist, adjusting the specific format still necessitates significant labor on our part.
@@ -401,32 +394,32 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 {{<wrap class="interlude" id="fig7">}}
   <p>
           <b>Figure 7,</b> showing the richness of annotations in the
-          <cite>Jingdian Shiwen</cite>, and the common patterns they take.
+          <cite class="book">Jingdian Shiwen</cite>, and the common patterns they take.
         </p>
         <p>
-          The original passage from the <cite>Book of Changes</cite>, a
+          The original passage from the <cite class="book">Book of Changes</cite>, a
           divinatory text, explains how the 64 different hexagrams
           represented in the text are formed via permutations of line-forms.
           Each hexagram represents a result, and a fortune-teller using the text
           would select a hexagram by forming each line one-at-a-time.
         </p>
         <p>
-          The <cite>Jingdian Shiwen</cite> quotes several different people and
+          The <cite class="book">Jingdian Shiwen</cite> quotes several different people and
           texts in an attempt to explain the term that the original text uses to
           refer to the act of permutation (underlined). This mathematical
           concept is not otherwise addressed explicitly until the time of
           ancient Greece, centuries after the creation of the
-          <cite>Book of Changes</cite>; this may well be its first written
+          <cite class="book">Book of Changes</cite>; this may well be its first written
           attestation!
         </p>
         <p>
-          The sections of the <cite>Jingdian Shiwen</cite> commentary are color-coded based on their function, which is how our model identifies them:
+          The sections of the <cite class="book">Jingdian Shiwen</cite> commentary are color-coded based on their function, which is how our model identifies them:
           <ul>
-            <li>Graphic (notes about character appearance and variation)</li>  
-            <li>Semantic (notes about the meaning of words)</li>
-            <li>Phonetic (notes about the pronounciation of words)</li>
-            <li>People</li>
-            <li>Works</li>
+            <li><span class="graf">Graphic (notes about character appearance and variation)</span></li>  
+            <li><span class="sem">Semantic (notes about the meaning of words)</span></li>
+            <li><span class="phon">Phonetic (notes about the pronounciation of words)</span></li>
+            <li><span class="per">People (family names, given names, courtesy names)</span></li>
+            <li><span class="work">Works (books, poems, chapters)</span></li>
           </ul>
         </p>
         <blockquote>
@@ -434,28 +427,30 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
             是故，剛柔<span class="head">相摩</span>，八卦相盪。
           </p>
           <p class="translation">
-            After this fashion a strong and a weak line were manipulated
-            together (till there were the eight trigrams), and those eight
+            After this fashion a strong and a weak line were <span class="par">manipulated
+            together</span> (till there were the eight trigrams), and those eight
             trigrams were added, each to itself and to all the others, (till the
             sixty-four hexagrams were formed).
           </p>
           <footer>
             周易《繫辭上》“Attached Verbalizations 1”, from the
-            <cite>Book of Changes</cite>
+            <cite class="book">Book of Changes</cite>
           </footer>
         </blockquote>
         <blockquote>
           <p class="source" lang="zh">
-            <span class="head">相摩</span>(<span class="graf">本又作磨</span
-            ><span class="phon">末何反</span><span class="per">京</span
-            ><span class="sem">云相磑切也</span>
+            <span class="head">相摩</span>
+            <span class="graf">本又作磨</span>
+            <span class="phon">末何反</span>
+            <span class="per">京</span>
+            <span class="sem">云相磑切也</span>
             <span class="phon">磑音古代反</span>
             <span class="per">馬</span>
             <span class="sem">云摩切也</span>
-            <span class="per">鄭</span>注
-            <span class="work">禮記</span>
+            <span class="per">鄭</span>
+            <span class="work">注禮記</span>
             <span class="sem">云迫也</span>
-            <span class="phon">迫音百</span>)
+            <span class="phon">迫音百</span>
           </p>
           <p class="translation">
             <span class="graf">Edition[s] also write it [摩] as “磨”</span>;
@@ -468,13 +463,13 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
               >“mill” [磑] is pronounced like 古 + 代 [gojH]</span
             >. <span class="per">Ma</span>
             <span class="sem">says that it means “ground up”</span>.
-            <span class="per">Zheng’s</span> commentary on the
-            <span class="work"><cite>Book of Rites</cite></span>
+            <span class="per">Zheng’s</span>
+            <span class="work"> commentary on the <cite class="book">Book of Rites</cite></span>
             <span class="sem">says that it means “compelled”</span>;
             <span class="phon">“compel” [迫] is pronounced like 百 [paek]</span
             >.
           </p>
-          <footer>經典釋文 <cite>Jingdian Shiwen</cite></footer>
+          <footer>經典釋文 <cite class="book">Jingdian Shiwen</cite></footer>
         </blockquote>
 {{</wrap>}}  
 
