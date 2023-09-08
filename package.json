@@ -6,11 +6,11 @@
   "license": "Apache-2.0",
   "private": true,
   "dependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@babel/preset-env": "^7.12.1",
-    "autoprefixer": "^9.8.4",
-    "postcss-cli": "^7.1.1"
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "autoprefixer": "^10.4.15",
+    "postcss-cli": "^10.1.0"
   },
   "devDependencies": {
     "pagedjs": "^0.1.43",
