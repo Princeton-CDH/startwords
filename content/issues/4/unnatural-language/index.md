@@ -15,6 +15,24 @@ summary: A distinctive set of challenges arises when training machines to proces
 hook_height_override: 130
 ---
 
+## CJK font testing
+
+
+font style applied via lang=zh: <span lang="zh">古典漢語</span>  
+
+font style applied via unicode range and font order: 古典漢語
+
+font set via inline style
+
+| font | sample|
+|-|-|
+| plex | <span style="font-family: 'IBM Plex Serif'; font-weight: 300">古典漢語</span>  |
+|noto |<span style="font-family: 'Noto Serif TC'; font-weight: 300;">古典漢語</span> |
+|palatino| <span style="font-family: 'Palatino'; font-weight: 300">古典漢語</span> |
+|serif| <span style="font-family: 'serif'; font-weight: 300;">古典漢語</span> |
+
+<hr style="all:initial; border-bottom: 2px solid red; display: block; width: 100%"/>
+
 A distinctive set of challenges arises when training machines to process a historical language, especially one that was last spoken two millennia ago. One of the core issues embedded in Natural Language Processing (NLP) models for historical languages is the acute lack of annotated datasets, despite the long scholastic and exegetical traditions for some of these languages. This article focuses on a specific historical language with an extensive commentarial tradition: premodern forms of Chinese spanning the Warring States (476-221 BCE) and early imperial periods (221 BCE --- 220 CE). By highlighting the challenges of this particular language and our approach to building an NLP model that aims to overcome these difficulties, we will additionally argue how textual commentaries from the medieval period can be used for NLP model training purposes.
 
 It may at first appear that the goal of an NLP model for historical languages consists in building the largest model and extracting the highest accuracy score from it. Conventional wisdom holds that larger is better when it comes to datasets, particularly for modern languages, in order to build a seemingly complete picture of the target language.[^1] It may be equally tempting to rely on the currently dominant focus in NLP by building contextual representations of meaning in the form of word embeddings. (This is nowhere more apparent than in the currently ubiquitous assertion that "attention is all you need" in the Transformer architecture.[^2])
@@ -30,6 +48,7 @@ Let's begin by describing some of the distinctive features of Old Chinese, a lan
 {{< deepzoom tile="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="50em" >}}
 
 **Figure 1.** Four Wooden Tablets in clerical script, [Freer Gallery of Art](https://asia-archive.si.edu/object/F1981.4a-e/) (accessed 8/20/2023).
+
 
 For heuristic purposes, we use the term "Old Chinese" for the underlying language, and like other stages of the Chinese language family, it is marked by the usage of Chinese characters or glyphs. As a writing system, Chinese glyphs have remained largely stable from the Han dynasty (202 BCE--220 CE) to the present day, with the greatest change occurring in 1956 in the form of the People's Republic of China's script reform and the introduction of simplified characters. A text from the early 20th century may thus on the surface appear indistinguishable from a genuinely ancient piece of writing. This is in particular the case due to the venerated status of a few classical texts, largely from pre-imperial China, which served as models for later literary forms of writing up until the 20th century. Existing NLP models for premodern Chinese assume a seemingly enduring and unchanging use of the written language, grouped under the notions of "Literary" or "Classical Chinese" (*wen yan* 文言 and *gudian Hanyu* 古典漢語).[^7] But this understanding of a never-changing and static language is not just ahistorical and incorrect, it also misses the point of what Chinese glyphs inherently represent: like other forms of writing, they are a conventionalized system used to represent the dynamic utterances of a language.
 
