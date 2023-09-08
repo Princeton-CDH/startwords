@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Princeton-CDH/startwords/issues"
   },
-  "homepage": "https://startwords.cdh.princeton.edu/"
+  "homepage": "https://startwords.cdh.princeton.edu/",
+  "engines": {
+    "node": ">=18"
+  }
 }
