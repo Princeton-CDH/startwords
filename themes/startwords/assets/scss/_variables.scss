@@ -20,7 +20,8 @@ $transparent-red: rgba(206, 41, 73, 0.6);
 
 // font controls
 $font-sans:  'Source Sans Pro', 'Arial', sans-serif;
-$font-serif: 'IBM Plex Serif', 'Palatino', serif;
+// Noto Serif TC is first; using unicode-range to apply where needed
+$font-serif: 'Noto Serif TC', 'IBM Plex Serif', 'Palatino', serif;
 $base-font-size: 18px; // = 1rem
 
 // breakpoints
