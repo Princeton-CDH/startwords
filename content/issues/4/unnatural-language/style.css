@@ -154,10 +154,10 @@ cite.book::before {
 	font-weight: 400;
   line-height: 33px;
   white-space: nowrap;
-    @media (min-width: 1024px) {
+  @media (min-width: 1024px) {
       font-size: 40px;
       line-height: 58px;
-    }
+  }
 }
 
 #fig6 .card header {
@@ -175,12 +175,18 @@ cite.book::before {
 /* match up word and phonetic spelling widths */
 .fish {
   display: inline-block;
-  width: 3.5rem;
+  width: 3.75rem;
+  @media (min-width: 1024px) {
+    width: 6.25rem;
+  }
 }
 
 .tek {
   display: inline-block;
   width: 2.75rem;
+  @media (min-width: 1024px) {
+    width: 3.75rem;
+  }
 }
 
 #fig6::before {
