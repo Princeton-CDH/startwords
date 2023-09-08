@@ -109,4 +109,19 @@
     src: url('/fonts/IBM_Plex_Serif/ibm-plex-serif-v8-latin-700italic.woff2') format('woff2'),
          url('/fonts/IBM_Plex_Serif/ibm-plex-serif-v8-latin-700italic.woff') format('woff');
 }
-  
+
+/* Noto Serif TC */
+@font-face {
+    font-family: "Noto Serif TC";
+    font-display: swap;
+    unicode-range: U+4E00-9FFF;
+    src: url('/fonts/NotoSerifTC/NotoSerifTC-Regular.woff2') format('woff2'),
+         url('/fonts/NotoSerifTC/NotoSerifTC-Regular.woff') format('woff'),
+      url('/fonts/NotoSerifTC/NotoSerifTC-Regular.otf') format('otf');;
+    // harmonize sizing with font for Latin characters
+    // on desktop, main font should be 18px and Noto Serif TC should be 16px
+    size-adjust: 89%;
+    // we're using regular font weight (400), but want it displayed
+    // with the main body text, which as currently font-weight 300
+    font-weight: 300;
+}
