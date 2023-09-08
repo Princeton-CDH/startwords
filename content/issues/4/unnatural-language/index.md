@@ -42,43 +42,38 @@ Often, these texts present themselves as representing speech, and many of them m
 So how can we access the sounds of a language that lost its last native speakers millennia ago? Chinese --- like other languages --- underwent rather significant phonological changes over time. In short, the sound system of the language underwent significant changes even as its graphemes remained static. Old Chinese phonology is therefore a reconstructed system, derived from documentary evidence. In this context, heteronyms pose an issue also present in modern forms of Chinese: characters whose pronunciation and meaning change based on context, defying attempts to convert them directly into phonemes.[^10] One of the best-known examples of such a homograph is the glyph 樂, which can be read --- depending on context --- as either *lè* ("joy") or *yuè* ("music") in modern Standard Chinese, which can be reconstructed as \*\[rˤ\]awk or \*\[ŋ\]ˤrawk in Old Chinese.
 
 {{<wrap class="interlude" id="fig2">}}
-<p>
-          <b>Figure 2,</b> intended to illustrate the concept of a
-          <a href="https://en.wikipedia.org/wiki/Heteronym_(linguistics)"
-            >heteronym</a
-          >, something that occurs in our data and presents an interesting
-          problem when working with Early Chinese text.
-        </p>
-        <table>
-          <caption>
-            Heteronyms in ancient and modern languages
-          </caption>
-          <tbody>
-            <tr class="languages">
-              <td rowspan="2"></td>
-              <th colspan="2">Old Chinese</th>
-              <th colspan="2">US English</th>
-            </tr>
-            <tr class="words">
-              <td colspan="2" lang="zh">樂</td>
-              <td colspan="2">excuse</td>
-            </tr>
-            <tr class="gloss">
-              <th scope="row">meaning</th>
-              <td>music</td>
-              <td>joy</td>
-              <td>to forgive</td>
-              <td>justification</td>
-            </tr>
-            <tr class="translit">
-              <th scope="row">sound</th>
-              <td>*[ŋ]ˤrawk</td>
-              <td>*[r]ˤawk</td>
-              <td>/ɪksˈkjuz/</td>
-              <td>/ɪksˈkjus/</td>
-            </tr>
-          </tbody>
-        </table>
+
+
+<table>
+  <caption>
+    <b>Figure 2.</b> Heteronyms in ancient and modern languages. 
+  </caption>
+  <tbody>
+    <tr class="languages">
+      <td rowspan="2"></td>
+      <th colspan="2">Old Chinese</th>
+      <th colspan="2">US English</th>
+    </tr>
+    <tr class="words">
+      <td colspan="2" lang="zh">樂</td>
+      <td colspan="2">excuse</td>
+    </tr>
+    <tr class="gloss">
+      <th scope="row">meaning</th>
+      <td>music</td>
+      <td>joy</td>
+      <td>to forgive</td>
+      <td>justification</td>
+    </tr>
+    <tr class="translit">
+      <th scope="row">sound</th>
+      <td>*[ŋ]ˤrawk</td>
+      <td>*[r]ˤawk</td>
+      <td>/ɪksˈkjuz/</td>
+      <td>/ɪksˈkjus/</td>
+    </tr>
+  </tbody>
+</table>
 
 {{</wrap>}}
 

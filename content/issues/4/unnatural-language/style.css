@@ -33,6 +33,14 @@ cite.book::before {
   padding: .5rem;
 }
 
+/* space between the two parts */
+#fig2 .languages th:nth-child(3),
+#fig2 .words td:nth-child(2),
+#fig2 .gloss td:nth-child(4),
+#fig2 .translit td:nth-child(4) {
+  padding-left: 2.5rem;
+}
+
 #fig2 img.character {
   width: 3rem;
   height: 3rem;
@@ -42,6 +50,10 @@ cite.book::before {
 #fig2 .languages,
 #fig2 .words {
   text-align: center;
+}
+
+#fig2 caption {
+  width: auto;
 }
 
 
