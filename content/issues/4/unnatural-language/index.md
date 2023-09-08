@@ -366,20 +366,21 @@ While earlier dictionaries primarily glossed glyphs by providing similar-soundin
   <aside class="card">
   <header>Say <em>east</em> in Middle Chinese</header>
   
-  <p class="large">東 /tuŋ/</p>
-  <p class="large">德 + 紅 = 東</p>
+  <p class="large"><span class="tek">東</span> /tuŋ/</p>
+  <p class="large"><span class="tek">德 +</span> 紅 = 東</p>
 
-  <p>/t<span class="fade">ək</span>/  /<span class="fade">ɣ</span>uŋ/</p>
+  <p><span class="tek">/t<span class="fade">ək</span>/</span>  /<span class="fade">ɣ</span>uŋ/</p>
   </aside>
   
   <aside class="card">
     <header>Say <em>fight</em> in English</header>
-    <p class="large">Fight /fʌɪt/</p>
-    <p class="large">Fish + light = fight</p>
-    <p>/fɪ<span class="fade">ʃ</span>/   /<span class="fade">l</span>ʌɪt/</p>
+    <p class="large"><span class="fish">Fight</span> /fʌɪt/</p>
+    <p class="large"><span class="fish">Fish +</span> light = fight</p>
+    <p><span class="fish">/fɪ<span class="fade">ʃ</span>/</span>
+     /<span class="fade">l</span>ʌɪt/</span></p>
   </aside>
 
-  <p><b>Figure 6,</b> how the <em>fanqie</em> pronunciation system works</p>
+  <p class="caption"><b>Figure 6.</b> How the <em>fanqie</em> pronunciation system works</p>
 {{</wrap>}}
 
 In this way, the *Jingdian Shiwen* is both comprehensive and concise in the way it provides phonological data in context. We believe it provides enough data to train an NLP model. The key question is then how to extract this data; while Lu Deming's meticulous attention to detail produced what is effectively a machine-readable dataset millennia before such machines would exist, adjusting the specific format still necessitates significant labor on our part.
