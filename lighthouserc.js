@@ -14,11 +14,9 @@ module.exports = {
         "/issues/",
         "/issues/1/",
         "/issues/1/data-beyond-vision/",
-        "/issues/3/",
-        "/issues/3/mapping-latent-spaces/",
-        "/issues/3/on-spanish-parrots/",
-        "/es/issues/3/on-spanish-parrots/",
-        "/issues/3/llm-limit-case/",
+        "/issues/4/",
+        "/issues/4/unnatural-language/",
+        "/issues/4/toward-deep-map/",
         "/authors/",
         "/404.html"
     ]
