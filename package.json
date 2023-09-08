@@ -12,10 +12,6 @@
     "autoprefixer": "^10.4.15",
     "postcss-cli": "^10.1.0"
   },
-  "devDependencies": {
-    "pagedjs": "^0.1.43",
-    "pagedjs-cli": "^0.2.1"
-  },
   "scripts": {},
   "repository": {
     "type": "git",
