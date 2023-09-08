@@ -63,7 +63,10 @@ module.exports = {
         // kaltura errors to ignore
         "errors-in-console": "warn",
         "no-document-write": "warn",
-        "uses-text-compression": "warn"
+        "uses-text-compression": "warn",
+
+        // backward-forward cache
+        "bf-cache": "warn"
       }
     },
     upload: {
