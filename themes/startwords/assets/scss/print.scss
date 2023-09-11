@@ -177,9 +177,11 @@ main {
 
 a.page-header {
     position: running(page-header);
+    opacity: 1;
 }
 a.first-page-header {
     position: running(first-page-header);
+    opacity: 1;
 }
 
 a.article-title {
