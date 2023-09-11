@@ -15,6 +15,24 @@ summary: A distinctive set of challenges arises when training machines to proces
 hook_height_override: 130
 ---
 
+## CJK font testing
+
+
+font style applied via lang=zh: <span lang="zh">古典漢語</span>  
+
+font style applied via unicode range and font order: 古典漢語
+
+font set via inline style
+
+| font | sample|
+|-|-|
+| plex | <span style="font-family: 'IBM Plex Serif'; font-weight: 300">古典漢語</span>  |
+|noto |<span style="font-family: 'Noto Serif TC'; font-weight: 300;">古典漢語</span> |
+|palatino| <span style="font-family: 'Palatino'; font-weight: 300">古典漢語</span> |
+|serif| <span style="font-family: 'serif'; font-weight: 300;">古典漢語</span> |
+
+<hr style="all:initial; border-bottom: 2px solid red; display: block; width: 100%"/>
+
 A distinctive set of challenges arises when training machines to process a historical language, especially one that was last spoken two millennia ago. One of the core issues embedded in Natural Language Processing (NLP) models for historical languages is the acute lack of annotated datasets, despite the long scholastic and exegetical traditions for some of these languages. This article focuses on a specific historical language with an extensive commentarial tradition: premodern forms of Chinese spanning the Warring States (476-221 BCE) and early imperial periods (221 BCE --- 220 CE). By highlighting the challenges of this particular language and our approach to building an NLP model that aims to overcome these difficulties, we will additionally argue how textual commentaries from the medieval period can be used for NLP model training purposes.
 
 It may at first appear that the goal of an NLP model for historical languages consists in building the largest model and extracting the highest accuracy score from it. Conventional wisdom holds that larger is better when it comes to datasets, particularly for modern languages, in order to build a seemingly complete picture of the target language.[^1] It may be equally tempting to rely on the currently dominant focus in NLP by building contextual representations of meaning in the form of word embeddings. (This is nowhere more apparent than in the currently ubiquitous assertion that "attention is all you need" in the Transformer architecture.[^2])
@@ -27,9 +45,8 @@ In the project we introduce here[^5] --- the result of a collaboration between a
 
 Let's begin by describing some of the distinctive features of Old Chinese, a language that survives in a corpus of ancient texts that can be dated to the centuries preceding and during the first dynasties of Imperial China, or roughly 476 BCE -- 220 CE. These written texts survive either as documents that were transmitted and copied through the millennia, or as recently excavated or otherwise surfaced manuscripts.[^6]
 
-{{< deepzoom tile="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="50em" >}}
+{{< deepzoom tile="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/info.json" alt="Interactive zoomable viewer showing four wooden tablets in clerical script." pdf-img="https://ids.si.edu/ids/iiif/FS-F1981.4a-e/full/full/0/default.jpg" pdf-alt="four wooden tablets in clerical script." height="50em" caption="**Figure 1.** Four Wooden Tablets in clerical script, [Freer Gallery of Art](https://asia-archive.si.edu/object/F1981.4a-e/) (accessed 8/20/2023).">}}
 
-**Figure 1.** Four Wooden Tablets in clerical script, [Freer Gallery of Art](https://asia-archive.si.edu/object/F1981.4a-e/) (accessed 8/20/2023).
 
 For heuristic purposes, we use the term "Old Chinese" for the underlying language, and like other stages of the Chinese language family, it is marked by the usage of Chinese characters or glyphs. As a writing system, Chinese glyphs have remained largely stable from the Han dynasty (202 BCE--220 CE) to the present day, with the greatest change occurring in 1956 in the form of the People's Republic of China's script reform and the introduction of simplified characters. A text from the early 20th century may thus on the surface appear indistinguishable from a genuinely ancient piece of writing. This is in particular the case due to the venerated status of a few classical texts, largely from pre-imperial China, which served as models for later literary forms of writing up until the 20th century. Existing NLP models for premodern Chinese assume a seemingly enduring and unchanging use of the written language, grouped under the notions of "Literary" or "Classical Chinese" (*wen yan* 文言 and *gudian Hanyu* 古典漢語).[^7] But this understanding of a never-changing and static language is not just ahistorical and incorrect, it also misses the point of what Chinese glyphs inherently represent: like other forms of writing, they are a conventionalized system used to represent the dynamic utterances of a language.
 
@@ -355,9 +372,7 @@ The *Jingdian Shiwen* wrestles with some of the same problems we face today, as 
 
 The *Jingdian Shiwen* utilizes a relatively novel form of commentary: rather than reproducing the source text in full, it instead lists only rather than reproducing the source text in full, it instead lists only what we call headwords, which are short excerpts, ranging from single glyphs to short passages. Each of these short sequences of glyphs is paired with a corresponding annotation. Each headword is distinctive enough to be matched to its location in the full text of the original source. The *Jingdian Shiwen* is thus a semi-structured text that provides sequences of glyphs that can be located in specific contexts in the source texts, and supplies annotations for a specific glyph in the relevant sequence.[^16] By essentially compressing the source texts in this way, the *Jingdian Shiwen* manages to cover almost 900,000 characters of primary-source material in just over 100,000 characters of excerpt. The resulting "compression ratio" is 13:1.[^17]
 
-{{< deepzoom tile="https://ids.lib.harvard.edu/ids/iiif/16417478/info.json" alt="Interactive zoomable viewer showing folio from the Jingdian Shiwen with large and small characters." pdf-img="https://ids.lib.harvard.edu/ids/iiif/16417478/full/full/0/default.jpg" pdf-alt="Folio view of vertical Chinese script with large characters and half-width notes in a smaller font size" height="40em" >}}
-
-**Figure 5.** Photograph of folio from 1680 printing of the _Jingdian Shiwen_. Headwords are rendered in large characters, while annotations are rendered in half-width characters running in two columns immediately following. [Harvard-Yenching Library, Harvard University](https://iiif.lib.harvard.edu/manifests/view/drs:16416657$80i) (accessed 9/3/2023).
+{{< deepzoom tile="https://ids.lib.harvard.edu/ids/iiif/16417478/info.json" alt="Interactive zoomable viewer showing folio from the Jingdian Shiwen with large and small characters." pdf-img="https://ids.lib.harvard.edu/ids/iiif/16417478/full/full/0/default.jpg" pdf-alt="Folio view of vertical Chinese script with large characters and half-width notes in a smaller font size" height="40em" caption="**Figure 5.** Photograph of folio from 1680 printing of the _Jingdian Shiwen_. Headwords are rendered in large characters, while annotations are rendered in half-width characters running in two columns immediately following. [Harvard-Yenching Library, Harvard University](https://iiif.lib.harvard.edu/manifests/view/drs:16416657$80i) (accessed 9/3/2023).">}}
 
 While earlier dictionaries primarily glossed glyphs by providing similar-sounding glyphs to indicate their reading, the *Jingdian Shiwen* employed a rather novel way of indicating pronunciation: the *fanqie* 反切 system.[^18] This method of noting a glyph's phonology separates a syllable into its initial consonant on the one hand, and its rhyme and tone on the other. No longer constrained to providing pronunciations by finding a word that overlapped exactly in sound, the *fanqie* system allowed scholars such as Lu Deming to instead choose common graphs for the initial and rhyme plus tone independently. Given the reliance on the Chinese script, both initial and rhyme plus tone are each expressed through a common glyph.
 

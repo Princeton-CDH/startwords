@@ -1,6 +1,7 @@
 {{/* Shortcode for open seadragon deep zoom  */}}
 {{- $zoom_id := printf "%s-%d" "openseadragon" .Ordinal -}} {{/* generate unique identifier within page */}}
 {{- $height := default "30em" (.Get "height") -}}
+<figure>
 <div class="deepzoom" id="{{ $zoom_id }}" style="height: {{ $height }}" aria-label="{{ .Get `alt` }}"></div>
 <script>
     window.addEventListener("DOMContentLoaded", function() {
@@ -16,10 +17,18 @@
         });
     });
 </script>
+{{ with .Get `caption` }}
+    <figcaption><p>{{ . | markdownify }}</p></figcaption>
+{{ end }}
+</figure>
 {{/* image, alt & caption rendered in pdf only, in place of viewer */}}
 {{ if (.Get "pdf-img") }}
 <figure class="deepzoom-preview">
     <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
-    <figcaption><p>The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.</p></figcaption>
+    <figcaption>
+    {{ with .Get `caption` }}
+    <p>{{ . | markdownify }}</p></figcaption>
+    {{ end }}
+    <p>The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.</p></figcaption>
 </figure>
 {{ end }}
