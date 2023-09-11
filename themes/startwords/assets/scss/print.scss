@@ -285,7 +285,8 @@ body.article article {
     .sketchfab-embed-wrapper iframe,
     .video-embed-wrapper iframe,
     .video-embed-wrapper > div,
-    .deepzoom, .kaltura {
+    .deepzoom, .kaltura,
+    .deepzoom ~ figcaption {
         display: none;
     }
 

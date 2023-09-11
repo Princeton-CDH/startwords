@@ -103,10 +103,12 @@ Example use:
 
 Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom images are supported on a page.
 
+The deepzoom shortcode supports an optional `caption` attribute; the caption may include markdown formatting.
+
 Example use:
 
 ```
-{{< deepzoom tile="http://iiif.example.com/image-id/info.json" alt="Interactive zoomable viewer showing a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub." height="10em">}}
+{{< deepzoom tile="http://iiif.example.com/image-id/info.json" alt="Interactive zoomable viewer showing a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub." height="10em" caption="**Figure N.** ...">}}
 ```
 
 When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.`.
