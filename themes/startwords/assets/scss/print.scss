@@ -7,7 +7,7 @@
 
   @top-left {
     content: string(title);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 11px;
     font-family: $font-serif;
   }
@@ -21,14 +21,14 @@
     content: element(page-footer);
     opacity: 1;
     font-size: 11px;
-    font-weight: 300;
+    font-weight: 400;
   }
 
 
   @bottom-right {
     content: counter(page);
     font-size: 11px;
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 
@@ -75,7 +75,7 @@ body {
             }
 
             .authors {
-                font-weight: 300;
+                font-weight: 400;
             }
 
             .theme {

@@ -121,7 +121,4 @@
     // harmonize sizing with font for Latin characters
     // on desktop, main font should be 18px and Noto Serif TC should be 16px
     size-adjust: 89%;
-    // we're using regular font weight (400), but want it displayed
-    // with the main body text, which as currently font-weight 300
-    font-weight: 300;
 }

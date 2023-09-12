@@ -22,6 +22,7 @@ body.article {
             }
 
             .number {
+                font-weight: 300;
                 a, a:visited {
                     color: $dark-grey;
                     text-decoration: none;
@@ -96,14 +97,14 @@ body.article article, body.page article {
             padding-bottom: 3px; // space for underlines at end of paragraph
             margin-top: rem(17px);
             margin-bottom: rem(17px);
-            font-weight: 300;
+            font-weight: 400;
             line-height: rem(27px);
             @media (min-width: $breakpoint-m) { line-height: rem(30px); }
         }
 
         // lists
         ol, ul {
-            font-weight: 300;
+            font-weight: 400;
             line-height: rem(27px);
         }
 
@@ -129,7 +130,7 @@ body.article article, body.page article {
                 caption-side: bottom;
                 font-family: $font-serif;
                 font-style: italic;
-                font-weight: 300;
+                font-weight: 400;
                 line-height: 30px;
                 padding-top: 1.5rem;
                 padding-bottom: 1rem;
@@ -147,14 +148,14 @@ body.article article, body.page article {
             p {
                 margin: 0;
                 font-style: italic;
-                font-weight: 300;
+                font-weight: 400;
             }
 
             cite {
                 display: block;
                 margin-top: rem(5px);
                 font-style: normal;
-                font-weight: 300;
+                font-weight: 400;
 
                 &::before {
                     content: ' – '
