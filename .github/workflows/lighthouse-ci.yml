@@ -5,7 +5,7 @@ on: [push]
 # versions should be kept in sync with gh-pages workflow
 env:
     HUGO_VERSION: 0.101.0  # if you update this, change the README badge and gh-pages.yml too!
-    NODE_VERSION: 16  # if you update this, change the README badge and gh-pages.yml too!
+    NODE_VERSION: 18  # if you update this, change the README badge and gh-pages.yml too!
     LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: setup hugo
         uses: peaceiris/actions-hugo@v2
@@ -24,12 +24,12 @@ jobs:
           extended: true
 
       - name: setup node.js
-        uses: actions/setup-node@v2-beta
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: fetch js dependencies from cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: npm-${{ hashFiles('package-lock.json') }}
@@ -48,7 +48,7 @@ jobs:
       # we don't export image derivatives because it makes the build a lot
       # slower.
       - name: export built files for download
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: public
           path: |
@@ -59,7 +59,7 @@ jobs:
       # root, see that file for more details. output from runs is uploaded to
       # free google cloud storage and accessible via the github action run
       - name: audit site using lighthouse ci
-        uses: treosh/lighthouse-ci-action@v3
+        uses: treosh/lighthouse-ci-action@v10
         with:
           configPath: './lighthouserc.js'
           uploadArtifacts: true
