@@ -27,10 +27,8 @@
     font-weight: 300;
   }
 
-
   @bottom-right {
-    content: flow(footer-html);
-    // content: counter(page);
+    content: counter(page);
     font-size: 11px;
     font-weight: 300;
   }
@@ -271,6 +269,11 @@ body.article .footnotes {
 
 body > header, nav, footer, a[rel=alternate] {
     display: none;
+}
+
+// unhide doi used for pdf footers
+.print-only a.page-doi[rel=alternate] {
+    display: inline-block;
 }
 
 
