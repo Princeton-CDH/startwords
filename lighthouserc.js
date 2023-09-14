@@ -64,7 +64,10 @@ module.exports = {
         "uses-text-compression": "warn",
 
         // backward-forward cache
-        "bf-cache": "warn"
+        "bf-cache": "warn",
+        // ensure CSP is effective against XSS attacks
+        // no warning in lighthouse report, maybe not checking?
+        "csp-xss": "warn"
       }
     },
     upload: {
