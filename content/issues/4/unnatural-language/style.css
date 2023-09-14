@@ -123,9 +123,153 @@ cite.book::before {
 
 /* figure 7 (provisional) */
 
+#fig7 {
+  /* use flexbox to let terms follow each other (with translation & annotation)
+  and wrap as needed */
+  display: flex;
+  /* on mobile, layout one term per row */
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #404040; /* override interlude text color */
+
+  /* on larger screens, display layout horizontally but wrap */
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}
+#fig7.interlude:before {
+  background-color: #E9E9E9;
+/* can we use a gradient for the strips */
+/*  background: linear-gradient(
+  to bottom,
+  #E9E9E9,
+  #E9E9E9 145px,
+  #FEFEFE 129px,
+  #E9E9E9 145px,
+  #FEFEFE 129px
+);*/
+}
+
+#fig7 > div {
+  /* use flexbox within each block so they stack nicely */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #FEFEFE;
+
+  @media (min-width: 768px) {
+      width: min-content;
+  }
+}
+
+/*#fig7 > div:first-child:after {
+  content: " ";
+  background-color: yellow;
+  width: 100vw;
+}*/
+
 #fig7 .source {
-  font-size: 0;   /* removes spaces between spans */
-  line-height: 2.7rem !important;  
+  white-space: nowrap;
+  font-size: 40px;
+  background-color: #E9E9E9;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 27px;
+/*  display: block;*/
+}
+
+
+#fig7 .translation {
+  font-size: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
+/* text labels for annotations */
+#fig7 > div:after {
+  font-style: italic;
+  font-size: 18px;
+  background-color: #FEFEFE;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 14px;
+}
+.graphic::after {
+  content: "Graphic";
+}
+.phon:after {
+  content: "Phonetic";
+}
+.person:after {
+  content: "Person"
+}
+.semantic:after {
+  content: "Semantic"
+}
+.work:after {
+  content: "Work"
+}
+
+/* visual indicators for annotations (provisional) */
+
+/* mobile: indicator displays vertically next to translation term */
+#fig7 .translation:before {
+  content: " ";
+  display: block;
+  height: 100%;
+  width: 13px;
+  position: absolute;
+  left: 0;
+}
+/* desktop: indicator displays horizontally under source term */
+@media (min-width: 768px) {
+  #fig7 .source:after {
+    content: " ";
+    display: block;
+    height: 13px;
+    margin-bottom: -13px;
+    border-bottom: 7px transparent solid;
+    border-left: none !important;
+  }
+  #fig7 .translation:before {
+    border-left: none !important;
+  }
+}
+#fig7 .graphic .source:after, .graphic .translation:before {
+/*  height: 0;*/
+/*  border-bottom: 13px #1D6EB9 dotted;*/
+  border-bottom: 7px #1D6EB9 dotted;
+  border-left: 7px #1D6EB9 dotted;
+}
+#fig7 .phon .source:after, .phon .translation:before {
+/*  height: 7px;*/
+  border-bottom: 7px #BD6B00 dashed;
+  border-left: 7px #BD6B00 dashed;
+}
+#fig7 .semantic .source:after, .semantic .translation:before {
+/*  height: 0;  */
+/*  border-bottom: 13px rgba(161, 47, 189, 1) dotted;  */
+  border-bottom: 7px rgba(161, 47, 189, 1) dotted;
+  border-left: 7px rgba(161, 47, 189, 1) dotted;
+}
+#fig7 .person .source:after, .person .translation:before{
+/*  height: 7px;  */
+  border-bottom: 7px solid #0A760F;
+  border-left: 7px solid #0A760F;
+}
+#fig7 .work .source:after, .work .translation:before {
+  border-bottom: 7px double #6D0000;
+  border-left: 7px double #6D0000;
+}
+
+/*
+#fig7 .source {
+/*  font-size: 0;   /* removes spaces between spans
+  line-height: 2.7rem !important;
 }
 
 #fig7 .translation {
@@ -169,3 +313,4 @@ cite.book::before {
   border: 1px solid grey;
   color: black;
 }
+*/
