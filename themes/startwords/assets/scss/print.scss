@@ -171,17 +171,19 @@ main {
 
 .print-only {
     display: block;
-    /* hide for pinting in browsers that don't support @page styles */
-    opacity: 0;
+    /* hide offscreen for print-view in browsers that don't support @page styles */
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    right: -200px;
+    top: 50px;
 }
 
 a.page-header {
     position: running(page-header);
-    opacity: 1;
 }
 a.first-page-header {
     position: running(first-page-header);
-    opacity: 1;
 }
 
 a.article-title {
