@@ -200,10 +200,6 @@ $preview-height-xl: rem(250px);  // 1024px-
         }
     }
 
-    // adjust spacing for first summary when there are three
-    &:nth-of-type(1):nth-last-of-type(3) {
-        margin-top: rem(62px);
-    }
     /* add spacing to any summary that comes after the first in a column */
     &:nth-child(n+3) {
         margin-top: rem(96px);
