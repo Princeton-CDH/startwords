@@ -175,10 +175,15 @@ main {
     }
 }
 
-
-.print-only {
+/* only display print-only marginal content for docraptor */
+@media (update:none) and (pointer:none) and (hover:none) {
+    .print-only {
+       display: block;
+    }
+}
+// .print-only {
     // display for now to see if it resolves margin display
-    display: block;
+    // display: block;
 
     // #docraptor {
 
@@ -192,7 +197,7 @@ main {
     // width: 200px;
     // right: -200px;
     // top: 50px;
-}
+// }
 
 a.page-header {
     flow: static(page-header);
