@@ -4,6 +4,7 @@ layout: single
 title: Issue 4
 number: 4
 theme: PALIMPSESTS
+theme_wrap_width: 8rem
 date: 2023-08-29 # Change me
 slug: 4
 num_features: 2

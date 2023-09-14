@@ -69,6 +69,8 @@ hugo new --kind issue issues/4
 
 In `content/issues/4/_index.md` file, you'll then need to set metadata like `theme` and `contributors`.
 
+Issue theme words are automatically wrapped on the issue list page unless they are under less than 7 characters long. To override the default wrap width, use `theme_wrap_width`; it is recommended to set the wrap width in rem.
+
 You should also add the name(s) of the authors of the issue introduction in two places: first, add that name as an entry in `data/authors.yml`. Second, add the LastnameFirstname slug of that author or authors into the metadata of the `content/issues/4/_index.md` file.
 
 And to draft a new article named "A Cup of Tea", run these commands, again at the project's top-level directory:
