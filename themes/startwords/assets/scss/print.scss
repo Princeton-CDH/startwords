@@ -13,12 +13,14 @@
   }
 
   @top-right {
-    content: element(page-header);
+    content: flow(footer-html);
+    // content: element(page-header);
     opacity: 1;
   }
 
   @bottom-left {
-    content: element(page-footer);
+    content: flow(footer-html);
+    // content: element(page-footer);
     opacity: 1;
     font-size: 11px;
     font-weight: 300;
@@ -26,19 +28,21 @@
 
 
   @bottom-right {
-    content: counter(page);
+    content: flow(footer-html);
+    // content: counter(page);
     font-size: 11px;
     font-weight: 300;
   }
 }
 
-@page :first {
+@page:first {
     /* don't display article title on first page */
     @top-left {
         content: '';
     }
     @top-right {
-        content: element(first-page-header);
+        // content: element(first-page-header);
+        content: flow(first-page-header);
     }
 }
 
@@ -170,28 +174,32 @@ main {
 
 
 .print-only {
-    display: block;
+    #docraptor {
+        display: block;
+    }
+    #notdocraptor {
+        display: none;
+    }
     /* hide offscreen for print-view in browsers that don't support @page styles */
-    position: absolute;
-    height: 50px;
-    width: 200px;
-    right: -200px;
-    top: 50px;
+    // position: absolute;
+    // height: 50px;
+    // width: 200px;
+    // right: -200px;
+    // top: 50px;
 }
 
 a.page-header {
-    position: running(page-header);
+    flow: static(page-header);
+    // position: running(page-header);
 }
 a.first-page-header {
-    position: running(first-page-header);
-}
-
-a.article-title {
-    position: running(header-title);
+    flow: static(first-page-header);
+    // position: running(first-page-header);
 }
 
 a.page-doi {
-    position: running(page-footer);
+    flow: static(page-footer);
+    // position: running(page-footer);
 }
 
 
