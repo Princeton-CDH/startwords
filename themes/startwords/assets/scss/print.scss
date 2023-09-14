@@ -174,12 +174,15 @@ main {
 
 
 .print-only {
-    #docraptor {
-        display: block;
-    }
-    #notdocraptor {
-        display: none;
-    }
+    // display for now to see if it resolves margin display
+    display: block;    
+
+    // #docraptor {
+
+    // }
+    // #notdocraptor {
+    //     display: none;
+    // }
     /* hide offscreen for print-view in browsers that don't support @page styles */
     // position: absolute;
     // height: 50px;
