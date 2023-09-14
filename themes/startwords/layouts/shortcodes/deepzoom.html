@@ -24,7 +24,7 @@
 {{/* image, alt & caption rendered in pdf only, in place of viewer */}}
 {{ if (.Get "pdf-img") }}
 <figure class="deepzoom-preview">
-    <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
+    <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}" loading="lazy"/>
     <figcaption>
     {{ with .Get `caption` }}
     <p>{{ . | markdownify }}</p></figcaption>
