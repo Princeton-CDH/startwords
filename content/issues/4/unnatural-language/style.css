@@ -33,6 +33,14 @@ cite.book::before {
   padding: .5rem;
 }
 
+/* space between the two parts */
+#fig2 .languages th:nth-child(3),
+#fig2 .words td:nth-child(2),
+#fig2 .gloss td:nth-child(4),
+#fig2 .translit td:nth-child(4) {
+  padding-left: 2.5rem;
+}
+
 #fig2 img.character {
   width: 3rem;
   height: 3rem;
@@ -42,6 +50,10 @@ cite.book::before {
 #fig2 .languages,
 #fig2 .words {
   text-align: center;
+}
+
+#fig2 caption {
+  width: auto;
 }
 
 
@@ -96,28 +108,94 @@ cite.book::before {
 
 #fig6 p {
   line-height: normal !important;
+  font-size: 22px;
+}
+
+
+#fig6 .caption {
+  margin-top: 3em;
+  margin-left: 150px;
+  max-width: calc(95% - 150px);
+  font-size: 16px;
+  @media (min-width: 768px) {
+    margin-left: 5%;
+    max-width: auto;
+  }
 }
 
 .card {
-	display: inline-block;
-	width: 48%;
+  /* stack on smaller screens */
+  display: inline-block;
+  margin-left: 20%;
+  vertical-align: top;
+  width: 80%;
 
+  /* side by side on larger screens */
+  @media (min-width: 768px) {
+    width: 45%;
+    padding-left: 5%;
+    margin-left: 0;
+  }
 }
 
-.card .large {
-	font-size: 40px;
+/* second card */
+.card + .card {
+  margin-bottom: 100px; /* push to make space for ear on mobile */
+  @media (min-width: 768px) {
+    margin-bottom: auto;
+    width: 48%;
+    padding-left: 0;
+  }
+}
+
+#fig6 .card p.large {
+  font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 58px;
+  line-height: 33px;
+  white-space: nowrap;
+  @media (min-width: 1024px) {
+      font-size: 40px;
+      line-height: 58px;
+  }
 }
 
-.card header {
-    margin-bottom: 1.67rem !important;
+#fig6 .card header {
+  font-size: 20px;
+  margin-bottom: 14px;
+  @media (min-width: 768px) {
+    margin-bottom: 16px;
+  }
 }
 
 .card .fade {
-	color: #AE80FF;
 	opacity: 0.7;
+}
+
+/* match up word and phonetic spelling widths */
+.fish {
+  display: inline-block;
+  width: 3.75rem;
+  @media (min-width: 1024px) {
+    width: 6.25rem;
+  }
+}
+
+.tek {
+  display: inline-block;
+  width: 2.75rem;
+  @media (min-width: 1024px) {
+    width: 3.75rem;
+  }
+}
+
+#fig6::before {
+  content: " ";
+  display: block;
+  background-image: url("listen.svg");
+  background-repeat: no-repeat;
+  background-position: -35px bottom;
+  background-size: 150px;
 }
 
 
@@ -265,52 +343,3 @@ cite.book::before {
   border-bottom: 7px double #6D0000;
   border-left: 7px double #6D0000;
 }
-
-/*
-#fig7 .source {
-/*  font-size: 0;   /* removes spaces between spans
-  line-height: 2.7rem !important;
-}
-
-#fig7 .translation {
-  line-height: 1.5;
-}
-
-#fig7 .head {
-  text-decoration: underline;
-}
-
-#fig7 .graf {
-  background-color: #4dd0e1;
-}
-
-#fig7 .phon {
-  background-color: #ffab40;
-}
-
-#fig7 .sem {
-  background-color: #eeff41;
-}
-
-#fig7 .per {
-  background-color: #009688;
-}
-
-#fig7 .work {
-  background-color: #78909c;
-}
-
-#fig7 .source span {
-  font-size: 2rem;
-  display: inline;
-}
-
-#fig7 .graf,
-#fig7 .phon,
-#fig7 .sem,
-#fig7 .per,
-#fig7 .work {
-  border: 1px solid grey;
-  color: black;
-}
-*/
