@@ -61,7 +61,17 @@ module.exports = {
         // kaltura errors to ignore
         "errors-in-console": "warn",
         "no-document-write": "warn",
-        "uses-text-compression": "warn"
+        "uses-text-compression": "warn",
+
+        // backward-forward cache
+        "bf-cache": "warn",
+        // ensure CSP is effective against XSS attacks
+        // no warning in lighthouse report, maybe not checking?
+        "csp-xss": "warn",
+
+        // error specific to external asset in SW4 Budak/Rominger piece;
+        // remove once we remove that article from urls to check with lighthouse
+        "inspector-issues": "warn",
       }
     },
     upload: {

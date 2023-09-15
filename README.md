@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Hugo](https://img.shields.io/badge/hugo-0.101-blue.svg)](https://gohugo.io)
-![Node version](https://img.shields.io/badge/node-16-blue)
+![Node version](https://img.shields.io/badge/node-18-blue)
 
 _Startwords_ is a research periodical irregularly published by the [Center for Digital Humanities](cdh.princeton.edu/) at Princeton University. It is implemented as a static site using the [Hugo static site generator](https://gohugo.io).
 
