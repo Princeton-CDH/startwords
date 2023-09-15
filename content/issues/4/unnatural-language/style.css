@@ -210,6 +210,8 @@ cite.book::before {
   justify-content: flex-start;
   color: #404040; /* override interlude text color */
 
+  font-family: var(--font-sans);
+
   /* on larger screens, display layout horizontally but wrap */
   @media (min-width: 768px) {
     flex-direction: row;
@@ -238,6 +240,10 @@ cite.book::before {
   justify-content: space-between;
   background-color: #FEFEFE;
 
+  /* full screen width on mobile */
+  width: 100vw;
+  margin-left: -10px;
+
   @media (min-width: 768px) {
       width: min-content;
   }
@@ -251,19 +257,30 @@ cite.book::before {
 
 #fig7 .source {
   white-space: nowrap;
-  font-size: 40px;
+  font-size: 24px;
   background-color: #E9E9E9;
   padding-right: 12px;
-  padding-left: 12px;
-  padding-bottom: 27px;
-/*  display: block;*/
+  padding-left: 40px;
+  padding-bottom: 4px;
+
+  @media (min-width: 768px) {
+    font-size: 40px;
+    padding-left: 12px;
+    padding-bottom: 14px;
+  }
+
 }
 
 
 #fig7 .translation {
-  font-size: 20px;
-  padding-left: 12px;
-  padding-right: 12px;
+  font-size: 18px;
+  padding: 4px 12px 4px 40px;
+  align-self: flex-start;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    padding: 20px 12px;
+  }
 }
 
 
@@ -272,9 +289,10 @@ cite.book::before {
   font-style: italic;
   font-size: 18px;
   background-color: #FEFEFE;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 14px;
+  padding: 4px 4px 4px 40px;
+  @media (min-width: 768px) {
+    padding: 14px 12px 21px;
+  }
 }
 .graphic::after {
   content: "Graphic";
@@ -301,45 +319,83 @@ cite.book::before {
   height: 100%;
   width: 13px;
   position: absolute;
-  left: 0;
+  left: 12px;
+
+  border-image-width: 0 0 0 13px;
+  border-image-slice: 0 0 0 13;
+  border-image-repeat: round;
 }
 /* desktop: indicator displays horizontally under source term */
 @media (min-width: 768px) {
   #fig7 .source:after {
     content: " ";
     display: block;
-    height: 13px;
-    margin-bottom: -13px;
-    border-bottom: 7px transparent solid;
-    border-left: none !important;
+    height: 0;
+    /* shared settings for border image */
+    border-image-width: 0 0 13px 0;
+    border-image-slice: 0 0 13 0;
+    border-image-repeat: round;
+    border-bottom: 13px transparent solid;
   }
+  /* suppress left vertical indicator on desktop */
   #fig7 .translation:before {
-    border-left: none !important;
+    display: none;
   }
 }
-#fig7 .graphic .source:after, .graphic .translation:before {
-/*  height: 0;*/
-/*  border-bottom: 13px #1D6EB9 dotted;*/
-  border-bottom: 7px #1D6EB9 dotted;
-  border-left: 7px #1D6EB9 dotted;
+/* each element has a fallback style in case border image does not display */
+#fig7 .graphic .source:after {
+  border-bottom: 13px #1D6EB9 dotted;
+  border-image-source: url('assets/graphic-annotation.svg');
 }
-#fig7 .phon .source:after, .phon .translation:before {
-/*  height: 7px;*/
-  border-bottom: 7px #BD6B00 dashed;
-  border-left: 7px #BD6B00 dashed;
+#fig7 .graphic .translation:before {
+  border-left: 13px #1D6EB9 dotted;
+  border-image-source: url('assets/graphic-annotation.svg');
 }
-#fig7 .semantic .source:after, .semantic .translation:before {
-/*  height: 0;  */
-/*  border-bottom: 13px rgba(161, 47, 189, 1) dotted;  */
-  border-bottom: 7px rgba(161, 47, 189, 1) dotted;
-  border-left: 7px rgba(161, 47, 189, 1) dotted;
+
+#fig7 .phon .source:after {
+  /* this pattern is narrower; adjust width and padding for consistent height */
+  border-bottom: 6px #BD6B00 dashed;
+  border-image-width: 0 0 6px 0;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  border-image-source: url('assets/phonetic-annotation.svg');
 }
-#fig7 .person .source:after, .person .translation:before{
-/*  height: 7px;  */
-  border-bottom: 7px solid #0A760F;
-  border-left: 7px solid #0A760F;
+#fig7 .phon .translation:before {
+  border-left: 6px #BD6B00 dashed;
+  border-image-source: url('assets/phonetic-annotation.svg');
 }
-#fig7 .work .source:after, .work .translation:before {
-  border-bottom: 7px double #6D0000;
-  border-left: 7px double #6D0000;
+
+#fig7 .semantic .source:after {
+  border-bottom: 13px rgba(161, 47, 189, 1) dotted;
+  border-image-source: url('assets/semantic-annotation.svg');
 }
+#fig7 .semantic .translation:before {
+  border-left: 13px rgba(161, 47, 189, 1) dotted;
+  border-image-source: url('assets/semantic-annotation.svg');
+}
+
+#fig7 .person .source:after {
+  border-bottom: 8px solid #0A760F;
+  border-image-width: 0 0 6px 0;
+  padding-bottom: 3px;
+  padding-top: 2px;
+  border-image-source: url('assets/person-annotation.svg');
+}
+#fig7 .person .translation:before {
+  border-left: 8px solid #0A760F;
+  border-image-source: url('assets/person-annotation.svg');
+}
+
+#fig7 .work .source:after {
+  border-bottom: 6px double #6D0000;
+  border-image-width: 0 0 6px 0;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  border-image-source: url('assets/work-annotation.svg');
+}
+
+#fig7 .work .translation:before {
+  border-left: 6px double #6D0000;
+  border-image-source: url('assets/work-annotation.svg');
+}
+

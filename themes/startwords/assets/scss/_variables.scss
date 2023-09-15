@@ -38,3 +38,10 @@ $breakpoint-fullwidth-notes: 414px;
 $gutter: 10px;
 $grid-gap: 10px;
 $grid-column: calc((100vw - (2 * #{$gutter}) - (9 * #{$grid-gap})) / 10);
+
+
+:root {
+  --font-sans: #{$font-sans};
+  --font-serif: #{$font-serif};  
+}
+
