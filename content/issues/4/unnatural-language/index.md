@@ -413,14 +413,14 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 <div class="graphic segment">
   <div class="source" lang="zh">本又作磨</div>
   <div class="notes">
-    <div class="translation">Edition[s] also write it [摩] as “磨”</div>
+    <div class="translation">Edition[s] also write it [<span lang="zh">摩</span>] as “<span lang="zh">磨</span>”</div>
     <div class="label">Graphic</div>
   </div>
 </div>
 <div class="phon segment">
   <div class="source" lang="zh">末何反</div>
   <div class="notes">
-    <div class="translation">it is pronounced like 末 + 何 [ma]</div>
+    <div class="translation">it is pronounced like <span lang="zh">末</span> + <span lang="zh">何</span> [ma]</div>
     <div class="label">Phonetic</div>
   </div>
 </div>
@@ -441,7 +441,7 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 <div class="phon segment">
   <div class="source" lang="zh">磑音古代反</div>
   <div class="notes">
-    <div class="translation">“mill” [磑] is pronounced like 古 + 代 [gojH]</div>
+    <div class="translation">“mill” <span lang="zh">[磑]</span> is pronounced like <span lang="zh">古</span> + <span lang="zh">代</span> [gojH]</div>
     <div class="label">Phonetic</div>
   </div>
 </div>
@@ -483,13 +483,13 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 <div class="phon segment">
   <div class="source" lang="zh">迫音百</div>
   <div class="notes">
-    <div class="translation">“compel” [迫] is pronounced like 百 [paek]</div>
+    <div class="translation">“compel” <span lang="zh">[迫]</span> is pronounced like <span lang="zh">百</span> [paek]</div>
     <div class="label">Phonetic</div>
   </div>
 </div>
 
-<p>
-  <b>Figure 7,</b> showing the richness of annotations in the 經典釋文 <cite class="book">Jingdian Shiwen</cite>, and the common patterns they take.
+<p class="caption">
+  <b>Figure 7,</b> showing the richness of annotations in the <span lang="zh">經典釋文</span> <cite class="book">Jingdian Shiwen</cite>, and the common patterns they take.
 </p>
 
 {{</wrap>}}  
