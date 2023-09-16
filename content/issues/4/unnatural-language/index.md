@@ -96,30 +96,19 @@ So how can we access the sounds of a language that lost its last native speakers
 
 Another problem is the graphic variation common in early forms of Chinese, especially prior to the large-scale standardization of orthography during the 3rd to 1st centuries BCE. In other words, while one glyph could be pronounced multiple ways, the *same* word could additionally be written with different glyphs in ancient texts. The same textual passage --- say, a line of a poem --- could hence be written with rather different glyphs.[^11] Thus without a model that incorporates homographs, graphic variation, and other contextual understandings of phonology, the (often quite complex) puns, rhymes, and wordplays of ancient texts remain hidden below their surface forms. More crucially, however, unstandardized recurrences --- not just of named entities, but of entire parallel passages --- may go unnoticed.[^12]
 
-{{<wrap class="interlude">}}
+{{<wrap class="interlude" id="fig3">}}
 <p>
-          <b>Figure 3</b>, illustrating the sometimes hidden parallelism across
-          ancient texts. One phrase, "he did not speak for three years", is
-          reproduced exactly across all three texts — this is easy to see
-          because the characters are the same. However, there are two other
-          instances of parallelism that are not visually apparent.
+          <b>Figure 3</b>. Textual parallels across three early Chinese texts, 
+          both on a grapheme level and on that of phonology alone. The phrase 
+          “he did not speak for three years” (solid underline) occurs across these 
+          texts, using the same glyphs. Passages with wavy and dotted underlines 
+          utilize different glyphs, but largely overlap on a phonological level.
         </p>
         <p>
-          The pink and blue sections are different words, with subtly different
-          meanings, but with very closely rhyming sounds. This phenomenon can
-          occur when texts are transmitted orally and re-recorded by different
-          scribes, but is difficult to discover unless the sound is taken into
-          account. David Schaberg initially found this example via close
-          reading.
-        </p>
-        <p>
-          The medievalist Paul Zumthor referred to this idea as
-          <a href="https://doi.org/10.1093/llc/fqx033">mouvance</a>, an 'interplay between variant readings and
-          reworkings.' The concept shares some similarity with the idea of
-          <cite class="book">generation loss</cite> in digital media: the phenomenon where
-          successive copies of copies gradually degrade, and information is lost
-          or transformed by the very act of re-recording. The effect is made
-          visible on very old VHS tapes.
+          For these examples, see David Schaberg, "Speaking of Documents: 
+          <em>Shu</em> Citations in Warring States Texts," in <cite>Origins of Chinese Political 
+          Philosophy: Studies in the Composition and Thought of the ‘Shangshu’
+          (Classic of Documents)</cite>, ed. Martin Kern and Drik Meyer (Leiden: Brill, 2017), 320–359.
         </p>
         <blockquote>
           <p class="source" lang="zh">
@@ -134,8 +123,8 @@ Another problem is the graphic variation common in early forms of Chinese, espec
             acting without words was thus <span class="g1">harmonious</span>.
           </p>
           <footer>
-            尚書《毋逸》"Do not Indulge", from the
-            <cite class="book">Book of Documents</cite>
+            From the chapter <span lang="zh">《毋逸》</span> "Do not Indulge", from the
+            <cite class="book">Book of Documents</cite> (<cite class="book">Shang shu</cite> <span lang="zh">尚書</span>)
           </footer>
         </blockquote>
         <blockquote>
@@ -150,8 +139,8 @@ Another problem is the graphic variation common in early forms of Chinese, espec
             speak, he was <span class="g1">joyous</span>.’
           </p>
           <footer>
-            禮記《檀弓下》"Tan Gong II", from the
-            <cite class="book">Book of Rites</cite>
+            From the chapter <span lang="zh">《檀弓下》</span>"Tan Gong II", from the
+            <cite class="book">Book of Rites</cite> (<cite class="book">Li ji</cite> <span lang="zh">禮記</span>)
           </footer>
         </blockquote>
         <blockquote>
@@ -166,8 +155,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
             <span class="par">for three years he did not speak</span>.
           </p>
           <footer>
-            《呂氏春秋》6/2 from
-            <cite class="book">Master Lü's Spring and Autumn Annals</cite>
+            From <cite class="book">Master Lü's Spring and Autumn Annals</cite> 6/2 (<cite class="book">Lü shi chunqiu</cite> <span lang="zh">呂氏春秋</span>)
           </footer>
         </blockquote>
 {{</wrap>}}

@@ -66,22 +66,29 @@ cite.book::before {
   text-underline-offset: .5rem;
 }
 
-.par {
+.par,
+.g1,
+.g2 {
   text-decoration: underline;
 }
 
+.par {
+  text-decoration-color: lightgreen;
+  text-decoration-style: solid;
+}
+
 .g1 {
-  border: 1px solid gray;
-  background-color: lightblue;
+  text-decoration-color: skyblue;
+  text-decoration-style: dotted;
 }
 
 .g2 {
-  border: 1px solid gray;
-  background-color: pink;
+  text-decoration-color: pink;
+  text-decoration-style: wavy;
 }
 
-.g1, .g2 {
-  color: black;
+#fig3 .translation {
+  text-underline-offset: 3px;
 }
 
 /* figure 4 (provisional) */
