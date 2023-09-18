@@ -216,28 +216,23 @@ cite.book::before {
   @media (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 24px;
   }
-
 }
-#fig7.interlude:before {
+
+#fig7:before {
   background-color: #E9E9E9;
-/* can we use a gradient for the strips */
-/*  background: linear-gradient(
-  to bottom,
-  #E9E9E9,
-  #E9E9E9 145px,
-  #FEFEFE 129px,
-  #E9E9E9 145px,
-  #FEFEFE 129px
-);*/
 }
 
-#fig7 > div {
+#fig7 .caption {
+  margin-top: 1rem;
+}
+
+#fig7 .segment {
   /* use flexbox within each block so they stack nicely */
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: space-between;
   background-color: #FEFEFE;
 
   /* full screen width on mobile */
@@ -245,157 +240,156 @@ cite.book::before {
   margin-left: -10px;
 
   @media (min-width: 768px) {
-      width: min-content;
+    width: min-content;
+    margin-left: 0;
   }
 }
 
-/*#fig7 > div:first-child:after {
-  content: " ";
-  background-color: yellow;
-  width: 100vw;
-}*/
+#fig7 .source,
+#fig7 .translation,
+#fig7 .label {
+  padding-left: 1.5rem;
+
+  @media (min-width: 768px) {
+    padding-left: 0;
+  }
+}
 
 #fig7 .source {
   white-space: nowrap;
   font-size: 24px;
   background-color: #E9E9E9;
-  padding-right: 12px;
-  padding-left: 40px;
-  padding-bottom: 4px;
 
   @media (min-width: 768px) {
     font-size: 40px;
-    padding-left: 12px;
-    padding-bottom: 14px;
+    padding-bottom: 18px;
   }
-
 }
-
 
 #fig7 .translation {
   font-size: 18px;
-  padding: 4px 12px 4px 40px;
   align-self: flex-start;
+  z-index: 1;
 
   @media (min-width: 768px) {
     font-size: 20px;
-    padding: 20px 12px;
   }
 }
-
 
 /* text labels for annotations */
-#fig7 > div:after {
-  font-style: italic;
+#fig7 .label {
   font-size: 18px;
+  font-style: italic;
+  z-index: 1;
+}
+
+#fig7 .notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 0;
+  height: 100%;
+  position: relative;
   background-color: #FEFEFE;
-  padding: 4px 4px 4px 40px;
+
   @media (min-width: 768px) {
-    padding: 14px 12px 21px;
+    gap: 14px;
+    padding: 14px 0;
   }
 }
-.graphic::after {
-  content: "Graphic";
-}
-.phon:after {
-  content: "Phonetic";
-}
-.person:after {
-  content: "Person"
-}
-.semantic:after {
-  content: "Semantic"
-}
-.work:after {
-  content: "Work"
+
+#fig7 .notes::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(100vw * -1);
+  width: 200vw;
+  height: 100%;
+  background-color: #FEFEFE;
 }
 
 /* visual indicators for annotations (provisional) */
 
-/* mobile: indicator displays vertically next to translation term */
-#fig7 .translation:before {
-  content: " ";
-  display: block;
-  height: 100%;
-  width: 13px;
-  position: absolute;
-  left: 12px;
-
-  border-image-width: 0 0 0 13px;
-  border-image-slice: 0 0 0 13;
-  border-image-repeat: round;
+#fig7 .source {
+  text-decoration: none;
 }
-/* desktop: indicator displays horizontally under source term */
+
+#fig7 .notes::after {
+  position: absolute;
+  color: transparent;
+  content: 'aaaaaaaaaaaaaaaaaaaa';
+  writing-mode: vertical-lr;
+  overflow: hidden;
+  height: 100%;
+  width: 1.5rem;
+  left: 0;
+  top: 0;
+  text-decoration-line: line-through;
+  text-underline-offset: -13px;
+}
+
 @media (min-width: 768px) {
-  #fig7 .source:after {
-    content: " ";
-    display: block;
-    height: 0;
-    /* shared settings for border image */
-    border-image-width: 0 0 13px 0;
-    border-image-slice: 0 0 13 0;
-    border-image-repeat: round;
-    border-bottom: 13px transparent solid;
-  }
-  /* suppress left vertical indicator on desktop */
-  #fig7 .translation:before {
+  #fig7 .notes::after {
     display: none;
   }
-}
-/* each element has a fallback style in case border image does not display */
-#fig7 .graphic .source:after {
-  border-bottom: 13px #1D6EB9 dotted;
-  border-image-source: url('assets/graphic-annotation.svg');
-}
-#fig7 .graphic .translation:before {
-  border-left: 13px #1D6EB9 dotted;
-  border-image-source: url('assets/graphic-annotation.svg');
+
+  #fig7 .source {
+    text-decoration-line: underline;
+  }
 }
 
-#fig7 .phon .source:after {
-  /* this pattern is narrower; adjust width and padding for consistent height */
-  border-bottom: 6px #BD6B00 dashed;
-  border-image-width: 0 0 6px 0;
-  padding-bottom: 4px;
-  padding-top: 3px;
-  border-image-source: url('assets/phonetic-annotation.svg');
-}
-#fig7 .phon .translation:before {
-  border-left: 6px #BD6B00 dashed;
-  border-image-source: url('assets/phonetic-annotation.svg');
+#fig7 .graphic .notes::after,
+#fig7 .graphic .source {
+  text-decoration-style: dotted;
+  text-decoration-color: #1D6EB9;
+  text-decoration-thickness: 10px;
 }
 
-#fig7 .semantic .source:after {
-  border-bottom: 13px rgba(161, 47, 189, 1) dotted;
-  border-image-source: url('assets/semantic-annotation.svg');
-}
-#fig7 .semantic .translation:before {
-  border-left: 13px rgba(161, 47, 189, 1) dotted;
-  border-image-source: url('assets/semantic-annotation.svg');
+#fig7 .work .notes::after,
+#fig7 .work .source {
+  text-decoration-style: double;
+  text-decoration-color: #6D0000;
+  text-decoration-thickness: 3px;
 }
 
-#fig7 .person .source:after {
-  border-bottom: 8px solid #0A760F;
-  border-image-width: 0 0 6px 0;
-  padding-bottom: 3px;
-  padding-top: 2px;
-  border-image-source: url('assets/person-annotation.svg');
-}
-#fig7 .person .translation:before {
-  border-left: 8px solid #0A760F;
-  border-image-source: url('assets/person-annotation.svg');
+#fig7 .phon .notes::after,
+#fig7 .phon .source {
+  text-decoration-style: dashed;
+  text-decoration-color: #BD6B00;
+  text-decoration-thickness: 4px;
 }
 
-#fig7 .work .source:after {
-  border-bottom: 6px double #6D0000;
-  border-image-width: 0 0 6px 0;
-  padding-bottom: 4px;
-  padding-top: 3px;
-  border-image-source: url('assets/work-annotation.svg');
+#fig7 .person .notes::after,
+#fig7 .person .source {
+  text-decoration-style: wavy;
+  text-decoration-color: #0A760F;
+  text-decoration-thickness: 3px;
 }
 
-#fig7 .work .translation:before {
-  border-left: 6px double #6D0000;
-  border-image-source: url('assets/work-annotation.svg');
+#fig7 .semantic .notes::after,
+#fig7 .semantic .source {
+  text-decoration-style: solid;
+  text-decoration-color: #A12FBD;
+  text-decoration-thickness: 3px;
 }
 
+#fig7 .semantic .source {
+  text-underline-offset: 14px;
+}
+
+#fig7 .person .source {
+  text-underline-offset: 10px;
+}
+
+#fig7 .phon .source {
+  text-underline-offset: 13px;
+}
+
+#fig7 .work .source {
+  text-underline-offset: 12px;
+}
+
+#fig7 .graphic .source {
+  text-underline-offset: 10px;
+}
