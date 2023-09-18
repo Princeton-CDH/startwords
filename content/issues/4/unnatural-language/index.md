@@ -319,18 +319,20 @@ While earlier dictionaries primarily glossed glyphs by providing similar-soundin
   <aside class="card">
   <header>Say <em>east</em> in Middle Chinese</header>
   
-  <p class="large"><span class="tek">東</span> /tuŋ/</p>
-  <p class="large"><span class="tek">德 +</span> 紅 = 東</p>
+  <p class="large"><span class="tek" lang="zh">東</span> tuwŋ</p>
+  <p class="large"><span class="tek"><span lang="zh">德</span> +</span> <span lang="zh">紅</span> = <span lang="zh">東</span></p>
 
-  <p><span class="tek">/t<span class="fade">ək</span>/</span>  /<span class="fade">ɣ</span>uŋ/</p>
+  <p><span class="tek">t<span class="fade">ok</span></span>  <span class="fade">h</span>uwŋ</p>
   </aside>
   
   <aside class="card">
     <header>Say <em>fight</em> in English</header>
     <p class="large"><span class="fish">Fight</span> /fʌɪt/</p>
     <p class="large"><span class="fish">Fish +</span> light = fight</p>
-    <p><span class="fish">/fɪ<span class="fade">ʃ</span>/</span>
-     /<span class="fade">l</span>ʌɪt/</span></p>
+    <p>
+      <span class="fish">/f<span class="fade">ɪʃ</span>/</span>
+     /<span class="fade">l</span>ʌɪt/</span>
+    </p>
   </aside>
 
   <p class="caption"><b>Figure 6.</b> How the <em>fanqie</em> pronunciation system works</p>
