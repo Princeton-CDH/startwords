@@ -20,8 +20,14 @@
     }
 
     #features {
-        padding-top: 0;
+        padding-top: rem(22px);
         padding-bottom: rem(50px);
+        @media (min-width: $breakpoint-m) {
+            padding-top: rem(28px);
+        }
+        @media (min-width: $breakpoint-l) {
+            padding-top: rem(62px);
+        }
     }
 
     main > .content {
