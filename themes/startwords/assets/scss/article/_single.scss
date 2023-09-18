@@ -137,6 +137,26 @@ body.article article, body.page article {
                 text-align: left;
                 margin: 0;
             }
+            // opt-in only: make tables scroll horizontally
+            &.side-scroll {
+                display: block;
+                max-width: -moz-fit-content;
+                max-width: fit-content;
+                margin: 0 auto;
+                overflow-x: auto;
+                white-space: nowrap;
+
+                /* on larger screens, extend sideways one grid column on each side */
+                @media (min-width: $breakpoint-m) {
+                    margin: 0 -10vw;
+                }
+
+                // limit caption width and wrap so it is full visible by default
+                caption {
+                    max-width: 80vw;
+                    white-space: normal;
+                }
+            }
         }
 
         // block quotes
