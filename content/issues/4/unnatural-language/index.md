@@ -163,180 +163,139 @@ Fortunately, previous scholarship has grappled with many of these issues, and hi
 The stability of the script also led to problems over time. In China, generations of medieval and early modern writers were trained to memorize the Odes of the ancient *Shi jing* 詩經 --- called the *Classic of Poetry* for a good reason --- but they soon grappled with the fact that these texts largely did not to rhyme when read aloud. The underlying phonology had changed.[^13]
 
 {{<wrap class="interlude" id="fig4">}}
-<p>
-          <b>Figure 4,</b> illustrating the way that phonological change over time is
-          visible in rhyming Chinese poetry. This famous poem from the
-          <cite class="book">Book of Odes</cite> displays a classic end-rhyme scheme visible
-          in the first stanza, which has largely carried through even into
-          modern Chinese.
-        </p>
-        <p>
-          Yet the same end-rhyme in the third stanza is not present in Middle
-          Chinese, and was already lost by the time of the compilation of the
-          <cite class="book">Jingdian Shiwen</cite> in the late sixth century, leading scholars
-          to puzzle over the reason the poem did not rhyme when read aloud in
-          their own dialects.
-        </p>
-        <p>
-          In the graphic, solid black borders indicate a perfect rhyme with the
-          word in the same place on the following line, while gray borders
-          indicate near-rhymes. The graphic and example are recreations of those
-          in
-          <a href="https://link.springer.com/article/10.1007/s42803-022-00053-8"
-            >Jeffrey Tharsen’s article “From Form to Sound”</a
-          >, with Gian’s transcriptions. Translations are taken from James
-          Legge’s original 1876 translation of the <cite class="book">Book of Odes</cite>,
-          which is out of copyright. The text is available on
-          <a href="https://ctext.org/book-of-poetry/guan-ju">ctext.org.</a>
-        </p>
-        <table>
-          <caption>
-            詩經《關雎》“The Osprey’s Cry,” from the
-            <cite class="book">Book of Odes</cite>
-          </caption>
-          <thead>
-            <tr>
-              <th scope="col" aria-label="Character"></th>
-              <th scope="col">Old Chinese</th>
-              <th scope="col">Middle Chinese</th>
-              <th scope="col">Modern Chinese</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colspan="4" class="stanza-header">
-                1. Guan-guan go the ospreys, on the islet in the river.
-              </td>
-            </tr>
-            <tr>
-              <td lang="zh">關</td>
-              <td>*kʕro[n]</td>
-              <td>kwaen</td>
-              <td>guān</td>
-            </tr>
-            <tr>
-              <td lang="zh">關</td>
-              <td>*kʕro[n]</td>
-              <td>kwaen</td>
-              <td>guān</td>
-            </tr>
-            <tr>
-              <td lang="zh">雎</td>
-              <td>*[tsh]a</td>
-              <td>tshjo</td>
-              <td>jū</td>
-            </tr>
-            <tr>
-              <td lang="zh">鳩</td>
-              <td class="rhyme">*[k](r)u</td>
-              <td class="rhyme">kjuw</td>
-              <td>jiū</td>
-            </tr>
-            <tr>
-              <td>、</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td lang="zh">在</td>
-              <td>*[dz]ʕәʔ</td>
-              <td>dzojX</td>
-              <td>zài</td>
-            </tr>
-            <tr>
-              <td lang="zh">河</td>
-              <td>*[C.g]ʕaj</td>
-              <td>ha</td>
-              <td>hé</td>
-            </tr>
-            <tr>
-              <td lang="zh">之</td>
-              <td>*tә</td>
-              <td>tsyi</td>
-              <td>zhī</td>
-            </tr>
-            <tr>
-              <td lang="zh">洲</td>
-              <td class="rhyme">*tu</td>
-              <td class="rhyme">tsyuw</td>
-              <td>zhōu</td>
-            </tr>
-            <tr>
-              <td>。</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td colspan="4" class="stanza-header">
-                2. Waking and sleeping, he sought her. He sought her and found
-                her not [...]
-              </td>
-            </tr>
-            <tr>
-              <td lang="zh">求</td>
-              <td>*g(r)u</td>
-              <td>gjuw</td>
-              <td>qiú</td>
-            </tr>
-            <tr>
-              <td lang="zh">之</td>
-              <td>*tә</td>
-              <td>tsyi</td>
-              <td>zhī</td>
-            </tr>
-            <tr>
-              <td lang="zh">不</td>
-              <td class="rhyme">*pə</td>
-              <td>pjuw</td>
-              <td>bù</td>
-            </tr>
-            <tr>
-              <td lang="zh">得</td>
-              <td class="rhyme">*tʕәk</td>
-              <td>tok</td>
-              <td>dé</td>
-            </tr>
-            <tr>
-              <td>、</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td lang="zh">寤</td>
-              <td>*ŋʕa-s</td>
-              <td>nguH</td>
-              <td>wù</td>
-            </tr>
-            <tr>
-              <td lang="zh">寐</td>
-              <td>*mi[t]-s</td>
-              <td>mjijH</td>
-              <td>mèi</td>
-            </tr>
-            <tr>
-              <td lang="zh">思</td>
-              <td class="rhyme">*[s]ə</td>
-              <td>si</td>
-              <td>sī</td>
-            </tr>
-            <tr>
-              <td lang="zh">服</td>
-              <td class="rhyme">*[b]ək</td>
-              <td>bjuwk</td>
-              <td>fú</td>
-            </tr>
-            <tr>
-              <td>。</td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-          <tfoot></tfoot>
-        </table>
+<p>        
+  <b>Figure 4.</b> Selected lines of the poem “Guan ju” <span lang="zh">《關雎》</span> from the 
+  <cite class="book">Classic of Poetry</cite> (<cite class="book">Shi jing</cite> <span lang="zh">詩經</span>), 
+  expressed through glyphs, Old Chinese and Middle Chinese phonology, and the pinyin romanization system of 
+  Standard Mandarin Chinese. Rhymes are underlined; note in 
+  particular the disappearing rhymes in selection 1 from Middle 
+  Chinese to Modern Chinese, and in the selection 2 from Old Chinese 
+  to Middle Chinese.
+</p>
+
+<table>
+  <caption>1. Guan-guan [goes] the osprey, on the river’s islet.</caption>
+  <thead>
+    <tr>
+      <th scope="col" aria-label="Character"></th>
+      <th scope="col">Old Chinese</th>
+      <th scope="col">Middle Chinese</th>
+      <th scope="col">Modern Chinese</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td lang="zh">關</td>
+      <td>*k<sup>ʕ</sup>ro[n]</td>
+      <td>kwaen</td>
+      <td class="pinyin">guān</td>
+    </tr>
+    <tr>
+      <td lang="zh">關</td>
+      <td>*k<sup>ʕ</sup>ro[n]</td>
+      <td>kwaen</td>
+      <td class="pinyin">guān</td>
+    </tr>
+    <tr>
+      <td lang="zh">雎</td>
+      <td>*[tsh]a</td>
+      <td>tshjo</td>
+      <td class="pinyin">jū</td>
+    </tr>
+    <tr>
+      <td lang="zh">鳩</td>
+      <td class="rhyme">*[k](r)<span class="vowel">u</span></td>
+      <td class="rhyme">kj<span class="vowel">u</span>w</td>
+      <td class="pinyin">jiū</td>
+    </tr>
+    <tr>
+      <td lang="zh">在</td>
+      <td>*[dz]<sup>ʕ</sup>әʔ</td>
+      <td>dzojX</td>
+      <td class="pinyin">zài</td>
+    </tr>
+    <tr>
+      <td lang="zh">河</td>
+      <td>*[C.g]<sup>ʕ</sup>aj</td>
+      <td>ha</td>
+      <td class="pinyin">hé</td>
+    </tr>
+    <tr>
+      <td lang="zh">之</td>
+      <td>*tә</td>
+      <td>tsyi</td>
+      <td class="pinyin">zhī</td>
+    </tr>
+    <tr>
+      <td lang="zh">洲</td>
+      <td class="rhyme">*t<span class="vowel">u</span></td>
+      <td class="rhyme">tsy<span class="vowel">u</span>w</td>
+      <td class="pinyin">zhōu</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <caption>2. Seeking her, [he] did not find [her]; Waking and sleeping, he thinks longingly [of her].</caption>
+  <thead>
+    <tr>
+      <th scope="col" aria-label="Character"></th>
+      <th scope="col">Old Chinese</th>
+      <th scope="col">Middle Chinese</th>
+      <th scope="col">Modern Chinese</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td lang="zh">求</td>
+      <td>*g(r)u</td>
+      <td>gjuw</td>
+      <td class="pinyin">qiú</td>
+    </tr>
+    <tr>
+      <td lang="zh">之</td>
+      <td>*tә</td>
+      <td>tsyi</td>
+      <td class="pinyin">zhī</td>
+    </tr>
+    <tr>
+      <td lang="zh">不</td>
+      <td class="rhyme">*p<span class="vowel">ə</span></td>
+      <td>pjuw</td>
+      <td class="pinyin">bù</td>
+    </tr>
+    <tr>
+      <td lang="zh">得</td>
+      <td class="rhyme">*t<sup>ʕ</sup><span class="vowel">ә</span>k</td>
+      <td>tok</td>
+      <td class="pinyin">dé</td>
+    </tr>
+    <tr>
+      <td lang="zh">寤</td>
+      <td>*ŋ<sup>ʕ</sup>a-s</td>
+      <td>nguH</td>
+      <td class="pinyin">wù</td>
+    </tr>
+    <tr>
+      <td lang="zh">寐</td>
+      <td>*mi[t]-s</td>
+      <td>mjijH</td>
+      <td class="pinyin">mèi</td>
+    </tr>
+    <tr>
+      <td lang="zh">思</td>
+      <td class="rhyme">*[s]<span class="vowel">ə</span></td>
+      <td>si</td>
+      <td class="pinyin">sī</td>
+    </tr>
+    <tr>
+      <td lang="zh">服</td>
+      <td class="rhyme">*[b]<span class="vowel">ə</span>k</td>
+      <td>bjuwk</td>
+      <td class="pinyin">fú</td>
+    </tr>
+  </tbody>
+</table>
 {{</wrap>}}  
 
 ## II.
