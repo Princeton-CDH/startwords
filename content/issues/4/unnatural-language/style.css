@@ -201,49 +201,195 @@ cite.book::before {
 
 /* figure 7 (provisional) */
 
+#fig7 {
+  /* use flexbox to let terms follow each other (with translation & annotation)
+  and wrap as needed */
+  display: flex;
+  /* on mobile, layout one term per row */
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #404040; /* override interlude text color */
+
+  font-family: var(--font-sans);
+
+  /* on larger screens, display layout horizontally but wrap */
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+#fig7:before {
+  background-color: #E9E9E9;
+}
+
+#fig7 .caption {
+  margin-top: 1rem;
+}
+
+#fig7 .segment {
+  /* use flexbox within each block so they stack nicely */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #FEFEFE;
+
+  /* full screen width on mobile */
+  width: 100vw;
+  margin-left: -10px;
+
+  @media (min-width: 768px) {
+    width: min-content;
+    margin-left: 0;
+  }
+}
+
+#fig7 .source,
+#fig7 .translation,
+#fig7 .label {
+  padding-left: 1.5rem;
+
+  @media (min-width: 768px) {
+    padding-left: 0;
+  }
+}
+
 #fig7 .source {
-  font-size: 0;   /* removes spaces between spans */
-  line-height: 2.7rem !important;
+  white-space: nowrap;
+  font-size: 24px;
+  background-color: #E9E9E9;
+
+  @media (min-width: 768px) {
+    font-size: 40px;
+    padding-bottom: 18px;
+  }
 }
 
 #fig7 .translation {
-  line-height: 1.5;
+  font-size: 18px;
+  align-self: flex-start;
+  z-index: 1;
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
-#fig7 .head {
-  text-decoration: underline;
+/* text labels for annotations */
+#fig7 .label {
+  font-size: 18px;
+  font-style: italic;
+  z-index: 1;
 }
 
-#fig7 .graf {
-  background-color: #4dd0e1;
+#fig7 .notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 0;
+  height: 100%;
+  position: relative;
+  background-color: #FEFEFE;
+
+  @media (min-width: 768px) {
+    gap: 14px;
+    padding: 14px 0;
+  }
 }
 
-#fig7 .phon {
-  background-color: #ffab40;
+#fig7 .notes::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(100vw * -1);
+  width: 200vw;
+  height: 100%;
+  background-color: #FEFEFE;
 }
 
-#fig7 .sem {
-  background-color: #eeff41;
+/* visual indicators for annotations (provisional) */
+
+#fig7 .source {
+  text-decoration: none;
 }
 
-#fig7 .per {
-  background-color: #009688;
+#fig7 .notes::after {
+  position: absolute;
+  color: transparent;
+  content: 'aaaaaaaaaaaaaaaaaaaa';
+  writing-mode: vertical-lr;
+  overflow: hidden;
+  height: 100%;
+  width: 1.5rem;
+  left: 0;
+  top: 0;
+  text-decoration-line: line-through;
+  text-underline-offset: -13px;
 }
 
-#fig7 .work {
-  background-color: #78909c;
+@media (min-width: 768px) {
+  #fig7 .notes::after {
+    display: none;
+  }
+
+  #fig7 .source {
+    text-decoration-line: underline;
+  }
 }
 
-#fig7 .source span {
-  font-size: 2rem;
-  display: inline;
+#fig7 .graphic .notes::after,
+#fig7 .graphic .source {
+  text-decoration-style: dotted;
+  text-decoration-color: #1D6EB9;
+  text-decoration-thickness: 10px;
 }
 
-#fig7 .graf,
-#fig7 .phon,
-#fig7 .sem,
-#fig7 .per,
-#fig7 .work {
-  border: 1px solid grey;
-  color: black;
+#fig7 .work .notes::after,
+#fig7 .work .source {
+  text-decoration-style: double;
+  text-decoration-color: #6D0000;
+  text-decoration-thickness: 3px;
+}
+
+#fig7 .phon .notes::after,
+#fig7 .phon .source {
+  text-decoration-style: dashed;
+  text-decoration-color: #BD6B00;
+  text-decoration-thickness: 4px;
+}
+
+#fig7 .person .notes::after,
+#fig7 .person .source {
+  text-decoration-style: wavy;
+  text-decoration-color: #0A760F;
+  text-decoration-thickness: 3px;
+}
+
+#fig7 .semantic .notes::after,
+#fig7 .semantic .source {
+  text-decoration-style: solid;
+  text-decoration-color: #A12FBD;
+  text-decoration-thickness: 3px;
+}
+
+#fig7 .semantic .source {
+  text-underline-offset: 14px;
+}
+
+#fig7 .person .source {
+  text-underline-offset: 10px;
+}
+
+#fig7 .phon .source {
+  text-underline-offset: 13px;
+}
+
+#fig7 .work .source {
+  text-underline-offset: 12px;
+}
+
+#fig7 .graphic .source {
+  text-underline-offset: 10px;
 }

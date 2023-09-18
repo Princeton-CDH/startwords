@@ -386,86 +386,97 @@ The first obstacle we face in turning the *Jingdian Shiwen* into phonological tr
 Only with such a digitized version of the *Jingdian Shiwen* and related texts can we approach the key question of how to extract useful phonological data from Lu Deming's commentary. A look at the content of this text highlights why this question is crucial: while close to one-third of the roughly 55,000 notes in the *Jingdian Shiwen* consist solely of a reading gloss (thus providing a reading aid to indicate pronunciation), the remainder is more complex and addresses multiple concerns. Some annotations feature semantic glosses, and others highlight instances in which additional works reproduce a glyph differently or include citations to the interpretations of other scholars. Many annotations combine these different elements. More importantly, the *Jingdian Shiwen* contains yet another form of abridgement: instead of reproducing the same annotation multiple times, the text attaches qualifiers to indicate that a given reading applies every time a human reader encounters the given string of glyphs in a specific section of the source text. These qualifiers act as multipliers for the data, effectively extending the commentary to cover whole swaths of text not explicitly noted elsewhere.
 
 {{<wrap class="interlude" id="fig7">}}
-  <p>
-          <b>Figure 7,</b> showing the richness of annotations in the
-          <cite class="book">Jingdian Shiwen</cite>, and the common patterns they take.
-        </p>
-        <p>
-          The original passage from the <cite class="book">Book of Changes</cite>, a
-          divinatory text, explains how the sixty-four different hexagrams
-          represented in the text are formed via permutations of line-forms.
-          Each hexagram represents a result, and a fortune-teller using the text
-          would select a hexagram by forming each line one at a time.
-        </p>
-        <p>
-          The <cite class="book">Jingdian Shiwen</cite> quotes several different people and
-          texts in an attempt to explain the term that the original text uses to
-          refer to the act of permutation (underlined). This mathematical
-          concept is not otherwise addressed explicitly until the time of
-          ancient Greece, centuries after the creation of the
-          <cite class="book">Book of Changes</cite>; this may well be its first written
-          attestation!
-        </p>
-        <p>
-          The sections of the <cite class="book">Jingdian Shiwen</cite> commentary are color-coded based on their function, which is how our model identifies them:
-          <ul>
-            <li><span class="graf">Graphic (notes about character appearance and variation)</span></li>  
-            <li><span class="sem">Semantic (notes about the meaning of words)</span></li>
-            <li><span class="phon">Phonetic (notes about the pronounciation of words)</span></li>
-            <li><span class="per">People (family names, given names, courtesy names)</span></li>
-            <li><span class="work">Works (books, poems, chapters)</span></li>
-          </ul>
-        </p>
-        <blockquote>
-          <p class="source" lang="zh">
-            是故，剛柔<span class="head">相摩</span>，八卦相盪。
-          </p>
-          <p class="translation">
-            After this fashion a strong and a weak line were <span class="par">manipulated
-            together</span> (till there were the eight trigrams), and those eight
-            trigrams were added, each to itself and to all the others, (till the
-            sixty-four hexagrams were formed).
-          </p>
-          <footer>
-            周易《繫辭上》“Attached Verbalizations 1,” from the
-            <cite class="book">Book of Changes</cite>
-          </footer>
-        </blockquote>
-        <blockquote>
-          <p class="source" lang="zh">
-            <span class="head">相摩</span>
-            <span class="graf">本又作磨</span>
-            <span class="phon">末何反</span>
-            <span class="per">京</span>
-            <span class="sem">云相磑切也</span>
-            <span class="phon">磑音古代反</span>
-            <span class="per">馬</span>
-            <span class="sem">云摩切也</span>
-            <span class="per">鄭</span>
-            <span class="work">注禮記</span>
-            <span class="sem">云迫也</span>
-            <span class="phon">迫音百</span>
-          </p>
-          <p class="translation">
-            <span class="graf">Edition[s] also write it [摩] as “磨”</span>;
-            <span class="phon">it is pronounced like 末 + 何 [ma]</span>.
-            <span class="per">Jing</span>
-            <span class="sem"
-              >says that it means “milled against one another”</span
-            >;
-            <span class="phon"
-              >“mill” [磑] is pronounced like 古 + 代 [gojH]</span
-            >. <span class="per">Ma</span>
-            <span class="sem">says that it means “ground up”</span>.
-            <span class="per">Zheng’s</span>
-            <span class="work"> commentary on the <cite class="book">Book of Rites</cite></span>
-            <span class="sem">says that it means “compelled”</span>;
-            <span class="phon">“compel” [迫] is pronounced like 百 [paek]</span
-            >.
-          </p>
-          <footer>經典釋文 <cite class="book">Jingdian Shiwen</cite></footer>
-        </blockquote>
+  
+<div class="head segment">
+  <div class="source" lang="zh">相摩</div>
+  <div class="notes">
+    <div class="translation"></div>
+    <div class="label">Headword</div>
+  </div>
+</div>
+<div class="graphic segment">
+  <div class="source" lang="zh">本又作磨</div>
+  <div class="notes">
+    <div class="translation">Edition[s] also write it [<span lang="zh">摩</span>] as “<span lang="zh">磨</span>”</div>
+    <div class="label">Graphic</div>
+  </div>
+</div>
+<div class="phon segment">
+  <div class="source" lang="zh">末何反</div>
+  <div class="notes">
+    <div class="translation">it is pronounced like <span lang="zh">末</span> + <span lang="zh">何</span> [ma]</div>
+    <div class="label">Phonetic</div>
+  </div>
+</div>
+<div class="person segment">
+  <div class="source" lang="zh">京</div>
+  <div class="notes">
+    <div class="translation">Jing</div>
+    <div class="label">Person</div>
+  </div>
+</div>
+<div class="semantic segment">
+  <div class="source" lang="zh">云相磑切也</div>
+  <div class="notes">
+    <div class="translation">says that it means “milled against one another”</div>
+    <div class="label">Semantic</div>
+  </div>
+</div>
+<div class="phon segment">
+  <div class="source" lang="zh">磑音古代反</div>
+  <div class="notes">
+    <div class="translation">“mill” <span lang="zh">[磑]</span> is pronounced like <span lang="zh">古</span> + <span lang="zh">代</span> [gojH]</div>
+    <div class="label">Phonetic</div>
+  </div>
+</div>
+<div class="person segment">
+  <div class="source" lang="zh">馬</div>
+  <div class="notes">
+    <div class="translation">Ma</div>
+    <div class="label">Person</div>
+  </div>
+</div>
+<div class="semantic segment">
+  <div class="source" lang="zh">云摩切也</div>
+  <div class="notes">
+    <div class="translation">says that it means “ground up”</div>
+    <div class="label">Semantic</div>
+  </div>
+</div>
+<div class="person segment">
+  <div class="source" lang="zh">鄭</div>
+  <div class="notes">
+    <div class="translation">Zheng[’s]</div>
+    <div class="label">Person</div>
+  </div>
+</div>
+<div class="work segment">
+  <div class="source" lang="zh">注禮記</div>
+  <div class="notes">
+    <div class="translation">commentary on the <cite class="book">Book of Rites</cite></div>
+    <div class="label">Work</div>
+  </div>
+</div>
+<div class="semantic segment">
+  <div class="source" lang="zh">云迫也</div>
+  <div class="notes">
+    <div class="translation">says that it means “compelled”</div>
+    <div class="label">Semantic</div>
+  </div>
+</div>
+<div class="phon segment">
+  <div class="source" lang="zh">迫音百</div>
+  <div class="notes">
+    <div class="translation">“compel” <span lang="zh">[迫]</span> is pronounced like <span lang="zh">百</span> [paek]</div>
+    <div class="label">Phonetic</div>
+  </div>
+</div>
+
+<p class="caption">
+  <b>Figure 7,</b> showing the richness of annotations in the <span lang="zh">經典釋文</span> <cite class="book">Jingdian Shiwen</cite>, and the common patterns they take.
+</p>
 {{</wrap>}}  
+
 
 Our approach to handling these complexities is to train a special-purpose model equipped to parse the terse style of the *Jingdian Shiwen*'s highly-structured annotations. We use the Prodigy annotation tool to note parts of speech and syntactic relationships in the commentary, and pair it with the spaCy NLP library to create a custom processing pipeline.[^21] By applying this micro-model to the annotation corpus, each individual reading gloss can be extracted and paired with qualifying data. A notable side-effect of this approach is that it simultaneously produces a citation network dataset: references that the *Jingdian Shiwen* makes to other texts and authors can be extracted from the text along with phonological data.
 
