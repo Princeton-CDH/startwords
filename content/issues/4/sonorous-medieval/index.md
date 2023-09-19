@@ -1,8 +1,8 @@
 ---
 type: article
-slug: "unnatural-language"
+slug: "sonorous-medieval"
 title: |
-  An Unnatural Language
+  Of Sonorous Medieval Chinese Texts and NLP Model Training: Reading the Jingdian Shiwen 經典釋文 as Semi-structured Data
 order: 1
 authors:
     - BudakNick
