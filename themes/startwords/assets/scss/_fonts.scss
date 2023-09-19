@@ -195,3 +195,12 @@
     // with the main body text, which as currently font-weight 300
     font-weight: 300;
 }
+
+/* Noto Emoji (black & white version, for print) */
+@font-face {
+    font-family: "Noto Emoji";
+    font-display: swap;
+    src: url('/fonts/NotoEmoji/NotoEmoji-Regular.woff2') format('woff2'),
+         url('/fonts/NotoEmoji/NotoEmoji-Regular.woff') format('woff');
+    unicode-range: U+1F600—1F64F, U+1F900-1F9FF; /* unicode emoji range */
+}
