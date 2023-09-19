@@ -197,6 +197,7 @@ cite.book::before {
 
 .card .fade {
 	opacity: 0.7;
+  position: relative;
 }
 
 /* match up word and phonetic spelling widths */
@@ -223,6 +224,50 @@ cite.book::before {
   background-repeat: no-repeat;
   background-position: -35px bottom;
   background-size: 150px;
+}
+
+button.play {
+/*  mask-image: url("/img/icons/phosphor/play-circle-fill.svg");*/
+/*  border: 0;*/
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  margin-left: -46px;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 15px;  
+  border: 1px transparent;
+}
+button.play:focus-visible {
+  border: 1px dashed white;    
+  outline: none;
+}
+
+button.play:after {
+  mask-image: url("/img/icons/phosphor/play-circle-fill.svg");
+  mask-size: cover;
+  background-color: #E0CEFF;
+  content: " ";
+  width: 32px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+/*  border-radius: 15px;*/
+/*  border: 3px dashed cyan;*/
+}
+button.play:hover:after {
+  background-color: #E9E9E9;
+}
+
+.phonetic button.play {
+  position: absolute;
+/*  left: 0;*/
+  bottom: -32px;
+  margin-left: 0;
+/*  margin-top: 46px;*/
+/*  float: left;*/
 }
 
 

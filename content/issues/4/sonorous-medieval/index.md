@@ -45,7 +45,7 @@ So how can we access the sounds of a language that lost its last native speakers
 
 <table>
   <caption>
-    <b>Figure 2.</b> Heteronyms in ancient and modern languages. 
+    <b>Figure 2.</b> Heteronyms in ancient and modern languages.
   </caption>
   <tbody>
     <tr class="languages">
@@ -163,13 +163,13 @@ Fortunately, previous scholarship has grappled with many of these issues, and hi
 The stability of the script also led to problems over time. In China, generations of medieval and early modern writers were trained to memorize the Odes of the ancient *Shi jing* 詩經 --- called the *Classic of Poetry* for a good reason --- but they soon grappled with the fact that these texts largely did not to rhyme when read aloud. The underlying phonology had changed.[^13]
 
 {{<wrap class="interlude" id="fig4">}}
-<p>        
-  <b>Figure 4.</b> Selected lines of the poem “Guan ju” <span lang="zh">《關雎》</span> from the 
-  <cite class="book">Classic of Poetry</cite> (<cite class="book">Shi jing</cite> <span lang="zh">詩經</span>), 
-  expressed through glyphs, Old Chinese and Middle Chinese phonology, and the pinyin romanization system of 
-  Standard Mandarin Chinese. Rhymes are underlined; note in 
-  particular the disappearing rhymes in selection 1 from Middle 
-  Chinese to Modern Chinese, and in the selection 2 from Old Chinese 
+<p>
+  <b>Figure 4.</b> Selected lines of the poem “Guan ju” <span lang="zh">《關雎》</span> from the
+  <cite class="book">Classic of Poetry</cite> (<cite class="book">Shi jing</cite> <span lang="zh">詩經</span>),
+  expressed through glyphs, Old Chinese and Middle Chinese phonology, and the pinyin romanization system of
+  Standard Mandarin Chinese. Rhymes are underlined; note in
+  particular the disappearing rhymes in selection 1 from Middle
+  Chinese to Modern Chinese, and in the selection 2 from Old Chinese
   to Middle Chinese.
 </p>
 
@@ -296,7 +296,7 @@ The stability of the script also led to problems over time. In China, generation
     </tr>
   </tbody>
 </table>
-{{</wrap>}}  
+{{</wrap>}}
 
 ## II.
 
@@ -315,22 +315,34 @@ The *Jingdian Shiwen* utilizes a relatively novel form of commentary: rather tha
 While earlier dictionaries primarily glossed glyphs by providing similar-sounding glyphs to indicate their reading, the *Jingdian Shiwen* employed a rather novel way of indicating pronunciation: the *fanqie* 反切 system.[^18] This method of noting a glyph's phonology separates a syllable into its initial consonant on the one hand, and its rhyme and tone on the other. No longer constrained to providing pronunciations by finding a word that overlapped exactly in sound, the *fanqie* system allowed scholars such as Lu Deming to instead choose common graphs for the initial and rhyme plus tone independently. Given the reliance on the Chinese script, both initial and rhyme plus tone are each expressed through a common glyph.
 
 {{<wrap class="interlude" id="fig6">}}
-  
+
   <aside class="card">
   <header>Say <em>east</em> in Middle Chinese</header>
-  
-  <p class="large"><span class="tek" lang="zh">東</span> tuwŋ</p>
+
+  <p class="large">
+    <audio src="assets/tuwng.mp3"></audio>
+    <button class="play" aria-label="listen to tuwng"></button>
+    <span class="tek" lang="zh">東</span> tuwŋ</p>
   <p class="large"><span class="tek"><span lang="zh">德</span> +</span> <span lang="zh">紅</span> = <span lang="zh">東</span></p>
 
-  <p><span class="tek">t<span class="fade">ok</span></span>  <span class="fade">h</span>uwŋ</p>
+  <p class="phonetic"><span class="tek">
+    <audio src="assets/tok.mp3"></audio><button class="play" aria-label="listen to tok"></button>
+    t<span class="fade">ok</span></span>
+    <audio src="assets/huwng.mp3"></audio><button class="play" aria-label="listen to huwng"></button>
+    <span class="fade">h</span>uwŋ</p>
   </aside>
-  
+
   <aside class="card">
     <header>Say <em>fight</em> in English</header>
-    <p class="large"><span class="fish">Fight</span> /fʌɪt/</p>
+    <p class="large">
+      <audio src="assets/fight.mp3"></audio>
+      <button class="play" aria-label="listen to fight"></button>
+      <span class="fish">Fight</span> /fʌɪt/</p>
     <p class="large"><span class="fish">Fish +</span> light = fight</p>
-    <p>
+    <p class="phonetic">
+      <audio src="assets/fish.mp3"></audio><button class="play" aria-label="listen to fish"></button>
       <span class="fish">/f<span class="fade">ɪʃ</span>/</span>
+      <audio src="assets/light.mp3"></audio><button class="play" aria-label="listen to light"></button>
      /<span class="fade">l</span>ʌɪt/</span>
     </p>
   </aside>
@@ -347,7 +359,7 @@ The first obstacle we face in turning the *Jingdian Shiwen* into phonological tr
 Only with such a digitized version of the *Jingdian Shiwen* and related texts can we approach the key question of how to extract useful phonological data from Lu Deming's commentary. A look at the content of this text highlights why this question is crucial: while close to one-third of the roughly 55,000 notes in the *Jingdian Shiwen* consist solely of a reading gloss (thus providing a reading aid to indicate pronunciation), the remainder is more complex and addresses multiple concerns. Some annotations feature semantic glosses, and others highlight instances in which additional works reproduce a glyph differently or include citations to the interpretations of other scholars. Many annotations combine these different elements. More importantly, the *Jingdian Shiwen* contains yet another form of abridgement: instead of reproducing the same annotation multiple times, the text attaches qualifiers to indicate that a given reading applies every time a human reader encounters the given string of glyphs in a specific section of the source text. These qualifiers act as multipliers for the data, effectively extending the commentary to cover whole swaths of text not explicitly noted elsewhere.
 
 {{<wrap class="interlude" id="fig7">}}
-  
+
 <div class="head segment">
   <div class="source" lang="zh">相摩</div>
   <div class="notes">
@@ -436,7 +448,7 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 <p class="caption">
   <b>Figure 7,</b> showing the richness of annotations in the <span lang="zh">經典釋文</span> <cite class="book">Jingdian Shiwen</cite>, and the common patterns they take.
 </p>
-{{</wrap>}}  
+{{</wrap>}}
 
 
 Our approach to handling these complexities is to train a special-purpose model equipped to parse the terse style of the *Jingdian Shiwen*'s highly-structured annotations. We use the Prodigy annotation tool to note parts of speech and syntactic relationships in the commentary, and pair it with the spaCy NLP library to create a custom processing pipeline.[^21] By applying this micro-model to the annotation corpus, each individual reading gloss can be extracted and paired with qualifying data. A notable side-effect of this approach is that it simultaneously produces a citation network dataset: references that the *Jingdian Shiwen* makes to other texts and authors can be extracted from the text along with phonological data.
