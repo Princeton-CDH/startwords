@@ -14,14 +14,11 @@
 
   @top-right {
     content: flow(page-header);
-    // content: element(page-header);
     opacity: 1;
   }
 
   @bottom-left {
-    // content: string(doi);
     content: flow(page-footer);
-    // content: element(page-footer);
     opacity: 1;
     font-size: 11px;
     font-weight: 300;
@@ -40,7 +37,6 @@
         content: '';
     }
     @top-right {
-        // content: element(first-page-header);
         content: flow(first-page-header);
     }
 }
@@ -100,7 +96,6 @@ body {
         }
 
         blockquote.pull {
-            /* width: 50%; */
             width: 66%;  /* wider makes it easier to flow content */
             margin-top: 0;
             line-height: 22px;
@@ -183,23 +178,6 @@ main {
        display: block;
     }
 }
-// .print-only {
-    // display for now to see if it resolves margin display
-    // display: block;
-
-    // #docraptor {
-
-    // }
-    // #notdocraptor {
-    //     display: none;
-    // }
-    /* hide offscreen for print-view in browsers that don't support @page styles */
-    // position: absolute;
-    // height: 50px;
-    // width: 200px;
-    // right: -200px;
-    // top: 50px;
-// }
 
 a.page-header {
     flow: static(page-header);
