@@ -16,6 +16,11 @@
         .theme {
             color: $light-purple;
         }
+        /* the link icon for author info is dark;
+           invert for dark mode so it will be visible */
+        .authors i[class^="ph-link"] {
+            filter: invert(1);
+        }
     }
 
     .tags {

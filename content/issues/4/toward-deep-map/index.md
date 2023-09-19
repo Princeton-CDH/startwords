@@ -74,8 +74,8 @@ Another related kind of local writing began with the Song dynasty *Chang'an zhi*
 
 Therefore, unlike the thematically organized works mentioned above, the *Chang'an zhi* provides more concrete temporal and geographical information that can be associated with the texts it includes. For instance, we can "locate" the chunk of text about the residence of a notable historical figure geographically in a ward in the city, and temporally in the lifetime of this figure, which is often known or deducible from other sources. Because the *Chang'an zhi* provides the most complete list of Han and Tang place names in Chang'an and gives their location in a relatively concrete and reliable manner, it has long been the basis for the reconstruction of Chang'an in modern scholarship.[^27] I also use the *Chang'an zhi* as a basis for my reconstruction of the city (Figure 3).
 
-{{<wrap class="interlude">}}
-{{<table caption="Figure 3: Excerpts from my transcription of the Chang’an zhi’s tabular data from 1076, which listed the wards, places, and notable structures and stories of Chang’an.">}}
+{{<wrap class="interlude" id="fig3">}}
+{{<table caption="Figure 3: Excerpts from my transcription of the Chang’an zhi’s tabular data from 1076, which listed the wards, places, and notable structures and stories of Chang’an." class="side-scroll">}}
 | ID      | Name | Data Type | Name_Ch | Location       | Time | Type   | Sub-Type | Start Date | End Date | CAZ                                      | CAZ-Len |
 | ------- | ---- | --------- | ------- | -------------- | ---- | ------ | -------- | ---------- | -------- | ---------------------------------------- | ------- |
 | 1001090 |      | Polygon   | 醴泉坊  | 朱雀街西第四街 | Tang | Ward   | Ward     | 581        | 904      | 本名承明坊開皇二年繕築此坊忽關金石之聲区… | 267     |
