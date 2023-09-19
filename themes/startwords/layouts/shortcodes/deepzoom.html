@@ -2,7 +2,7 @@
 {{- $zoom_id := printf "%s-%d" "openseadragon" .Ordinal -}} {{/* generate unique identifier within page */}}
 {{- $height := default "30em" (.Get "height") -}}
 <figure>
-<div class="deepzoom" id="{{ $zoom_id }}" style="height: {{ $height }}" aria-label="{{ .Get `alt` }}"></div>
+<div class="deepzoom{{ with .Get "class" }} {{ . }}{{ end }}" id="{{ $zoom_id }}" style="height: {{ $height }}" aria-label="{{ .Get `alt` }}"></div>
 <script>
     window.addEventListener("DOMContentLoaded", function() {
         OpenSeadragon({
