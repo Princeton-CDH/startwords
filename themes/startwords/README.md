@@ -122,6 +122,7 @@ When pages using this shortcode are rendered as a PDF, the interactive viewer wi
 - `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
 - `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
 - `height`, optional: vertical size of the viewer. defaults to `30em`.
+- `class`, optional: specify a CSS class for styling; use `class="shadow"` to add a box-shadow to help light-colored images standout on light page background
 
 [view source](layouts/shortcodes/deepzoom.html)
 

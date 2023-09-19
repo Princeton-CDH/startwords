@@ -254,7 +254,10 @@ body.article article, body.page article {
 
     .deepzoom {
         width: 100%;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &.shadow {
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;         
+        }
 
         /* limit height to avoid scroll traps on mobile */
         max-height: 50vh;
