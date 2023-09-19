@@ -15,7 +15,7 @@ module.exports = {
         "/issues/1/",
         "/issues/1/data-beyond-vision/",
         "/issues/4/",
-        "/issues/4/unnatural-language/",
+        "/issues/4/sonorous-medieval/",
         "/issues/4/toward-deep-map/",
         "/authors/",
         "/404.html"
