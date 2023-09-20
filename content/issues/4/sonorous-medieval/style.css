@@ -227,25 +227,35 @@ cite.book::before {
 }
 
 button.play {
-/*  mask-image: url("/img/icons/phosphor/play-circle-fill.svg");*/
-/*  border: 0;*/
   background-color: transparent;
   width: 30px;
   height: 30px;
   margin-left: -46px;
   vertical-align: middle;
   position: relative;
-  border-radius: 15px;  
+  border-radius: 15px;
   border: 1px transparent;
+  cursor: pointer;
 }
+audio.playing + button.play {
+  cursor: wait;
+}
+
+audio.playing + button.play:after {
+  pointer-events: none;
+  background-color: #808080;
+}
+
 button.play:focus-visible {
-  border: 1px dashed white;    
+  border: 1px dashed white;
   outline: none;
 }
 
 button.play:after {
   mask-image: url("/img/icons/phosphor/play-circle-fill.svg");
+  -webkit-mask-image: url("/img/icons/phosphor/play-circle-fill.svg");
   mask-size: cover;
+  -webkit-mask-size: cover;
   background-color: #E0CEFF;
   content: " ";
   width: 32px;
@@ -254,9 +264,13 @@ button.play:after {
   position: absolute;
   left: -2px;
   top: -2px;
-/*  border-radius: 15px;*/
-/*  border: 3px dashed cyan;*/
 }
+/* switch to pause icon to indicate playing */
+audio.playing + button.play:after {
+  mask-image: url("/img/icons/phosphor/pause-circle-fill.svg");
+  -webkit-mask-image: url("/img/icons/phosphor/pause-circle-fill.svg");
+}
+
 button.play:hover:after {
   background-color: #E9E9E9;
 }
