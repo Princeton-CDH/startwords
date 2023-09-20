@@ -43,9 +43,3 @@ dd {
     margin-top: rem(8px);
     margin-left: rem(16px);
 }
-
-/* Use Noto Serif TC for anything explicitly labeled as Chinese language */
-*[lang=zh] {
-    font-family: "Noto Serif TC";
-    font-weight: 300;
-}

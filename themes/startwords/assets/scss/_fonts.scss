@@ -196,6 +196,22 @@
     font-weight: 300;
 }
 
+/* Noto Sans TC */
+@font-face {
+    font-family: "Noto Sans TC";
+    font-display: swap;
+    unicode-range: U+4E00-9FFF;
+    src: url('/fonts/NotoSansTC/NotoSansTC-Regular.woff2') format('woff2'),
+         url('/fonts/NotoSansTC/NotoSansTC-Regular.woff') format('woff'),
+      url('/fonts/NotoSansTC/NotoSansTC-Regular.otf') format('otf');;
+    // harmonize sizing with font for Latin characters
+    // on desktop, main font should be 18px and Noto Serif TC should be 16px
+    size-adjust: 89%;
+    // we're using regular font weight (400), but want it displayed
+    // with the main body text, which as currently font-weight 300
+    font-weight: 300;
+}
+
 /* Noto Emoji (black & white version, for print) */
 @font-face {
     font-family: "Noto Emoji";
