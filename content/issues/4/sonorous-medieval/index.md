@@ -2,7 +2,7 @@
 type: article
 slug: "sonorous-medieval"
 title: |
-  Of Sonorous Medieval Chinese Texts and NLP Model Training: Reading the Jingdian Shiwen 經典釋文 as Semi-structured Data
+  Of Sonorous Medieval Chinese Texts and NLP Model Training
 order: 1
 authors:
     - BudakNick
