@@ -11,7 +11,7 @@ doi: 10.5281/zenodo.6567985
 pdf: https://zenodo.org/record/6567985/files/startwords-3-llm-limit-case.pdf
 images: ["issues/3/llm-limit-case/images/llm-limit-case-social.png"]
 summary: "Chang’an is one of the most renowned cities in Chinese history. It was the capital of the Western Han (202 BCE—8 CE) and the Tang (618—907) dynasties: the twin peaks of imperial power in pre-modern China."
-hook_height_override: 225
+hook_height_override: 250
 ---
 
 Chang'an (modern Xi'an, Shaanxi province) is one of the most renowned cities in Chinese history. It was the capital of the Western Han (202 BCE--8 CE) and the Tang (618--907) dynasties: the twin peaks of imperial power in pre-modern China. In its heyday during the Tang dynasty, the area covered by the walled city (84.1 square kilometers) was even bigger than many modern metropoles, such as the island of Manhattan (59.1 square kilometers). When you visit the modern city Xi'an now, you can still see the remnants of the Han dynasty city of Chang'an to the northwest of the modern city center and, much more prominently, of the Tang city of Chang'an that overlaps with a large part of the modern city. As I witnessed first-hand walking the crowded streets of Xi'an during the sweltering summer of 2023, there is a tremendous amount of interest in the history of Chang'an among the general population, partly because of the remains of the ancient city, partly triggered by fictional works like the popular novel and TV drama *The Longest Day in Chang'an*.

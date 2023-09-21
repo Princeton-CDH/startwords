@@ -12,7 +12,7 @@ doi: 10.5281/zenodo.6567985
 pdf: https://zenodo.org/record/6567985/files/startwords-3-llm-limit-case.pdf
 images: ["issues/3/llm-limit-case/images/llm-limit-case-social.png"]
 summary: A distinctive set of challenges arises when training machines to process a historical language, especially one that was last spoken two millennia ago.
-hook_height_override: 160
+hook_height_override: 175
 ---
 
 A distinctive set of challenges arises when training machines to process a historical language, especially one that was last spoken two millennia ago. One of the core issues embedded in natural language processing (NLP) models for historical languages is the acute lack of annotated datasets, despite the long scholastic and exegetical traditions for some of these languages. This article focuses on a specific historical language with an extensive commentarial tradition: premodern forms of Chinese spanning the Warring States (476--221 BCE) and early imperial periods (221 BCE--220 CE). By highlighting the challenges of this particular language and our approach to building an NLP model that aims to overcome these difficulties, we will additionally argue how textual commentaries from the medieval period can be used for NLP model training purposes.
