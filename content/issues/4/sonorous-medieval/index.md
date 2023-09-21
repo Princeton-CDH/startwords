@@ -42,8 +42,7 @@ So how can we access the sounds of a language that lost its last native speakers
 
 {{<wrap class="interlude" id="fig2">}}
 
-
-<table>
+<table class="side-scroll">
   <caption>
     <b>Figure 2.</b> Heteronyms in ancient and modern languages.
   </caption>

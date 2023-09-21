@@ -56,6 +56,18 @@ cite.book::before {
   width: auto;
 }
 
+/* figure two table needs side-scrolling on mobile,
+  but does not need wider margins */
+#fig2 table.side-scroll {
+  margin: auto;
+}
+
+/* make row headers and caption sticky when scrolling */
+#fig2 table th[scope=row], #fig2 table caption {
+  position: sticky;
+  left: 0;
+  background-color: var(--purple); /* match interlude background */
+}
 
 /* figure 3 (provisional) */
 
