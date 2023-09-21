@@ -10,7 +10,7 @@ authors:
 date: 2022-08-01
 doi: 10.5281/zenodo.6567985
 pdf: https://zenodo.org/record/6567985/files/startwords-3-llm-limit-case.pdf
-images: ["issues/3/llm-limit-case/images/llm-limit-case-social.png"]
+images: ["issues/4/sonorous-medieval/images/sonorous-medieval-social.png"]
 summary: A distinctive set of challenges arises when training machines to process a historical language, especially one that was last spoken two millennia ago.
 hook_height_override: 175
 ---

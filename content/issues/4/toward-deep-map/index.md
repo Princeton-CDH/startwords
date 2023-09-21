@@ -9,7 +9,7 @@ authors:
 date: 2022-08-01
 doi: 10.5281/zenodo.6567985
 pdf: https://zenodo.org/record/6567985/files/startwords-3-llm-limit-case.pdf
-images: ["issues/3/llm-limit-case/images/llm-limit-case-social.png"]
+images: ["issues/4/toward-deep-map/images/toward-deep-map-social.png"]
 summary: "Chang’an is one of the most renowned cities in Chinese history. It was the capital of the Western Han (202 BCE—8 CE) and the Tang (618—907) dynasties: the twin peaks of imperial power in pre-modern China."
 hook_height_override: 250
 ---
