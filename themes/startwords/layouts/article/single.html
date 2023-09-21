@@ -7,7 +7,9 @@
 
 {{ define "custom_js" }}
     {{ range .Resources.Match "*.js" }}
-    <script defer type="text/javascript" src="{{ .RelPermalink }}"></script>
+    {{- $scriptOptions := (dict "config" "babel.config.json" "minified" true "compact" true) -}}
+    {{- $transpiled_js := . | babel $scriptOptions -}}
+    <script defer type="text/javascript" src="{{ $transpiled_js.RelPermalink }}"></script>
     {{ end }}
 {{ end }}
 
