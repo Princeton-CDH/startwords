@@ -162,14 +162,14 @@ Fortunately, previous scholarship has grappled with many of these issues, and hi
 The stability of the script also led to problems over time. In China, generations of medieval and early modern writers were trained to memorize the Odes of the ancient *Shi jing* 詩經 --- called the *Classic of Poetry* for a good reason --- but they soon grappled with the fact that these texts largely did not to rhyme when read aloud. The underlying phonology had changed.[^13]
 
 {{<wrap class="interlude" id="fig4">}}
-<p>
+<p class="caption">
   <b>Figure 4.</b> Selected lines of the poem “Guan ju” <span lang="zh">《關雎》</span> from the
   <cite class="book">Classic of Poetry</cite> (<cite class="book">Shi jing</cite> <span lang="zh">詩經</span>),
   expressed through glyphs, Old Chinese and Middle Chinese phonology, and the pinyin romanization system of
-  Standard Mandarin Chinese. Rhymes are underlined; note in
+  Standard Mandarin Chinese. Rhyming words are underlined with their matching vowel sounds glowing; note in
   particular the disappearing rhymes in selection 1 from Middle
-  Chinese to Modern Chinese, and in the selection 2 from Old Chinese
-  to Middle Chinese.
+  Chinese to Modern Chinese, and in selection 2 from Old Chinese
+  to Middle Chinese. The asterisk (*) marks "best-guess" Old Chinese reconstructions by linguists based on historical evidence.
 </p>
 
 <table>
@@ -201,10 +201,10 @@ The stability of the script also led to problems over time. In China, generation
       <td>tshjo</td>
       <td class="pinyin">jū</td>
     </tr>
-    <tr>
+    <tr class="rhyme-line">
       <td lang="zh">鳩</td>
-      <td class="rhyme">*[k](r)<span class="vowel">u</span></td>
-      <td class="rhyme">kj<span class="vowel">u</span>w</td>
+      <td class="rhyme" aria-description="Rhyming sound">*[k](r)<span class="vowel">u</span></td>
+      <td class="rhyme" aria-description="Rhyming sound">kj<span class="vowel">u</span>w</td>
       <td class="pinyin">jiū</td>
     </tr>
     <tr>
@@ -225,10 +225,10 @@ The stability of the script also led to problems over time. In China, generation
       <td>tsyi</td>
       <td class="pinyin">zhī</td>
     </tr>
-    <tr>
+    <tr class="rhyme-line">
       <td lang="zh">洲</td>
-      <td class="rhyme">*t<span class="vowel">u</span></td>
-      <td class="rhyme">tsy<span class="vowel">u</span>w</td>
+      <td class="rhyme" aria-description="Rhyming sound">*t<span class="vowel">u</span></td>
+      <td class="rhyme" aria-description="Rhyming sound">tsy<span class="vowel">u</span>w</td>
       <td class="pinyin">zhōu</td>
     </tr>
   </tbody>
@@ -257,15 +257,15 @@ The stability of the script also led to problems over time. In China, generation
       <td>tsyi</td>
       <td class="pinyin">zhī</td>
     </tr>
-    <tr>
+    <tr class="rhyme-line">
       <td lang="zh">不</td>
-      <td class="rhyme">*p<span class="vowel">ə</span></td>
+      <td class="rhyme" aria-description="Rhyming sound">*p<span class="vowel">ə</span></td>
       <td>pjuw</td>
       <td class="pinyin">bù</td>
     </tr>
-    <tr>
+    <tr class="rhyme-line">
       <td lang="zh">得</td>
-      <td class="rhyme">*t<sup>ʕ</sup><span class="vowel">ә</span>k</td>
+      <td class="rhyme" aria-description="Rhyming sound">*t<sup>ʕ</sup><span class="vowel">ә</span>k</td>
       <td>tok</td>
       <td class="pinyin">dé</td>
     </tr>
@@ -281,15 +281,15 @@ The stability of the script also led to problems over time. In China, generation
       <td>mjijH</td>
       <td class="pinyin">mèi</td>
     </tr>
-    <tr>
+    <tr class="rhyme-line">
       <td lang="zh">思</td>
-      <td class="rhyme">*[s]<span class="vowel">ə</span></td>
+      <td class="rhyme" aria-description="Rhyming sound">*[s]<span class="vowel">ə</span></td>
       <td>si</td>
       <td class="pinyin">sī</td>
     </tr>
-    <tr>
+    <tr class="rhyme-line">
       <td lang="zh">服</td>
-      <td class="rhyme">*[b]<span class="vowel">ə</span>k</td>
+      <td class="rhyme" aria-description="Rhyming sound">*[b]<span class="vowel">ə</span>k</td>
       <td>bjuwk</td>
       <td class="pinyin">fú</td>
     </tr>

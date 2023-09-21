@@ -69,7 +69,7 @@ cite.book::before {
   background-color: var(--purple); /* match interlude background */
 }
 
-/* figure 3 (provisional) */
+/* figure 3 */
 
 #fig3 {
   font-family: var(--font-sans);
@@ -160,15 +160,27 @@ cite.book::before {
   text-decoration-style: wavy;
 }
 
-/* figure 4 (provisional) */
+/* figure 4 */
+
+#fig4 .caption {
+  line-height: 1.25;
+}
 
 #fig4 table {
-  min-width: 50%;
+  width: 100%;
+  max-width: 32rem;
+  margin: 0 auto;
 }
 
 #fig4 table caption {
-  font-size: 24px;
+  font-size: 1rem;
   caption-side: top;
+  line-height: 1.25;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    max-width: 32rem;
+  }
 }
 
 #fig4 .stanza-header {
@@ -189,12 +201,21 @@ cite.book::before {
 
 #fig4 tbody td {
   padding: 0;
-  font-size: 24px;
+  font-size: 1rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
 }
 
 #fig4 td[lang=zh] {
-  font-size: 40px;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
   padding-right: 10px;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 #fig4 .rhyme .vowel {
@@ -202,8 +223,16 @@ cite.book::before {
   text-shadow: white 1px 0 10px;
 }
 
-.pinyin {
+#fig4 .pinyin {
   font-style: italic;
+}
+
+#fig4 tr:not(.rhyme-line) {
+  opacity: 0.3;
+}
+
+#fig4 thead tr {
+  opacity: 1 !important;
 }
 
 
