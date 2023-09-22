@@ -56,6 +56,18 @@ cite.book::before {
   width: auto;
 }
 
+/* figure two table needs side-scrolling on mobile,
+  but does not need wider margins */
+#fig2 table.side-scroll {
+  margin: auto;
+}
+
+/* make row headers and caption sticky when scrolling */
+#fig2 table th[scope=row], #fig2 table caption {
+  position: sticky;
+  left: 0;
+  background-color: var(--purple); /* match interlude background */
+}
 
 /* figure 3 (provisional) */
 
@@ -197,6 +209,14 @@ cite.book::before {
 
 /* figure 6 */
 
+#fig6 > div {
+  /* match article content width */
+  @media (min-width: 768px) {
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+}
+
 #fig6 p {
   line-height: normal !important;
   font-size: 22px;
@@ -210,7 +230,7 @@ cite.book::before {
   font-size: 16px;
   @media (min-width: 768px) {
     margin-left: 5%;
-    max-width: auto;
+    max-width: none;
   }
 }
 
@@ -224,17 +244,19 @@ cite.book::before {
   /* side by side on larger screens */
   @media (min-width: 768px) {
     width: 45%;
-    padding-left: 5%;
     margin-left: 0;
   }
 }
 
 /* second card */
 .card + .card {
+  margin-top: 48px;  /* make space between the two card s*/
   margin-bottom: 100px; /* push to make space for ear on mobile */
   @media (min-width: 768px) {
+    margin-top: 0;
     margin-bottom: auto;
     width: 48%;
+    margin-left: 5%;
     padding-left: 0;
   }
 }
@@ -338,18 +360,17 @@ audio.playing + button.play:after {
 button.play:hover:after {
   background-color: #E9E9E9;
 }
+.phonetic {
+  position: relative;
+}
 
 .phonetic button.play {
   position: absolute;
-/*  left: 0;*/
   bottom: -32px;
   margin-left: 0;
-/*  margin-top: 46px;*/
-/*  float: left;*/
 }
 
-
-/* figure 7 (provisional) */
+/* figure 7  */
 
 #fig7 {
   /* use flexbox to let terms follow each other (with translation & annotation)

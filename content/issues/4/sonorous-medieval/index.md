@@ -42,8 +42,7 @@ So how can we access the sounds of a language that lost its last native speakers
 
 {{<wrap class="interlude" id="fig2">}}
 
-
-<table>
+<table class="side-scroll">
   <caption>
     <b>Figure 2.</b> Heteronyms in ancient and modern languages.
   </caption>
@@ -316,6 +315,7 @@ While earlier dictionaries primarily glossed glyphs by providing similar-soundin
 
 {{<wrap class="interlude" id="fig6">}}
 
+<div>
   <aside class="card">
   <header>Say <em>east</em> in Middle Chinese</header>
 
@@ -348,6 +348,7 @@ While earlier dictionaries primarily glossed glyphs by providing similar-soundin
   </aside>
 
   <p class="caption"><b>Figure 6.</b> How the <em>fanqie</em> pronunciation system works</p>
+</div>
 {{</wrap>}}
 
 In this way, the *Jingdian Shiwen* is both comprehensive and concise in the way it provides phonological data in context. We believe it provides enough data to train an NLP model. The key question is then how to extract this data; while Lu Deming's meticulous attention to detail produced what is effectively a machine-readable dataset millennia before such machines would exist, adjusting the specific format still necessitates significant labor on our part.
