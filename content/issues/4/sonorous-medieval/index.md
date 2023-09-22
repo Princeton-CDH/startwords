@@ -76,82 +76,82 @@ So how can we access the sounds of a language that lost its last native speakers
 
 {{</wrap>}}
 
-Another problem is the graphic variation common in early forms of Chinese, especially prior to the large-scale standardization of orthography during the third to first centuries BCE. In other words, while one glyph could be pronounced multiple ways, the *same* word could additionally be written with different glyphs in ancient texts. The same textual passage --- say, a line of a poem --- could hence be written with rather different glyphs.[^11] Thus without a model that incorporates homographs, graphic variation, and other contextual understandings of phonology, the (often quite complex) puns, rhymes, and wordplays of ancient texts remain hidden below their surface forms. More crucially, however, unstandardized recurrences --- not just of named entities, but of entire parallel passages --- may go unnoticed.[^12]
+Another problem is the graphic variation common in early forms of Chinese, especially prior to the large-scale standardization of orthography during the 3rd to 1st centuries BCE. In other words, while one glyph could be pronounced multiple ways, the *same* word could additionally be written with different glyphs in ancient texts. The same textual passage --- say, a line of a poem --- could hence be written with rather different glyphs.[^11] Thus without a model that incorporates homographs, graphic variation, and other contextual understandings of phonology, the (often quite complex) puns, rhymes, and wordplays of ancient texts remain hidden below their surface forms. More crucially, however, unstandardized recurrences --- not just of named entities, but of entire parallel passages --- may go unnoticed.[^12]
 
-{{<wrap class="interlude">}}
-<p>
-          <b>Figure 3,</b> illustrating the sometimes hidden parallelism across
-          ancient texts. One phrase, “he did not speak for three years,” is
-          reproduced exactly across all three texts — this is easy to see
-          because the characters are the same. However, there are two other
-          instances of parallelism that are not visually apparent.
-        </p>
-        <p>
-          The pink and blue sections are different words, with subtly different
-          meanings, but with very closely rhyming sounds. This phenomenon can
-          occur when texts are transmitted orally and re-recorded by different
-          scribes, but is difficult to discover unless the sound is taken into
-          account. David Schaberg initially found this example via close
-          reading.
-        </p>
-        <p>
-          The medievalist Paul Zumthor referred to this idea as
-          <a href="https://doi.org/10.1093/llc/fqx033">mouvance</a>, an ‘interplay between variant readings and
-          reworkings.’ The concept shares some similarity with the idea of
-          <cite class="book">generation loss</cite> in digital media: the phenomenon where
-          successive copies of copies gradually degrade, and information is lost
-          or transformed by the very act of re-recording. The effect is made
-          visible on very old VHS tapes.
-        </p>
-        <blockquote>
-          <p class="source" lang="zh">
-            作其即位，乃或<span class="g2">亮陰</span>，<span class="par"
-              >三年不言</span
-            >。其惟不言，言乃<span class="g1">雍</span>。
-          </p>
-          <p class="translation">
-            At the start, when he ascended the throne, then, it is said,
-            <span class="g2">the light was obscured</span> and
-            <span class="par">for three years he did not speak</span>. His
-            acting without words was thus <span class="g1">harmonious</span>.
-          </p>
-          <footer>
-            尚書《毋逸》“Do not Indulge,” from the
-            <cite class="book">Book of Documents</cite>
-          </footer>
-        </blockquote>
-        <blockquote>
-          <p class="source" lang="zh">
-            書云：高宗<span class="par">三年不言</span>，言乃<span class="g1"
-              >歡</span
-            >。
-          </p>
-          <p class="translation">
-            The <cite class="book">Documents</cite> state: ‘Gaozong
-            <span class="par">did not speak for three years</span>. When he did
-            speak, he was <span class="g1">joyous</span>.’
-          </p>
-          <footer>
-            禮記《檀弓下》“Tan Gong II,” from the
-            <cite class="book">Book of Rites</cite>
-          </footer>
-        </blockquote>
-        <blockquote>
-          <p class="source" lang="zh">
-            高宗，天子也。即位<span class="g2">諒闇</span>，<span class="par"
-              >三年不言</span
-            >。
-          </p>
-          <p class="translation">
-            Gaozong was Heaven’s Son. When he ascended the throne,
-            <span class="g2">it was truly dark</span>, and
-            <span class="par">for three years he did not speak</span>.
-          </p>
-          <footer>
-            《呂氏春秋》6/2 from
-            <cite class="book">Master Lü's Spring and Autumn Annals</cite>
-          </footer>
-        </blockquote>
+{{<wrap class="interlude" id="fig3">}}
+<p class="caption">
+  <b>Figure 3</b>. Textual parallels across three early Chinese texts, 
+  both on a grapheme level and on that of phonology alone. The phrase 
+  “he did not speak for three years” (solid underline) occurs across these 
+  texts, using the same glyphs. Passages with wavy and dotted underlines 
+  utilize different glyphs, but largely overlap on a phonological level.
+</p>
+<p class="caption">
+  For these examples, see David Schaberg, "Speaking of Documents: 
+  <em>Shu</em> Citations in Warring States Texts," in <cite>Origins of Chinese Political 
+  Philosophy: Studies in the Composition and Thought of the ‘Shangshu’
+  (Classic of Documents)</cite>, ed. Martin Kern and Drik Meyer (Leiden: Brill, 2017), 320–359.
+</p>
+<blockquote>
+  <div class="source">
+    <p lang="zh">
+      作其即位，乃或<span class="g2">亮陰</span>，<span class="par"
+        >三年不言</span
+      >。其惟不言，言乃<span class="g1">雍</span>。
+    </p>
+  </div>
+  <div class="notes">
+    <p class="translation">
+      At the start, when he ascended the throne, then, it is said,
+      <span class="g2">the light was obscured</span> and
+      <span class="par">for three years he did not speak</span>. His
+      acting without words was thus <span class="g1">harmonious</span>.
+    </p>
+    <footer>
+      From the chapter <span lang="zh">《毋逸》</span> "Do not Indulge", from the
+      <cite class="book">Book of Documents</cite> (<cite class="book">Shang shu</cite> <span lang="zh">尚書</span>)
+    </footer>
+  </div>
+</blockquote>
+<blockquote>
+  <div class="source">
+    <p lang="zh">
+      書云：高宗<span class="par">三年不言</span>，言乃<span class="g1"
+        >歡</span
+      >。
+    </p>
+  </div>
+  <div class="notes">
+    <p class="translation">
+      The <cite class="book">Documents</cite> state: ‘Gaozong
+      <span class="par">did not speak for three years</span>. When he did
+      speak, he was <span class="g1">joyous</span>.’
+    </p>
+    <footer>
+      From the chapter <span lang="zh">《檀弓下》</span>"Tan Gong II", from the
+      <cite class="book">Book of Rites</cite> (<cite class="book">Li ji</cite> <span lang="zh">禮記</span>)
+    </footer>
+  </div>
+</blockquote>
+<blockquote>
+  <div class="source">
+    <p lang="zh">
+      高宗，天子也。即位<span class="g2">諒闇</span>，<span class="par"
+        >三年不言</span
+      >。
+    </p>
+  </div>
+  <div class="notes">
+    <p class="translation">
+      Gaozong was Heaven’s Son. When he ascended the throne,
+      <span class="g2">it was truly dark</span>, and
+      <span class="par">for three years he did not speak</span>.
+    </p>
+    <footer>
+      From <cite class="book">Master Lü's Spring and Autumn Annals</cite> 6/2 (<cite class="book">Lü shi chunqiu</cite> <span lang="zh">呂氏春秋</span>)
+    </footer>
+  </div>
+</blockquote>
 {{</wrap>}}
 
 Fortunately, previous scholarship has grappled with many of these issues, and historical secondary sources offer an intriguing source of semi-structured data in the form of commentaries, dictionaries, and other scholarly work.[^add] The *Qieyun* 切韻, a rhyme dictionary compiled in 601 CE, is an important example: it records normative reading practices that represent a compromise between then-current Northern and Southern styles of pronouncing of glyphs in the classical texts from early China. Modern reconstructions of Old Chinese phonology draw heavily on the *Qieyun* and its later redactions, as these texts provide a formal structure and closed system of phonological distinctions for the underlying Middle Chinese.

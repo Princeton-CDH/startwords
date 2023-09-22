@@ -59,29 +59,93 @@ cite.book::before {
 
 /* figure 3 (provisional) */
 
-.source {
-  font-size: 2rem;
-  line-height: 2.7rem !important;
-  font-style: normal !important;
-  text-underline-offset: .5rem;
+#fig3 {
+  font-family: var(--font-sans);
+  color: #404040; /* override interlude text color */
+  padding: 0;
 }
 
-.par {
+#fig3:before {
+  background-color: #E9E9E9;
+}
+
+#fig3 .caption {
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+#fig3 .caption + .caption {
+  padding-top: 0;
+}
+
+#fig3 blockquote {
+  margin: 0 auto;
+}
+
+#fig3 .notes {
+  font-size: 18px;
+  padding: 1rem 0;
+}
+
+#fig3 .source {
+  font-size: 1.5rem;
+  font-family: var(--font-serif);
+  position: relative;
+  padding: 1rem 0;
+  margin: 0;
+  text-underline-offset: .25rem;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+    text-underline-offset: .5rem;
+  }
+}
+
+#fig3 .source p {
+  position: relative;
+  z-index: 1;
+  line-height: 1.25;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+#fig3 .source::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(100vw * -1);
+  width: 200vw;
+  height: 100%;
+  background-color: #FEFEFE;
+}
+
+#fig3 .translation {
+  text-underline-offset: 3px;
+  line-height: 1.25;
+}
+
+#fig3 .par,
+#fig3 .g1,
+#fig3 .g2 {
   text-decoration: underline;
 }
 
-.g1 {
-  border: 1px solid gray;
-  background-color: lightblue;
+#fig3 .par {
+  text-decoration-color: #1D6EB9;
+  text-decoration-style: solid;
 }
 
-.g2 {
-  border: 1px solid gray;
-  background-color: pink;
+#fig3 .g1 {
+  text-decoration-color: #A12FBD;
+  text-decoration-style: dotted;
 }
 
-.g1, .g2 {
-  color: black;
+#fig3 .g2 {
+  text-decoration-color: #BD6B00;
+  text-decoration-style: wavy;
 }
 
 /* figure 4 (provisional) */
