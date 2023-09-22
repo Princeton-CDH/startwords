@@ -173,7 +173,10 @@ The stability of the script also led to problems over time. In China, generation
 </p>
 
 <table>
-  <caption>1. Guan-guan [goes] the osprey, on the river’s islet.</caption>
+  <caption>
+    1. Guan-guan [goes] the osprey, on the river’s islet.
+    <p class="sr-only">Rhyming "u" sounds at the end of the two four-character lines are preserved in Old Chinese and Middle Chinese, but in Modern Chinese the selection has no rhyming words.</p>
+  </caption>
   <thead>
     <tr>
       <th scope="col" aria-label="Character"></th>
@@ -203,8 +206,8 @@ The stability of the script also led to problems over time. In China, generation
     </tr>
     <tr class="rhyme-line">
       <td lang="zh">鳩</td>
-      <td class="rhyme" aria-description="Rhyming sound">*[k](r)<span class="vowel">u</span></td>
-      <td class="rhyme" aria-description="Rhyming sound">kj<span class="vowel">u</span>w</td>
+      <td class="rhyme">*[k](r)<span class="vowel">u</span></td>
+      <td class="rhyme">kj<span class="vowel">u</span>w</td>
       <td class="pinyin">jiū</td>
     </tr>
     <tr>
@@ -227,15 +230,18 @@ The stability of the script also led to problems over time. In China, generation
     </tr>
     <tr class="rhyme-line">
       <td lang="zh">洲</td>
-      <td class="rhyme" aria-description="Rhyming sound">*t<span class="vowel">u</span></td>
-      <td class="rhyme" aria-description="Rhyming sound">tsy<span class="vowel">u</span>w</td>
+      <td class="rhyme">*t<span class="vowel">u</span></td>
+      <td class="rhyme">tsy<span class="vowel">u</span>w</td>
       <td class="pinyin">zhōu</td>
     </tr>
   </tbody>
 </table>
 
 <table>
-  <caption>2. Seeking her, [he] did not find [her]; Waking and sleeping, he thinks longingly [of her].</caption>
+  <caption>
+    2. Seeking her, [he] did not find [her]; Waking and sleeping, he thinks longingly [of her].
+    <p class="sr-only">Rhyming "ə" sounds in the final two words of both lines appear in Old Chinese, but in both Middle Chinese and Modern Chinese the poem has no rhyming sounds.</p>
+  </caption>
   <thead>
     <tr>
       <th scope="col" aria-label="Character"></th>
@@ -259,13 +265,13 @@ The stability of the script also led to problems over time. In China, generation
     </tr>
     <tr class="rhyme-line">
       <td lang="zh">不</td>
-      <td class="rhyme" aria-description="Rhyming sound">*p<span class="vowel">ə</span></td>
+      <td class="rhyme">*p<span class="vowel">ə</span></td>
       <td>pjuw</td>
       <td class="pinyin">bù</td>
     </tr>
     <tr class="rhyme-line">
       <td lang="zh">得</td>
-      <td class="rhyme" aria-description="Rhyming sound">*t<sup>ʕ</sup><span class="vowel">ә</span>k</td>
+      <td class="rhyme">*t<sup>ʕ</sup><span class="vowel">ә</span>k</td>
       <td>tok</td>
       <td class="pinyin">dé</td>
     </tr>
@@ -283,13 +289,13 @@ The stability of the script also led to problems over time. In China, generation
     </tr>
     <tr class="rhyme-line">
       <td lang="zh">思</td>
-      <td class="rhyme" aria-description="Rhyming sound">*[s]<span class="vowel">ə</span></td>
+      <td class="rhyme">*[s]<span class="vowel">ə</span></td>
       <td>si</td>
       <td class="pinyin">sī</td>
     </tr>
     <tr class="rhyme-line">
       <td lang="zh">服</td>
-      <td class="rhyme" aria-description="Rhyming sound">*[b]<span class="vowel">ə</span>k</td>
+      <td class="rhyme">*[b]<span class="vowel">ə</span>k</td>
       <td>bjuwk</td>
       <td class="pinyin">fú</td>
     </tr>
