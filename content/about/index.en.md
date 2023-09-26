@@ -11,7 +11,7 @@ masthead:
     - UX Designer:
         - Gissoo Doroudian
     - Technical Lead:
-        - Rebecca Sutton Koeser (Issue 2–3)
+        - Rebecca Sutton Koeser (Issue 2–4)
         - Nick Budak (Issue 1)
     - Manuscript Editing:
         - Camey VanSant
