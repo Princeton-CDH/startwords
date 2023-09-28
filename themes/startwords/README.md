@@ -182,6 +182,8 @@ Example use for a chart or graph, with long description:
 - `attr`, optional: attribution text to be shown underneath the figure.
 - `attrlink`, optional: URL for making `attr` text a hyperlink.
 - `desc-id`, optional: html id of an element containing longer descriptive text.
+- `max-height`, optional: restrict the height of the image for display; must be in a size supported by CSS, e.g. `max-height="300px`
+- `max-width`, optional: restrict the width of the image for display, e.g. for a lower-resolution image; must be in a size supported by CSS, e.g. `max-width="300px`
 
 [view source](layouts/shortcodes/figure.html)
 
