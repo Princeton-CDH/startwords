@@ -366,3 +366,18 @@ iframe {
         margin-left: 20%;
     }
 }
+
+/* adjust styles for larger tables to print */
+body.article article table.side-scroll {
+    width: 8.1in;
+    // max-width: 980px;
+    max-width: 8.1in;  // 8.5 - 0.2 on each side
+    overflow-x: revert;
+    white-space: normal;
+    /* extend sideways beyond the grid even further */
+    margin: 0 -12vw;
+}
+
+table.side-scroll td, table.side-scroll th {
+    white-space: normal;
+}

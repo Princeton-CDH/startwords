@@ -119,11 +119,13 @@ body.article article, body.page article {
             th {
                 font-weight: 600;
                 padding: 0 0.5rem 0.5rem 0;
+                vertical-align: bottom;
                 }
             // tabular data cells
             td {
                 font-weight: 400;
                 padding: 0.25rem 0.5rem 0.25rem 0;
+                vertical-align: top;
             }
             caption {
                 caption-side: bottom;
@@ -256,7 +258,7 @@ body.article article, body.page article {
         width: 100%;
 
         &.shadow {
-           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;         
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
 
         /* limit height to avoid scroll traps on mobile */
