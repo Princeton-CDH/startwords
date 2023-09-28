@@ -24,6 +24,7 @@ cite.book::before {
 #fig2 .words td {
   text-align: center;
   font-size: 3rem;
+  line-height: 3.2rem;
 }
 
 #fig2 .translit td,
@@ -70,7 +71,9 @@ cite.book::before {
 #fig2 table th[scope=row], #fig2 table caption {
   position: sticky;
   left: 0;
-  background-color: var(--purple); /* match interlude background */
+  @media only screen {
+    background-color: var(--purple); /* match interlude background */
+  }
 }
 
 /* figure 3 */
@@ -79,10 +82,13 @@ cite.book::before {
   font-family: var(--font-sans);
   color: #404040; /* override interlude text color */
   padding: 0;
+  margin-bottom: 3rem;
 }
 
-#fig3:before {
-  background-color: #E9E9E9;
+@media only screen {
+  #fig3:before {
+    background-color: #E9E9E9;
+  }
 }
 
 #fig3 .caption {
@@ -113,7 +119,7 @@ cite.book::before {
   margin: 0;
   text-underline-offset: .25rem;
 
-  @media (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     font-size: 2rem;
     text-underline-offset: .5rem;
   }
@@ -137,6 +143,26 @@ cite.book::before {
   height: 100%;
   background-color: #FEFEFE;
 }
+
+/* use lines instead of backgrounds for print */
+@media only print {
+  #fig3 .source::before {
+    border-bottom: 2px dotted #E9E9E9;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    left: 0;
+  }
+
+  #fig3 blockquote {
+    margin: 4px auto; /* allow space for borders to show */
+    border-bottom: 4px solid #E9E9E9;
+  }
+  #fig3 blockquote:first-of-type {
+    border-top: 4px solid #E9E9E9;
+  }
+}
+
 
 #fig3 .translation {
   text-underline-offset: 3px;
@@ -206,9 +232,11 @@ cite.book::before {
 #fig4 tbody td {
   padding: 0;
   font-size: 1rem;
+  line-height: 1.4rem;
 
-  @media (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     font-size: 1.25rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -217,14 +245,19 @@ cite.book::before {
   font-size: 1.5rem;
   padding-right: 10px;
 
-  @media (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     font-size: 2rem;
   }
 }
 
 #fig4 .rhyme .vowel {
-  color: white;
-  text-shadow: white 1px 0 10px;
+  @media only screen {
+    color: white;
+    text-shadow: white 1px 0 10px;
+  }
+  @media only print {
+    font-weight: bold;
+  }
 }
 
 #fig4 .pinyin {
@@ -424,8 +457,10 @@ button.play:hover:after {
   }
 }
 
-#fig7:before {
-  background-color: #E9E9E9;
+@media only screen {
+  #fig7:before {
+    background-color: #E9E9E9;
+  }
 }
 
 #fig7 .caption {
@@ -462,10 +497,13 @@ button.play:hover:after {
 #fig7 .source {
   white-space: nowrap;
   font-size: 24px;
-  background-color: #E9E9E9;
+  @media only screen {
+    background-color: #E9E9E9;
+  }
 
   @media (min-width: 768px) {
     font-size: 40px;
+    line-height: 45px;
     padding-bottom: 18px;
   }
 }
@@ -511,7 +549,21 @@ button.play:hover:after {
   width: 200vw;
   height: 100%;
   background-color: #FEFEFE;
+
+
 }
+@media only print {
+  #fig7::before {
+    border-top: 4px double #E9E9E9;
+    left: calc(100vw * -1);
+    width: 200vw;
+  }
+  #fig7 .notes::before {
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 4px double #E9E9E9;
+  }
+}
+
 
 /* visual indicators for annotations (provisional) */
 
