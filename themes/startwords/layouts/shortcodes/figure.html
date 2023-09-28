@@ -39,7 +39,7 @@
     {{- with .Scratch.Get `huge` -}}{{ .RelPermalink }} 1800w, {{- end -}}
     {{ $img.RelPermalink }} {{ $img.Width }}w" {{/* include original image in srcset */}}
      class="{{ if ge $img.Width $img.Height }}landscape{{ else }}portrait{{ end }}"
-     {{ with .Get `max-height` }} style="max-height: {{ . }}"{{ end }}>
+     style="{{ with .Get `max-height` }}max-height:{{ . }};{{ end }}{{ with .Get `max-width` }}max-width:{{ . }};{{ end }}">
     {{- end -}}
     {{- if or (.Get "caption") (.Get "attr") -}}
     <figcaption>
