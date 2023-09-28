@@ -56,6 +56,10 @@ cite.book::before {
   width: auto;
 }
 
+#fig2 *[lang=zh] {
+  font-family: var(--font-serif);
+}
+
 /* figure two table needs side-scrolling on mobile,
   but does not need wider margins */
 #fig2 table.side-scroll {
@@ -513,6 +517,7 @@ button.play:hover:after {
 
 #fig7 .source {
   text-decoration: none;
+  font-family: var(--font-serif);
 }
 
 #fig7 .notes::after {
