@@ -487,7 +487,7 @@ button.play:hover:after {
   }
   /* match caption to body size; scale the rest proportionately */
   #fig6 .caption {
-    font-size: 12px; 
+    font-size: 12px;
     line-height: 18px;
     margin-left: 0;
   }
@@ -657,7 +657,14 @@ button.play:hover:after {
     padding-top: 14px;
   }
 }
+
+  /* print styles for figure 7 */
 @media only print {
+  /* suppress decorative portions for now */
+  #fig7::before, #fig7 .notes::before {
+    display: none;
+  }
+  /*
   #fig7::before {
     border-top: 4px double #E9E9E9;
     left: calc(100vw * -1);
@@ -666,11 +673,27 @@ button.play:hover:after {
   #fig7 .notes::before {
     border-top: 1px solid #E9E9E9;
     border-bottom: 4px double #E9E9E9;
+  }*/
+
+  #fig7 .caption, #fig7 .label {
+    font-size: 12px;
   }
+  #fig7 .source {
+    font-size: 24px;
+  }
+  #fig7 .translation {
+    font-size: 13px;
+  }
+  /* extend wider like side-scroll table; fits in two rows instead of three */
+  #fig7 .text {
+    max-width: 7.51in;
+    margin: 0 -0.5in 35px;
+  }
+
 }
 
 
-/* visual indicators for annotations (provisional) */
+/* visual indicators for annotations */
 
 #fig7 .source {
   position: relative;
