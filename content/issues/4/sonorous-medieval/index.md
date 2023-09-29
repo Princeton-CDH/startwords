@@ -366,7 +366,7 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
 
 {{<wrap class="interlude" id="fig7">}}
 <p class="caption">
-  <b>Figure 7,</b> showing the richness of annotations in the <cite class="book">Jingdian Shiwen</cite> <span lang="zh">經典釋文</span>, and the common patterns they take.
+  <b>Figure 7.</b> An example showing the richness of annotations in the <cite class="book">Jingdian Shiwen</cite> <span lang="zh">經典釋文</span>, and the common patterns they take.
 </p>
 <div class="text">
   <div class="head segment">
