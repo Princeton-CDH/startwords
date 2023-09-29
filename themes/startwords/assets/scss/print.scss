@@ -367,17 +367,27 @@ iframe {
     }
 }
 
-/* adjust styles for larger tables to print */
-body.article article table.side-scroll {
-    width: 8.1in;
-    // max-width: 980px;
-    max-width: 8.1in;  // 8.5 - 0.2 on each side
-    overflow-x: revert;
-    white-space: normal;
-    /* extend sideways beyond the grid even further */
-    margin: 0 -12vw;
-}
+/* table styles */
+body.article article table {
 
-table.side-scroll td, table.side-scroll th {
-    white-space: normal;
+    /* match body font size */
+    td, th, caption {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* adjust styles for larger tables to print */
+    &.side-scroll {
+        // 8.5 - 0.2 on each side = 8.1
+        width: 7.51in;
+        max-width: 7.51in;
+        //  extend wider than main content, which is 5.51in
+        margin: 0 -0.5in;
+        overflow-x: revert;
+        white-space: normal;
+
+        td, th {
+            white-space: normal;
+        }
+    }
 }
