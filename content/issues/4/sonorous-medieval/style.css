@@ -379,7 +379,7 @@ cite.book::before {
     margin-left: 5%;
     padding-left: 0;
   }
-}  
+}
 
 #fig6 .card p.large {
   font-size: 24px;
@@ -732,17 +732,18 @@ button.play:hover:after {
     margin: 0 -0.5in 35px;
   }
 
-  /* adjust nexted flexbox to work with docraptor */
+  /* docraptor doesn't seem to handle column gap, so use padding instead */
+  #fig7 .text {
+    column-gap: 0;
+  }
   #fig7 .segment {
-    display: block; /* not flex */
-  }
-  #fig7 .notes {
-    height: auto;
-  }
-  #fig7 .translation {
-    height: 82px;  /* set to a standard height so labels will line up */
+    padding-right: 24px;
+    width: min-content;  /* not honored by or works differently with docraptor */  
   }
 
+  #fig7 .translation {
+    white-space: break-spaces;
+  }
 }
 
 
