@@ -846,9 +846,13 @@ button.play:hover:after {
     max-height: 6.5in;
   }
 
-  /* allow page breaks in this one for flow of this article */
-  #fig4.interlude {
+  /* allow page breaks in these figures for better flow in the pdf */
+  #fig4.interlude, #fig3.interlude {
     page-break-inside: auto;
+  }
+
+  #fig3.interlude blockquote {
+     page-break-inside: avoid;
   }
 
 }
