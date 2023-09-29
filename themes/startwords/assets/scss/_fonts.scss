@@ -184,7 +184,7 @@
 @font-face {
     font-family: "Noto Serif TC";
     font-display: swap;
-    unicode-range: U+4E00-9FFF;
+    unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF;
     src: url('/fonts/NotoSerifTC/NotoSerifTC-Regular.woff2') format('woff2'),
          url('/fonts/NotoSerifTC/NotoSerifTC-Regular.woff') format('woff'),
       url('/fonts/NotoSerifTC/NotoSerifTC-Regular.otf') format('otf');;
@@ -196,11 +196,12 @@
     font-weight: 300;
 }
 
+
 /* Noto Sans TC */
 @font-face {
     font-family: "Noto Sans TC";
     font-display: swap;
-    unicode-range: U+4E00-9FFF;
+    unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF; 
     src: url('/fonts/NotoSansTC/NotoSansTC-Regular.woff2') format('woff2'),
          url('/fonts/NotoSansTC/NotoSansTC-Regular.woff') format('woff'),
       url('/fonts/NotoSansTC/NotoSansTC-Regular.otf') format('otf');;
