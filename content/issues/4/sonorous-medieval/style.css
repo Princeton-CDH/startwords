@@ -154,10 +154,23 @@ cite.book::before {
   background-color: #FEFEFE;
 }
 
-/* use lines instead of backgrounds for print */
+/* print styles for figure 3 */
 @media only print {
+  /* match body font size */
+  #fig3 .caption, #fig3 .translation {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #fig3 .source {
+    font-size: 24px;
+  }
+  #fig3 .source, #fig3 .notes {
+    padding: 12px 0;
+  }
+
+  /* use lines instead of backgrounds for print */
   #fig3 .source::before {
-    border-bottom: 2px dotted #E9E9E9;
+    border-bottom: 1px dotted #E9E9E9;
     width: 100%;
     top: auto;
     bottom: 0;
@@ -166,10 +179,10 @@ cite.book::before {
 
   #fig3 blockquote {
     margin: 4px auto; /* allow space for borders to show */
-    border-bottom: 4px solid #E9E9E9;
+    border-bottom: 2px solid #E9E9E9;
   }
   #fig3 blockquote:first-of-type {
-    border-top: 4px solid #E9E9E9;
+    border-top: 3px solid #E9E9E9;
   }
 }
 
@@ -244,7 +257,7 @@ cite.book::before {
   font-size: 1rem;
   line-height: 1.4rem;
 
-  @media only screen and (min-width: 768px) {
+  @media (min-width: 768px) {
     font-size: 1.25rem;
     line-height: 1.5rem;
   }
@@ -255,18 +268,17 @@ cite.book::before {
   font-size: 1.5rem;
   padding-right: 10px;
 
-  @media only screen and (min-width: 768px) {
+  @media (min-width: 768px) {
     font-size: 2rem;
+    line-height: 2rem;
   }
 }
 
-#fig4 .rhyme .vowel {
-  @media only screen {
+/* highlight rhyming vowel with glow - on screens only */
+@media only screen {
+  #fig4 .rhyme .vowel {
     color: white;
     text-shadow: white 1px 0 10px;
-  }
-  @media only print {
-    font-weight: bold;
   }
 }
 
@@ -280,6 +292,27 @@ cite.book::before {
 
 #fig4 thead tr {
   opacity: 1 !important;
+}
+
+/* print styles for figure 4 */
+@media only print {
+  /* match body font size; scale others relatively */
+  #fig4 .caption {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #fig4 table caption, #fig4 table td {
+    font-size: 17px;
+  }
+  #fig4 td[lang="zh"] {
+    font-size: 27px;
+    line-height: 27px;
+  }
+  /* instead of glow, use bold for rhyming vowels */
+  #fig4 .rhyme .vowel {
+     font-weight: bold;
+  }
+}
 }
 
 
