@@ -365,95 +365,94 @@ The first obstacle we face in turning the *Jingdian Shiwen* into phonological tr
 Only with such a digitized version of the *Jingdian Shiwen* and related texts can we approach the key question of how to extract useful phonological data from Lu Deming's commentary. A look at the content of this text highlights why this question is crucial: while close to one-third of the roughly 55,000 notes in the *Jingdian Shiwen* consist solely of a reading gloss (thus providing a reading aid to indicate pronunciation), the remainder is more complex and addresses multiple concerns. Some annotations feature semantic glosses, and others highlight instances in which additional works reproduce a glyph differently or include citations to the interpretations of other scholars. Many annotations combine these different elements. More importantly, the *Jingdian Shiwen* contains yet another form of abridgement: instead of reproducing the same annotation multiple times, the text attaches qualifiers to indicate that a given reading applies every time a human reader encounters the given string of glyphs in a specific section of the source text. These qualifiers act as multipliers for the data, effectively extending the commentary to cover whole swaths of text not explicitly noted elsewhere.
 
 {{<wrap class="interlude" id="fig7">}}
-
-<div class="head segment">
-  <div class="source" lang="zh">相摩</div>
-  <div class="notes">
-    <div class="translation"></div>
-    <div class="label">Headword</div>
-  </div>
-</div>
-<div class="graphic segment">
-  <div class="source" lang="zh">本又作磨</div>
-  <div class="notes">
-    <div class="translation">Edition[s] also write it [<span lang="zh">摩</span>] as “<span lang="zh">磨</span>”</div>
-    <div class="label">Graphic</div>
-  </div>
-</div>
-<div class="phon segment">
-  <div class="source" lang="zh">末何反</div>
-  <div class="notes">
-    <div class="translation">it is pronounced like <span lang="zh">末</span> + <span lang="zh">何</span> [ma]</div>
-    <div class="label">Phonetic</div>
-  </div>
-</div>
-<div class="person segment">
-  <div class="source" lang="zh">京</div>
-  <div class="notes">
-    <div class="translation">Jing</div>
-    <div class="label">Person</div>
-  </div>
-</div>
-<div class="semantic segment">
-  <div class="source" lang="zh">云相磑切也</div>
-  <div class="notes">
-    <div class="translation">says that it means “milled against one another”</div>
-    <div class="label">Semantic</div>
-  </div>
-</div>
-<div class="phon segment">
-  <div class="source" lang="zh">磑音古代反</div>
-  <div class="notes">
-    <div class="translation">“mill” <span lang="zh">[磑]</span> is pronounced like <span lang="zh">古</span> + <span lang="zh">代</span> [gojH]</div>
-    <div class="label">Phonetic</div>
-  </div>
-</div>
-<div class="person segment">
-  <div class="source" lang="zh">馬</div>
-  <div class="notes">
-    <div class="translation">Ma</div>
-    <div class="label">Person</div>
-  </div>
-</div>
-<div class="semantic segment">
-  <div class="source" lang="zh">云摩切也</div>
-  <div class="notes">
-    <div class="translation">says that it means “ground up”</div>
-    <div class="label">Semantic</div>
-  </div>
-</div>
-<div class="person segment">
-  <div class="source" lang="zh">鄭</div>
-  <div class="notes">
-    <div class="translation">Zheng[’s]</div>
-    <div class="label">Person</div>
-  </div>
-</div>
-<div class="work segment">
-  <div class="source" lang="zh">注禮記</div>
-  <div class="notes">
-    <div class="translation">commentary on the <cite class="book">Book of Rites</cite></div>
-    <div class="label">Work</div>
-  </div>
-</div>
-<div class="semantic segment">
-  <div class="source" lang="zh">云迫也</div>
-  <div class="notes">
-    <div class="translation">says that it means “compelled”</div>
-    <div class="label">Semantic</div>
-  </div>
-</div>
-<div class="phon segment">
-  <div class="source" lang="zh">迫音百</div>
-  <div class="notes">
-    <div class="translation">“compel” <span lang="zh">[迫]</span> is pronounced like <span lang="zh">百</span> [paek]</div>
-    <div class="label">Phonetic</div>
-  </div>
-</div>
-
 <p class="caption">
   <b>Figure 7,</b> showing the richness of annotations in the <cite class="book">Jingdian Shiwen</cite> <span lang="zh">經典釋文</span>, and the common patterns they take.
 </p>
+<div class="text">
+  <div class="head segment">
+    <div class="source"><p lang="zh">相摩</p></div>
+    <div class="notes">
+      <div class="label">Headword</div>
+    </div>
+  </div>
+  <div class="graphic segment">
+    <div class="source"><p lang="zh">本又作磨</p></div>
+    <div class="notes">
+      <div class="translation">Edition[s] also write it [<span lang="zh">摩</span>] as “<span lang="zh">磨</span>”</div>
+      <div class="label">Graphic</div>
+    </div>
+  </div>
+  <div class="phon segment">
+    <div class="source"><p lang="zh">末何反</p></div>
+    <div class="notes">
+      <div class="translation">it is pronounced like <span lang="zh">末</span> + <span lang="zh">何</span> [ma]</div>
+      <div class="label">Phonetic</div>
+    </div>
+  </div>
+  <div class="person segment">
+    <div class="source"><p lang="zh">京</p></div>
+    <div class="notes">
+      <div class="translation">Jing</div>
+      <div class="label">Person</div>
+    </div>
+  </div>
+  <div class="semantic segment">
+    <div class="source"><p lang="zh">云相磑切也</p></div>
+    <div class="notes">
+      <div class="translation">says that it means “milled against one another”</div>
+      <div class="label">Semantic</div>
+    </div>
+  </div>
+  <div class="phon segment">
+    <div class="source"><p lang="zh">磑音古代反</p></div>
+    <div class="notes">
+      <div class="translation">“mill” <span lang="zh">[磑]</span> is pronounced like <span lang="zh">古</span> + <span lang="zh">代</span> [gojH]</div>
+      <div class="label">Phonetic</div>
+    </div>
+  </div>
+  <div class="person segment">
+    <div class="source"><p lang="zh">馬</p></div>
+    <div class="notes">
+      <div class="translation">Ma</div>
+      <div class="label">Person</div>
+    </div>
+  </div>
+  <div class="semantic segment">
+    <div class="source"><p lang="zh">云摩切也</p></div>
+    <div class="notes">
+      <div class="translation">says that it means “ground up”</div>
+      <div class="label">Semantic</div>
+    </div>
+  </div>
+  <div class="person segment">
+    <div class="source"><p lang="zh">鄭</p></div>
+    <div class="notes">
+      <div class="translation">Zheng[’s]</div>
+      <div class="label">Person</div>
+    </div>
+  </div>
+  <div class="work segment">
+    <div class="source"><p lang="zh">注禮記</p></div>
+    <div class="notes">
+      <div class="translation">commentary on the <cite class="book">Book of Rites</cite></div>
+      <div class="label">Work</div>
+    </div>
+  </div>
+  <div class="semantic segment">
+    <div class="source"><p lang="zh">云迫也</p></div>
+    <div class="notes">
+      <div class="translation">says that it means “compelled”</div>
+      <div class="label">Semantic</div>
+    </div>
+  </div>
+  <div class="phon segment">
+    <div class="source"><p lang="zh">迫音百</p></div>
+    <div class="notes">
+      <div class="translation">“compel” <span lang="zh">[迫]</span> is pronounced like <span lang="zh">百</span> [paek]</div>
+      <div class="label">Phonetic</div>
+    </div>
+  </div>
+</div>
 {{</wrap>}}
 
 
