@@ -479,6 +479,43 @@ button.play:hover:after {
   margin-left: 0;
 }
 
+/* print styles for figure 6 */
+@media only print {
+  /* suppress audio clip play buttons */
+  button.play {
+    display: none;
+  }
+  /* match caption to body size; scale the rest proportionately */
+  #fig6 .caption {
+    font-size: 12px; 
+    line-height: 18px;
+    margin-left: 0;
+  }
+  #fig6 .card header {
+    font-size: 15px;
+  }
+  #fig6 .card p.large {
+    font-size: 30px;
+  }
+  #fig6 p {
+    font-size: 16.5px;
+  }
+  #fig6::before {
+/*    background-position: -25px bottom;*/
+/*    background-position: left center;*/
+    background-position: -25px center;
+    background-size: 112px;
+  }
+
+  #fig6.interlude {
+    padding: 0 0 35px;
+  }
+  .fish {
+    width: 4.5rem;
+  }
+
+}
+
 /* figure 7  */
 
 #fig7 {
