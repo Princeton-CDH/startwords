@@ -9,13 +9,12 @@
 {{ define "main" }}
 <main>
     <h1 class="sr-only">{{ .Site.Title }}</h1>
+    {{ partial "translations.html" . }}
     <div class="logotype">
         <img alt="" src="/logotype.svg" />
     </div>
     <div class="issue-summary inverted grid">
-
         <div class="container">
-            {{ partial "translations.html" . }}
             {{/* get issues for the current language; fill in with all issues; then choose the first. */}}
             {{ $issues := where .Site.Pages "Type" "issue" | lang.Merge (where .Site.AllPages "Type" "issue") }}
             {{ $issue := index ($issues) 0 }}

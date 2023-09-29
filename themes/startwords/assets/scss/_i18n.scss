@@ -136,6 +136,15 @@ aside.translations {
     }
 }
 
+/* adjust placement on homepage, where it is in the top right corner */
+.home aside.translations {
+    padding: 8px;    
+    @media (min-width: $breakpoint-m) {
+        padding: 15px;
+    }
+}
+
+
 .issue-list {
     .languages {
         padding: 2rem 0 1.5rem 2rem;
