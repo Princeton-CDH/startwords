@@ -382,7 +382,7 @@ body.article article table {
     /* adjust styles for larger tables to print */
     &.side-scroll {
         // 8.5 - 0.2 on each side = 8.1
-        width: 7.51in;
+        width: fit-content;
         max-width: 7.51in;
         //  extend wider than main content, which is 5.51in
         margin: 0 -0.5in;

@@ -42,11 +42,6 @@ cite.book::before {
   padding-left: 2.5rem;
 }
 
-#fig2 img.character {
-  width: 3rem;
-  height: 3rem;
-}
-
 #fig2 caption,
 #fig2 .languages,
 #fig2 .words {
@@ -75,6 +70,21 @@ cite.book::before {
     background-color: var(--purple); /* match interlude background */
   }
 }
+
+/* adjust fig2 sizing for print/pdf */
+@media only print {
+  #fig2 th {
+    font-size: 20px;
+  }
+  #fig2 .words td {
+    font-size: 40px;
+  }
+  #fig2 th[scope=row] {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 
 /* figure 3 */
 
