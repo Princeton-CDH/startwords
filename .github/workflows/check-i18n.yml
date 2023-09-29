@@ -5,7 +5,7 @@ on:
 
 # versions should be kept in sync with gh-pages and lighthouse-ci workflow
 env:
-  HUGO_VERSION: 0.101.0  # if you update this, change the README badge and lighthouse-ci.yml too!
+  HUGO_VERSION: 0.119.0  # if you update this, change the README badge and lighthouse-ci.yml too!
   NODE_VERSION: 18 # if you update this, change the README badge and lighthouse-ci.yml too!
 
 jobs:
