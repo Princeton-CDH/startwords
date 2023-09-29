@@ -485,24 +485,34 @@ button.play:hover:after {
   button.play {
     display: none;
   }
+  /* float for docraptor to prevent stacking */
+  #fig6 .card {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 42%;
+  }
+
   /* match caption to body size; scale the rest proportionately */
   #fig6 .caption {
     font-size: 12px;
     line-height: 18px;
     margin-left: 0;
+
+    padding-top: 18px;
+    clear: both;
   }
   #fig6 .card header {
     font-size: 15px;
   }
   #fig6 .card p.large {
-    font-size: 30px;
+    font-size: 28px;
   }
   #fig6 p {
     font-size: 16.5px;
   }
   #fig6::before {
-/*    background-position: -25px bottom;*/
-/*    background-position: left center;*/
+    /* adjust size and position of ear graphic */
     background-position: -25px center;
     background-size: 112px;
   }
@@ -524,11 +534,6 @@ button.play:hover:after {
   font-family: var(--font-sans);
 }
 
-@media only screen {
-  #fig7:before {
-    background-color: #E9E9E9;
-  }
-}
 
 #fig7 .caption {
   font-size: 18px;
@@ -608,14 +613,20 @@ button.play:hover:after {
   }
 }
 
-#fig7 .source::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: calc(100vw * -1);
-  width: 200vw;
-  height: 100%;
-  background-color: #FEFEFE;
+@media only screen {
+  #fig7:before {
+    background-color: #E9E9E9;
+  }
+
+  #fig7 .source::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(100vw * -1);
+    width: 200vw;
+    height: 100%;
+    background-color: #FEFEFE;
+  }
 }
 
 #fig7 .translation {
@@ -661,8 +672,9 @@ button.play:hover:after {
   /* print styles for figure 7 */
 @media only print {
   /* suppress decorative portions for now */
-  #fig7::before, #fig7 .notes::before {
+  #fig7::before, #fig7 .source::before, #fig7 .notes::before, #fig7 .notes::after {
     display: none;
+    height: 0;
   }
   /*
   #fig7::before {
@@ -685,9 +697,20 @@ button.play:hover:after {
     font-size: 13px;
   }
   /* extend wider like side-scroll table; fits in two rows instead of three */
-  #fig7 .text {
+  #fig7.interlude {
     max-width: 7.51in;
     margin: 0 -0.5in 35px;
+  }
+
+  /* adjust nexted flexbox to work with docraptor */
+  #fig7 .segment {
+    display: block; /* not flex */
+  }
+  #fig7 .notes {
+    height: auto;
+  }
+  #fig7 .translation {
+    height: 82px;  /* set to a standard height so labels will line up */
   }
 
 }
@@ -704,7 +727,7 @@ button.play:hover:after {
 #fig7 .notes::after {
   position: absolute;
   color: transparent;
-  content: 'aaaaaaaaaaaaaaaaaaaa';
+  content: ' ';
   writing-mode: vertical-lr;
   overflow: hidden;
   height: 100%;
@@ -783,4 +806,18 @@ button.play:hover:after {
 
 #fig7 .graphic .source {
   text-underline-offset: 10px;
+}
+
+@media only print {
+  /* limit height of image in figure 1
+  (prevent taking up too much of the page and messing up page breaks) */
+  figure img {
+    max-height: 6.5in;
+  }
+
+  /* allow page breaks in this one for flow of this article */
+  #fig4.interlude {
+    page-break-inside: auto;
+  }
+
 }
