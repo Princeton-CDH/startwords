@@ -758,7 +758,7 @@ button.play:hover:after {
 #fig7 .notes::after {
   position: absolute;
   color: transparent;
-  content: ' ';
+  content: 'aaaaaaaaaaaaaaaa'; /* required for this to render ! */
   writing-mode: vertical-lr;
   overflow: hidden;
   height: 100%;
