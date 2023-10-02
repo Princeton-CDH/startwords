@@ -9,7 +9,9 @@
 {{ define "main" }}
 <main>
     <h1 class="sr-only">{{ .Site.Title }}</h1>
-    {{ partial "translations.html" . }}
+    <div class="inverted">
+        {{ partial "translations.html" . }}
+    </div>
     <div class="logotype">
         <img alt="" src="/logotype.svg" />
     </div>
