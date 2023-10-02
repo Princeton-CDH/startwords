@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="https://gohugo.io/" version="0.101.0">Hugo</generator><link href="https://startwords.cdh.princeton.edu/issues/2/" rel="alternate" type="text/html" title="HTML"/><link href="https://startwords.cdh.princeton.edu/issues/2/index.xml" rel="alternate" type="application/rss+xml" title="RSS"/><link href="https://startwords.cdh.princeton.edu/issues/2/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-06-22T13:43:19+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/2/</id><entry><title type="html">“Strangers in the Landscape”: On Research Development and Making Things for Making</title><link href="https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/</id><author><name>Samantha Blickhan</name></author><author><name>Will Granger</name></author><author><name>Shaun A. Noordin</name></author><author><name>Becky Rother</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-06-22T09:40:54-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.119.0">Hugo</generator><link href="https://startwords.cdh.princeton.edu/issues/2/" rel="alternate" type="text/html" title="html"/><link href="https://startwords.cdh.princeton.edu/issues/2/index.xml" rel="alternate" type="application/rss+xml" title="rss"/><link href="https://startwords.cdh.princeton.edu/issues/2/atom.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-10-02T19:39:21+00:00</updated><rights>This work is licensed under a Creative Commons Attribution 4.0 International License.</rights><author><name>Center for Digital Humanities at Princeton</name><email>cdh-info@princeton.edu</email></author><id>https://startwords.cdh.princeton.edu/issues/2/</id><entry><title type="html">“Strangers in the Landscape”: On Research Development and Making Things for Making</title><link href="https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/strangers-in-the-landscape/</id><author><name>Samantha Blickhan</name></author><author><name>Will Granger</name></author><author><name>Shaun A. Noordin</name></author><author><name>Becky Rother</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-10-02T15:35:01-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>This piece is about making in support of making. It is about projects born from myriad goals that gather new objectives along their lifecycle, through evaluation and iteration.</p>
 <p>This piece is about translating: from concept to design to product; from fragment to image to text; from high-level goal to incremental steps. It is about workflows and spin-offs and objectives; it is about unraveling a tapestry to learn how to spin its yarn.</p>
 <p>In <em>Data Feminism</em>, Catherine D’Ignazio and Lauren F. Klein use the example of the proliferation of street signs to make a point about making: <em>“One does not need street names for navigation until one has strangers in the landscape</em>” (italics in the original).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> In D’Ignazio and Klein’s usage, the “strangers” here are data scientists, digging through data with which they are not intimately familiar. In this piece, we use our experience as platform maintainers to illustrate how all collaborators and participants are “strangers” at one point or another in the process of research development;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> it is only through collective building that we can successfully name our streets.</p>
@@ -345,7 +345,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/01_script-examples_hu3da65b61b419604a55e3823b10c0f42e_2038119_500x0_resize_box_3.png 500w,
     /issues/2/strangers-in-the-landscape/images/01_script-examples_hu3da65b61b419604a55e3823b10c0f42e_2038119_800x0_resize_box_3.png 800w,/issues/2/strangers-in-the-landscape/images/01_script-examples_hu3da65b61b419604a55e3823b10c0f42e_2038119_1200x0_resize_box_3.png 1200w,/issues/2/strangers-in-the-landscape/images/01_script-examples_hu3da65b61b419604a55e3823b10c0f42e_2038119_1500x0_resize_box_3.png 1500w,/issues/2/strangers-in-the-landscape/images/01_script-examples.png 1698w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Script examples from the Geniza corpus, intended to help volunteers answer the question of whether a fragment they are viewing is written in Hebrew or Arabic script.
         </p>
     </figcaption>
@@ -572,7 +572,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/02_CG-interface3_hu5d933f6ebe9c4c50c7755f0ec17eb888_2433924_500x0_resize_q75_box.jpeg 500w,
     /issues/2/strangers-in-the-landscape/images/02_CG-interface3_hu5d933f6ebe9c4c50c7755f0ec17eb888_2433924_800x0_resize_q75_box.jpeg 800w,/issues/2/strangers-in-the-landscape/images/02_CG-interface3_hu5d933f6ebe9c4c50c7755f0ec17eb888_2433924_1200x0_resize_q75_box.jpeg 1200w,/issues/2/strangers-in-the-landscape/images/02_CG-interface3_hu5d933f6ebe9c4c50c7755f0ec17eb888_2433924_1500x0_resize_q75_box.jpeg 1500w,/issues/2/strangers-in-the-landscape/images/02_CG-interface3_hu5d933f6ebe9c4c50c7755f0ec17eb888_2433924_1800x0_resize_q75_box.jpeg 1800w,/issues/2/strangers-in-the-landscape/images/02_CG-interface3.jpeg 4032w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>An early sketch of the Scribes of the Cairo Geniza transcription interface.<span class="attribution">By designer Becky Rother.</span>
         </p>
     </figcaption>
@@ -862,7 +862,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/03_Geniza-type-samples_hu8ae879167bf73d5a88e46157d2a99319_55208_500x0_resize_box_3.png 500w,
     /issues/2/strangers-in-the-landscape/images/03_Geniza-type-samples_hu8ae879167bf73d5a88e46157d2a99319_55208_800x0_resize_box_3.png 800w,/issues/2/strangers-in-the-landscape/images/03_Geniza-type-samples_hu8ae879167bf73d5a88e46157d2a99319_55208_1200x0_resize_box_3.png 1200w,/issues/2/strangers-in-the-landscape/images/03_Geniza-type-samples_hu8ae879167bf73d5a88e46157d2a99319_55208_1500x0_resize_box_3.png 1500w,/issues/2/strangers-in-the-landscape/images/03_Geniza-type-samples.png 1734w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>The three Grotesque typefaces used for Scribes of the Cairo Geniza in English, Arabic, and Hebrew.
         </p>
     </figcaption>
@@ -1589,7 +1589,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/04_alephbet_hu4722e4fda57175f589f054ac216c609b_399528_500x0_resize_box_3.png 500w,
     /issues/2/strangers-in-the-landscape/images/04_alephbet_hu4722e4fda57175f589f054ac216c609b_399528_800x0_resize_box_3.png 800w,/issues/2/strangers-in-the-landscape/images/04_alephbet_hu4722e4fda57175f589f054ac216c609b_399528_1200x0_resize_box_3.png 1200w,/issues/2/strangers-in-the-landscape/images/04_alephbet_hu4722e4fda57175f589f054ac216c609b_399528_1500x0_resize_box_3.png 1500w,/issues/2/strangers-in-the-landscape/images/04_alephbet_hu4722e4fda57175f589f054ac216c609b_399528_1800x0_resize_box_3.png 1800w,/issues/2/strangers-in-the-landscape/images/04_alephbet.png 2000w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>The “Alephbets” chart which formed the basis of the interchangeable keyboard skins, created for <em>Scribes of the Cairo Geniza</em> by Laura Newman Eckstein. Downloadable via <a href="https://github.com/judaicadh/cairogeniza/tree/master/_docs/Eckstein%20Alephbet%20Chart">GitHub</a>.
         </p>
     </figcaption>
@@ -1635,7 +1635,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/05_hebrew-keyboard-interface_hu16bf5c95fb3d3dcec7326973c6e93e83_814086_500x0_resize_box_3.png 500w,
     /issues/2/strangers-in-the-landscape/images/05_hebrew-keyboard-interface_hu16bf5c95fb3d3dcec7326973c6e93e83_814086_800x0_resize_box_3.png 800w,/issues/2/strangers-in-the-landscape/images/05_hebrew-keyboard-interface_hu16bf5c95fb3d3dcec7326973c6e93e83_814086_1200x0_resize_box_3.png 1200w,/issues/2/strangers-in-the-landscape/images/05_hebrew-keyboard-interface_hu16bf5c95fb3d3dcec7326973c6e93e83_814086_1500x0_resize_box_3.png 1500w,/issues/2/strangers-in-the-landscape/images/05_hebrew-keyboard-interface.png 1518w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>The <em>Scribes of the Cairo Geniza</em> transcription modal, including the Hebrew keyboard, showing the Sephardi Square script type.
         </p>
     </figcaption>
@@ -2124,7 +2124,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/yemenite-square_hu003a4498ca4049b3f0267a10ce0b2dbe_105492_500x0_resize_q75_box.jpg 500w,
     /issues/2/strangers-in-the-landscape/images/yemenite-square_hu003a4498ca4049b3f0267a10ce0b2dbe_105492_800x0_resize_q75_box.jpg 800w,/issues/2/strangers-in-the-landscape/images/yemenite-square.jpg 490w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Visual Hebrew script reference for Yemenite Square.
         </p>
     </figcaption>
@@ -2174,441 +2174,441 @@
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">form</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span>&gt;
-</span></span><span style="display:flex;"><span><span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">We&#39;re organising all the keyboard logic into a single &#39;KeyboardApp&#39;.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">KeyboardApp</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">constructor</span> () {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Let&#39;s register all the HTML elements to make them easier to access later.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span> <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">input</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;input&#39;</span>),
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">keyboard</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;keyboard&#39;</span>),
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">keyboardsList</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;keyboards-list&#39;</span>),
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">visualScriptsList</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;visual-scripts-list&#39;</span>),
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">submit</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;submit&#39;</span>),
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">output</span><span style="color:#f92672">:</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#39;output&#39;</span>),
+</span></span><span style="display:flex;"><span>/*
+</span></span><span style="display:flex;"><span>We&#39;re organising all the keyboard logic into a single &#39;KeyboardApp&#39;.
+</span></span><span style="display:flex;"><span> */
+</span></span><span style="display:flex;"><span>class KeyboardApp {
+</span></span><span style="display:flex;"><span>  constructor () {
+</span></span><span style="display:flex;"><span>    // Let&#39;s register all the HTML elements to make them easier to access later.
+</span></span><span style="display:flex;"><span>    this.html = {
+</span></span><span style="display:flex;"><span>      input: document.getElementById(&#39;input&#39;),
+</span></span><span style="display:flex;"><span>      keyboard: document.getElementById(&#39;keyboard&#39;),
+</span></span><span style="display:flex;"><span>      keyboardsList: document.getElementById(&#39;keyboards-list&#39;),
+</span></span><span style="display:flex;"><span>      visualScriptsList: document.getElementById(&#39;visual-scripts-list&#39;),
+</span></span><span style="display:flex;"><span>      submit: document.getElementById(&#39;submit&#39;),
+</span></span><span style="display:flex;"><span>      output: document.getElementById(&#39;output&#39;),
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Let&#39;s register some event handling
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">onkeypress</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">onKeyPress</span>.<span style="color:#a6e22e">bind</span>(<span style="color:#66d9ef">this</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">submit</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">submit</span>.<span style="color:#a6e22e">bind</span>(<span style="color:#66d9ef">this</span>)
+</span></span><span style="display:flex;"><span>    // Let&#39;s register some event handling
+</span></span><span style="display:flex;"><span>    this.html.input.onkeypress = this.onKeyPress.bind(this)
+</span></span><span style="display:flex;"><span>    this.html.submit.onclick = this.submit.bind(this)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Let&#39;s prepare the list of selectable keyboards
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setupKeyboardsList</span>()
+</span></span><span style="display:flex;"><span>    // Let&#39;s prepare the list of selectable keyboards
+</span></span><span style="display:flex;"><span>    this.setupKeyboardsList()
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Let&#39;s set the default keyboard language
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">HEBREW_KEYBOARD</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeVisualScript</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">HEBREW_KEYBOARD</span>.<span style="color:#a6e22e">visualScripts</span>[<span style="color:#e6db74">&#39;Yemenite Square&#39;</span>]
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setupVisualScriptsList</span>()
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setupKeyboard</span>()
+</span></span><span style="display:flex;"><span>    // Let&#39;s set the default keyboard language
+</span></span><span style="display:flex;"><span>    this.activeKeyboard = HEBREW_KEYBOARD
+</span></span><span style="display:flex;"><span>    this.activeVisualScript = HEBREW_KEYBOARD.visualScripts[&#39;Yemenite Square&#39;]
+</span></span><span style="display:flex;"><span>    this.setupVisualScriptsList()
+</span></span><span style="display:flex;"><span>    this.setupKeyboard()
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  This &#39;submit&#39; logic is just placeholder for what you actually want to do.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  Normally, this is where we&#39;d submit the input data to a server. For our
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  example, we just print the text into the output field.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">submit</span> () {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">value</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">output</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">text</span>
+</span></span><span style="display:flex;"><span>  /*
+</span></span><span style="display:flex;"><span>  This &#39;submit&#39; logic is just placeholder for what you actually want to do.
+</span></span><span style="display:flex;"><span>  Normally, this is where we&#39;d submit the input data to a server. For our
+</span></span><span style="display:flex;"><span>  example, we just print the text into the output field.
+</span></span><span style="display:flex;"><span>   */
+</span></span><span style="display:flex;"><span>  submit () {
+</span></span><span style="display:flex;"><span>    const text = input.value
+</span></span><span style="display:flex;"><span>    output.innerText = text
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  setupKeyboardsList() does exactly what it says on the tin.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">setupKeyboardsList</span> () {
-</span></span><span style="display:flex;"><span>    Object.<span style="color:#a6e22e">entries</span>(<span style="color:#a6e22e">KEYBOARDS</span>).<span style="color:#a6e22e">forEach</span>(([<span style="color:#a6e22e">language</span>, <span style="color:#a6e22e">keyboard</span>]) =&gt; {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">buttonKeyboard</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;button&#39;</span>)
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">buttonKeyboard</span>.<span style="color:#a6e22e">type</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;button&#39;</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">buttonKeyboard</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">language</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">buttonKeyboard</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">keyboard</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeVisualScript</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">undefined</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setupVisualScriptsList</span>()
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setupKeyboard</span>()
+</span></span><span style="display:flex;"><span>  /*
+</span></span><span style="display:flex;"><span>  setupKeyboardsList() does exactly what it says on the tin.
+</span></span><span style="display:flex;"><span>   */
+</span></span><span style="display:flex;"><span>  setupKeyboardsList () {
+</span></span><span style="display:flex;"><span>    Object.entries(KEYBOARDS).forEach(([language, keyboard]) =&gt; {
+</span></span><span style="display:flex;"><span>      const buttonKeyboard = document.createElement(&#39;button&#39;)
+</span></span><span style="display:flex;"><span>      buttonKeyboard.type = &#39;button&#39;
+</span></span><span style="display:flex;"><span>      buttonKeyboard.innerText = language
+</span></span><span style="display:flex;"><span>      buttonKeyboard.onclick = () =&gt; {
+</span></span><span style="display:flex;"><span>        this.activeKeyboard = keyboard
+</span></span><span style="display:flex;"><span>        this.activeVisualScript = undefined
+</span></span><span style="display:flex;"><span>        this.setupVisualScriptsList()
+</span></span><span style="display:flex;"><span>        this.setupKeyboard()
 </span></span><span style="display:flex;"><span>      }
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">keyboardsList</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">buttonKeyboard</span>)
+</span></span><span style="display:flex;"><span>      this.html.keyboardsList.appendChild(buttonKeyboard)
 </span></span><span style="display:flex;"><span>    })
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  If the selected keyboard (i.e. language) has a visual script reference (i.e.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  handwritten image reference for each character), set it up here.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">setupVisualScriptsList</span> () {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// First, we erase everything in the current list.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">visualScriptsList</span>.<span style="color:#a6e22e">firstChild</span>) {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">visualScriptsList</span>.<span style="color:#a6e22e">removeChild</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">visualScriptsList</span>.<span style="color:#a6e22e">firstChild</span>)
+</span></span><span style="display:flex;"><span>  /*
+</span></span><span style="display:flex;"><span>  If the selected keyboard (i.e. language) has a visual script reference (i.e.
+</span></span><span style="display:flex;"><span>  handwritten image reference for each character), set it up here.
+</span></span><span style="display:flex;"><span>   */
+</span></span><span style="display:flex;"><span>  setupVisualScriptsList () {
+</span></span><span style="display:flex;"><span>    // First, we erase everything in the current list.
+</span></span><span style="display:flex;"><span>    while (this.html.visualScriptsList.firstChild) {
+</span></span><span style="display:flex;"><span>      this.html.visualScriptsList.removeChild(this.html.visualScriptsList.firstChild)
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// If there&#39;s no active keyboard, or if the active keyboard doesn&#39;t have any
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// visual script references, then we can call it quits!
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span> <span style="color:#f92672">||</span> <span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">visualScripts</span>) {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">visualScriptsList</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;none&#39;</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>    // If there&#39;s no active keyboard, or if the active keyboard doesn&#39;t have any
+</span></span><span style="display:flex;"><span>    // visual script references, then we can call it quits!
+</span></span><span style="display:flex;"><span>    if (!this.activeKeyboard || !this.activeKeyboard.visualScripts) {
+</span></span><span style="display:flex;"><span>      this.html.visualScriptsList.style.display = &#39;none&#39;
+</span></span><span style="display:flex;"><span>      return
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// OK, now let&#39;s create the buttons that will allow users to switch between
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// the different visual references available.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">visualScriptsList</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;block&#39;</span>
-</span></span><span style="display:flex;"><span>    Object.<span style="color:#a6e22e">entries</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">visualScripts</span>).<span style="color:#a6e22e">forEach</span>(([<span style="color:#a6e22e">scriptName</span>, <span style="color:#a6e22e">scriptData</span>]) =&gt; {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">buttonVisualScript</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;button&#39;</span>)
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">buttonVisualScript</span>.<span style="color:#a6e22e">type</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;button&#39;</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">buttonVisualScript</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">scriptName</span>
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">buttonVisualScript</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeVisualScript</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">scriptData</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setupKeyboard</span>()
+</span></span><span style="display:flex;"><span>    // OK, now let&#39;s create the buttons that will allow users to switch between
+</span></span><span style="display:flex;"><span>    // the different visual references available.
+</span></span><span style="display:flex;"><span>    this.html.visualScriptsList.style.display = &#39;block&#39;
+</span></span><span style="display:flex;"><span>    Object.entries(this.activeKeyboard.visualScripts).forEach(([scriptName, scriptData]) =&gt; {
+</span></span><span style="display:flex;"><span>      const buttonVisualScript = document.createElement(&#39;button&#39;)
+</span></span><span style="display:flex;"><span>      buttonVisualScript.type = &#39;button&#39;
+</span></span><span style="display:flex;"><span>      buttonVisualScript.innerText = scriptName
+</span></span><span style="display:flex;"><span>      buttonVisualScript.onclick = () =&gt; {
+</span></span><span style="display:flex;"><span>        this.activeVisualScript = scriptData
+</span></span><span style="display:flex;"><span>        this.setupKeyboard()
 </span></span><span style="display:flex;"><span>      }
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">visualScriptsList</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">buttonVisualScript</span>)
+</span></span><span style="display:flex;"><span>      this.html.visualScriptsList.appendChild(buttonVisualScript)
 </span></span><span style="display:flex;"><span>    })
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  setupKeyboard() does exactly what it says on the tin.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">setupKeyboard</span> () {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// First, we erase everything in the current keyboard.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">keyboard</span>.<span style="color:#a6e22e">firstChild</span>) {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">keyboard</span>.<span style="color:#a6e22e">removeChild</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">keyboard</span>.<span style="color:#a6e22e">firstChild</span>)
+</span></span><span style="display:flex;"><span>  /*
+</span></span><span style="display:flex;"><span>  setupKeyboard() does exactly what it says on the tin.
+</span></span><span style="display:flex;"><span>   */
+</span></span><span style="display:flex;"><span>  setupKeyboard () {
+</span></span><span style="display:flex;"><span>    // First, we erase everything in the current keyboard.
+</span></span><span style="display:flex;"><span>    while (this.html.keyboard.firstChild) {
+</span></span><span style="display:flex;"><span>      this.html.keyboard.removeChild(this.html.keyboard.firstChild)
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// If there&#39;s no active keyboard, I guess we&#39;ve got nothing to do!
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>) {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">direction</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;ltr&#39;</span>  <span style="color:#75715e">// Default direction
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>    // If there&#39;s no active keyboard, I guess we&#39;ve got nothing to do!
+</span></span><span style="display:flex;"><span>    if (!this.activeKeyboard) {
+</span></span><span style="display:flex;"><span>      this.html.input.style.direction = &#39;ltr&#39;  // Default direction
+</span></span><span style="display:flex;"><span>      return
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Right, now let&#39;s add the keys (buttons) for a QWERTY layout
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">QWERTY_LAYOUT</span>.<span style="color:#a6e22e">forEach</span>((<span style="color:#a6e22e">row</span>) =&gt; {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">divRow</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>)
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">divRow</span>.<span style="color:#a6e22e">className</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;row&#39;</span>
+</span></span><span style="display:flex;"><span>    // Right, now let&#39;s add the keys (buttons) for a QWERTY layout
+</span></span><span style="display:flex;"><span>    QWERTY_LAYOUT.forEach((row) =&gt; {
+</span></span><span style="display:flex;"><span>      const divRow = document.createElement(&#39;div&#39;)
+</span></span><span style="display:flex;"><span>      divRow.className = &#39;row&#39;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">row</span>.<span style="color:#a6e22e">forEach</span>((<span style="color:#a6e22e">key</span>) =&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Create a button for each key in the QWERTY layout
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">buttonKey</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;button&#39;</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">className</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;keyboard-key&#39;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">type</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;button&#39;</span>
+</span></span><span style="display:flex;"><span>      row.forEach((key) =&gt; {
+</span></span><span style="display:flex;"><span>        // Create a button for each key in the QWERTY layout
+</span></span><span style="display:flex;"><span>        const buttonKey = document.createElement(&#39;button&#39;)
+</span></span><span style="display:flex;"><span>        buttonKey.className = &#39;keyboard-key&#39;
+</span></span><span style="display:flex;"><span>        buttonKey.type = &#39;button&#39;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Is there a character in our custom language keyboard that corresponds
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#75715e">// with this QWERTY key? If so, then pressing the key should insert
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#75715e">// the associated character.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">char</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">keys</span>[<span style="color:#a6e22e">key</span>]
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">char</span>) {
-</span></span><span style="display:flex;"><span>          <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">hasVisualReference</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeVisualScript</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&amp;&amp;</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">visualScriptLayout</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&amp;&amp;</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">visualScriptLayout</span>[<span style="color:#66d9ef">char</span>]
+</span></span><span style="display:flex;"><span>        // Is there a character in our custom language keyboard that corresponds
+</span></span><span style="display:flex;"><span>        // with this QWERTY key? If so, then pressing the key should insert
+</span></span><span style="display:flex;"><span>        // the associated character.
+</span></span><span style="display:flex;"><span>        const char = this.activeKeyboard.keys[key]
+</span></span><span style="display:flex;"><span>        if (char) {
+</span></span><span style="display:flex;"><span>          const hasVisualReference = this.activeVisualScript
+</span></span><span style="display:flex;"><span>            <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> this.activeKeyboard.visualScriptLayout
+</span></span><span style="display:flex;"><span>            <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> this.activeKeyboard.visualScriptLayout[char]
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>          <span style="color:#75715e">// If the character has a visual reference, we add a button with an image.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>          <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">hasVisualReference</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">characterPositionOnImage</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">visualScriptLayout</span>[<span style="color:#66d9ef">char</span>]
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">characterSizeOnImage</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;50px&#39;</span>  <span style="color:#75715e">// We know this in advance
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// We&#39;re using a CSS trick known as &#34;image sprites&#34;.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#75715e">// The visual reference image has ALL the characters in a given
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#75715e">// script, so we use CSS background image + positioning to only show
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#75715e">// specific parts of the whole reference image, corresponding to
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#75715e">// individual characters.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">visualSpan</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;div&#39;</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">visualSpan</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">backgroundImage</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;url(&#39;</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeVisualScript</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;)&#39;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">visualSpan</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">backgroundPosition</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">characterPositionOnImage</span>.<span style="color:#a6e22e">x</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px &#39;</span> <span style="color:#f92672">+</span> <span style="color:#f92672">-</span><span style="color:#a6e22e">characterPositionOnImage</span>.<span style="color:#a6e22e">y</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;px&#39;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">visualSpan</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">width</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">characterSizeOnImage</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">visualSpan</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">height</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">characterSizeOnImage</span>
+</span></span><span style="display:flex;"><span>          // If the character has a visual reference, we add a button with an image.
+</span></span><span style="display:flex;"><span>          if (hasVisualReference) {
+</span></span><span style="display:flex;"><span>            const characterPositionOnImage = this.activeKeyboard.visualScriptLayout[char]
+</span></span><span style="display:flex;"><span>            const characterSizeOnImage = &#39;50px&#39;  // We know this in advance
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">visualSpan</span>)
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; { <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">insertChar</span>(<span style="color:#66d9ef">char</span>) }
+</span></span><span style="display:flex;"><span>            // We&#39;re using a CSS trick known as &#34;image sprites&#34;.
+</span></span><span style="display:flex;"><span>            // The visual reference image has ALL the characters in a given
+</span></span><span style="display:flex;"><span>            // script, so we use CSS background image + positioning to only show
+</span></span><span style="display:flex;"><span>            // specific parts of the whole reference image, corresponding to
+</span></span><span style="display:flex;"><span>            // individual characters.
+</span></span><span style="display:flex;"><span>            const visualSpan = document.createElement(&#39;div&#39;)
+</span></span><span style="display:flex;"><span>            visualSpan.style.backgroundImage = &#39;url(&#39; + this.activeVisualScript + &#39;)&#39;
+</span></span><span style="display:flex;"><span>            visualSpan.style.backgroundPosition = -characterPositionOnImage.x + &#39;px &#39; + -characterPositionOnImage.y + &#39;px&#39;
+</span></span><span style="display:flex;"><span>            visualSpan.style.width = characterSizeOnImage
+</span></span><span style="display:flex;"><span>            visualSpan.style.height = characterSizeOnImage
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>          <span style="color:#75715e">// Otherwise, we add a standard button.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>          } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">char</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; { <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">insertChar</span>(<span style="color:#66d9ef">char</span>) }
+</span></span><span style="display:flex;"><span>            buttonKey.appendChild(visualSpan)
+</span></span><span style="display:flex;"><span>            buttonKey.onclick = () =&gt; { this.insertChar(char) }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>          // Otherwise, we add a standard button.
+</span></span><span style="display:flex;"><span>          } else {
+</span></span><span style="display:flex;"><span>            buttonKey.innerText = char
+</span></span><span style="display:flex;"><span>            buttonKey.onclick = () =&gt; { this.insertChar(char) }
 </span></span><span style="display:flex;"><span>          }
-</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39; &#39;</span>
+</span></span><span style="display:flex;"><span>        } else {
+</span></span><span style="display:flex;"><span>          buttonKey.innerText = &#39; &#39;
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Add the &#39;shortcut&#39; (i.e. the QWERTY key)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">shortcutSpan</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;span&#39;</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">shortcutSpan</span>.<span style="color:#a6e22e">innerText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">ENGLISH_KEYBOARD</span>.<span style="color:#a6e22e">keys</span>[<span style="color:#a6e22e">key</span>]
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">buttonKey</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">shortcutSpan</span>)
+</span></span><span style="display:flex;"><span>        // Add the &#39;shortcut&#39; (i.e. the QWERTY key)
+</span></span><span style="display:flex;"><span>        const shortcutSpan = document.createElement(&#39;span&#39;)
+</span></span><span style="display:flex;"><span>        shortcutSpan.innerText = ENGLISH_KEYBOARD.keys[key]
+</span></span><span style="display:flex;"><span>        buttonKey.appendChild(shortcutSpan)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">divRow</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">buttonKey</span>)
+</span></span><span style="display:flex;"><span>        divRow.appendChild(buttonKey)
 </span></span><span style="display:flex;"><span>      })
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">keyboard</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">divRow</span>)
+</span></span><span style="display:flex;"><span>      this.html.keyboard.appendChild(divRow)
 </span></span><span style="display:flex;"><span>    })
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Some keyboards/languages write from right to left. Update the CSS style
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// for the text input field accordingly.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">direction</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">direction</span> <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;ltr&#39;</span>
+</span></span><span style="display:flex;"><span>    // Some keyboards/languages write from right to left. Update the CSS style
+</span></span><span style="display:flex;"><span>    // for the text input field accordingly.
+</span></span><span style="display:flex;"><span>    this.html.input.style.direction = this.activeKeyboard.direction || &#39;ltr&#39;
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  insertChar() inserts a single character to the (end of the) input text box.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">insertChar</span> (<span style="color:#66d9ef">char</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Find the position of the &#34;text cursor&#34; on the text input
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">startIndex</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">selectionStart</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">endIndex</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">selectionEnd</span>
+</span></span><span style="display:flex;"><span>  /*
+</span></span><span style="display:flex;"><span>  insertChar() inserts a single character to the (end of the) input text box.
+</span></span><span style="display:flex;"><span>   */
+</span></span><span style="display:flex;"><span>  insertChar (char) {
+</span></span><span style="display:flex;"><span>    // Find the position of the &#34;text cursor&#34; on the text input
+</span></span><span style="display:flex;"><span>    const startIndex = this.html.input.selectionStart
+</span></span><span style="display:flex;"><span>    const endIndex = this.html.input.selectionEnd
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Minor trivia: if the text cursor has selected some text (e.g. a user
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// highlighted a word) then startIndex will not be the same as endIndex ;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// otherwise, startIndex will be the same as endIndex.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Insert the new character where the text cursor is, OR replace the text
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// that the text cursor is selecting.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">text</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">value</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">startText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">text</span>.<span style="color:#a6e22e">substring</span>(<span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">startIndex</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">endText</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">text</span>.<span style="color:#a6e22e">substring</span>(<span style="color:#a6e22e">endIndex</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">startText</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">char</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">endText</span>
+</span></span><span style="display:flex;"><span>    // Minor trivia: if the text cursor has selected some text (e.g. a user
+</span></span><span style="display:flex;"><span>    // highlighted a word) then startIndex will not be the same as endIndex ;
+</span></span><span style="display:flex;"><span>    // otherwise, startIndex will be the same as endIndex.
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Return focus to the input text box, and reset the &#34;text cursor&#34; to the
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// location where we just inserted the character
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">focus</span>()
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">focusIndex</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">startIndex</span> <span style="color:#f92672">+</span> <span style="color:#66d9ef">char</span>.<span style="color:#a6e22e">length</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">html</span>.<span style="color:#a6e22e">input</span>.<span style="color:#a6e22e">setSelectionRange</span>(<span style="color:#a6e22e">focusIndex</span>, <span style="color:#a6e22e">focusIndex</span>)
+</span></span><span style="display:flex;"><span>    // Insert the new character where the text cursor is, OR replace the text
+</span></span><span style="display:flex;"><span>    // that the text cursor is selecting.
+</span></span><span style="display:flex;"><span>    const text = this.html.input.value
+</span></span><span style="display:flex;"><span>    const startText = text.substring(0, startIndex)
+</span></span><span style="display:flex;"><span>    const endText = text.substring(endIndex)
+</span></span><span style="display:flex;"><span>    this.html.input.value = startText + char + endText
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    // Return focus to the input text box, and reset the &#34;text cursor&#34; to the
+</span></span><span style="display:flex;"><span>    // location where we just inserted the character
+</span></span><span style="display:flex;"><span>    this.html.input.focus()
+</span></span><span style="display:flex;"><span>    const focusIndex = startIndex + char.length
+</span></span><span style="display:flex;"><span>    this.html.input.setSelectionRange(focusIndex, focusIndex)
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  onKeyPress listens for keyboard input on the text input field.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">onKeyPress</span> (<span style="color:#a6e22e">keyboardEvent</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Get the key that the user just pressed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">keyPressed</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">keyboardEvent</span>.<span style="color:#a6e22e">code</span>
+</span></span><span style="display:flex;"><span>  /*
+</span></span><span style="display:flex;"><span>  onKeyPress listens for keyboard input on the text input field.
+</span></span><span style="display:flex;"><span>   */
+</span></span><span style="display:flex;"><span>  onKeyPress (keyboardEvent) {
+</span></span><span style="display:flex;"><span>    // Get the key that the user just pressed
+</span></span><span style="display:flex;"><span>    const keyPressed = keyboardEvent.code
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Note: there are different ways to get what the user typed into a text
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// field.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// keyboardEvent.code corresponds to the PHYSICAL key on the keyboard.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// keyboardEvent.key corresponds to the TEXT VALUE of the key.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// If a user presses the &#39;A&#39; key on a US-International QWERTY keyboard,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// we get code=&#39;KeyA&#39;, and key=&#39;a&#39; (if shift/capslock is off) or key=&#39;A&#39;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// (if shift/capslock is on)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Check to see if there&#39;s a character on the on-screen keyboard that
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// corresponds to the key the user just pressed. If yes, insert that
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// character.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">const</span> <span style="color:#66d9ef">char</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">activeKeyboard</span>.<span style="color:#a6e22e">keys</span>[<span style="color:#a6e22e">keyPressed</span>]
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">char</span>) {
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">insertChar</span>(<span style="color:#66d9ef">char</span>)
-</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">stopEvent</span>(<span style="color:#a6e22e">keyboardEvent</span>)
+</span></span><span style="display:flex;"><span>    // Note: there are different ways to get what the user typed into a text
+</span></span><span style="display:flex;"><span>    // field.
+</span></span><span style="display:flex;"><span>    // keyboardEvent.code corresponds to the PHYSICAL key on the keyboard.
+</span></span><span style="display:flex;"><span>    // keyboardEvent.key corresponds to the TEXT VALUE of the key.
+</span></span><span style="display:flex;"><span>    // If a user presses the &#39;A&#39; key on a US-International QWERTY keyboard,
+</span></span><span style="display:flex;"><span>    // we get code=&#39;KeyA&#39;, and key=&#39;a&#39; (if shift/capslock is off) or key=&#39;A&#39;
+</span></span><span style="display:flex;"><span>    // (if shift/capslock is on)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    // Check to see if there&#39;s a character on the on-screen keyboard that
+</span></span><span style="display:flex;"><span>    // corresponds to the key the user just pressed. If yes, insert that
+</span></span><span style="display:flex;"><span>    // character.
+</span></span><span style="display:flex;"><span>    const char = this.activeKeyboard <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> this.activeKeyboard.keys[keyPressed]
+</span></span><span style="display:flex;"><span>    if (char) {
+</span></span><span style="display:flex;"><span>      this.insertChar(char)
+</span></span><span style="display:flex;"><span>      return stopEvent(keyboardEvent)
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    return true
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">Stops the default actions for an input event. For example, pressing the &#39;A&#39; key
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">on a keyboard will insert the character &#39;a&#39; into a text input field. If we want
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">to change the action so the &#39;A&#39; key inserts the &#39;あ&#39; character, we first need to
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">disable the default action.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">stopEvent</span> (<span style="color:#a6e22e">e</span>) {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">preventDefault</span>()
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">stopPropagation</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">stopPropagation</span>()
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>/*
+</span></span><span style="display:flex;"><span>Stops the default actions for an input event. For example, pressing the &#39;A&#39; key
+</span></span><span style="display:flex;"><span>on a keyboard will insert the character &#39;a&#39; into a text input field. If we want
+</span></span><span style="display:flex;"><span>to change the action so the &#39;A&#39; key inserts the &#39;あ&#39; character, we first need to
+</span></span><span style="display:flex;"><span>disable the default action.
+</span></span><span style="display:flex;"><span> */
+</span></span><span style="display:flex;"><span>function stopEvent (e) {
+</span></span><span style="display:flex;"><span>  e.preventDefault <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> e.preventDefault()
+</span></span><span style="display:flex;"><span>  e.stopPropagation <span style="color:#960050;background-color:#1e0010">&amp;&amp;</span> e.stopPropagation()
+</span></span><span style="display:flex;"><span>  return false
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">English Keyboard + QWERTY Layout: defines the baseline US-International QWERTY
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">keyboard that we assume each user is using.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">ENGLISH_KEYBOARD</span> <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">direction</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ltr&#39;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">keys</span><span style="color:#f92672">:</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyQ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Q&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyW&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;W&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyE&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;E&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyR&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;R&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyT&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;T&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyY&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Y&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyU&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;U&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyI&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;I&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyO&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;O&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyP&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;P&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;BracketLeft&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;[&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;BracketRight&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;]&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyA&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;A&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyS&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;S&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyD&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;D&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyF&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;F&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyG&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;G&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyH&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;H&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyJ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;J&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyK&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;K&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyL&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;L&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Semicolon&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;;&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Quote&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;\&#39;&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyZ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;Z&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyX&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;X&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyC&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;C&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyV&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;V&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyB&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;B&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyN&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;N&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyM&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;M&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Comma&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;,&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Period&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;.&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Slash&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;/&#39;</span>,
+</span></span><span style="display:flex;"><span>/*
+</span></span><span style="display:flex;"><span>English Keyboard + QWERTY Layout: defines the baseline US-International QWERTY
+</span></span><span style="display:flex;"><span>keyboard that we assume each user is using.
+</span></span><span style="display:flex;"><span> */
+</span></span><span style="display:flex;"><span>const ENGLISH_KEYBOARD = {
+</span></span><span style="display:flex;"><span>  direction: &#39;ltr&#39;,
+</span></span><span style="display:flex;"><span>  keys: {
+</span></span><span style="display:flex;"><span>    &#39;KeyQ&#39;: &#39;Q&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyW&#39;: &#39;W&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyE&#39;: &#39;E&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyR&#39;: &#39;R&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyT&#39;: &#39;T&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyY&#39;: &#39;Y&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyU&#39;: &#39;U&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyI&#39;: &#39;I&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyO&#39;: &#39;O&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyP&#39;: &#39;P&#39;,
+</span></span><span style="display:flex;"><span>    &#39;BracketLeft&#39;: &#39;[&#39;,
+</span></span><span style="display:flex;"><span>    &#39;BracketRight&#39;: &#39;]&#39;,
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;KeyA&#39;: &#39;A&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyS&#39;: &#39;S&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyD&#39;: &#39;D&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyF&#39;: &#39;F&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyG&#39;: &#39;G&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyH&#39;: &#39;H&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyJ&#39;: &#39;J&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyK&#39;: &#39;K&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyL&#39;: &#39;L&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Semicolon&#39;: &#39;;&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Quote&#39;: &#39;\&#39;&#39;,
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;KeyZ&#39;: &#39;Z&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyX&#39;: &#39;X&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyC&#39;: &#39;C&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyV&#39;: &#39;V&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyB&#39;: &#39;B&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyN&#39;: &#39;N&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyM&#39;: &#39;M&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Comma&#39;: &#39;,&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Period&#39;: &#39;.&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Slash&#39;: &#39;/&#39;,
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">QWERTY_LAYOUT</span> <span style="color:#f92672">=</span> [
-</span></span><span style="display:flex;"><span>  [ <span style="color:#e6db74">&#39;KeyQ&#39;</span>, <span style="color:#e6db74">&#39;KeyW&#39;</span>, <span style="color:#e6db74">&#39;KeyE&#39;</span>, <span style="color:#e6db74">&#39;KeyR&#39;</span>, <span style="color:#e6db74">&#39;KeyT&#39;</span>, <span style="color:#e6db74">&#39;KeyY&#39;</span>, <span style="color:#e6db74">&#39;KeyU&#39;</span>, <span style="color:#e6db74">&#39;KeyI&#39;</span>, <span style="color:#e6db74">&#39;KeyO&#39;</span>, <span style="color:#e6db74">&#39;KeyP&#39;</span>, <span style="color:#e6db74">&#39;BracketLeft&#39;</span>, <span style="color:#e6db74">&#39;BracketRight&#39;</span> ],
-</span></span><span style="display:flex;"><span>  [ <span style="color:#e6db74">&#39;KeyA&#39;</span>, <span style="color:#e6db74">&#39;KeyS&#39;</span>, <span style="color:#e6db74">&#39;KeyD&#39;</span>, <span style="color:#e6db74">&#39;KeyF&#39;</span>, <span style="color:#e6db74">&#39;KeyG&#39;</span>, <span style="color:#e6db74">&#39;KeyH&#39;</span>, <span style="color:#e6db74">&#39;KeyJ&#39;</span>, <span style="color:#e6db74">&#39;KeyK&#39;</span>, <span style="color:#e6db74">&#39;KeyL&#39;</span>, <span style="color:#e6db74">&#39;Semicolon&#39;</span>, <span style="color:#e6db74">&#39;Quote&#39;</span> ],
-</span></span><span style="display:flex;"><span>  [ <span style="color:#e6db74">&#39;KeyZ&#39;</span>, <span style="color:#e6db74">&#39;KeyX&#39;</span>, <span style="color:#e6db74">&#39;KeyC&#39;</span>, <span style="color:#e6db74">&#39;KeyV&#39;</span>, <span style="color:#e6db74">&#39;KeyB&#39;</span>, <span style="color:#e6db74">&#39;KeyN&#39;</span>, <span style="color:#e6db74">&#39;KeyM&#39;</span>, <span style="color:#e6db74">&#39;Comma&#39;</span>, <span style="color:#e6db74">&#39;Period&#39;</span>, <span style="color:#e6db74">&#39;Slash&#39;</span> ]
+</span></span><span style="display:flex;"><span>const QWERTY_LAYOUT = [
+</span></span><span style="display:flex;"><span>  [ &#39;KeyQ&#39;, &#39;KeyW&#39;, &#39;KeyE&#39;, &#39;KeyR&#39;, &#39;KeyT&#39;, &#39;KeyY&#39;, &#39;KeyU&#39;, &#39;KeyI&#39;, &#39;KeyO&#39;, &#39;KeyP&#39;, &#39;BracketLeft&#39;, &#39;BracketRight&#39; ],
+</span></span><span style="display:flex;"><span>  [ &#39;KeyA&#39;, &#39;KeyS&#39;, &#39;KeyD&#39;, &#39;KeyF&#39;, &#39;KeyG&#39;, &#39;KeyH&#39;, &#39;KeyJ&#39;, &#39;KeyK&#39;, &#39;KeyL&#39;, &#39;Semicolon&#39;, &#39;Quote&#39; ],
+</span></span><span style="display:flex;"><span>  [ &#39;KeyZ&#39;, &#39;KeyX&#39;, &#39;KeyC&#39;, &#39;KeyV&#39;, &#39;KeyB&#39;, &#39;KeyN&#39;, &#39;KeyM&#39;, &#39;Comma&#39;, &#39;Period&#39;, &#39;Slash&#39; ]
 </span></span><span style="display:flex;"><span>]
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">Hebrew Keyboard: translates key presses on a US-International QWERTY keyboard
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">into Hebrew characters.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">HEBREW_KEYBOARD</span> <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">direction</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;rtl&#39;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">keys</span><span style="color:#f92672">:</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// &#39;KeyQ&#39;: &#39;Q&#39;,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// &#39;KeyW&#39;: &#39;W&#39;,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyE&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ק&#39;</span>,  <span style="color:#75715e">// Qof
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyR&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ר&#39;</span>,  <span style="color:#75715e">// Resh
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyT&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;א&#39;</span>,  <span style="color:#75715e">// Alef
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyY&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ט&#39;</span>,  <span style="color:#75715e">// Tet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyU&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ו&#39;</span>,  <span style="color:#75715e">// Waw/Vav
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyI&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ן&#39;</span>,  <span style="color:#75715e">// Nun (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyO&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ם&#39;</span>,  <span style="color:#75715e">// Mem (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyP&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;פ&#39;</span>,  <span style="color:#75715e">// Pe (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// &#39;BracketLeft&#39;: &#39;[&#39;,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// &#39;BracketRight&#39;: &#39;]&#39;,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyA&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ש&#39;</span>,  <span style="color:#75715e">// Shin
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyS&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ד&#39;</span>,  <span style="color:#75715e">// Dalet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyD&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ג&#39;</span>,  <span style="color:#75715e">// Gimel
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyF&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;כ&#39;</span>,  <span style="color:#75715e">// Kaf
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyG&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ע&#39;</span>,  <span style="color:#75715e">// Ayin
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyH&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;י&#39;</span>,  <span style="color:#75715e">// Yod
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyJ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ח&#39;</span>,  <span style="color:#75715e">// Chet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyK&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ל&#39;</span>,  <span style="color:#75715e">// Lamed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyL&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ך&#39;</span>,  <span style="color:#75715e">// Kaf
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;Semicolon&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ף&#39;</span>,  <span style="color:#75715e">// Pe (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// &#39;Quote&#39;: &#39;\&#39;&#39;,
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyZ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ז&#39;</span>,  <span style="color:#75715e">// Zayin
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyX&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ס&#39;</span>,  <span style="color:#75715e">// Samech
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyC&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ב&#39;</span>,  <span style="color:#75715e">// Bet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyV&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ה&#39;</span>,  <span style="color:#75715e">// He
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyB&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;נ&#39;</span>,  <span style="color:#75715e">// Nun (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyN&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;מ&#39;</span>,  <span style="color:#75715e">// Mem (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyM&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;צ&#39;</span>,  <span style="color:#75715e">// Tsadik (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;Comma&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ת&#39;</span>,  <span style="color:#75715e">// Tav
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;Period&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ץ&#39;</span>,  <span style="color:#75715e">// Tsadik (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;Slash&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ﭏ&#39;</span>,  <span style="color:#75715e">// Alef-lamed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  },
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// The following contains info on how to map each character (i.e. data) with a
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// visual reference (i.e. image) of how the character looks like in a
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// real-world manuscript written by human hands. (i.e. the Hebrew script)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">visualScripts</span><span style="color:#f92672">:</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Byzantine Cursive&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;images/byzantine-cursive.jpg&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Byzantine Minuscule&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;images/byzantine-minuscule.jpg&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Byzantine Square&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;images/byzantine-square.jpg&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Maghrebi Cursive&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;images/maghrebi-cursive.jpg&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Maghrebi Square&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;images/maghrebi-square.jpg&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Yemenite Minuscule&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;images/yemenite-minuscule.jpg&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Yemenite Square&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;images/yemenite-square.jpg&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;none&#39;</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">undefined</span>,
+</span></span><span style="display:flex;"><span>/*
+</span></span><span style="display:flex;"><span>Hebrew Keyboard: translates key presses on a US-International QWERTY keyboard
+</span></span><span style="display:flex;"><span>into Hebrew characters.
+</span></span><span style="display:flex;"><span> */
+</span></span><span style="display:flex;"><span>const HEBREW_KEYBOARD = {
+</span></span><span style="display:flex;"><span>  direction: &#39;rtl&#39;,
+</span></span><span style="display:flex;"><span>  keys: {
+</span></span><span style="display:flex;"><span>    // &#39;KeyQ&#39;: &#39;Q&#39;,
+</span></span><span style="display:flex;"><span>    // &#39;KeyW&#39;: &#39;W&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyE&#39;: &#39;ק&#39;,  // Qof
+</span></span><span style="display:flex;"><span>    &#39;KeyR&#39;: &#39;ר&#39;,  // Resh
+</span></span><span style="display:flex;"><span>    &#39;KeyT&#39;: &#39;א&#39;,  // Alef
+</span></span><span style="display:flex;"><span>    &#39;KeyY&#39;: &#39;ט&#39;,  // Tet
+</span></span><span style="display:flex;"><span>    &#39;KeyU&#39;: &#39;ו&#39;,  // Waw/Vav
+</span></span><span style="display:flex;"><span>    &#39;KeyI&#39;: &#39;ן&#39;,  // Nun (2)
+</span></span><span style="display:flex;"><span>    &#39;KeyO&#39;: &#39;ם&#39;,  // Mem (2)
+</span></span><span style="display:flex;"><span>    &#39;KeyP&#39;: &#39;פ&#39;,  // Pe (1)
+</span></span><span style="display:flex;"><span>    // &#39;BracketLeft&#39;: &#39;[&#39;,
+</span></span><span style="display:flex;"><span>    // &#39;BracketRight&#39;: &#39;]&#39;,
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;KeyA&#39;: &#39;ש&#39;,  // Shin
+</span></span><span style="display:flex;"><span>    &#39;KeyS&#39;: &#39;ד&#39;,  // Dalet
+</span></span><span style="display:flex;"><span>    &#39;KeyD&#39;: &#39;ג&#39;,  // Gimel
+</span></span><span style="display:flex;"><span>    &#39;KeyF&#39;: &#39;כ&#39;,  // Kaf
+</span></span><span style="display:flex;"><span>    &#39;KeyG&#39;: &#39;ע&#39;,  // Ayin
+</span></span><span style="display:flex;"><span>    &#39;KeyH&#39;: &#39;י&#39;,  // Yod
+</span></span><span style="display:flex;"><span>    &#39;KeyJ&#39;: &#39;ח&#39;,  // Chet
+</span></span><span style="display:flex;"><span>    &#39;KeyK&#39;: &#39;ל&#39;,  // Lamed
+</span></span><span style="display:flex;"><span>    &#39;KeyL&#39;: &#39;ך&#39;,  // Kaf
+</span></span><span style="display:flex;"><span>    &#39;Semicolon&#39;: &#39;ף&#39;,  // Pe (2)
+</span></span><span style="display:flex;"><span>    // &#39;Quote&#39;: &#39;\&#39;&#39;,
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;KeyZ&#39;: &#39;ז&#39;,  // Zayin
+</span></span><span style="display:flex;"><span>    &#39;KeyX&#39;: &#39;ס&#39;,  // Samech
+</span></span><span style="display:flex;"><span>    &#39;KeyC&#39;: &#39;ב&#39;,  // Bet
+</span></span><span style="display:flex;"><span>    &#39;KeyV&#39;: &#39;ה&#39;,  // He
+</span></span><span style="display:flex;"><span>    &#39;KeyB&#39;: &#39;נ&#39;,  // Nun (1)
+</span></span><span style="display:flex;"><span>    &#39;KeyN&#39;: &#39;מ&#39;,  // Mem (1)
+</span></span><span style="display:flex;"><span>    &#39;KeyM&#39;: &#39;צ&#39;,  // Tsadik (1)
+</span></span><span style="display:flex;"><span>    &#39;Comma&#39;: &#39;ת&#39;,  // Tav
+</span></span><span style="display:flex;"><span>    &#39;Period&#39;: &#39;ץ&#39;,  // Tsadik (2)
+</span></span><span style="display:flex;"><span>    &#39;Slash&#39;: &#39;ﭏ&#39;,  // Alef-lamed
 </span></span><span style="display:flex;"><span>  },
-</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// To keep things simple, each image file (representing a Hebrew script and
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// containing an instance of every handwritten character) follows a specific
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// visual layout. For example, each handwritten Hebrew character&#39;s image is a
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// 50x50px square located at specific x-y coordinates. This consistency allows
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// us to use a CSS technique known as &#34;image sprites&#34; to package multiple
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// character images into one file, which in turn lets us rapidly add new
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#75715e">// visual guides for different styles of Hebrew scripts.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">visualScriptLayout</span><span style="color:#f92672">:</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;ק&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">440</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">256</span> },  <span style="color:#75715e">// Qof
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ר&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">330</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">256</span> },  <span style="color:#75715e">// Resh
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;א&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">440</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> },  <span style="color:#75715e">// Alef
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ט&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">110</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">64</span> },  <span style="color:#75715e">// Tet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ו&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">275</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">64</span> },  <span style="color:#75715e">// Waw/Vav
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ן&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">385</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">192</span> },  <span style="color:#75715e">// Nun (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ם&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">55</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">128</span> },  <span style="color:#75715e">// Mem (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;פ&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">165</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">192</span> },  <span style="color:#75715e">// Pe (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ש&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">220</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">256</span> },  <span style="color:#75715e">// Shin
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ד&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">55</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> },  <span style="color:#75715e">// Dalet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ג&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">110</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> },  <span style="color:#75715e">// Gimel
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;כ&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">64</span> },  <span style="color:#75715e">// Kaf (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ע&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">275</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">192</span> },  <span style="color:#75715e">// Ayin
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;י&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">55</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">64</span> },  <span style="color:#75715e">// Yod
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ח&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">165</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">64</span> },  <span style="color:#75715e">// Chet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ל&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">275</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">128</span> },  <span style="color:#75715e">// Lamed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ך&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">440</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">128</span> },  <span style="color:#75715e">// Kaf (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ף&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">110</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">192</span> },  <span style="color:#75715e">// Pe (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ז&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">220</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">64</span> },  <span style="color:#75715e">// Zayin
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ס&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">55</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">128</span> },  <span style="color:#75715e">// Samech
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ב&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">220</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> },  <span style="color:#75715e">// Bet
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ה&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">440</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">64</span> },  <span style="color:#75715e">// He
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;נ&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">440</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">192</span> },  <span style="color:#75715e">// Nun (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;מ&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">110</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">256</span> },  <span style="color:#75715e">// Mem (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;צ&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">55</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">192</span> },  <span style="color:#75715e">// Tsadik (1)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ת&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">110</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">256</span> },  <span style="color:#75715e">// Tav
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ץ&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">192</span> },  <span style="color:#75715e">// Tsadik (2)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;ﭏ&#39;</span><span style="color:#f92672">:</span> { <span style="color:#a6e22e">x</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">330</span>, <span style="color:#a6e22e">y</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span> },  <span style="color:#75715e">// Alef-lamed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  },
+</span></span><span style="display:flex;"><span>  // The following contains info on how to map each character (i.e. data) with a
+</span></span><span style="display:flex;"><span>  // visual reference (i.e. image) of how the character looks like in a
+</span></span><span style="display:flex;"><span>  // real-world manuscript written by human hands. (i.e. the Hebrew script)
+</span></span><span style="display:flex;"><span>  visualScripts: {
+</span></span><span style="display:flex;"><span>    &#39;Byzantine Cursive&#39;: &#39;images/byzantine-cursive.jpg&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Byzantine Minuscule&#39;: &#39;images/byzantine-minuscule.jpg&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Byzantine Square&#39;: &#39;images/byzantine-square.jpg&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Maghrebi Cursive&#39;: &#39;images/maghrebi-cursive.jpg&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Maghrebi Square&#39;: &#39;images/maghrebi-square.jpg&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Yemenite Minuscule&#39;: &#39;images/yemenite-minuscule.jpg&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Yemenite Square&#39;: &#39;images/yemenite-square.jpg&#39;,
+</span></span><span style="display:flex;"><span>    &#39;none&#39;: undefined,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  // To keep things simple, each image file (representing a Hebrew script and
+</span></span><span style="display:flex;"><span>  // containing an instance of every handwritten character) follows a specific
+</span></span><span style="display:flex;"><span>  // visual layout. For example, each handwritten Hebrew character&#39;s image is a
+</span></span><span style="display:flex;"><span>  // 50x50px square located at specific x-y coordinates. This consistency allows
+</span></span><span style="display:flex;"><span>  // us to use a CSS technique known as &#34;image sprites&#34; to package multiple
+</span></span><span style="display:flex;"><span>  // character images into one file, which in turn lets us rapidly add new
+</span></span><span style="display:flex;"><span>  // visual guides for different styles of Hebrew scripts.
+</span></span><span style="display:flex;"><span>  visualScriptLayout: {
+</span></span><span style="display:flex;"><span>    &#39;ק&#39;: { x: 440, y: 256 },  // Qof
+</span></span><span style="display:flex;"><span>    &#39;ר&#39;: { x: 330, y: 256 },  // Resh
+</span></span><span style="display:flex;"><span>    &#39;א&#39;: { x: 440, y: 0 },  // Alef
+</span></span><span style="display:flex;"><span>    &#39;ט&#39;: { x: 110, y: 64 },  // Tet
+</span></span><span style="display:flex;"><span>    &#39;ו&#39;: { x: 275, y: 64 },  // Waw/Vav
+</span></span><span style="display:flex;"><span>    &#39;ן&#39;: { x: 385, y: 192 },  // Nun (2)
+</span></span><span style="display:flex;"><span>    &#39;ם&#39;: { x: 55, y: 128 },  // Mem (2)
+</span></span><span style="display:flex;"><span>    &#39;פ&#39;: { x: 165, y: 192 },  // Pe (1)
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;ש&#39;: { x: 220, y: 256 },  // Shin
+</span></span><span style="display:flex;"><span>    &#39;ד&#39;: { x: 55, y: 0 },  // Dalet
+</span></span><span style="display:flex;"><span>    &#39;ג&#39;: { x: 110, y: 0 },  // Gimel
+</span></span><span style="display:flex;"><span>    &#39;כ&#39;: { x: 0, y: 64 },  // Kaf (1)
+</span></span><span style="display:flex;"><span>    &#39;ע&#39;: { x: 275, y: 192 },  // Ayin
+</span></span><span style="display:flex;"><span>    &#39;י&#39;: { x: 55, y: 64 },  // Yod
+</span></span><span style="display:flex;"><span>    &#39;ח&#39;: { x: 165, y: 64 },  // Chet
+</span></span><span style="display:flex;"><span>    &#39;ל&#39;: { x: 275, y: 128 },  // Lamed
+</span></span><span style="display:flex;"><span>    &#39;ך&#39;: { x: 440, y: 128 },  // Kaf (2)
+</span></span><span style="display:flex;"><span>    &#39;ף&#39;: { x: 110, y: 192 },  // Pe (2)
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;ז&#39;: { x: 220, y: 64 },  // Zayin
+</span></span><span style="display:flex;"><span>    &#39;ס&#39;: { x: 55, y: 128 },  // Samech
+</span></span><span style="display:flex;"><span>    &#39;ב&#39;: { x: 220, y: 0 },  // Bet
+</span></span><span style="display:flex;"><span>    &#39;ה&#39;: { x: 440, y: 64 },  // He
+</span></span><span style="display:flex;"><span>    &#39;נ&#39;: { x: 440, y: 192 },  // Nun (1)
+</span></span><span style="display:flex;"><span>    &#39;מ&#39;: { x: 110, y: 256 },  // Mem (1)
+</span></span><span style="display:flex;"><span>    &#39;צ&#39;: { x: 55, y: 192 },  // Tsadik (1)
+</span></span><span style="display:flex;"><span>    &#39;ת&#39;: { x: 110, y: 256 },  // Tav
+</span></span><span style="display:flex;"><span>    &#39;ץ&#39;: { x: 0, y: 192 },  // Tsadik (2)
+</span></span><span style="display:flex;"><span>    &#39;ﭏ&#39;: { x: 330, y: 0 },  // Alef-lamed
+</span></span><span style="display:flex;"><span>  },
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">/*
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">Emoji Keyboard: a joke keyboard to demonstrate how easy it is to add map keys
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">to characters of any &#39;language&#39;.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"> */</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">EMOJI_KEYBOARD</span> <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">direction</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ltr&#39;</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">keys</span><span style="color:#f92672">:</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyQ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;😃&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyW&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;😅&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyE&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🤣&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyR&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🥰&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyT&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;😉&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyY&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;😂&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyU&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🥵&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyI&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🥶&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyO&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;😍&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyP&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;😵&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;BracketLeft&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🎉&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;BracketRight&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🍎&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyA&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🐈&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyS&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🐕&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyD&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🐒&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyF&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🕊️&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyG&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🐓&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyH&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🐟&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyJ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🐙&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyK&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🦑&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyL&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🦋&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Semicolon&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🔥&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Quote&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;💧&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// --------
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#e6db74">&#39;KeyZ&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;❤️&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyX&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🧡&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyC&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;💛&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyV&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;💚&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyB&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;💙&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyN&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;💜&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;KeyM&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🤎&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Comma&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🖤&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Period&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;🤍&#39;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;Slash&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;💌&#39;</span>,
+</span></span><span style="display:flex;"><span>/*
+</span></span><span style="display:flex;"><span>Emoji Keyboard: a joke keyboard to demonstrate how easy it is to add map keys
+</span></span><span style="display:flex;"><span>to characters of any &#39;language&#39;.
+</span></span><span style="display:flex;"><span> */
+</span></span><span style="display:flex;"><span>const EMOJI_KEYBOARD = {
+</span></span><span style="display:flex;"><span>  direction: &#39;ltr&#39;,
+</span></span><span style="display:flex;"><span>  keys: {
+</span></span><span style="display:flex;"><span>    &#39;KeyQ&#39;: &#39;😃&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyW&#39;: &#39;😅&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyE&#39;: &#39;🤣&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyR&#39;: &#39;🥰&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyT&#39;: &#39;😉&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyY&#39;: &#39;😂&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyU&#39;: &#39;🥵&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyI&#39;: &#39;🥶&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyO&#39;: &#39;😍&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyP&#39;: &#39;😵&#39;,
+</span></span><span style="display:flex;"><span>    &#39;BracketLeft&#39;: &#39;🎉&#39;,
+</span></span><span style="display:flex;"><span>    &#39;BracketRight&#39;: &#39;🍎&#39;,
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;KeyA&#39;: &#39;🐈&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyS&#39;: &#39;🐕&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyD&#39;: &#39;🐒&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyF&#39;: &#39;🕊️&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyG&#39;: &#39;🐓&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyH&#39;: &#39;🐟&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyJ&#39;: &#39;🐙&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyK&#39;: &#39;🦑&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyL&#39;: &#39;🦋&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Semicolon&#39;: &#39;🔥&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Quote&#39;: &#39;💧&#39;,
+</span></span><span style="display:flex;"><span>    // --------
+</span></span><span style="display:flex;"><span>    &#39;KeyZ&#39;: &#39;❤️&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyX&#39;: &#39;🧡&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyC&#39;: &#39;💛&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyV&#39;: &#39;💚&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyB&#39;: &#39;💙&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyN&#39;: &#39;💜&#39;,
+</span></span><span style="display:flex;"><span>    &#39;KeyM&#39;: &#39;🤎&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Comma&#39;: &#39;🖤&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Period&#39;: &#39;🤍&#39;,
+</span></span><span style="display:flex;"><span>    &#39;Slash&#39;: &#39;💌&#39;,
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">KEYBOARDS</span> <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;(No keyboard)&#39;</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">undefined</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;English&#39;</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">ENGLISH_KEYBOARD</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;Hebrew&#39;</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">HEBREW_KEYBOARD</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;Emoji&#39;</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">EMOJI_KEYBOARD</span>,
+</span></span><span style="display:flex;"><span>const KEYBOARDS = {
+</span></span><span style="display:flex;"><span>  &#39;(No keyboard)&#39;: undefined,
+</span></span><span style="display:flex;"><span>  &#39;English&#39;: ENGLISH_KEYBOARD,
+</span></span><span style="display:flex;"><span>  &#39;Hebrew&#39;: HEBREW_KEYBOARD,
+</span></span><span style="display:flex;"><span>  &#39;Emoji&#39;: EMOJI_KEYBOARD,
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">app</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">KeyboardApp</span>()  <span style="color:#75715e">// Let&#39;s start the app!
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>var app = new KeyboardApp()  // Let&#39;s start the app!
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
 </span></span></code></pre></div>
     </pre>
@@ -2626,7 +2626,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/yemenite-square_hu003a4498ca4049b3f0267a10ce0b2dbe_105492_500x0_resize_q75_box.jpg 500w,
     /issues/2/strangers-in-the-landscape/images/yemenite-square_hu003a4498ca4049b3f0267a10ce0b2dbe_105492_800x0_resize_q75_box.jpg 800w,/issues/2/strangers-in-the-landscape/images/yemenite-square.jpg 490w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Visual Hebrew script reference for Yemenite Square.
         </p>
     </figcaption>
@@ -2643,7 +2643,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/byzantine-minuscule_huf5affd40beb4bacf65ccfdae4f80429e_149192_500x0_resize_q75_box.jpg 500w,
     /issues/2/strangers-in-the-landscape/images/byzantine-minuscule_huf5affd40beb4bacf65ccfdae4f80429e_149192_800x0_resize_q75_box.jpg 800w,/issues/2/strangers-in-the-landscape/images/byzantine-minuscule.jpg 490w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Visual Hebrew script reference for Byzantine Minuscule.
         </p>
     </figcaption>
@@ -2660,7 +2660,7 @@
      srcset="/issues/2/strangers-in-the-landscape/images/maghrebi-cursive_hu4757435849cfdceaa42c44e572993365_106152_500x0_resize_q75_box.jpg 500w,
     /issues/2/strangers-in-the-landscape/images/maghrebi-cursive_hu4757435849cfdceaa42c44e572993365_106152_800x0_resize_q75_box.jpg 800w,/issues/2/strangers-in-the-landscape/images/maghrebi-cursive.jpg 490w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Visual Hebrew script reference for Maghrebi Cursive.
         </p>
     </figcaption>
@@ -2741,7 +2741,7 @@
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Creating and Recreating Virtual Community on Douglass Day</title><link href="https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/</id><author><name>Justin Smith</name></author><author><name>Courtney Murray</name></author><author><name>Jim Casey</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-06-22T09:40:54-04:00</updated><content type="html"><![CDATA[<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Save the Date for Douglass Day 2022!<br><br>Help us find the names of Black women in the Colored Conventions. Where did they go?<br><br>Registration is now open. Sign up for updates &amp; more!  <a href="https://t.co/nbxI9l1lGT">https://t.co/nbxI9l1lGT</a> <a href="https://t.co/5bz5fRQVLR">pic.twitter.com/5bz5fRQVLR</a></p>&mdash; Douglass Day (@DouglassDayorg) <a href="https://twitter.com/DouglassDayorg/status/1446478999287439372?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote>
+]]></content></entry><entry><title type="html">Creating and Recreating Virtual Community on Douglass Day</title><link href="https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/creating-and-recreating-virtual-community/</id><author><name>Justin Smith</name></author><author><name>Courtney Murray</name></author><author><name>Jim Casey</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-10-02T15:35:01-04:00</updated><content type="html"><![CDATA[<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Save the Date for Douglass Day 2022!<br><br>Help us find the names of Black women in the Colored Conventions. Where did they go?<br><br>Registration is now open. Sign up for updates &amp; more!  <a href="https://t.co/nbxI9l1lGT">https://t.co/nbxI9l1lGT</a> <a href="https://t.co/5bz5fRQVLR">pic.twitter.com/5bz5fRQVLR</a></p>&mdash; Douglass Day (@DouglassDayorg) <a href="https://twitter.com/DouglassDayorg/status/1446478999287439372?ref_src=twsrc%5Etfw">October 8, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="tweet-group print-only-preview">
@@ -2934,7 +2934,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination</title><link href="https://startwords.cdh.princeton.edu/issues/2/datas-destinations/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/datas-destinations/</id><author><name>Victoria Anne Van Hyning</name></author><author><name>Mason A. Jones</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-06-22T09:40:54-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+]]></content></entry><entry><title type="html">Data's Destinations: Three Case Studies in Crowdsourced Transcription Data Management and Dissemination</title><link href="https://startwords.cdh.princeton.edu/issues/2/datas-destinations/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/datas-destinations/</id><author><name>Victoria Anne Van Hyning</name></author><author><name>Mason A. Jones</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-10-02T15:35:01-04:00</updated><content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Online crowdsourcing—a series of methods for engaging volunteers with STEM, humanities, and cultural heritage research—has rapidly matured between 2000 and 2021. These efforts have been led by research groups and platform designers like <a href="https://www.zooniverse.org/">Zooniverse</a>, platform designers like <a href="https://fromthepage.com/">FromThePage</a>, <a href="https://omeka.org/">Omeka</a>, <a href="https://pybossa.com/">PYBOSSA </a>and <a href="https://scripto.org/">Scripto</a>, and cultural heritage institutions like the <a href="https://www.archives.gov/">National Archives and Records Administration</a> (NARA) and <a href="https://www.si.edu/">Smithsonian Institution</a>. Volunteers help researchers, journalists, conservationists, cultural heritage practitioners, and one another to gather data that contributes to real research, original art, policy, community health, and more. In this essay, we will focus on cultural heritage crowdsourcing, and transcription projects in particular. Typically, these projects invite volunteers to transcribe handwritten or printed materials produced with ornate type or typewriter documents that—due to slight irregularities of the type, faint ink, or use of thin papers like onion skin—are not amenable to handwritten text recognition (HTR) or optical character recognition (OCR).</p>
 <p>
 <div class="video-embed-wrapper">
@@ -3031,7 +3031,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
      srcset="/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld_hue63b1972d48a1ce608a915f2767de879_1804370_500x0_resize_box_3.png 500w,
     /issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld_hue63b1972d48a1ce608a915f2767de879_1804370_800x0_resize_box_3.png 800w,/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld_hue63b1972d48a1ce608a915f2767de879_1804370_1200x0_resize_box_3.png 1200w,/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld_hue63b1972d48a1ce608a915f2767de879_1804370_1500x0_resize_box_3.png 1500w,/issues/2/datas-destinations/images/Aggregated%20Data-ShaxWorld.png 1535w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Volunteer transcription of an early modern creame cheese recipe.<span class="attribution"><a href="https://www.zooniverse.org/projects/zooniverse/shakespeares-world">Shakespeare&rsquo;s World</a></span>
         </p>
     </figcaption>
@@ -3093,7 +3093,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
      srcset="/issues/2/datas-destinations/images/taffety-tarts_hu6165b8a72dc313e18147516d31c33329_1108777_500x0_resize_q75_box.jpg 500w,
     /issues/2/datas-destinations/images/taffety-tarts_hu6165b8a72dc313e18147516d31c33329_1108777_800x0_resize_q75_box.jpg 800w,/issues/2/datas-destinations/images/taffety-tarts_hu6165b8a72dc313e18147516d31c33329_1108777_1200x0_resize_q75_box.jpg 1200w,/issues/2/datas-destinations/images/taffety-tarts_hu6165b8a72dc313e18147516d31c33329_1108777_1500x0_resize_q75_box.jpg 1500w,/issues/2/datas-destinations/images/taffety-tarts.jpg 1728w" 
      class="landscape"
-     >
+     style="">
 </figure>
 <div class="txt-only">
 ⩩&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;⟩
@@ -3160,7 +3160,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
      srcset="/issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage_hu85d7db1ee8495c5a3efa12fdac180d3d_351696_500x0_resize_box_3.png 500w,
     /issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage_hu85d7db1ee8495c5a3efa12fdac180d3d_351696_800x0_resize_box_3.png 800w,/issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage_hu85d7db1ee8495c5a3efa12fdac180d3d_351696_1200x0_resize_box_3.png 1200w,/issues/2/datas-destinations/images/ByThePeople-PublishedTranscriptionPage.png 1471w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Screenshot of By the People, showing transcription of a document from the Mary Church Terrell Papers.<span class="attribution"><a href="https://www.loc.gov/resource/mss42549.mss42549-020_00197_00285/?sp=9&amp;st=text&amp;r=0.05,1.033,0.289,0.285,0">Library of Congress</a></span>
         </p>
     </figcaption>
@@ -3208,7 +3208,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
      srcset="/issues/2/datas-destinations/images/RosaParksBulkDataSnapshot_hu7ee926be32ad5fcc3ec36618a6f153c6_120851_500x0_resize_box_3.png 500w,
     /issues/2/datas-destinations/images/RosaParksBulkDataSnapshot_hu7ee926be32ad5fcc3ec36618a6f153c6_120851_800x0_resize_box_3.png 800w,/issues/2/datas-destinations/images/RosaParksBulkDataSnapshot_hu7ee926be32ad5fcc3ec36618a6f153c6_120851_1200x0_resize_box_3.png 1200w,/issues/2/datas-destinations/images/RosaParksBulkDataSnapshot.png 1347w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Screenshot of bulk dataset from Rosa Parks Papers in By the People project.<span class="attribution"><a href="https://crowd.loc.gov/">By the People (LOC)</a></span>
         </p>
     </figcaption>
@@ -3262,7 +3262,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
      srcset="/issues/2/datas-destinations/images/DavidCDriskellPapersTranscriptionInterface_hue142e1a56949cb87843e39a7e7c1e236_744311_500x0_resize_box_3.png 500w,
     /issues/2/datas-destinations/images/DavidCDriskellPapersTranscriptionInterface_hue142e1a56949cb87843e39a7e7c1e236_744311_800x0_resize_box_3.png 800w,/issues/2/datas-destinations/images/DavidCDriskellPapersTranscriptionInterface_hue142e1a56949cb87843e39a7e7c1e236_744311_1200x0_resize_box_3.png 1200w,/issues/2/datas-destinations/images/DavidCDriskellPapersTranscriptionInterface.png 1208w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p><span class="attribution"><a href="https://fromthepage.com/umdtranscription/david-c-driskell-papers/ms01-05-00-box-19-folder-05-jones-lois-mailou-correspondence-1969-2004/display/1560243">David C. Driskell Papers Project</a></span>
         </p>
     </figcaption>
@@ -3368,7 +3368,7 @@ How it started How it’s going pic.twitter.com/QiVBzriEu6
 </li>
 </ol>
 </div>
-]]></content></entry><entry><title type="html">Serendipity in the Cairo Geniza</title><link href="https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/</id><author><name>Matthew Dudley</name></author><author><name>Steffy Reader</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-06-22T09:40:54-04:00</updated><content type="html"><![CDATA[<p>Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the <em>Scribes of the Cairo Geniza</em> and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference <em>Crowdsourcing and the Humanities</em> and discover that they had already been collaborating anonymously via the <em>Scribes of the Cairo Geniza</em> site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.</p>
+]]></content></entry><entry><title type="html">Serendipity in the Cairo Geniza</title><link href="https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/?utm_source=atom_feed" rel="alternate" type="text/html"/><id>https://startwords.cdh.princeton.edu/issues/2/serendipity-in-the-cairo-geniza/</id><author><name>Matthew Dudley</name></author><author><name>Steffy Reader</name></author><published>2021-12-01T00:00:00+00:00</published><updated>2023-10-02T15:35:01-04:00</updated><content type="html"><![CDATA[<p>Matthew Dudley is a PhD candidate at Yale University where he is completing a dissertation on the early modern Cairo Geniza of the sixteenth through nineteenth centuries. Steffy Reader, a retired psychotherapist, has contributed to the <em>Scribes of the Cairo Geniza</em> and a number of other Zooniverse projects since 2018. In the clip below, they meet for the first time during the conference <em>Crowdsourcing and the Humanities</em> and discover that they had already been collaborating anonymously via the <em>Scribes of the Cairo Geniza</em> site. What follows is a dialogue between them about this moment and the results of their serendipitous collaboration in analyzing communal register fragments from the late eighteenth and early nineteenth centuries.</p>
 
 <div class="video-embed-wrapper">
     
@@ -3439,7 +3439,7 @@ kWidget.embed({
      srcset="/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22%20cropped_hu5d4d4af13a53f9dee6df2227e73445ae_1931159_500x0_resize_q75_box.jpg 500w,
     /issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22%20cropped_hu5d4d4af13a53f9dee6df2227e73445ae_1931159_800x0_resize_q75_box.jpg 800w,/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22%20cropped.jpg 981w" 
      class="portrait"
-     ><figcaption>
+     style=""><figcaption>
         <p>Image 1. <a href="https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499256">Subject 12499256</a> (ENA 624.22, Library of the Jewish Theological Seminary): Color-coded annotations of solitreo cursive letter forms and abbreviations, October 1798 CE.<span class="attribution">Library of the Jewish Theological Seminary</span>
         </p>
     </figcaption>
@@ -3489,7 +3489,7 @@ kWidget.embed({
      srcset="/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading_hu7fba9da1679ce4a56c592454604cb9c1_808702_500x0_resize_q75_box.jpg 500w,
     /issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading_hu7fba9da1679ce4a56c592454604cb9c1_808702_800x0_resize_q75_box.jpg 800w,/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading_hu7fba9da1679ce4a56c592454604cb9c1_808702_1200x0_resize_q75_box.jpg 1200w,/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading_hu7fba9da1679ce4a56c592454604cb9c1_808702_1500x0_resize_q75_box.jpg 1500w,/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading_hu7fba9da1679ce4a56c592454604cb9c1_808702_1800x0_resize_q75_box.jpg 1800w,/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_22_croppedheading.jpg 2558w" 
      class="landscape"
-     ><figcaption>
+     style=""><figcaption>
         <p>Image 1.2. Translation of the Upper Heading in Subject 12499256 (ENA 624.22) “עלם מקבוץ סדר נח שנת התקנט לברכה” “Account from [the] collection [during the week] of the seder Noaḥ [biblical reading in] the year 5559, may it be a blessing”
         </p>
     </figcaption>
@@ -3545,7 +3545,7 @@ kWidget.embed({
      srcset="/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_20%20cropped_hu7fba9da1679ce4a56c592454604cb9c1_208246_500x0_resize_q75_box.jpg 500w,
     /issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_20%20cropped_hu7fba9da1679ce4a56c592454604cb9c1_208246_800x0_resize_q75_box.jpg 800w,/issues/2/serendipity-in-the-cairo-geniza/images/Startwords_Matthew_Steffy_ENA624_20%20cropped.jpg 1190w" 
      class="landscape"
-      style="max-height: 250px"><figcaption>
+     style="max-height:250px;"><figcaption>
         <p>Image 2. <a href="https://www.zooniverse.org/projects/judaicadh/scribes-of-the-cairo-geniza/talk/subjects/12499254">Subject 12499254</a> (ENA 624.20, Library of the Jewish Theological Seminary) Ink stamp on recycled paper includes Hijrī year ١١٧٧/1177AH.
         </p>
     </figcaption>
