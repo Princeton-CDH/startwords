@@ -5,7 +5,7 @@ title: Issue 4
 number: 4
 theme: PALIMPSESTS
 theme_wrap_width: 8rem
-date: 2023-08-29 # Change me
+date: 2023-10-02
 slug: 4
 num_features: 2
 summary: This issue explores palimpsests of sound, script, and place in the language and history of medieval China. The two projects featured here work through layers of time with the goal of reconstructing now-lost literary soundscapes and urban landscapes.

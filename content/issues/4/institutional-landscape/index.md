@@ -6,7 +6,7 @@ title: |
 order: 3
 authors:
     - ShieldsAnna
-date: 2022-08-01
+date: 2023-10-02
 images: ["issues/4/institutional-landscape/images/institutional-landscape-social.png"]
 ---
 

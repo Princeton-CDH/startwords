@@ -6,7 +6,7 @@ title: |
 order: 2
 authors:
     - WenXin
-date: 2022-08-01
+date: 2023-10-02
 doi: 10.5281/zenodo.8380878
 pdf: https://zenodo.org/record/6567985/files/startwords-3-llm-limit-case.pdf
 images: ["issues/4/toward-deep-map/images/toward-deep-map-social.png"]

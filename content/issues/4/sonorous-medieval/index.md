@@ -7,7 +7,7 @@ order: 1
 authors:
     - BudakNick
     - RomingerGian
-date: 2022-08-01
+date: 2023-10-02
 doi: 10.5281/zenodo.8380842
 pdf: https://zenodo.org/record/6567985/files/startwords-3-llm-limit-case.pdf
 images: ["issues/4/sonorous-medieval/images/sonorous-medieval-social.png"]
