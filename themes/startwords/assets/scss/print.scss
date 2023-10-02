@@ -93,6 +93,9 @@ body {
             margin: 0 0 18px;
             margin-top: 0;
             padding: 0;
+            /* default widow/orphan is 1; set to 3 */
+            orphans: 3;
+            widows: 3;
         }
 
         blockquote.pull {
@@ -364,5 +367,30 @@ iframe {
     a:only-child {
         width: 60%;
         margin-left: 20%;
+    }
+}
+
+/* table styles */
+body.article article table {
+
+    /* match body font size */
+    td, th, caption {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* adjust styles for larger tables to print */
+    &.side-scroll {
+        // 8.5 - 0.2 on each side = 8.1
+        width: fit-content;
+        max-width: 7.51in;
+        //  extend wider than main content, which is 5.51in
+        margin: 0 -0.5in;
+        overflow-x: revert;
+        white-space: normal;
+
+        td, th {
+            white-space: normal;
+        }
     }
 }

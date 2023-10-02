@@ -24,6 +24,7 @@ cite.book::before {
 #fig2 .words td {
   text-align: center;
   font-size: 3rem;
+  line-height: 3.2rem;
 }
 
 #fig2 .translit td,
@@ -39,11 +40,6 @@ cite.book::before {
 #fig2 .gloss td:nth-child(4),
 #fig2 .translit td:nth-child(4) {
   padding-left: 2.5rem;
-}
-
-#fig2 img.character {
-  width: 3rem;
-  height: 3rem;
 }
 
 #fig2 caption,
@@ -70,8 +66,27 @@ cite.book::before {
 #fig2 table th[scope=row], #fig2 table caption {
   position: sticky;
   left: 0;
-  background-color: var(--purple); /* match interlude background */
 }
+@media screen {
+  #fig2 table th[scope=row], #fig2 table caption {
+    background-color: var(--purple); /* match interlude background */
+  }
+}
+
+/* adjust fig2 sizing for print/pdf */
+@media print {
+  #fig2 th {
+    font-size: 20px;
+  }
+  #fig2 .words td {
+    font-size: 40px;
+  }
+  #fig2 th[scope=row] {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 
 /* figure 3 */
 
@@ -79,10 +94,13 @@ cite.book::before {
   font-family: var(--font-sans);
   color: #404040; /* override interlude text color */
   padding: 0;
+  margin-bottom: 3rem;
 }
 
-#fig3:before {
-  background-color: #E9E9E9;
+@media screen {
+  #fig3:before {
+    background-color: #E9E9E9;
+  }
 }
 
 #fig3 .caption {
@@ -113,7 +131,9 @@ cite.book::before {
   margin: 0;
   text-underline-offset: .25rem;
 
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig3 .source {
     font-size: 2rem;
     text-underline-offset: .5rem;
   }
@@ -137,6 +157,39 @@ cite.book::before {
   height: 100%;
   background-color: #FEFEFE;
 }
+
+/* print styles for figure 3 */
+@media print {
+  /* match body font size */
+  #fig3 .caption, #fig3 .translation {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #fig3 .source {
+    font-size: 24px;
+  }
+  #fig3 .source, #fig3 .notes {
+    padding: 12px 0;
+  }
+
+  /* use lines instead of backgrounds for print */
+  #fig3 .source::before {
+    border-bottom: 1px dotted #E9E9E9;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    left: 0;
+  }
+
+  #fig3 blockquote {
+    margin: 4px auto; /* allow space for borders to show */
+    border-bottom: 2px solid #E9E9E9;
+  }
+  #fig3 blockquote:first-of-type {
+    border-top: 3px solid #E9E9E9;
+  }
+}
+
 
 #fig3 .translation {
   text-underline-offset: 3px;
@@ -181,7 +234,9 @@ cite.book::before {
   caption-side: top;
   line-height: 1.25;
 
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig4 table caption {
     font-size: 1.25rem;
     max-width: 32rem;
   }
@@ -206,9 +261,12 @@ cite.book::before {
 #fig4 tbody td {
   padding: 0;
   font-size: 1rem;
-
-  @media (min-width: 768px) {
+  line-height: 1.4rem;
+}
+@media (min-width: 768px) {
+  #fig4 tbody td {
     font-size: 1.25rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -216,15 +274,20 @@ cite.book::before {
   font-family: var(--font-serif);
   font-size: 1.5rem;
   padding-right: 10px;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig4 td[lang=zh] {
     font-size: 2rem;
+    line-height: 2rem;
   }
 }
 
-#fig4 .rhyme .vowel {
-  color: white;
-  text-shadow: white 1px 0 10px;
+/* highlight rhyming vowel with glow - on screens only */
+@media screen {
+  #fig4 .rhyme .vowel {
+    color: white;
+    text-shadow: white 1px 0 10px;
+  }
 }
 
 #fig4 .pinyin {
@@ -239,12 +302,31 @@ cite.book::before {
   opacity: 1 !important;
 }
 
+/* print styles for figure 4 */
+@media print {
+  /* match body font size; scale others relatively */
+  #fig4 .caption {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #fig4 table caption, #fig4 table td {
+    font-size: 17px;
+  }
+  #fig4 td[lang="zh"] {
+    font-size: 27px;
+    line-height: 27px;
+  }
+  /* instead of glow, use bold for rhyming vowels */
+  #fig4 .rhyme .vowel {
+     font-weight: bold;
+  }
+}
 
 /* figure 6 */
 
-#fig6 > div {
+@media (min-width: 768px) {
   /* match article content width */
-  @media (min-width: 768px) {
+  #fig6 > div {
     max-width: 32rem;
     margin: 0 auto;
   }
@@ -261,7 +343,9 @@ cite.book::before {
   margin-left: 150px;
   max-width: calc(95% - 150px);
   font-size: 16px;
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig6 .caption {
     margin-left: 5%;
     max-width: none;
   }
@@ -273,9 +357,10 @@ cite.book::before {
   margin-left: 20%;
   vertical-align: top;
   width: 80%;
-
-  /* side by side on larger screens */
-  @media (min-width: 768px) {
+}
+/* side by side on larger screens */
+@media (min-width: 768px) {
+  .card {
     width: 45%;
     margin-left: 0;
   }
@@ -285,7 +370,9 @@ cite.book::before {
 .card + .card {
   margin-top: 48px;  /* make space between the two card s*/
   margin-bottom: 100px; /* push to make space for ear on mobile */
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  .card + .card {
     margin-top: 0;
     margin-bottom: auto;
     width: 48%;
@@ -300,16 +387,20 @@ cite.book::before {
 	font-weight: 400;
   line-height: 33px;
   white-space: nowrap;
-  @media (min-width: 1024px) {
-      font-size: 40px;
-      line-height: 58px;
+}
+@media (min-width: 1024px) {
+  #fig6 .card p.large {
+    font-size: 40px;
+    line-height: 58px;
   }
 }
 
 #fig6 .card header {
   font-size: 20px;
   margin-bottom: 14px;
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig6 .card header {
     margin-bottom: 16px;
   }
 }
@@ -323,7 +414,9 @@ cite.book::before {
 .fish {
   display: inline-block;
   width: 3.75rem;
-  @media (min-width: 1024px) {
+}
+@media (min-width: 1024px) {
+  .fish {
     width: 6.25rem;
   }
 }
@@ -331,7 +424,9 @@ cite.book::before {
 .tek {
   display: inline-block;
   width: 2.75rem;
-  @media (min-width: 1024px) {
+}
+@media (min-width: 1024px) {
+  .tek {
     width: 3.75rem;
   }
 }
@@ -403,6 +498,53 @@ button.play:hover:after {
   margin-left: 0;
 }
 
+/* print styles for figure 6 */
+@media print {
+  /* suppress audio clip play buttons */
+  button.play {
+    display: none;
+  }
+  /* float for docraptor to prevent stacking */
+  #fig6 .card {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 42%;
+  }
+
+  /* match caption to body size; scale the rest proportionately */
+  #fig6 .caption {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 0;
+
+    padding-top: 18px;
+    clear: both;
+  }
+  #fig6 .card header {
+    font-size: 15px;
+  }
+  #fig6 .card p.large {
+    font-size: 28px;
+  }
+  #fig6 p {
+    font-size: 16.5px;
+  }
+  #fig6::before {
+    /* adjust size and position of ear graphic */
+    background-position: -25px center;
+    background-size: 112px;
+  }
+
+  #fig6.interlude {
+    padding: 0 0 35px;
+  }
+  .fish {
+    width: 4.5rem;
+  }
+
+}
+
 /* figure 7  */
 
 #fig7 {
@@ -411,9 +553,6 @@ button.play:hover:after {
   font-family: var(--font-sans);
 }
 
-#fig7:before {
-  background-color: #E9E9E9;
-}
 
 #fig7 .caption {
   font-size: 18px;
@@ -429,9 +568,10 @@ button.play:hover:after {
   /* on mobile, layout one term per row */
   flex-direction: column;
   justify-content: flex-start;
-
-  /* on larger screens, display layout horizontally but wrap */
-  @media (min-width: 768px) {
+}
+/* on larger screens, display layout horizontally but wrap */
+@media (min-width: 768px) {
+  #fig7 .text {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -447,8 +587,9 @@ button.play:hover:after {
   /* full screen width on mobile */
   width: 100vw;
   margin-left: -10px;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig7 .segment {
     width: min-content;
     margin-left: 0;
   }
@@ -458,8 +599,11 @@ button.play:hover:after {
 #fig7 .translation,
 #fig7 .label {
   padding-left: 1.5rem;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig7 .source,
+  #fig7 .translation,
+  #fig7 .label {
     padding-left: 0;
   }
 }
@@ -471,8 +615,9 @@ button.play:hover:after {
   padding: 1rem 0;
   margin: 0;
   text-underline-offset: .25rem;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig7 .source {
     font-size: 2rem;
     text-underline-offset: .5rem;
   }
@@ -488,26 +633,35 @@ button.play:hover:after {
   margin: 0;
   white-space: nowrap;
 
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig7 .source p {
     padding-left: 0;
   }
 }
 
-#fig7 .source::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: calc(100vw * -1);
-  width: 200vw;
-  height: 100%;
-  background-color: #FEFEFE;
+@media screen {
+  #fig7:before {
+    background-color: #E9E9E9;
+  }
+
+  #fig7 .source::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(100vw * -1);
+    width: 200vw;
+    height: 100%;
+    background-color: #FEFEFE;
+  }
 }
 
 #fig7 .translation {
   font-size: 18px;
   align-self: flex-start;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig7 .translation {
     font-size: 20px;
   }
 }
@@ -529,21 +683,71 @@ button.play:hover:after {
   padding: 8px 0;
   height: 100%;
   position: relative;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig7 .notes {
     padding: 14px 0;
   }
 }
 
 #fig7 .translation + .label {
   padding-top: 8px;
-
-  @media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  #fig7 .translation + .label {
     padding-top: 14px;
   }
 }
 
-/* visual indicators for annotations (provisional) */
+  /* print styles for figure 7 */
+@media print {
+  /* suppress decorative portions for now */
+  #fig7::before, #fig7 .source::before, #fig7 .notes::before, #fig7 .notes::after {
+    display: none;
+    height: 0;
+  }
+  /*
+  #fig7::before {
+    border-top: 4px double #E9E9E9;
+    left: calc(100vw * -1);
+    width: 200vw;
+  }
+  #fig7 .notes::before {
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 4px double #E9E9E9;
+  }*/
+
+  #fig7 .caption, #fig7 .label {
+    font-size: 12px;
+  }
+  #fig7 .source {
+    font-size: 24px;
+  }
+  #fig7 .translation {
+    font-size: 13px;
+  }
+  /* extend wider like side-scroll table; fits in two rows instead of three */
+  #fig7.interlude {
+    max-width: 7.51in;
+    margin: 0 -0.5in 35px;
+  }
+
+  /* docraptor doesn't seem to handle column gap, so use padding instead */
+  #fig7 .text {
+    column-gap: 0;
+  }
+  #fig7 .segment {
+    padding-right: 24px;
+    width: min-content;  /* not honored by or works differently with docraptor */  
+  }
+
+  #fig7 .translation {
+    white-space: break-spaces;
+  }
+}
+
+
+/* visual indicators for annotations */
 
 #fig7 .source {
   position: relative;
@@ -554,7 +758,7 @@ button.play:hover:after {
 #fig7 .notes::after {
   position: absolute;
   color: transparent;
-  content: 'aaaaaaaaaaaaaaaaaaaa';
+  content: ' ';
   writing-mode: vertical-lr;
   overflow: hidden;
   height: 100%;
@@ -633,4 +837,22 @@ button.play:hover:after {
 
 #fig7 .graphic .source {
   text-underline-offset: 10px;
+}
+
+@media print {
+  /* limit height of image in figure 1
+  (prevent taking up too much of the page and messing up page breaks) */
+  figure img {
+    max-height: 6.5in;
+  }
+
+  /* allow page breaks in these figures for better flow in the pdf */
+  #fig4.interlude, #fig3.interlude {
+    page-break-inside: auto;
+  }
+
+  #fig3.interlude blockquote {
+     page-break-inside: avoid;
+  }
+
 }
