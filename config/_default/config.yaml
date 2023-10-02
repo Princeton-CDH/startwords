@@ -12,7 +12,6 @@ timeout: 300s
 disableKinds:
   - taxonomy
   - term
-  - tag
 permalinks:
   issues: '/:sections/:slug/'
 

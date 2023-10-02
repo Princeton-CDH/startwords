@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## Issue 4
+
+- Typeface and type styles for Chinese characters (Noto TC and Noto Sans TC)
+- New python script for generating PDFs using DocRaptor API
+  - Updated print styles to work with DocRaptor 
+- New issue parameter to control how the width for wrapping the issue theme word on the issue list page
+- deepzoom shortcode now allows specifying an optional caption 
+- support for drop shadow on deep-zoom images with css class `shadow`
+- support for side-scrolling wide tables with table shortcode using css class 'side-scroll'
+- bugfix: single issue page doesn't include publication date
+- bugfix: On mobile, IIIF figures may result in a scroll trap
+- bugfix: Not enough space between intro text and feature text on homepage when there are only two feature articles
+- bugfix: Author link icon 🔗 disappears against background in dark mode
+- updated to Hugo v0.119
+
 ## 2022-08-10 updates
 
 - New custom shortcode for embedding collapsed source code in documents

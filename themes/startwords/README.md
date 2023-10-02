@@ -15,7 +15,7 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 - Article order in an issue is configurable. The first two articles will be displayed as featured essays highlighted side by side on the issue page; all other articles will be listed by title in the order specified.
 - Layouts: custom content types include feature articles [available under [layouts/article](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/article)], single issues, and list of issues [both available under [layouts/issue](https://github.com/Princeton-CDH/startwords/tree/master/themes/startwords/layouts/issue)].
 - To retain the simplest directory structure that will give us the URLs we want, articles are placed in an issue number directory and have `type:article` specified in the page metadata.
-- An essay can be either a "feature" or a "snippet." The placement of an issue's features and snippets are determined by order and the number of features in that issue (the features come first, while snippets are listed at the bottom of the page). By default, each issue has two features, but that can be customized by setting `num_features` in the issue's YAML metadata. For example, if an issue with 5 essays is set to `num_features = 3`, then the first 3 essays will appear as features, and the final 2 essays will appear as snippets. A maximum of 5 features is currently supported.
+- An essay can be either a "feature" or a "snippet." The placement of an issue's features and snippets are determined by order and the number of features in that issue (the features come first, while snippets are listed at the bottom of the page). By default, each issue has two features, but that can be customized by setting `num_features` in the issue's YAML metadata. For example, if an issue with 5 essays is set to `num_features: 3`, then the first 3 essays will appear as features, and the final 2 essays will appear as snippets. A maximum of 5 features is currently supported.
 - Issue-specific contributors can be specified in issue index metadata via `contributors` parameter, for display on the single-issue detail page, underneath the issue contents.  Provide the role or title and a list of one or more names. For example:
 ```yaml
 contributors:
@@ -69,6 +69,10 @@ hugo new --kind issue issues/4
 
 In `content/issues/4/_index.md` file, you'll then need to set metadata like `theme` and `contributors`.
 
+Issue theme words are automatically wrapped on the issue list page unless they are under less than 7 characters long. To override the default wrap width, use `theme_wrap_width`; it is recommended to set the wrap width in rem.
+
+You should also add the name(s) of the authors of the issue introduction in two places: first, add that name as an entry in `data/authors.yml`. Second, add the LastnameFirstname slug of that author or authors into the metadata of the `content/issues/4/_index.md` file.
+
 And to draft a new article named "A Cup of Tea", run these commands, again at the project's top-level directory:
 
 ```sh
@@ -101,10 +105,12 @@ Example use:
 
 Use to embed an [OpenSeaDragon](http://openseadragon.github.io/) zoomable image viewer. The OpenSeaDragon javascript library will be automatically added to pages that use this shortcode. Multiple deep zoom images are supported on a page.
 
+The deepzoom shortcode supports an optional `caption` attribute; the caption may include markdown formatting.
+
 Example use:
 
 ```
-{{< deepzoom tile="http://iiif.example.com/image-id/info.json" alt="Interactive zoomable viewer showing a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub." height="10em">}}
+{{< deepzoom tile="http://iiif.example.com/image-id/info.json" alt="Interactive zoomable viewer showing a rubber duck sitting in a bathtub." pdf-img="http://example.com/duck.png" pdf-alt="A rubber duck sitting in a bathtub." height="10em" caption="**Figure N.** ...">}}
 ```
 
 When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive deep zoom viewer displaying a high resolution capture of this object.`.
@@ -116,6 +122,7 @@ When pages using this shortcode are rendered as a PDF, the interactive viewer wi
 - `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
 - `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
 - `height`, optional: vertical size of the viewer. defaults to `30em`.
+- `class`, optional: specify a CSS class for styling; use `class="shadow"` to add a box-shadow to help light-colored images standout on light page background
 
 [view source](layouts/shortcodes/deepzoom.html)
 
@@ -175,12 +182,16 @@ Example use for a chart or graph, with long description:
 - `attr`, optional: attribution text to be shown underneath the figure.
 - `attrlink`, optional: URL for making `attr` text a hyperlink.
 - `desc-id`, optional: html id of an element containing longer descriptive text.
+- `max-height`, optional: restrict the height of the image for display; must be in a size supported by CSS, e.g. `max-height="300px`
+- `max-width`, optional: restrict the width of the image for display, e.g. for a lower-resolution image; must be in a size supported by CSS, e.g. `max-width="300px`
 
 [view source](layouts/shortcodes/figure.html)
 
 ### table
 
 While Hugo's default markdown handler — Goldmark — converts markdown tables to HTML tables, there's currently no way to add captions. This table shortcode takes a `caption` parameter to include as the `<caption>` for the table generated by the markdown; it also takes an optional `class` parameter to set a css class on the table.
+  
+For wider tables that need to be horizontally scrollable, add the class `side-scroll`.
 
 Adapted from [Will Schenk's table shortcode](https://willschenk.com/articles/2020/styling_tables_with_hugo/).
 

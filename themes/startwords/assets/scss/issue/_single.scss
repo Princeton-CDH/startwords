@@ -14,6 +14,8 @@ body.issue {
         padding-top: rem(45px);
         min-height: 100vh;
 
+        .pubdate { font-weight: 400; }
+
         // summary is a <div> containing rich text here
         .summary {
             margin: 0;

@@ -10,7 +10,7 @@
     color: #E0CEFF;
     font-weight: 300;
     font-size: 16px;
-    font-family: 'IBM Plex Serif', 'Palatino', serif;
+    font-family: $font-serif;
 
     /* use pseudo element to absolutely position a full-width
     background color behind everything else inthe interlude */
@@ -60,6 +60,10 @@
     strong {
         font-weight: 700;
         clear: both;
+    }
+
+    a {
+        color: #E0CEFF;
     }
 
     @media print {

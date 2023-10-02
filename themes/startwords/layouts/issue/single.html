@@ -11,6 +11,7 @@
     <div class="issue-summary grid">
         <div class="container">
             <span class="number">{{ i18n "issue" }} {{ .Params.number }}</span>
+            {{ partial "pubdate" . }}
             <h1 class="theme">{{ .Params.theme }}</h1>
             <div class="summary">
                 {{ .Content }}

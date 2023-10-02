@@ -95,8 +95,8 @@ DoroudianGissoo:
   website: https://dynamicdor.com/
 BudakNick:
   name: Nick Budak
-  title: Digital Humanities Developer
-  affiliation: Center for Digital Humanities at Princeton
+  title: Software Developer, Library Technology
+  affiliation: Stanford Libraries
   orcid: https://orcid.org/0000-0002-4542-0899
 LiXinyi:
   name: Xinyi Li
@@ -114,3 +114,19 @@ WythoffGrant:
   affiliation: Center for Digital Humanities at Princeton
   orcid: 0000-0002-6605-9596
   website: https://wythoff.net
+ShieldsAnna:
+  name: Anna M. Shields
+  title: Professor of East Asian Studies
+  affiliation: Princeton University
+  website: https://eas.princeton.edu/people/anna-shields
+WenXin:
+  name: Xin Wen 文欣
+  title: Assistant Professor of East Asian Studies
+  affiliation: Princeton University
+  website: https://eas.princeton.edu/people/xin-wen
+RomingerGian:
+  name: Gian Rominger
+  title: Assistant Professor, Asian Languages & Literature
+  affiliation: University of Washington
+  website: https://asian.washington.edu/people/gian-rominger
+  orcid: 0000-0002-0952-2783

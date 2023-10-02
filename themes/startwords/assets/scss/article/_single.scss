@@ -119,11 +119,13 @@ body.article article, body.page article {
             th {
                 font-weight: 600;
                 padding: 0 0.5rem 0.5rem 0;
+                vertical-align: bottom;
                 }
             // tabular data cells
             td {
                 font-weight: 400;
                 padding: 0.25rem 0.5rem 0.25rem 0;
+                vertical-align: top;
             }
             caption {
                 caption-side: bottom;
@@ -137,6 +139,26 @@ body.article article, body.page article {
                 text-align: left;
                 margin: 0;
             }
+            // opt-in only: make tables scroll horizontally
+            &.side-scroll {
+                display: block;
+                max-width: -moz-fit-content;
+                max-width: fit-content;
+                margin: 0 auto;
+                overflow-x: auto;
+                white-space: nowrap;
+
+                /* on larger screens, extend sideways one grid column on each side */
+                @media (min-width: $breakpoint-m) {
+                    margin: 0 -10vw;
+                }
+
+                // limit caption width and wrap so it is full visible by default
+                caption {
+                    max-width: 80vw;
+                    white-space: normal;
+                }
+            }
         }
 
         // block quotes
@@ -147,7 +169,7 @@ body.article article, body.page article {
             p {
                 margin: 0;
                 font-style: italic;
-                font-weight: 400;
+                font-weight: 300;
             }
 
             cite {
@@ -234,6 +256,16 @@ body.article article, body.page article {
 
     .deepzoom {
         width: 100%;
+
+        &.shadow {
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        /* limit height to avoid scroll traps on mobile */
+        max-height: 50vh;
+        @media (min-width: $breakpoint-xs) {
+            max-height: auto;
+        }
     }
 
     .video-embed-wrapper {

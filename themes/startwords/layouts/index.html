@@ -9,17 +9,19 @@
 {{ define "main" }}
 <main>
     <h1 class="sr-only">{{ .Site.Title }}</h1>
+    <div class="inverted">
+        {{ partial "translations.html" . }}
+    </div>
     <div class="logotype">
         <img alt="" src="/logotype.svg" />
     </div>
     <div class="issue-summary inverted grid">
-
         <div class="container">
-            {{ partial "translations.html" . }}
             {{/* get issues for the current language; fill in with all issues; then choose the first. */}}
             {{ $issues := where .Site.Pages "Type" "issue" | lang.Merge (where .Site.AllPages "Type" "issue") }}
             {{ $issue := index ($issues) 0 }}
             <span class="number">{{ i18n "issue" }} {{ $issue.Params.number }}</span>
+            {{ partial "pubdate" $issue }}
             <h2 class="theme">{{ $issue.Params.theme }}</h2>
             <p class="summary">
                 {{ $issue.Summary | plainify }}

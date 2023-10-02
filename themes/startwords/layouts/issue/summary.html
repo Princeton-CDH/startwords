@@ -1,5 +1,6 @@
 <article class="issue-summary">
     <p class="number">{{ i18n "issue" }} {{ .Params.number }}</p>
     {{ partial "pubdate" . }}
-    <h2 class="theme {{ if le (len .Params.theme) 7 }}no-wrap{{end}}">{{ .Params.theme }}</h2>
+    <h2 class="theme {{ if le (len .Params.theme) 7 }}no-wrap{{ end }}"
+    {{ with .Params.theme_wrap_width }}style="width: {{ . }}"{{ end }}>{{ .Params.theme }}</h2>
 </article>

@@ -19,8 +19,9 @@ $transparent-grey: rgba(128, 128, 128, 0.5);
 $transparent-red: rgba(206, 41, 73, 0.6);
 
 // font controls
-$font-sans:  'Source Sans Pro', 'Arial', sans-serif;
-$font-serif: 'IBM Plex Serif', 'Palatino', serif;
+// Noto Serif TC and Noto Sans TC are first; using unicode-range to apply where needed
+$font-sans:  'Noto Sans TC', 'Source Sans Pro', 'Arial', sans-serif;
+$font-serif: 'Noto Serif TC', 'IBM Plex Serif', 'Palatino', serif;
 $base-font-size: 18px; // = 1rem
 
 // breakpoints
@@ -37,3 +38,11 @@ $breakpoint-fullwidth-notes: 414px;
 $gutter: 10px;
 $grid-gap: 10px;
 $grid-column: calc((100vw - (2 * #{$gutter}) - (9 * #{$grid-gap})) / 10);
+
+
+:root {
+  --font-sans: #{$font-sans};
+  --font-serif: #{$font-serif};  
+  --purple: #{$purple};
+}
+
