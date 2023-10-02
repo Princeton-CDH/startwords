@@ -88,7 +88,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
   For these examples, see David Schaberg, “Speaking of Documents: 
   <em>Shu</em> Citations in Warring States Texts,” in <cite>Origins of Chinese Political 
   Philosophy: Studies in the Composition and Thought of the ‘Shangshu’
-  (Classic of Documents)</cite>, ed. Martin Kern and Drik Meyer (Leiden: Brill, 2017), 320–59.
+  (Classic of Documents)</cite>, ed. Martin Kern and Dirk Meyer (Leiden: Brill, 2017), 320–59.
 </p>
 <blockquote>
   <div class="source">
@@ -106,7 +106,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
       acting without words was thus <span class="g1">harmonious</span>.
     </p>
     <footer>
-      From the chapter <span lang="zh">《毋逸》</span> “Do not Indulge”, from the
+      From the chapter “Do not Indulge” (<i>wu yi </i><span lang="zh">毋逸</span>), from the
       <cite class="book">Book of Documents</cite> (<cite class="book">Shang shu</cite> <span lang="zh">尚書</span>)
     </footer>
   </div>
@@ -126,7 +126,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
       speak, he was <span class="g1">joyous</span>.’
     </p>
     <footer>
-      From the chapter <span lang="zh">《檀弓下》</span>“Tan Gong II”, from the
+      From the chapter “Tan Gong II” (<span lang="zh">檀弓下</span>), from the
       <cite class="book">Book of Rites</cite> (<cite class="book">Li ji</cite> <span lang="zh">禮記</span>)
     </footer>
   </div>
@@ -152,9 +152,7 @@ Another problem is the graphic variation common in early forms of Chinese, espec
 </blockquote>
 {{</wrap>}}
 
-Fortunately, previous scholarship has grappled with many of these issues, and historical secondary sources offer an intriguing source of semi-structured data in the form of commentaries, dictionaries, and other scholarly work.[^add] The *Qieyun* 切韻, a rhyme dictionary compiled in 601 CE, is an important example: it records normative reading practices that represent a compromise between then-current Northern and Southern styles of pronouncing of glyphs in the classical texts from early China. Modern reconstructions of Old Chinese phonology draw heavily on the *Qieyun* and its later redactions, as these texts provide a formal structure and closed system of phonological distinctions for the underlying Middle Chinese.
-
-[^add]: David Schaberg, "Speaking of Documents: *Shu* Citations in Warring States Texts," in *Origins of Chinese Political Philosophy*, ed. Martin Kern and Dirk Meyer (Leiden: Brill, 2017), 320--359. Paul Zumthor, *Toward a Medieval Poetics* (Minneapolis: University of Minnesota Press, 1992).
+Fortunately, previous scholarship has grappled with many of these issues, and historical secondary sources offer an intriguing source of semi-structured data in the form of commentaries, dictionaries, and other scholarly work. The *Qieyun* 切韻, a rhyme dictionary compiled in 601 CE, is an important example: it records normative reading practices that represent a compromise between then-current Northern and Southern styles of pronouncing of glyphs in the classical texts from early China. Modern reconstructions of Old Chinese phonology draw heavily on the *Qieyun* and its later redactions, as these texts provide a formal structure and closed system of phonological distinctions for the underlying Middle Chinese.
 
 {{< pullquote right `The often quite complex puns, rhymes, and wordplays of ancient texts remain hidden below their surface forms.` >}}
 
@@ -168,7 +166,7 @@ The stability of the script also led to problems over time. In China, generation
   Standard Mandarin Chinese. Rhyming words are underlined with their matching vowel sounds glowing; note in
   particular the disappearing rhymes in selection 1 from Middle
   Chinese to Modern Chinese, and in selection 2 from Old Chinese
-  to Middle Chinese. The asterisk (*) marks “best-guess” Old Chinese reconstructions by linguists based on historical evidence.
+  to Middle Chinese.
 </p>
 
 <table>
@@ -386,7 +384,7 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
     <div class="source"><p lang="zh">末何反</p></div>
     <div class="notes">
       <div class="translation">it is pronounced like <span lang="zh">末</span> + <span lang="zh">何</span> [ma]</div>
-      <div class="label">Phonetic</div>
+      <div class="label">Phonological</div>
     </div>
   </div>
   <div class="person segment">
@@ -407,7 +405,7 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
     <div class="source"><p lang="zh">磑音古代反</p></div>
     <div class="notes">
       <div class="translation">“mill” <span lang="zh">[磑]</span> is pronounced like <span lang="zh">古</span> + <span lang="zh">代</span> [gojH]</div>
-      <div class="label">Phonetic</div>
+      <div class="label">Phonological</div>
     </div>
   </div>
   <div class="person segment">
@@ -449,7 +447,7 @@ Only with such a digitized version of the *Jingdian Shiwen* and related texts ca
     <div class="source"><p lang="zh">迫音百</p></div>
     <div class="notes">
       <div class="translation">“compel” <span lang="zh">[迫]</span> is pronounced like <span lang="zh">百</span> [paek]</div>
-      <div class="label">Phonetic</div>
+      <div class="label">Phonological</div>
     </div>
   </div>
 </div>
