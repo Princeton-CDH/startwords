@@ -18,7 +18,7 @@ Chang'an (modern Xi'an, Shaanxi province) is one of the most renowned cities in 
 
 Because of Chang'an's historical significance, there have been efforts to map it since the Han dynasty.[^1] The earliest extant maps date to 1080 in the Northern Song dynasty (960--1127), when a group of local elites created a map of the city itself and maps of the palaces.[^2] These maps are also the earliest city maps in Chinese history. Subsequently, maps of Chang'an were made often as a part of a "local gazetteer," a kind of geographically based compilation of local historical information.[^3] Such production continued into, and in many cases beyond, the Qing dynasty (1644--1911). In the twentieth century, historians and geographers began producing a kind of "historical map" (*lishi ditu*) that was intended to show the geographical contours of a place in a specific historical period. Chang'an, once again, was a center of scholarly interest in the production of such maps.[^4]
 
-{{<pullquote left `During the building of an extensive subway system in 2006, many ancient tombs, old sites, and forgotten treasure hoards were excavated and rediscovered.`>}}
+{{< pullquote left `During the building of an extensive subway system in 2006, many ancient tombs, old sites, and forgotten treasure hoards were excavated and rediscovered.` >}}
 
 Yet, two trends that accelerated in the late twentieth century threaten to make these thoughtfully crafted historical maps obsolete, while offering new opportunities to reconceptualize how we represent Chang'an geographically. The first is new archaeological discoveries that have been appearing at a breathtaking pace. Because of the explosive economic development of Xi'an in the past half century and the accompanying construction of new infrastructure --- notably during the building of an extensive subway system in 2006 --- many ancient tombs, old sites, and forgotten treasure hoards were excavated and rediscovered. In the span of one year from 2021 to 2022, for instance, archaeologists found over 1,200 old tombs just from the west side of the city.[^5] These finds substantially changed our understanding of the shape of the city. When I visited an archaeological site in the summer of 2023, I observed how archaeologists uncovered a previously unknown section of the Zhuque boulevard --- the main north-south axis of the Tang city --- and found five unrecorded bridges over the boulevard. Such new discoveries far outpace the revision of traditional print books and atlases and cannot be properly and promptly reflected in these works.
 
@@ -39,6 +39,14 @@ First, the eleventh-century cartographers made use of a wide range of data, incl
 Second, the method of incorporating these data on a two-dimensional surface is also revolutionary. For the core of the map --- the Sui-Tang city and the three Tang palaces --- the cartographers strived to represent them accurately by following a consistent scale of conversion, about 1:7,666. Within this core, information regarding specific places is included on the basis of textual information. For instance, for the Pingkang Ward to the northeast of the city, a ward renowned among the 110 or so wards in the city for its pleasure quarters, the map includes the name of the ward itself (*Pingkang fang* 平康坊) carved in the middle of the ward; the names of important sites are placed in different areas of the ward, including Buddhist monasteries and the residences of famous officials like Chu Suiliang (596--658). These sites are represented by a simple line drawing of a small house, reflecting the influence of Chinese painting at the time.[^10] In reality, however, each of these residences and monasteries must have consisted of many individual units of houses. Beyond the city core, areas were represented primarily for inclusion rather than precision.[^11] The entire southern suburb of the city, which stretched for about thirty to fifty kilometers from the southern wall of the Sui-Tang city to the Zhongnan mountains, was compressed into a narrow strip at the bottom of the map.
 
 {{< figure src="images/pingkang-ward-map.png" alt="Close-up view of a section of a map containing a few houses and the roads between them." caption="**Figure 1.** Pingkang Ward according to the Chang'an tu." attr="Peking University Rubbing of the Map published in Tang Yanjiu, vol. 21 (2015), plate 2.13." max-width="450px">}}
+{{< wrap class="txt-only" >}}
+#-----------------------------------------------------------------------------------
+| FIGURE.  Close-up view of a section of a map containing a few houses and the roads between them.
+|
+| CAPTION: **Figure 1.** Pingkang Ward according to the Chang'an tu."
+| ATTRIBUTION: Peking University Rubbing of the Map published in Tang Yanjiu, vol. 21 (2015), plate 2.13.
+#-----------------------------------------------------------------------------------
+{{</ wrap >}}
 
 From this brief introduction, we can see that, although remarkably accurate in its representation of the basic structures of the city (the walls, palaces, wards, and locations of gates), this unprecedented accomplishment in the early history of Chinese cartography nevertheless falls short in capturing the full richness of the city of Chang'an in a number of ways. Due to spatial limitations, the cartographers can only include a number of the most important sites, and in a much simplified way. This one map also cannot represent the changes that occurred within the space of the city, but rather combines parts of the city the developed from different times and places them on the same map. For instance, the Daming Palace was not part of the city's original plan but was instead built several decades into the Tang dynasty. In this way, the map is not an accurate reflection of the city at any specific time, but an atemporal picture. Finally, because of the need to produce a map that is largely square for easy viewing and reproduction, the cartographers had to sacrifice accuracy for areas outside of the city, and squeeze in as best they could places they deemed important. The result was a rather distorted picture of the areas around Chang'an.
 
@@ -71,6 +79,14 @@ There is a long tradition of writing about the city in China, and the writing ab
 Another related kind of local writing began with the Song dynasty *Chang'an zhi*, produced by Song Minqiu (1019--1079) in 1076.[^26] Song's work includes a historical survey of the Chang'an area, including a summary of government institutions, palaces, and cities in the Zhou, the Qin, and the Han dynasties, as well as the city in the Tang dynasty and counties around Chang'an. This work is organized according to two different principles. First, the editor separates the materials between the city and the counties around it. Then, on the city, the book follows a chronological order, focusing on the Han and the Tang dynasty. Within the chapters on the city, it then includes textual information about the locations and history of notable sites. For example, the entry on the Pingkang Ward in the Tang city (represented above in the map excerpt, Figure 1) includes detailed information about several notable structures within the ward. An edition of the book printed in 1468 uses large characters to describe the name and location of these structures, while the smaller, double-line notes explain their history and incorporate stories about these places.
 
 {{< figure src="images/gazetter-pingkang-ward.png" alt="Facsimile of a manuscript page showing several lines of Chinese characters." caption="**Figure 2.** Pingkang Ward according to the Chang'an zhi (1076)." attr="Ming dynasty edition of Chang'an zhi printed by Heyang Shutang in 1468." >}}
+{{< wrap class="txt-only" >}}
+#-----------------------------------------------------------------------------------
+| FIGURE.  Facsimile of a manuscript page showing several lines of Chinese characters.
+|
+| CAPTION: **Figure 2.** Pingkang Ward according to the Chang'an zhi (1076).
+| ATTRIBUTION: Ming dynasty edition of Chang'an zhi printed by Heyang Shutang in 1468.
+#-----------------------------------------------------------------------------------
+{{</ wrap >}}
 
 Therefore, unlike the thematically organized works mentioned above, the *Chang'an zhi* provides more concrete temporal and geographical information that can be associated with the texts it includes. For instance, we can "locate" the chunk of text about the residence of a notable historical figure geographically in a ward in the city, and temporally in the lifetime of this figure, which is often known or deducible from other sources. Because the *Chang'an zhi* provides the most complete list of Han and Tang place names in Chang'an and gives their location in a relatively concrete and reliable manner, it has long been the basis for the reconstruction of Chang'an in modern scholarship.[^27] I also use the *Chang'an zhi* as a basis for my reconstruction of the city (Figure 2).
 
@@ -94,12 +110,29 @@ In addition to these geographical texts devoted to Chang'an, the vast ocean of t
 The second kind of data we possess in abundance now comes from archaeology. Unlike textual sources, whose geographical information can often be fuzzy, archaeological data generally contain concrete geographical information. For instance, when a hoard of Tang treasures was discovered in 1970, we know *precisely* where it was discovered: a modern village called Hejiacun (Figure 4).[^29] Then, cross-referencing with textual sources from *Chang'an zhi* and others, we can determine that this hoard was located in the southwestern part of the Xinghua Ward on the west side of Chang'an.
 
 {{< figure src="images/golden-bowl-hejia-village.jpg" alt="A golden bowl with decorative patterns and animals engraved along the side." caption="**Figure 4.** A Golden Bowl from the Hejia Village Hoard. Artifacts like these allow us to link abstract textual descriptions of a place with their geographic location." attr="Wikimedia Commons." attrlink="https://commons.wikimedia.org/wiki/File:%E9%B8%B3%E9%B8%AF%E8%8E%B2%E7%93%A3%E7%BA%B9%E9%87%91%E7%A2%97_20091112.jpg" >}}
+{{< wrap class="txt-only" >}}
+#-----------------------------------------------------------------------------------
+| FIGURE.  A golden bowl with decorative patterns and animals engraved along the side.
+|
+| CAPTION: **Figure 4.** A Golden Bowl from the Hejia Village Hoard. Artifacts like these allow us to link abstract textual descriptions of a place with their geographic location.
+| ATTRIBUTION: Wikimedia Commons.
+| LINK: https://commons.wikimedia.org/wiki/File:%E9%B8%B3%E9%B8%AF%E8%8E%B2%E7%93%A3%E7%BA%B9%E9%87%91%E7%A2%97_20091112.jpg
+#-----------------------------------------------------------------------------------
+{{</ wrap >}}
 
 Thousands of similar archaeological discoveries, from tombs and building foundations to ancient wells and gates, have been made in the past few decades. Almost all of them, when documented in official reports, are placed with a precise location that can be associated with a Tang or Han dynasty place. In this way, these archaeological data can be easily connected to the textual database. Our knowledge about their precise locations means that these archaeological data more easily lend themselves to geometric abstractions than does most textual information.
 
 Furthermore, archaeology does not simply provide additional data, but can help revise and refine the textual data too. The archaeological work on the city itself --- its walls, gates, bridges, and palaces --- gives us a more precise picture of the shape of the city than textual sources and offers details unrecorded in texts. For instance, the excavation of what used to be the Western Market --- the center of foreign trade in Tang Chang'an --- revealed details about the internal structure of the market area, including the bridges and water system that must have been crucial to the function of the city (Figure 5). None of these details are recorded in textual sources. Such archaeological data complement, correct, and enrich textual data; a full picture of the city can only become possible if both types of sources are thoroughly incorporated.
 
 {{< figure src="images/stone-bridge-western-market.jpg" alt="The excavation of an ancient bridge in the middle of a modern city street." caption="**Figure 5.** Excavation of a Stone Bridge in the Western Market of Tang Chang'an." attr="Photo taken by the author." >}}
+{{< wrap class="txt-only" >}}
+#-----------------------------------------------------------------------------------
+| FIGURE.  The excavation of an ancient bridge in the middle of a modern city street.
+|
+| CAPTION: **Figure 5.** Excavation of a Stone Bridge in the Western Market of Tang Chang'an.
+| ATTRIBUTION: Photo taken by the author.
+#-----------------------------------------------------------------------------------
+{{</ wrap >}}
 
 What can we do with a database that incorporates both textual and archaeological information? And how would this "deep map" differ from the existing maps surveyed above? At this point, in the beginning of my project, I can only offer a few conjectural remarks.
 
