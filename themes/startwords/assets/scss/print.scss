@@ -370,6 +370,20 @@ iframe {
     }
 }
 
+body.article article  {
+    h2#acknowledgments {
+        font-size: 14px;
+        text-align: center;
+    }
+    #acknowledgments ~ p {
+        font-size: 12px;
+    }
+    #acknowledgments ~ p:last-of-type {
+        margin-bottom: 120px;
+    }
+}
+
+
 /* table styles */
 body.article article table {
 

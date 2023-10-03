@@ -78,9 +78,21 @@ body.article {
 
             .formats a { margin-right: rem(5px); }
         }
+
+        h2#acknowledgments {
+            margin-top: rem(120px);
+            font-size: rem(18px);
+            text-align: center;
+        }
+        #acknowledgments ~ p {
+            font-size: rem(16px);
+        }
+
     }
 
 }
+
+
 
 // common styles for articles and content pages
 body.article article, body.page article {
@@ -328,7 +340,9 @@ details.code {
         background-color: #272822;
         }
     }
+
 }
+
 
 /* fallback content included to be shown in TXT version only */
 .txt-only {
