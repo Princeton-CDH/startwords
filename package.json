@@ -23,5 +23,8 @@
   "homepage": "https://startwords.cdh.princeton.edu/",
   "engines": {
     "node": ">=18"
+  },
+  "volta": {
+    "node": "18.18.0"
   }
 }
