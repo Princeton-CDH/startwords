@@ -3,11 +3,6 @@ name: hugo i18n check
 on:
   pull_request:
 
-# versions should be kept in sync with gh-pages and lighthouse-ci workflow
-env:
-  HUGO_VERSION: 0.119.0  # if you update this, change the README badge and lighthouse-ci.yml too!
-  NODE_VERSION: 18 # if you update this, change the README badge and lighthouse-ci.yml too!
-
 jobs:
   build-deploy:
     name: Check Hugo i18n translations
@@ -17,11 +12,17 @@ jobs:
     - name: checkout repository
       uses: actions/checkout@v3
 
+    - name: Get Hugo version
+      run: echo "HUGO_VERSION=$(cat .hugo_version)" >> $GITHUB_ENV
+
     - name: setup hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
+
+    - name: Get node version from package.json
+      run: echo "NODE_VERSION=$(cat package.json | jq -r '.volta.node')" >> $GITHUB_ENV
 
     - name: setup node.js
       uses: actions/setup-node@v2-beta
