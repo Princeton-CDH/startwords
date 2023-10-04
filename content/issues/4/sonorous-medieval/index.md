@@ -9,7 +9,7 @@ authors:
     - RomingerGian
 date: 2023-10-02
 doi: 10.5281/zenodo.8380841
-pdf: https://zenodo.org/record/8380842/files/startwords-4-sonorous-medieval.pdf
+pdf: https://zenodo.org/record/8408357/files/startwords-4-sonorous-medieval.pdf
 images: ["issues/4/sonorous-medieval/images/sonorous-medieval-social.png"]
 summary: A distinctive set of challenges arises when training machines to process a historical language, especially one that was last spoken two millennia ago.
 hook_height_override: 175
