@@ -486,7 +486,7 @@ Our project continues the practice of reading classical texts as data, but with 
 
 ## Acknowledgments
 
-This work was made possible through our participation in the “[New Languages for NLP: Building Linguistic Diversity in the Digital Humanities](https://newnlp.princeton.edu/),” a National Endowment for Humanities Institute for Advanced Topics in the Digital Humanities. Our thanks to the organizers, Natalia Ermolaev and Andrew Janco, and to Toma Tasovac, Quinn Dombrowski, and David Lassner.
+This work was made possible through our participation in “[New Languages for NLP: Building Linguistic Diversity in the Digital Humanities](https://newnlp.princeton.edu/),” a National Endowment for Humanities Institute for Advanced Topics in the Digital Humanities. Our thanks to the organizers, Natalia Ermolaev and Andrew Janco, and to Toma Tasovac, Quinn Dombrowski, and David Lassner.
 
 We also thank Gissoo Doroudian and Rebecca Sutton Koeser, for their design and implementation of the figures of this article, in a lively exchange with Nick Budak. Figure 4 was further inspired by the work of Jeffrey R. Tharsen, whose work more generally has inspired many of the thoughts in this article.
 
