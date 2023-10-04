@@ -2,10 +2,7 @@ name: lighthouse ci
 
 on: [push]
 
-# versions should be kept in sync with gh-pages workflow
 env:
-    HUGO_VERSION: 0.119.0  # if you update this, change the README badge and gh-pages.yml too!
-    NODE_VERSION: 18  # if you update this, change the README badge and gh-pages.yml too!
     LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
 
 jobs:
@@ -17,11 +14,17 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
 
+      - name: Get Hugo version
+        run: echo "HUGO_VERSION=$(cat .hugo_version)" >> $GITHUB_ENV
+
       - name: setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
+
+      - name: Get node version from package.json
+        run: echo "NODE_VERSION=$(cat package.json | jq -r '.volta.node')" >> $GITHUB_ENV
 
       - name: setup node.js
         uses: actions/setup-node@v3
