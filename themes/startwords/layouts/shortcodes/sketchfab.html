@@ -10,6 +10,9 @@
         loading="lazy"
         src="https://sketchfab.com/models/{{ .Get `id` }}/embed?autospin=0.2&amp;autostart=0&amp;camera=0&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1">
     </iframe>
+    {{ with .Get `caption` }}
+    <figure><figcaption><p>{{ . | markdownify }}</p></figcaption></figure>
+    {{ end }}
     {{/* image, alt & caption rendered in pdf only, in place of viewer */}}
     {{ if (.Get "pdf-img") }}
     <figure class="preview">

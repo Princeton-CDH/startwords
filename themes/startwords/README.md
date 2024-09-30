@@ -137,12 +137,15 @@ Example use:
 
 When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive 3D viewer displaying a model of this object.`.
 
+The sketchfab shortcode supports an optional `caption` attribute; the caption may include markdown formatting.
+
 #### parameters
 
 - `id`, ID of the SketchFab object to be embedded; can be found in the URL to view the object.
 - `alt`, text used by assistive technology to describe the content of the viewer.
 - `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
 - `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
+- `caption`, optional: figure caption used on the web version of the article that will appear beneath the embedded SketchFab object.
 
 [view source](layouts/shortcodes/sketchfab.html)
 
