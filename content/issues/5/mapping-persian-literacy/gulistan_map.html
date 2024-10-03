@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7702a9bc5069a4248b7dd7916b599be4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7702a9bc5069a4248b7dd7916b599be4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7702a9bc5069a4248b7dd7916b599be4 = L.map(
+                "map_7702a9bc5069a4248b7dd7916b599be4",
+                {
+                    center: [30.3753, 69.3451],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2621324e77ffcc4cbe5871f1be6051d4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2621324e77ffcc4cbe5871f1be6051d4.addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var marker_cluster_38baf4a767d8a5d4baab8c480f1656c9 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_11ca1a65e1778238804264dc884d4eea = L.marker(
+                [24.747477265162548, 67.91003259065795],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_17f907ed3f1fb19351febe1f0e6534bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_11ca1a65e1778238804264dc884d4eea.setIcon(icon_17f907ed3f1fb19351febe1f0e6534bf);
+        
+    
+        var popup_4009259c7f58c01e43efa4fb2f60b595 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3eaedd7593755197b3b8a4f493fa76fb = $(`<div id="html_3eaedd7593755197b3b8a4f493fa76fb" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 953<br>         <b>Year (CE):</b> 1546-47<br>         <b>Place where manuscript was copied:</b> Thatta<br>         <b>Current location:</b> Lahore <br>         <b>Scribe:</b> nan<br>         <b>Script:</b> nan         </div>`)[0];
+                popup_4009259c7f58c01e43efa4fb2f60b595.setContent(html_3eaedd7593755197b3b8a4f493fa76fb);
+            
+        
+
+        marker_11ca1a65e1778238804264dc884d4eea.bindPopup(popup_4009259c7f58c01e43efa4fb2f60b595)
+        ;
+
+        
+    
+    
+            var marker_ef6f289ecf0a6444f7ea070dd8f4e2ce = L.marker(
+                [28.656462845458254, 77.23196280268479],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_6bbb586f3548387542d7edf13214501a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ef6f289ecf0a6444f7ea070dd8f4e2ce.setIcon(icon_6bbb586f3548387542d7edf13214501a);
+        
+    
+        var popup_892b585d3ce90b713f499df5a02c5351 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_c76faf3d6a63a7b5e731cf9a22414351 = $(`<div id="html_c76faf3d6a63a7b5e731cf9a22414351" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1086<br>         <b>Year (CE):</b> 1675<br>         <b>Place where manuscript was copied:</b>  Shahjahanabad<br>         <b>Current location:</b> Karachi<br>         <b>Scribe:</b> Muhammad Bin Ja‘far mukhatib ba Kifayat Khan<br>         <b>Script:</b> nan         </div>`)[0];
+                popup_892b585d3ce90b713f499df5a02c5351.setContent(html_c76faf3d6a63a7b5e731cf9a22414351);
+            
+        
+
+        marker_ef6f289ecf0a6444f7ea070dd8f4e2ce.bindPopup(popup_892b585d3ce90b713f499df5a02c5351)
+        ;
+
+        
+    
+    
+            var marker_07f1a43163ae6668b6c9c5dedb2adff3 = L.marker(
+                [31.526555016993743, 74.34606227394708],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_e8f8b3e29fa5583781d5d3debf6d7bad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_07f1a43163ae6668b6c9c5dedb2adff3.setIcon(icon_e8f8b3e29fa5583781d5d3debf6d7bad);
+        
+    
+        var popup_d11a9406e52d5aacf177a015800a8bd3 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_6ac9bd0bca1f2749d5c89dc533fd5aa8 = $(`<div id="html_6ac9bd0bca1f2749d5c89dc533fd5aa8" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1090<br>         <b>Year (CE):</b> 1679<br>         <b>Place where manuscript was copied:</b> Lahore<br>         <b>Current location:</b> Lahore <br>         <b>Scribe:</b> ‘Abd al-Rahman<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_d11a9406e52d5aacf177a015800a8bd3.setContent(html_6ac9bd0bca1f2749d5c89dc533fd5aa8);
+            
+        
+
+        marker_07f1a43163ae6668b6c9c5dedb2adff3.bindPopup(popup_d11a9406e52d5aacf177a015800a8bd3)
+        ;
+
+        
+    
+    
+            var marker_3a4c4376fcf1ad31854eb5ed7a1bc3e1 = L.marker(
+                [17.66089680325247, 75.90797429434237],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_364a1b904b41e7d014ca0677a69c9728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3a4c4376fcf1ad31854eb5ed7a1bc3e1.setIcon(icon_364a1b904b41e7d014ca0677a69c9728);
+        
+    
+        var popup_0c1c09d59f7b24a2edeba692d95b7e7a = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_a340ba04986af1846b37aca80be5a7a3 = $(`<div id="html_a340ba04986af1846b37aca80be5a7a3" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1097<br>         <b>Year (CE):</b> 1685<br>         <b>Place where manuscript was copied:</b> Solapur<br>         <b>Current location:</b> Karachi<br>         <b>Scribe:</b> Ibrahim Shirazi<br>         <b>Script:</b> Naskh         </div>`)[0];
+                popup_0c1c09d59f7b24a2edeba692d95b7e7a.setContent(html_a340ba04986af1846b37aca80be5a7a3);
+            
+        
+
+        marker_3a4c4376fcf1ad31854eb5ed7a1bc3e1.bindPopup(popup_0c1c09d59f7b24a2edeba692d95b7e7a)
+        ;
+
+        
+    
+    
+            var marker_dec930e7a4315d91055c972625732512 = L.marker(
+                [19.88026674609054, 75.33987704907811],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_d302c452fd5a9bdb6bc5b4ea676ab2ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dec930e7a4315d91055c972625732512.setIcon(icon_d302c452fd5a9bdb6bc5b4ea676ab2ca);
+        
+    
+        var popup_8a7b4bcab3f0b52e12a9d51f7b99e4d4 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_1ba7411b3adab59d37b0b5a1d8dd2952 = $(`<div id="html_1ba7411b3adab59d37b0b5a1d8dd2952" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1124<br>         <b>Year (CE):</b> 1712<br>         <b>Place where manuscript was copied:</b> Aurangabad<br>         <b>Current location:</b> Karachi<br>         <b>Scribe:</b> Muhammad Ma‘ruf<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_8a7b4bcab3f0b52e12a9d51f7b99e4d4.setContent(html_1ba7411b3adab59d37b0b5a1d8dd2952);
+            
+        
+
+        marker_dec930e7a4315d91055c972625732512.bindPopup(popup_8a7b4bcab3f0b52e12a9d51f7b99e4d4)
+        ;
+
+        
+    
+    
+            var marker_85b2e82e83bd2f50450487d34637d1bf = L.marker(
+                [32.043322460334295, 74.25641174450654],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_af7ed3a3169884ef02230545598a243e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_85b2e82e83bd2f50450487d34637d1bf.setIcon(icon_af7ed3a3169884ef02230545598a243e);
+        
+    
+        var popup_16058a22a071252d5d028aa47eb3ec82 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_54d578d0a1eab2683ab5a226ccca21e6 = $(`<div id="html_54d578d0a1eab2683ab5a226ccca21e6" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1100<br>         <b>Year (CE):</b> 1688-89<br>         <b>Place where manuscript was copied:</b> Eminabad<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> ‘Abd al-Salam sakin-i muza‘-i chak Jo’ardat amla parganah Eminabad<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_16058a22a071252d5d028aa47eb3ec82.setContent(html_54d578d0a1eab2683ab5a226ccca21e6);
+            
+        
+
+        marker_85b2e82e83bd2f50450487d34637d1bf.bindPopup(popup_16058a22a071252d5d028aa47eb3ec82)
+        ;
+
+        
+    
+    
+            var marker_844af01aa03c7d3fd206787428ee41af = L.marker(
+                [29.114056144211236, 77.77582164054272],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_0af460a84ac2959ba99ac3b180811aec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_844af01aa03c7d3fd206787428ee41af.setIcon(icon_0af460a84ac2959ba99ac3b180811aec);
+        
+    
+        var popup_f7818dca3122199a6f84ccf4be876a0f = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_1343660f6b3cbdbc179d08b17bf3431c = $(`<div id="html_1343660f6b3cbdbc179d08b17bf3431c" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1163<br>         <b>Year (CE):</b> 1750<br>         <b>Place where manuscript was copied:</b> Lawar<br>         <b>Current location:</b> Karachi<br>         <b>Scribe:</b> Shaykh Muhammad Panah walad Shaykh ‘Atiq Allah<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_f7818dca3122199a6f84ccf4be876a0f.setContent(html_1343660f6b3cbdbc179d08b17bf3431c);
+            
+        
+
+        marker_844af01aa03c7d3fd206787428ee41af.bindPopup(popup_f7818dca3122199a6f84ccf4be876a0f)
+        ;
+
+        
+    
+    
+            var marker_18db9bc3c0ec5dd491346f3ea0a99b37 = L.marker(
+                [34.161807079295, 74.81775815767271],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_6c9be853e671faf575f757ddaf3c26ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_18db9bc3c0ec5dd491346f3ea0a99b37.setIcon(icon_6c9be853e671faf575f757ddaf3c26ce);
+        
+    
+        var popup_e9a2e9ff01291c9db4e5b9452f90f608 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_76b88cb3417d387203ff0daafa0ca0d2 = $(`<div id="html_76b88cb3417d387203ff0daafa0ca0d2" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1175<br>         <b>Year (CE):</b> 1761-62<br>         <b>Place where manuscript was copied:</b> Rangpora<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Nasir<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_e9a2e9ff01291c9db4e5b9452f90f608.setContent(html_76b88cb3417d387203ff0daafa0ca0d2);
+            
+        
+
+        marker_18db9bc3c0ec5dd491346f3ea0a99b37.bindPopup(popup_e9a2e9ff01291c9db4e5b9452f90f608)
+        ;
+
+        
+    
+    
+            var marker_510304f4ad817b3b7908feeaae6cd283 = L.marker(
+                [32.187971062650796, 74.20031831736755],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_09515033c1f7da1cea69375ad524abcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_510304f4ad817b3b7908feeaae6cd283.setIcon(icon_09515033c1f7da1cea69375ad524abcc);
+        
+    
+        var popup_93691dab688b3c644935e029f67e8351 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d20c0b3e82ed92672e32fd64c4830159 = $(`<div id="html_d20c0b3e82ed92672e32fd64c4830159" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1176<br>         <b>Year (CE):</b> 1762-63<br>         <b>Place where manuscript was copied:</b> Gujranwala<br>         <b>Current location:</b> Sheikupura <br>         <b>Scribe:</b> Muhammad ‘Abd Allah bin Maulvi Muhammad Muqim sakin-i kase parganah Gujranwala<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_93691dab688b3c644935e029f67e8351.setContent(html_d20c0b3e82ed92672e32fd64c4830159);
+            
+        
+
+        marker_510304f4ad817b3b7908feeaae6cd283.bindPopup(popup_93691dab688b3c644935e029f67e8351)
+        ;
+
+        
+    
+    
+            var marker_6cc5383ef4bff50940bdccb8166c01f4 = L.marker(
+                [32.46238966937905, 74.1819229423273],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_1e3e074e44bf865b31aebf15e4cafc9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6cc5383ef4bff50940bdccb8166c01f4.setIcon(icon_1e3e074e44bf865b31aebf15e4cafc9e);
+        
+    
+        var popup_2144c9845bfd2d39da0c3ca969bfae75 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_e27d6f77fd8b62ee843079025062325c = $(`<div id="html_e27d6f77fd8b62ee843079025062325c" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1178<br>         <b>Year (CE):</b> 1764-65<br>         <b>Place where manuscript was copied:</b> Sodhrah<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Muhammad Wasil Qadri Shaykh Ansari sakin-i qasba-i Sohdra<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_2144c9845bfd2d39da0c3ca969bfae75.setContent(html_e27d6f77fd8b62ee843079025062325c);
+            
+        
+
+        marker_6cc5383ef4bff50940bdccb8166c01f4.bindPopup(popup_2144c9845bfd2d39da0c3ca969bfae75)
+        ;
+
+        
+    
+    
+            var marker_47b07f7c42ae2a1e3e74888a3ad42db9 = L.marker(
+                [32.53146531925988, 73.15180023558183],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_1e0b7b5b3b46f7a754f7ccf138b352fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_47b07f7c42ae2a1e3e74888a3ad42db9.setIcon(icon_1e0b7b5b3b46f7a754f7ccf138b352fa);
+        
+    
+        var popup_45028d3a3e6eaa303354bdabfa7e3eb8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_2d4b1b0e7e5182c3fb0e5e80b9f666e2 = $(`<div id="html_2d4b1b0e7e5182c3fb0e5e80b9f666e2" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1100s<br>         <b>Year (CE):</b> 1688 – 1785<br>         <b>Place where manuscript was copied:</b> Muzaffar Pur<br>         <b>Current location:</b> D.I. Khan<br>         <b>Scribe:</b> Ghulam Yasin walad Yasin ‘Abd al-Malik<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_45028d3a3e6eaa303354bdabfa7e3eb8.setContent(html_2d4b1b0e7e5182c3fb0e5e80b9f666e2);
+            
+        
+
+        marker_47b07f7c42ae2a1e3e74888a3ad42db9.bindPopup(popup_45028d3a3e6eaa303354bdabfa7e3eb8)
+        ;
+
+        
+    
+    
+            var marker_9bb2e9871462370481cf79abd9f5fac8 = L.marker(
+                [31.90104650697679, 74.51778999470966],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_7dd332cb2784325c5363dc7e16195682 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9bb2e9871462370481cf79abd9f5fac8.setIcon(icon_7dd332cb2784325c5363dc7e16195682);
+        
+    
+        var popup_829195f6bc46c6faeadd35536561e606 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_bf23e172759babf2bdbbff27ec30310e = $(`<div id="html_bf23e172759babf2bdbbff27ec30310e" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1203<br>         <b>Year (CE):</b> 1788-89<br>         <b>Place where manuscript was copied:</b> Meruwal<br>         <b>Current location:</b> Lahore <br>         <b>Scribe:</b> Ibrahim walad Khan Muhammad <br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_829195f6bc46c6faeadd35536561e606.setContent(html_bf23e172759babf2bdbbff27ec30310e);
+            
+        
+
+        marker_9bb2e9871462370481cf79abd9f5fac8.bindPopup(popup_829195f6bc46c6faeadd35536561e606)
+        ;
+
+        
+    
+    
+            var marker_3d34a82bc1b8f4884d39c733872076c2 = L.marker(
+                [32.10242570480027, 72.959798511952],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_6f743cdf7e0721dc0a690c666854d42e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3d34a82bc1b8f4884d39c733872076c2.setIcon(icon_6f743cdf7e0721dc0a690c666854d42e);
+        
+    
+        var popup_e53bbb2f469312f19000813f32428b15 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_18d1a697fd5410f5cb49d9aaf6c9848e = $(`<div id="html_18d1a697fd5410f5cb49d9aaf6c9848e" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1205<br>         <b>Year (CE):</b> 1790<br>         <b>Place where manuscript was copied:</b> Mateela<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> ‘Abd al-Hafiz walad Qurban ‘Ali sakin-i Matila Harlan<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_e53bbb2f469312f19000813f32428b15.setContent(html_18d1a697fd5410f5cb49d9aaf6c9848e);
+            
+        
+
+        marker_3d34a82bc1b8f4884d39c733872076c2.bindPopup(popup_e53bbb2f469312f19000813f32428b15)
+        ;
+
+        
+    
+    
+            var marker_e0271d033e58820a8509f9be0cdc03ac = L.marker(
+                [30.950682403052337, 70.86757582327304],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_cd5cd7c96225a7bb48f811221e8b8337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e0271d033e58820a8509f9be0cdc03ac.setIcon(icon_cd5cd7c96225a7bb48f811221e8b8337);
+        
+    
+        var popup_b3bee78a13ce75379b53ee82527313d8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3b2347ff7810ee698022cd065c42c8b9 = $(`<div id="html_3b2347ff7810ee698022cd065c42c8b9" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1216<br>         <b>Year (CE):</b> 1802<br>         <b>Place where manuscript was copied:</b> Sohianwala<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Faqir Muhammad Husayn walad Hafiz ‘Abdullah bin Shaykh abu al-Hasan mutavattin Qadeem Sohianwala amla parganah Bachcha<br>         <b>Script:</b> Nastaʿliq Pukhta         </div>`)[0];
+                popup_b3bee78a13ce75379b53ee82527313d8.setContent(html_3b2347ff7810ee698022cd065c42c8b9);
+            
+        
+
+        marker_e0271d033e58820a8509f9be0cdc03ac.bindPopup(popup_b3bee78a13ce75379b53ee82527313d8)
+        ;
+
+        
+    
+    
+            var marker_e399b6e7cf91f75b0aab5d4b3732bb78 = L.marker(
+                [27.725284329279628, 68.82266767157923],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_fec2d73d3fcf14d13e7634a4754874d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e399b6e7cf91f75b0aab5d4b3732bb78.setIcon(icon_fec2d73d3fcf14d13e7634a4754874d8);
+        
+    
+        var popup_f9447281e953de425cb7c7a62f14678e = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_0b610a6db1666908c04c6b1e70720976 = $(`<div id="html_0b610a6db1666908c04c6b1e70720976" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1235<br>         <b>Year (CE):</b> 1819-20<br>         <b>Place where manuscript was copied:</b> Sukkur<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Mir Ghulam Mustafa Sindhi Samar Sukkuri<br>         <b>Script:</b> Nastaʿliq Shikasta Amez         </div>`)[0];
+                popup_f9447281e953de425cb7c7a62f14678e.setContent(html_0b610a6db1666908c04c6b1e70720976);
+            
+        
+
+        marker_e399b6e7cf91f75b0aab5d4b3732bb78.bindPopup(popup_f9447281e953de425cb7c7a62f14678e)
+        ;
+
+        
+    
+    
+            var marker_3892745be91a7af9a78ce425e8e0009d = L.marker(
+                [32.18281090883205, 73.78884768650906],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_e373ddee71bcd126c30dbb757daf4306 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3892745be91a7af9a78ce425e8e0009d.setIcon(icon_e373ddee71bcd126c30dbb757daf4306);
+        
+    
+        var popup_9297c08215ac1f1c7008ef8b96e30d76 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_dfd0bd2236722df226643c62611c1e91 = $(`<div id="html_dfd0bd2236722df226643c62611c1e91" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1236<br>         <b>Year (CE):</b> 1820-21<br>         <b>Place where manuscript was copied:</b> Kot Jan Bakhsh<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Qutb al-Din walad Miyan Sahab Jan Muhammad mutavattin Kotli parganah Eminabad<br>         <b>Script:</b> Nastaʿliq Pukhta         </div>`)[0];
+                popup_9297c08215ac1f1c7008ef8b96e30d76.setContent(html_dfd0bd2236722df226643c62611c1e91);
+            
+        
+
+        marker_3892745be91a7af9a78ce425e8e0009d.bindPopup(popup_9297c08215ac1f1c7008ef8b96e30d76)
+        ;
+
+        
+    
+    
+            var marker_ee35f6a747967926bea8a0ee2715b3db = L.marker(
+                [27.02829842481711, 81.48880837519732],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_7fd91c426962c1b40fc37e5ea312357d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ee35f6a747967926bea8a0ee2715b3db.setIcon(icon_7fd91c426962c1b40fc37e5ea312357d);
+        
+    
+        var popup_99d1d9e5d6f1b9e18c1436ea82c5e92b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_e61c36f038948fa9866ff6fdcf9fe7b4 = $(`<div id="html_e61c36f038948fa9866ff6fdcf9fe7b4" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1241<br>         <b>Year (CE):</b> 1825-26<br>         <b>Place where manuscript was copied:</b> Kintoor<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Shaykh ‘Abd al-‘Ali<br>         <b>Script:</b> Shikasta           </div>`)[0];
+                popup_99d1d9e5d6f1b9e18c1436ea82c5e92b.setContent(html_e61c36f038948fa9866ff6fdcf9fe7b4);
+            
+        
+
+        marker_ee35f6a747967926bea8a0ee2715b3db.bindPopup(popup_99d1d9e5d6f1b9e18c1436ea82c5e92b)
+        ;
+
+        
+    
+    
+            var marker_463d834193ce6e73ae7bf273b6270691 = L.marker(
+                [34.0134427069472, 71.52976468263243],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_5f4706fac0c7849582856bc0860ee2c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_463d834193ce6e73ae7bf273b6270691.setIcon(icon_5f4706fac0c7849582856bc0860ee2c0);
+        
+    
+        var popup_dbb7f3131cf84f848f671eea2317ac26 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d1927229f75dafd612439c721a55101a = $(`<div id="html_d1927229f75dafd612439c721a55101a" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1243<br>         <b>Year (CE):</b> 1827<br>         <b>Place where manuscript was copied:</b> Peshawar<br>         <b>Current location:</b> Peshawar<br>         <b>Scribe:</b> Naʿim Allah Bin Mo‘iz Allah Khan Mehmand Peshawari<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_dbb7f3131cf84f848f671eea2317ac26.setContent(html_d1927229f75dafd612439c721a55101a);
+            
+        
+
+        marker_463d834193ce6e73ae7bf273b6270691.bindPopup(popup_dbb7f3131cf84f848f671eea2317ac26)
+        ;
+
+        
+    
+    
+            var marker_fbd4e87528091aeddac7e0830ee7522c = L.marker(
+                [13.86943409921083, 74.63356548148008],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_b7c3acd543a5df0d00f69d1eaca03993 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fbd4e87528091aeddac7e0830ee7522c.setIcon(icon_b7c3acd543a5df0d00f69d1eaca03993);
+        
+    
+        var popup_761b3a3d7bd8236b3f3db68b36934350 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_395084f3315816231eb2de19e8120ea2 = $(`<div id="html_395084f3315816231eb2de19e8120ea2" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1257<br>         <b>Year (CE):</b> 1841-42<br>         <b>Place where manuscript was copied:</b> Baindur<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Miyan Nayk Muhammad sakin-i muz‘-i Bandur<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_761b3a3d7bd8236b3f3db68b36934350.setContent(html_395084f3315816231eb2de19e8120ea2);
+            
+        
+
+        marker_fbd4e87528091aeddac7e0830ee7522c.bindPopup(popup_761b3a3d7bd8236b3f3db68b36934350)
+        ;
+
+        
+    
+    
+            var marker_71abc5508f458f4d28be75e6a6a29f22 = L.marker(
+                [26.427004849738104, 82.53270486217087],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_84d1c3cd8b27dab36832a7c5e0f7b569 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_71abc5508f458f4d28be75e6a6a29f22.setIcon(icon_84d1c3cd8b27dab36832a7c5e0f7b569);
+        
+    
+        var popup_04aba5d1a4fa33c5d7c28d34405457f9 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_90ae52e824025a67d47fbc87155d1ff0 = $(`<div id="html_90ae52e824025a67d47fbc87155d1ff0" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1261<br>         <b>Year (CE):</b> 1845<br>         <b>Place where manuscript was copied:</b> Akbarpur<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> nan<br>         <b>Script:</b> Shikasta Amez         </div>`)[0];
+                popup_04aba5d1a4fa33c5d7c28d34405457f9.setContent(html_90ae52e824025a67d47fbc87155d1ff0);
+            
+        
+
+        marker_71abc5508f458f4d28be75e6a6a29f22.bindPopup(popup_04aba5d1a4fa33c5d7c28d34405457f9)
+        ;
+
+        
+    
+    
+            var marker_b5b6c3934e44c383f053cd6a8b5ad3f0 = L.marker(
+                [31.64777985453002, 74.28587011217087],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_2236a38f8157ee95f5c670a43478deb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b5b6c3934e44c383f053cd6a8b5ad3f0.setIcon(icon_2236a38f8157ee95f5c670a43478deb3);
+        
+    
+        var popup_010b69c598eb14fd072a60127cff8fb8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_b972501ccb7b0f000b89880f2add8e3f = $(`<div id="html_b972501ccb7b0f000b89880f2add8e3f" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1263<br>         <b>Year (CE):</b> 1846-47<br>         <b>Place where manuscript was copied:</b> Ferozewala<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Sultan Ahmad sakin-i Ferozewala<br>         <b>Script:</b> Amez Pukhta         </div>`)[0];
+                popup_010b69c598eb14fd072a60127cff8fb8.setContent(html_b972501ccb7b0f000b89880f2add8e3f);
+            
+        
+
+        marker_b5b6c3934e44c383f053cd6a8b5ad3f0.bindPopup(popup_010b69c598eb14fd072a60127cff8fb8)
+        ;
+
+        
+    
+    
+            var marker_2c7d91f44ff648812b338da3dafaacb4 = L.marker(
+                [33.01073817136938, 73.35470719082421],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_dda184f3a2f3b6cacfc66bd29a0a5d88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2c7d91f44ff648812b338da3dafaacb4.setIcon(icon_dda184f3a2f3b6cacfc66bd29a0a5d88);
+        
+    
+        var popup_03f337093444de0421f966f69bc10963 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_a3cdf7b53f9195cce709ccb3feaa1575 = $(`<div id="html_a3cdf7b53f9195cce709ccb3feaa1575" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1263<br>         <b>Year (CE):</b> 1847<br>         <b>Place where manuscript was copied:</b> Domeli<br>         <b>Current location:</b> Lahore <br>         <b>Scribe:</b> Ghulam Rasul sakin-i Domeli Bokelan <br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_03f337093444de0421f966f69bc10963.setContent(html_a3cdf7b53f9195cce709ccb3feaa1575);
+            
+        
+
+        marker_2c7d91f44ff648812b338da3dafaacb4.bindPopup(popup_03f337093444de0421f966f69bc10963)
+        ;
+
+        
+    
+    
+            var marker_304415042ba8f2925b5ae9ef7127de22 = L.marker(
+                [31.608466866340713, 71.08622628249984],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_bf560288c8a336e515308bd0ca43cf84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_304415042ba8f2925b5ae9ef7127de22.setIcon(icon_bf560288c8a336e515308bd0ca43cf84);
+        
+    
+        var popup_d1b67ba7f06963bcaa85235596b246f5 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_e42c6ee8a7f12b1f9345801196f5743d = $(`<div id="html_e42c6ee8a7f12b1f9345801196f5743d" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1263<br>         <b>Year (CE):</b> 1847<br>         <b>Place where manuscript was copied:</b> Bhakkar<br>         <b>Current location:</b> Faisalabad <br>         <b>Scribe:</b> Nur ‘Alam Bin Miyan Ghulam Muhammad walad Hafiz Muhammad Kazim sakin-i Bhakkar<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_d1b67ba7f06963bcaa85235596b246f5.setContent(html_e42c6ee8a7f12b1f9345801196f5743d);
+            
+        
+
+        marker_304415042ba8f2925b5ae9ef7127de22.bindPopup(popup_d1b67ba7f06963bcaa85235596b246f5)
+        ;
+
+        
+    
+    
+            var marker_ce547b4fd43b1f320e6bbc00997b3f57 = L.marker(
+                [32.192549633456785, 72.48352950733656],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_343a90b121bdf8c01ce57f12f7848199 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ce547b4fd43b1f320e6bbc00997b3f57.setIcon(icon_343a90b121bdf8c01ce57f12f7848199);
+        
+    
+        var popup_5d975de56667cdeab1f16d7c8b7dcc50 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_2b3ccbfdc7ce5337d9afc35ff906b6a6 = $(`<div id="html_2b3ccbfdc7ce5337d9afc35ff906b6a6" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1269<br>         <b>Year (CE):</b> 1852-53<br>         <b>Place where manuscript was copied:</b> Shaho Wali<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> ‘Atta Allah walad Sabir Husayn<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_5d975de56667cdeab1f16d7c8b7dcc50.setContent(html_2b3ccbfdc7ce5337d9afc35ff906b6a6);
+            
+        
+
+        marker_ce547b4fd43b1f320e6bbc00997b3f57.bindPopup(popup_5d975de56667cdeab1f16d7c8b7dcc50)
+        ;
+
+        
+    
+    
+            var marker_59e68d9a9ba20f82e340e317920b28eb = L.marker(
+                [28.038721183861853, 69.68143477151291],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_12811c690da49f7053919f2830e2eb76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_59e68d9a9ba20f82e340e317920b28eb.setIcon(icon_12811c690da49f7053919f2830e2eb76);
+        
+    
+        var popup_ab85c555d5de3f330f27669ec3ab3682 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_df8b3194737dcdd879ccae41170c8eae = $(`<div id="html_df8b3194737dcdd879ccae41170c8eae" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1274<br>         <b>Year (CE):</b> 1857<br>         <b>Place where manuscript was copied:</b> Daharki<br>         <b>Current location:</b> D.I. Khan<br>         <b>Scribe:</b> ‘Abdul Hakim bin Ghauth al-Din ‘urf Maulvi Ghauth sakin-i Dharki <br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_ab85c555d5de3f330f27669ec3ab3682.setContent(html_df8b3194737dcdd879ccae41170c8eae);
+            
+        
+
+        marker_59e68d9a9ba20f82e340e317920b28eb.bindPopup(popup_ab85c555d5de3f330f27669ec3ab3682)
+        ;
+
+        
+    
+    
+            var marker_d10831c15c9d1d080c259d88c753883a = L.marker(
+                [33.93155627409911, 72.53670114224654],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_a90c4efdc65b24c4194a3be5a1d21b33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d10831c15c9d1d080c259d88c753883a.setIcon(icon_a90c4efdc65b24c4194a3be5a1d21b33);
+        
+    
+        var popup_0b4a65d43206837f7a9a69d37d466a4d = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_10d52a57149e77dee195fb75cde7b851 = $(`<div id="html_10d52a57149e77dee195fb75cde7b851" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1276<br>         <b>Year (CE):</b> 1859-60<br>         <b>Place where manuscript was copied:</b> Malak Mala<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Fazl Din<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_0b4a65d43206837f7a9a69d37d466a4d.setContent(html_10d52a57149e77dee195fb75cde7b851);
+            
+        
+
+        marker_d10831c15c9d1d080c259d88c753883a.bindPopup(popup_0b4a65d43206837f7a9a69d37d466a4d)
+        ;
+
+        
+    
+    
+            var marker_fc2b67db96f098e8ad0edd4bccd1aa24 = L.marker(
+                [31.49411683240998, 72.86023613618426],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_e73cb828ca25c61e1b1abf92a5808a84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc2b67db96f098e8ad0edd4bccd1aa24.setIcon(icon_e73cb828ca25c61e1b1abf92a5808a84);
+        
+    
+        var popup_4aec1637f38ae56054f618fb1216ae60 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_160281bed44cc49417a58fb081101199 = $(`<div id="html_160281bed44cc49417a58fb081101199" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1277<br>         <b>Year (CE):</b> 1860-61<br>         <b>Place where manuscript was copied:</b> Aminpur Bangla<br>         <b>Current location:</b> Lahore <br>         <b>Scribe:</b> Pir Bakhsh sakin-i Amin Pur<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_4aec1637f38ae56054f618fb1216ae60.setContent(html_160281bed44cc49417a58fb081101199);
+            
+        
+
+        marker_fc2b67db96f098e8ad0edd4bccd1aa24.bindPopup(popup_4aec1637f38ae56054f618fb1216ae60)
+        ;
+
+        
+    
+    
+            var marker_24b87db8123e67c8e9f06bacfd5fc789 = L.marker(
+                [34.010844129424484, 71.98712701164361],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_53b35fefa5fe767a2801708c0afb9b39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_24b87db8123e67c8e9f06bacfd5fc789.setIcon(icon_53b35fefa5fe767a2801708c0afb9b39);
+        
+    
+        var popup_50b8d7a2fc54c9cd373e378e9105e40b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_8a88946f8766f44a2982ea38163da3f6 = $(`<div id="html_8a88946f8766f44a2982ea38163da3f6" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1277<br>         <b>Year (CE):</b> 1860-61<br>         <b>Place where manuscript was copied:</b> Nowshera<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Miskin-i Zaman ‘Ajaib Khan Mehmand sakin-i Nowshera<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_50b8d7a2fc54c9cd373e378e9105e40b.setContent(html_8a88946f8766f44a2982ea38163da3f6);
+            
+        
+
+        marker_24b87db8123e67c8e9f06bacfd5fc789.bindPopup(popup_50b8d7a2fc54c9cd373e378e9105e40b)
+        ;
+
+        
+    
+    
+            var marker_59251aeae756d1cf0a71a36c2eccaf09 = L.marker(
+                [32.18449843643074, 73.02592878414471],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_893a4ae731b95d12f88a9021ec8cc583 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_59251aeae756d1cf0a71a36c2eccaf09.setIcon(icon_893a4ae731b95d12f88a9021ec8cc583);
+        
+    
+        var popup_9ac64b86ad55640c4b6089b33c2a7de1 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_501b6e2a7995570124e5b324a34482bc = $(`<div id="html_501b6e2a7995570124e5b324a34482bc" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1278<br>         <b>Year (CE):</b> 1861-62<br>         <b>Place where manuscript was copied:</b> Kot Momin<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Muhammad Riyaz walad Ghulam Habib sakin-i Gehla Pur<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_9ac64b86ad55640c4b6089b33c2a7de1.setContent(html_501b6e2a7995570124e5b324a34482bc);
+            
+        
+
+        marker_59251aeae756d1cf0a71a36c2eccaf09.bindPopup(popup_9ac64b86ad55640c4b6089b33c2a7de1)
+        ;
+
+        
+    
+    
+            var marker_cf4de062f7f7d4fcb92cf1f15ca23e9f = L.marker(
+                [32.29627274497572, 72.34891379976952],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_8ac2003968f80f8697353203d62f5e6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cf4de062f7f7d4fcb92cf1f15ca23e9f.setIcon(icon_8ac2003968f80f8697353203d62f5e6c);
+        
+    
+        var popup_e891673f83fa2b627e9fdd8a4cfa2fcd = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_89ff648bc2529f5a652c709b0db1853d = $(`<div id="html_89ff648bc2529f5a652c709b0db1853d" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1279<br>         <b>Year (CE):</b> 1862-63<br>         <b>Place where manuscript was copied:</b> Khushab<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Habib Allah walad Noor Bakhsh Arain sakin-i Khushab <br>         <b>Script:</b> Shikasta Amez         </div>`)[0];
+                popup_e891673f83fa2b627e9fdd8a4cfa2fcd.setContent(html_89ff648bc2529f5a652c709b0db1853d);
+            
+        
+
+        marker_cf4de062f7f7d4fcb92cf1f15ca23e9f.bindPopup(popup_e891673f83fa2b627e9fdd8a4cfa2fcd)
+        ;
+
+        
+    
+    
+            var marker_780074233b266b6c970e3ca930b4c23a = L.marker(
+                [32.517775323515274, 73.09933443811336],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_007b1d49b3ab8caec40164d1905ca16d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_780074233b266b6c970e3ca930b4c23a.setIcon(icon_007b1d49b3ab8caec40164d1905ca16d);
+        
+    
+        var popup_857e5a7f3576234ae526b495363c5d6a = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_9343666f8009eb6bca49d080b3ea5c2f = $(`<div id="html_9343666f8009eb6bca49d080b3ea5c2f" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1289<br>         <b>Year (CE):</b> 1872-73<br>         <b>Place where manuscript was copied:</b> Chak Saida<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Muhammad Riyaz Talib<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_857e5a7f3576234ae526b495363c5d6a.setContent(html_9343666f8009eb6bca49d080b3ea5c2f);
+            
+        
+
+        marker_780074233b266b6c970e3ca930b4c23a.bindPopup(popup_857e5a7f3576234ae526b495363c5d6a)
+        ;
+
+        
+    
+    
+            var marker_7706799c952f1de986cbd64addd72c64 = L.marker(
+                [32.06520144803641, 73.37497619670607],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_4141306e73d32fb71a203b805c971f1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7706799c952f1de986cbd64addd72c64.setIcon(icon_4141306e73d32fb71a203b805c971f1f);
+        
+    
+        var popup_b447307337b5997363a6227a3027053b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_47d2c2c49dfd885abc2e5cedae827b95 = $(`<div id="html_47d2c2c49dfd885abc2e5cedae827b95" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1291<br>         <b>Year (CE):</b> 1874-75<br>         <b>Place where manuscript was copied:</b> Dera Qaziyan<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Sakhi Muhammad walad Maulvi Allah Dita Qazi mutavattin Dera Qaziyan<br>         <b>Script:</b> Nastaʿliq Shikasta Khush         </div>`)[0];
+                popup_b447307337b5997363a6227a3027053b.setContent(html_47d2c2c49dfd885abc2e5cedae827b95);
+            
+        
+
+        marker_7706799c952f1de986cbd64addd72c64.bindPopup(popup_b447307337b5997363a6227a3027053b)
+        ;
+
+        
+    
+    
+            var marker_4fce448889c529a1b191840fbc404dd2 = L.marker(
+                [31.114680912760754, 74.4656243133548],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_7c9f338c0e4b82a5cd0222dab0c49971 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4fce448889c529a1b191840fbc404dd2.setIcon(icon_7c9f338c0e4b82a5cd0222dab0c49971);
+        
+    
+        var popup_d1c95bdc4235f2ef3d39fe1cde189e2c = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d7f7ed9a66c0a15dd10cd3edd763a18c = $(`<div id="html_d7f7ed9a66c0a15dd10cd3edd763a18c" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1291<br>         <b>Year (CE):</b> 1874<br>         <b>Place where manuscript was copied:</b> Kasur<br>         <b>Current location:</b> Lahore <br>         <b>Scribe:</b> Muhammad ‘Ashiq bin Khair al-Din bin Sher Muhammad<br>         <b>Script:</b> Nastaʿliqـ-o Naskh         </div>`)[0];
+                popup_d1c95bdc4235f2ef3d39fe1cde189e2c.setContent(html_d7f7ed9a66c0a15dd10cd3edd763a18c);
+            
+        
+
+        marker_4fce448889c529a1b191840fbc404dd2.bindPopup(popup_d1c95bdc4235f2ef3d39fe1cde189e2c)
+        ;
+
+        
+    
+    
+            var marker_7a4ee98d932cdd0b8a0610b7b09a232c = L.marker(
+                [32.87205011659054, 71.56924578963819],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_7c7934e538b6260ab34276f877e689b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7a4ee98d932cdd0b8a0610b7b09a232c.setIcon(icon_7c7934e538b6260ab34276f877e689b3);
+        
+    
+        var popup_2053271d541f7c29172736d741a43ebc = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_5c8028359a07e015a9e6b77f68dfa478 = $(`<div id="html_5c8028359a07e015a9e6b77f68dfa478" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1300<br>         <b>Year (CE):</b> 1882-83<br>         <b>Place where manuscript was copied:</b> Daud Khel<br>         <b>Current location:</b> Mianwali<br>         <b>Scribe:</b> Rang Muhammad walad Khushi Muhammad Turkman Pesha <br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_2053271d541f7c29172736d741a43ebc.setContent(html_5c8028359a07e015a9e6b77f68dfa478);
+            
+        
+
+        marker_7a4ee98d932cdd0b8a0610b7b09a232c.bindPopup(popup_2053271d541f7c29172736d741a43ebc)
+        ;
+
+        
+    
+    
+            var marker_e67ccc5a2754bc60b0e43227b63bc5a5 = L.marker(
+                [31.45979065319971, 72.15793475530839],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_5e4b4768fab1f6b5a5093c378d1c59a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e67ccc5a2754bc60b0e43227b63bc5a5.setIcon(icon_5e4b4768fab1f6b5a5093c378d1c59a2);
+        
+    
+        var popup_1b1509b44f91ee21813254e735c41fc1 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_970f19e0ddc583cea36231e172990220 = $(`<div id="html_970f19e0ddc583cea36231e172990220" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1200s<br>         <b>Year (CE):</b> 1785 – 1882<br>         <b>Place where manuscript was copied:</b> Kot Khan<br>         <b>Current location:</b> Lahore <br>         <b>Scribe:</b> Hafiz Allah bin Muhammad Yar ‘Ullabi mutavattin Kot Khan Muhammad Basra<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_1b1509b44f91ee21813254e735c41fc1.setContent(html_970f19e0ddc583cea36231e172990220);
+            
+        
+
+        marker_e67ccc5a2754bc60b0e43227b63bc5a5.bindPopup(popup_1b1509b44f91ee21813254e735c41fc1)
+        ;
+
+        
+    
+    
+            var marker_3460110f3de26abcac4e2dfc1daf5f12 = L.marker(
+                [31.621116144105947, 74.28235115792762],
+                {}
+            ).addTo(marker_cluster_38baf4a767d8a5d4baab8c480f1656c9);
+        
+    
+            var icon_eb1c06e684eb558dbf27a84b2626cf45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "scroll", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3460110f3de26abcac4e2dfc1daf5f12.setIcon(icon_eb1c06e684eb558dbf27a84b2626cf45);
+        
+    
+        var popup_5dae696bf4d092ae4b99b4f67b8894a4 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_45d5a09b6db072274d223aee48c1fe9a = $(`<div id="html_45d5a09b6db072274d223aee48c1fe9a" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1360<br>         <b>Year (CE):</b> 1941<br>         <b>Place where manuscript was copied:</b> Shahdara<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Malik Asif sakin-i Shahdra<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_5dae696bf4d092ae4b99b4f67b8894a4.setContent(html_45d5a09b6db072274d223aee48c1fe9a);
+            
+        
+
+        marker_3460110f3de26abcac4e2dfc1daf5f12.bindPopup(popup_5dae696bf4d092ae4b99b4f67b8894a4)
+        ;
+
+        
+    
+    
+            marker_cluster_38baf4a767d8a5d4baab8c480f1656c9.addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var marker_276d63a25e040d01170d6a76a80c26fe = L.marker(
+                [31.499853039958687, 74.30560749693369],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_94cf022e6ec3b9c3fd511544e7bb486b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_276d63a25e040d01170d6a76a80c26fe.setIcon(icon_94cf022e6ec3b9c3fd511544e7bb486b);
+        
+    
+        var popup_de94998e3041b7c2a4d83fb2cc5be362 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_7fd93ed1565476bc6d68c61ee2b3e3de = $(`<div id="html_7fd93ed1565476bc6d68c61ee2b3e3de" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1100s<br>         <b>Year (CE):</b> 1688 - 1785<br>         <b>Place where manuscript was copied:</b> Lahore<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Hafiz Ghulam Rasul<br>         <b>Script:</b> Nastaʿliq Pukhta         </div>`)[0];
+                popup_de94998e3041b7c2a4d83fb2cc5be362.setContent(html_7fd93ed1565476bc6d68c61ee2b3e3de);
+            
+        
+
+        marker_276d63a25e040d01170d6a76a80c26fe.bindPopup(popup_de94998e3041b7c2a4d83fb2cc5be362)
+        ;
+
+        
+    
+    
+            var marker_9f1482a9e2e45b42cb17755d3eb9612e = L.marker(
+                [31.633690305814888, 74.8708069455263],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_fc1ccabfde1dfb89fe7b15003b168df6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9f1482a9e2e45b42cb17755d3eb9612e.setIcon(icon_fc1ccabfde1dfb89fe7b15003b168df6);
+        
+    
+        var popup_0bd29d257570dd0dfd96fe5d9cb4af3a = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3e82d59d56ef29e8dc84327a04029819 = $(`<div id="html_3e82d59d56ef29e8dc84327a04029819" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1278<br>         <b>Year (CE):</b> 1861-62<br>         <b>Place where manuscript was copied:</b> Olakh<br>         <b>Current location:</b> karachi<br>         <b>Scribe:</b> Ghulam Ahmad walad Muhammad Hashim<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_0bd29d257570dd0dfd96fe5d9cb4af3a.setContent(html_3e82d59d56ef29e8dc84327a04029819);
+            
+        
+
+        marker_9f1482a9e2e45b42cb17755d3eb9612e.bindPopup(popup_0bd29d257570dd0dfd96fe5d9cb4af3a)
+        ;
+
+        
+    
+    
+            var marker_d6f7a3252b37292c0085bdeda3d92896 = L.marker(
+                [31.524213806917196, 74.35498866578898],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_764737b683dc213c004610f6534fa268 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d6f7a3252b37292c0085bdeda3d92896.setIcon(icon_764737b683dc213c004610f6534fa268);
+        
+    
+        var popup_056b09803d4993d66def008816e13c34 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_3ed07587685067f3b1eec67196a4fbf7 = $(`<div id="html_3ed07587685067f3b1eec67196a4fbf7" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1285<br>         <b>Year (CE):</b> 1868-69<br>         <b>Place where manuscript was copied:</b> Lahore<br>         <b>Current location:</b> lahore<br>         <b>Scribe:</b> Hafiz bin Naʾib Ahmad Shami summa Lahori<br>         <b>Script:</b> Nastaʿliqـ-o Naskh         </div>`)[0];
+                popup_056b09803d4993d66def008816e13c34.setContent(html_3ed07587685067f3b1eec67196a4fbf7);
+            
+        
+
+        marker_d6f7a3252b37292c0085bdeda3d92896.bindPopup(popup_056b09803d4993d66def008816e13c34)
+        ;
+
+        
+    
+    
+            var marker_b9703f1db2a40130e8b65a81ade7d278 = L.marker(
+                [31.524213806917196, 74.35498866578898],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_d9e67fa95b0b4251f4903c60d77c7d51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b9703f1db2a40130e8b65a81ade7d278.setIcon(icon_d9e67fa95b0b4251f4903c60d77c7d51);
+        
+    
+        var popup_e5e552935ebeef2684edd466919a5cc8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d698b7d8fa163b29045f30c9f63fdf80 = $(`<div id="html_d698b7d8fa163b29045f30c9f63fdf80" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1285<br>         <b>Year (CE):</b> 1868-69<br>         <b>Place where manuscript was copied:</b> Lahore<br>         <b>Current location:</b> lahore<br>         <b>Scribe:</b> Muhammad ʿAbd al-Rahman bin ʿAli Husayn Lahori<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_e5e552935ebeef2684edd466919a5cc8.setContent(html_d698b7d8fa163b29045f30c9f63fdf80);
+            
+        
+
+        marker_b9703f1db2a40130e8b65a81ade7d278.bindPopup(popup_e5e552935ebeef2684edd466919a5cc8)
+        ;
+
+        
+    
+    
+            var marker_4fa0019e0070b72595f2319c2944defe = L.marker(
+                [34.22588248602205, 72.15063076289194],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_756f26cadf889c1b1a2a331c6c33ce62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4fa0019e0070b72595f2319c2944defe.setIcon(icon_756f26cadf889c1b1a2a331c6c33ce62);
+        
+    
+        var popup_e83f5d3f267f9726a52ab06ef942b6d4 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_d470e30252054159f819de95d31536e6 = $(`<div id="html_d470e30252054159f819de95d31536e6" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1200s<br>         <b>Year (CE):</b> 1785 – 1882 <br>         <b>Place where manuscript was copied:</b> Balakari<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> Muhammad ʿAzim Sakin-i Balakari<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_e83f5d3f267f9726a52ab06ef942b6d4.setContent(html_d470e30252054159f819de95d31536e6);
+            
+        
+
+        marker_4fa0019e0070b72595f2319c2944defe.bindPopup(popup_e83f5d3f267f9726a52ab06ef942b6d4)
+        ;
+
+        
+    
+    
+            var marker_e75a5f0d92bbd57afd6781e1d2a4535e = L.marker(
+                [31.522457860850018, 74.35224208368378],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_2f5dfaf7889cdb76a9800c0c64472e77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e75a5f0d92bbd57afd6781e1d2a4535e.setIcon(icon_2f5dfaf7889cdb76a9800c0c64472e77);
+        
+    
+        var popup_d59684463f2c4e0dcd6052f5735a45f9 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_4fe4e90cbaa75b524c46b5d9e87e6b58 = $(`<div id="html_4fe4e90cbaa75b524c46b5d9e87e6b58" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1233<br>         <b>Year (CE):</b> 1817-18<br>         <b>Place where manuscript was copied:</b> Kamoke<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> Ba pas-i khatir-i Shah Muhammad sakin-i Kamoke parganah Lahore<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_d59684463f2c4e0dcd6052f5735a45f9.setContent(html_4fe4e90cbaa75b524c46b5d9e87e6b58);
+            
+        
+
+        marker_e75a5f0d92bbd57afd6781e1d2a4535e.bindPopup(popup_d59684463f2c4e0dcd6052f5735a45f9)
+        ;
+
+        
+    
+    
+            var marker_e9043d458ae61098c46569e6f430f8f1 = L.marker(
+                [31.900970407255546, 74.51591588069077],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_03b912d04ec6b23f30e82ec1f20d5550 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e9043d458ae61098c46569e6f430f8f1.setIcon(icon_03b912d04ec6b23f30e82ec1f20d5550);
+        
+    
+        var popup_79a8483efb311444d8e84992d5028fe5 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_6b893584d0277ac2f9a00b84cc8e37c0 = $(`<div id="html_6b893584d0277ac2f9a00b84cc8e37c0" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1262<br>         <b>Year (CE):</b> 1846<br>         <b>Place where manuscript was copied:</b> Bhagiyan<br>         <b>Current location:</b> Sheikhupura<br>         <b>Scribe:</b> Muhammad Hasan mutawattin-i Bhagiyan<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_79a8483efb311444d8e84992d5028fe5.setContent(html_6b893584d0277ac2f9a00b84cc8e37c0);
+            
+        
+
+        marker_e9043d458ae61098c46569e6f430f8f1.bindPopup(popup_79a8483efb311444d8e84992d5028fe5)
+        ;
+
+        
+    
+    
+            var marker_88c0ae8ad83faa30d56ca2a31255934d = L.marker(
+                [32.494548202044996, 74.51733543829006],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_cc437954d68242f8f368ec95ec7f9c8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_88c0ae8ad83faa30d56ca2a31255934d.setIcon(icon_cc437954d68242f8f368ec95ec7f9c8c);
+        
+    
+        var popup_debe7038df97d08996688ee4b8297499 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_5f58d74dcbc4df9c08267770927c71a6 = $(`<div id="html_5f58d74dcbc4df9c08267770927c71a6" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1060<br>         <b>Year (CE):</b> 1650<br>         <b>Place where manuscript was copied:</b> Sialkot<br>         <b>Current location:</b> Quetta<br>         <b>Scribe:</b> Abu al-Fath Sialkoti<br>         <b>Script:</b> Nastaʿliq Pukhta         </div>`)[0];
+                popup_debe7038df97d08996688ee4b8297499.setContent(html_5f58d74dcbc4df9c08267770927c71a6);
+            
+        
+
+        marker_88c0ae8ad83faa30d56ca2a31255934d.bindPopup(popup_debe7038df97d08996688ee4b8297499)
+        ;
+
+        
+    
+    
+            var marker_01b4327c051cb08c235ba43aed5e73b9 = L.marker(
+                [25.92668448476206, 68.62604784404559],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_0d2d3bdee457e6536e2485ec7a8ce76e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_01b4327c051cb08c235ba43aed5e73b9.setIcon(icon_0d2d3bdee457e6536e2485ec7a8ce76e);
+        
+    
+        var popup_d507935026bb2d5f496d91909dd64915 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_01009da3a087619544bdd5b50546737a = $(`<div id="html_01009da3a087619544bdd5b50546737a" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1231<br>         <b>Year (CE):</b> 1815-16<br>         <b>Place where manuscript was copied:</b> Shāhdādpur<br>         <b>Current location:</b> Sheikhupura<br>         <b>Scribe:</b> Muhammad ʿAlam<br>         <b>Script:</b> Nastaʿliq Pukhta         </div>`)[0];
+                popup_d507935026bb2d5f496d91909dd64915.setContent(html_01009da3a087619544bdd5b50546737a);
+            
+        
+
+        marker_01b4327c051cb08c235ba43aed5e73b9.bindPopup(popup_d507935026bb2d5f496d91909dd64915)
+        ;
+
+        
+    
+    
+            var marker_a2f808f06671a18a3b2ad24c8f337615 = L.marker(
+                [34.02272361239509, 71.52562488578644],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_ffb61bad634353344142b21b658d6784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a2f808f06671a18a3b2ad24c8f337615.setIcon(icon_ffb61bad634353344142b21b658d6784);
+        
+    
+        var popup_2a982c95c22601af2c6c5e750f8d013b = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_753ba32cb938cf79c43a4380a52fd5ec = $(`<div id="html_753ba32cb938cf79c43a4380a52fd5ec" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1194<br>         <b>Year (CE):</b> 1780<br>         <b>Place where manuscript was copied:</b> Peshawar<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Hafiz Muhammad Khan<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_2a982c95c22601af2c6c5e750f8d013b.setContent(html_753ba32cb938cf79c43a4380a52fd5ec);
+            
+        
+
+        marker_a2f808f06671a18a3b2ad24c8f337615.bindPopup(popup_2a982c95c22601af2c6c5e750f8d013b)
+        ;
+
+        
+    
+    
+            var marker_48db0346c38d3ac9be586d35b8f245d4 = L.marker(
+                [32.30028570952326, 74.13800141467134],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_f0e0bd1f280225e33db85efa6bb42a7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_48db0346c38d3ac9be586d35b8f245d4.setIcon(icon_f0e0bd1f280225e33db85efa6bb42a7a);
+        
+    
+        var popup_a865327b38652ae20fbf38908f82c396 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_108e5e2668696872d087c53d94d4dcea = $(`<div id="html_108e5e2668696872d087c53d94d4dcea" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1134<br>         <b>Year (CE):</b> 1722<br>         <b>Place where manuscript was copied:</b> Muza‘ Kakkarwark<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> Syed ʿInayatullah walad Sayyid Nur Muhammad<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_a865327b38652ae20fbf38908f82c396.setContent(html_108e5e2668696872d087c53d94d4dcea);
+            
+        
+
+        marker_48db0346c38d3ac9be586d35b8f245d4.bindPopup(popup_a865327b38652ae20fbf38908f82c396)
+        ;
+
+        
+    
+    
+            var marker_23b065aa4ceac99109477d56e5012f0f = L.marker(
+                [28.79822314601788, 79.02281299499906],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_a4e4372afac31ece09c702277378b3ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_23b065aa4ceac99109477d56e5012f0f.setIcon(icon_a4e4372afac31ece09c702277378b3ce);
+        
+    
+        var popup_6bdf4461fb98b8fd5e098621a11130c3 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_80fb27c7af1638ead8c27bd64baa1411 = $(`<div id="html_80fb27c7af1638ead8c27bd64baa1411" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1239<br>         <b>Year (CE):</b> 1824<br>         <b>Place where manuscript was copied:</b> nan<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> Ahmad Khan<br>         <b>Script:</b> nan         </div>`)[0];
+                popup_6bdf4461fb98b8fd5e098621a11130c3.setContent(html_80fb27c7af1638ead8c27bd64baa1411);
+            
+        
+
+        marker_23b065aa4ceac99109477d56e5012f0f.bindPopup(popup_6bdf4461fb98b8fd5e098621a11130c3)
+        ;
+
+        
+    
+    
+            var marker_4ff4cd9eabb97fd33b1fd1544b56e896 = L.marker(
+                [32.17513108724538, 74.76375454501643],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_4878a0a2724337a84eef254439e3747e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4ff4cd9eabb97fd33b1fd1544b56e896.setIcon(icon_4878a0a2724337a84eef254439e3747e);
+        
+    
+        var popup_54eed6539624334836a6cad54502a6a9 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_e858ab43748566b9d5096f9dea8b4488 = $(`<div id="html_e858ab43748566b9d5096f9dea8b4488" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1255<br>         <b>Year (CE):</b> 1840<br>         <b>Place where manuscript was copied:</b> Khairallah Pur<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> nan<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_54eed6539624334836a6cad54502a6a9.setContent(html_e858ab43748566b9d5096f9dea8b4488);
+            
+        
+
+        marker_4ff4cd9eabb97fd33b1fd1544b56e896.bindPopup(popup_54eed6539624334836a6cad54502a6a9)
+        ;
+
+        
+    
+    
+            var marker_87a78e81664a834f5fdc2ea6f7a91f46 = L.marker(
+                [32.3128662692502, 74.09682073968136],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_c43bfaf17a46a0e17e0aa6237190c7d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_87a78e81664a834f5fdc2ea6f7a91f46.setIcon(icon_c43bfaf17a46a0e17e0aa6237190c7d4);
+        
+    
+        var popup_8860afd72c0a05cd293657a7f691237c = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_db19e7b9988baf2c74c54c60b6be77d9 = $(`<div id="html_db19e7b9988baf2c74c54c60b6be77d9" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1289<br>         <b>Year (CE):</b> 1872-73<br>         <b>Place where manuscript was copied:</b> ʿAdil Garh Wazirabad Gujranwala<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> Siraj al-Din<br>         <b>Script:</b> Nastaʿliq Khush         </div>`)[0];
+                popup_8860afd72c0a05cd293657a7f691237c.setContent(html_db19e7b9988baf2c74c54c60b6be77d9);
+            
+        
+
+        marker_87a78e81664a834f5fdc2ea6f7a91f46.bindPopup(popup_8860afd72c0a05cd293657a7f691237c)
+        ;
+
+        
+    
+    
+            var marker_716624d7e5959f5614264d0184793bde = L.marker(
+                [32.99746134870072, 72.9622650974506],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_8e5c104acdd6f59b7d4cca3d9ed1985f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_716624d7e5959f5614264d0184793bde.setIcon(icon_8e5c104acdd6f59b7d4cca3d9ed1985f);
+        
+    
+        var popup_78ae0d9224441f79cfe690d565f3ad15 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_980953ef1d737c9a2eae57643fc504c2 = $(`<div id="html_980953ef1d737c9a2eae57643fc504c2" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1270<br>         <b>Year (CE):</b> 1853-54<br>         <b>Place where manuscript was copied:</b> Muz‘a Chak ʿUmar Parganah Gojar<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Miyan Muhammad Zaman<br>         <b>Script:</b> Nastaʿliq Pukhta         </div>`)[0];
+                popup_78ae0d9224441f79cfe690d565f3ad15.setContent(html_980953ef1d737c9a2eae57643fc504c2);
+            
+        
+
+        marker_716624d7e5959f5614264d0184793bde.bindPopup(popup_78ae0d9224441f79cfe690d565f3ad15)
+        ;
+
+        
+    
+    
+            var marker_9b44a75eb7bed2e43ec3f75686ef075d = L.marker(
+                [31.11424001595844, 74.46819923407843],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_c42039800a4aaaea95af3d794dbb6386 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9b44a75eb7bed2e43ec3f75686ef075d.setIcon(icon_c42039800a4aaaea95af3d794dbb6386);
+        
+    
+        var popup_c0810551c00c956e6c8cd39416c93a27 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_ca9aeaf0c89b377bc7779fc326942bee = $(`<div id="html_ca9aeaf0c89b377bc7779fc326942bee" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1288<br>         <b>Year (CE):</b> 1871-72<br>         <b>Place where manuscript was copied:</b> Kasur<br>         <b>Current location:</b> Bahawalnagar<br>         <b>Scribe:</b> Muhammad bin ʿAli bin Ahmad Husayni<br>         <b>Script:</b> Nastaʿliq Pukhta         </div>`)[0];
+                popup_c0810551c00c956e6c8cd39416c93a27.setContent(html_ca9aeaf0c89b377bc7779fc326942bee);
+            
+        
+
+        marker_9b44a75eb7bed2e43ec3f75686ef075d.bindPopup(popup_c0810551c00c956e6c8cd39416c93a27)
+        ;
+
+        
+    
+    
+            var marker_2425fdb0ea6560705a46191c61a5f5f9 = L.marker(
+                [34.02345330684718, 71.6326357],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_24a20cfcbf475f71eda9aefa15ef64d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2425fdb0ea6560705a46191c61a5f5f9.setIcon(icon_24a20cfcbf475f71eda9aefa15ef64d6);
+        
+    
+        var popup_ab315b8f291161d07ca993b661f603b9 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_4051e934d18c105c1bba76021f094c6b = $(`<div id="html_4051e934d18c105c1bba76021f094c6b" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1100s<br>         <b>Year (CE):</b> 1688 – 1786<br>         <b>Place where manuscript was copied:</b> Musa Khan<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> Ibrahim Gali<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_ab315b8f291161d07ca993b661f603b9.setContent(html_4051e934d18c105c1bba76021f094c6b);
+            
+        
+
+        marker_2425fdb0ea6560705a46191c61a5f5f9.bindPopup(popup_ab315b8f291161d07ca993b661f603b9)
+        ;
+
+        
+    
+    
+            var marker_8f6100c71111f5987480f7d45fd945f0 = L.marker(
+                [34.278953683201195, 69.85362280871074],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_6ba9da5967516d6eff35c573f917edd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8f6100c71111f5987480f7d45fd945f0.setIcon(icon_6ba9da5967516d6eff35c573f917edd8);
+        
+    
+        var popup_8042eedccf2928d7799db32ef1a83ce8 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_dc87e6724597db1b790ce59ea89a63fd = $(`<div id="html_dc87e6724597db1b790ce59ea89a63fd" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1294<br>         <b>Year (CE):</b> 1877<br>         <b>Place where manuscript was copied:</b> Hisarak<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Muhammad Sharif Nangarhari<br>         <b>Script:</b> Shikasta Amez Pukhta         </div>`)[0];
+                popup_8042eedccf2928d7799db32ef1a83ce8.setContent(html_dc87e6724597db1b790ce59ea89a63fd);
+            
+        
+
+        marker_8f6100c71111f5987480f7d45fd945f0.bindPopup(popup_8042eedccf2928d7799db32ef1a83ce8)
+        ;
+
+        
+    
+    
+            var marker_3969a310d0a67177a97c766e3cbe98fb = L.marker(
+                [29.43386175925008, 71.24117307963691],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_222b647f830004ecb61a294d36b4a557 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3969a310d0a67177a97c766e3cbe98fb.setIcon(icon_222b647f830004ecb61a294d36b4a557);
+        
+    
+        var popup_ad4588afe560647348ca9701544b74e5 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_b2e4581babdbb068da673a12462d25f1 = $(`<div id="html_b2e4581babdbb068da673a12462d25f1" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1299<br>         <b>Year (CE):</b> 1781-82<br>         <b>Place where manuscript was copied:</b> Uch Gilanian<br>         <b>Current location:</b> Bahawalnagar<br>         <b>Scribe:</b> Majid bin Hamid Gilani<br>         <b>Script:</b> Naskh Khush         </div>`)[0];
+                popup_ad4588afe560647348ca9701544b74e5.setContent(html_b2e4581babdbb068da673a12462d25f1);
+            
+        
+
+        marker_3969a310d0a67177a97c766e3cbe98fb.bindPopup(popup_ad4588afe560647348ca9701544b74e5)
+        ;
+
+        
+    
+    
+            var marker_ba0bf9ba1f8ba143ca8aab33d7696a68 = L.marker(
+                [30.554583383639564, 73.67308255843751],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_1fdd8b2034b4ec216373935dad58c6c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ba0bf9ba1f8ba143ca8aab33d7696a68.setIcon(icon_1fdd8b2034b4ec216373935dad58c6c3);
+        
+    
+        var popup_8c893701f4a9589f8ff670944e7b9213 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_dec850d1fb5e32ba85eeb41cd145a733 = $(`<div id="html_dec850d1fb5e32ba85eeb41cd145a733" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1307<br>         <b>Year (CE):</b> 1890<br>         <b>Place where manuscript was copied:</b> Sharifabad<br>         <b>Current location:</b> Sargodha<br>         <b>Scribe:</b> Muhammad Faʾiq bin Qazi Mohi<br>         <b>Script:</b> Nastaʿliq         </div>`)[0];
+                popup_8c893701f4a9589f8ff670944e7b9213.setContent(html_dec850d1fb5e32ba85eeb41cd145a733);
+            
+        
+
+        marker_ba0bf9ba1f8ba143ca8aab33d7696a68.bindPopup(popup_8c893701f4a9589f8ff670944e7b9213)
+        ;
+
+        
+    
+    
+            var marker_b2c4ad484719b53b0db2546315791cb0 = L.marker(
+                [32.509264092454174, 74.39232773676397],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_0572c5e642e1f563f6b7295aa95e7487 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b2c4ad484719b53b0db2546315791cb0.setIcon(icon_0572c5e642e1f563f6b7295aa95e7487);
+        
+    
+        var popup_b69e02c94015994df8bfff8d5c6964f9 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_bb64bb01f33b712507898cc337436ee7 = $(`<div id="html_bb64bb01f33b712507898cc337436ee7" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1286<br>         <b>Year (CE):</b> 1869<br>         <b>Place where manuscript was copied:</b> Kaurowal<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> Najm al-Din<br>         <b>Script:</b> Nastaʿliq Shikasta Amez         </div>`)[0];
+                popup_b69e02c94015994df8bfff8d5c6964f9.setContent(html_bb64bb01f33b712507898cc337436ee7);
+            
+        
+
+        marker_b2c4ad484719b53b0db2546315791cb0.bindPopup(popup_b69e02c94015994df8bfff8d5c6964f9)
+        ;
+
+        
+    
+    
+            var marker_a3b23e5f459300b9dcbc963cfcc1f8e0 = L.marker(
+                [25.21378577597195, 84.98587807918533],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_fc5132806eb7b872b461acb40dc2b219 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a3b23e5f459300b9dcbc963cfcc1f8e0.setIcon(icon_fc5132806eb7b872b461acb40dc2b219);
+        
+    
+        var popup_0badb137ece6fcf8e9f2c75824c957ef = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_63d10256d2d2a4a5be0ae3b164362599 = $(`<div id="html_63d10256d2d2a4a5be0ae3b164362599" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1200s<br>         <b>Year (CE):</b> 1785 – 1882 <br>         <b>Place where manuscript was copied:</b> Amroya, pargana Jehanabad   <br>         <b>Current location:</b> Peshawar<br>         <b>Scribe:</b> Ahsan al-Din walad Sheikh ʿAla al-Din<br>         <b>Script:</b> nan         </div>`)[0];
+                popup_0badb137ece6fcf8e9f2c75824c957ef.setContent(html_63d10256d2d2a4a5be0ae3b164362599);
+            
+        
+
+        marker_a3b23e5f459300b9dcbc963cfcc1f8e0.bindPopup(popup_0badb137ece6fcf8e9f2c75824c957ef)
+        ;
+
+        
+    
+    
+            var marker_c159164fcab856f1bd9a5f0b3655ee08 = L.marker(
+                [23.035093775514525, 72.5735627902633],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_ad19d8319f0ea9e6914c464e6624945d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c159164fcab856f1bd9a5f0b3655ee08.setIcon(icon_ad19d8319f0ea9e6914c464e6624945d);
+        
+    
+        var popup_1f52d624e7ac33a54949867f9923c4f5 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_01ebeccf7a80a339e6f6bcf344492a82 = $(`<div id="html_01ebeccf7a80a339e6f6bcf344492a82" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1215<br>         <b>Year (CE):</b> 1800-01<br>         <b>Place where manuscript was copied:</b> Ahmedabad<br>         <b>Current location:</b> Lahore<br>         <b>Scribe:</b> nan<br>         <b>Script:</b> Nastaʿliq Shikasta         </div>`)[0];
+                popup_1f52d624e7ac33a54949867f9923c4f5.setContent(html_01ebeccf7a80a339e6f6bcf344492a82);
+            
+        
+
+        marker_c159164fcab856f1bd9a5f0b3655ee08.bindPopup(popup_1f52d624e7ac33a54949867f9923c4f5)
+        ;
+
+        
+    
+    
+            var marker_07a0090d1a8ac07a074f1575240ddcc7 = L.marker(
+                [33.15827640892468, 73.34163065370889],
+                {}
+            ).addTo(map_7702a9bc5069a4248b7dd7916b599be4);
+        
+    
+            var icon_7e56bb86bf1210cc8292f6fab5357f68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "feather", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_07a0090d1a8ac07a074f1575240ddcc7.setIcon(icon_7e56bb86bf1210cc8292f6fab5357f68);
+        
+    
+        var popup_423df38eb3a4eb61a6a81cf3ff9d5656 = L.popup({"maxWidth": 450});
+
+        
+            
+                var html_48cd4bc6a6236d296c47b4dae4136d31 = $(`<div id="html_48cd4bc6a6236d296c47b4dae4136d31" style="width: 100.0%; height: 100.0%;">         <b>Year (Hijri):</b> 1271<br>         <b>Year (CE):</b> 1854-55<br>         <b>Place where manuscript was copied:</b> Qasba-i Siyali Khakran<br>         <b>Current location:</b> Islamabad<br>         <b>Scribe:</b> Miyan Murid Hasan sakin-i Qasba Siyali Khakran<br>         <b>Script:</b> nan         </div>`)[0];
+                popup_423df38eb3a4eb61a6a81cf3ff9d5656.setContent(html_48cd4bc6a6236d296c47b4dae4136d31);
+            
+        
+
+        marker_07a0090d1a8ac07a074f1575240ddcc7.bindPopup(popup_423df38eb3a4eb61a6a81cf3ff9d5656)
+        ;
+
+        
+    
+</script>
+</html>
