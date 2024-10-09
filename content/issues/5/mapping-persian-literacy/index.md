@@ -41,7 +41,15 @@ Who were the different groups of students studying the *Gulistan*? Given the cen
 
 ***
 
-<iframe src="/issues/5/mapping-persian-literacy/gulistan_map.html"></iframe>
+<iframe title="Full Gulistan Map" src="/issues/5/mapping-persian-literacy/gulistan_map.html"></iframe>
+{{< source_code source_file="/issues/5/mapping-persian-literacy/gulistan_map.html" format="html" >}}
+
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE MAP.
+| SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 The map above plots some of the manuscripts of the *Gulistan* and its commentaries that were produced in India between roughly 1650-1900. The raw data for the map was derived from the bibliohphilic labor of Ahmed Monzavi, a cataloguer from Iran who, together with a team of researchers, undertook a massive research project spanning the late 1950s to the early 1980s. Monzavi and his team catalogued all the Persian manuscripts then present in the libraries of Pakistan. This team of scholars browsed through manuscripts scattered across the country, whether in small village libraries, special collections in universities, or the private collections of individuals. The output of this labor of love is a 14-volume tome, an extract of which was printed separately: manuscripts of the writings of Saʿdi.[^5] In this small book are listed about three hundred and seventy manuscripts of the *Gulistan* itself and about two hundred manuscripts of commentaries on the text. These are the manuscripts that found their way into a recgonized collection in Pakistan. There were probably thousands of additional manuscripts produced in South Asia. Some of these are located in libraries in India; many were taken to other parts of the world. Princeton University, for instance, holds a [manuscript](https://catalog.princeton.edu/catalog/9975743063506421) of a *Gulistan* commentary that was composed in Dehvi, a village in the mountaineous state of Himachal Pradesh in Northern India. A large number of manuscripts, however, were destroyed over time by human negligence and such elements as wind, water, and worms.
 
