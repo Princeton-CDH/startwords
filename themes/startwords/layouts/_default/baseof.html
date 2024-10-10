@@ -73,6 +73,7 @@
     <script defer src="{{ $js.RelPermalink }}"></script>
     {{- if hugo.IsProduction -}}
     {{ partial "partials/google_analytics.html" . }}
+    {{ partial "partials/plausible_analytics.html" . }}
     {{- end -}}
     {{- if or (.HasShortcode "deepzoom") (isset .Page.Params "needs_deepzoom") }}{{/* include openseadragon when deepzoom shortcode is used or requested in page params */}}
     <script defer src="https://cdn.jsdelivr.net/npm/openseadragon@2.4.2/build/openseadragon/openseadragon.min.js" integrity="sha256-NMxPj6Qf1CWCzNQfKoFU8Jx18ToY4OWgnUO1cJWTWuw=" crossorigin="anonymous"></script>

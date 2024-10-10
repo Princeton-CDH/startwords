@@ -1,0 +1,7 @@
+{{- if isset site.Params "plausible" }}
+{{/* plausible analytics */}}
+<script defer data-domain="{{ site.Params.plausible.domain }}" src="{{ site.Params.plausible.script }} "></script>
+{{- if isset site.Params.plausible "notfound" }}
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+{{- end }}
+{{- end }}
