@@ -1,18 +1,20 @@
 {{/* Shortcode for Sketchfab 3D object embedding  */}}
 <div class="sketchfab-embed-wrapper">
-    <iframe
-        id="sketchfab-{{ .Get `id` }}"
-        aria-label="{{ .Get `alt` }}"
-        frameborder="0"
-        allow="autoplay; fullscreen; vr"
-        mozallowfullscreen="true"
-        webkitallowfullscreen="true"
-        loading="lazy"
-        src="https://sketchfab.com/models/{{ .Get `id` }}/embed?autospin=0.2&amp;autostart=0&amp;camera=0&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1">
-    </iframe>
-    {{ with .Get `caption` }}
-    <figure><figcaption><p>{{ . | markdownify }}</p></figcaption></figure>
-    {{ end }}
+    <figure>
+        <iframe
+            id="sketchfab-{{ .Get `id` }}"
+            aria-label="{{ .Get `alt` }}"
+            frameborder="0"
+            allow="autoplay; fullscreen; vr"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true"
+            loading="lazy"
+            src="https://sketchfab.com/models/{{ .Get `id` }}/embed?autospin=0.2&amp;autostart=0&amp;camera=0&amp;preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1">
+        </iframe>
+        {{ with .Get `caption` }}
+        <figcaption><p>{{ . | markdownify }}</p></figcaption>
+        {{ end }}
+    </figure>
     {{/* image, alt & caption rendered in pdf only, in place of viewer */}}
     {{ if (.Get "pdf-img") }}
     <figure class="preview">
