@@ -42,7 +42,6 @@ Who were the different groups of students studying the *Gulistan*? Given the cen
 ***
 
 <iframe title="Full Gulistan Map" src="/issues/5/mapping-persian-literacy/gulistan_map.html"></iframe>
-{{< source_code source_file="/issues/5/mapping-persian-literacy/gulistan_map.html" format="html" >}}
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
