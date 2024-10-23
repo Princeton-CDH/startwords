@@ -41,11 +41,23 @@ Who were the different groups of students studying the *Gulistan*? Given the cen
 
 ***
 
-<iframe title="Full Gulistan Map" src="/issues/5/mapping-persian-literacy/gulistan_map.html"></iframe>
+<iframe 
+  title="Full Gulistan Map" 
+  src="/issues/5/mapping-persian-literacy/gulistan_map.html" 
+  pdf-img="images/gullistan_map_still.png"
+  pdf-alt="Map of India and Pakistan with pins indicating the location of manuscripts and commentaries.">
+  {{/* static image in pdf only, in place of dynamic map */}}
+  {{ if (.Get "pdf-img") }}
+  <figure class="preview">
+    <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
+    <figcaption><p>The online version of this essay includes an interactive map.</p></figcaption>
+    </figure>
+  {{ end }}
+</iframe>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE MAP.
+| INTERACTIVE MAP: Map of India and Pakistan with pins indicating the location of manuscripts and commentaries.
 | SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
@@ -65,6 +77,27 @@ Historians can also increase the accuracy of their claims by collating their dat
 On 24 May 1877, Muhammad Sharif 'Nangarhari' inscribed a *Gulistan* commentary in Hisarak, a village in Nangarhar province in Western Afghanistan (the Western-most pin on our map). Its population in 2002 was estimated to be just thirty thousand. The fact that a *Gulistan* commentary was copied there implies a few facts about this village in the nineteenth century: that there was at least one professionally-trained scribe (Muhammad Sharif) who could copy Persian books; that there was at least one other manuscript of the same commentary from which Sharif produced his copy; that there were copies of the *Gulistan*, for the teaching of which someone felt the need to have a copy of a commentary; that there was a patron who could pay for the production of the copy; that there was parchment and ink with which the copy could be produced. In other words, the existence of a single manuscript reveals an entire world of knowledge production and transmission in this small village of Hesarak. The fact that our map features a number of such small towns and villages suggests a remarkable reach of Persian literacy beyond courtly elites.
 
 <iframe src="/issues/5/mapping-persian-literacy/gulistan_map_detail.html"></iframe>
+
+<iframe 
+  title="Detail of Gulistan Map" 
+  src="/issues/5/mapping-persian-literacy/gulistan_map_detail.html" 
+  pdf-img="images/gullistan_map_detail_still.png"
+  pdf-alt="Zoomed in portion of map, displaying manuscripts and commentaries at border of modern-day India and Pakistan.">
+  {{/* static image in pdf only, in place of dynamic map */}}
+  {{ if (.Get "pdf-img") }}
+  <figure class="preview">
+    <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
+    <figcaption><p>The online version of this essay includes an interactive map.</p></figcaption>
+    </figure>
+  {{ end }}
+</iframe>
+
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE MAP: Zoomed in portion of map, displaying manuscripts and commentaries at border of modern-day India and Pakistan.
+| SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map_detail.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 The content of the *Gulistan* and its commentaries can also shed broader light on medieval Indian culture and society. Some stories in the book talk about a man's attraction to a male youth on account of the rosy down on his cheeks; others mention the power of female sexual desire in ways that so shocked European readers of the nineteenth century that they censored these stories altogether from their English translations. One frequently omitted story goes thus:
 
