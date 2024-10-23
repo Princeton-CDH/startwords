@@ -67,13 +67,18 @@ This process of rethinking our outreach transformed our use of online communicat
 Launching our social media campaign early on helped attract attention to the event and prepare our audiences for the redesigned event. We also created new hashtags, such as our [#GreatDouglassDayBakeoff](https://twitter.com/search?q=%23GreatDouglassDayBakeoff&src=typed_query).
 
 *******
+
+{{< wrap class="interlude" >}}
+*Editor's note: several of the tweets embedded below are no longer available on the platform now called X. The [PDF version](https://zenodo.org/record/5750693/files/startwords-2-creating-and-recreating-virtual-community.pdf) of this article contains the fullest record of the tweets.*
+{{</ wrap >}}
+
 {{< tweet user="Anna_E_Lacy" id="1360301729451962376" >}}
 {{< tweet user="BrigField" id="1360976957337456641" >}}
 {{< tweet user="DGershenowitz" id="1361014486589706249" >}}
 {{< tweet user="hralperta" id="1361039589914382344" >}}
 
 ***“Power concedes nothing without a demand.” Happy #DouglassDay! @CCP_org @librarycongress “If there is no struggle, there is no freedom.” -FD pic.twitter.com/EM9CtUxDwq*** <br/>
-**— Pierce Stanley (@piercestanley) February 14, 2021** <br/>*[tweet deleted]*
+**— Pierce Stanley (@piercestanley) February 14, 2021** <br/>
 
 {{< wrap class="tweet-group print-only-preview" >}}
 <a href="https://twitter.com/Anna_E_Lacy/status/1360301729451962376"><img loading="lazy" src="images/tweetA1.png" alt="screenshot of tweet from Anna Lacy"></a>
@@ -120,10 +125,13 @@ Below is a tutorial video with instructions about how to transcribe and review d
 {{</ wrap >}}
 
 ***#DouglassDay. I am transcribing Terrell's introduction to Phillis Wheatley as part of her fundraising effort to build a campsite for Black girls. Love to see familiar names coming across in her writing. pic.twitter.com/YX5tL2qmDP*** <br/>
-**— Jewon Woo 우제원 (@ClevelandKimchi) February 12, 2021** <br/>*[tweet deleted]*
+**— Jewon Woo 우제원 (@ClevelandKimchi) February 12, 2021** <br/>
 
 {{< tweet user="BrigField" id="1360300654254825476" >}}
-{{< tweet user="danroyles" id="1360287523004706821" >}}
+
+***Helping transcribe the papers of Mary Church Terrell for the #DouglassDay Transcribe-A-Thon with other folks from @FIULibraries / @FIU_Digital_Lib***
+**— Dan Royles🗽 (@danroyles) February 12, 2021**
+
 {{< tweet user="DarkStars__" id="1361075881662443526" >}}
 {{< tweet user="celina_osuna_" id="1360300366256955392" >}}
 
