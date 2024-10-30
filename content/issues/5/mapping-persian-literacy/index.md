@@ -76,8 +76,6 @@ Historians can also increase the accuracy of their claims by collating their dat
 
 On 24 May 1877, Muhammad Sharif 'Nangarhari' inscribed a *Gulistan* commentary in Hisarak, a village in Nangarhar province in Western Afghanistan (the Western-most pin on our map). Its population in 2002 was estimated to be just thirty thousand. The fact that a *Gulistan* commentary was copied there implies a few facts about this village in the nineteenth century: that there was at least one professionally-trained scribe (Muhammad Sharif) who could copy Persian books; that there was at least one other manuscript of the same commentary from which Sharif produced his copy; that there were copies of the *Gulistan*, for the teaching of which someone felt the need to have a copy of a commentary; that there was a patron who could pay for the production of the copy; that there was parchment and ink with which the copy could be produced. In other words, the existence of a single manuscript reveals an entire world of knowledge production and transmission in this small village of Hesarak. The fact that our map features a number of such small towns and villages suggests a remarkable reach of Persian literacy beyond courtly elites.
 
-<iframe src="/issues/5/mapping-persian-literacy/gulistan_map_detail.html"></iframe>
-
 <iframe 
   title="Detail of Gulistan Map" 
   src="/issues/5/mapping-persian-literacy/gulistan_map_detail.html" 
@@ -94,8 +92,9 @@ On 24 May 1877, Muhammad Sharif 'Nangarhari' inscribed a *Gulistan* commentary i
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| INTERACTIVE MAP: Zoomed in portion of map, displaying manuscripts and commentaries at border of modern-day India and Pakistan.
-| SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map_detail.html
+| INTERACTIVE MAP: Map showing border of modern-day Afghanistan and Pakistan with 
+| pins indicating the location of manuscripts and commentaries.
+| SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map.html
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
