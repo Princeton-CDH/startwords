@@ -41,7 +41,26 @@ Who were the different groups of students studying the *Gulistan*? Given the cen
 
 ***
 
-<iframe src="gulistan_map.html"></iframe>
+<iframe 
+  title="Full Gulistan Map" 
+  src="/issues/5/mapping-persian-literacy/gulistan_map.html" 
+  pdf-img="images/gullistan_map_still.png"
+  pdf-alt="Map of India and Pakistan with pins indicating the location of manuscripts and commentaries.">
+  {{/* static image in pdf only, in place of dynamic map */}}
+  {{ if (.Get "pdf-img") }}
+  <figure class="preview">
+    <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
+    <figcaption><p>The online version of this essay includes an interactive map.</p></figcaption>
+    </figure>
+  {{ end }}
+</iframe>
+
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE MAP: Map of India and Pakistan with pins indicating the location of manuscripts and commentaries.
+| SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 The map above plots some of the manuscripts of the *Gulistan* and its commentaries that were produced in India between roughly 1650-1900. The raw data for the map was derived from the bibliohphilic labor of Ahmed Monzavi, a cataloguer from Iran who, together with a team of researchers, undertook a massive research project spanning the late 1950s to the early 1980s. Monzavi and his team catalogued all the Persian manuscripts then present in the libraries of Pakistan. This team of scholars browsed through manuscripts scattered across the country, whether in small village libraries, special collections in universities, or the private collections of individuals. The output of this labor of love is a 14-volume tome, an extract of which was printed separately: manuscripts of the writings of Saʿdi.[^5] In this small book are listed about three hundred and seventy manuscripts of the *Gulistan* itself and about two hundred manuscripts of commentaries on the text. These are the manuscripts that found their way into a recgonized collection in Pakistan. There were probably thousands of additional manuscripts produced in South Asia. Some of these are located in libraries in India; many were taken to other parts of the world. Princeton University, for instance, holds a [manuscript](https://catalog.princeton.edu/catalog/9975743063506421) of a *Gulistan* commentary that was composed in Dehvi, a village in the mountaineous state of Himachal Pradesh in Northern India. A large number of manuscripts, however, were destroyed over time by human negligence and such elements as wind, water, and worms.
 
@@ -57,7 +76,27 @@ Historians can also increase the accuracy of their claims by collating their dat
 
 On 24 May 1877, Muhammad Sharif 'Nangarhari' inscribed a *Gulistan* commentary in Hisarak, a village in Nangarhar province in Western Afghanistan (the Western-most pin on our map). Its population in 2002 was estimated to be just thirty thousand. The fact that a *Gulistan* commentary was copied there implies a few facts about this village in the nineteenth century: that there was at least one professionally-trained scribe (Muhammad Sharif) who could copy Persian books; that there was at least one other manuscript of the same commentary from which Sharif produced his copy; that there were copies of the *Gulistan*, for the teaching of which someone felt the need to have a copy of a commentary; that there was a patron who could pay for the production of the copy; that there was parchment and ink with which the copy could be produced. In other words, the existence of a single manuscript reveals an entire world of knowledge production and transmission in this small village of Hesarak. The fact that our map features a number of such small towns and villages suggests a remarkable reach of Persian literacy beyond courtly elites.
 
-<iframe src="gulistan_map_detail.html"></iframe>
+<iframe 
+  title="Detail of Gulistan Map" 
+  src="/issues/5/mapping-persian-literacy/gulistan_map_detail.html" 
+  pdf-img="images/gullistan_map_detail_still.png"
+  pdf-alt="Zoomed in portion of map, displaying manuscripts and commentaries at border of modern-day India and Pakistan.">
+  {{/* static image in pdf only, in place of dynamic map */}}
+  {{ if (.Get "pdf-img") }}
+  <figure class="preview">
+    <img src="{{ .Get `pdf-img` }}" alt="{{ .Get `pdf-alt` }}"/>
+    <figcaption><p>The online version of this essay includes an interactive map.</p></figcaption>
+    </figure>
+  {{ end }}
+</iframe>
+
+{{< wrap class="txt-only" >}}
+⩩-----------------------------------------------------------------------------------⟩
+| INTERACTIVE MAP: Map showing border of modern-day Afghanistan and Pakistan with 
+| pins indicating the location of manuscripts and commentaries.
+| SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map.html
+⩩-----------------------------------------------------------------------------------⟩
+{{</ wrap >}}
 
 The content of the *Gulistan* and its commentaries can also shed broader light on medieval Indian culture and society. Some stories in the book talk about a man's attraction to a male youth on account of the rosy down on his cheeks; others mention the power of female sexual desire in ways that so shocked European readers of the nineteenth century that they censored these stories altogether from their English translations. One frequently omitted story goes thus:
 
