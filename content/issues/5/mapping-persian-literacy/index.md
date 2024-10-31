@@ -22,18 +22,29 @@ Generations of Indian historians, of course, have recognized the importance of m
 
 **********
 
+{{< figure src="images/folio_GB8919.jpg" alt="A manuscript page of handwritten text within a double-lined box. Outside that box is commentary text handwritten at a slanted angle." caption="**Figure 1.** Page from ʿAbdul Rasul bin Shihab al-Din Qurashi, \"Sharḥ-i Gulistān-i Sa'dī,\" 8919, fols. 1--2." attr="Ganj Bakhsh Library, Iran-Pakistan Institute of Persian Studies, Islamabad, Pakistan.">}}
+{{< wrap class="txt-only" >}}
+#-----------------------------------------------------------------------------------
+| FIGURE.  A manuscript page of handwritten text within a double-lined box. Outside that box is commentary text handwritten at a slanted angle.
+|
+| CAPTION: **Figure 1.** Page from ʿAbdul Rasul bin Shihab al-Din Qurashi, "Sharḥ-i Gulistān-i Sa'dī," 8919, fols. 1--2, Ganj Baksh, Rawalpindi.
+|
+| ATTRIBUTION: Ganj Bakhsh Library, Iran-Pakistan Institute of Persian Studies, Islamabad, Pakistan.
+#-----------------------------------------------------------------------------------
+{{</ wrap >}}
+
 The *Gulistan* (Rose-Garden) was composed in the mid-thirteenth century by the famous Persian writer and poet, Shaykh Saʿdi (d. 1291 CE). Composed in Shiraz, part of present-day Iran, copies of the *Gulistan* soon found their way to India. The book became so popular that it was made a part of school curricula and became the subject of scholarly commentaries. Today, historians agree that the *Gulistan* was used as a textbook for inculcating Islamic ethics and the Persian language. To get a later, seventeenth-century view of its importance, let us read the words of one commentator. Writing shortly after 1662 CE (1073 in the Hijri calendar), ʿAbd al-Rasul Qurashi noted that the *Gulistan* includes "sweet poetry and colorful prose" and that "all its exhortations are aligned with the knowledge of practical philosophy (*hikmat-i ʿamali*) and all its lessons with the science of ethics (*ʿilm-i akhlaq*)."[^1] Unfortunately, students were unable to fully benefit from the text because
 
 > \[t\]he handling by children and the slippages of their tongues and the corrections of lowly, ill-qualified instructors and those of the unbalanced, weak-spirited schoolmasters (*maktab-dāran*)---those who have not acquired the central meanings of the text---have made certain inappropriate \[passages\] part of the poetry and erased some appropriate passages. This has led to the brilliant textual features (*ʿibārāt-i rāyiʿah*) and the high implications (*ishārāt-i fāyiqah*) of the *Gulistan* to be distorted.[^2]
 
 As this passage indicates, the *Gulistan* was being taught in the classrooms of early modern India. In fact, it was a mandatory component of a transregional curriculum followed not just in India but also in Central Asia, Iran, and the Ottoman Empire. The goal of this curriculum was to inculcate *adab*, a term that refers both to the proper use of language (exemplified in literary works) and to refined social behavior.[^3] As a text of *adab* par excellence, the *Gulistan* taught students how to behave and how to use and appreciate language. Not all teachers were adequately trained to teach the text, however, which is why commentators sought to clarify the ethical lessons and the linguistic beauties of the text.
 
-{{< deepzoom tile="https://images.lib.cam.ac.uk/iiif/MS-RAS-00258-000-00011.jp2/info.json" class="shadow" alt="Interactive zoomable viewer showing a manuscript illustration of a teacher surrounded by students." pdf-img="https://images.lib.cam.ac.uk/content/images/MS-RAS-00258-000-00011.jpg" pdf-alt="a manuscript illustration of a teacher surrounded by students." height="50em" caption="**Figure 1.** An elderly man teaching female students and attendants. The illustration is inserted (probably at a later date) into a Gulistan manuscript copied at Fatehpur Sikri in 990 HJ / 1582-3 CE. [Collection of the Royal Asiatic Society](https://cudl.lib.cam.ac.uk/mirador/MS-RAS-00258/11), RAS Persian 258. (accessed October 2, 2024).">}}
+{{< deepzoom tile="https://images.lib.cam.ac.uk/iiif/MS-RAS-00258-000-00011.jp2/info.json" class="shadow" alt="Interactive zoomable viewer showing a manuscript illustration of a teacher surrounded by students." pdf-img="https://images.lib.cam.ac.uk/content/images/MS-RAS-00258-000-00011.jpg" pdf-alt="a manuscript illustration of a teacher surrounded by students." height="50em" caption="**Figure 2.** An elderly man teaching female students and attendants. The illustration is inserted (probably at a later date) into a Gulistan manuscript copied at Fatehpur Sikri in 990 HJ / 1582-3 CE. [Collection of the Royal Asiatic Society](https://cudl.lib.cam.ac.uk/mirador/MS-RAS-00258/11), RAS Persian 258. (accessed October 2, 2024).">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE. Interactive zoomable viewer showing a manuscript illustration of a teacher surrounded by students.
 |
-| CAPTION: **Figure 1.** An elderly man teaching female students and attendants. The illustration is inserted (probably at a later date) into a Gulistan manuscript copied at Fatehpur Sikri in 990 HJ / 1582-3 CE.
+| CAPTION: **Figure 2.** An elderly man teaching female students and attendants. The illustration is inserted (probably at a later date) into a Gulistan manuscript copied at Fatehpur Sikri in 990 HJ / 1582-3 CE.
 | ATTRIBUTION: Collection of the Royal Asiatic Society, RAS Persian 258
 | LINK: https://cudl.lib.cam.ac.uk/mirador/MS-RAS-00258/11
 #-----------------------------------------------------------------------------------
@@ -59,13 +70,13 @@ Who were the different groups of students studying the *Gulistan*? Given the cen
   {{ end }}
 </iframe>
 
-<figcaption><b>Figure 2:</b> test</figcaption>
+<figcaption><b>Figure 3:</b> Places where <i>Gulistan</i> manuscripts were originally produced are marked with red pins. Places where commentaries were written on those manuscripts are indicated with blue pins.</figcaption>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | INTERACTIVE MAP: Map of India and Pakistan with pins indicating the location of manuscripts and commentaries.
 |
-| CAPTION: 
+| CAPTION: **Figure 3:** Places where *Gulistan* manuscripts were originally produced are marked with red pins. Places where commentaries were written on those manuscripts are indicated with blue pins.
 |
 | SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map.html
 ⩩-----------------------------------------------------------------------------------⟩
@@ -93,7 +104,7 @@ On May 24, 1877, Muhammad Sharif "Nangarhari" inscribed a *Gulistan* commentary 
   title="Detail of Gulistan Map" 
   src="/issues/5/mapping-persian-literacy/gulistan_map_detail.html" 
   pdf-img="images/gullistan_map_detail_still.png"
-  pdf-alt="Zoomed in portion of map, displaying manuscripts and commentaries at border of modern-day India and Pakistan.">
+  pdf-alt="Zoomed in portion of map, displaying manuscripts and commentaries at border of modern-day Afghanistan and Pakistan.">
   {{/* static image in pdf only, in place of dynamic map */}}
   {{ if (.Get "pdf-img") }}
   <figure class="preview">
@@ -103,14 +114,14 @@ On May 24, 1877, Muhammad Sharif "Nangarhari" inscribed a *Gulistan* commentary 
   {{ end }}
 </iframe>
 
-<figcaption><b>Figure 3:</b> test</figcaption>
+<figcaption><b>Figure 4:</b> Persian manuscripts at the border of modern-day Afghanistan and Pakistan.</figcaption>
 
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
 | INTERACTIVE MAP: Map showing border of modern-day Afghanistan and Pakistan with 
 | pins indicating the location of manuscripts and commentaries.
 |
-| CAPTION: 
+| CAPTION: **Figure 4:** Persian manuscripts at the border of modern-day Afghanistan and Pakistan.
 |
 | SOURCE CODE: https://github.com/Princeton-CDH/startwords/tree/main/content/issues/5/mapping-persian-literacy/gulistan_map.html
 ⩩-----------------------------------------------------------------------------------⟩
@@ -132,12 +143,12 @@ Among these wider questions is that of Hindu-Muslim relations and the extent to 
 
 Beyond these generic patterns, the visual representation of the data draws our eyes to particularly interesting points. The concentration of points in and around the Lahore region in the Punjab probably reflects the fact that the two largest collections of Persian manuscripts in Pakistan are held by the Punjab University in Lahore and the Ganj Baksh Library in Rawalpindi. But the spread is also illustrative. For instance, a manuscript now in Karachi has traveled all the way from Solapur in Southern India. Not coincidentally, this manuscript is in the [naskh script](https://en.wikipedia.org/wiki/Naskh_(script)), as opposed to the [nastaʿliq script](https://en.wikipedia.org/wiki/Nastaliq) that was more common in Northern India. One manuscript, dated to around the 1800s, was produced in a town in Bihar and is currently located in Peshawar. Within a couple of centuries, it has traveled thousands of miles. How, why, and by whom did this movement take place? These are questions that might make for a riveting historical drama, and one hopes that future researchers can pursue them.
 
-{{< figure src="images/MKmosque.jpg" alt="Photograph of a mosque, set against a blue sky." caption="**Figure 4.** The Mohabbat Khan Mosque, located in Peshawar, Pakistan." attr="Wikimedia Commons" attrlink="https://commons.wikimedia.org/wiki/File:MKmosque.jpg">}}
+{{< figure src="images/MKmosque.jpg" alt="Photograph of a mosque, set against a blue sky." caption="**Figure 5.** The Mohabbat Khan Mosque, located in Peshawar, Pakistan." attr="Wikimedia Commons" attrlink="https://commons.wikimedia.org/wiki/File:MKmosque.jpg">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE. Photograph of a mosque, set against a blue sky.
 |
-| CAPTION: **Figure 4.** The Mohabbat Khan Mosque, located in Peshawar, Pakistan.
+| CAPTION: **Figure 5.** The Mohabbat Khan Mosque, located in Peshawar, Pakistan.
 |
 | ATTRIBUTION: Wikimedia Commons
 #-----------------------------------------------------------------------------------
