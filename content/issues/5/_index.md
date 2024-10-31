@@ -3,7 +3,7 @@ type: issue
 layout: single
 title: Issue 5
 number: 5
-theme: MOBILITIES
+theme: JOURNEYS
 theme_wrap_width: 10rem
 # Unless the publish date is before today's date, hugo won't publish it.
 date: 2024-09-29 # Change me
