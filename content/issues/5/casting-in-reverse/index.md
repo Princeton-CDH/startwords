@@ -11,19 +11,19 @@ summary: In 1611, German ducal agent and art collector Philipp Hainhofer recorde
 # tags: [DataBeyondVision, HowTo, ... etc]
 # doi: DOI/zenodo.ZENODO_ID
 # pdf: https://zenodo.org/record/DOI/files/startwords-#-casting-in-reverse.pdf
-# hook_height_override: height for preview shape on mobile if default calculation on mobile does not work
+hook_height_override: 155
 ---
 
 In 1611, German ducal agent and art collector Philipp Hainhofer recorded two bronze statuettes in an imperial Augsburg collection: "a group of a lion slaying a horse," and "a group of a lion slaying a bull." These sculptures, he writes, were "*di mano del*" (by the hand of) Florentine court sculptor, Giambologna (1529--1608).[^1] From Giambologna's eighteenth-century biographer, we learn that the subjects were cast in multiple, continuing even after his death.[^2] Though the location of the Augsburg casts is unknown, others survive across various collections. Only two "sets," however, are signed, one in the Museo di Palazzo Venezia in Rome and the other broken up between the Louvre and the Detroit Institute of Arts.
 
-{{< figure src="images/fig1-lion.jpg" alt="Bronze statue, deep brown color, of a lion biting into the side of a bull, who turns its head to face the lion." caption="**Figure 1.** Antonio Susini, after Giambologna, *Lion Attacking a Bull*, bronze, 21 x 28.5cm." attr="Musée du Louvre. ANT°-/SVSI/NI.F, signed under the bull's right front hoof." max-width="450px">}}
+{{< figure src="images/fig1-lion-horse.jpg" alt="Bronze statue, deep brown color, of a lion biting into the side of a horse, who turns its head to face the lion." caption="**Figure 1.** Antonio Susini; after Giovanni da Bologna, *Lion Attacking Horse,* ca. between 1580 and 1590, bronze, red lacquer." attr="Detroit Institute of Arts, City of Detroit Purchase, 25.20.">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE.  Bronze statue, deep brown color, of a lion biting into the side of a bull, who turns its head to face the lion.
 |
-| CAPTION: **Figure 1.** Antonio Susini, after Giambologna, *Lion Attacking a Bull*, bronze, 21 x 28.5cm.
+| CAPTION: **Figure 1.** Antonio Susini; after Giovanni da Bologna, *Lion Attacking Horse,* ca. between 1580 and 1590, bronze, red lacquer.
 |
-| ATTRIBUTION: Musée du Louvre. ANT°-/SVSI/NI.F, signed under the bull's right front hoof.
+| ATTRIBUTION: Detroit Institute of Arts, City of Detroit Purchase, 25.20.
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
@@ -88,14 +88,14 @@ Describing the production of molds for casting in bronze, Sienese metallurgist V
 
 In about 1596, Susini modeled and cast a series of bronze statuettes for the tabernacle of a Carthusian monastery (the Certosa) outside Florence, the production of which are among his most documented in both period sources and museum conservation. Of these figures, Saint Matthew, now conserved at the Metropolitan Museum of Art, seemed a good subject to experiment with. The process began with a fundamental question that Susini and other artists tasked with reproducing, reducing, or enlarging a sculpture would have faced: How does one render something to scale? Not having the original readily available to measure and compare, I instead turned to the two dimensional and worked off scaled photographs of the sculpture from various angles. To simulate in modern, quicker means the Renaissance piece-mold, I made a rubber mold of my clay (itself a "free copy" destroyed in the molding process) to cast a wax replica.
 
-{{< figure src="images/fig4-scaled-w-mold.jpg" alt="The back of a bronze cast of a robed figure, next to an impression of that figure left in a wax block." caption="**Figure 4.** (Left) Scaled image of Antonio Susini's, *Saint Matthew* (possibly after a model by Giambologna), 1596, bronze, 27 x14 x 8.9cm. (Right) Half of the rubber mold to cast my free copy in wax." attr="Metropolitan Museum of Art.">}}
+{{< figure src="images/fig4-scaled-w-mold.jpg" alt="The back of a bronze cast of a robed figure, next to an impression of that figure left in a wax block." caption="**Figure 4.** (Left) Scaled image of Antonio Susini's, *Saint Matthew* (possibly after a model by Giambologna), 1596, bronze, 27 x14 x 8.9cm. (Right) Half of the rubber mold to cast my free copy in wax." attr="Metropolitan Museum of Art, and courtesy of author.">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE. The back of a bronze cast of a robed figure, next to an impression of that figure left in a wax block.
 |
 | CAPTION: **Figure 4.** (Left) Scaled image of Antonio Susini's, *Saint Matthew* (possibly after a model by Giambologna), 1596, bronze, 27 x14 x 8.9cm. (Right) Half of the rubber mold to cast my free copy in wax.
 |
-| ATTRIBUTION: Metropolitan Museum of Art.
+| ATTRIBUTION: Metropolitan Museum of Art, and courtesy of author.
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
@@ -197,10 +197,10 @@ Most notably, the 3D scan is unfocused, and the surface textures read more or le
 
 Now we can return to Susini and the PUAM Cristo Morto. Though at this time I was not able to take photogrammetric scans of the object directly using the MetaScan Pro phone application, I was able to do the next best thing. Using MetaScan's online platform, I uploaded three hundred photos of the object from all angles that I had taken during a study visit last November; from these images, it generated a relatively successful model.
 
-{{<sketchfab id="f195b74069c74a3d9388e1392b096aa0" alt="3D model of a gilt bronze crucifix, viewed head on." pdf-img="images/fig11-sketchfab_crucifix_still.png" pdf-alt="Still image of a gilt bronze crucifix, captured from a 3D scan of the object." caption="**Figure 11.** Photogrammetry model, Workshop of Antonio Susini, after Giambologna, *Corpus for Crucifix,* gilt bronze, 22.3 x 19.9 x 4.9 cm. Princeton University Art Museum.">}}
+{{<sketchfab id="f195b74069c74a3d9388e1392b096aa0" alt="3D model of a gilt bronze crucifix, viewed head on." pdf-img="images/fig11-sketchfab_crucifix_still.png" pdf-alt="Still image of a gilt bronze crucifix, captured from a 3D scan of the object." caption="**Figure 11.** Photogrammetry model, Workshop of Antonio Susini, after Giambologna, *Corpus for Crucifix,* gilt bronze, 22.3 x 19.9 x 4.9 cm. Princeton University Art Museum, y1981-42.">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| FIGURE 11. 3D model of a gilt bronze crucifix, viewed head on. Photogrammetry model, Workshop of Antonio Susini, after Giambologna, *Corpus for Crucifix,* gilt bronze, 22.3 x 19.9 x 4.9 cm. Princeton University Art Museum.
+| FIGURE 11. 3D model of a gilt bronze crucifix, viewed head on. Photogrammetry model, Workshop of Antonio Susini, after Giambologna, *Corpus for Crucifix,* gilt bronze, 22.3 x 19.9 x 4.9 cm. Princeton University Art Museum, y1981-42.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
