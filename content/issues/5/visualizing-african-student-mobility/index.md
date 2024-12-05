@@ -7,11 +7,11 @@ authors:
   - AkanoKim
 date: 2024-09-30 # Change me
 images: ["issues/5/visualizing-african-student-mobility/images/social-media-preview.jpg"] # social media preview image(s)
-summary: Some of the best material we have for understanding twentieth-century African migration to the United States is held within the archives of an African American educator.
+summary: What can bundles of worn index cards tell us about twentieth-century African migration to the United States?
 # tags: [DataBeyondVision, HowTo, ... etc]
-# doi: DOI/zenodo.ZENODO_ID
+doi: 10.70400/QLLR8107
 # pdf: https://zenodo.org/record/DOI/files/startwords-#-visualizing-african-student-mobility.pdf
-# hook_height_override: height for preview shape on mobile if default calculation on mobile does not work
+hook_height_override: 177
 ---
 
 Some of the best material we have for understanding twentieth-century African migration to the United States is held within the archives of an African American educator. In 1959, Horace Mann Bond, then Dean of the School of Education at Atlanta University, set out to survey the historical relationship between African Americans and Africans. Key to his investigation was his interest in African students who had studied at historically Black colleges and universities (HBCUs) in the U.S., starting as early as 1848. Drawing upon information provided by his vast network of fellow college administrators and presidents, Bond compiled over one thousand index cards, each documenting information on an African student.[^1] These cards are a critical resource for my research on the religious, racial, and political formation of African student migrants to the U.S. during the twentieth century.
