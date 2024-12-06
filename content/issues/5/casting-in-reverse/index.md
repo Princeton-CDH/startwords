@@ -2,11 +2,11 @@
 type: article
 title: "Casting in Reverse: Recuperating Sixteenth-Century Marks and Makers through Data Curation and 3D-Imaging"
 slug: casting-in-reverse
-order: 1 # set to determine article order within the issue
+order: 1
 authors:
   - LookmanSharifa
 date: 2024-09-30 # Change me
-images: ["issues/5/casting-in-reverse/images/social-media-preview.png"] # social media preview image(s)
+images: ["issues/5/casting-in-reverse/images/social-media-preview.png"] 
 summary: In 1611, German ducal agent and art collector Philipp Hainhofer recorded two bronze statuettes in an imperial Augsburg collection.
 # tags: [DataBeyondVision, HowTo, ... etc]
 doi: 10.70400/MVMV3001
@@ -99,7 +99,7 @@ In about 1596, Susini modeled and cast a series of bronze statuettes for the tab
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
-The cast wax is malleable with heated metal tools and an open flame, but it requires a gentle touch. Initially I assumed the wax was a quick, auxiliary step---a means to a bronze end. In reality it is both time-consuming and labor-intensive. It is a task of repair and editingthe wax modeler is as much sculptor as he is "fixer." Indeed, one wants the finished wax to be as close to the final product as it can, for it is much easier to alter in soft wax than in hard, obdurate metal.
+The cast wax is malleable with heated metal tools and an open flame, but it requires a gentle touch. Initially I assumed the wax was a quick, auxiliary step---a means to a bronze end. In reality it is both time-consuming and labor-intensive. It is a task of repair and editing the wax modeler is as much sculptor as he is "fixer." Indeed, one wants the finished wax to be as close to the final product as it can, for it is much easier to alter in soft wax than in hard, obdurate metal.
 
 {{<pullquote right `The wax is prepared with vents and sprues that are burnt out, leaving behind intricate channels for the molten bronze to properly fill.` >}}
 
@@ -120,13 +120,13 @@ Sanding, polishing, and engraving the bronze surface is a long process, one I ha
 
 **Objects as Surface**
 
-As we have seen, cleaning and finishing a bronze cast is---and was---a labor-intensive process preoccupied with surface. Whether working in bronze or pixels, t[o cast is, after all, to capture surface. In this final section, I want to discuss another means with which to "cast" a bronze object: 3D scanning and photogrammetry. Increasingly in the humanities, 3D-imaging technologies have been integrated to conserve and closely study historical objects otherwise inaccessible or ill-preserved. These technologies are particularly useful in revealing technical data about an object and have been integrated most successfully into conservation studies. Not only do they have the potential to offer refined images of an object's surface geometry, for example, but they also capture its exact dimensions. My interest in the technology began out of its potential for the latter.[^10]
+As we have seen, cleaning and finishing a bronze cast is---and was---a labor-intensive process preoccupied with surface. Whether working in bronze or pixels, to cast is, after all, to capture surface. In this final section, I want to discuss another means with which to "cast" a bronze object: 3D scanning and photogrammetry. Increasingly in the humanities, 3D-imaging technologies have been integrated to conserve and closely study historical objects otherwise inaccessible or ill-preserved. These technologies are particularly useful in revealing technical data about an object and have been integrated most successfully into conservation studies. Not only do they have the potential to offer refined images of an object's surface geometry, for example, but they also capture its exact dimensions. My interest in the technology began out of its potential for the latter.[^10]
 
 {{<pullquote left `The characteristics that defined bronze—shiny, polished, reflective—made it resist reproduction, the very process for which it is indebted.` >}}
 
 The Princeton University Art Museum owns a gilt bronze corpus for a crucifix (also known as a Cristo Morto) originating from or around the workshop of Susini, one of many attributed to the artist. Ultimately, the objective is to scan two of these and compare the 3D models to determine where, if at all, piece-molds were reused or altered. Though measurements can be taken manually from an object, they are inexact for curved surfaces in particular. Still in the early stages of this endeavor, I have been experimenting with the technologies available and the involved logistics of handling and imaging a sixteenth-century museum artifact. A series of test objects---some produced during my casting project---reveal the potentials and limits of doing so, and a preliminary photogrammetric model provides a standard on which to build.
 
-Beginning with a small brass frog and a tabletop scanner (Einscan SP), in the first few scans it quickly became clear that the process wouldn't be a straightforward one. Very little data was captured in these initial scans and only in areas where the patina was darker and matte.
+Beginning with a small brass frog and a tabletop scanner (EinScan SP), in the first few scans it quickly became clear that the process wouldn't be a straightforward one. Very little data was captured in these initial scans and only in areas where the patina was darker and matte.
 
 {{< figure src="images/fig6-frog-fail.jpg" alt="Two views of sketchy digital textures that barely hint at the contours of a frog." caption="**Figure 6.** My initial --- unsuccessful --- scans of the brass frog." attr="Courtesy of author.">}}
 {{< wrap class="txt-only" >}}
@@ -143,12 +143,12 @@ The reflective surface of the metal was simply not captured by the scanner. For 
 
 Naturally matte materials, like clay, or, on the other hand, semi-gloss, like wax, translated well to a 3D scan. I used both my wax model and fragments from my original clay model to test out the level of detail and structure picked up. Where the brass result was piecemeal at best, even from an initial scan of the clay the tabletop scanner was able to produce a far more cohesive and legible model.[^11] For the wax, which exceeded in height the limit of the tabletop scanner, a handheld version (Einstar) was used.
 
-{{< figure src="images/fig7-drapery-scan.jpg" alt="Two views of a digital scan of a robed figure. The scan on the right is of much higher quality, showing some of the statue's color and texture." caption="**Figure 7.** (Left) 3D-scan of terracotta clay drapery fragment (Einscan SP, tabletop). (Right) 3D-scan of wax model (Einstar, handheld)." attr="Courtesy of author.">}}
+{{< figure src="images/fig7-drapery-scan.jpg" alt="Two views of a digital scan of a robed figure. The scan on the right is of much higher quality, showing some of the statue's color and texture." caption="**Figure 7.** (Left) 3D-scan of terracotta clay drapery fragment (EinScan SP, tabletop). (Right) 3D-scan of wax model (Einstar, handheld)." attr="Courtesy of author.">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE. Two views of a digital scan of a robed figure. The scan on the right is of much higher quality, showing some of the statue's color and texture.
 |
-| CAPTION: **Figure 7.** (Left) 3D-scan of terracotta clay drapery fragment (Einscan SP, tabletop). (Right) 3D-scan of wax model (Einstar, handheld).
+| CAPTION: **Figure 7.** (Left) 3D-scan of terracotta clay drapery fragment (EinScan SP, tabletop). (Right) 3D-scan of wax model (Einstar, handheld).
 |
 | ATTRIBUTION: Courtesy of author.
 #-----------------------------------------------------------------------------------
@@ -169,10 +169,10 @@ In both, the technology shined and produced the sort of results I was hoping for
 
 In 3D scanning, it is necessary to "mesh" the model, which effectively fills in the data gaps and together renders a more lifelike scan.[^13] If the raw scans can be seen as a hollow, untreated bronze cast---with imperfections, sprue holes, and other proverbial "casting flaws"---the mesh function becomes a surrogate for the finishing processes of polish and repair. The results of the mesh were striking, if also unexpected.
 
-{{<sketchfab id="69fdd11c63da4927a5d7d07bf643fcda" alt="Still from a 3D model of a bronze frog, viewed head on." pdf-img="images/fig9-sketchfab-frog-still.png" pdf-alt="Still image of a gilt frog, captured from a 3D scan of the object." caption="**Figure 9.** 3D-scan of brass frog, using Einscan SP, tabletop. The black shapes on the bottom and side capture the casting wax used to support the object.">}}
+{{<sketchfab id="69fdd11c63da4927a5d7d07bf643fcda" alt="Still from a 3D model of a bronze frog, viewed head on." pdf-img="images/fig9-sketchfab-frog-still.png" pdf-alt="Still image of a gilt frog, captured from a 3D scan of the object." caption="**Figure 9.** 3D-scan of brass frog, using EinScan SP, tabletop. The black shapes on the bottom and side capture the casting wax used to support the object.">}}
 {{< wrap class="txt-only" >}}
 ⩩-----------------------------------------------------------------------------------⟩
-| FIGURE 9. 3D-scan of brass frog, using Einscan SP, tabletop. The black shapes on the bottom and side capture the casting wax used to support the object. Image courtesy of author.
+| FIGURE 9. 3D-scan of brass frog, using EinScan SP, tabletop. The black shapes on the bottom and side capture the casting wax used to support the object. Image courtesy of author.
 ⩩-----------------------------------------------------------------------------------⟩
 {{</ wrap >}}
 
@@ -195,7 +195,7 @@ In addition to 3D scanning, which uses laser measurements, photogrammetry uses p
 
 Most notably, the 3D scan is unfocused, and the surface textures read more or less homogenous; the photogrammetric still, on the other hand, perhaps expectedly, reads closer to that of the still photograph.
 
-Now we can return to Susini and the PUAM Cristo Morto. Though at this time I was not able to take photogrammetric scans of the object directly using the MetaScan Pro phone application, I was able to do the next best thing. Using MetaScan's online platform, I uploaded three hundred photos of the object from all angles that I had taken during a study visit last November; from these images, it generated a relatively successful model.
+Now we can return to Susini and the PUAM Cristo Morto. Though at this time I was not able to take photogrammetric scans of the object directly using the Metascan Pro phone application, I was able to do the next best thing. Using Metascan's online platform, I uploaded three hundred photos of the object from all angles that I had taken during a study visit last November; from these images, it generated a relatively successful model.
 
 {{<sketchfab id="f195b74069c74a3d9388e1392b096aa0" alt="3D model of a gilt bronze crucifix, viewed head on." pdf-img="images/fig11-sketchfab_crucifix_still.png" pdf-alt="Still image of a gilt bronze crucifix, captured from a 3D scan of the object." caption="**Figure 11.** Photogrammetry model, Workshop of Antonio Susini, after Giambologna, *Corpus for Crucifix,* gilt bronze, 22.3 x 19.9 x 4.9 cm. Princeton University Art Museum, y1981-42.">}}
 {{< wrap class="txt-only" >}}
@@ -218,15 +218,15 @@ Recently, art historian Michael Cole published an article in *West 86<sup>th</su
 
 [^4]: For matters of space and clarity, this is of course a simplification of ongoing discussions and debates surrounding these works and their authorship. For a more comprehensive account, see Peggy Fogelman's catalog entry for the Getty's (unsigned) pair. Peggy Fogelman, "Lion Attacking a Horse and Lion Attacking a Bull," In *Italian and Spanish Sculpture: Catalogue of the J. Paul Getty Museum Collection*, edited by Peggy Fogelman et al. ( J. Paul Getty Museum, 2002), 177--89.
 
-[^5]: James Holderbaum, *The Sculptor Giovanni Bologna* ( Garland , 1983), 255; Katherine Watson, *Pietro Tacca, S* *uccessor to Giovanni Bologna* (New York: Garland , 1983), 47.
+[^5]: James Holderbaum, *The Sculptor Giovanni Bologna* (Garland, 1983), 255; Katherine Watson, Pietro Tacca, Successor to Giovanni Bologna (New York: Garland, 1983), 47.
 
 [^6]: In a letter from Giambologna to Belisario Vinta, August 6, 1605. Cited in Watson, *Pietro Tacca*, 33 n 37.
 
-[^7]: For these concepts, see Steven Shapin, "The Invisible Technician," *American Scientist* 77, no. 6 (1989): 554--63 and Jacques de Caso, "Serial Sculpture in Nineteenth-Century France," in *Metamorphoses in Nineteenth-Century Sculpture*, ed. Jeanne L. Wasserman ( Fogg Museum, 1975), 1--28.
+[^7]: For these concepts, see Steven Shapin, "The Invisible Technician," *American Scientist* 77, no. 6 (1989): 554--63 and Jacques de Caso, "Serial Sculpture in Nineteenth-Century France," in *Metamorphoses in Nineteenth-Century Sculpture*, ed. Jeanne L. Wasserman (Fogg Museum, 1975), 1--28.
 
 [^8]: It should be acknowledged, of course, that signatures, especially those in bronze, do not in and of themselves assert authorship with absolute certainty. For our purposes, however, they offer measures from which to work.
 
-[^9]: Vannoccio Biringuccio, *Pirotechnia*, trans. Cyril Stanley Smith and Maratha Teach Gnudi ( M.I.T. Press, 1966), 220.
+[^9]: Vannoccio Biringuccio, *Pirotechnia*, trans. Cyril Stanley Smith and Maratha Teach Gnudi (M.I.T. Press, 1966), 220.
 
 [^10]: I am also inspired here by other sculpture 3D-modeling initiatives in art history, such as the collaborative multidisciplinary project, "The Technical Study of Bernini's Bronzes," between the University of Toronto, the Art Gallery of Ontario, and the Getty Research Institute.
 
@@ -238,6 +238,6 @@ Recently, art historian Michael Cole published an article in *West 86<sup>th</su
 
 [^14]: Photos of either higher quality or focus might remedy these imperfections, as it appears the photogrammetry software was unable to differentiate the contours of the fingers from the background underneath.
 
-[^15]: I took the photogrammetry model's measurements using Metas can. While the proportions were similar, MetaScan is peculiarly measuring at 10x magnification, labeling the object's five-centimeter forearm, for example, as fifty.
+[^15]: I took the photogrammetry model's measurements using Metascan. While the proportions were similar, Metascan is peculiarly measuring at 10x magnification, labeling the object's five-centimeter forearm, for example, as fifty.
 
-[^16]: Michael Cole, "Bronze as Model," *West 86<sup>th</sup>: A Journal of Decorative Arts, Design History, and Material Culture* 28, n o. 2 ( 2021): 232--39.
+[^16]: Michael Cole, "Bronze as Model," *West 86<sup>th</sup>: A Journal of Decorative Arts, Design History, and Material Culture* 28, no. 2 ( 2021): 232--39.

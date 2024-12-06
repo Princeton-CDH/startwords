@@ -2,11 +2,11 @@
 type: article
 title: Mapping Persian Literacy in Early Modern South Asia
 slug: mapping-persian-literacy
-order: 3 # set to determine article order within the issue
+order: 3
 authors:
   - HameedHasan
 date: 2024-09-30 # Change me
-images: ["issues/5/mapping-persian-literacy/images/social-media-preview.png"] # social media preview image(s)
+images: ["issues/5/mapping-persian-literacy/images/social-media-preview.png"]
 summary: On May 15, 1722, in the town of Gujranwala, Sayyid ʿInayatullah produced a commentary on one of the most well-read books in human history.
 # tags: [DataBeyondVision, HowTo, ... etc]
 doi: 10.70400/BKUQ2306
