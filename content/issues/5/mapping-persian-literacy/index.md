@@ -10,7 +10,7 @@ images: ["issues/5/mapping-persian-literacy/images/social-media-preview.png"]
 summary: On May 15, 1722, in the town of Gujranwala, Sayyid ʿInayatullah produced a commentary on one of the most well-read books in human history.
 # tags: [DataBeyondVision, HowTo, ... etc]
 doi: 10.70400/BKUQ2306
-# pdf: https://zenodo.org/record/DOI/files/startwords-#-mapping-persian-literacy.pdf
+pdf: https://drive.google.com/file/d/14uIk8sU6YhHnL0t0wyFwM9TyRnMemGen/view?usp=sharing
 # hook_height_override: height for preview shape on mobile if default calculation on mobile does not work
 ---
 

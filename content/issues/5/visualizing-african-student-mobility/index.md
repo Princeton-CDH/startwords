@@ -10,7 +10,7 @@ images: ["issues/5/visualizing-african-student-mobility/images/social-media-prev
 summary: What can bundles of worn index cards tell us about twentieth-century African migration to the United States?
 # tags: [DataBeyondVision, HowTo, ... etc]
 doi: 10.70400/QLLR8107
-# pdf: https://zenodo.org/record/DOI/files/startwords-#-visualizing-african-student-mobility.pdf
+pdf: https://drive.google.com/file/d/1RF4Fy-elhzpogceclhrbDHGpTN4iAPnB/view?usp=sharing
 hook_height_override: 177
 ---
 

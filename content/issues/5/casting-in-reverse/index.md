@@ -10,7 +10,7 @@ images: ["issues/5/casting-in-reverse/images/social-media-preview.png"]
 summary: In 1611, German ducal agent and art collector Philipp Hainhofer recorded two bronze statuettes in an imperial Augsburg collection.
 # tags: [DataBeyondVision, HowTo, ... etc]
 doi: 10.70400/MVMV3001
-# pdf: https://zenodo.org/record/DOI/files/startwords-#-casting-in-reverse.pdf
+pdf: https://drive.google.com/file/d/1Aae0tn8fP1kHSdYVTIH6okynfHlAJbfQ/view?usp=sharing
 hook_height_override: 155
 ---
 
