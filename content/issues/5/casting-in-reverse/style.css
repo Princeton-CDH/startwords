@@ -1,0 +1,12 @@
+/* adjust image sizes to reduce PDF whitespace */
+@media print{
+    img[src$="fig1-lion-horse.jpg"] {
+        max-height: 75%;
+    }
+    img[src$="fig4-scaled-w-mold.jpg"] {
+        max-height: 75%;
+    }
+    img[src$="fig9-sketchfab-frog-still.png"] {
+        max-height: 50%;
+    }
+}
