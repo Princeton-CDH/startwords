@@ -160,7 +160,7 @@ Beyond these generic patterns, the visual representation of the data draws our e
 
 **********
 
-This brief article has attempted to give a sort of extended caption to an interactive map of *Gulistan* manuscripts produced in early modern India. Though recognizing all the limitations of the project, I have followed an Arabic proverb often cited by the authors of commentaries: "Whoever cannot encapsulate all, should not leave all." I hope that it can inspire me and others to explore the understudied world of Perso-Islamic manuscripts in India.
+This brief article has attempted to give a sort of extended caption to an interactive map of *Gulistan* manuscripts produced in early modern India. Though recognizing all the limitations of the project, I have followed an Arabic proverb often cited by the authors of commentaries: "Whoever cannot encapsulate all, should not leave all." I hope that it can inspire me and others to explore the understudied world of Perso-Islamic manuscripts in India.[^8]
 
 ## Acknowledgments
 
@@ -179,3 +179,5 @@ I extend my gratitude to a number of people: Maulana Dr. Sabeeh Hamdani, for his
 [^6]: Naeem Abbas, "'Made-in-Sialkot' Adidas Ball Puts Pakistan in the World Cup," Reuters, December 9, 2022, https://www.reuters.com/lifestyle/sports/made-in-sialkot-adidas-ball-puts-pakistan-world-cup-2022-12-09/.
 
 [^7]: With slight modifications, this translation is taken from Wheeler M. Thackston, *The Gulistan (Rose Garden) of Sa'di* (Ibex Publishers, 2008), 129.
+
+[^8]: As this piece was going through the final proofs, I discovered "The Persian Tadhkira Project" which maps *tadhkiras* (biographical anthologies) of Persian poets produced and circulating across the Persianate world, c. 1200-1900. For more, see Kevin L. Schwartz, “A Transregional Persianate Library: The Production and Circulation of tadhkiras of Persian Poets in the 18th and 19th Centuries,” *International Journal of Middle East Studies,* 52.1 (2020): pp. 109-135.
