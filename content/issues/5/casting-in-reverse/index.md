@@ -63,16 +63,14 @@ In the sixteenth century, in and around the Giambologna workshop, the use of ind
 {{</table>}}
 {{</wrap>}}
 
-In addition to standard metadata like "artist," "collection," and "date," each object also has a unique identification number (i.e. ASB1 for Antonio Susini bronze #1), through which objects of similar subjects can be grouped and "certainty" of authorship mapped. Casts signed and dated by Susini, for example, receive a "certainty" score of a 9 or 10, whereas others more tenuously designated in early catalogs as "possibly cast by" receive a much lower number.[^8]
+In addition to standard metadata like "artist," "collection," and "date," each object also has a unique identification number (i.e. 241021-006, labeled according to date and order of entry), through which objects of similar subjects can be grouped and "certainty" of authorship mapped. Casts signed and dated by Susini, for example, receive a "certainty" score of a 9 or 10, whereas others more tenuously designated in early catalogs as "possibly cast by" receive a much lower number.[^8]
 
-{{< figure src="images/fig3-horse.jpg" alt="Two almost identical bronze figures of a horse, standing with front left hoof raised." caption="**Figure 3.** (Left) Antonio Susini. *A Pacing Horse*, ca. 1600, bronze, 29.5 x 32.35 x 9.5cm. Signed ANT: SVSINII FLOR: FE. (Right) Giambologna, 'Probably' modeled, cast, and finished by Antonio Susini, *Walking Horse with Hogged Mane and Saddlecloth Bearing the Vinta Coat of Arms,* ca. 1610, bronze, 27.5 x 8.9 x 25.1 cm." attr="Victoria and Albert Museum. Clark Art Institute.">}}
+{{< figure src="images/fig3-horse.jpg" alt="Two almost identical bronze figures of a horse, standing with front left hoof raised." caption="**Figure 3.** (Left) Antonio Susini. *A Pacing Horse*, ca. 1600, bronze, 29.5 x 32.35 x 9.5cm. Victoria and Albert Museum, London, A.11-1924. Signed ANT: SVSINII FLOR: FE. (Right) Giovanni Bologna, called Giambologna, *Walking Horse with Hogged Mane and Saddlecloth Bearing the Vinta Coat of Arms,* ca. 1610, bronze, 27.5 x 8.9 x 25.1 cm. Clark Art Institute, 1955.1004. Image courtesy of Clark Art Institute.">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE. Two almost identical bronze figures of a horse, standing with front left hoof raised.
 |
-| CAPTION: **Figure 3.** (Left) Antonio Susini. *A Pacing Horse*, ca. 1600, bronze, 29.5 x 32.35 x 9.5cm. Signed ANT: SVSINII FLOR: FE. (Right) Giambologna, 'Probably' modeled, cast, and finished by Antonio Susini, *Walking Horse with Hogged Mane and Saddlecloth Bearing the Vinta Coat of Arms,* ca. 1610, bronze, 27.5 x 8.9 x 25.1 cm.
-|
-| ATTRIBUTION: Victoria and Albert Museum. Clark Art Institute..
+| CAPTION: **Figure 3.** (Left) Antonio Susini. *A Pacing Horse*, ca. 1600, bronze, 29.5 x 32.35 x 9.5cm. Victoria and Albert Museum, London, A.11-1924. Signed ANT: SVSINII FLOR: FE. (Right) Giovanni Bologna, called Giambologna, *Walking Horse with Hogged Mane and Saddlecloth Bearing the Vinta Coat of Arms,* ca. 1610, bronze, 27.5 x 8.9 x 25.1 cm. Clark Art Institute, 1955.1004. Image courtesy of Clark Art Institute.
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
@@ -88,12 +86,12 @@ Describing the production of molds for casting in bronze, Sienese metallurgist V
 
 In about 1596, Susini modeled and cast a series of bronze statuettes for the tabernacle of a Carthusian monastery (the Certosa) outside Florence, the production of which is among his most documented in both period sources and museum conservation. Of these figures, Saint Matthew, now conserved at the Metropolitan Museum of Art, seemed a good subject to experiment with. The process began with a fundamental question that Susini and other artists tasked with reproducing, reducing, or enlarging a sculpture would have faced: How does one render something to scale? Not having the original readily available to measure and compare, I instead turned to the two dimensional and worked off scaled photographs of the sculpture from various angles. To simulate in modern, quicker means the Renaissance piece-mold, I made a rubber mold of my clay (itself a "free copy" destroyed in the molding process) to cast a wax replica.
 
-{{< figure src="images/fig4-scaled-w-mold.jpg" alt="The back of a bronze cast of a robed figure, next to an impression of that figure left in a wax block." caption="**Figure 4.** (Left) Scaled image of Antonio Susini's, *Saint Matthew* (possibly after a model by Giambologna), 1596, bronze, 27 x14 x 8.9cm. (Right) Half of the rubber mold to cast my free copy in wax." attr="Metropolitan Museum of Art, and courtesy of author.">}}
+{{< figure src="images/fig4-scaled-w-mold.jpg" alt="The back of a bronze cast of a robed figure, next to an impression of that figure left in a wax block." caption="**Figure 4.** (Left) Antonio Susini (model and cast, possibly after a model by Giambologna), *Saint Matthew,* 1596, bronze. Metropolitan Museum of Art, New York, Purchase, Joseph Pulitzer Bequest, 1957, 57.136.2. Scaled by author. (Right) Half of the rubber mold to cast my free copy in wax.">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE. The back of a bronze cast of a robed figure, next to an impression of that figure left in a wax block.
 |
-| CAPTION: **Figure 4.** (Left) Scaled image of Antonio Susini's, *Saint Matthew* (possibly after a model by Giambologna), 1596, bronze, 27 x14 x 8.9cm. (Right) Half of the rubber mold to cast my free copy in wax.
+| CAPTION: **Figure 4.** (Left) Antonio Susini (model and cast, possibly after a model by Giambologna), *Saint Matthew,* 1596, bronze. Metropolitan Museum of Art, New York, Purchase, Joseph Pulitzer Bequest, 1957, 57.136.2. Scaled by author. (Right) Half of the rubber mold to cast my free copy in wax.
 |
 | ATTRIBUTION: Metropolitan Museum of Art, and courtesy of author.
 #-----------------------------------------------------------------------------------
@@ -108,11 +106,15 @@ Preparing the wax to be cast requires focus of another kind. Maintaining the str
 {{< figure src="images/fig5-torso-cast.jpg" alt="Two side-by-side photos: one of material crumbling away from a sculpture, and another of that sculpture beind held in a hand." caption="**Figure 5.** (Left) My cast of an antique torso mid-removal from its investment. (Right) Same cast illustrating the vents, sprues, and cup (once wax, now bronze)." attr="Courtesy of author.">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
-| FIGURE. Two side-by-side photos: one of material crumbling away from a sculpture, and another of that sculpture beind held in a hand.
+| FIGURE. Two side-by-side photos: one of material crumbling away from a sculpture, 
+| and another of that sculpture beind held in a hand.
 |
-| CAPTION: **Figure 5.** (Left) My cast of an antique torso mid-removal from its investment. (Right) Same cast illustrating the vents, sprues, and cup (once wax, now bronze).
+| CAPTION: **Figure 5.** (Left) My cast of an antique torso mid-removal from its 
+| investment. (Right) Same cast illustrating the vents, sprues, and cup (once wax, 
+| now bronze).
 |
-| ATTRIBUTION: Courtesy of author.
+| ATTRIBUTION: Courtesy of author. Work produced through coursework at the 
+| Philadelphia Academy of Fine Arts.
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
