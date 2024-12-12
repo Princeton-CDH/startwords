@@ -120,18 +120,17 @@ Adjudicating the duplicate student entries proved to be one of the most exciting
 
 Liberian student Fatima Massaquoi, who first appears in HBCU catalogs in 1936, for example, attended two Tennessee HBCUs---Lane College and Fisk University---and thus has two sets of index cards. Fatima was not the first in her family to study at an HBCU. Her father, Momolu Massaquoi, attended the Christian Methodist Episcopal Church's Central Tennessee College (later called Walden University) in 1888. Unlike some African students whose travels were sponsored by their home governments, US immigration port records show that the Massaquoi family was able to self-fund Fatima's journey to the US. Fatima began her US education at Lane, which was then led by a former classmate of her father's. After completing her studies at Lane, Fatima decided she wanted to pursue graduate work in sociology. Unfortunately, Lane did not have such a program at the time, so she enrolled at Fisk. Fatima, like many other students, began her studies at an institution where she had relational connections and later continued her studies at institutions that were better suited for her academic interests. Although Bond hoped to highlight the contribution of HBCUs to African students' educational formation, my study of Fatima's record suggests that African students also played a pivotal role in "shaping the nature, meaning and scope of their mobility" by attending multiple institutions.[^13] As one of the relatively few African women who studied in the US during the twentieth century, Fatima's presence in archival records also invites scholars to consider the role of gender in mediating the migratory experiences of African students.[^14]
 
-{{< figure src="images/fig6-mdodona.png" alt="Two documents side by side, a registration card and a typewritten index card." caption="**Figure 6.** (Left) One of David Mdodana’s index cards. (Right) Harry Maponyane's World War I Draft Registration Card." attr="Ancestry.com, World War I Draft Registration Cards, 1917—1918. Horace Mann Bond Papers, Robert S. Cox Special Collections and University Archives Research Center, UMass Amherst Libraries.">}}
+{{< figure src="images/fig6-mdodona.png" alt="Two documents side by side, a registration card and a typewritten index card." caption="**Figure 6.** (Left) David Mdodana’s World War I Draft Registration Card. Ancestry.com, World War I Draft Registration Cards, 1917—1918. (Right) One of David Mdodana’s index cards. Horace Mann Bond Papers, Robert S. Cox Special Collections and University Archives Research Center, UMass Amherst Libraries.">}}
 {{< wrap class="txt-only" >}}
 #-----------------------------------------------------------------------------------
 | FIGURE. Two documents side by side, a registration card and a typewritten index 
 | card.
 |
-| CAPTION: **Figure 6.** (Left) One of David Mdodana’s index cards. (Right) Harry 
-| Maponyane World War I Draft Registration Card.
+| CAPTION: **Figure 6.** (Left) David Mdodana’s World War I Draft Registration Card. 
+| Ancestry.com, World War I Draft Registration Cards, 1917—1918. (Right) One of 
+| David Mdodana’s index cards. Horace Mann Bond Papers, Robert S. Cox Special 
+| Collections and University Archives Research Center, UMass Amherst Libraries.
 |
-| ATTRIBUTION: (Left) Ancestry.com. U.S., World War I Draft Registration Cards, 
-| 1917-1918. (Right) Horace Mann Bond Papers, Robert S. Cox Special Collections and 
-| University Archives Research Center, UMass Amherst Libraries.
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
@@ -145,7 +144,9 @@ Sorting through duplicates thus became one way to dive deeper into the lives of 
 
 While preparing my data for mapping, I started to pay closer attention to where students came from. Given the temporal range of Bond's study, covering the period of 1848--1960, the names of some of the students' home countries changed over time. For example, students hailing from the "Gold Coast" gave way to students coming from "Ghana" when the country gained both independence and a new name in 1957. Moreover, the names of territories listed in the data such as "Congo Free State" (Democratic Republic of the Congo), Southern Rhodesia (Zimbabwe), Northern Rhodesia (Zambia), Tanganyika (Tanzania), and Nyasaland (Malawi), which are not found on present-day maps, also reflect Africa's colonial history. Moving from transcription to mapping revealed that the search for African "origins," even when equipped with geographic data, remains a contested endeavor.
 
-Reorganizing the data in this way also raised several questions that I hope to explore in my future research: Did the ebb and flow of various African independence movements influence how and whether African students articulated national identities while living in the US? Although this question cannot be answered with the index card data alone, it comes into view when restructuring the data and considering the broader implications of Africa's shifting political landscape.
+{{<pullquote left `Mapping is not the end of our scholarly explorations, but, in many ways, the beginning.`>}}
+
+Reorganizing the data in this way also raised several questions that I hope to explore in my future research. For example: did the ebb and flow of various African independence movements influence how and whether African students articulated national identities while living in the US? Although this question cannot be answered with the index card data alone, it comes into view when restructuring the data and considering the broader implications of Africa's shifting political landscape.
 
 {{< figure src="images/fig7-map-hometown.png" alt="A map of Africa with purple dots along the western and southern coasts." caption="**Figure 7.** Hometowns of HBCU-educated African Students, 1848–1960." attr="Generated by the author using Palladio." max-width="350px">}}
 {{< wrap class="txt-only" >}}
@@ -158,7 +159,7 @@ Reorganizing the data in this way also raised several questions that I hope to e
 #-----------------------------------------------------------------------------------
 {{</ wrap >}}
 
-Mapping the trajectories of African students who studied at HBCUs reveals the scope and dynamic nature of African migration during the twentieth century. Stanford's data visualization platform, Palladio, proved especially helpful in this regard. From 1848--1960, the majority of the approximately 865 African students who attended HBCUs came from five countries: Liberia, Nigeria, South Africa, Sierra Leone, and Ghana.[^17] Although African students during the twentieth century also migrated to places like Britain, France, and the USSR for higher education, the US was also an attractive option for at least two reasons. First, students from Anglophone African contexts studied in the US because of linguistic similarities. Second, the significant number of students in Anglophone West Africa and South Africa can be traced to histories of US missionaries who forged connections with Africans and facilitated the migration of students from the late nineteenth century and into the twentieth.
+Mapping the trajectories of African students who studied at HBCUs reveals the scope and dynamic nature of African migration during the twentieth century. Stanford University's data visualization platform, Palladio, proved especially helpful in this regard. From 1848--1960, the majority of the approximately 865 African students who attended HBCUs came from five countries: Liberia, Nigeria, South Africa, Sierra Leone, and Ghana.[^17] Although African students during the twentieth century also migrated to places like Britain, France, and the USSR for higher education, the US was also an attractive option for at least two reasons. First, students from Anglophone African contexts studied in the US because of linguistic similarities. Second, the significant number of students in Anglophone West Africa and South Africa can be traced to histories of US missionaries who forged connections with Africans and facilitated the migration of students from the late nineteenth century and into the twentieth.
 
 {{< figure src="images/fig8-map-before-ww2.png" alt="A map of the Atlantic Ocean criss-crossed by purple lines joining the western and southern African coasts with the eastern U.S. coast." caption="**Figure 8.** Liberian and South African Student Migration before World War II." attr="Generated by the author using Palladio.">}}
 {{< wrap class="txt-only" >}}
