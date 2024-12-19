@@ -14,9 +14,10 @@ module.exports = {
         "/issues/",
         "/issues/1/",
         "/issues/1/data-beyond-vision/",
-        "/issues/4/",
-        "/issues/4/sonorous-medieval/",
-        "/issues/4/toward-deep-map/",
+        "/issues/5/",
+        "/issues/5/casting-in-reverse/",
+        "/issues/5/visualizing-african-student-mobility/",
+        "/issues/5/mapping-persian-literacy/",
         "/authors/",
         "/404.html"
     ]

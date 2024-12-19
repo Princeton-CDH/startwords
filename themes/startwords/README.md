@@ -8,7 +8,7 @@ The Startwords Hugo theme is designed for [a journal of the same name](https://s
 ## Features
 
 - Markdown footnotes ([^1]) are rendered both as **contextual notes**—a new design feature that allows for popup annotations to float above a referenced line—as well as endnotes at the bottom of an article's page. These contextual notes also allow for images to be included within the space of the note itself.
-- Multiple article output formats: articles are generated as .txt files using Hugo's `{{ .Plain }}` [page variable](https://gohugo.io/variables/page/) and as PDFs using [paged.js](https://pagedjs.org/)
+- Multiple article output formats: articles are generated as .txt files using Hugo's `{{ .Plain }}` [page variable](https://gohugo.io/variables/page/) and as PDFs using [DocRaptor](https://docraptor.com/)
 - Article DOIs (registered with [Zenodo](zenodo.org/)) are specified in each article's YAML header, so that article metadata can be easily harvested by [Zotero](https://www.zotero.org/) citation management software.
 - Article illustration capabilities are built in using deep-zoom view of [IIIF](https://iiif.io/) images and [Sketchfab](https://sketchfab.com/) for embedding 3D models.
 - Excerpts of the current issue's opening lines are generated on the homepage using Hugo's [content summary divider](https://gohugo.io/content-management/summaries/), either with a `<!--more-->` tag after an article's opening sentence, or by populating a `summary:` field in the article's YAML header.
@@ -137,12 +137,15 @@ Example use:
 
 When pages using this shortcode are rendered as a PDF, the interactive viewer will be replaced by the static image specified in the `pdf-img` attribute, if one was provided. The image will be displayed using the same styles as a figure (see below), with the automatically added caption `The online version of this essay includes an interactive 3D viewer displaying a model of this object.`.
 
+The sketchfab shortcode supports an optional `caption` attribute; the caption may include markdown formatting.
+
 #### parameters
 
 - `id`, ID of the SketchFab object to be embedded; can be found in the URL to view the object.
 - `alt`, text used by assistive technology to describe the content of the viewer.
 - `pdf-img`, optional: URL to a static image that will be used in place of the viewer in the PDF version of the article.
 - `pdf-alt`, optional: text used by assistive technology to describe the image specified by `pdf-img`. required if `pdf-img` is specified.
+- `caption`, optional: figure caption used on the web version of the article that will appear beneath the embedded SketchFab object.
 
 [view source](layouts/shortcodes/sketchfab.html)
 
@@ -308,31 +311,25 @@ authors:
 
 ## Generating PDFs
 
-PDF versions of feature articles should be created with [paged.js](https://pagedjs.org/) from the production site so that URLs are correct.
+PDF versions of feature articles should be created with [DocRaptor](https://docraptor.com/) from the production site so that URLs are correct.
 
-Install paged.js command-line interface:
-```
-npm install -g pagedjs-cli pagedjs
-```
+First, install python dependencies: `pip install docraptor bs4 requests`. Next, create a DocRaptor account and get an API key. Your API key can be found on your [account dashboard](https://docraptor.com/login). 
 
-Generate a PDF:
-```
-pagedjs-cli https://startwords.cdh.princeton.edu/issues/1/their-data-ourselves/ -o startwords-1-their-data-ourselves.pdf
-```
+Download our Python script for generating PDFs at https://github.com/Princeton-CDH/startwords/blob/develop/scripts/create_pdf.py
+
+Run that script with the following code:
+
+`env DOCRAPTOR_API_KEY=foo python create_pdf.py https://startwords.cdh.princeton.edu/issues/3/llm-limit-case/ -o startwords-3-llm-limit-case.pdf`
+
+Let's break down that command above: You'll set your API key as the environment variable, replacing the text "foo." You'll also enter the URL you want to export as a PDF (in this case `https://startwords.cdh.princeton.edu/issues/3/llm-limit-case/`) and add a filename for your finished PDF (`startwords-3-llm-limit-case.pdf`).
+
+The DocRaptor API allows unlimited test PDFs, which are watermarked; creating a test PDF is the default behavior for this script. When you are ready to create a final PDF, use the `--no-test` flag to turn test mode off.
 
 ### Generating PDFs for publication
 
-Build the site with the `pre-production` environment enabled (links to the official Startwords site instead of local development site):
-```
-hugo --environment pre-production
-```
+To generate PDFs for all the feature articles in one Startwords issue, use the `--issue` flag and run with the issue url, e.g., `create_pdf.py https://startwords.cdh.princeton.edu/issues/3/mapping-latent-spaces/ --issue`, including your API key as described above.
 
-Serve out the built static site so that you can access it locally, e.g. using python:
-```
-python3 -m http.server --directory public
-```
-
-Review the site locally and then generate PDFs as documented.
+PDFs will be named according to current Startwords PDF naming conventions.
 
 ## Customizing shape of preview text for article hook on issue list and home page
 
