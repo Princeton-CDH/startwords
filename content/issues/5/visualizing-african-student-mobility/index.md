@@ -5,10 +5,9 @@ slug: visualizing-african-student-mobility
 order: 2
 authors:
   - AkanoKim
-date: 2024-09-30 # Change me
+date: 2024-12-18
 images: ["issues/5/visualizing-african-student-mobility/images/social-media-preview.png"]
 summary: What can bundles of worn index cards tell us about twentieth-century African migration to the United States?
-# tags: [DataBeyondVision, HowTo, ... etc]
 doi: 10.70400/QLLR8107
 pdf: https://drive.google.com/file/d/1RF4Fy-elhzpogceclhrbDHGpTN4iAPnB/view?usp=sharing
 hook_height_override: 177
