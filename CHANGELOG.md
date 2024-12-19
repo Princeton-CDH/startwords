@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## Issue 5
+
+- Caption functionality added for deepzoom and sketchfab shortcodes
+- New instructions for using Docraptor to produce PDFs
+- New acknowledgements functionality with dedicated formatting
+- DOIs now minted by Princeton University Libraries using CrossRef
+- Embedded tweets from Twitter accounts no longer active now replaced with plain text
+- Hugo was not updated; TODO for next issue
+
 ## Issue 4
 
 - Typeface and type styles for Chinese characters (Noto TC and Noto Sans TC)
